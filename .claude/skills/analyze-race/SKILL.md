@@ -120,18 +120,20 @@ return { research, paceModel }
 `pace-synthesis.md` に従い（STEP3 の PaceSynthesis が未実施なら）メイン文脈で、全証拠から
 **複数の展開パターン**（確率・発動トリガー・脚質別有利不利・隊列・反証条件）を構築する。これが **展開予想**。
 
-### STEP 4b. 着順合成（成果物2 / scoring-model v3.0）
+### STEP 4b. 着順合成（成果物2 / scoring-model v4.0・相変位再帰）
 
-`scoring-model.md` の計算式に厳密に従い、各馬について：
-1. 観点評価 → base（潜在能力）→ apt（適性=D）→ cond（状態）→ discount（割引）
-2. ペース中立の素の力 `ability0 = base*apt*cond - discount`（§6）
-3. **各展開パターンで条件づけ** `ability_i,p = ability0_i * pace_fit`（§7、パターンの leg_advantage/per_horse_fit を使用）
-4. パターンごとに softmax(T) → 条件付き勝率 `p_i,p`、**パターン確率で加重**して `p_i`（§8）
-5. Harville で着順分布（連対率・複勝率・期待着順）（§9）。**各パターンの条件付き着順も保持**
-6. 偶然 = パターン間ばらつき＋確信度から勝率レンジ（§10）
+**着順は手計算せず `tools/score_race.py` で決定論的に出す**（3相再帰＝シグモイド・エネルギー減衰・Harville は手計算で揺れるため）。手順：
 
-> **市場・妙味・EV・Kelly・買い目は無い**（馬券は人間判断）。出力は展開と着順の予測のみ。
-計算過程の要点を残し、確信度が低い観点の影響を明示する。
+1. 各馬の観点評価 `scores{A..K}` ＋確信度 `conf` を確定（STEP4a までの研究結果から）。スクレイパ seed の `ten_speed`/`style`/`agari_best`/`recent[]` を各馬に添える。
+2. STEP4a の展開パターンに各 `pace_level`(0..1) と `contesters` を付す（`scoring-model.md §7` のラベル写像）。
+3. 入力 JSON（`{race_id, horses:[{no,name,ten_speed,style,agari_best,recent,scores,conf,draw_adj}], patterns:[{id,prob,pace_level,contesters}]}`）を組み、
+   `python3 tools/score_race.py --in race.json --json`（＋`--self-check`）を実行。
+4. 出力の `phase_abilities`（A_early/cruise/finish/class）・`win_prob`(加重)・`place_prob`・`predicted_rank`・`win_range`・`conditional[]`（pattern別 win/pos/energy/S）を
+   **§3 着順表と predictions.jsonl `rank` レコードへ逐語転記**する。`patterns_derived` の派生 leg_advantage/formation は展開の整合チェックに使う。
+
+> モデル式の正本は `scoring-model.md v4.0`（相別能力§2 → 3相再帰§6 → softmax§7 → Harville§9 → σ§10）。
+> コードの `PARAMS` と早見表は同値。**市場・妙味・EV・Kelly・買い目は無い**（馬券は人間判断）。
+計算過程の要点（pace_level の根拠・相別能力の高低）を残し、確信度が低い観点の影響を明示する。
 
 ### STEP 5. 出力 & 2系統ログ
 

@@ -49,6 +49,8 @@
       "prob": 0.50,
       "trigger": "⑨が控え単騎④が緩めに逃げる",
       "first_600m": "35.0前後",
+      "pace_level": 0.45,
+      "contesters": [4],
       "leg_advantage": {"逃げ": 1, "先行": 1, "差し": -1, "追込": -2},
       "formation_head": [4, 9],
       "formation_last_corner": [4, 2, 9, 5],
@@ -61,13 +63,20 @@
 }
 ```
 
-- `formation_head`: 序盤の先頭2〜3頭（馬番）。netkeiba の通過順と照合可能な粒度。
-- `formation_last_corner`: 最終コーナーの前方隊列（馬番、前→後）。
-- `leg_advantage` と `formation_*` が **ラップが取れなくても着順・通過順から検証できる**指標。
+- `pace_level` (0..1): **v4.0 で必須**。スコアラーの3相再帰へ渡すペース水準。ラベルから決める：
+  `超スロー 0.1 / スロー 0.25 / 平均 0.5 / やや速 0.65 / ハイ 0.85 + 0.15*(先行争い当事者数 - 1)`（clip 0..1）。`first_600m` があれば整合させる。
+- `contesters`: ハナ〜番手を争う馬番リスト（E の先行争い当事者）。`pace_level` の当事者数項と、非先行馬の位置抑制に使う。
+- `formation_head`: 序盤の先頭2〜3頭（馬番）。netkeiba の通過順と照合可能な粒度。**著作値が正本**。空なら `score_race.py` が序盤後 pos から逆生成して埋める。
+- `formation_last_corner`: 最終コーナーの前方隊列（馬番、前→後）。同上、著作優先・無ければ engine 逆生成。
+- `leg_advantage` と `formation_*` が **ラップが取れなくても着順・通過順から検証できる**指標（検証軸の正本）。
 
-## STEP4b への受け渡し
+## STEP4b への受け渡し（v4.0）
 
-- scoring-model §7 が `patterns[].leg_advantage` / `per_horse_fit` を `pace_fit` に変換し、各パターンで条件付き着順を出す。
+- scoring-model §6-7 が `patterns[].pace_level` と `contesters` を**3相再帰**へ渡し、相別能力（A_early/A_cruise/A_finish/A_class）を
+  状態 `{pos, energy}` で条件づけて各パターンの終端スコア→条件付き着順を出す（旧 v3.0 の `pace_fit`/`leg_advantage→係数` 変換は廃止）。
+- `leg_advantage`/`formation_*` は**展開検証の正本**として保持。`score_race.py` が返す**派生** leg_advantage/formation は整合チェック用で、
+  食い違えば STEP4a で解消する（二重の正本にしない）。
+- 計算は `tools/score_race.py` に入力 JSON（観点スコア＋このパターン群）を渡して実行。手計算しない。
 - §8-9 がパターン確率 `prob` で加重して最終着順、各パターンの条件付き着順 `p_i,p` も保持。
 
 ## 当日可変（SKILL STEP6 から呼ばれる）

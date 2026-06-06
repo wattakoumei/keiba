@@ -10,7 +10,8 @@
 
 # 🏇 <レース名>（<日付> <競馬場> <距離> <馬場状態>）分析
 
-**モデル: scoring-model v<X.Y>** ／ 使用観点: <10 / 7 / 5>観点 ／ 出走 <N>頭
+**モデル: scoring-model v4.0（相変位再帰）** ／ 使用観点: <10 / 7 / 5>観点 ／ 出走 <N>頭
+> 着順は `tools/score_race.py`（決定論）で算出。観点スコア＋展開パターンを JSON で渡し、出力を §3 とログへ逐語転記する（手計算しない）。
 
 ## 1. サマリ（結論）
 
@@ -99,16 +100,17 @@
 > **検証契約**: 加重後の着順分布（1着率・複勝率・予想着順）と**各パターンの条件付き着順**を出す。
 > レース後に実着順と照合し、(a)加重着順の精度＝総合、(b)実現したパターンの条件付き着順の精度＝**純粋な能力読み**、を別個に採点。
 
-| 印 | 馬番 | 馬名 | 騎手(乗替) | 発揮能力 | 1着率(加重) | 勝率レンジ | 複勝率 | 期待着順 | α条件付 | β条件付 | 展開感度 | 好材料 | 懸念 |
-|----|------|------|------------|---------:|-----------:|------------|-------:|---------:|--------:|--------:|----------|--------|------|
-| ◎ | 5 | 〇〇 | 戸崎圭(強化) | 92 | 24% | 16–33% | 58% | 2.8 | 16% | 34% | β(ハイ)で激走 | 指数最上位 | 休み明け |
-| ◯ | 4 | △△ | 川田(継続) | 88 | 22% | 14–30% | 53% | 3.0 | 30% | 11% | α(前残り)で粘る | 先行力 | ハイで沈む |
+| 印 | 馬番 | 馬名 | 騎手(乗替) | 相別能力 e/cr/f/cl | 1着率(加重) | 勝率レンジ | 複勝率 | 期待着順 | α条件付 | β条件付 | 展開感度 | 好材料 | 懸念 |
+|----|------|------|------------|:------------------:|-----------:|------------|-------:|---------:|--------:|--------:|----------|--------|------|
+| ◎ | 5 | 〇〇 | 戸崎圭(強化) | .15/.56/.80/.89 | 24% | 16–33% | 58% | 2.8 | 16% | 34% | β(ハイ)で激走 | 上がり最速 | 休み明け |
+| ◯ | 4 | △△ | 川田(継続) | .95/.56/.70/.84 | 22% | 14–30% | 53% | 3.0 | 30% | 11% | α(前残り)で粘る | 単騎逃げ | ハイで沈む |
 | … |
 
-- **発揮能力**: §6 ability0（ペース中立の素の力）。
-- **1着率(加重)**: §8 のパターン加重後。**α条件付/β条件付**: そのパターンが起きた場合の条件付き1着率（§8 `p_i,p`）。
+- **相別能力 e/cr/f/cl**: §2 の A_early/A_cruise/A_finish/A_class（各0..1）。`score_race.py` の `phase_abilities` 出力をそのまま。
+- **1着率(加重)**: §8 のパターン加重後。**α条件付/β条件付**: そのパターンが起きた場合の条件付き1着率（§7 `p_i,p`）。
 - **勝率レンジ**: §10（パターン間ばらつき主因）。広い＝展開待ち。
-- **展開感度**: どのパターンで強い/弱いか。`—` は展開非依存。
+- **期待着順**: §9 の `E[rank]`（Bradley-Terry 近似）。
+- **展開感度**: どのパターンで強い/弱いか（条件付きの pos/energy/S 差）。`—` は展開非依存。
 - **騎手(乗替)列**: 鞍上名＋観点Kの乗り替わり区分（強化/弱化/継続/テン乗り、減量▲△☆、不明は`(乗替不明)`）。
 
 ## 4. 観点別ハイライト（根拠）
@@ -134,27 +136,35 @@
 
 レポート出力後、**2種類のレコード**を追記する。
 
-**(1) 展開予想レコード（1レース1行・`record:"pace"`）**
+**(1) 展開予想レコード（1レース1行・`record:"pace"`）** — v4.0 で各パターンに `pace_level` を追加
 ```json
-{"record":"pace","race_id":"20260531-tokyo-11","race_name":"...","date":"2026-05-31","model_version":"3.0",
+{"record":"pace","race_id":"20260531-tokyo-11","race_name":"...","date":"2026-05-31","model_version":"4.0",
  "patterns":[
-   {"id":"α","name":"平均・前残り","prob":0.50,"trigger":"⑨が控える","leg_advantage":{"逃げ":1,"先行":1,"差し":-1,"追込":-2},"formation_head":[4,9],"formation_last_corner":[4,2,9,5],"bias":"前/内有利"},
-   {"id":"β","name":"ハイ・差し台頭","prob":0.35,"trigger":"⑨がハナ主張","leg_advantage":{"逃げ":-2,"先行":-1,"差し":1,"追込":1},"formation_head":[9,4],"formation_last_corner":[5,10,2,4],"bias":"外差し台頭"}],
+   {"id":"α","name":"平均・前残り","prob":0.50,"trigger":"⑨が控える","pace_level":0.45,"contesters":[4],"leg_advantage":{"逃げ":1,"先行":1,"差し":-1,"追込":-2},"formation_head":[4,9],"formation_last_corner":[4,2,9,5],"bias":"前/内有利"},
+   {"id":"β","name":"ハイ・差し台頭","prob":0.35,"trigger":"⑨がハナ主張","pace_level":0.85,"contesters":[9,4],"leg_advantage":{"逃げ":-2,"先行":-1,"差し":1,"追込":1},"formation_head":[9,4],"formation_last_corner":[5,10,2,4],"bias":"外差し台頭"}],
  "falsification":"⑨がハナ主張すれば β を 0.35→0.6 へ","note":""}
 ```
 
-**(2) 着順予想レコード（1馬1行・`record:"rank"`）**
+**(2) 着順予想レコード（1馬1行・`record:"rank"`）** — v4.0 で `phase_abilities` と conditional の `pos/energy/S` を追加（既存キーは不変）
 ```json
-{"record":"rank","race_id":"20260531-tokyo-11","date":"2026-05-31","model_version":"3.0","horse_no":5,"horse":"〇〇",
- "win_prob":0.24,"place_prob":0.58,"quinella_prob":0.41,"predicted_rank":2.8,"win_range":[0.16,0.33],
- "pace_sensitivity":"β(ハイ)で激走","conditional":[{"pattern_id":"α","win_prob":0.16},{"pattern_id":"β","win_prob":0.34}]}
+{"record":"rank","race_id":"20260531-tokyo-11","date":"2026-05-31","model_version":"4.0","horse_no":5,"horse":"〇〇",
+ "phase_abilities":{"early":0.15,"cruise":0.56,"finish":0.80,"class":0.89},
+ "win_prob":0.24,"place_prob":0.58,"predicted_rank":2.8,"win_range":[0.16,0.33],
+ "pace_sensitivity":"β(ハイ)で激走","conditional":[{"pattern_id":"α","win_prob":0.16,"pos":0.42,"energy":0.88,"S":0.91},{"pattern_id":"β","win_prob":0.34,"pos":0.50,"energy":0.72,"S":1.05}]}
 ```
+> これらは `score_race.py --json` の出力をそのまま転記する（手で詰めない）。`phase_abilities`/`pos`/`energy`/`S` は**新規任意フィールド**で、
+> 旧 v1.x/v3.0 行（無し）はそのまま読める（後方互換）。
 
-| 旧 (v1.x/v2.0) | v3.0 |
-|-----------------|------|
-| `my_prob` | `win_prob` |
-| `market_prob` / `edge` / `ev_win` / `bet_types` / `stake_pct` | **廃止（市場・馬券は持たない）** |
-| `expected.pace_scenarios` | `record:"pace"` の `patterns` ＋ rank の `conditional` |
+| 旧 (v1.x/v2.0) | v3.0 | v4.0 |
+|-----------------|------|------|
+| `my_prob` | `win_prob` | `win_prob`（不変） |
+| `market_prob` / `edge` / `ev_win` / `bet_types` / `stake_pct` | **廃止（市場・馬券は持たない）** | 同左 |
+| `expected.pace_scenarios` | `record:"pace"` の `patterns` ＋ rank の `conditional` | 同左＋`patterns[].pace_level` |
+| 発揮能力 `ability0`（単一） | 同左 | **相別能力**4値 `phase_abilities{early,cruise,finish,class}` |
+| 展開係数 `pace_fit`（±15%） | 同左 | **廃止**（3相再帰の `pos/energy` が代替、conditional に併記） |
+
+> v4.0 は既存キーを改名・削除しない。`phase_abilities`・`pace_level`・conditional の `pos/energy/S` は**新規任意**。
+> v1.x/v3.0 の行はそのまま有効（履歴スコアカードを壊さない）。
 
 展開予想の全体（脚質分類表・パターン・隊列・反証条件）は `report.md` の §2 に保存され、
 これが `/review-prediction` の展開スコアカード・A/B/C 仕分けの照合元になる。
