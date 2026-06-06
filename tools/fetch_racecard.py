@@ -51,13 +51,16 @@ PATTERNS = {
     "mark_select": re.compile(
         r'<select class="user_mark" name="([^"]+)"[^>]*data-umano="([^"]*)"[^>]*data-wakno="([^"]*)"'),
     "title": re.compile(r'<title>([^<]*)</title>'),
-    # day ページ: raceNum セル = rCorner(turf|dirt) + /db/race/<id>/ + R番号 + 直後の発走時刻
-    "day_racenum": re.compile(
-        r'rCorner[^"]*\b(turf|dirt)\b[^>]*>\s*<a href="/db/race/(\d+)/">(\d+)R</a>'
-        r'.*?<span class="std11">(\d{1,2}:\d{2})</span>', re.S),
-    # day ページ: レース名（itemprop="url"）と 距離・頭数（芝1600m&nbsp;17頭）
-    "day_name": re.compile(r'href="/db/race/(\d+)/" itemprop="url">([^<]+)</a>'),
-    "day_dist": re.compile(r'(芝|ダ)(\d{3,4})m(?:&nbsp;|\s)*(\d+)頭'),
+    # day ページ: 1レース=1<tr>行を“行単位”でまとめて取る（位置zipしない＝障害戦が混じってもズレない）。
+    # 行内の並び: rCorner(種別) → /db/race/<id>/ + R番号 → 発走時刻span → レース名(itemprop) → 距離span(芝|ダ|障 + m + 頭)
+    # ★旧実装はレース名リストと距離リストを別取り→位置zipしており、障害戦の「障Nm」を距離正規表現(芝|ダのみ)が
+    #   拾えず1件欠けると、以降の全レースが“次のレースの距離・頭数”を受け取る off-by-one を起こした。
+    "day_row": re.compile(
+        r'rCorner[^"]*\b(?:turf|dirt|failure)\b[^>]*>\s*'
+        r'<a href="/db/race/(\d+)/">(\d+)R</a></div>\s*'
+        r'<span class="std11[^"]*">(\d{1,2}:\d{2})</span>'   # 発走時刻span（bgRedL等の追加クラス許容）
+        r'.*?itemprop="url">([^<]+)</a>'
+        r'.*?<span class="std11[^"]*">(芝|ダ|障)(\d{3,4})m(?:&nbsp;|\s)*(\d+)頭</span>', re.S),
     # --- JRA出馬表（Shift_JIS・POST連鎖。スパイン＋通過順=精密脚質を1ページで取る） ---
     # ★市場ゼロ: このビューは単勝オッズ・人気を含む → jra_strip_odds で物理除去し、以降一切触れない
     "jra_strip_odds": re.compile(r'<div class="odds">.*?</div>\s*</div>', re.S),    # オッズ塊を丸ごと削除
@@ -74,6 +77,8 @@ PATTERNS = {
     "jra_corner": re.compile(r'通過順位">(\d+)</li>'),                                # コーナー通過順位
     "jra_field": re.compile(r'class="max">(\d+)<span>頭'),                           # その近走の頭数
     "jra_agari": re.compile(r'3F\s*([\d.]+)'),                                        # 上がり3F
+    # JRA出馬表のレース条件: race_title 内 <td class="dist">ダート1,800<span>メートル</span>（権威ソース）
+    "jra_dist": re.compile(r'class="dist">(ダート|芝|障害)([\d,]+)<span>(?:メートル|ｍ)'),
 }
 TIMEOUT = 30
 PLACE = {"01": "札幌", "02": "函館", "03": "福島", "04": "新潟", "05": "東京",
@@ -139,29 +144,23 @@ def parse_race(h):
 
 
 def parse_day(h, place):
-    """day 一覧HTML → その競馬場の全レース [{r,post_time,surface,distance,headcount,race_name}]。"""
-    names, dists = {}, {}
-    for rid, nm in PATTERNS["day_name"].findall(h):
-        names.setdefault(rid, html.unescape(nm).strip())
-    # 距離・頭数は raceNum セル直後に来るので、レース名の出現順に対応づける
-    name_ids = [rid for rid, _ in PATTERNS["day_name"].findall(h)]
-    dist_hits = PATTERNS["day_dist"].findall(h)
-    for rid, (surf, dist, head) in zip(name_ids, dist_hits):
-        dists[rid] = (surf, int(dist), int(head))
+    """day 一覧HTML → その競馬場の全レース [{r,post_time,surface,distance,headcount,race_name}]。
+    各レースを1つの<tr>行ブロックからまとめて取り出す（コース・距離・頭数・発走・レース名を
+    “行単位”で対応づける）ので、障害戦など一部行のフィールド形が違っても位置ズレしない。"""
+    surf_map = {"芝": "芝", "ダ": "ダ", "障": "障"}
     races = []
-    for surface_cls, rid, rno, post in PATTERNS["day_racenum"].findall(h):
+    for rid, rno, post, name, surf, dist, head in PATTERNS["day_row"].findall(h):
         if rid[8:10] != place:
             continue
-        surf, dist, head = dists.get(rid, (None, None, None))
         races.append({
             "race_id": rid,
             "r": int(rno),
             "post_time": post,
-            "surface": "芝" if surface_cls == "turf" else "ダ",
-            "distance": dist,
-            "headcount": head,
+            "surface": surf_map.get(surf, surf),
+            "distance": int(dist),
+            "headcount": int(head),
             "turn": None,                      # 内/外回りは day 一覧に無い（race条件側で補う）
-            "race_name": names.get(rid),
+            "race_name": html.unescape(name).strip(),
         })
     races.sort(key=lambda x: x["r"])
     return races
@@ -257,15 +256,28 @@ def parse_jra_full(h):
     return horses
 
 
+def parse_jra_cond(h):
+    """JRA出馬表HTML → レース条件(コース種別・距離)。距離は権威ソース（race_title の dist セル）。
+    頭数は出走馬数から別途数える（このセルには無い）。取れなければ None。"""
+    m = PATTERNS["jra_dist"].search(h)
+    if not m:
+        return {"surface": None, "distance": None}
+    surf = {"ダート": "ダ", "芝": "芝", "障害": "障"}.get(m.group(1), m.group(1))
+    return {"surface": surf, "distance": int(m.group(2).replace(",", ""))}
+
+
 def jra_fetch_race(date, place, rno):
-    """JRA出馬表を取得して全馬スパイン＋通過順を返す。失敗は例外。"""
+    """JRA出馬表を取得して (全馬スパイン＋通過順, レース条件) を返す。失敗は例外。"""
     toks = jra_race_tokens(date, place)
     if rno not in toks:
         raise ValueError(f"JRA: {date} 場{place} に {int(rno)}R が無い")
-    horses = parse_jra_full(jra_post(toks[rno]))
+    h = jra_post(toks[rno])
+    horses = parse_jra_full(h)
     if not horses:
         raise ValueError(f"JRA: {date} 場{place} {int(rno)}R の出馬表をパースできず")
-    return horses
+    cond = parse_jra_cond(h)
+    cond["headcount"] = len(horses)
+    return horses, cond
 
 
 def self_check(data):
@@ -278,14 +290,16 @@ def self_check(data):
             assert len(hh.get("style_bars", {})) == 4, f"脚質バーが4本でない: {hh['name']}"
     elif data.get("source") == "jra":           # 通過順がどの馬かに付いている（全馬未取得=構造変化の疑い）
         assert any(h.get("style") for h in data["horses"]), "JRA通過順が1頭も取れず（構造変化の疑い）"
+        assert data.get("distance"), "JRA距離が取れず（race_title の dist セル構造変化の疑い）"
 
 
 def cmd_race(rid, as_json, do_check):
     """JRA優先で出馬表を取得。JRAが今週外/障害なら競馬ラボにフォールバック。"""
     date, place, rno = rid[:8], rid[8:10], rid[10:12]
-    try:                                        # ① JRA（公式・完全・スパイン＋通過順を1ページ）
-        horses = jra_fetch_race(date, place, rno)
+    try:                                        # ① JRA（公式・完全・スパイン＋通過順＋距離を1ページ）
+        horses, cond = jra_fetch_race(date, place, rno)
         data = {"race_id": rid, "source": "jra", "n": len(horses),
+                "surface": cond["surface"], "distance": cond["distance"], "headcount": cond["headcount"],
                 "draw_fixed": any(h["waku"] for h in horses), "horses": horses}
     except Exception as e:                       # ② 競馬ラボ（任意日付OK・過去/未来週やJRA障害時）
         url = f"https://www.keibalab.jp/db/race/{rid}/"
@@ -293,16 +307,37 @@ def cmd_race(rid, as_json, do_check):
         data["race_id"], data["url"], data["source"], data["jra_failed"] = rid, url, "keibalab", str(e)
         if data["n"] == 0:
             raise ValueError(f"出走馬0頭（JRA: {e} ／ 競馬ラボも race_id={rid} 不正/未掲載）")
+        try:                                     # 競馬ラボ race ページは距離を持たない → day 一覧(行単位)から補完
+            drow = [r for r in parse_day(fetch(f"https://www.keibalab.jp/db/race/{date}/"), place)
+                    if r["r"] == int(rno)]
+            if drow:
+                data["surface"], data["distance"], data["headcount"] = (
+                    drow[0]["surface"], drow[0]["distance"], drow[0]["headcount"])
+        except Exception:
+            pass
+    # 距離は最重要かつ取り違えやすい → JRA(権威) と 競馬ラボ(day一覧) を突き合わせて食い違いを警告
+    if data.get("source") == "jra" and data.get("distance"):
+        try:
+            drow = [r for r in parse_day(fetch(f"https://www.keibalab.jp/db/race/{date}/"), place)
+                    if r["r"] == int(rno)]
+            if drow and drow[0]["distance"] != data["distance"]:
+                data["dist_mismatch"] = (f"JRA={data['surface']}{data['distance']}m"
+                                         f" / 競馬ラボ={drow[0]['surface']}{drow[0]['distance']}m（JRA優先）")
+        except Exception:
+            pass
     if do_check:
         self_check(data)
     if as_json:
         print(json.dumps(data, ensure_ascii=False, indent=2))
         return
     title = data.get("title") or f"{date} {PLACE.get(place, place)}{int(rno)}R"
-    print(f"# {title}  [source={data['source']}]")
+    cond = f"  {data.get('surface') or ''}{data['distance']}m" if data.get("distance") else ""
+    print(f"# {title}{cond}  [source={data['source']}]")
     if data.get("jra_failed"):
         print(f"  ※JRA不可→競馬ラボにフォールバック: {data['jra_failed']}")
-    print(f"  race_id={rid}  頭数={data['n']}  枠順={'確定' if data['draw_fixed'] else '未確定'}")
+    if data.get("dist_mismatch"):
+        print(f"  ⚠ 距離が食い違っています: {data['dist_mismatch']}")
+    print(f"  race_id={rid}  頭数={data.get('headcount') or data['n']}  枠順={'確定' if data['draw_fixed'] else '未確定'}")
     leaders = [h["name"] for h in data["horses"] if (h.get("style") or "") and ("逃" in h["style"] or "先" in h["style"])]
     print(f"  ハナ・先行候補: {', '.join(leaders) or '不明'}")
     for h in data["horses"]:
@@ -338,11 +373,15 @@ def cmd_jra(date, place, race_no, as_json):
     if not race_no:
         print(json.dumps({"date": date, "place": place, "tokens": toks}, ensure_ascii=False, indent=2)); return
     rno = race_no.zfill(2)
-    horses = parse_jra_full(jra_post(toks[rno]))
+    h = jra_post(toks[rno])
+    horses = parse_jra_full(h)
+    cond = parse_jra_cond(h)
     if as_json:
         print(json.dumps({"date": date, "place": place, "r": int(rno), "source": "jra",
+                          "surface": cond["surface"], "distance": cond["distance"],
                           "n": len(horses), "horses": horses}, ensure_ascii=False, indent=2)); return
-    print(f"# {date} {PLACE.get(place, place)}{int(rno)}R JRA出馬表（{len(horses)}頭）")
+    print(f"# {date} {PLACE.get(place, place)}{int(rno)}R JRA出馬表"
+          f"（{cond['surface'] or ''}{cond['distance'] or '?'}m {len(horses)}頭）")
     for h in horses:
         head = f"{h['waku']}-{h['no']}" if h["no"] else "?-?"
         corners = " ".join(f"{r['first_corner']}/{r['field']}" for r in h["recent"])
