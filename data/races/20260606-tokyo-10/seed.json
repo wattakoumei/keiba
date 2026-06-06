@@ -1,0 +1,598 @@
+{
+  "race_id": "202606060510",
+  "source": "jra",
+  "n": 17,
+  "draw_fixed": true,
+  "horses": [
+    {
+      "no": 1,
+      "waku": 1,
+      "name": "サンタアニタ",
+      "sex_age": "牝4/栗",
+      "weight": "53.0",
+      "jockey": "斎藤 新",
+      "sire": "ナダル",
+      "damsire": "アドマイヤムーン",
+      "style": "逃",
+      "ten_speed": "中",
+      "agari_best": 34.2,
+      "recent": [
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 34.2
+        },
+        {
+          "first_corner": 12,
+          "field": 18,
+          "agari": 34.3
+        },
+        {
+          "first_corner": 2,
+          "field": 16,
+          "agari": 36.5
+        },
+        {
+          "first_corner": 9,
+          "field": 15,
+          "agari": 36.3
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "waku": 1,
+      "name": "ユキノエミリオ",
+      "sex_age": "牡4/鹿",
+      "weight": "53.0",
+      "jockey": "木幡 初也",
+      "sire": "ビッグアーサー",
+      "damsire": "ディープインパクト",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 34.3,
+      "recent": [
+        {
+          "first_corner": 17,
+          "field": 18,
+          "agari": 34.3
+        },
+        {
+          "first_corner": 11,
+          "field": 18,
+          "agari": 35.8
+        },
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 34.9
+        },
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 34.4
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "waku": 2,
+      "name": "クレオズニードル",
+      "sex_age": "牝4/黒鹿",
+      "weight": "52.0",
+      "jockey": "吉田 豊",
+      "sire": "ファインニードル",
+      "damsire": "Seeking the Gold",
+      "style": "逃",
+      "ten_speed": "速",
+      "agari_best": 34.3,
+      "recent": [
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 36.4
+        },
+        {
+          "first_corner": 1,
+          "field": 18,
+          "agari": 34.3
+        },
+        {
+          "first_corner": 5,
+          "field": 17,
+          "agari": 34.6
+        },
+        {
+          "first_corner": 1,
+          "field": 18,
+          "agari": 36.4
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "waku": 2,
+      "name": "クレパスキュラー",
+      "sex_age": "牡3/黒鹿",
+      "weight": "55.0",
+      "jockey": "C.ルメール",
+      "sire": "リオンディーズ",
+      "damsire": "ディープインパクト",
+      "style": "差",
+      "ten_speed": "遅",
+      "agari_best": 34.2,
+      "recent": [
+        {
+          "first_corner": 10,
+          "field": 16,
+          "agari": 35.7
+        },
+        {
+          "first_corner": 6,
+          "field": 12,
+          "agari": 34.2
+        },
+        {
+          "first_corner": 3,
+          "field": 7,
+          "agari": 35.2
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "waku": 3,
+      "name": "ラスティングスノー",
+      "sex_age": "牝3/栗",
+      "weight": "52.0",
+      "jockey": "横山 琉人",
+      "sire": "モズアスコット",
+      "damsire": "マンハッタンカフェ",
+      "style": "先",
+      "ten_speed": "速",
+      "agari_best": 34.8,
+      "recent": [
+        {
+          "first_corner": 2,
+          "field": 18,
+          "agari": 36.8
+        },
+        {
+          "first_corner": 4,
+          "field": 18,
+          "agari": 36.7
+        },
+        {
+          "first_corner": 1,
+          "field": 8,
+          "agari": 34.8
+        },
+        {
+          "first_corner": 1,
+          "field": 8,
+          "agari": 36.0
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "waku": 3,
+      "name": "ロジケープ",
+      "sex_age": "牡3/鹿",
+      "weight": "54.0",
+      "jockey": "丹内 祐次",
+      "sire": "ロジユニヴァース",
+      "damsire": "ハーツクライ",
+      "style": "先",
+      "ten_speed": "速",
+      "agari_best": 34.5,
+      "recent": [
+        {
+          "first_corner": 6,
+          "field": 16,
+          "agari": 34.5
+        },
+        {
+          "first_corner": 2,
+          "field": 15,
+          "agari": 34.7
+        },
+        {
+          "first_corner": 2,
+          "field": 18,
+          "agari": 34.7
+        },
+        {
+          "first_corner": 3,
+          "field": 18,
+          "agari": 35.2
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "waku": 4,
+      "name": "タイキエクセロン",
+      "sex_age": "牡7/黒鹿",
+      "weight": "54.0",
+      "jockey": "菊沢 一樹",
+      "sire": "アメリカンペイトリオット",
+      "damsire": "コマンズ",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 34.0,
+      "recent": [
+        {
+          "first_corner": 10,
+          "field": 11,
+          "agari": 34.4
+        },
+        {
+          "first_corner": 10,
+          "field": 11,
+          "agari": 34.0
+        },
+        {
+          "first_corner": 16,
+          "field": 16,
+          "agari": 36.1
+        },
+        {
+          "first_corner": 17,
+          "field": 18,
+          "agari": 34.4
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "waku": 4,
+      "name": "レイユール",
+      "sex_age": "牝4/黒鹿",
+      "weight": "51.0",
+      "jockey": "嶋田 純次",
+      "sire": "キズナ",
+      "damsire": "キングカメハメハ",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 35.1,
+      "recent": [
+        {
+          "first_corner": 9,
+          "field": 16,
+          "agari": 36.7
+        },
+        {
+          "first_corner": 6,
+          "field": 16,
+          "agari": 37.8
+        },
+        {
+          "first_corner": 5,
+          "field": 16,
+          "agari": 35.1
+        },
+        {
+          "first_corner": 4,
+          "field": 16,
+          "agari": 36.9
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "waku": 5,
+      "name": "ツーネサーン",
+      "sex_age": "牡5/栗",
+      "weight": "57.0",
+      "jockey": "横山 武史",
+      "sire": "Frankel",
+      "damsire": "Fast Company",
+      "style": "先",
+      "ten_speed": "中",
+      "agari_best": 32.9,
+      "recent": [
+        {
+          "first_corner": 7,
+          "field": 16,
+          "agari": 32.9
+        },
+        {
+          "first_corner": 3,
+          "field": 11,
+          "agari": 33.9
+        },
+        {
+          "first_corner": 2,
+          "field": 15,
+          "agari": 37.2
+        },
+        {
+          "first_corner": 11,
+          "field": 16,
+          "agari": 36.4
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "waku": 5,
+      "name": "ウインイザナミ",
+      "sex_age": "牝4/青鹿",
+      "weight": "53.0",
+      "jockey": "佐々木 大輔",
+      "sire": "モーリス",
+      "damsire": "ゼンノロブロイ",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 33.5,
+      "recent": [
+        {
+          "first_corner": 8,
+          "field": 10,
+          "agari": 33.5
+        },
+        {
+          "first_corner": 6,
+          "field": 16,
+          "agari": 34.3
+        },
+        {
+          "first_corner": 12,
+          "field": 15,
+          "agari": 39.5
+        },
+        {
+          "first_corner": 4,
+          "field": 16,
+          "agari": 38.7
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "waku": 6,
+      "name": "ファムマルキーズ",
+      "sex_age": "牝3/鹿",
+      "weight": "52.0",
+      "jockey": "小崎 綾也",
+      "sire": "キタサンブラック",
+      "damsire": "ワークフォース",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 33.4,
+      "recent": [
+        {
+          "first_corner": 2,
+          "field": 12,
+          "agari": 33.4
+        },
+        {
+          "first_corner": 4,
+          "field": 11,
+          "agari": 35.1
+        },
+        {
+          "first_corner": 7,
+          "field": 8,
+          "agari": 34.6
+        },
+        {
+          "first_corner": 6,
+          "field": 11,
+          "agari": 34.2
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "waku": 6,
+      "name": "ゴールドスター",
+      "sex_age": "牡5/黒鹿",
+      "weight": "56.0",
+      "jockey": "横山 和生",
+      "sire": "キズナ",
+      "damsire": "アドマイヤムーン",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 33.1,
+      "recent": [
+        {
+          "first_corner": 8,
+          "field": 11,
+          "agari": 33.6
+        },
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 33.1
+        },
+        {
+          "first_corner": 13,
+          "field": 18,
+          "agari": 33.3
+        },
+        {
+          "first_corner": 10,
+          "field": 12,
+          "agari": 33.1
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "waku": 7,
+      "name": "ジョヴィアン",
+      "sex_age": "牡6/鹿",
+      "weight": "56.0",
+      "jockey": "北村 宏司",
+      "sire": "Justify",
+      "damsire": "Majestic Warrior",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 35.1,
+      "recent": [
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 37.0
+        },
+        {
+          "first_corner": 14,
+          "field": 14,
+          "agari": 35.1
+        },
+        {
+          "first_corner": 4,
+          "field": 16,
+          "agari": 38.4
+        },
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 38.5
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "waku": 7,
+      "name": "トラスコンガーデン",
+      "sex_age": "牝3/黒鹿",
+      "weight": "51.0",
+      "jockey": "江田 照男",
+      "sire": "ダノンスマッシュ",
+      "damsire": "Bernardini",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 33.1,
+      "recent": [
+        {
+          "first_corner": 7,
+          "field": 11,
+          "agari": 34.3
+        },
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 33.1
+        },
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 35.2
+        },
+        {
+          "first_corner": 2,
+          "field": 8,
+          "agari": 33.9
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "waku": 8,
+      "name": "スターウェーブ",
+      "sex_age": "せん4/鹿",
+      "weight": "56.0",
+      "jockey": "三浦 皇成",
+      "sire": "Kingman",
+      "damsire": "Dubawi",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 33.3,
+      "recent": [
+        {
+          "first_corner": 6,
+          "field": 12,
+          "agari": 33.4
+        },
+        {
+          "first_corner": 16,
+          "field": 16,
+          "agari": 33.3
+        },
+        {
+          "first_corner": 14,
+          "field": 16,
+          "agari": 33.9
+        },
+        {
+          "first_corner": 8,
+          "field": 11,
+          "agari": 33.4
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "waku": 8,
+      "name": "イゾラフェリーチェ",
+      "sex_age": "牝5/鹿",
+      "weight": "54.0",
+      "jockey": "荻野 極",
+      "sire": "サトノクラウン",
+      "damsire": "ハーツクライ",
+      "style": "逃",
+      "ten_speed": "中",
+      "agari_best": 34.6,
+      "recent": [
+        {
+          "first_corner": 1,
+          "field": 11,
+          "agari": 34.6
+        },
+        {
+          "first_corner": 3,
+          "field": 10,
+          "agari": 35.1
+        },
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 41.7
+        },
+        {
+          "first_corner": 7,
+          "field": 15,
+          "agari": 36.9
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "waku": 8,
+      "name": "メイケイバートン",
+      "sex_age": "牡7/黒鹿",
+      "weight": "56.0",
+      "jockey": "戸崎 圭太",
+      "sire": "ミッキーアイル",
+      "damsire": "ジャングルポケット",
+      "style": "先",
+      "ten_speed": "中",
+      "agari_best": 34.0,
+      "recent": [
+        {
+          "first_corner": 5,
+          "field": 11,
+          "agari": 34.0
+        },
+        {
+          "first_corner": 2,
+          "field": 10,
+          "agari": 35.0
+        },
+        {
+          "first_corner": 3,
+          "field": 16,
+          "agari": 35.1
+        },
+        {
+          "first_corner": 2,
+          "field": 12,
+          "agari": 34.3
+        }
+      ]
+    }
+  ]
+}
