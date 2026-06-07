@@ -1,0 +1,21 @@
+{
+  "race_id": "20260607-kochi-07",
+  "horses": [
+    {"no":1,"name":"グッドヒューマー","style":"先","ten_speed":"速","agari_best":38.5,"recent":[{"first_corner":2,"field":11},{"first_corner":3,"field":11}],"scores":{"A":-2,"B":-2,"C":0,"D":0,"F":-1,"G":-1,"H":-1,"K":0,"I":-2},"conf":{"A":"高"},"draw_adj":0.03},
+    {"no":2,"name":"ブリーザフレスカ","style":"差","ten_speed":"中","agari_best":38.0,"recent":[{"first_corner":7,"field":11},{"first_corner":6,"field":11}],"scores":{"A":0,"B":0,"C":1,"D":1,"F":0,"G":0,"H":0,"K":0,"I":-1},"conf":{"A":"中"},"draw_adj":0.0},
+    {"no":3,"name":"ロレンツォ","style":"追","ten_speed":"遅","agari_best":37.6,"recent":[{"first_corner":10,"field":11},{"first_corner":9,"field":11}],"scores":{"A":0,"B":0,"C":1,"D":1,"F":1,"G":0,"H":0,"K":0,"I":-1},"conf":{"A":"高"},"draw_adj":0.0},
+    {"no":4,"name":"ニクソンテソーロ","style":"差","ten_speed":"中","agari_best":37.8,"recent":[{"first_corner":7,"field":11},{"first_corner":6,"field":11}],"scores":{"A":0,"B":0,"C":1,"D":1,"F":0,"G":0,"H":0,"K":0,"I":-1},"conf":{"A":"高"},"draw_adj":0.0},
+    {"no":5,"name":"グラティアスグー","style":"先","ten_speed":"中","agari_best":38.0,"recent":[{"first_corner":4,"field":11},{"first_corner":4,"field":11}],"scores":{"A":0,"B":0,"C":0,"D":0,"F":1,"G":1,"H":0,"K":0,"I":-1},"conf":{"A":"中"},"draw_adj":0.01},
+    {"no":7,"name":"アムレートゥム","style":"先","ten_speed":"速","agari_best":38.6,"recent":[{"first_corner":3,"field":11},{"first_corner":2,"field":11}],"scores":{"A":-1,"B":-1,"C":0,"D":0,"F":-1,"G":-1,"H":0,"K":0,"I":-1},"conf":{"A":"低"},"draw_adj":0.0},
+    {"no":8,"name":"グランレザンドール","style":"逃","ten_speed":"速","agari_best":37.4,"recent":[{"first_corner":1,"field":11},{"first_corner":1,"field":11}],"scores":{"A":2,"B":2,"C":2,"D":2,"F":2,"G":2,"H":1,"K":1,"I":0},"conf":{"A":"高"},"draw_adj":0.0},
+    {"no":9,"name":"サンライズグリット","style":"差","ten_speed":"中","agari_best":37.5,"recent":[{"first_corner":8,"field":11},{"first_corner":9,"field":11}],"scores":{"A":1,"B":1,"C":1,"D":1,"F":1,"G":0,"H":0,"K":0,"I":-1},"conf":{"A":"高"},"draw_adj":-0.01},
+    {"no":10,"name":"ブルーシンフォニー","style":"差","ten_speed":"中","agari_best":37.3,"recent":[{"first_corner":7,"field":11},{"first_corner":2,"field":11}],"scores":{"A":-1,"B":-1,"C":0,"D":0,"F":1,"G":0,"H":0,"K":1,"I":-1},"conf":{"A":"低"},"draw_adj":-0.01},
+    {"no":11,"name":"ダノンウィルヘルム","style":"追","ten_speed":"中","agari_best":36.7,"recent":[{"first_corner":8,"field":11},{"first_corner":9,"field":11}],"scores":{"A":1,"B":1,"C":2,"D":2,"F":2,"G":2,"H":1,"K":1,"I":0},"conf":{"A":"高"},"draw_adj":-0.02}
+  ],
+  "patterns": [
+    {"id":"P1","name":"単騎逃げ・前残り","prob":0.42,"pace_level":0.25,"contesters":[8]},
+    {"id":"P2","name":"先行争い激化・差し台頭","prob":0.28,"pace_level":0.65,"contesters":[8,1,7]},
+    {"id":"P3","name":"平均・地力2頭決着","prob":0.20,"pace_level":0.50,"contesters":[8,7]},
+    {"id":"P4","name":"超スロー徹底前残り","prob":0.10,"pace_level":0.10,"contesters":[8]}
+  ]
+}
