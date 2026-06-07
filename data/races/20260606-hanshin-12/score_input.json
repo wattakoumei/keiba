@@ -1,0 +1,90 @@
+{
+  "race_id": "20260606-hanshin-12",
+  "horses": [
+    {"no":1,"name":"フェスティヴドレス","ten_speed":"遅","style":"差","agari_best":37.1,
+     "recent":[{"first_corner":6,"field":16},{"first_corner":11,"field":11},{"first_corner":9,"field":16},{"first_corner":4,"field":16}],
+     "scores":{"A":-1,"B":-1,"C":1.5,"D":0.5,"F":0.5,"G":0,"H":0,"I":-0.5,"K":0},
+     "conf":{"A":"中","B":"中","C":"高","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":-0.03},
+
+    {"no":2,"name":"シュテルンビルト","ten_speed":"中","style":"差","agari_best":36.8,
+     "recent":[{"first_corner":6,"field":16},{"first_corner":9,"field":15},{"first_corner":3,"field":15},{"first_corner":10,"field":15}],
+     "scores":{"A":0,"B":0,"C":-0.5,"D":0,"F":0,"G":0,"H":0,"I":-0.3,"K":0.3},
+     "conf":{"A":"低","B":"低","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":-0.03},
+
+    {"no":3,"name":"ジューンアゲイン","ten_speed":"速","style":"先","agari_best":34.7,
+     "recent":[{"first_corner":5,"field":16},{"first_corner":3,"field":16},{"first_corner":2,"field":14},{"first_corner":1,"field":11}],
+     "scores":{"A":2,"B":2,"C":0,"D":1.5,"F":0,"G":0,"H":0,"I":-0.6,"K":0},
+     "conf":{"A":"低〜中","B":"低〜中","C":"中","D":"中","F":"低","H":"低","I":"中","K":"中"},"draw_adj":-0.04},
+
+    {"no":4,"name":"ユーヴェリア","ten_speed":"遅","style":"追","agari_best":36.2,
+     "recent":[{"first_corner":13,"field":16},{"first_corner":13,"field":16},{"first_corner":8,"field":16},{"first_corner":2,"field":16}],
+     "scores":{"A":0,"B":0,"C":-0.5,"D":-0.5,"F":-1,"G":0,"H":0,"I":-1.0,"K":0},
+     "conf":{"A":"低","B":"低","C":"中","D":"中","F":"中","H":"低","I":"中","K":"低"},"draw_adj":-0.02},
+
+    {"no":5,"name":"ルージュバロン","ten_speed":"遅","style":"先","agari_best":34.1,
+     "recent":[{"first_corner":3,"field":16},{"first_corner":14,"field":18},{"first_corner":9,"field":15}],
+     "scores":{"A":1,"B":1,"C":-1,"D":0,"F":0.5,"G":0,"H":0,"I":-0.6,"K":0.3},
+     "conf":{"A":"中","B":"中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.0},
+
+    {"no":6,"name":"メイプルギャング","ten_speed":"遅","style":"差","agari_best":36.3,
+     "recent":[{"first_corner":6,"field":15},{"first_corner":13,"field":16},{"first_corner":6,"field":16},{"first_corner":15,"field":16}],
+     "scores":{"A":-1,"B":-1,"C":0.5,"D":-0.5,"F":-0.5,"G":0,"H":0,"I":-0.8,"K":-0.3},
+     "conf":{"A":"低","B":"低","C":"中","D":"中","F":"低","H":"低","I":"中","K":"低"},"draw_adj":0.0},
+
+    {"no":7,"name":"セルズパワー","ten_speed":"遅","style":"追","agari_best":36.4,
+     "recent":[{"first_corner":11,"field":16},{"first_corner":12,"field":13},{"first_corner":12,"field":16},{"first_corner":9,"field":15}],
+     "scores":{"A":-0.5,"B":-0.5,"C":-1,"D":-1,"F":0.5,"G":0,"H":0,"I":-0.9,"K":0},
+     "conf":{"A":"中","B":"中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.0},
+
+    {"no":8,"name":"サマーナイト","ten_speed":"中","style":"差","agari_best":37.1,
+     "recent":[{"first_corner":6,"field":16},{"first_corner":6,"field":15},{"first_corner":4,"field":10},{"first_corner":8,"field":16}],
+     "scores":{"A":-1,"B":-1,"C":0,"D":-0.5,"F":0.5,"G":0,"H":0,"I":-0.9,"K":0},
+     "conf":{"A":"中","B":"中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.0},
+
+    {"no":9,"name":"コマチチャン","ten_speed":"中","style":"逃","agari_best":35.2,
+     "recent":[{"first_corner":15,"field":16},{"first_corner":6,"field":17},{"first_corner":1,"field":8},{"first_corner":1,"field":6}],
+     "scores":{"A":1,"B":1,"C":1,"D":1,"F":-0.5,"G":0,"H":0,"I":-1.0,"K":0},
+     "conf":{"A":"低〜中","B":"低〜中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.0},
+
+    {"no":10,"name":"スレッドザニードル","ten_speed":"遅","style":"差","agari_best":36.0,
+     "recent":[{"first_corner":10,"field":16},{"first_corner":9,"field":16},{"first_corner":10,"field":16},{"first_corner":12,"field":16}],
+     "scores":{"A":0,"B":0,"C":-0.5,"D":0,"F":-0.5,"G":0,"H":0,"I":-0.7,"K":0},
+     "conf":{"A":"中","B":"中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.0},
+
+    {"no":11,"name":"マダムイグレイン","ten_speed":"中","style":"差","agari_best":37.8,
+     "recent":[{"first_corner":4,"field":13}],
+     "scores":{"A":0,"B":0.5,"C":-1,"D":0.5,"F":1,"G":0,"H":0,"I":-1.3,"K":0},
+     "conf":{"A":"低","B":"低","C":"中","D":"低","F":"中","H":"低","I":"中","K":"低"},"draw_adj":0.01},
+
+    {"no":12,"name":"ゴメンネジロー","ten_speed":"中","style":"差","agari_best":37.2,
+     "recent":[{"first_corner":7,"field":15},{"first_corner":7,"field":12},{"first_corner":7,"field":14},{"first_corner":6,"field":16}],
+     "scores":{"A":0,"B":0,"C":-1.5,"D":-0.5,"F":0.5,"G":0,"H":0,"I":-0.7,"K":0.5},
+     "conf":{"A":"中","B":"中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.01},
+
+    {"no":13,"name":"ゼンカイナダル","ten_speed":"遅","style":"追","agari_best":36.4,
+     "recent":[{"first_corner":12,"field":12},{"first_corner":5,"field":14}],
+     "scores":{"A":-1,"B":-1,"C":0.5,"D":0,"F":0,"G":0,"H":0,"I":-0.7,"K":0},
+     "conf":{"A":"低","B":"低","C":"中","D":"中","F":"中","H":"低","I":"低","K":"中"},"draw_adj":0.02},
+
+    {"no":14,"name":"アンピュルシオン","ten_speed":"速","style":"先","agari_best":null,
+     "recent":[{"first_corner":1,"field":14},{"first_corner":1,"field":13}],
+     "scores":{"A":0.5,"B":0.5,"C":-0.5,"D":0.5,"F":0,"G":0,"H":0,"I":-2.0,"K":0},
+     "conf":{"A":"低","B":"低","C":"低","D":"低","F":"中","H":"低","I":"低","K":"中"},"draw_adj":0.02},
+
+    {"no":15,"name":"メイショウサトノヒ","ten_speed":"遅","style":"差","agari_best":36.4,
+     "recent":[{"first_corner":7,"field":15},{"first_corner":12,"field":16},{"first_corner":11,"field":16},{"first_corner":9,"field":16}],
+     "scores":{"A":0,"B":0,"C":1.5,"D":0.5,"F":-1,"G":0,"H":0,"I":-0.7,"K":0},
+     "conf":{"A":"中","B":"中","C":"高","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.03},
+
+    {"no":16,"name":"ニシノジェダイ","ten_speed":"遅","style":"差","agari_best":36.2,
+     "recent":[{"first_corner":6,"field":16},{"first_corner":7,"field":11},{"first_corner":10,"field":15},{"first_corner":14,"field":16}],
+     "scores":{"A":0,"B":0,"C":1.5,"D":0,"F":-1,"G":0,"H":0,"I":-0.9,"K":0.3},
+     "conf":{"A":"中","B":"中","C":"中","D":"中","F":"中","H":"低","I":"中","K":"中"},"draw_adj":0.03}
+  ],
+  "patterns": [
+    {"id":"α","prob":0.34,"pace_level":0.45,"contesters":[9,3]},
+    {"id":"β","prob":0.30,"pace_level":0.85,"contesters":[9,3,14]},
+    {"id":"γ","prob":0.18,"pace_level":0.28,"contesters":[3]},
+    {"id":"δ","prob":0.18,"pace_level":0.62,"contesters":[14,9,3]}
+  ]
+}

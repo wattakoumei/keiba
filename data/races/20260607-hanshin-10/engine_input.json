@@ -1,0 +1,28 @@
+{
+  "race_id": "20260607-hanshin-10",
+  "horses": [
+    {"no":1,"name":"ウインリベラシオン","ten_speed":"遅","style":"追","agari_best":33.6,"recent":[{"first_corner":11,"field":15},{"first_corner":8,"field":12},{"first_corner":12,"field":15},{"first_corner":3,"field":13}],
+     "scores":{"A":-0.5,"B":-0.5,"C":1,"D":-2,"F":0,"G":0,"H":0,"I":-1,"K":-1}},
+    {"no":2,"name":"リュキア","ten_speed":"遅","style":"追","agari_best":36.5,"recent":[{"first_corner":12,"field":16},{"first_corner":13,"field":15},{"first_corner":10,"field":11}],
+     "scores":{"A":-1.5,"B":-1.5,"C":-1,"D":-2,"F":-1,"G":-1,"H":-1,"I":-1,"K":-1}},
+    {"no":3,"name":"ユメハハテシナク","ten_speed":"中","style":"差","agari_best":35.0,"recent":[{"first_corner":6,"field":11},{"first_corner":4,"field":11},{"first_corner":2,"field":16},{"first_corner":3,"field":15}],
+     "scores":{"A":-0.5,"B":-0.5,"C":1,"D":-1,"F":-0.5,"G":-0.5,"H":-0.5,"I":-1,"K":0}},
+    {"no":4,"name":"ハイディージェン","ten_speed":"中","style":"先","agari_best":34.5,"recent":[{"first_corner":2,"field":16},{"first_corner":2,"field":10},{"first_corner":10,"field":11},{"first_corner":2,"field":11}],
+     "scores":{"A":0,"B":0,"C":0,"D":0,"F":-0.5,"G":-0.5,"H":-0.5,"I":-1,"K":-2}},
+    {"no":5,"name":"ジョイエッロ","ten_speed":"中","style":"先","agari_best":33.5,"recent":[{"first_corner":3,"field":10},{"first_corner":2,"field":10},{"first_corner":2,"field":12},{"first_corner":3,"field":10}],
+     "scores":{"A":2,"B":2,"C":2,"D":2,"F":1.5,"G":1.5,"H":1.5,"I":0,"K":2}},
+    {"no":6,"name":"エバーグルーヴ","ten_speed":"遅","style":"差","agari_best":34.1,"recent":[{"first_corner":4,"field":7},{"first_corner":4,"field":9},{"first_corner":7,"field":9},{"first_corner":11,"field":15}],
+     "scores":{"A":1.5,"B":1.5,"C":2,"D":1,"F":0.5,"G":0.5,"H":0.5,"I":-1,"K":1}},
+    {"no":7,"name":"ラーテル","ten_speed":"遅","style":"追","agari_best":34.6,"recent":[{"first_corner":11,"field":12},{"first_corner":10,"field":10},{"first_corner":7,"field":13},{"first_corner":9,"field":11}],
+     "scores":{"A":-1.5,"B":-1.5,"C":-2,"D":-2,"F":-0.5,"G":-0.5,"H":-0.5,"I":-2,"K":-1}},
+    {"no":8,"name":"ヤマニンガラッシア","ten_speed":"中","style":"差","agari_best":34.3,"recent":[{"first_corner":1,"field":10},{"first_corner":7,"field":16},{"first_corner":5,"field":12},{"first_corner":7,"field":16}],
+     "scores":{"A":0.5,"B":0.5,"C":1,"D":0,"F":1,"G":1,"H":1,"I":-1,"K":2}},
+    {"no":9,"name":"ツーエムクロノス","ten_speed":"遅","style":"差","agari_best":34.2,"recent":[{"first_corner":6,"field":10},{"first_corner":9,"field":11},{"first_corner":4,"field":11},{"first_corner":4,"field":10}],
+     "scores":{"A":1,"B":1,"C":0,"D":-2,"F":0.5,"G":0.5,"H":0.5,"I":-1,"K":-1}}
+  ],
+  "patterns": [
+    {"id":"α","prob":0.50,"pace_level":0.30,"contesters":[4,5,3]},
+    {"id":"β","prob":0.28,"pace_level":0.55,"contesters":[4,5,3]},
+    {"id":"γ","prob":0.22,"pace_level":0.15,"contesters":[4]}
+  ]
+}
