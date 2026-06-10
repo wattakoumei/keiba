@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""scoring-model v1.0 を 20260531-tokyo-1 に適用。能力レイヤーのみ（オッズ未発売）。"""
+"""scoring-model v1.0 を 20260531-tokyo-01 に適用。能力レイヤーのみ（オッズ未発売）。"""
 import math
 
 # 観点スコア e_X in [-2,+2]（Iは0..-2）と確信度('高'/'中'/'低')

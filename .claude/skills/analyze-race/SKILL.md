@@ -70,13 +70,14 @@ R番号・発走時刻・コースを §0-1 の表に埋める。カードが取
 
 観点ごとに調査サブエージェントを**並列起動して証拠を集め**（Research フェーズ）、
 全証拠が出揃ってから**展開合成を1回だけ走らせる**（PaceSynthesis フェーズ）。
-多数のエージェントを使う重い処理なので **Workflow ツールで実行**する。各 Research エージェントに渡す：
-- 担当観点の調査手順（`research-protocol.md` の該当セクション）と推奨ソース
+多数のエージェントを使う重い処理なので **Workflow ツールで実行**する。**各観点は専属 subagent**（`.claude/agents/obs-<id>.md`、agentType＝`obs-a-index`…`obs-k-jockey`）＝**ペルソナ・調査手順・推奨ソース・スコア指針はその agent 定義に内蔵**。Workflow が各 subagent に渡すのは**データと共通鉄則だけ**：
 - `出走表.md` の全馬リスト＋レース条件（**オッズは渡さない**）
 - **スクレイパ seed**（STEP1 の `fetch_racecard.py` 出力）。JRA経路なら 脚質(通過順由来の精密)・テン速・血統(父母父)・枠/馬番・性齢・斤量・騎手、競馬ラボ経路なら脚質傾向(粗)・血統・枠。観点E/C/B はこれを **検証・補強**し、ゼロから取り直さない（`references/scraping.md`）
-- 出力スキーマ（`research-protocol.md` 末尾。**観点E は PACE_EVIDENCE_SCHEMA**で生証拠のみ）
+- 出力スキーマ（`research-protocol.md` 末尾。**観点E は PACE_EVIDENCE_SCHEMA**で生証拠のみ）＋共通鉄則（全馬漏れなく／出典必須／捏造しない／純粋情報のみ）
 
-各エージェントは web 調査の上、結果全文を `data/races/<race-id>/research-<観点ID>.md` に保存し、構造化要約を返す。
+> **DRY と純粋性の正本**: subagent は `.claude/rules` を自動ロードしない別コンテキスト。よって**純粋性・スキーマ・全馬規律はこの spawn 時注入が正本**（各 agent 定義は再掲せず1行リマインダのみ持つ）。観点を**1つ調整したい**ときは触るのは `.claude/agents/obs-<id>.md` だけ（[editing-map](../../rules/editing-map.md)）。
+
+各 subagent は web 調査の上、結果全文を `data/races/<race-id>/research-<観点ID>.md` に保存し、構造化要約を返す。
 その後、**PaceSynthesis エージェント**が全証拠（E の脚質・先行争い、B の近走脚質、D のバイアス、K の騎手の出方、
 関係者コメント、出走表の枠）を突き合わせ、`pace-synthesis.md` に従って **複数の名前付き展開パターン**（PACE_MODEL）を作る。
 
@@ -85,29 +86,36 @@ Workflow スクリプトの骨子（Research 並列 → バリア → PaceSynthe
 ```js
 export const meta = {
   name: 'race-fanout-and-pace',
-  description: '観点ごとに証拠をweb調査し、全証拠を突き合わせて展開パターンを合成する',
+  description: '観点ごとに専属 subagent を並列起動して証拠をweb調査し、全証拠を突き合わせて展開パターンを合成する',
   phases: [{ title: 'Research' }, { title: 'PaceSynthesis' }],
 }
-// args = { raceId, condition, horses, seed, points:[{id,name,protocol,sources}] }  ※ odds は渡さない
+// args = { raceId, condition, horses, seed, points:[{id}] }  ※ odds は渡さない
+//   観点の手順/ソース/スコア指針は .claude/agents/obs-<id>.md（subagent）に内蔵。ここで渡すのはデータ＋共通鉄則のみ
 //   seed = fetch_racecard.py の race 出力（脚質傾向・血統・枠/馬番）。E/C/B は seed を検証・補強する
+
+// 観点ID → 専属 subagent（.claude/agents/）。STEP2 で選んだ観点だけ points に入れる
+const AGENT_OF = { A:'obs-a-index', B:'obs-b-recent', C:'obs-c-pedigree', D:'obs-d-aptitude', E:'obs-e-pace',
+                   F:'obs-f-training', G:'obs-g-rotation', H:'obs-h-paddock', I:'obs-i-risk', K:'obs-k-jockey' }
 
 const RESULT_SCHEMA = { /* point, overall_confidence, field_note, horses:[{no,name,pros,cons,score(-2..+2 / Iは0..-2),confidence,sources}], note */ }
 const PACE_EVIDENCE_SCHEMA = { /* legs:[{no,name,style,ten_speed,expected_pos}], lead_contenders:[{no,stance}], bias:{track,detail,key_horses}, draw:[{no,note}] */ }
 const PACE_MODEL_SCHEMA = { /* patterns:[{id,name,prob,likelihood_tier(本線/対抗/伏線),trigger,first_600m,pace_level,leg_advantage,formation_head,formation_last_corner,bias,phase_flow:{early,mid,late,result},per_horse_fit}], falsification, field_note */ }
 
-// --- Phase 1: 全観点を並列で証拠収集（E だけ証拠スキーマ）---
+// 全 subagent 共通の鉄則（純粋性・規律）。観点固有のペルソナ/手順は agent 定義側にあるのでここでは渡さない
+const CREED =
+  `# 鉄則（全観点共通）\n` +
+  `- 対象は全出走馬、1頭ずつ漏れなく。馬番・馬名を必ず明記。\n` +
+  `- 出典URL必須。推定は「推定」と明記し確信度を下げる。捏造しない＝取得できない項目は欠損として確信度「低」。\n` +
+  `- 純粋情報のみ: オッズ・人気・オッズ変動・他人の予想/印/予想展開記事は使わない。関係者コメント・媒体の主観評価(調教/パドック点)は採用可。`
+
+// --- Phase 1: 全観点を専属 subagent で並列収集（E だけ証拠スキーマ）---
 const research = await parallel(args.points.map(p => () =>
   agent(
-    `あなたは競馬の「${p.name}」観点の専門調査員。全出走馬について web 調査し、` +
-    (p.id === 'E'
-      ? `脚質・テン速・先行争いの当事者・馬場バイアス・枠の“生証拠だけ”を返す（有利不利スコアやパターンは作らない）。`
-      : `好材料/懸念/評価(-2..+2)/確信度/出典を返す。`) +
-    `\n\n# レース条件\n${args.condition}\n\n# 出走馬\n${args.horses}\n` +
+    `# レース条件\n${args.condition}\n\n# 出走馬（全頭）\n${args.horses}\n` +
     // E(脚質)・C(血統)・B(近走脚質) は seed を起点に検証・補強する
     (['E','C','B'].includes(p.id) ? `\n# スクレイパ seed（検証・補強の起点／ゼロから取り直さない）\n${JSON.stringify(args.seed)}\n` : ``) +
-    `\n# 調査手順\n${p.protocol}\n` +
-    `推奨ソース: ${p.sources}\n※オッズ・人気・他人の予想は使わない。捏造せず欠損は確信度を下げる。`,
-    { label:`research:${p.id}`, phase:'Research', schema: p.id==='E'?PACE_EVIDENCE_SCHEMA:RESULT_SCHEMA, agentType:'general-purpose' }
+    `\n${CREED}\n- 結果全文を data/races/${args.raceId}/research-${p.id}.md に保存し、スキーマの構造化要約を返す。`,
+    { label:`research:${p.id}`, phase:'Research', schema: p.id==='E'?PACE_EVIDENCE_SCHEMA:RESULT_SCHEMA, agentType: AGENT_OF[p.id] }
   ).catch(()=>null)
 )).then(rs => rs.filter(Boolean))   // ← await 完了が暗黙バリア
 
@@ -123,14 +131,14 @@ const paceModel = await agent(
 return { research, paceModel }
 ```
 
-> Workflow が使えない/重すぎる場合のフォールバック: `Agent`（general-purpose）で観点分を1メッセージ内に並列起動し、
+> Workflow が使えない/重すぎる場合のフォールバック: `Agent` ツールで各観点の subagent（`subagent_type: obs-<id>`）を1メッセージ内に並列起動し（観点の手順は agent 定義が持つので渡すのはデータ＋共通鉄則＋schema のみ）、
 > 返り（バリア相当）を待ってから、メイン文脈で `pace-synthesis.md` に従い展開パターンを合成する。
 
 ### STEP 4a. 展開合成（成果物1）
 
 `pace-synthesis.md` に従い（STEP3 の PaceSynthesis が未実施なら）メイン文脈で、全証拠から
 **複数の展開パターン**（可能性ティア・発動トリガー・脚質別有利不利・隊列・**段階フロー phase_flow**・反証条件）を構築する。これが **展開予想**。
-- 各パターンに **`phase_flow{early,mid,late,result}`** を著作する＝「序盤→A_early→中盤→A_cruise→終盤→A_finish→結果」の因果文。これが §2 の mermaid フローと §3 展開感度の素。
+- 各パターンに **`phase_flow{early,mid,late,result}`** を著作する＝「序盤→A_early→中盤→A_cruise→終盤→A_finish→結果」の因果文。これが §2 の段階フロー（1行テキスト）と §3 展開感度の素。
 - 報告は確率%でなく **可能性ティア（本線/対抗/伏線）**。内部の `prob` はログにのみ残す（`output-template.md` 参照）。
 
 ### STEP 4b. 着順合成（成果物2 / 論理ファースト・相変位再帰を因果骨格に）
@@ -140,6 +148,8 @@ return { research, paceModel }
 
 1. 各馬の相別能力の高低を定性で確定（観点評価＋スクレイパの `ten_speed`/`style`/`agari_best`/`recent[]` から）。序盤の速さ（A_early）と終盤の決め手（A_finish）を**別々に**見て、逃げ馬と追込馬を単一尺度で比べない。
 2. 最有力パターンの phase_flow に各馬を通し、どの相で浮く/沈むかを **展開感度** に書く。好材料/懸念点を**観点タグ付きで厚く**列挙する。
+2b. さらに**§2-2 の全パターン**に各馬を通し、各パターンでの圏内/強弱（`◎`中心/`○`圏内/`△`条件付き、圏外は記載なし）を符号化して §3 の**展開列**に入れる。源は展開合成の `per_horse_fit`・`leg_advantage`・各パターンの浮上/沈む馬（矛盾したら §2-2 を見直す）。これが「想定パターン別に無駄なく箱を組む」ための一目表＝`predictions.jsonl` の `pattern_fit` にも残す。
+    あわせて展開列の**転置版「パターン別おすすめ馬」表**（パターン → 中心◎/圏内○/一発△/消し）を **§3 の直前**に置く（体裁は `output-template.md`。源は同じ＝矛盾させない）。
 3. これらを総合して**並び（印＋行順）を論理で決める**。
 4. **任意のサニティチェック**: `python3 tools/score_race.py --in race.json --json`（＋`--self-check`）を回せる場合は回し、その**並び順**が論理の並びと食い違わないか確認するだけ（%は転記しない）。
    食い違ったら**論理側を正**とし、理由を一言残す（食い違いそのものが点検シグナル＝どちらかの読みに穴がある）。`engine_check{order_pos,agree}` をログに残す。
@@ -150,11 +160,11 @@ return { research, paceModel }
 ### STEP 5. 出力 & 2系統ログ
 
 `output-template.md` の体裁でレポートを作成し、画面に出力 ＋ `data/races/<race-id>/report.md` に保存。
-**§2 展開予想（mermaid段階フロー＋ティア）と §3 着順予想表（展開感度・好材料・懸念点）の2本柱が主役。表が主役で % は出さない。**
+**§2 展開予想（1行段階フロー＋ティア）と §3 着順予想表（展開列・展開感度・好材料・懸念点）の2本柱が主役。表が主役で % は出さない（mermaid・サマリ・観点別ハイライトは廃止）。**
 **§0 当日アップデート・ボードには*分析時点で本当に未知のものだけ*を残す**（確定枠・乗替・回避は §2-1/§2-2/§3 本文へ織り込み済み。当日の参考R観察値・馬場・パドック・馬体重のみ空欄）。
 最後に `predictions.jsonl` に**2レコード**を追記する（質的中心・市場フィールド無し。詳細は `output-template.md`）：
 - `record:"pace"`（1レース1行）: patterns（`likelihood_tier`＋`phase_flow`＋leg_advantage/formation）・falsification
-- `record:"rank"`（1馬1行・印持ち馬）: `mark`・`rank_order`・`pace_sensitivity`・`pros[]`・`cons[]`（＋任意 `engine_check`）
+- `record:"rank"`（1馬1行・印持ち馬）: `mark`・`rank_order`・`pattern_fit`（展開列の機械可読版＝圏内パターンのみ`{id:符号}`）・`pace_sensitivity`・`pros[]`・`cons[]`（＋任意 `engine_check`）
 
 ### STEP 6. 補強の案内 & 当日可変
 
