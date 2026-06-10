@@ -1,0 +1,22 @@
+{
+  "race_id": "20260610-sonoda-04",
+  "horses": [
+    {"no":1,"name":"チャンピオンセーラ","style":"先","ten_speed":"中","agari_best":39.4,"recent":[{"first_corner":1,"field":9},{"first_corner":3,"field":12}],"scores":{"A":0,"B":0,"C":1,"D":1,"F":0,"G":-1,"H":0,"K":-1,"I":-1},"conf":{"A":"中"},"draw_adj":-0.02},
+    {"no":2,"name":"ヒーローエフエー","style":"先","ten_speed":"中","agari_best":40.5,"recent":[{"first_corner":3,"field":12},{"first_corner":3,"field":12}],"scores":{"A":-1,"B":-1,"C":-1,"D":-1,"F":-1,"G":0,"H":0,"K":0,"I":-1},"conf":{"A":"中"},"draw_adj":-0.01},
+    {"no":3,"name":"コパノジャンピング","style":"先","ten_speed":"中","agari_best":39.5,"recent":[{"first_corner":3,"field":12},{"first_corner":7,"field":12}],"scores":{"A":0,"B":0,"C":0,"D":0,"F":0,"G":-1,"H":0,"K":-1,"I":-1},"conf":{"A":"中"},"draw_adj":-0.01},
+    {"no":4,"name":"キモンニコラス","style":"先","ten_speed":"中","agari_best":40.5,"recent":[{"first_corner":2,"field":12},{"first_corner":6,"field":12}],"scores":{"A":-1,"B":-1,"C":0,"D":0,"F":0,"G":0,"H":0,"K":0,"I":-1},"conf":{"A":"低"},"draw_adj":-0.01},
+    {"no":5,"name":"ジャスティントレノ","style":"先","ten_speed":"速","agari_best":39.0,"recent":[{"first_corner":2,"field":12},{"first_corner":1,"field":12}],"scores":{"A":2,"B":2,"C":1,"D":1,"F":1,"G":0,"H":0,"K":1,"I":0},"conf":{"A":"高"},"draw_adj":0.0},
+    {"no":6,"name":"ピロコギガマックス","style":"逃","ten_speed":"速","agari_best":41.0,"recent":[{"first_corner":1,"field":12},{"first_corner":1,"field":12}],"scores":{"A":-2,"B":-2,"C":-1,"D":-1,"F":-2,"G":-1,"H":0,"K":1,"I":-2},"conf":{"A":"高"},"draw_adj":0.0},
+    {"no":7,"name":"クツワノセキトリ","style":"先","ten_speed":"速","agari_best":40.0,"recent":[{"first_corner":1,"field":12},{"first_corner":2,"field":12}],"scores":{"A":1,"B":1,"C":0,"D":0,"F":0,"G":-1,"H":0,"K":0,"I":-2},"conf":{"A":"中"},"draw_adj":0.0},
+    {"no":8,"name":"サクラグラシュー","style":"差","ten_speed":"中","agari_best":40.1,"recent":[{"first_corner":4,"field":12},{"first_corner":3,"field":12}],"scores":{"A":-1,"B":-1,"C":1,"D":1,"F":0,"G":0,"H":0,"K":-1,"I":-1},"conf":{"A":"中"},"draw_adj":0.01},
+    {"no":9,"name":"テクノドラゴン","style":"追","ten_speed":"遅","agari_best":39.5,"recent":[{"first_corner":10,"field":12},{"first_corner":9,"field":12}],"scores":{"A":1,"B":1,"C":1,"D":1,"F":1,"G":0,"H":0,"K":-1,"I":-1},"conf":{"A":"中"},"draw_adj":0.0},
+    {"no":10,"name":"ノーブルライナー","style":"先","ten_speed":"速","agari_best":39.3,"recent":[{"first_corner":2,"field":12},{"first_corner":3,"field":12}],"scores":{"A":2,"B":2,"C":1,"D":1,"F":1,"G":0,"H":0,"K":1,"I":-1},"conf":{"A":"中"},"draw_adj":0.03},
+    {"no":11,"name":"ウクライナアイズ","style":"逃","ten_speed":"速","agari_best":39.8,"recent":[{"first_corner":1,"field":12},{"first_corner":1,"field":9}],"scores":{"A":0,"B":0,"C":0,"D":0,"F":1,"G":-1,"H":0,"K":1,"I":-1},"conf":{"A":"中"},"draw_adj":0.03},
+    {"no":12,"name":"マッチョサスポ","style":"差","ten_speed":"中","agari_best":41.0,"recent":[{"first_corner":7,"field":9},{"first_corner":8,"field":9}],"scores":{"A":-2,"B":-2,"C":-1,"D":-2,"F":-2,"G":-1,"H":0,"K":-1,"I":-2},"conf":{"A":"中"},"draw_adj":0.0}
+  ],
+  "patterns": [
+    {"id":"α","name":"11単騎制圧・平均前残り","prob":0.42,"pace_level":0.5,"contesters":[11,6]},
+    {"id":"β","name":"先行馬過多・共倒れ差し台頭","prob":0.38,"pace_level":0.8,"contesters":[11,6,10,5,7]},
+    {"id":"γ","name":"超スロー・前総取り","prob":0.20,"pace_level":0.22,"contesters":[11]}
+  ]
+}
