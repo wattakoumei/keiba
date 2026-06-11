@@ -48,8 +48,9 @@
 | H 当日気配・パドック | `.claude/agents/obs-h-paddock.md` |
 | I リスク/割引（スコア 0..-2） | `.claude/agents/obs-i-risk.md` |
 | K 騎手・乗り替わり | `.claude/agents/obs-k-jockey.md` |
+| L 条件実績・リピーター | `.claude/agents/obs-l-repeater.md` |
 
-> 観点の**カタログ的定義・相別マッピング・グルーピング（5/7/10観点）**は `observation-points.md`。
+> 観点の**カタログ的定義・相別マッピング・グルーピング（5/7/11観点）**は `observation-points.md`。
 > 観点が**何を返すか（スキーマ）と全観点共通の規律**は本ファイルの「共通ルール」「推奨ソース」「出力スキーマ」。
 
 ## 出力スキーマ（メインに返す形式）

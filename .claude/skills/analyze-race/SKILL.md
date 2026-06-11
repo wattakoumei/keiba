@@ -57,13 +57,14 @@ R番号・発走時刻・コースを §0-1 の表に埋める。カードが取
 
 ### STEP 2. 観点モードの決定
 
-`observation-points.md` に従い、頭数・情報量で観点数を決める（既定 10 観点 A〜I, K。市場Jは無い）：
-- 多頭数(14〜18) / GⅠ等の情報が厚いレース → **10 観点**（A〜I, K 全部）
+`observation-points.md` に従い、頭数・情報量で観点数を決める（既定 11 観点 A〜I, K, L。市場Jは無い）：
+- 多頭数(14〜18) / GⅠ等の情報が厚いレース → **11 観点**（A〜I, K, L 全部）
 - 標準(10〜13頭) → **7 観点**
 - 少頭数(〜10) / 情報が薄い → **5 観点**
 
 騎手の乗り替わりが鍵になるレース（主戦離脱・強化乗り替わり・テン乗り多数）では、
 観点数を絞る場合でも **K を単独観点として残す**ことを推奨。
+リピーター色の濃いレース（ハンデ重賞・季節レース・同舞台の重賞・高齢馬多数）では同様に **L を残す**ことを推奨（下級条件・若馬戦では L は省いてよい）。
 **いずれのモードでも STEP4a 展開合成は必ず実施する。**
 
 ### STEP 3. 証拠ファンアウト（Workflow）→ 展開合成
@@ -95,7 +96,8 @@ export const meta = {
 
 // 観点ID → 専属 subagent（.claude/agents/）。STEP2 で選んだ観点だけ points に入れる
 const AGENT_OF = { A:'obs-a-index', B:'obs-b-recent', C:'obs-c-pedigree', D:'obs-d-aptitude', E:'obs-e-pace',
-                   F:'obs-f-training', G:'obs-g-rotation', H:'obs-h-paddock', I:'obs-i-risk', K:'obs-k-jockey' }
+                   F:'obs-f-training', G:'obs-g-rotation', H:'obs-h-paddock', I:'obs-i-risk', K:'obs-k-jockey',
+                   L:'obs-l-repeater' }
 
 const RESULT_SCHEMA = { /* point, overall_confidence, field_note, horses:[{no,name,pros,cons,score(-2..+2 / Iは0..-2),confidence,sources}], note */ }
 const PACE_EVIDENCE_SCHEMA = { /* legs:[{no,name,style,ten_speed,expected_pos}], lead_contenders:[{no,stance}], draw:[{no,note}] */ }  // 馬場バイアスは D が返す（E から一本化）
