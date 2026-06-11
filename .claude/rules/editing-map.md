@@ -18,6 +18,7 @@
 | `.claude/skills/analyze-race/references/scoring-model.md` | 相変位再帰の**語彙と因果骨格**（相別能力→3相再帰）。6ノブ/PARAMS は任意エンジン用。 |
 | `.claude/skills/analyze-race/references/output-template.md` | **レポート体裁の正本**（§0-§5・展開列/展開感度/好材料/懸念点の書式・mermaid無し）＋ `predictions.jsonl` の pace/rank 2レコード形式。 |
 | `.claude/skills/analyze-race/references/course-geometry.md` | **コース物理形状の静的カタログ**（直線長・坂・初角特記。D/E/展開合成の正本）。コース改修・数値訂正はここだけ直す。 |
+| `.claude/skills/analyze-race/references/pedigree-catalog.md` | **血統カタログ**（種牡馬の父/母父傾向・決め手の質・巻頭原則。観点Cの正本）。半静的＝年1回＋新種牡馬デビュー時に追記、`as-of` 更新。 |
 | `.claude/skills/analyze-race/references/scraping.md` | `tools/fetch_racecard.py` の使い方・場コード・JRA/競馬ラボ経路。 |
 | `.claude/skills/review-prediction/SKILL.md` | `/review-prediction`：**2スコアカード採点**・A/B/C 仕分け・修正先ルーティング・results.jsonl 形式。 |
 | `tools/score_race.py` | 任意サニティチェックの決定論実装（並びの整合のみ。%の正本ではない）。 |

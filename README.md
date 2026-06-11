@@ -73,6 +73,7 @@ keiba/
 │       │       ├── scoring-model.md       # 相変位再帰の語彙・因果骨格
 │       │       ├── output-template.md     # レポート体裁の正本＋predictions.jsonl形式
 │       │       ├── course-geometry.md     # コース物理形状カタログ（距離別・静的正本）
+│       │       ├── pedigree-catalog.md     # 血統カタログ（種牡馬の父/母父傾向・半静的正本）
 │       │       └── scraping.md            # スクレイパ仕様（h2h直接対戦・pace_aids含む）
 │       └── review-prediction/SKILL.md     # 2スコアカード採点・A/B/C仕分け
 ├── tools/

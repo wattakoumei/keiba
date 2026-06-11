@@ -50,6 +50,6 @@
 - **§2/§3 の番号は他文書（SKILL/各 reference）から参照されるので変えない**。体裁の正本は `skills/analyze-race/references/output-template.md`。
 
 ## I10. 静的データのワンソース化（再調査禁止）
-- **不変の事実は正本から一度だけ供給し、web で再調査しない**: コース物理形状（直線・坂・初角・芝スタート）＝`references/course-geometry.md`、出走表スパイン・脚質/テン速・h2h直接対戦＝`tools/fetch_racecard.py` の seed。
+- **不変の事実は正本から一度だけ供給し、web で再調査しない**: コース物理形状（直線・坂・初角・芝スタート）＝`references/course-geometry.md`、種牡馬の産駒傾向＝`references/pedigree-catalog.md`（半静的・年1更新／カタログ外の血だけ web 調査）、出走表スパイン・脚質/テン速・h2h直接対戦＝`tools/fetch_racecard.py` の seed。
 - 供給経路は **spawn 時注入**（SKILL STEP1/3）。subagent は rules を自動ロードしない＝徹底は spawn データと各 agent 定義の記述が担う（誰が何に使うかは各 agent / pace-synthesis 側に書く）。
 - 静的データの訂正は**正本ファイルだけ**直す（エコーを作らない）。web で採ってよいのは変動情報（当該開催の馬場・関係者コメント等）のみ。
