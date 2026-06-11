@@ -84,6 +84,8 @@ PATTERNS = {
     "jra_past_pos": re.compile(r'<div class="place">(\d+)<span>着'),                  # 近走の着順
     # JRA出馬表のレース条件: race_title 内 <td class="dist">ダート1,800<span>メートル</span>（権威ソース）
     "jra_dist": re.compile(r'class="dist">(ダート|芝|障害)([\d,]+)<span>(?:メートル|ｍ)'),
+    # 新マークアップ（2026-06 確認）: コース：</span>1,800<span class="unit">メートル</span><span class="detail">（芝・左）
+    "jra_dist2": re.compile(r'コース：</span>([\d,]+)<span[^>]*>(?:メートル|ｍ)</span>\s*<span[^>]*>（(ダート|芝|障害)'),
 }
 TIMEOUT = 30
 PLACE = {"01": "札幌", "02": "函館", "03": "福島", "04": "新潟", "05": "東京",
@@ -291,13 +293,18 @@ def compute_h2h(horses):
 
 
 def parse_jra_cond(h):
-    """JRA出馬表HTML → レース条件(コース種別・距離)。距離は権威ソース（race_title の dist セル）。
-    頭数は出走馬数から別途数える（このセルには無い）。取れなければ None。"""
+    """JRA出馬表HTML → レース条件(コース種別・距離)。距離は権威ソース（race_title 内）。
+    頭数は出走馬数から別途数える。取れなければ None。
+    マークアップ2世代に対応: 旧 `class="dist">芝1,800<span>メートル` ／ 新 `コース：</span>1,800…（芝・左）`。"""
     m = PATTERNS["jra_dist"].search(h)
-    if not m:
-        return {"surface": None, "distance": None}
-    surf = {"ダート": "ダ", "芝": "芝", "障害": "障"}.get(m.group(1), m.group(1))
-    return {"surface": surf, "distance": int(m.group(2).replace(",", ""))}
+    if m:
+        surf = {"ダート": "ダ", "芝": "芝", "障害": "障"}.get(m.group(1), m.group(1))
+        return {"surface": surf, "distance": int(m.group(2).replace(",", ""))}
+    m = PATTERNS["jra_dist2"].search(h)
+    if m:
+        surf = {"ダート": "ダ", "芝": "芝", "障害": "障"}.get(m.group(2), m.group(2))
+        return {"surface": surf, "distance": int(m.group(1).replace(",", ""))}
+    return {"surface": None, "distance": None}
 
 
 def jra_fetch_race(date, place, rno):
