@@ -98,7 +98,7 @@ const AGENT_OF = { A:'obs-a-index', B:'obs-b-recent', C:'obs-c-pedigree', D:'obs
                    F:'obs-f-training', G:'obs-g-rotation', H:'obs-h-paddock', I:'obs-i-risk', K:'obs-k-jockey' }
 
 const RESULT_SCHEMA = { /* point, overall_confidence, field_note, horses:[{no,name,pros,cons,score(-2..+2 / Iは0..-2),confidence,sources}], note */ }
-const PACE_EVIDENCE_SCHEMA = { /* legs:[{no,name,style,ten_speed,expected_pos}], lead_contenders:[{no,stance}], bias:{track,detail,key_horses}, draw:[{no,note}] */ }
+const PACE_EVIDENCE_SCHEMA = { /* legs:[{no,name,style,ten_speed,expected_pos}], lead_contenders:[{no,stance}], draw:[{no,note}] */ }  // 馬場バイアスは D が返す（E から一本化）
 const PACE_MODEL_SCHEMA = { /* patterns:[{id,name,prob,likelihood_tier(本線/対抗/伏線),trigger,first_600m,pace_level,leg_advantage,formation_head,formation_last_corner,bias,phase_flow:{early,mid,late,result},per_horse_fit}], falsification, field_note */ }
 
 // 全 subagent 共通の鉄則（純粋性・規律）。観点固有のペルソナ/手順は agent 定義側にあるのでここでは渡さない

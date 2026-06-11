@@ -77,6 +77,11 @@ PATTERNS = {
     "jra_corner": re.compile(r'通過順位">(\d+)</li>'),                                # コーナー通過順位
     "jra_field": re.compile(r'class="max">(\d+)<span>頭'),                           # その近走の頭数
     "jra_agari": re.compile(r'3F\s*([\d.]+)'),                                        # 上がり3F
+    # 近走のレース特定（h2h 直接対戦用）。★市場ゼロ: 同ブロック内の「番人気」は抽出しない
+    "jra_past_date": re.compile(r'<div class="date">(\d+)年(\d+)月(\d+)日</div>'),    # 近走の施行日
+    "jra_past_rc": re.compile(r'<div class="rc">([^<]+)</div>'),                      # 近走の競馬場
+    "jra_past_race": re.compile(r'<div class="name"><a[^>]*>([^<]+)</a>'),            # 近走のレース名
+    "jra_past_pos": re.compile(r'<div class="place">(\d+)<span>着'),                  # 近走の着順
     # JRA出馬表のレース条件: race_title 内 <td class="dist">ダート1,800<span>メートル</span>（権威ソース）
     "jra_dist": re.compile(r'class="dist">(ダート|芝|障害)([\d,]+)<span>(?:メートル|ｍ)'),
 }
@@ -226,8 +231,17 @@ def parse_jra_full(h):
             am = PATTERNS["jra_agari"].search(p)
             if am:
                 agari.append(float(am.group(1)))
+            dm = PATTERNS["jra_past_date"].search(p)
+            rcm = PATTERNS["jra_past_rc"].search(p)
+            rnm = PATTERNS["jra_past_race"].search(p)
+            pom = PATTERNS["jra_past_pos"].search(p)
             recent.append({"first_corner": fc, "field": field,
-                           "agari": float(am.group(1)) if am else None})
+                           "agari": float(am.group(1)) if am else None,
+                           "date": (f"{dm.group(1)}-{int(dm.group(2)):02d}-{int(dm.group(3)):02d}"
+                                    if dm else None),
+                           "venue": html.unescape(rcm.group(1)).strip() if rcm else None,
+                           "race": html.unescape(rnm.group(1)).strip() if rnm else None,
+                           "pos": int(pom.group(1)) if pom else None})
         style = Counter(legs).most_common(1)[0][0] if legs else None
         ten = None
         if ratios:
@@ -254,6 +268,26 @@ def parse_jra_full(h):
         })
     horses.sort(key=lambda x: x["no"] or 999)
     return horses
+
+
+def compute_h2h(horses):
+    """近走の直接対戦＝同一過去レースに今回の出走馬2頭以上が出ていた事実を抽出（JRA経路のみ）。
+    観点E用: 先行争い当事者が対戦した時「実際にどちらが前だったか」をラベルや推測でなく決定論で出す。
+    1角順に並べる＝先頭が「前を取った側」。★市場ゼロ: 人気は抽出しない。"""
+    seen = {}
+    for h in horses:
+        for r in (h.get("recent") or []):
+            key = (r.get("date"), r.get("venue"), r.get("race"))
+            if not all(key):
+                continue
+            seen.setdefault(key, []).append(
+                {"no": h["no"], "name": h["name"],
+                 "first_corner": r["first_corner"], "pos": r.get("pos")})
+    out = [{"date": d, "venue": v, "race": rn,
+            "horses": sorted(lst, key=lambda x: x["first_corner"])}
+           for (d, v, rn), lst in seen.items() if len(lst) >= 2]
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out
 
 
 def parse_jra_cond(h):
@@ -300,7 +334,8 @@ def cmd_race(rid, as_json, do_check):
         horses, cond = jra_fetch_race(date, place, rno)
         data = {"race_id": rid, "source": "jra", "n": len(horses),
                 "surface": cond["surface"], "distance": cond["distance"], "headcount": cond["headcount"],
-                "draw_fixed": any(h["waku"] for h in horses), "horses": horses}
+                "draw_fixed": any(h["waku"] for h in horses), "horses": horses,
+                "h2h": compute_h2h(horses)}
     except Exception as e:                       # ② 競馬ラボ（任意日付OK・過去/未来週やJRA障害時）
         url = f"https://www.keibalab.jp/db/race/{rid}/"
         data = parse_race(fetch(url))
@@ -340,6 +375,10 @@ def cmd_race(rid, as_json, do_check):
     print(f"  race_id={rid}  頭数={data.get('headcount') or data['n']}  枠順={'確定' if data['draw_fixed'] else '未確定'}")
     leaders = [h["name"] for h in data["horses"] if (h.get("style") or "") and ("逃" in h["style"] or "先" in h["style"])]
     print(f"  ハナ・先行候補: {', '.join(leaders) or '不明'}")
+    for m in (data.get("h2h") or [])[:10]:
+        order = " → ".join((f"#{x['no']}" if x['no'] else "") + x['name'] + f"(1角{x['first_corner']}位"
+                           + (f"・{x['pos']}着" if x['pos'] else "") + ")" for x in m["horses"])
+        print(f"  対戦歴 {m['date']} {m['venue']}{m['race']}: {order}")
     for h in data["horses"]:
         head = f"{h['waku']}-{h['no']}" if h.get("no") else "?-?"
         if data["source"] == "jra":
