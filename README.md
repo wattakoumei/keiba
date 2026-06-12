@@ -79,6 +79,7 @@ keiba/
 ├── tools/
 │   ├── fetch_racecard.py        # 出走表取得（JRA優先・脚質/テン速/血統/h2h。オッズ非取得）
 │   ├── fetch_result.py          # 確定結果取得（通過順・上がり・pace_aids。JRAのみ）
+│   ├── fetch_oikiri.py          # 追い切り好時計リスト（競馬ブック・観点Fのseed。全頭でなく上位抜粋）
 │   └── score_race.py            # 任意のサニティチェック（並びの整合のみ・%の正本ではない）
 └── data/
     ├── races/<race-id>/         # 出走表.md / research-<観点>.md / report.md

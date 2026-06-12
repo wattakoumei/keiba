@@ -130,3 +130,22 @@ python3 tools/fetch_result.py <race_id12桁> [--json]   # race_id = YYYYMMDD+場
   `top3_first_corner`(上位3頭の1角位置=前残りか差し決着か) / `top3_last_corner` / `agari_fastest`(上がり最速馬の着順=届いたか) /
   `rho_lastcorner_rank`(最終角位置×着順の Spearman ρ。+1寄り=前残り、低い=差し台頭)。
 - エラー stage: `validate`(12桁でない) / `fetch` / `parse_tbody` / `parse_no_horses`。
+
+## fetch_oikiri.py（追い切り好時計リスト・観点Fのseed）
+
+```
+python3 tools/fetch_oikiri.py week [--date M/D] [--json]
+```
+
+- 競馬ブック ベスト調教（`p.keibabook.co.jp/cyuou/bestcyokyo`・**静的UTF-8・無料・urllib可**）から
+  **今週の好時計ランキング**を取得。各馬: 馬名・条件・出走レース・調教日・コース(栗東ＣＷ等)・馬場・各ハロン累計・**ラスト1F**・脚色(馬なり/強め/一杯+余力)。
+- ★市場ゼロ: bestcyokyo はオッズ・人気・予想印を含まない（純粋な調教実測）。
+- **重要な制約**: これは**全出走馬ではなく好時計の上位抜粋**。対象レースの出走馬が載っていれば追い切り好材料の一次事実、載らない馬は F が web 補完（不在＝調教不良ではない）。
+- 用途: 観点 F の seed。読み筋（横比較しない・縦比較優先・ラスト1F・馬なりで好時計・調教駆け注意）は `obs-f-training.md`。
+
+### 追い切りデータ取得の現状（2026-06 調査）
+- **全出走馬の追い切りタイムを無料・標準ライブラリで取る経路は存在しない**のが結論。
+  - netkeiba `race/oikiri.html` は**JS後読み**（urllibでは tr=0・ajax `api_get_racev3_surf` 依存）＝静的取得不可。
+  - JRA公式は重賞のみ＋数値表なし（動画/短評）＋WAF403。JRA-VAN DataLab は有料・Windows COM＝本ハーネス方針(無料/標準ライブラリ/mac)と不適合。
+  - 競馬ラボに追い切りタブは**無い**（404確認）＝既存経路の延長では取れない。
+- よって「競馬ブック好時計ランキング（上位抜粋）を seed・残りは F が web 補完」の二段構えが現実解。

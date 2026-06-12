@@ -78,6 +78,7 @@ R番号・発走時刻・コースを §0-1 の表に埋める。カードが取
 - **スクレイパ seed**（STEP1 の `fetch_racecard.py` 出力）。JRA経路なら 脚質(通過順由来の精密)・テン速・血統(父母父)・枠/馬番・性齢・斤量・騎手・**h2h直接対戦**、競馬ラボ経路なら脚質傾向(粗)・血統・枠。観点E/C/B はこれを **検証・補強**し、ゼロから取り直さない（`references/scraping.md`）
 - **コース物理形状**（`references/course-geometry.md` の該当コース行＝直線長・坂・初角特記）。D/E/展開合成はこれを正本とし **web で再調査しない**
 - **血統カタログ**（`references/pedigree-catalog.md` の出走馬の父・母父に該当する行＋巻頭原則）。C はこれを正本とし**カタログにある血は web 再調査しない**（外の血だけ調査・追記候補で報告）
+- **追い切り好時計 seed**（`python3 tools/fetch_oikiri.py week --json`＝競馬ブック好時計ランキング）。F に渡す。**全頭ではない上位抜粋**＝対象馬が載れば一次事実、不在馬は F が web 補完（不在≠調教不良）
 - 出力スキーマ（`research-protocol.md` 末尾。**観点E は PACE_EVIDENCE_SCHEMA**で生証拠のみ）＋共通鉄則（全馬漏れなく／出典必須／捏造しない／純粋情報のみ）
 
 > **DRY と純粋性の正本**: subagent は `.claude/rules` を自動ロードしない別コンテキスト。よって**純粋性・スキーマ・全馬規律はこの spawn 時注入が正本**（各 agent 定義は再掲せず1行リマインダのみ持つ）。観点を**1つ調整したい**ときは触るのは `.claude/agents/obs-<id>.md` だけ（[editing-map](../../rules/editing-map.md)）。
@@ -94,7 +95,8 @@ export const meta = {
   description: '観点ごとに専属 subagent を並列起動して証拠をweb調査し、全証拠を突き合わせて展開パターンを合成する',
   phases: [{ title: 'Research' }, { title: 'PaceSynthesis' }],
 }
-// args = { raceId, condition, horses, seed, points:[{id}] }  ※ odds は渡さない
+// args = { raceId, condition, horses, seed, pedigree, course, oikiri, points:[{id}] }  ※ odds は渡さない
+//   pedigree=血統カタログ該当行(C用) / course=コース形状該当行(D,E用) / oikiri=追い切り好時計seed(F用)。カタログ内は再調査しない
 //   観点の手順/ソース/スコア指針は .claude/agents/obs-<id>.md（subagent）に内蔵。ここで渡すのはデータ＋共通鉄則のみ
 //   seed = fetch_racecard.py の race 出力（脚質傾向・血統・枠/馬番）。E/C/B は seed を検証・補強する
 
@@ -120,6 +122,10 @@ const research = await parallel(args.points.map(p => () =>
     `# レース条件\n${args.condition}\n\n# 出走馬（全頭）\n${args.horses}\n` +
     // E(脚質)・C(血統)・B(近走脚質) は seed を起点に検証・補強する
     (['E','C','B'].includes(p.id) ? `\n# スクレイパ seed（検証・補強の起点／ゼロから取り直さない）\n${JSON.stringify(args.seed)}\n` : ``) +
+    // C は血統カタログ該当行、D/E はコースカタログ該当行、F は追い切り好時計 seed を渡す（カタログにある分は再調査しない）
+    (p.id==='C' ? `\n# 血統カタログ該当行（pedigree-catalog.md・カタログ内は再調査しない）\n${args.pedigree||''}` : ``) +
+    (['D','E'].includes(p.id) ? `\n# コース物理形状（course-geometry.md 該当行）\n${args.course||''}` : ``) +
+    (p.id==='F' ? `\n# 追い切り好時計 seed（fetch_oikiri.py・好時計の上位抜粋＝全頭でない。不在馬はweb補完）\n${JSON.stringify(args.oikiri||[])}` : ``) +
     `\n${CREED}\n- 結果全文を data/races/${args.raceId}/research-${p.id}.md に保存し、スキーマの構造化要約を返す。`,
     { label:`research:${p.id}`, phase:'Research', schema: p.id==='E'?PACE_EVIDENCE_SCHEMA:RESULT_SCHEMA, agentType: AGENT_OF[p.id] }
   ).catch(()=>null)
