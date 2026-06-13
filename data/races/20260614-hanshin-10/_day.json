@@ -1,0 +1,127 @@
+{
+  "date": "20260614",
+  "place": "09",
+  "place_name": "阪神",
+  "races": [
+    {
+      "race_id": "202606140901",
+      "r": 1,
+      "post_time": "10:05",
+      "surface": "ダ",
+      "distance": 1800,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202606140902",
+      "r": 2,
+      "post_time": "10:35",
+      "surface": "ダ",
+      "distance": 1400,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202606140903",
+      "r": 3,
+      "post_time": "11:05",
+      "surface": "ダ",
+      "distance": 1800,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202606140904",
+      "r": 4,
+      "post_time": "11:35",
+      "surface": "芝",
+      "distance": 2200,
+      "headcount": 17,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202606140905",
+      "r": 5,
+      "post_time": "12:25",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 8,
+      "turn": null,
+      "race_name": "サラ系2歳新馬"
+    },
+    {
+      "race_id": "202606140906",
+      "r": 6,
+      "post_time": "12:55",
+      "surface": "ダ",
+      "distance": 1200,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳上1勝クラス"
+    },
+    {
+      "race_id": "202606140907",
+      "r": 7,
+      "post_time": "13:25",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 11,
+      "turn": null,
+      "race_name": "サラ系3歳上1勝クラス"
+    },
+    {
+      "race_id": "202606140908",
+      "r": 8,
+      "post_time": "13:55",
+      "surface": "ダ",
+      "distance": 1800,
+      "headcount": 9,
+      "turn": null,
+      "race_name": "逆瀬川特別"
+    },
+    {
+      "race_id": "202606140909",
+      "r": 9,
+      "post_time": "14:25",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 14,
+      "turn": null,
+      "race_name": "武庫川特別"
+    },
+    {
+      "race_id": "202606140910",
+      "r": 10,
+      "post_time": "15:00",
+      "surface": "芝",
+      "distance": 1600,
+      "headcount": 14,
+      "turn": null,
+      "race_name": "花のみちステークス"
+    },
+    {
+      "race_id": "202606140911",
+      "r": 11,
+      "post_time": "15:40",
+      "surface": "芝",
+      "distance": 2200,
+      "headcount": 18,
+      "turn": null,
+      "race_name": "宝塚記念(ＧⅠ)"
+    },
+    {
+      "race_id": "202606140912",
+      "r": 12,
+      "post_time": "16:30",
+      "surface": "ダ",
+      "distance": 1200,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "リボン賞"
+    }
+  ]
+}
