@@ -9,8 +9,8 @@
 ★市場ゼロ: bestcyokyo はオッズ・人気・他人の予想印を含まない（純粋な調教実測のみ）。
 
 使い方:
-  python3 tools/fetch_oikiri.py week [--date MMDD] [--json]
-  --date 6/14 等で出走日フィルタ（省略時は今週全部）
+  python3 tools/fetch_oikiri.py week [--date M/D] [--json]
+  --date 6/14（M/D・先頭ゼロ可）で出走日フィルタ（省略時は今週全部）
 
 出力フィールド（各馬）:
   name / cond(条件) / race(出走レース M/D 場 R) / train_date / course(栗東ＣＷ等) / going /
@@ -41,6 +41,15 @@ LOAD = re.compile(r'(馬なり|強め|一杯|直一)(?:余力)?')
 
 def clean(s):
     return re.sub(r'\s+', '', TAG.sub('', s)).strip()
+
+
+def norm_date(s):
+    """--date を race 列('6/14 阪神 11R')と同じ M/D（先頭ゼロ無し）へ正規化。
+    '6/14' / '06/14' / '6-14' を許容。形が違えばそのまま返す（後段で素直に比較）。"""
+    if not s:
+        return None
+    m = re.match(r'^\s*0?(\d{1,2})\s*[/\-]\s*0?(\d{1,2})\s*$', s)
+    return f"{int(m.group(1))}/{int(m.group(2))}" if m else s.strip()
 
 
 def parse_row(cells):
@@ -120,7 +129,7 @@ def main():
     date_filter = None
     for i, a in enumerate(sys.argv):
         if a == "--date" and i + 1 < len(sys.argv):
-            date_filter = sys.argv[i + 1]
+            date_filter = norm_date(sys.argv[i + 1])
     out = fetch(date_filter)
     if as_json:
         print(json.dumps(out, ensure_ascii=False, indent=2))
