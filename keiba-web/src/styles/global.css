@@ -1,22 +1,22 @@
 :root {
-  --bg: #0f1115;
-  --panel: #171a21;
-  --panel-2: #1e222b;
-  --line: #2a2f3a;
-  --text: #e7e9ee;
-  --muted: #98a0ad;
-  --accent: #5aa9ff;
-  /* 印カラー */
-  --mark-honmei: #ffd54a;   /* ◎ */
-  --mark-taikou: #66d9a6;   /* ◯ */
-  --mark-tanana: #7db8ff;   /* ▲ */
-  --mark-renka: #c3a6ff;    /* △ */
-  --mark-chui: #ff9d6e;     /* × */
-  --mark-himo: #9aa3b2;     /* 注 */
+  --bg: #fdfdfd;
+  --panel: #ffffff;
+  --panel-2: #eef1f6;       /* 入れ子・選択中・展開セル */
+  --line: #e0e4ea;
+  --text: #1b1f27;
+  --muted: #5f6878;
+  --accent: #2563eb;
+  /* 印カラー（白背景で読める濃さ） */
+  --mark-honmei: #b8860b;   /* ◎ 金 */
+  --mark-taikou: #128a55;   /* ◯ 緑 */
+  --mark-tanana: #2563eb;   /* ▲ 青 */
+  --mark-renka: #7c3aed;    /* △ 紫 */
+  --mark-chui: #d9730b;     /* × 橙 */
+  --mark-himo: #6b7280;     /* 注 灰 */
   /* 展開列符号 */
-  --fit-center: #ffd54a;
-  --fit-in: #66d9a6;
-  --fit-spot: #c3a6ff;
+  --fit-center: #c8860b;
+  --fit-in: #128a55;
+  --fit-spot: #7c3aed;
 }
 
 * { box-sizing: border-box; }
@@ -61,7 +61,7 @@ h3 { font-size: 0.95rem; margin: 14px 0 6px; color: var(--muted); }
   background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
   border-radius: 999px; padding: 5px 11px; line-height: 1;
 }
-.chip[aria-pressed="true"] { background: var(--accent); color: #04122a; border-color: var(--accent); font-weight: 700; }
+.chip[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 700; }
 .chip.small { font-size: 0.74rem; padding: 4px 9px; }
 
 .tier { font-size: 0.72rem; color: var(--muted); }
@@ -112,10 +112,11 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .fit.on { font-weight: 800; background: var(--panel-2); }
 
 /* highlight / dim */
-.row.dim { opacity: 0.34; }
-.row.hit.fit-center { background: color-mix(in srgb, var(--fit-center) 12%, transparent); }
-.row.hit.fit-in { background: color-mix(in srgb, var(--fit-in) 12%, transparent); }
-.row.hit.fit-spot { background: color-mix(in srgb, var(--fit-spot) 10%, transparent); }
+.row.dim { opacity: 0.4; }
+.row.hit > td { border-bottom-color: transparent; }
+.row.hit.fit-center { background: color-mix(in srgb, var(--fit-center) 20%, white); box-shadow: inset 4px 0 0 var(--fit-center); }
+.row.hit.fit-in { background: color-mix(in srgb, var(--fit-in) 18%, white); box-shadow: inset 4px 0 0 var(--fit-in); }
+.row.hit.fit-spot { background: color-mix(in srgb, var(--fit-spot) 16%, white); box-shadow: inset 4px 0 0 var(--fit-spot); }
 .row.excluded .hname { text-decoration: line-through; }
 
 .exp { background: none; border: none; color: var(--muted); font-size: 1rem; cursor: pointer; padding: 0 2px; }
@@ -163,11 +164,11 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .la .adv.neg { color: var(--muted); opacity: 0.8; }
 .la .adv.zero { color: var(--muted); }
 
-/* ---- 脚質タイプ色（§2有利脚質・§3着順表で共通）---- */
-.leg-nige { color: #ff8a8a; font-weight: 700; }   /* 逃 */
-.leg-senko { color: #ffc46e; font-weight: 700; }  /* 先 */
-.leg-sashi { color: #7db8ff; font-weight: 700; }  /* 差 */
-.leg-oikomi { color: #7be0a8; font-weight: 700; } /* 追 */
+/* ---- 脚質タイプ色（§2有利脚質・§3着順表で共通・白地で読める濃さ）---- */
+.leg-nige { color: #d62828; font-weight: 700; }   /* 逃 赤 */
+.leg-senko { color: #d9730b; font-weight: 700; }  /* 先 橙 */
+.leg-sashi { color: #2563eb; font-weight: 700; }  /* 差 青 */
+.leg-oikomi { color: #128a55; font-weight: 700; } /* 追 緑 */
 .legtype { font-variant-numeric: tabular-nums; }
 
 .rs-line span { display: inline-block; margin-right: 12px; }

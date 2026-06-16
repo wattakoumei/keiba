@@ -157,18 +157,7 @@ export default function RaceView({ race }) {
         </table>
       </div>
 
-      {(pace.formation_note || pace.bias_note || pace.shape_note) && (
-        <details class="fold inline-fold">
-          <summary>展開メモ（隊列・バイアス）</summary>
-          {pace.shape_note && <p class="sub">{pace.shape_note}</p>}
-          {pace.formation_note && <p class="sub">隊列: {pace.formation_note}</p>}
-          {pace.bias_note && <p class="sub">バイアス: {pace.bias_note}</p>}
-        </details>
-      )}
-
-      {pace.transmission && <p class="contract bridge">展開→着順: {pace.transmission}</p>}
-
-      {/* ===== §3 着順予想 ===== */}
+      {/* ===== §3 着順予想（§2表の直下に配置＝行タップ→ハイライトを近づける）===== */}
       <h2>§3 着順予想（成果物2）</h2>
 
       <div class="controls">
@@ -239,6 +228,17 @@ export default function RaceView({ race }) {
         脚質 <LegType text="逃" /> <LegType text="先" /> <LegType text="差" /> <LegType text="追" />。
         除外・注目は端末内のみ（共有されません）。
       </p>
+
+      {/* 展開→着順の伝達・展開メモは §3 表の下へ（§2↔§3 のハイライト操作を近接させるため） */}
+      {pace.transmission && <p class="contract bridge">展開→着順: {pace.transmission}</p>}
+      {(pace.formation_note || pace.bias_note || pace.shape_note) && (
+        <details class="fold inline-fold">
+          <summary>展開メモ（隊列・バイアス）</summary>
+          {pace.shape_note && <p class="sub">{pace.shape_note}</p>}
+          {pace.formation_note && <p class="sub">隊列: {pace.formation_note}</p>}
+          {pace.bias_note && <p class="sub">バイアス: {pace.bias_note}</p>}
+        </details>
+      )}
     </div>
   );
 }
