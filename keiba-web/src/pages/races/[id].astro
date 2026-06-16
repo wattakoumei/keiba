@@ -9,71 +9,87 @@ export function getStaticPaths() {
 const { race } = Astro.props;
 const c = race.course ?? {};
 const db = race.day_board ?? {};
+const pace = race.pace ?? {};
+const hasDayBoard =
+  db.reference_races?.length || db.going?.length || db.paddock_watch?.length || db.other_unknowns?.length;
 ---
 <Base title={`${race.race_name} 分析`}>
   <h1>🏇 {race.edition ?? ''} {race.race_name}{race.grade ? `（${race.grade}）` : ''}</h1>
   <p class="sub">
-    {race.date} · {c.track}{c.surface}{c.distance}m{c.direction ? `（${c.direction}回り）` : ''} · {race.conditions} · {race.field_size}頭 · model {race.model_version}
+    {race.date} · {c.track}{c.surface}{c.distance}m{c.direction ? `（${c.direction}回り）` : ''} · {race.conditions} · {race.field_size}頭
   </p>
-  {race.header_notes?.length > 0 && (
-    <ul class="notes">{race.header_notes.map((n) => <li>{n}</li>)}</ul>
-  )}
 
-  <!-- §1 当日の分岐点 -->
+  {/* メタ・検証契約は折りたたみ（初期表示から外す） */}
+  <details class="fold meta-fold">
+    <summary>レポート情報</summary>
+    {race.header_notes?.length > 0 && (
+      <ul class="notes">{race.header_notes.map((n) => <li>{n}</li>)}</ul>
+    )}
+    {pace.verification_contract && <p class="contract">展開の検証契約: {pace.verification_contract}</p>}
+    {race.rank_verification_contract && <p class="contract">着順の検証契約: {race.rank_verification_contract}</p>}
+    {race.model_version && <p class="sub">model {race.model_version}</p>}
+  </details>
+
+  {/* §1 当日の分岐点 */}
   <h2>当日の分岐点</h2>
   <p class="pivot">{race.pivot}</p>
 
-  <!-- §0 当日ボード（read-only） -->
-  <h2>§0 当日ボード（read-only）</h2>
-  {db.reference_races?.length > 0 && (
-    <>
-      <h3>参考レース（当日バイアス採取）</h3>
-      <div class="scroll-x">
-        <table>
-          <thead><tr><th>R</th><th>発走</th><th>コース</th><th>一致</th><th>何を読む</th></tr></thead>
-          <tbody>
-            {db.reference_races.map((x) => (
-              <tr><td class="nowrap">{x.label}</td><td>{x.when}</td><td class="nowrap">{x.course}</td><td>{x.match}</td><td>{x.watch}</td></tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      {db.reference_note && <p class="sub">{db.reference_note}</p>}
-      {db.observation_blanks && <p class="contract">観察記入欄: {db.observation_blanks}</p>}
-    </>
-  )}
-  {db.going?.length > 0 && (
-    <>
-      <h3>馬場</h3>
-      <ul class="notes">{db.going.map((g) => <li><b>{g.item}</b>: {g.read}</li>)}</ul>
-    </>
-  )}
-  {db.paddock_watch?.length > 0 && (
-    <>
-      <h3>パドック注目馬</h3>
-      <ul class="notes">{db.paddock_watch.map((p) => <li>{p.mark} {p.gate_no} {p.horse}（{p.weight_note}）</li>)}</ul>
-    </>
-  )}
-  {db.other_unknowns?.length > 0 && (
-    <ul class="notes">{db.other_unknowns.map((n) => <li>{n}</li>)}</ul>
-  )}
-
-  <!-- §2 展開予想 ＋ §3 着順予想（インタラクティブ） -->
+  {/* §2 展開予想 ＋ §3 着順予想（インタラクティブ） */}
   <RaceView race={race} client:load />
 
-  <!-- §4 データの確かさ -->
-  <h2>§4 データの確かさ・補強</h2>
-  {race.data_confidence?.length > 0 && (
-    <ul class="notes">{race.data_confidence.map((n) => <li>{n}</li>)}</ul>
-  )}
-  {race.reinforcement_requests?.length > 0 && (
-    <>
-      <h3>補強のお願い</h3>
-      <ul class="notes">{race.reinforcement_requests.map((n) => <li>{n}</li>)}</ul>
-    </>
+  {/* §0 当日ボード（read-only・下部へ移動・折りたたみ） */}
+  {hasDayBoard && (
+    <details class="fold sec-fold">
+      <summary>§0 当日ボード（read-only）</summary>
+      {db.reference_races?.length > 0 && (
+        <>
+          <h3>参考レース（当日バイアス採取）</h3>
+          <div class="scroll-x">
+            <table>
+              <thead><tr><th>R</th><th>発走</th><th>コース</th><th>一致</th><th>何を読む</th></tr></thead>
+              <tbody>
+                {db.reference_races.map((x) => (
+                  <tr><td class="nowrap">{x.label}</td><td>{x.when}</td><td class="nowrap">{x.course}</td><td>{x.match}</td><td>{x.watch}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {db.reference_note && <p class="sub">{db.reference_note}</p>}
+          {db.observation_blanks && <p class="contract">観察記入欄: {db.observation_blanks}</p>}
+        </>
+      )}
+      {db.going?.length > 0 && (
+        <>
+          <h3>馬場</h3>
+          <ul class="notes">{db.going.map((g) => <li><b>{g.item}</b>: {g.read}</li>)}</ul>
+        </>
+      )}
+      {db.paddock_watch?.length > 0 && (
+        <>
+          <h3>パドック注目馬</h3>
+          <ul class="notes">{db.paddock_watch.map((p) => <li>{p.mark} {p.gate_no} {p.horse}（{p.weight_note}）</li>)}</ul>
+        </>
+      )}
+      {db.other_unknowns?.length > 0 && (
+        <ul class="notes">{db.other_unknowns.map((n) => <li>{n}</li>)}</ul>
+      )}
+    </details>
   )}
 
-  <!-- §5 免責（静的） -->
-  <h2>免責</h2>
-  <p class="sub">予測であり的中を保証しない。賭けは自己責任で、馬券選択・実ベットは人間判断。市場（オッズ・人気・妙味・EV・買い目）は一切参照していない。</p>
+  {/* §4 データの確かさ（下部・折りたたみ） */}
+  <details class="fold sec-fold">
+    <summary>§4 データの確かさ・補強</summary>
+    {race.data_confidence?.length > 0 && (
+      <ul class="notes">{race.data_confidence.map((n) => <li>{n}</li>)}</ul>
+    )}
+    {race.reinforcement_requests?.length > 0 && (
+      <>
+        <h3>補強のお願い</h3>
+        <ul class="notes">{race.reinforcement_requests.map((n) => <li>{n}</li>)}</ul>
+      </>
+    )}
+  </details>
+
+  {/* §5 免責 */}
+  <p class="sub disclaimer">免責: 予測であり的中を保証しない。賭けは自己責任で、馬券選択・実ベットは人間判断。市場（オッズ・人気・妙味・EV・買い目）は一切参照していない。</p>
 </Base>

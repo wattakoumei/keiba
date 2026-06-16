@@ -18,6 +18,21 @@ function legRank(leg = '') {
   return 2.5;
 }
 
+// 有利脚質を色付きトークンで（逃先差追・正=有利/負=不利/0=中立）
+function LegAdv({ la }) {
+  if (!la) return null;
+  const order = ['逃げ', '先行', '差し', '追込'];
+  return (
+    <span class="legadv">
+      {order.filter((k) => k in la).map((k) => {
+        const v = la[k];
+        const cls = v > 0 ? 'pos' : v < 0 ? 'neg' : 'zero';
+        return <span class={`la ${cls}`}>{k[0]}{v > 0 ? '+' : ''}{v}</span>;
+      })}
+    </span>
+  );
+}
+
 function useLocalSet(key) {
   const [set, setSet] = useState(() => new Set());
   useEffect(() => {
@@ -47,9 +62,6 @@ export default function RaceView({ race }) {
   const [excluded, toggleExcluded] = useLocalSet(`keiba:${race.race_id}:excluded`);
   const [starred, toggleStarred] = useLocalSet(`keiba:${race.race_id}:starred`);
 
-  const activePat = patterns.find((p) => p.id === active) || null;
-  const box = (pace.box_reverse ?? []).find((b) => b.pattern === active) || null;
-
   const rows = useMemo(() => {
     const arr = [...rank];
     arr.sort((a, b) =>
@@ -67,60 +79,80 @@ export default function RaceView({ race }) {
       return n;
     });
 
+  const boxFor = (id) => (pace.box_reverse ?? []).find((b) => b.pattern === id) || null;
+
   return (
     <div>
-      {/* ===== §2 展開予想 ===== */}
+      {/* ===== §2 展開予想（パターン表・行が操作子）===== */}
       <h2>§2 展開予想（成果物1）</h2>
-      {pace.verification_contract && <p class="contract">{pace.verification_contract}</p>}
+      <p class="sub">行をタップ → 該当馬を着順表でハイライト＋トリガー/段階フロー/箱組みを展開</p>
 
-      <p class="sub">パターンをタップ → 該当馬を着順表でハイライト＋段階フロー表示</p>
-      <div class="chips">
-        {patterns.map((p) => (
-          <button
-            class={`chip ${TIER_CLASS[p.tier] || ''}`}
-            aria-pressed={active === p.id}
-            onClick={() => setActive(active === p.id ? null : p.id)}
-          >
-            {p.id} {p.name} <span class="tier">{TIER_STAR[p.tier] || p.tier}</span>
-          </button>
-        ))}
+      <div class="scroll-x">
+        <table class="pace-table">
+          <thead>
+            <tr><th></th><th>パターン</th><th>有利脚質</th></tr>
+          </thead>
+          <tbody>
+            {patterns.map((p) => {
+              const on = active === p.id;
+              const box = boxFor(p.id);
+              return (
+                <>
+                  <tr class={`prow ${on ? 'on' : ''}`} onClick={() => setActive(on ? null : p.id)}>
+                    <td><span class="exp">{on ? '▾' : '▸'}</span></td>
+                    <td>
+                      <span class="pname">{p.id} {p.name}</span>{' '}
+                      <span class={`tier ${TIER_CLASS[p.tier] || ''}`}>{TIER_STAR[p.tier] || p.tier}</span>
+                    </td>
+                    <td><LegAdv la={p.leg_advantage} /></td>
+                  </tr>
+                  {on && (
+                    <tr class="pdetail">
+                      <td colSpan={3}>
+                        <p class="sub">トリガー: {p.trigger}</p>
+                        <div class="flow">
+                          <div><span class="flow-k">序盤</span>{p.phase_flow?.early}</div>
+                          <div><span class="flow-k">中盤</span>{p.phase_flow?.mid}</div>
+                          <div><span class="flow-k">終盤</span>{p.phase_flow?.late}</div>
+                          <div><span class="flow-k">結果</span>{p.phase_flow?.result}</div>
+                        </div>
+                        {(p.risers?.length > 0 || p.sinkers?.length > 0) && (
+                          <p class="sub rs-line">
+                            {p.risers?.length > 0 && <span class="up">浮上 {p.risers.join('・')}</span>}
+                            {p.sinkers?.length > 0 && <span class="down">沈む {p.sinkers.join('・')}</span>}
+                          </p>
+                        )}
+                        {box && (
+                          <p class="sub box-line">
+                            {box.center?.length > 0 && <span>中心◎ {box.center.join('・')}</span>}
+                            {box.inside?.length > 0 && <span>圏内○ {box.inside.join('・')}</span>}
+                            {box.spot?.length > 0 && <span>一発△ {box.spot.join('・')}</span>}
+                            {box.drop?.length > 0 && <span class="drop">消し {box.drop.join('・')}</span>}
+                          </p>
+                        )}
+                      </td>
+                    </tr>
+                  )}
+                </>
+              );
+            })}
+          </tbody>
+        </table>
       </div>
 
-      {activePat && (
-        <div class="panel pattern-detail">
-          <div class="pd-head">
-            <b>{activePat.id} {activePat.name}</b>{' '}
-            <span class={`tier ${TIER_CLASS[activePat.tier] || ''}`}>{TIER_STAR[activePat.tier] || activePat.tier}</span>
-          </div>
-          <p class="sub">トリガー: {activePat.trigger}</p>
-          <div class="flow">
-            <div><span class="flow-k">序盤</span>{activePat.phase_flow?.early}</div>
-            <div><span class="flow-k">中盤</span>{activePat.phase_flow?.mid}</div>
-            <div><span class="flow-k">終盤</span>{activePat.phase_flow?.late}</div>
-            <div><span class="flow-k">結果</span>{activePat.phase_flow?.result}</div>
-          </div>
-          {activePat.leg_advantage && (
-            <p class="sub">脚質有利: {Object.entries(activePat.leg_advantage).map(([k, v]) => `${k}${v >= 0 ? '+' : ''}${v}`).join(' / ')}</p>
-          )}
-          {box && (
-            <p class="sub box-line">
-              {box.center?.length > 0 && <span>中心◎ {box.center.join('・')}</span>}
-              {box.inside?.length > 0 && <span>圏内○ {box.inside.join('・')}</span>}
-              {box.spot?.length > 0 && <span>一発△ {box.spot.join('・')}</span>}
-              {box.drop?.length > 0 && <span class="drop">消し {box.drop.join('・')}</span>}
-            </p>
-          )}
-        </div>
+      {(pace.formation_note || pace.bias_note || pace.shape_note) && (
+        <details class="fold inline-fold">
+          <summary>展開メモ（隊列・バイアス）</summary>
+          {pace.shape_note && <p class="sub">{pace.shape_note}</p>}
+          {pace.formation_note && <p class="sub">隊列: {pace.formation_note}</p>}
+          {pace.bias_note && <p class="sub">バイアス: {pace.bias_note}</p>}
+        </details>
       )}
 
-      {pace.shape_note && <p class="sub">{pace.shape_note}</p>}
-      {pace.formation_note && <p class="sub">隊列: {pace.formation_note}</p>}
-      {pace.bias_note && <p class="sub">バイアス: {pace.bias_note}</p>}
-      {pace.transmission && <p class="contract">展開→着順: {pace.transmission}</p>}
+      {pace.transmission && <p class="contract bridge">展開→着順: {pace.transmission}</p>}
 
       {/* ===== §3 着順予想 ===== */}
       <h2>§3 着順予想（成果物2）</h2>
-      {race.rank_verification_contract && <p class="contract">{race.rank_verification_contract}</p>}
 
       <div class="controls">
         <span class="sub">並び:</span>
