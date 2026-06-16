@@ -1,0 +1,5 @@
+# pnpm v11: ビルドスクリプトの許可はここで（package.json の pnpm フィールドは無視される）。
+# Astro のビルドに必要な esbuild と、画像サービスの sharp の postinstall を許可。
+allowBuilds:
+  esbuild: true
+  sharp: true

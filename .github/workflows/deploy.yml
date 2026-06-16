@@ -1,0 +1,48 @@
+name: Deploy keiba-web to GitHub Pages
+
+# keiba-web（Astro）を build して GitHub Pages へ。
+# report.json は同一リポの ../data から build 時に読まれる＝data 同期は不要。
+# 事前準備（1回だけ・手動）: リポジトリ Settings → Pages → Source を「GitHub Actions」に。
+# 無料運用のためリポジトリは public（公開でOKと決定済み）。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'keiba-web/**'
+      - 'data/races/**/report.json'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時デプロイは1本に絞る（進行中はキャンセル）
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build with Astro
+        uses: withastro/action@v3
+        with:
+          path: ./keiba-web          # keiba-web/dist を Pages アーティファクトに
+          package-manager: pnpm@latest
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

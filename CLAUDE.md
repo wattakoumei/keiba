@@ -99,8 +99,8 @@ data/
   races/<race-id>/
     出走表.md            # 核データ（レース条件・出走馬。オッズは持たない）
     research-<観点>.json # 観点別サブエージェントの構造化調査結果（全文proseは廃止＝下流未読のため）
-    report.md            # 最終レポート（§2 展開予想=1行段階フロー / §3 着順予想=展開列・展開感度・好材料・懸念点の表。%・サマリ・mermaid・観点別ハイライトは無し）
-  predictions.jsonl      # 予測ログ（record:"pace" 展開パターン+phase_flow / record:"rank" mark・rank_order・pattern_fit・pros/cons。市場フィールド無し）
+    report.json          # 構造化正本（§0-§4: pace 複数パターン+phase_flow / rank 全馬 印・展開列・展開感度・好材料/懸念。%無し。閲覧は keiba-web=Astro がレンダリング。report.md は廃止＝手書きしない）
+  predictions.jsonl      # 予測ログ（report.json からの自動投影 by tools/project_predictions.py。record:"pace" 展開パターン+phase_flow / record:"rank" mark・rank_order・pattern_fit・pros/cons。市場フィールド無し）
   results.jsonl          # 実結果（着順・通過順・pace_actual+label_reconstructed / pace_review / miss_class）
 ```
 

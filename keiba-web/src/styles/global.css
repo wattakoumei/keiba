@@ -1,0 +1,138 @@
+:root {
+  --bg: #0f1115;
+  --panel: #171a21;
+  --panel-2: #1e222b;
+  --line: #2a2f3a;
+  --text: #e7e9ee;
+  --muted: #98a0ad;
+  --accent: #5aa9ff;
+  /* 印カラー */
+  --mark-honmei: #ffd54a;   /* ◎ */
+  --mark-taikou: #66d9a6;   /* ◯ */
+  --mark-tanana: #7db8ff;   /* ▲ */
+  --mark-renka: #c3a6ff;    /* △ */
+  --mark-chui: #ff9d6e;     /* × */
+  --mark-himo: #9aa3b2;     /* 注 */
+  /* 展開列符号 */
+  --fit-center: #ffd54a;
+  --fit-in: #66d9a6;
+  --fit-spot: #c3a6ff;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  line-height: 1.55;
+  font-size: 15px;
+}
+a { color: var(--accent); text-decoration: none; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 14px 12px 64px; }
+
+h1 { font-size: 1.25rem; margin: 0 0 4px; }
+h2 { font-size: 1.05rem; margin: 22px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 0.95rem; margin: 14px 0 6px; color: var(--muted); }
+.sub { color: var(--muted); font-size: 0.85rem; }
+.contract { color: var(--muted); font-size: 0.8rem; border-left: 2px solid var(--line); padding-left: 8px; margin: 6px 0 12px; }
+
+/* ---- index race list ---- */
+.race-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.race-list a {
+  display: grid; gap: 2px; padding: 12px 14px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px; color: var(--text);
+}
+.race-list .date { color: var(--muted); font-size: 0.8rem; }
+.race-list .name { font-weight: 600; }
+.race-list .meta { color: var(--muted); font-size: 0.82rem; }
+
+/* ---- panels ---- */
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin: 8px 0; }
+.notes { margin: 4px 0; padding-left: 1.1em; }
+.notes li { margin: 2px 0; color: var(--muted); font-size: 0.86rem; }
+.pivot { font-size: 0.98rem; background: var(--panel-2); border-radius: 10px; padding: 12px 14px; border: 1px solid var(--line); }
+
+/* ---- chips ---- */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.chip {
+  font: inherit; font-size: 0.82rem; cursor: pointer;
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+  border-radius: 999px; padding: 5px 11px; line-height: 1;
+}
+.chip[aria-pressed="true"] { background: var(--accent); color: #04122a; border-color: var(--accent); font-weight: 700; }
+.chip.small { font-size: 0.74rem; padding: 4px 9px; }
+
+.tier { font-size: 0.72rem; color: var(--muted); }
+.tier-honmei { color: var(--mark-honmei); }
+.tier-taikou { color: var(--mark-taikou); }
+.tier-fukusen { color: var(--muted); }
+
+/* ---- tables ---- */
+table { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
+th, td { text-align: left; padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
+.scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.nowrap { white-space: nowrap; }
+
+/* ---- pattern detail ---- */
+.pattern-detail .pd-head { font-size: 0.95rem; margin-bottom: 4px; }
+.flow { display: grid; gap: 4px; margin: 6px 0; }
+.flow > div { font-size: 0.85rem; }
+.flow-k { display: inline-block; min-width: 2.6em; color: var(--accent); font-weight: 700; margin-right: 6px; }
+.box-line span { display: inline-block; margin-right: 12px; }
+.box-line .drop { color: var(--muted); }
+
+/* ---- controls ---- */
+.controls { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+
+/* ---- rank table ---- */
+.rank-table td { vertical-align: middle; }
+.mark { font-weight: 800; font-size: 1.02rem; }
+.m-honmei { color: var(--mark-honmei); }
+.m-taikou { color: var(--mark-taikou); }
+.m-tanana { color: var(--mark-tanana); }
+.m-renka { color: var(--mark-renka); }
+.m-chui { color: var(--mark-chui); }
+.m-himo { color: var(--mark-himo); }
+.m-muted { color: var(--muted); }
+
+.hname { font-weight: 600; }
+.jk { font-size: 0.76rem; }
+.cell-horse { cursor: pointer; min-width: 9em; }
+.sens { font-size: 0.8rem; color: var(--muted); max-width: 18em; }
+
+.fits { display: inline-flex; gap: 3px; flex-wrap: wrap; }
+.fit { font-size: 0.74rem; border-radius: 5px; padding: 1px 5px; border: 1px solid var(--line); white-space: nowrap; }
+.fit.fit-center { color: var(--fit-center); border-color: color-mix(in srgb, var(--fit-center) 45%, transparent); }
+.fit.fit-in { color: var(--fit-in); border-color: color-mix(in srgb, var(--fit-in) 45%, transparent); }
+.fit.fit-spot { color: var(--fit-spot); border-color: color-mix(in srgb, var(--fit-spot) 45%, transparent); }
+.fit.on { font-weight: 800; background: var(--panel-2); }
+
+/* highlight / dim */
+.row.dim { opacity: 0.34; }
+.row.hit.fit-center { background: color-mix(in srgb, var(--fit-center) 12%, transparent); }
+.row.hit.fit-in { background: color-mix(in srgb, var(--fit-in) 12%, transparent); }
+.row.hit.fit-spot { background: color-mix(in srgb, var(--fit-spot) 10%, transparent); }
+.row.excluded .hname { text-decoration: line-through; }
+
+.exp { background: none; border: none; color: var(--muted); font-size: 1rem; cursor: pointer; padding: 0 2px; }
+.mini { background: var(--panel-2); border: 1px solid var(--line); color: var(--text); border-radius: 6px; cursor: pointer; padding: 3px 7px; margin-left: 3px; font-size: 0.8rem; }
+
+/* expanded detail */
+.detail-row td { background: var(--panel); }
+.row-detail { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 4px 2px 8px; }
+.row-detail h4 { margin: 4px 0; font-size: 0.82rem; color: var(--muted); }
+.row-detail ul { margin: 0; padding-left: 0; list-style: none; }
+.row-detail li { font-size: 0.84rem; margin: 4px 0; }
+.tag { display: inline-block; background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 5px; margin-right: 6px; font-size: 0.72rem; color: var(--accent); }
+.pros li .tag { color: var(--mark-taikou); }
+.cons li .tag { color: var(--mark-chui); }
+
+@media (max-width: 560px) {
+  .row-detail { grid-template-columns: 1fr; }
+  .sens { display: none; } /* 狭幅では展開感度は行展開で読む */
+  body { font-size: 14px; }
+}

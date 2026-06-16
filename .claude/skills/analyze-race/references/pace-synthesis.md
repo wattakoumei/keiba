@@ -110,4 +110,4 @@
    エンジンを併用する場合は新しい `prob`/`pace_level` で再実行し並びの整合だけ確認する。
 4. ただし当日情報が**特定馬の状態**（パドック激減・腹目立つ等）なら、その馬の観点 H/G の読み（好材料/懸念点）だけ更新して並びを部分見直ししてよい。
 
-> 当日更新は report.md の §2 に「当日修正」追記、predictions.jsonl には更新後の pace/rank レコードを**追記**（上書きせず履歴を残す。`note` に "当日更新" を付す）。
+> 当日更新は **report.json を更新 → `tools/validate_report.py <race-id>` → `tools/project_predictions.py <race-id> --update`**（predictions.jsonl に `note:"当日更新"` で履歴 append・上書きせず履歴を残す）。

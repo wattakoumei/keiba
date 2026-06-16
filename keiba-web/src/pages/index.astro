@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadRaces } from '../lib/races.js';
+const races = loadRaces();
+const base = import.meta.env.BASE_URL;
+---
+<Base title="競馬予想レポート">
+  <h1>競馬予想レポート</h1>
+  <p class="sub">展開予想・着順予想（百分率は出さない／市場は使わない）。{races.length} レース。</p>
+  {races.length === 0 ? (
+    <p class="panel">report.json がまだありません（新レースを analyze-race で出力すると並びます）。</p>
+  ) : (
+    <ul class="race-list">
+      {races.map((r) => (
+        <li>
+          <a href={`${base}races/${r.race_id}/`}>
+            <span class="date">{r.date}</span>
+            <span class="name">{r.edition ?? ''} {r.race_name}{r.grade ? `（${r.grade}）` : ''}</span>
+            <span class="meta">{r.course?.track}{r.course?.surface}{r.course?.distance}m · {r.field_size}頭</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>
