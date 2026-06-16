@@ -158,9 +158,17 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 
 .legadv { display: inline-flex; gap: 4px; flex-wrap: wrap; }
 .la { font-size: 0.78rem; font-variant-numeric: tabular-nums; border-radius: 5px; padding: 1px 5px; border: 1px solid var(--line); }
-.la.pos { color: #7be0a8; border-color: color-mix(in srgb, #7be0a8 45%, transparent); font-weight: 700; }
-.la.neg { color: #ff9d9d; opacity: 0.85; }
-.la.zero { color: var(--muted); }
+.la .adv { margin-left: 1px; }
+.la .adv.pos { font-weight: 800; }
+.la .adv.neg { color: var(--muted); opacity: 0.8; }
+.la .adv.zero { color: var(--muted); }
+
+/* ---- 脚質タイプ色（§2有利脚質・§3着順表で共通）---- */
+.leg-nige { color: #ff8a8a; font-weight: 700; }   /* 逃 */
+.leg-senko { color: #ffc46e; font-weight: 700; }  /* 先 */
+.leg-sashi { color: #7db8ff; font-weight: 700; }  /* 差 */
+.leg-oikomi { color: #7be0a8; font-weight: 700; } /* 追 */
+.legtype { font-variant-numeric: tabular-nums; }
 
 .rs-line span { display: inline-block; margin-right: 12px; }
 .rs-line .up { color: var(--fit-in); }

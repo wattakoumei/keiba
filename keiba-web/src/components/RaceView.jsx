@@ -9,6 +9,18 @@ const FIT_CLASS = { '◎': 'fit-center', '○': 'fit-in', '△': 'fit-spot' };
 const TIER_CLASS = { '本線': 'tier-honmei', '対抗': 'tier-taikou', '伏線': 'tier-fukusen' };
 const TIER_STAR = { '本線': '★★★', '対抗': '★★', '伏線': '★' };
 
+// 脚質タイプの色（逃→先→差→追＝前→後を暖→寒で）。§2有利脚質と§3着順表で共通。
+const LEG_COLOR = { '逃': 'leg-nige', '先': 'leg-senko', '差': 'leg-sashi', '追': 'leg-oikomi' };
+
+// 脚質文字列の 逃/先/差/追 だけ着色（"先〜好位""差・捲り" 等の他文字はそのまま）
+function LegType({ text = '' }) {
+  return (
+    <span class="legtype">
+      {[...text].map((ch) => (LEG_COLOR[ch] ? <span class={LEG_COLOR[ch]}>{ch}</span> : ch))}
+    </span>
+  );
+}
+
 // 脚質順: 逃<先<差<追（first-match 優先）
 function legRank(leg = '') {
   if (leg.includes('逃')) return 0;
@@ -18,7 +30,7 @@ function legRank(leg = '') {
   return 2.5;
 }
 
-// 有利脚質を色付きトークンで（逃先差追・正=有利/負=不利/0=中立）
+// 有利脚質トークン: 脚質文字は type 色（§3と共通）、有利度は数値の強弱で（正=強調/負=淡）
 function LegAdv({ la }) {
   if (!la) return null;
   const order = ['逃げ', '先行', '差し', '追込'];
@@ -26,8 +38,13 @@ function LegAdv({ la }) {
     <span class="legadv">
       {order.filter((k) => k in la).map((k) => {
         const v = la[k];
-        const cls = v > 0 ? 'pos' : v < 0 ? 'neg' : 'zero';
-        return <span class={`la ${cls}`}>{k[0]}{v > 0 ? '+' : ''}{v}</span>;
+        const adv = v > 0 ? 'pos' : v < 0 ? 'neg' : 'zero';
+        return (
+          <span class="la">
+            <span class={LEG_COLOR[k[0]]}>{k[0]}</span>
+            <span class={`adv ${adv}`}>{v > 0 ? '+' : ''}{v}</span>
+          </span>
+        );
       })}
     </span>
   );
@@ -180,7 +197,7 @@ export default function RaceView({ race }) {
                     <td class="nowrap">{r.gate}-{r.no}</td>
                     <td class="cell-horse" onClick={() => toggleExpand(r.no)}>
                       <div class="hname">{starred.has(r.no) ? '⭐ ' : ''}{r.horse}</div>
-                      <div class="sub jk">{r.jockey}{r.jockey_change ? `（${r.jockey_change}）` : ''} · {r.leg_type}</div>
+                      <div class="sub jk">{r.jockey}{r.jockey_change ? `（${r.jockey_change}）` : ''} · <LegType text={r.leg_type} /></div>
                     </td>
                     <td>
                       <span class="fits">
@@ -217,7 +234,11 @@ export default function RaceView({ race }) {
           </tbody>
         </table>
       </div>
-      <p class="sub">印 ◎本命 ◯対抗 ▲単穴 △連下 ×注意 注ヒモ。展開列 ◎中心/○圏内/△一発（圏外は非表示）。除外・注目は端末内のみ（共有されません）。</p>
+      <p class="sub">
+        印 ◎本命 ◯対抗 ▲単穴 △連下 ×注意 注ヒモ。展開列 ◎中心/○圏内/△一発（圏外は非表示）。
+        脚質 <LegType text="逃" /> <LegType text="先" /> <LegType text="差" /> <LegType text="追" />。
+        除外・注目は端末内のみ（共有されません）。
+      </p>
     </div>
   );
 }
