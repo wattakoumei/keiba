@@ -34,7 +34,8 @@ jobs:
         uses: withastro/action@v3
         with:
           path: ./keiba-web          # keiba-web/dist を Pages アーティファクトに
-          package-manager: pnpm@latest
+          node-version: 24           # pnpm 11 は Node>=22.13 必須（既定の20だと node:sqlite で落ちる）
+          package-manager: pnpm@11.1.3  # ローカルと同版に固定（lockfile/allowBuilds と整合）
 
   deploy:
     needs: build
