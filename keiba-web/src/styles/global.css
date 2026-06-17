@@ -101,6 +101,11 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 
 .hname { font-weight: 600; }
 .jk { font-size: 0.76rem; }
+.intent { margin-left: 6px; font-size: 0.82rem; font-weight: 800; vertical-align: middle; letter-spacing: -1px; }
+.i-up2 { color: #d8261c; }
+.i-up { color: #e8771a; }
+.i-flat { color: var(--muted); font-weight: 600; }
+.i-down { color: #2b7bd6; }
 .cell-horse { cursor: pointer; min-width: 9em; }
 .sens { font-size: 0.8rem; color: var(--muted); max-width: 18em; }
 
@@ -156,6 +161,14 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .pace-table .prow.on > td { border-bottom: none; }
 .pace-table .pname { font-weight: 600; }
 .pace-table .pdetail > td { padding: 2px 10px 12px; background: var(--panel-2); border-bottom: 1px solid var(--line); }
+
+/* 展開トリガー早見（pace_factors）= 来そうな展開の判断材料 */
+.factor-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.factor-table th { color: var(--muted); font-size: 0.76rem; font-weight: 600; text-align: left; padding: 4px 7px; border-bottom: 1px solid var(--line); }
+.factor-table td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.factor-table tr:last-child td { border-bottom: none; }
+.factor-table .f-name { font-weight: 600; white-space: nowrap; color: var(--accent); }
+.factor-table .f-day { white-space: nowrap; }
 
 .legadv { display: inline-flex; gap: 4px; flex-wrap: wrap; }
 .la { font-size: 0.78rem; font-variant-numeric: tabular-nums; border-radius: 5px; padding: 1px 5px; border: 1px solid var(--line); }

@@ -6,8 +6,14 @@ results.jsonl 記入と pace_actual（実効ペース層）復元のための素
 ★市場ゼロ: 人気・単勝オッズは parse 時に物理的に捨てる（証拠にもログにも入れない）。
 
 使い方:
-  python3 tools/fetch_result.py <race_id> [--json]
+  python3 tools/fetch_result.py <race_id> [--json]                  # 1レースの確定結果
+  python3 tools/fetch_result.py history <race_id> [<race_id> ...] [--json]  # 過去開催のペース署名（例年傾向の素材）
   race_id = YYYYMMDD + 場2桁 + R2桁（例 阪神12R=202606060912。JRAのみ＝NARは対象外）
+
+history: 同一レースの過去開催 race_id を複数渡すと、各開催のペース署名（勝ち馬の通過位置・上位3頭の1角位置・
+  上がり最速馬の着順・最終角×着順の順位相関）と、それらの素材集計を返す。これが pace-synthesis の
+  pace_factors「例年傾向」行の源（前残り基調か差し決着多めか）。NAR(地方)は keibalab DB 経路の制約で
+  取得不確実＝取れない開催は {race_id,error} で個別に欠落させ全体は落とさない（web で補完）。**結論(H/M/S)は出さない＝素材**。
 
 出力フィールド（results.jsonl の finish[] に対応）:
   rank(int) / no(int) / name / passing("3-3-4-2" 正規化) / agari(float|null) / time_sec(float|null) ほか
@@ -115,14 +121,21 @@ def pace_aids(finishers):
     }
 
 
-def fetch(race_id):
+class FetchError(Exception):
+    """取得・パース失敗（呼び出し側で個別処理＝history が1件失敗で全滅しないため）。"""
+    def __init__(self, stage, msg, url):
+        super().__init__(msg)
+        self.stage, self.msg, self.url = stage, msg, url
+
+
+def _fetch(race_id):
+    """確定結果を取得して構造化（失敗時は FetchError を送出）。"""
     url = f"https://www.keibalab.jp/db/race/{race_id}/"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         data = urllib.request.urlopen(req, timeout=25).read()
     except Exception as e:
-        print(json.dumps({"error": str(e), "stage": "fetch", "url": url}), file=sys.stderr)
-        sys.exit(1)
+        raise FetchError("fetch", str(e), url)
     txt = data.decode('utf-8', 'replace')
     title_m = re.search(r'<title>([^<]*)</title>', txt)
     title = title_m.group(1) if title_m else ""
@@ -130,8 +143,7 @@ def fetch(race_id):
     # 結果テーブル本体 <tbody>...</tbody> の最初の塊（結果表）
     tb = re.search(r'<tbody>(.*?)</tbody>', txt, re.S)
     if not tb:
-        print(json.dumps({"error": "no tbody", "stage": "parse_tbody", "url": url}), file=sys.stderr)
-        sys.exit(1)
+        raise FetchError("parse_tbody", "no tbody", url)
     rows = ROW.findall(tb.group(1))
     horses = []
     for r in rows:
@@ -168,19 +180,105 @@ def fetch(race_id):
     finishers = sorted([h for h in horses if h["rank"]], key=lambda h: h["rank"])
     non_finishers = [h for h in horses if not h["rank"]]
     if not finishers:
-        print(json.dumps({"error": "no horses found", "stage": "parse_no_horses", "url": url}), file=sys.stderr)
-        sys.exit(1)
+        raise FetchError("parse_no_horses", "no horses found", url)
     return {"race_id": race_id, "source": "keibalab", "title": title,
             "n": len(finishers), "horses": finishers, "non_finishers": non_finishers,
             "pace_aids": pace_aids(finishers), "url": url}
+
+
+def fetch(race_id):
+    """単一レースCLI用ラッパ（失敗時は stderr 出力＋非ゼロ終了で従来挙動を保つ）。"""
+    try:
+        return _fetch(race_id)
+    except FetchError as e:
+        print(json.dumps({"error": e.msg, "stage": e.stage, "url": e.url}), file=sys.stderr)
+        sys.exit(1)
+
+
+def _mean(xs):
+    xs = [x for x in xs if x is not None]
+    return round(sum(xs) / len(xs), 2) if xs else None
+
+
+def history(race_ids):
+    """同一レースの過去開催から「ペース署名」を集めて素材化する（結論=H/M/S は出さない）。
+
+    各開催: 勝ち馬の通過位置・上位3頭の1角位置・上がり最速馬の着順・ρ(最終角,着順)。
+    集計: 勝ち馬の平均1角位置・前々(1角≤3)で勝った開催数・上がり最速が勝った(差し決着)開催数・平均ρ。
+    → pace-synthesis が「前残り基調／差し決着多め」を定性で著作する素材（pace_factors の例年傾向行）。
+    """
+    editions = []
+    for rid in race_ids:
+        try:
+            r = _fetch(rid)
+        except FetchError as e:
+            editions.append({"race_id": rid, "error": e.stage})
+            continue
+        fin = r["horses"]
+        w = fin[0] if fin else None
+        a = r["pace_aids"]
+        editions.append({
+            "race_id": rid,
+            "year": rid[:4],
+            "n": r["n"],
+            "winner_no": w["no"] if w else None,
+            "winner_passing": w["passing"] if w else "",
+            "winner_first_corner": (w["passing_pos"][0] if w and w["passing_pos"] else None),
+            "winner_last_corner": (w["passing_pos"][-1] if w and w["passing_pos"] else None),
+            "top3_first_corner": a["top3_first_corner"],
+            "agari_fastest_rank": (a["agari_fastest"]["rank"] if a["agari_fastest"] else None),
+            "rho_lastcorner_rank": a["rho_lastcorner_rank"],
+        })
+    ok = [e for e in editions if "error" not in e]
+    wfc = [e["winner_first_corner"] for e in ok]
+    agg = {
+        "editions_fetched": len(ok),
+        "editions_requested": len(race_ids),
+        "avg_winner_first_corner": _mean(wfc),                                    # 低い=前/好位で勝つ開催が多い
+        "front_winner_count": sum(1 for x in wfc if x is not None and x <= 3),     # 1角3番手以内で勝った開催数（前残り基調）
+        "closer_decided_count": sum(1 for e in ok if e["agari_fastest_rank"] == 1),  # 上がり最速が勝った=差し決着の開催数
+        "avg_rho_lastcorner_rank": _mean([e["rho_lastcorner_rank"] for e in ok]),  # +寄り=前残り基調・低い=差し台頭
+    }
+    return {"record": "pace_history", "editions": editions, "aggregate": agg}
+
+
+def cmd_history(args, as_json):
+    ids = [a for a in args if a.isdigit() and len(a) == 12]
+    bad = [a for a in args if a not in ids]
+    if bad:
+        print(json.dumps({"error": f"12桁数字でない race_id: {bad}", "stage": "validate"}), file=sys.stderr)
+        sys.exit(2)
+    if not ids:
+        print("usage: fetch_result.py history <race_id12桁> [<race_id> ...] [--json]", file=sys.stderr)
+        sys.exit(2)
+    out = history(ids)
+    if as_json:
+        print(json.dumps(out, ensure_ascii=False, indent=2))
+        return
+    ag = out["aggregate"]
+    print(f"# ペース署名（過去 {ag['editions_fetched']}/{ag['editions_requested']} 開催）")
+    print(f"{'race_id':<13} {'頭':>2} {'勝1角':>5} {'勝最終角':>7} {'上速着':>6} {'ρ':>6}  通過")
+    for e in out["editions"]:
+        if "error" in e:
+            print(f"{e['race_id']:<13} -- 取得不可({e['error']})")
+            continue
+        rho = f"{e['rho_lastcorner_rank']}" if e["rho_lastcorner_rank"] is not None else "-"
+        print(f"{e['race_id']:<13} {e['n']:>2} {str(e['winner_first_corner']):>5} "
+              f"{str(e['winner_last_corner']):>7} {str(e['agari_fastest_rank']):>6} {rho:>6}  {e['winner_passing']}")
+    print(f"-- 素材集計: 勝ち馬平均1角={ag['avg_winner_first_corner']} 前々勝ち={ag['front_winner_count']}"
+          f" 差し決着={ag['closer_decided_count']} 平均ρ={ag['avg_rho_lastcorner_rank']}"
+          f"（結論=H/M/S は pace-synthesis 側）")
 
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     as_json = "--json" in sys.argv
     if not args:
-        print("usage: fetch_result.py <race_id> [--json]", file=sys.stderr)
+        print("usage: fetch_result.py <race_id> [--json] | history <race_id> [...] [--json]", file=sys.stderr)
         sys.exit(2)
+    if args[0] == "history":
+        cmd_history(args[1:], as_json)
+        return
     if not (len(args[0]) == 12 and args[0].isdigit()):
         print(json.dumps({"error": "race_id は12桁数字（YYYYMMDD+場2桁+R2桁）", "stage": "validate"}), file=sys.stderr)
         sys.exit(2)

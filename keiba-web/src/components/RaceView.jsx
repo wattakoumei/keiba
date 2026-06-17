@@ -8,6 +8,7 @@ const MARK_CLASS = {
 const FIT_CLASS = { '◎': 'fit-center', '○': 'fit-in', '△': 'fit-spot' };
 const TIER_CLASS = { '本線': 'tier-honmei', '対抗': 'tier-taikou', '伏線': 'tier-fukusen' };
 const TIER_STAR = { '本線': '★★★', '対抗': '★★', '伏線': '★' };
+const INTENT_CLASS = { '↑↑': 'i-up2', '↑': 'i-up', '→': 'i-flat', '↓': 'i-down' };
 
 // 脚質タイプの色（逃→先→差→追＝前→後を暖→寒で）。§2有利脚質と§3着順表で共通。
 const LEG_COLOR = { '逃': 'leg-nige', '先': 'leg-senko', '差': 'leg-sashi', '追': 'leg-oikomi' };
@@ -104,6 +105,27 @@ export default function RaceView({ race }) {
       <h2>§2 展開予想（成果物1）</h2>
       <p class="sub">行をタップ → 該当馬を着順表でハイライト＋トリガー/段階フロー/箱組みを展開</p>
 
+      {/* 展開トリガー早見＝来そうな展開を判断する材料（先行勢の数・枠・コース形状・例年傾向・当日で動く点）。当日にティアを付け替える素 */}
+      {(pace.pace_factors?.length > 0) && (
+        <details class="fold pace-factors" open>
+          <summary>展開を読む材料（来そうな展開の判断材料）</summary>
+          <div class="scroll-x">
+            <table class="factor-table">
+              <thead><tr><th>材料</th><th>読み</th><th>当日チェック</th></tr></thead>
+              <tbody>
+                {pace.pace_factors.map((f) => (
+                  <tr>
+                    <td class="f-name">{f.factor}</td>
+                    <td class="f-read">{f.reads}</td>
+                    <td class="f-day sub">{f.day_check}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      )}
+
       <div class="scroll-x">
         <table class="pace-table">
           <thead>
@@ -185,7 +207,7 @@ export default function RaceView({ race }) {
                     <td><span class={`mark ${MARK_CLASS[r.mark] || ''}`}>{r.mark}</span></td>
                     <td class="nowrap">{r.gate}-{r.no}</td>
                     <td class="cell-horse" onClick={() => toggleExpand(r.no)}>
-                      <div class="hname">{starred.has(r.no) ? '⭐ ' : ''}{r.horse}</div>
+                      <div class="hname">{starred.has(r.no) ? '⭐ ' : ''}{r.horse}{r.intent ? <span class={`intent ${INTENT_CLASS[r.intent] || 'i-flat'}`} title="勝負気配度（陣営の本気度: F追い切り+K起用+H気配。能力とは独立）">{r.intent}</span> : null}</div>
                       <div class="sub jk">{r.jockey}{r.jockey_change ? `（${r.jockey_change}）` : ''} · <LegType text={r.leg_type} /></div>
                     </td>
                     <td>

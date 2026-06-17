@@ -131,6 +131,18 @@ python3 tools/fetch_result.py <race_id12桁> [--json]   # race_id = YYYYMMDD+場
   `rho_lastcorner_rank`(最終角位置×着順の Spearman ρ。+1寄り=前残り、低い=差し台頭)。
 - エラー stage: `validate`(12桁でない) / `fetch` / `parse_tbody` / `parse_no_horses`。
 
+### history サブコマンド（例年ペース傾向の素材・展開合成用）
+
+```
+python3 tools/fetch_result.py history <race_id> [<race_id> ...] [--json]   # 同一レースの過去開催を複数渡す
+```
+
+- 同一レースの**過去開催 race_id（12桁）を複数**渡すと、各開催の**ペース署名**（勝ち馬の通過位置・上位3頭の1角位置・上がり最速馬の着順・ρ）と
+  **素材集計**（勝ち馬の平均1角位置・前々で勝った開催数・上がり最速が勝った=差し決着の開催数・平均ρ）を返す。`pace_aids` を過去レースにループ集計するだけ。
+- 用途: **`pace-synthesis` の `pace_factors`「例年傾向」行の源**（前残り基調か差し決着多めか）。**結論(H/M/S)は出さない＝素材**（定性傾向の著作は合成側）。
+- 過去開催 id は **web 調査で特定**（同レースの過去開催の日付→`YYYYMMDD+場2桁+R2桁` に変換）。
+- **耐障害**: 1開催が取れなくても全体は落とさず `{race_id, error}` で個別に欠落させる（集計は取得できた分のみ）。**NAR(地方)は keibalab DB 経路の制約で取得不確実**＝取れない開催は web で補完（川崎・船橋等）。
+
 ## fetch_oikiri.py（追い切り好時計リスト・観点Fのseed）
 
 ```

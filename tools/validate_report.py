@@ -131,6 +131,16 @@ def validate(d, v: V):
                 bp = b.get("pattern") if isinstance(b, dict) else None
                 if bp and pat_ids and bp not in pat_ids:
                     v.err(f"$.pace.box_reverse[{i}]", f"未知のパターン id: {bp!r}（定義: {sorted(pat_ids)}）")
+        # pace_factors（展開トリガー早見・任意）= 来そうな展開の判断材料。あれば形を検証
+        pf = pace.get("pace_factors")
+        if pf is not None:
+            if not isinstance(pf, list):
+                v.err("$.pace.pace_factors", f"型が list でない（{type(pf).__name__}）")
+            else:
+                for i, f in enumerate(pf):
+                    fp = f"$.pace.pace_factors[{i}]"
+                    for k in ("factor", "reads", "day_check"):
+                        v.req(f, k, fp, str)
 
     # --- §3 rank ---
     rank = v.req(d, "rank", "$", list)

@@ -41,6 +41,7 @@ def build_pace(d):
         "date": d.get("date"),
         "model_version": d.get("model_version"),
         "patterns": pats,
+        "pace_factors": d["pace"].get("pace_factors", []),  # 展開トリガー早見（来そうな展開の判断材料）
         "falsification": d["pace"].get("counter_conditions", ""),
         "note": "",
     }
@@ -60,6 +61,7 @@ def build_ranks(d):
             "horse": r.get("horse"),
             "mark": r.get("mark"),
             "rank_order": r.get("rank_order"),
+            "intent": r.get("intent", "→"),
             "pattern_fit": r.get("pattern_fit", {}),
             "pace_sensitivity": r.get("pace_sensitivity", ""),
             "pros": r.get("pros", []),
@@ -131,7 +133,7 @@ def main(argv):
             if not o:
                 print(f"  + 新規 rank: {nr['horse_no']} {nr['horse']}")
                 continue
-            for fld in ("mark", "rank_order", "pattern_fit"):
+            for fld in ("mark", "rank_order", "intent", "pattern_fit"):
                 if o.get(fld) != nr.get(fld):
                     print(f"  ~ {nr['horse']} {fld}: {o.get(fld)!r} → {nr.get(fld)!r}")
             on = [c["note"] for c in o.get("cons", [])]
