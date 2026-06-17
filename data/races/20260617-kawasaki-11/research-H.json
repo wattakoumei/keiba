@@ -1,0 +1,137 @@
+{
+  "observation_point": "H",
+  "observation_point_label": "当日気配・パドック・直前情報",
+  "race_id": "20260617-kawasaki-11",
+  "race_name": "第62回 関東オークス(JpnII)",
+  "as_of": "2026-06-17",
+  "race_grade": "重賞(JpnII)",
+  "acquisition_expectation": "中。重賞のためJRA4頭(④⑧⑬⑭)は追い切り後評価が媒体記事化される。地方馬10頭は重賞でも個別の陣営/騎手コメント・追い切り評価がほぼ記事化されず欠損が正常。当日パドック・確定馬体重・返し馬は調査時点(前日〜当日早朝)で未掲載。",
+  "market_excluded": true,
+  "notes_global": [
+    "オッズ・人気・オッズ変動は本観点では一切抽出していない(市場排除)。",
+    "当日パドック評価・返し馬・確定馬体重・発汗気配は調査時点で未掲載。ユーザーによる当日補強(パドック評価・確定馬体重の貼り付け)を強く推奨。",
+    "追い切り(調教)時計・媒体B評価はumanity関東オークス特集(nar.umanity.jp/dirtgrade/2721/)由来。これは観点F(調教)と重複する素材だが、状態気配の文脈で参照。",
+    "オークス(東京優駿牝馬・芝2400m)の追い切り記事とは別レース。混同を排除済み。",
+    "コメント3点セット: アンジュルナ陣営コメントは①出典=東スポ(tospo-keiba.jp/forecast/72562) ②今走に向けた直前(最終追い切り後)コメント ③前走回顧ではない。"
+  ],
+  "horses": [
+    {
+      "no": 1, "name": "ブレイズエッジ",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・陣営/騎手コメントとも取得できず(地方馬・記事化薄)。欠損。"
+    },
+    {
+      "no": 2, "name": "ナーサリーテイル",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず。欠損。"
+    },
+    {
+      "no": 3, "name": "グッドディーズ",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず。欠損。"
+    },
+    {
+      "no": 4, "name": "ペンダント",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": "栗東坂路単走。帰厩後は5/28のCウッドから計時再開、6/10のCウッド併せ馬で66秒1-36秒3-11秒4と追走先着。媒体追い切り評価B(=及第〜好)。今走向け・追い切り後の状態評価。",
+      "media_padock_score": null,
+      "score": 0.5, "confidence": "中",
+      "sources": ["https://nar.umanity.jp/dirtgrade/2721/"],
+      "memo": "JRA馬。追い切りは併せ先着で好気配。状態面マイナス材料なし。パドック評価は当日未掲載のため状態気配は控えめ加点。観点Fと素材重複。"
+    },
+    {
+      "no": 5, "name": "カトレアノクターン",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず(愛知所属・記事化薄)。欠損。"
+    },
+    {
+      "no": 6, "name": "ミスティライズ",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず(地元川崎馬だが個別気配記事なし)。欠損。"
+    },
+    {
+      "no": 7, "name": "アップタウン",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず。欠損。"
+    },
+    {
+      "no": 8, "name": "タマモフリージア",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": "栗東坂路単走。5月半ばに帰厩しじっくり乗られる。6/4のCウッド併せ馬で69秒7-37秒9-11秒1と先着。媒体追い切り評価B。今走向け・追い切り後の状態評価。",
+      "media_padock_score": null,
+      "score": 0.5, "confidence": "中",
+      "sources": ["https://nar.umanity.jp/dirtgrade/2721/"],
+      "memo": "JRA馬・JBC2歳優駿勝/全日本2歳優駿2着の実績馬。帰厩後じっくり調整で順調。併せ先着・状態気配は良好。当日パドックは未掲載。観点Fと素材重複。"
+    },
+    {
+      "no": 9, "name": "ティーズセラフ",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず(大井所属・記事化薄)。欠損。"
+    },
+    {
+      "no": 10, "name": "アンジュルナ",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": "最終追い切り後、助手が『今までで一番の動き』と評し『仕上がりは完璧』。今走に向けた直前(最終追い切り後)コメント=前走回顧ではない。出典=東スポ。",
+      "media_padock_score": null,
+      "score": 1, "confidence": "中",
+      "sources": ["https://tospo-keiba.jp/forecast/72562"],
+      "memo": "地方(浦和)の代表格・確定逃げ馬で桜花賞勝/重賞4連勝。陣営の自信度コメントが取れた唯一の地方馬。直前気配ポジティブ。出方=逃げ(出走表で確定)はSTEP4a展開合成素材。当日パドックは未掲載のため過大評価しない。"
+    },
+    {
+      "no": 11, "name": "サキドリトッケン",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず(金沢所属・記事化薄)。欠損。"
+    },
+    {
+      "no": 12, "name": "リノカ",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": null, "media_padock_score": null,
+      "score": 0, "confidence": "低",
+      "sources": [],
+      "memo": "当日気配・パドック・コメントとも取得できず。欠損。"
+    },
+    {
+      "no": 13, "name": "ジュワネング",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": "美浦坂路単走。前走勝ち後の短期放牧から5/30帰厩。6/10のウッド3頭併せで67秒5-37秒2-11秒2と追走先着。媒体追い切り評価B、調教予想・データ予想ともに注目馬選出。今走向け・追い切り後の状態評価。",
+      "media_padock_score": null,
+      "score": 1, "confidence": "中",
+      "sources": ["https://nar.umanity.jp/dirtgrade/2721/"],
+      "memo": "JRA馬。前走勝ち→放牧明けだが帰厩後の3頭併せ先着で好内容、媒体の調教注目馬。状態気配は4頭中もっとも高評価。当日パドックは未掲載。観点Fと素材重複。"
+    },
+    {
+      "no": 14, "name": "フルールドール",
+      "padock": null, "kaeshiuma": null, "happatsu_kehai": null,
+      "comment": "栗東坂路単走。帰厩後は5/24の坂路から計時再開。6/4のCウッド3頭併せで65秒9-36秒9-11秒8と先着。媒体追い切り評価B。今走向け・追い切り後の状態評価。",
+      "media_padock_score": null,
+      "score": 0.5, "confidence": "中",
+      "sources": ["https://nar.umanity.jp/dirtgrade/2721/"],
+      "memo": "JRA馬・全日本2歳優駿でタマモフリージアと接戦。大外枠。併せ先着で状態気配良好。当日パドックは未掲載。観点Fと素材重複。"
+    }
+  ],
+  "field_note": "レース格=重賞(JpnII)。取得期待値どおり、JRA4頭(④ペンダント/⑧タマモフリージア/⑬ジュワネング/⑭フルールドール)は追い切り後の状態評価(媒体B・併せ先着・時計)が記事化され取得できた。地方馬は確定逃げ馬⑩アンジュルナの陣営自信度コメント(東スポ・今走向け直前『今までで一番の動き/仕上がり完璧』)のみ取得、残り9頭(①②③⑤⑥⑦⑨⑪⑫)は個別の陣営/騎手コメント・追い切り評価が記事化されず欠損(重賞でも地方馬の気配記事は薄く正常)。本観点の核である当日パドック評価・返し馬・確定馬体重・発汗気配は調査時点(前日〜当日早朝)で全頭未掲載。⇒スコアは追い切り後の状態気配のみを素材にした控えめな値で、欠損馬は0+確信度低。⑬ジュワネング・⑩アンジュルナが気配トップ評価、④⑧⑭が好気配。ユーザーへの補強依頼: 当日のパドック点(スポーツ紙寸評)・返し馬評価・確定馬体重(±増減)を貼り付けてもらえれば本観点を確信度中〜高に引き上げ可能。出方=⑩アンジュルナ確定逃げはSTEP4a展開合成の素材として記録(前走後でなく今走の確定情報)。"
+}
