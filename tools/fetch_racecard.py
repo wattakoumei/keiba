@@ -71,6 +71,7 @@ PATTERNS = {
     "jra_age": re.compile(r'<p class="age">([^<]+)</p>'),                            # 性齢/毛色
     "jra_weight": re.compile(r'<p class="weight">\s*([\d.]+)<span>kg'),              # 負担重量
     "jra_jockey": re.compile(r'<p class="jockey"><a[^>]*accessK[^>]*>([^<]+)</a>'),  # 騎手（当該レース）
+    "jra_trainer": re.compile(r'<p class="trainer">(?:<span[^>]*>[^<]*</span>)?\s*<a[^>]*>([^<]+)</a>'),  # 調教師（先頭span=美浦/栗東は捨て名前のみ。VERIFY: 次のJRA取得で要確認）
     "jra_sire": re.compile(r'class="sire">.*?父：</span>([^<]+)<', re.S),            # 父
     "jra_damsire": re.compile(r'母の父：([^)）]+)'),                                  # 母父
     "jra_past": re.compile(r'<td class="past[^"]*"[^>]*>(.*?)</td>', re.S),          # 近走1走ぶん
@@ -211,7 +212,7 @@ def _style_from_corner(first_corner, field):
 
 
 def parse_jra_full(h):
-    """JRA出馬表HTML → 全馬のスパイン(馬名/性齢/斤量/騎手/血統/枠/馬番)＋通過順由来の脚質・テン速。
+    """JRA出馬表HTML → 全馬のスパイン(馬名/性齢/斤量/騎手/調教師/血統/枠/馬番)＋通過順由来の脚質・テン速。
     ★市場ゼロ: 先頭でオッズ塊を物理除去し、以降オッズ/人気には一切触れない（純粋情報のみ）。"""
     h = PATTERNS["jra_strip_odds"].sub("", h)
     from collections import Counter
@@ -261,6 +262,7 @@ def parse_jra_full(h):
             "sex_age": g("jra_age"),
             "weight": g("jra_weight"),
             "jockey": g("jra_jockey"),
+            "trainer": g("jra_trainer"),
             "sire": g("jra_sire"),
             "damsire": g("jra_damsire"),
             "style": style,                 # 近走通過順から（粗バーより精密）

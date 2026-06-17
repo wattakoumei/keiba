@@ -59,6 +59,7 @@ def build_ranks(d):
             "model_version": d.get("model_version"),
             "horse_no": r.get("no"),
             "horse": r.get("horse"),
+            "trainer": r.get("trainer"),
             "mark": r.get("mark"),
             "rank_order": r.get("rank_order"),
             "intent": r.get("intent", "→"),
