@@ -6,9 +6,9 @@ report.json の `used_observations` と、同ディレクトリの実 `research-
 見ず、used_observations と研究artifact の対応を**検証しない**ため、観点が欠落したまま
 （合成器が workflow 返り値だけで report を書けてしまい）成果物が出る経路を塞ぐ。
 
-検出する穴（実例: 20260617-kawasaki-11=B欠落 / 20260621-tokyo-11=A欠落）:
+検出する穴（実例: 20260617-kawasaki-11=B欠落・E空・I空 / 20260621-tokyo-11=A欠落→復元）:
   - used_observations に挙がっているのに research-<観点>.json が**保存されていない**（ERROR）
-  - 研究artifact の horses が field_size に**満たない**（WARNING・E は脚質証拠なので対象外）
+  - 研究artifact が**全頭未満＝部分欠損**（ERROR）: 非E は `horses < field_size`、E は脚質証拠なので `legs < field_size`
 
 使い方:
   python3 tools/validate_research_bundle.py <race-id>

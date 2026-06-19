@@ -158,7 +158,11 @@ def validate(d, v: V):
                 if r.get("mark") not in MARKS:
                     v.err(f"{p}.mark", f"印が許可集合外: {r.get('mark')!r}（{MARKS}）")
                 if "rank_order" in r:
-                    orders.append(r["rank_order"])
+                    # int 必須（bool 除外）。型不正を sorted() のクラッシュでなく明示エラーに寄せる
+                    if isinstance(r["rank_order"], int) and not isinstance(r["rank_order"], bool):
+                        orders.append(r["rank_order"])
+                    else:
+                        v.err(f"{p}.rank_order", f"int 必須（順位相関の採点正本）。実際: {r['rank_order']!r}")
                 if r.get("no") in nos:
                     v.err(p, f"馬番 {r.get('no')} が重複")
                 nos.add(r.get("no"))

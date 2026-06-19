@@ -159,13 +159,14 @@ const runOne = (p) => agent(
 let research = (await parallel(ordered.map(p => () => runOne(p).then(r=>({p,r})).catch(()=>({p,r:null})))))
                  .filter(x => x.r)   // ← await 完了が暗黙バリア
 
-// --- 頭数アサーション（恒久ガード＝取りこぼし検出）。E 以外は全頭(field_size)返すはず。不足なら1回だけ再促し ---
+// --- 完全性アサーション（恒久ガード＝取りこぼし検出）。非E=horses, E=legs が全頭(field_size)あるはず。不足なら1回だけ再促し ---
+// cov: 返却データの全頭カバー数（非E=horses数 / E=legs数）。配列でなければ -1。workflow は fs 不可なので「返却データの全頭数」までを合成前に見る（ファイル保存自体は STEP5 の validate_research_bundle が担保）。
+const cov = (r, id) => { const a = id==='E' ? (r&&r.legs) : (r&&r.horses); return Array.isArray(a) ? a.length : -1 }
 for (const x of research) {
-  if (x.p.id==='E' || !Array.isArray(x.r.horses)) continue
-  if (x.r.horses.length < args.field_size) {
-    log(`頭数不足 ${x.p.id}: ${x.r.horses.length}/${args.field_size} → 1回再促し`)
+  if (cov(x.r, x.p.id) < args.field_size) {
+    log(`頭数不足 ${x.p.id}: ${cov(x.r, x.p.id)}/${args.field_size} → 1回再促し`)
     const r2 = await runOne(x.p).catch(()=>null)
-    if (r2 && Array.isArray(r2.horses) && r2.horses.length >= x.r.horses.length) x.r = r2
+    if (r2 && cov(r2, x.p.id) >= cov(x.r, x.p.id)) x.r = r2
   }
 }
 // --- 欠落ゲート（P6対策・PaceSynthesis前の必須チェック）: parse失敗等で落ちた観点を本体内で同期リトライ ---
@@ -185,6 +186,11 @@ for (const x of research) {
     // ※どうしても縮退合成するなら、ここを throw でなく missing を合成プロンプト＋report header_notes に明示する形に置換する（既定は停止）。
     if (missing.length) throw new Error(`欠落観点 ${missing.join(',')} がリトライ後も解消せず＝部分証拠での合成を中止（必須停止）。当該観点を再取得して resume すること`)
   }
+  // 完全性の必須停止: 返ってきたが全頭未満（非E=horses, E=legs）の観点があれば、部分証拠なので合成しない（合成トークンを浪費しない）。
+  // ※ファイル保存自体（返却はあるが research-X.json 未保存）は workflow に fs アクセスが無いため見られない＝STEP5 の validate_research_bundle で担保する。
+  const short = research.filter(x => cov(x.r, x.p.id) < args.field_size)
+                       .map(x => `${x.p.id}:${cov(x.r, x.p.id)}/${args.field_size}`)
+  if (short.length) throw new Error(`全頭未満の観点 ${short.join(', ')} がリトライ後も解消せず＝部分証拠での合成を中止（必須停止）。当該観点を再取得して resume すること`)
 }
 const researchResults = research.map(x => x.r)
 
