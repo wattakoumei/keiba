@@ -24,16 +24,19 @@ report.json の `used_observations` と、同ディレクトリの実 `research-
 import sys, os, json, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# I1: 市場語（支持率・配当）は research artifact にも残してはいけない（report に出なくても証拠JSONに残れば違反）。
-MARKET_TERMS = ("人気", "オッズ", "配当", "払戻", "払い戻")
+# I1: 市場・他人の予想は research artifact にも残してはいけない（report に出なくても証拠JSONに残れば違反）。
+# オッズ/人気/配当＋予想印/専門紙/英語odds,market。URL(http…)は引用先＝サイト構造で誤検出するため走査から除外。
+I1_FORBIDDEN_TERMS = ("人気", "オッズ", "配当", "払戻", "払い戻", "予想印", "専門紙", "odds", "market")
 
 
 def scan_market(obj, obs, errors):
-    """research の全文字列を走査して市場語を I1 違反として記録。"""
+    """research の全文字列を走査して市場・予想語を I1 違反として記録（URL は除外）。"""
     if isinstance(obj, str):
-        hit = [t for t in MARKET_TERMS if t in obj]
+        if obj.startswith("http"):
+            return
+        hit = [t for t in I1_FORBIDDEN_TERMS if t in obj]
         if hit:
-            errors.append(f"観点 {obs}: I1違反 市場語 {hit} を含む → {obj[:80]!r}")
+            errors.append(f"観点 {obs}: I1違反 市場・予想語 {hit} を含む → {obj[:80]!r}")
     elif isinstance(obj, list):
         for x in obj:
             scan_market(x, obs, errors)

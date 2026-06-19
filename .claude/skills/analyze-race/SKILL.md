@@ -99,7 +99,8 @@ export const meta = {
   description: '観点ごとに専属 subagent を並列起動して証拠をweb調査し、全証拠を突き合わせて展開パターンを合成する',
   phases: [{ title: 'Research' }, { title: 'PaceSynthesis' }],
 }
-// args = { raceId, condition, horses, field_size, seed, pedigree, course, oikiri, stable, points:[{id}] }  ※ odds は渡さない
+// args = { raceId, condition, horses, field_size, expected_nos, seed, pedigree, course, oikiri, stable, points:[{id}] }  ※ odds は渡さない
+//   expected_nos = 全出走馬の馬番配列（fetch_racecard seed 由来）。合成前ゲートの exact set 一致用（別馬混入も止める）
 //   stable=厩舎の勝負気配傾向 rubric＋該当厩舎の型ラベル行(stable-intent-rubric.md・F/K用)。無ければ暫定ラベルを当て追記候補で報告
 //   pedigree=血統カタログ該当行(C用) / course=コース形状該当行(D,E用) / oikiri=追い切り好時計seed(F用)。カタログ内は再調査しない
 //   観点の手順/ソース/スコア指針は .claude/agents/obs-<id>.md（subagent）に内蔵。ここで渡すのはデータ＋共通鉄則のみ
@@ -163,13 +164,19 @@ let research = (await parallel(ordered.map(p => () => runOne(p).then(r=>({p,r}))
 // --- 完全性アサーション（恒久ガード＝取りこぼし検出）。非E=horses, E=legs が「配列・行数=field_size・各行の no が int・重複なし」を満たすか。
 // 旧実装は length だけ見ていたが、馬番重複・別馬混入・no欠損だと壊れた TOON が合成に渡る（行数N でも distinct な馬番が足りない）。
 // distinct な int no 数 と 行数 の両方を見る。workflow は fs 不可なので「返却データの全頭カバー」までを合成前に見る（ファイル保存自体は STEP5 の validate_research_bundle が担保）。
+const EXP = new Set(args.expected_nos || [])   // 全出走馬の馬番集合（あれば exact 一致まで見る）
 const covInfo = (r, id) => {
   const a = id==='E' ? (r && r.legs) : (r && r.horses)
   if (!Array.isArray(a)) return { ok:false, n:-1, why:'配列なし' }
   const s = new Set()
   for (const x of a) { const no = x && x.no; if (Number.isInteger(no)) s.add(no) }
-  const ok = a.length === args.field_size && s.size === args.field_size
-  return { ok, n:s.size, why: ok ? '' : `行数${a.length}/有効馬番${s.size}≠${args.field_size}(重複/非int/欠落)` }
+  // exact set 一致（expected_nos があれば別馬混入99も止まる）。無ければ size で代替。
+  const setOK = EXP.size ? (s.size === EXP.size && [...EXP].every(n => s.has(n))) : (s.size === args.field_size)
+  const ok = a.length === args.field_size && setOK
+  const why = ok ? '' : (EXP.size
+      ? `馬番集合不一致(行数${a.length} 欠け=${[...EXP].filter(n=>!s.has(n))} 余分=${[...s].filter(n=>!EXP.has(n))})`
+      : `行数${a.length}/有効馬番${s.size}≠${args.field_size}(重複/非int/欠落)`)
+  return { ok, n:s.size, why }
 }
 for (const x of research) {
   const c = covInfo(x.r, x.p.id)
@@ -256,7 +263,7 @@ return { research: researchResults, paceModel }
 **§0 `day_board` には*分析時点で本当に未知のものだけ*を残す**（確定枠・乗替・回避は `leg_table`/`patterns`/`rank` 本文へ織り込み済み。当日の参考R観察値・馬場・パドック・馬体重のみ空欄）。
 
 書込後に**必須3コマンド**（順に。エラーが出たら直してから次へ）:
-1. `python3 tools/validate_report.py <race-id>` — スキーマ＋I2(%/％)＋**I5 複数パターン必須**＋**全頭カバー（rank=field_size）**のゲート。
+1. `python3 tools/validate_report.py <race-id>` — スキーマ＋**I2(%/％)＋I1(市場・予想語=人気/オッズ/配当/払戻/予想印/専門紙/odds/market)**＋**I5 複数パターン必須**＋**全頭カバー（rank=leg_table=field_size・馬番集合一致・int）**のゲート。
 2. `python3 tools/validate_research_bundle.py <race-id>` — **`used_observations` と実 `research-<観点>.json` の対応ゲート（P6＝欠落無検知の塞ぎ）**。観点が使われたのに artifact が無ければエラー＝合成が返り値で通っても欠落を検出する。エラーなら欠落観点を再取得 or 保存し直す。
 3. `python3 tools/project_predictions.py <race-id>` — report.json から `predictions.jsonl` へ pace/rank を**自動投影**（review-prediction はこの jsonl を読む。源は report.json 一本＝drift 無し）。
 

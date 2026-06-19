@@ -23,8 +23,9 @@ FLOW_KEYS = {"early", "mid", "late", "result"}
 RACE_ID_RE = re.compile(r"^\d{8}-[a-z]+-\d{2}$")
 # I2: 文字列に出てはいけない百分率記号。prob/pace_level は数値フィールドなので対象外。
 PCT_RE = re.compile(r"[%％]")
-# I1: 市場語（支持率・配当）はレポートにもログにも一切出さない。単勝/複勝は的中率の意味で使うため対象外。
-MARKET_TERMS = ("人気", "オッズ", "配当", "払戻", "払い戻")
+# I1: 市場・他人の予想は証拠にもログにも一切出さない（オッズ/人気/配当＋予想印/専門紙/英語odds,market）。
+# 単勝/複勝は的中率の意味で使うため対象外。URL(http…)は引用先＝サイト構造に odds/market を含みうるので走査から除外。
+I1_FORBIDDEN_TERMS = ("人気", "オッズ", "配当", "払戻", "払い戻", "予想印", "専門紙", "odds", "market")
 
 
 class V:
@@ -68,9 +69,10 @@ def scan_pct(obj, path, v: V):
     if isinstance(obj, str):
         if PCT_RE.search(obj):
             v.err(path, f"I2違反: 百分率記号を含む → {obj!r}")
-        hit = [t for t in MARKET_TERMS if t in obj]
-        if hit:
-            v.err(path, f"I1違反: 市場語 {hit} を含む（オッズ・人気は証拠にもログにも使わない）→ {obj!r}")
+        if not obj.startswith("http"):   # URL(引用先)は走査しない＝odds/market を含むサイト構造の誤検出回避
+            hit = [t for t in I1_FORBIDDEN_TERMS if t in obj]
+            if hit:
+                v.err(path, f"I1違反: 市場・予想語 {hit} を含む（オッズ・人気・他人の予想は証拠にもログにも使わない）→ {obj!r}")
     elif isinstance(obj, list):
         for i, x in enumerate(obj):
             scan_pct(x, f"{path}[{i}]", v)

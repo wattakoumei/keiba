@@ -5,7 +5,7 @@
 
 > **役割分担（I10）**: `report.json` が唯一の正本。web はその**ビュー**で正本を複製しない。
 > `predictions.jsonl` は report.json からの**自動投影**（`tools/project_predictions.py`）＝review-prediction 用ログ。源は report.json 一本。
-> 書込直後に **`python3 tools/validate_report.py <race-id>`** を通す（スキーマ＋I2 のゲート。Astro ビルド前提条件）。
+> 書込直後に **`python3 tools/validate_report.py <race-id>`**（スキーマ＋I2(%)＋**I1(市場・予想語)**＋I5＋全頭カバー）と **`python3 tools/validate_research_bundle.py <race-id>`**（observation↔artifact対応・馬番集合・I1市場語）を通す（Astro ビルド前提条件）。
 
 > **不変則（中身の規律。形式が JSON になっても変わらない）**
 > - **I2 %禁止**: `report.json` の**文字列フィールドに `%`/`％` を一切書かない**（発揮能力・1着率・複勝率・枠別複勝率%・確率%…すべて定性表現へ）。validator がエラー検出。
