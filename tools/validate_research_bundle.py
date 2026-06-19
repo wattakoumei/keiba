@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""research バンドル検証器（依存ゼロ）。
+
+report.json の `used_observations` と、同ディレクトリの実 `research-<観点>.json`
+の**対応・必須充足**を検証する。スキーマ検証器 `validate_report.py` は report 単体しか
+見ず、used_observations と研究artifact の対応を**検証しない**ため、観点が欠落したまま
+（合成器が workflow 返り値だけで report を書けてしまい）成果物が出る経路を塞ぐ。
+
+検出する穴（実例: 20260617-kawasaki-11=B欠落 / 20260621-tokyo-11=A欠落）:
+  - used_observations に挙がっているのに research-<観点>.json が**保存されていない**（ERROR）
+  - 研究artifact の horses が field_size に**満たない**（WARNING・E は脚質証拠なので対象外）
+
+使い方:
+  python3 tools/validate_research_bundle.py <race-id>
+  python3 tools/validate_research_bundle.py data/races/<id>/report.json
+  python3 tools/validate_research_bundle.py --all
+
+終了コード: 0=OK / 1=エラーあり。analyze-race STEP5 で validate_report.py と並べて必須ゲートにする。
+"""
+import sys, os, json, glob
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def check_bundle(report_path):
+    """1つの report.json に対応する research バンドルを検証。返り値 (errors, warnings)。"""
+    errors, warnings = [], []
+    race_dir = os.path.dirname(os.path.abspath(report_path))
+    try:
+        d = json.load(open(report_path, encoding="utf-8"))
+    except Exception as e:
+        return [f"report.json 読込失敗 — {e}"], []
+
+    used = d.get("used_observations")
+    if not isinstance(used, list) or not used:
+        errors.append("used_observations が無い/空 — 観点の対応を検証できない")
+        return errors, warnings
+    field_size = d.get("field_size")
+
+    # 実在する research-<X>.json を収集
+    present = {}
+    for p in glob.glob(os.path.join(race_dir, "research-*.json")):
+        oid = os.path.basename(p).split("-", 1)[1].rsplit(".", 1)[0]
+        present[oid] = p
+
+    for obs in used:
+        path = present.get(obs)
+        if path is None:
+            errors.append(
+                f"観点 {obs}: used_observations にあるのに research-{obs}.json が無い"
+                f"（合成は返り値で通っても artifact 欠落＝欠落無検知の経路）"
+            )
+            continue
+        # 全頭カバー（E は脚質証拠スキーマなので対象外）
+        if obs == "E" or not isinstance(field_size, int):
+            continue
+        try:
+            r = json.load(open(path, encoding="utf-8"))
+            n = len(r.get("horses", []))
+            if n < field_size:
+                warnings.append(f"観点 {obs}: research-{obs}.json の horses {n} が field_size {field_size} 未満")
+        except Exception as e:
+            errors.append(f"観点 {obs}: research-{obs}.json 読込失敗 — {e}")
+    return errors, warnings
+
+
+def run(path):
+    errors, warnings = check_bundle(path)
+    name = os.path.relpath(path, ROOT)
+    if errors:
+        print(f"✗ {name}: {len(errors)} エラー")
+        for e in errors:
+            print(f"    [E] {e}")
+    for w in warnings:
+        print(f"    [W] {w}")
+    if not errors:
+        print(f"✓ {name}  (research バンドル充足{f' / 警告 {len(warnings)}' if warnings else ''})")
+    return not errors
+
+
+def resolve(arg):
+    if arg.endswith(".json") and os.path.exists(arg):
+        return [arg]
+    cand = os.path.join(ROOT, "data", "races", arg, "report.json")
+    if os.path.exists(cand):
+        return [cand]
+    print(f"見つからない: {arg}")
+    return []
+
+
+def main(argv):
+    if not argv:
+        print(__doc__)
+        return 2
+    if argv[0] == "--all":
+        paths = sorted(glob.glob(os.path.join(ROOT, "data", "races", "*", "report.json")))
+        if not paths:
+            print("report.json が1件も無い")
+            return 1
+    else:
+        paths = []
+        for a in argv:
+            paths += resolve(a)
+        if not paths:
+            return 1
+    oks = [run(p) for p in paths]   # 短絡させず全件検査
+    return 0 if all(oks) else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

@@ -100,8 +100,8 @@ def validate(d, v: V):
                     seen.add(row.get("no"))
         patterns = v.req(pace, "patterns", "$.pace", list)
         if isinstance(patterns, list):
-            if not patterns:
-                v.err("$.pace.patterns", "展開パターンが空（複数パターン必須=I5）")
+            if len(patterns) < 2:
+                v.err("$.pace.patterns", f"複数パターン必須=I5（単一に潰さない）。実際: {len(patterns)}個")
             for i, pat in enumerate(patterns):
                 p = f"$.pace.patterns[{i}]"
                 pid = v.req(pat, "id", p)
@@ -146,7 +146,7 @@ def validate(d, v: V):
     rank = v.req(d, "rank", "$", list)
     if isinstance(rank, list):
         if isinstance(d.get("field_size"), int) and len(rank) != d["field_size"]:
-            v.warn("$.rank", f"頭数 {len(rank)} が field_size {d['field_size']} と不一致")
+            v.err("$.rank", f"全頭カバー必須: rank {len(rank)}頭 が field_size {d['field_size']} と不一致（無印馬も省かない=output-template）")
         orders, nos = [], set()
         for i, r in enumerate(rank):
             p = f"$.rank[{i}]"
@@ -233,8 +233,8 @@ def main(argv):
             paths += resolve(a)
         if not paths:
             return 1
-    ok = all(run(p) for p in paths)
-    return 0 if ok else 1
+    oks = [run(p) for p in paths]   # 短絡させず全件検査
+    return 0 if all(oks) else 1
 
 
 if __name__ == "__main__":

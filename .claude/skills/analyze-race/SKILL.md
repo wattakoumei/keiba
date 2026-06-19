@@ -168,6 +168,21 @@ for (const x of research) {
     if (r2 && Array.isArray(r2.horses) && r2.horses.length >= x.r.horses.length) x.r = r2
   }
 }
+// --- 欠落ゲート（P6対策・PaceSynthesis前の必須チェック）: parse失敗等で落ちた観点を本体内で同期リトライ ---
+// `.filter(x=>x.r)` は失敗を黙って落とすため、ここで「期待観点セット − 返ってきた観点」を欠落として検出し、
+// 本体内で1回だけ再起動（P2: 本体完了後の直列再取得でなく合成前に回収）。それでも欠落なら必ず log で明示して縮退（黙って進めない）。
+{
+  const expected = ordered.map(p => p.id)
+  const got = new Set(research.map(x => x.p.id))
+  let missing = expected.filter(id => !got.has(id))
+  if (missing.length) {
+    log(`欠落観点 ${missing.join(',')} → 本体内で同期リトライ`)
+    const retried = await parallel(missing.map(id => () => runOne({id}).then(r=>({p:{id},r})).catch(()=>({p:{id},r:null}))))
+    for (const x of retried) if (x.r) research.push(x)
+    missing = expected.filter(id => !new Set(research.map(x => x.p.id)).has(id))
+    if (missing.length) log(`⚠ リトライ後も欠落: ${missing.join(',')} → 合成に欠落を明示・STEP5の validate_research_bundle で再検出。黙って進めない`)
+  }
+}
 const researchResults = research.map(x => x.r)
 
 // --- Phase 2: 展開合成（複数パターンを1回だけ構築）---
@@ -221,9 +236,10 @@ return { research: researchResults, paceModel }
 **§2 `pace`（複数パターン＋`phase_flow`＋ティア）と §3 `rank`（全馬・印・`pattern_fit` 展開列・展開感度・好材料/懸念）の2本柱。% は出さない（数値 `prob`/`pace_level` はログ専用＝web 非描画。mermaid・サマリ・観点別ハイライトは持たない）。**
 **§0 `day_board` には*分析時点で本当に未知のものだけ*を残す**（確定枠・乗替・回避は `leg_table`/`patterns`/`rank` 本文へ織り込み済み。当日の参考R観察値・馬場・パドック・馬体重のみ空欄）。
 
-書込後に**必須2コマンド**:
-1. `python3 tools/validate_report.py <race-id>` — スキーマ＋I2(%/％) のゲート（エラーなら直す）。
-2. `python3 tools/project_predictions.py <race-id>` — report.json から `predictions.jsonl` へ pace/rank を**自動投影**（review-prediction はこの jsonl を読む。源は report.json 一本＝drift 無し）。
+書込後に**必須3コマンド**（順に。エラーが出たら直してから次へ）:
+1. `python3 tools/validate_report.py <race-id>` — スキーマ＋I2(%/％)＋**I5 複数パターン必須**＋**全頭カバー（rank=field_size）**のゲート。
+2. `python3 tools/validate_research_bundle.py <race-id>` — **`used_observations` と実 `research-<観点>.json` の対応ゲート（P6＝欠落無検知の塞ぎ）**。観点が使われたのに artifact が無ければエラー＝合成が返り値で通っても欠落を検出する。エラーなら欠落観点を再取得 or 保存し直す。
+3. `python3 tools/project_predictions.py <race-id>` — report.json から `predictions.jsonl` へ pace/rank を**自動投影**（review-prediction はこの jsonl を読む。源は report.json 一本＝drift 無し）。
 
 人間向け閲覧は **keiba-web（Astro）が report.json をレンダリングした web サイト**で行う。
 
