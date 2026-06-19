@@ -51,16 +51,22 @@ def check_bundle(report_path):
                 f"（合成は返り値で通っても artifact 欠落＝欠落無検知の経路）"
             )
             continue
-        # 全頭カバー（E は脚質証拠スキーマなので対象外）
-        if obs == "E" or not isinstance(field_size, int):
+        # 全頭カバー＝必須充足（部分欠損は error）。E は legs、それ以外は horses が全頭分あるか
+        if not isinstance(field_size, int):
             continue
         try:
             r = json.load(open(path, encoding="utf-8"))
-            n = len(r.get("horses", []))
-            if n < field_size:
-                warnings.append(f"観点 {obs}: research-{obs}.json の horses {n} が field_size {field_size} 未満")
         except Exception as e:
             errors.append(f"観点 {obs}: research-{obs}.json 読込失敗 — {e}")
+            continue
+        if obs == "E":
+            n = len(r.get("legs", []))
+            if n < field_size:
+                errors.append(f"観点 E: research-E.json の legs {n} が field_size {field_size} 未満（脚質を全頭分持たない＝部分欠損）")
+        else:
+            n = len(r.get("horses", []))
+            if n < field_size:
+                errors.append(f"観点 {obs}: research-{obs}.json の horses {n} が field_size {field_size} 未満（部分欠損＝必須充足を満たさない）")
     return errors, warnings
 
 

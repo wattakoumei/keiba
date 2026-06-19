@@ -180,7 +180,10 @@ for (const x of research) {
     const retried = await parallel(missing.map(id => () => runOne({id}).then(r=>({p:{id},r})).catch(()=>({p:{id},r:null}))))
     for (const x of retried) if (x.r) research.push(x)
     missing = expected.filter(id => !new Set(research.map(x => x.p.id)).has(id))
-    if (missing.length) log(`⚠ リトライ後も欠落: ${missing.join(',')} → 合成に欠落を明示・STEP5の validate_research_bundle で再検出。黙って進めない`)
+    // 必須停止: リトライ後も欠落＝部分証拠での合成を中止（黙って進めない・合成トークンも浪費しない）。
+    // 当該観点を再取得してから resume（Workflow resumeFromRunId で成功分はキャッシュ再利用）。
+    // ※どうしても縮退合成するなら、ここを throw でなく missing を合成プロンプト＋report header_notes に明示する形に置換する（既定は停止）。
+    if (missing.length) throw new Error(`欠落観点 ${missing.join(',')} がリトライ後も解消せず＝部分証拠での合成を中止（必須停止）。当該観点を再取得して resume すること`)
   }
 }
 const researchResults = research.map(x => x.r)

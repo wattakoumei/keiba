@@ -86,18 +86,20 @@ def validate(d, v: V):
     # --- §2 pace ---
     pace = v.req(d, "pace", "$", dict)
     pat_ids = set()
+    leg_nos = set()
     if isinstance(pace, dict):
         leg_table = v.req(pace, "leg_table", "$.pace", list)
         if isinstance(leg_table, list):
-            seen = set()
             for i, row in enumerate(leg_table):
                 p = f"$.pace.leg_table[{i}]"
                 for k in ("no", "horse", "leg_type"):
                     v.req(row, k, p)
                 if isinstance(row, dict) and "no" in row:
-                    if row["no"] in seen:
+                    if row["no"] in leg_nos:
                         v.err(p, f"馬番 {row['no']} が脚質表に重複")
-                    seen.add(row.get("no"))
+                    leg_nos.add(row.get("no"))
+            if isinstance(d.get("field_size"), int) and len(leg_nos) != d["field_size"]:
+                v.err("$.pace.leg_table", f"全頭カバー必須: 脚質表 {len(leg_nos)}頭 が field_size {d['field_size']} と不一致（§2-1も全馬=output-template）")
         patterns = v.req(pace, "patterns", "$.pace", list)
         if isinstance(patterns, list):
             if len(patterns) < 2:
@@ -174,7 +176,10 @@ def validate(d, v: V):
                             if not (isinstance(it, dict) and "tag" in it and "note" in it):
                                 v.err(f"{p}.{kk}[{j}]", "要素は {tag, note} であること")
         if orders and sorted(orders) != list(range(1, len(orders) + 1)):
-            v.warn("$.rank", f"rank_order が 1..N の連番でない: {sorted(orders)}")
+            v.err("$.rank", f"rank_order が 1..N の連番でない（重複/欠番＝順位相関の採点正本が破損）: {sorted(orders)}")
+        # §2-1 脚質表と §3 着順表は同じ全馬集合であること（どちらかに欠落馬が混ざらない）
+        if leg_nos and nos and leg_nos != nos:
+            v.err("$.rank", f"脚質表(§2-1)と着順表(§3)の馬番集合が不一致: 脚質表のみ={sorted(leg_nos - nos)} / 着順表のみ={sorted(nos - leg_nos)}")
 
     # --- §4 ---
     v.req(d, "data_confidence", "$", list)
