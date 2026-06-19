@@ -120,6 +120,7 @@ const CREED =
   `- 対象は全出走馬、漏れなく（＝完全性。「1頭ずつ」は漏らさず全頭の意味であって、直列に1頭ずつ調べる意味ではない）。馬番・馬名を必ず明記。\n` +
   `- 出典URL必須。推定は「推定」と明記し確信度を下げる。捏造しない＝取得できない項目は欠損として確信度「低」。\n` +
   `- 純粋情報のみ: オッズ・人気・オッズ変動・他人の予想/印/予想展開記事は使わない。関係者コメント・媒体の主観評価(調教/パドック点)は採用可。\n` +
+  `- 市場語（人気・オッズ・配当・払戻）は research JSON に1文字も書かない＝事実の引用でも『N番人気で差し切り』のように書かない（『後方から差し切り』等に言い換える）。『市場を除外した』旨の宣言文も書かない（STEP5 で機械スキャンする＝I1）。\n` +
   `# 調査の進め方（並列・直列禁止＝壁時計短縮。スパイク実証: 並列発行は harness が同時実行する）\n` +
   `- 全頭を1頭ずつ直列に検索しない。同種クエリは1ターンにまとめて並列発行する（1メッセージ内に複数の WebSearch/WebFetch tool_use を同時に出す）。\n` +
   `- 基本2ラウンド: ①最大6頭ぶんの WebSearch を1ターンで並列 → 結果を読む → ②必要な WebFetch を1ターンで並列。頭数が多ければ最大3バッチ繰り返す（18頭=3, 12頭=2）。\n` +
@@ -159,14 +160,23 @@ const runOne = (p) => agent(
 let research = (await parallel(ordered.map(p => () => runOne(p).then(r=>({p,r})).catch(()=>({p,r:null})))))
                  .filter(x => x.r)   // ← await 完了が暗黙バリア
 
-// --- 完全性アサーション（恒久ガード＝取りこぼし検出）。非E=horses, E=legs が全頭(field_size)あるはず。不足なら1回だけ再促し ---
-// cov: 返却データの全頭カバー数（非E=horses数 / E=legs数）。配列でなければ -1。workflow は fs 不可なので「返却データの全頭数」までを合成前に見る（ファイル保存自体は STEP5 の validate_research_bundle が担保）。
-const cov = (r, id) => { const a = id==='E' ? (r&&r.legs) : (r&&r.horses); return Array.isArray(a) ? a.length : -1 }
+// --- 完全性アサーション（恒久ガード＝取りこぼし検出）。非E=horses, E=legs が「配列・行数=field_size・各行の no が int・重複なし」を満たすか。
+// 旧実装は length だけ見ていたが、馬番重複・別馬混入・no欠損だと壊れた TOON が合成に渡る（行数N でも distinct な馬番が足りない）。
+// distinct な int no 数 と 行数 の両方を見る。workflow は fs 不可なので「返却データの全頭カバー」までを合成前に見る（ファイル保存自体は STEP5 の validate_research_bundle が担保）。
+const covInfo = (r, id) => {
+  const a = id==='E' ? (r && r.legs) : (r && r.horses)
+  if (!Array.isArray(a)) return { ok:false, n:-1, why:'配列なし' }
+  const s = new Set()
+  for (const x of a) { const no = x && x.no; if (Number.isInteger(no)) s.add(no) }
+  const ok = a.length === args.field_size && s.size === args.field_size
+  return { ok, n:s.size, why: ok ? '' : `行数${a.length}/有効馬番${s.size}≠${args.field_size}(重複/非int/欠落)` }
+}
 for (const x of research) {
-  if (cov(x.r, x.p.id) < args.field_size) {
-    log(`頭数不足 ${x.p.id}: ${cov(x.r, x.p.id)}/${args.field_size} → 1回再促し`)
+  const c = covInfo(x.r, x.p.id)
+  if (!c.ok) {
+    log(`不完全 ${x.p.id}: ${c.why} → 1回再促し`)
     const r2 = await runOne(x.p).catch(()=>null)
-    if (r2 && cov(r2, x.p.id) >= cov(x.r, x.p.id)) x.r = r2
+    if (r2 && covInfo(r2, x.p.id).n >= c.n) x.r = r2
   }
 }
 // --- 欠落ゲート（P6対策・PaceSynthesis前の必須チェック）: parse失敗等で落ちた観点を本体内で同期リトライ ---
@@ -186,11 +196,11 @@ for (const x of research) {
     // ※どうしても縮退合成するなら、ここを throw でなく missing を合成プロンプト＋report header_notes に明示する形に置換する（既定は停止）。
     if (missing.length) throw new Error(`欠落観点 ${missing.join(',')} がリトライ後も解消せず＝部分証拠での合成を中止（必須停止）。当該観点を再取得して resume すること`)
   }
-  // 完全性の必須停止: 返ってきたが全頭未満（非E=horses, E=legs）の観点があれば、部分証拠なので合成しない（合成トークンを浪費しない）。
+  // 完全性の必須停止: 返ってきたが不完全（行数≠field / 馬番重複 / 別馬混入 / no欠損）な観点があれば、壊れた証拠なので合成しない（合成トークンを浪費しない）。
   // ※ファイル保存自体（返却はあるが research-X.json 未保存）は workflow に fs アクセスが無いため見られない＝STEP5 の validate_research_bundle で担保する。
-  const short = research.filter(x => cov(x.r, x.p.id) < args.field_size)
-                       .map(x => `${x.p.id}:${cov(x.r, x.p.id)}/${args.field_size}`)
-  if (short.length) throw new Error(`全頭未満の観点 ${short.join(', ')} がリトライ後も解消せず＝部分証拠での合成を中止（必須停止）。当該観点を再取得して resume すること`)
+  const incomplete = research.filter(x => !covInfo(x.r, x.p.id).ok)
+                            .map(x => `${x.p.id}:${covInfo(x.r, x.p.id).why}`)
+  if (incomplete.length) throw new Error(`不完全な観点 ${incomplete.join(', ')} がリトライ後も解消せず＝壊れた証拠での合成を中止（必須停止）。当該観点を再取得して resume すること`)
 }
 const researchResults = research.map(x => x.r)
 

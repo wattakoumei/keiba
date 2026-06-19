@@ -10,7 +10,9 @@ report.json の `used_observations` と、同ディレクトリの実 `research-
   - used_observations に挙がっているのに research-<観点>.json が**保存されていない**（ERROR）
   - 研究artifact の馬番集合が **report.rank の全馬と不一致**（ERROR）: 件数でなく集合一致で見るため、
     同数でも**重複・別馬混入で1頭欠ける**ケースを捕捉（非E は `horses[].no`、E は `legs[].no`）。
-    rank が全頭そろわない時のみ件数（`< field_size`）に退避。
+    rank が全頭そろわない時のみ件数（`< field_size`）に退避。行が list でない壊れた artifact も error。
+  - **市場語の混入**（ERROR・I1）: research JSON の文字列に「人気・オッズ・配当・払戻」が残っていないか走査
+    （report に出なくても証拠JSONに残れば I1 違反）。
 
 使い方:
   python3 tools/validate_research_bundle.py <race-id>
@@ -22,6 +24,22 @@ report.json の `used_observations` と、同ディレクトリの実 `research-
 import sys, os, json, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# I1: 市場語（支持率・配当）は research artifact にも残してはいけない（report に出なくても証拠JSONに残れば違反）。
+MARKET_TERMS = ("人気", "オッズ", "配当", "払戻", "払い戻")
+
+
+def scan_market(obj, obs, errors):
+    """research の全文字列を走査して市場語を I1 違反として記録。"""
+    if isinstance(obj, str):
+        hit = [t for t in MARKET_TERMS if t in obj]
+        if hit:
+            errors.append(f"観点 {obs}: I1違反 市場語 {hit} を含む → {obj[:80]!r}")
+    elif isinstance(obj, list):
+        for x in obj:
+            scan_market(x, obs, errors)
+    elif isinstance(obj, dict):
+        for x in obj.values():
+            scan_market(x, obs, errors)
 
 
 def check_bundle(report_path):
@@ -69,6 +87,7 @@ def check_bundle(report_path):
         except Exception as e:
             errors.append(f"観点 {obs}: research-{obs}.json 読込失敗 — {e}")
             continue
+        scan_market(r, obs, errors)   # I1: 市場語が artifact に残っていないか
         key = "legs" if obs == "E" else "horses"
         rows = r.get(key)
         # 壊れた artifact は validator を落とさず error にして次へ（CI/レビュー向き）
