@@ -1,0 +1,182 @@
+{
+  "race_id": "20260621-tokyo-11",
+  "observation_point": "F",
+  "observation_name": "調教・厩舎仕上げ",
+  "as_of": "2026-06-19",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri.py(競馬ブック好時計)seed は当該レース出走馬 0頭=[]。全16頭をweb補完。seed不在≠調教不良。",
+  "method_note": "縦比較優先(前走/自己ベスト比)・コース内比較・ラスト1F重視・調教駆けフィルタ適用。横比較(坂路vsウッド)は時計水準が違うため避けた。cond(地力でなく今走の状態)を測る観点。",
+  "lens": "最終追いの時計/動き/併せ・調教場所/本数・前走比の変化・厩舎勝負気配(差分)",
+  "horses": [
+    {
+      "no": 1, "name": "マカナ", "stable": "伊藤大士",
+      "course": "美浦ウッド", "time": "6F83.0", "last1f": "11.5", "form": "単走/馬なり",
+      "evaluation_media": "良好(うましるは下位~中位)",
+      "vs_prev": "東京コース替わりは歓迎材料、ガス抜き済み。終い11.5は単走馬なりとして及第だが傑出せず",
+      "intent_signal": "目立った強調手なし=標準",
+      "score": 0, "confidence": "中",
+      "note": "ハンデ50kgの軽量だが調教は平凡。cond平行線。地力D級で単独浮上の材料薄い。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 2, "name": "ウイントワイライト", "stable": "西園翔太",
+      "course": "栗東坂路", "time": "4F53.8", "last1f": "12.1", "form": "単走/馬なり",
+      "evaluation_media": "うましるS評価(トップ2)",
+      "vs_prev": "1週前に一杯で自己2番目時計→最終馬なり53.8-12.1。坂路としては優秀でcondは上向き。ただし前走京王杯SC16着(1角18/18)の大敗明けで、距離延長(横山典助言で1800へ)の試金石",
+      "intent_signal": "西園師『1週前しっかり乗った→上がり重点』+横山典の助言で距離延長=主戦的判断による条件転換=やや本気度↑(差分)",
+      "score": 1, "confidence": "中",
+      "note": "坂路自己ベスト級でcond上向きは事実。ただし好時計≠走るの調教駆け警戒+大敗明けで加点抑制。媒体S評価は採用も時計事実を優先し+1に留める。",
+      "sources": ["https://umasiru.com/archives/20382", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 3, "name": "ブラウンラチェット", "stable": "手塚貴久",
+      "course": "美浦ウッド", "time": "6F81.6", "last1f": "11.8", "form": "単走/馬なり",
+      "evaluation_media": "良好(にわか面で星評価)",
+      "vs_prev": "全体6F81.6と速いペースで攻めスタミナ強化(陣営)。終い11.8は突出せずだが全体時計は優秀。前走福島牝馬11着から立て直し",
+      "intent_signal": "速いペースで負荷=スタミナ重視の意図。手塚厩舎は標準的仕上げ。差分は中程度",
+      "score": 1, "confidence": "中",
+      "note": "全体時計速くcondは前進。終いがもう一息で+1。手塚厩舎=generic標準型で読む(catalog空)。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 4, "name": "ミアネーロ", "stable": "林徹",
+      "course": "美浦ウッド", "time": "6F82.3", "last1f": "11.0", "form": "3頭併せ/馬なり",
+      "evaluation_media": "優秀(うましる上位)",
+      "vs_prev": "美浦W3頭併せで楽に終い11.0。大野『動き良かった、先週も同じくらい』。林師『時計出る馬場でも楽に11.0ならいい、一番適性高い条件』。前走中山ダート総武S15着は外枠ダートで参考外、芝1800東京替わりで一変期待。天栄帰りで立て直し成功",
+      "intent_signal": "林師の強気コメント+外厩(天栄)立て直し+ベスト条件への積極臨戦=本気度↑↑。3頭併せで楽に11.0=余力",
+      "score": 2, "confidence": "高",
+      "note": "馬なりで終い11.0=この観点で最上クラスの余力サイン。条件好転+陣営強気でcond明確に上向き。調教駆け疑いは低い(複数併せ・楽な脚色・適条件)。最高評価+2。",
+      "sources": ["https://www.chunichi.co.jp/article/1268029", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 5, "name": "エストゥペンダ", "stable": "高柳瑞樹",
+      "course": "美浦ウッド", "time": "6F82.4", "last1f": "11.3", "form": "単走/G前仕掛け",
+      "evaluation_media": "うましるA評価",
+      "vs_prev": "ウッドでラスト11.3の好タイム、体を大きく使うフォーム好調。前走新潟弥彦S1着で連勝中=上り調子。高柳瑞師『状態キープ、東京1800はいい条件』",
+      "intent_signal": "連勝中の上昇馬を状態キープで送り込む=陣営手応えあり。G前仕掛けで11.3=しっかり負荷かけて好時計",
+      "score": 1, "confidence": "中",
+      "note": "連勝の勢いとcond維持で前進。終い11.3好時計だが昇級でハンデ差の不利は地力(別観点)。cond+1。",
+      "sources": ["https://news.yahoo.co.jp/articles/7fe9c510a850931e86d2d9600efaf7ddb01b847b", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 6, "name": "ヴァルキリーバース", "stable": "田中博康",
+      "course": "美浦ウッド", "time": "6F84.4", "last1f": "11.7", "form": "併走/馬なり",
+      "evaluation_media": "うましるB評価(媒体注目馬・ルメール騎乗)",
+      "vs_prev": "6F84.4-11.7と全体時計は平凡、併せ馬なりで手前替えスムーズ・無駄ない走り。前走中山東風S1着。陣営『距離も合うと言えない中で強い勝ち方』",
+      "intent_signal": "田中博厩舎は牝馬重賞未勝利だが主力評価でルメール確保=勝負度はあるが追い自体は平凡。坂路/ウッドの普段差分は不明(catalog空)",
+      "score": 0, "confidence": "中",
+      "note": "全体時計B級・終い11.7で突出せず=condは平行線~微増。動きの質は悪くないが時計事実優先で0。地力は別観点で評価。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 7, "name": "セキトバイースト", "stable": "四位洋文",
+      "course": "栗東CW", "time": "4F53.2", "last1f": "11.2", "form": "単走/馬なり",
+      "evaluation_media": "優秀(連覇馬・うましるB)",
+      "vs_prev": "CW単走4F53.2-11.2。山本助手『いい動き、今年に入って一番いい。体も精神面も安定』。陣営『コンスタントに使った方が動き良くなる』。昨年同レース勝ち馬で連覇狙い",
+      "intent_signal": "叩き上昇型を匂わすコメント(コンスタント使用で良化)。今年一番の評価=勝負気配↑。軽め(4Fのみ馬なり)でも連覇実績で割り引かず",
+      "score": 1, "confidence": "中",
+      "note": "馬なりで11.2・陣営最高評価でcond上向き。叩き良化型で本番上積み見込める。連覇舞台適性込みで+1。",
+      "sources": ["https://dir.netkeiba.com/keiba/news/news_preview.html?no=334593", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 8, "name": "ニシノティアモ", "stable": "上原佑紀",
+      "course": "美浦ウッド", "time": "6F86.7", "last1f": "12.2", "form": "単走/馬なり",
+      "evaluation_media": "うましるA評価",
+      "vs_prev": "馬場入りを少し嫌うも走り出し弾むフットワーク。最終はサラッと単走で時計は地味(86.7-12.2)。上原師『馬場考慮で単走サラッと、動きは良かった、前走後在厩で状態キープ』。前走VM6着",
+      "intent_signal": "馬場考慮で意図的に軽め=時計地味は減点材料でない。在厩キープで状態維持。条件替わり歓迎",
+      "score": 1, "confidence": "中",
+      "note": "時計は地味だが意図的軽めで動きの質は良好、状態キープ。媒体A評価。終い12.2は失速でなく抑えた走り。cond維持~微増で+1。",
+      "sources": ["https://news.yahoo.co.jp/articles/ee7edf51d6030de149aaf134950a5377b03fa5f0", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 9, "name": "テリオスララ", "stable": "田島俊明",
+      "course": "美浦ウッド", "time": "5F67.9", "last1f": "10.8", "form": "併走/馬なり",
+      "evaluation_media": "うましるS評価(トップ2)",
+      "vs_prev": "美浦W併せで終い2F12.2-1F10.8、直線でにわかに伸びる姿勢。陣営『しまいの動き良かった、自分のリズムで流れの中で位置取りできれば』。媒体『時計・動きともに充実』",
+      "intent_signal": "S評価=媒体最上。逃げ馬で終い10.8は鋭さ十分。普段差分は不明だが時計事実が強い",
+      "score": 2, "confidence": "高",
+      "note": "馬なり併せで終い10.8=最上クラスの鋭さ。媒体トップ評価とも一致しcond明確に上向き。逃げ脚質で展開次第だがcond自体は+2。調教駆けの懸念は終いの質が高く低め。",
+      "sources": ["https://umasiru.com/archives/20382", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 10, "name": "ホールネス", "stable": "藤原英昭",
+      "course": "栗東CW", "time": "7F99.0", "last1f": "11.5", "form": "単走/馬なり",
+      "evaluation_media": "うましるE評価(映像非公開で判断材料乏しい)",
+      "vs_prev": "CW7F99.0-11.5、長めから単走馬なり。陣営『背中良い、まじめ、1800も問題ない』。前走新潟大賞典8着。媒体は映像なくE",
+      "intent_signal": "藤原厩舎は仕上げ巧者だが普段差分は不明(catalog空)。7Fと長めに乗る=スタミナ重視で標準",
+      "score": 0, "confidence": "低",
+      "note": "長めから終い11.5は悪くないが映像評価不能で確信度低。藤原厩舎=generic。事実が薄いため0。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 11, "name": "テレサ", "stable": "杉山晴紀",
+      "course": "栗東坂路", "time": "4F55.7", "last1f": "12.8", "form": "単走/馬なり",
+      "evaluation_media": "良好(うましる中位)",
+      "vs_prev": "坂路4F55.7-終い12.8と軽め。陣営『この時季がいいのか毛ヅヤ良く体調良さそう』。前走福島牝馬S5着で堅実",
+      "intent_signal": "坂路単走馬なりで控えめ。杉山晴厩舎=generic標準。体調面のコメントは前向きだが追い自体は平凡",
+      "score": 0, "confidence": "中",
+      "note": "坂路55.7-12.8は標準的で突出せず、終い12.8は余力豊富とは言えない目安。cond平行線で0。体調コメントは良好材料だが時計事実優先。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 12, "name": "コガネノソラ", "stable": "菊沢隆徳",
+      "course": "美浦坂路", "time": "4F54.2", "last1f": "12.6", "form": "単走/馬なり",
+      "evaluation_media": "優秀(媒体高評価・好走率データ該当)",
+      "vs_prev": "美浦坂路単走4F54.2-12.6を馬なり。菊沢一(騎乗)『乗りやすくリラックス、何の注文もない』、菊沢隆師『上積みある、舞台問題ない、コース替わり心配ない』。前走福島牝馬S1着で重賞連勝狙い=勢い継続",
+      "intent_signal": "重賞勝ち直後の充実、陣営『上積みある』と強気。坂路馬なり54.2-12.6は美浦坂路として優秀(終い12.6=余力目安)",
+      "score": 2, "confidence": "高",
+      "note": "前走重賞勝ちから上積みありの強気、坂路馬なりで54.2-終い12.6(余力目安以下)=cond充実。複数媒体高評価と一致。調教駆け懸念低く+2。雨予報は別観点。",
+      "sources": ["https://www.chunichi.co.jp/article/1268049", "https://umanity.jp/racedata/race_newsdet.php?nid=11872268", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 13, "name": "ビップデイジー", "stable": "松下武士",
+      "course": "栗東坂路", "time": "4F58.5", "last1f": "12.9", "form": "単走/馬なり",
+      "evaluation_media": "良好(うましる中位)",
+      "vs_prev": "坂路4F58.5-終い12.9と全体・終いとも控えめ。陣営『状態いい、1800も問題ない』。前走阪神牝馬S5着で重賞善戦",
+      "intent_signal": "坂路単走馬なりで時計は地味。松下厩舎=generic標準。コメントは前向きだが追いは平凡",
+      "score": 0, "confidence": "中",
+      "note": "坂路58.5-12.9は全体も終いも控えめで突出せず=cond平行線。前走善戦の地力は別観点。調教面の上昇サイン薄く0。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html"]
+    },
+    {
+      "no": 14, "name": "パラディレーヌ", "stable": "千田輝彦",
+      "course": "栗東CW", "time": "3F37.9", "last1f": "11.1", "form": "単走/馬なり(3Fのみ)",
+      "evaluation_media": "うましるE評価(映像非公開)/中日スポは終い11.1報道",
+      "vs_prev": "CW3Fのみ短めで終い11.1は軽快。千田師『ここ2走ストレスかかった走り→コースで伸び伸び、動き良かった』だが『春4走目で疲れがないわけでない、どう出るか』と慎重併記。前走VM12着",
+      "intent_signal": "短め3Fで疲労配慮=反撃態勢だが本数控えめ。陣営自ら疲れ懸念を口にする=差分はやや慎重寄り",
+      "score": 0, "confidence": "中",
+      "note": "終い11.1は速いが3Fのみの軽め+陣営が疲れ懸念を明言=condは上向き断定できず平行線。短い好時計は調教駆け判定困難で加点抑制し0。",
+      "sources": ["https://www.chunichi.co.jp/article/1268013", "https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 15, "name": "ルージュソリテール", "stable": "藤原英昭",
+      "course": "栗東坂路", "time": "4F54.9", "last1f": "13.5", "form": "単走/馬なり",
+      "evaluation_media": "うましるE評価(映像非公開で判断材料乏しい)",
+      "vs_prev": "坂路4F54.9-終い13.5。陣営『左回り得意、結果出てる舞台で楽しみ』。前走阪神牝馬S3着で重賞好走。終い13.5は失速気味の目安",
+      "intent_signal": "藤原厩舎=仕上げ巧者だが普段差分不明(catalog空)。坂路単走で終い13.5は緩み気味",
+      "score": 0, "confidence": "低",
+      "note": "坂路54.9だが終い13.5(13.0以上=失速目安)=最後緩む。映像非公開で評価不能だが時計の終いは平凡。藤原仕上げを信頼し下げ過ぎず0、確信度低。前走3着の地力は別観点。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    },
+    {
+      "no": 16, "name": "セントメモリーズ", "stable": "松尾卓哉",
+      "course": "美浦ウッド", "time": "5F66.2", "last1f": "11.8", "form": "併走/馬なり",
+      "evaluation_media": "うましるE評価(映像非公開)/競馬の魅力では終い11.8報道",
+      "vs_prev": "美浦W併せ5F66.2-終い11.8、馬なり。陣営『先週追ってから前進気勢がもう一段階上がった』。前走阪神ポラリスS(ダート)14着は参考外、芝替わり",
+      "intent_signal": "陣営『前進気勢が上がった』と気配前進コメント。併せ馬なりで66.2-11.8は水準級。松尾厩舎=generic",
+      "score": 1, "confidence": "中",
+      "note": "併せ馬なりで66.2-11.8と水準、陣営の前進気勢コメントは上向きサイン。ハンデ52kgの軽量。cond微増で+1だが媒体評価は割れ確信度中。",
+      "sources": ["https://www.keibanomiryoku.com/article/fuchu-himba-stakes-2026-work-out.html", "https://umasiru.com/archives/20382"]
+    }
+  ],
+  "stable_intent_additions": [
+    {"stable": "林徹", "label_tentative": "標準/状態明示型", "evidence": "ミアネーロで最終追い・適条件・天栄帰りを陣営が具体数値で強気明言(『楽に11.0ならいい・一番適性高い条件』)。状態を言語化して送り込む傾向", "confidence": "低"},
+    {"stable": "菊沢隆徳", "label_tentative": "叩き良化/勢い重視型", "evidence": "コガネノソラで重賞勝ち直後『上積みある』と明言、坂路馬なり好時計。勝ち上がりの勢いをそのまま乗せる読み", "confidence": "低"},
+    {"stable": "四位洋文", "label_tentative": "叩き上昇型(コンスタント使用)", "evidence": "セキトバイースト陣営『コンスタントに使った方が動きは良くなる』=使って良化する型を自認。軽め追いでも実戦上昇", "confidence": "低"},
+    {"stable": "西園翔太", "label_tentative": "選択的強化/主戦助言反映型", "evidence": "ウイントワイライトで横山典の助言を受け距離延長、1週前一杯→最終上がり重点の段階的仕上げ", "confidence": "低"},
+    {"stable": "藤原英昭", "label_tentative": "仕上げ巧者/外厩活用型(暫定)", "evidence": "ホールネス・ルージュソリテール2頭出し、トレセン追いは軽めでも実績厩舎。最終時計の絶対値で割り引かない方針が妥当", "confidence": "低"}
+  ],
+  "summary_top": ["ミアネーロ(+2)", "コガネノソラ(+2)", "テリオスララ(+2)"],
+  "summary_note": "cond上位3頭はミアネーロ(楽に終い11.0・適条件・陣営強気)、コガネノソラ(重賞勝ち直後・上積み明言)、テリオスララ(媒体S・終い10.8)。次点でウイントワイライト/セキトバイースト/エストゥペンダ/ニシノティアモ/ブラウンラチェット(+1)。E評価3頭(ホールネス/ルージュソリテール/セントメモリーズ系)は映像非公開で確信度低。好時計でも単独で着順は決めず地力(別観点)と統合する。",
+  "overall_confidence": "中"
+}

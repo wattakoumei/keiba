@@ -1,0 +1,209 @@
+{
+  "race_id": "20260621-tokyo-11",
+  "observation_point": "H",
+  "observation_point_label": "当日気配・パドック・直前情報",
+  "as_of": "2026-06-19",
+  "race_grade": "GII",
+  "acquisition_expectation": "重賞のため全頭の最終追い切り(6/16-18)後の調教師/騎手/助手コメントが各媒体に記事化されており取得期待値=高。ただしレースは2026-06-21でまだ未開催のため、当日パドック寸評・返し馬・発汗気配・確定馬体重は存在せず全頭欠損(=正常)。コメントは全て今走に向けた最終追い切り後のもので前走後回顧ではない。グレード表記が媒体間でG3/GIIと揺れるが出走馬・条件は一致し同一レース。",
+  "market_excluded": true,
+  "horses": [
+    {
+      "no": 1, "name": "マカナ", "score": 0.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-18", "speaker": "助手", "text": "ガス抜きができたし、東京コースに戻るのもいい。軽ハンデを生かしたい", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-18", "speaker": "媒体寸評", "text": "美浦ウッド並走 6F83.0-上り11.5、四肢の動きがしなやかでスムーズ。この馬なりに良好（追い切り評価B）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "戦法言及なし(差/テン遅)。前走京都12着からの巻き返し材料は軽ハンデと東京替わり",
+      "media_workout_rating": "B(umasiru) / B(niwakamen)"
+    },
+    {
+      "no": 2, "name": "ウイントワイライト", "score": 1.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "しっかり動ける状態。ジョッキーの進言で距離を延ばしてみようかと", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "状態としては言うことないですね", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "栗東坂路単走 4F53.8-上り12.1。1週前に自己2番目51.3を記録、順調に良化（追い切り評価S）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "1800mへの距離延長は陣営/騎手の前向きな選択。状態評価が高い(調子A・1週前S相当)。前走京王杯SC16着はスプリント不適の文脈",
+      "media_workout_rating": "S(umasiru) / 調子A追い切りB(niwakamen)"
+    },
+    {
+      "no": 3, "name": "ブラウンラチェット", "score": 0.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "メンタルが難しいので、イライラせずにポテンシャルを出せれば", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "前走時よりも動き自体はいい", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "美浦ウッド単走 6F81.6-上り11.8、自己2番目に速い時計。終盤のキレはあまり感じられず及第点（umasiru B）／別媒体は調子A・追い切りA最上位評価", "for_this_race": true, "source": "umasiru.com / note.com/niwakamen_93"}
+      ],
+      "intent_cue": "陣営はメンタル(気性)が出来不出来を左右と明言→当日の気配・パドックでの落ち着き確認が特に重要な馬。動き自体は良好だが媒体間で評価が割れる(終いのキレ評価が分かれる)",
+      "media_workout_rating": "B(umasiru) / 調子A追い切りA最上位(niwakamen)"
+    },
+    {
+      "no": 4, "name": "ミアネーロ", "score": 1.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "楽に11.0秒が出ました。牧場からすごくいい状態。東京1800メートルは一番適性がある", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "かなり落ち着いているし、動きもすごくいい", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "美浦ウッド3頭併せ 6F82.3-上り11.0。この馬なりにまずまず仕上がり（umasiru B）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "調教師が状態・適性ともに強気(『東京1800が一番適性』『すごくいい状態』『楽に11.0秒』)。前走中山総武S15着は条件不適の文脈で巻き返し示唆。コメントの勝負気配は高め。ただしniwakamenは追い切りC評価で媒体間に乖離あり→確信度は中",
+      "media_workout_rating": "B(umasiru) / 調子B追い切りC(niwakamen)"
+    },
+    {
+      "no": 5, "name": "エストゥペンダ", "score": 1.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "動きは良かった。状態はキープしています。相手が強そうですが、ハンデも軽い", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "直線が長いコースは得意。ここでも楽しみ", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "美浦ウッド単走 6F82.4-上り11.3、フットワーク軽快でしなやか。馬体も艶がありコンディション良好（umasiru A評価）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "前走新潟弥彦S1着の上り馬。調教師は『直線が長いコース得意』『状態キープ』と前向き、ハンデ54も妙味。馬体に艶があり気配良好の寸評。コメント+調教評価とも好材料寄り",
+      "media_workout_rating": "A(umasiru) / B(niwakamen)"
+    },
+    {
+      "no": 6, "name": "ヴァルキリーバース", "score": 0.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-18", "speaker": "調教師", "text": "改めて能力の高さを感じる動きで、今回は前走よりいい状態でいけると", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "前走久々でしたが勝ってくれて能力の高さを感じました。現時点で状態は前走より少しいいくらい", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-18", "speaker": "媒体寸評", "text": "美浦ウッド重馬場で並走 6F84.4-上り11.7。久々にしては動けていた、この馬なりに好調（umasiru B）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "調教師は『前走よりいい状態』と上積みを強調(休み明け2戦目の前進)。最終追いは重馬場で時計は平凡だが馬場差を考慮。最上位人気想定馬だが当観点単独では『B評価+陣営強気』で中程度の好材料。当日馬場が渋ると経験面の注意は他観点へ",
+      "media_workout_rating": "B(umasiru) / 評価掲載なし(niwakamen)"
+    },
+    {
+      "no": 7, "name": "セキトバイースト", "score": 1.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "助手", "text": "いい動きだった。今年に入って、一番いいと思います。去年、勝ったときより心身ともにたくましくなっています", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "しっかり動かしてもらって、下も悪いなかでしっかり動いている", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "栗東CW単走 4F53.2-上り11.2、前躯の筋肉量豊富でパワー感、1週前より良化。頭を振る癖も減少（umasiru B）／別媒体は調子A・追い切りA上位評価", "for_this_race": true, "source": "umasiru.com / note.com/niwakamen_93"}
+      ],
+      "intent_cue": "助手が『今年に入って一番いい』『去年勝った時より心身ともにたくましく』と明確な上昇気配を示す→好材料として強い。先行脚質でテン中。媒体間でも調子A評価で一致度が高い",
+      "media_workout_rating": "B(umasiru) / 調子A追い切りA上位(niwakamen)"
+    },
+    {
+      "no": 8, "name": "ニシノティアモ", "score": 1.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-18", "speaker": "調教師", "text": "動きは良かった。ただ馬場があまりに悪くなるようだと経験がないので、稍重までなら", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "騎手(1週前)", "text": "GⅠのあとでもくたっとしていない。ベストの条件なので取りにいきたい", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-18", "speaker": "媒体寸評", "text": "美浦ウッド単走 6F86.7-上り12.2(最終は重馬場)、馬体シャープでコンパクト、時計以上の仕上がりに感じる（umasiru A）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "騎手が『ベストの条件なので取りにいきたい』と勝負気配↑(積極策示唆)・先行脚質。VM6着後も消耗なしの好気配。ただし調教師は重馬場経験なしを懸念し『稍重まで』と条件付き→当日馬場が要注意トリガー(STEP4a素材)",
+      "media_workout_rating": "A(umasiru) / 評価掲載なし(niwakamen)"
+    },
+    {
+      "no": 9, "name": "テリオスララ", "score": 0.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "全体的に速い時計ではないけど、しまいの動きは良かった", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "しまいの動きが良かった。前走みたいなハイペースになるとバテてしまう", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "美浦ウッド併せ 5F67.9-上り10.8、後ろ脚の踏み込み力強く時計・動きとも充実、馬体シャープで直線自らペースを引き上げ（umasiru S評価）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "出方=逃げ(テン速)の本線だが、調教師が『前走みたいなハイペースになるとバテる』と明言→当日は飛ばし過ぎを避けマイペース志向の可能性大(STEP4a展開トリガーの最重要素材＝行くが緩める)。調教評価はumasiru最上位Sで状態は良好。コメントの戦法と仕上げ評価が逆方向のため観点単独スコアは中立",
+      "media_workout_rating": "S(umasiru) / B(niwakamen)"
+    },
+    {
+      "no": 10, "name": "ホールネス", "score": 0.5, "confidence": "低",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-18", "speaker": "騎手", "text": "背中が良かったし、性格もまじめ。1800メートルも問題ないと思います", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-18", "speaker": "助手(1週前)", "text": "休養明けから徐々に良くなっている", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-18", "speaker": "媒体寸評", "text": "栗東CW単走 7F99.0-上り11.5。映像未公開で馬体・動きの確認取れず（umasiru E=測定不能）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "騎手が距離・背中を前向き評価、助手も『徐々に良化』と上昇基調。ただし追い切り映像未公開で気配の客観確認が取れず確信度低。当日パドックでの判断余地大",
+      "media_workout_rating": "E測定不能(umasiru) / 評価掲載なし(niwakamen)"
+    },
+    {
+      "no": 11, "name": "テレサ", "score": 0.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "助手", "text": "毛ヅヤが良く、体調は良さそうですよ", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "このひと追いで良くなると思います", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "栗東坂路単走 4F55.7-上り12.8、古馬になって成長を感じる。使える脚は長くない（終い2F12.5-1F12.8）（umasiru B）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "助手が『毛ヅヤ良く体調良さそう』と気配良好を示す好材料。先行脚質。最終坂路の時計は地味だが古馬成長を陣営が評価。福島牝馬S5着からの上積み見込み",
+      "media_workout_rating": "B(umasiru) / B(niwakamen)"
+    },
+    {
+      "no": 12, "name": "コガネノソラ", "score": 1.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "いい感じにリラックス。体幹がいいし調教後の息の入りもいい。上積みはあると", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "騎手(1週前)", "text": "道中は前走以上にリラックス。動きは申し分ありません", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "美浦坂路単走 4F54.2-上り12.6、この馬なりに調子良さそう。1週前に2F11.9-1F11.0の末脚（umasiru B）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "前走福島牝馬S1着の勝ち馬。調教師『上積みはある』『息の入りいい』、騎手『前走以上にリラックス・動き申し分ない』と陣営・鞍上ともに前向き→勝負気配高め。最斤量56.5は他観点へ。コメントの好材料は明確",
+      "media_workout_rating": "B(umasiru) / 調子B追い切りB(niwakamen)"
+    },
+    {
+      "no": 13, "name": "ビップデイジー", "score": 0.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "状態はいいですよ。前走は強いメンバーで頑張ってくれました", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "しっかり動けていました。放牧を挟んで順調にきています", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "栗東坂路単走 4F58.5-上り12.9、この馬なりに仕上がり（umasiru B）／別媒体は調子A・追い切りB", "for_this_race": true, "source": "umasiru.com / note.com/niwakamen_93"}
+      ],
+      "intent_cue": "調教師『状態はいい』『放牧挟んで順調』と好調維持。阪神牝馬S5着からの順当ローテ。最終坂路の自己時計は遅いが馬なり、調子評価は良好(別媒体調子A)",
+      "media_workout_rating": "B(umasiru) / 調子A追い切りB(niwakamen)"
+    },
+    {
+      "no": 14, "name": "パラディレーヌ", "score": 0.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "ストレスなく伸び伸びと。1ハロン延長はいいと思います", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "調教師(1週前)", "text": "前回がGⅠでしっかり走ったので疲れがないこともないが、メンバー的には負けられない", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "栗東CW単走 3F37.9-上り11.1。映像未公開で情報乏しい（umasiru E=測定不能）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "調教師が1800mへの距離延長を前向き評価・『メンバー的に負けられない』と勝負気配あり。ただしVM後の疲れを一部認める発言＋追い切り映像未公開で気配の客観確認が取れず→好材料はコメント依存で確信度は中",
+      "media_workout_rating": "E測定不能(umasiru) / 評価掲載なし(niwakamen)"
+    },
+    {
+      "no": 15, "name": "ルージュソリテール", "score": 1.0, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-16", "speaker": "助手", "text": "左回りは得意。結果の出ている舞台で楽しみ", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-16", "speaker": "助手(1週前)", "text": "しっかり動けていたし、いい感じで成長してきている", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-16", "speaker": "媒体寸評", "text": "栗東坂路単走 4F54.9-上り13.5。映像未公開で判断材料ほぼなし（umasiru E=測定不能）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "助手が『左回り得意』『結果の出ている舞台で楽しみ』『いい感じで成長』と東京1800適性と上昇を強調→好材料。先行脚質。ただし最終追い切り映像未公開で気配の客観確認が取れず確信度は中。阪神牝馬S3着からの臨戦",
+      "media_workout_rating": "E測定不能(umasiru) / 評価掲載なし(niwakamen)"
+    },
+    {
+      "no": 16, "name": "セントメモリーズ", "score": -0.5, "confidence": "中",
+      "paddock_score": null, "return_run": null, "sweating_appearance": null, "confirmed_weight": null,
+      "comments": [
+        {"date": "2026-06-17", "speaker": "調教師", "text": "先週追い切ってから前進気勢がもう一段階上がりました。折り合いがキーポイント", "for_this_race": true, "source": "keibanomiryoku.com"},
+        {"date": "2026-06-17", "speaker": "媒体寸評", "text": "美浦ウッド重馬場で併せ 5F66.2-上り11.8(最終)、映像未公開で判断材料乏しい（umasiru E=測定不能）", "for_this_race": true, "source": "umasiru.com"}
+      ],
+      "intent_cue": "調教師が『前進気勢がもう一段階上がった、折り合いがキーポイント』と発言→気性的に行きたがる懸念を陣営自ら指摘(やや不安材料)。差/テン遅の脚質だが折り合い面が当日の鍵。最軽量52だが追い切り映像未公開で気配確認できず",
+      "media_workout_rating": "E測定不能(umasiru) / 評価掲載なし(niwakamen)"
+    }
+  ],
+  "intent_synthesis_for_step4a": {
+    "note": "出方=行く/控えるの素材(展開合成STEP4aへ。市場情報は不使用)",
+    "front_runners_cues": [
+      "⑨テリオスララ: 逃げ本線だが調教師『前走みたいなハイペースだとバテる』→当日は飛ばさずマイペース志向の公算大(行くが緩める=スロー寄りトリガー)",
+      "⑧ニシノティアモ: 騎手『ベストの条件、取りにいきたい』先行で積極策示唆(前で運ぶ意欲↑)",
+      "⑪テレサ: 先行・気配良好だが戦法の明示コメントなし",
+      "⑮ルージュソリテール: 先行・左回り得意の好材料、戦法の明示コメントなし",
+      "⑯セントメモリーズ: 差だが『前進気勢が一段上がり折り合いがキー』→道中行きたがる可能性(隊列を乱す要素として留意)"
+    ],
+    "distance_extension_intent": [
+      "②ウイントワイライト: 騎手進言で1800へ距離延長(前向き)",
+      "⑭パラディレーヌ: 1ハロン延長を陣営が前向き評価"
+    ],
+    "track_condition_caveat": [
+      "⑧ニシノティアモ: 調教師『重馬場は経験なし、稍重まで』→当日含水率が高いと割引(STEP4aで馬場トリガーと連動)"
+    ]
+  },
+  "data_quality": {
+    "comments_coverage": "16/16頭で今走向け最終追い切り後コメント取得(3点セット=日付・出典・今走向けの区別すべて充足)",
+    "media_workout_rating_coverage": "16/16頭で媒体追い切り評価あり(うち4頭⑩⑭⑮⑯は映像未公開でumasiru E=測定不能、コメント依存で確信度低め)",
+    "paddock_returnrun_weight_coverage": "0/16頭。レースが2026-06-21で未開催のためパドック寸評・返し馬・発汗気配・確定馬体重は存在せず全頭欠損(=正常)",
+    "user_augmentation_needed": "当日(6/21)のパドック評価・返し馬・発汗の有無・確定馬体重(前走差)・媒体パドック点数を当日に貼り付けて補強推奨。特に⑩⑭⑮⑯は追い切り映像未公開でコメント依存のため、当日パドックでの気配確認の価値が高い。③ブラウンラチェット⑯セントメモリーズは気性が鍵→落ち着き/発汗のチェックを優先",
+    "market_excluded": "直前オッズ・人気・オッズ変動は不抽出(I1遵守)。媒体の予想印・予想オッズも証拠不使用"
+  }
+}
