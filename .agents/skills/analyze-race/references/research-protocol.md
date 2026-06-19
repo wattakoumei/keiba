@@ -1,11 +1,11 @@
 # 調査プロトコル（各観点サブエージェント用・共通部）
 
-各観点は専属 subagent（`.claude/agents/obs-*.md`）が担当する。**観点固有の手順・クエリ・抽出・スコア指針は各 agent 定義に内蔵**。
+各観点は専属 subagent（`.codex/agents/obs-*.toml`）が担当する。**観点固有の手順・クエリ・抽出・スコア指針は各 agent 定義に内蔵**。
 このファイルは**全観点共通**のもの＝「共通ルール」「推奨ソース」「出力スキーマ」を持つ（Workflow が spawn 時に注入する正本）。
 
 ## 共通ルール
 
-- **対象は全出走馬**。漏れなく1頭ずつ評価する。馬番・馬名を必ず明記。
+- **対象は全出走馬**。漏れなく評価する。馬番・馬名を必ず明記。ただし全馬を同じ深さで web 検索しない。
 - **出典 URL を必ず残す**。推定・憶測は「推定」と明記し確信度を下げる。
 - 数値（タイム・指数・馬体重）は具体値で。曖昧なら範囲か「不明」。
 - 取得できなかった項目は捏造しない。欠損として注記し確信度を下げる。
@@ -29,26 +29,56 @@
 
 > **使わないソース**: オッズ/人気ページ、予想家・専門紙の「印」や予想展開そのもの。
 > コース傾向・馬場記事は「事実（前残り傾向・内外バイアス等）」を採り、他人の本命/結論は採らない。
-検索は「馬名 + 観点キーワード」「レース名 + 年 + 出走表/追い切り」等で。1観点で最低2ソースの突き合わせを推奨。
+検索は「馬名 + 観点キーワード」「レース名 + 年 + 出走表/追い切り」等で。重要馬・矛盾箇所だけ複数ソースで突き合わせる。
+
+## 速度・トークン予算（全観点共通）
+
+精度を落とさず速くするため、**seed / 静的カタログ / 既知の核データで足りる情報は web 再調査しない**。
+web は「印・展開・強い割引を動かす不確定点」だけに使う。
+
+### 予算
+
+- 1観点あたり原則 **WebSearch 2バッチ以内 + WebFetch 1バッチ以内**。重賞など情報が厚い場合だけ追加1バッチ可。
+- 1頭あたりの出典URLは原則 **最大2件**。重要馬・矛盾解消だけ3件まで。
+- `pros` / `cons` は各馬あわせて **1〜3件**を目安にし、下流で使う事実だけ残す。
+- `field_note` は **400字以内**。長い回顧や調査過程は保存しない。
+- 取得不能項目は「不明」+ 確信度「低」で止める。穴埋め目的の追加検索を続けない。
+
+### 深掘り条件
+
+次のどれかに当たる馬だけ深掘りする。
+
+- seed と web/常識的ラベルが矛盾する。
+- 展開トリガー（逃げ候補・ハナ主張・控える可能性）になる。
+- 上位印候補、または `pattern_fit` の `◎/○/△` に残す可能性がある。
+- 休み明け・故障明け・乗替・初条件など、強い加点/減点になりうる。
+- C/D/F/K の静的カタログに無く、当該条件の判断に必要。
+
+### 出力の小型化
+
+- Markdown prose は生成しない。`research-<観点>.json` だけ保存する。
+- 各馬の `note` は「事実 + なぜその観点でプラス/マイナスか」を1文に圧縮する。
+- 出典は URL 配列で持ち、本文中に同じURLやページ名を繰り返さない。
+- 取れなかった検索語や調査ログは保存しない。必要なら `field_note` に欠損だけ書く。
 
 ## 観点別の手順 → 各 subagent に移管
 
 各観点の**手順・検索クエリ例・抽出項目・スコア指針**は、その観点の**専属 subagent 定義**に内蔵した（二重管理を避けるためここには書かない）。
-観点を1つ調整したいときは、対応する agent ファイルを直接編集する（`.claude/rules/editing-map.md` の「観点を変える」）。
+観点を1つ調整したいときは、対応する agent ファイルを直接編集する。
 
 | 観点 | 専属 subagent（`agentType`） |
 |---|---|
-| A 能力指数・時計 | `.claude/agents/obs-a-index.md` |
-| B 近走内容・クラス通用度 | `.claude/agents/obs-b-recent.md` |
-| C 血統 | `.claude/agents/obs-c-pedigree.md` |
-| D コース/距離/馬場適性 | `.claude/agents/obs-d-aptitude.md` |
-| E 展開証拠（評価を付けない・PACE_EVIDENCE_SCHEMA） | `.claude/agents/obs-e-pace.md` |
-| F 調教・厩舎仕上げ | `.claude/agents/obs-f-training.md` |
-| G ローテ・馬体・間隔 | `.claude/agents/obs-g-rotation.md` |
-| H 当日気配・パドック | `.claude/agents/obs-h-paddock.md` |
-| I リスク/割引（スコア 0..-2） | `.claude/agents/obs-i-risk.md` |
-| K 騎手・乗り替わり | `.claude/agents/obs-k-jockey.md` |
-| L 条件実績・リピーター | `.claude/agents/obs-l-repeater.md` |
+| A 能力指数・時計 | `.codex/agents/obs-a-index.toml` |
+| B 近走内容・クラス通用度 | `.codex/agents/obs-b-recent.toml` |
+| C 血統 | `.codex/agents/obs-c-pedigree.toml` |
+| D コース/距離/馬場適性 | `.codex/agents/obs-d-aptitude.toml` |
+| E 展開証拠（評価を付けない・PACE_EVIDENCE_SCHEMA） | `.codex/agents/obs-e-pace.toml` |
+| F 調教・厩舎仕上げ | `.codex/agents/obs-f-training.toml` |
+| G ローテ・馬体・間隔 | `.codex/agents/obs-g-rotation.toml` |
+| H 当日気配・パドック | `.codex/agents/obs-h-paddock.toml` |
+| I リスク/割引（スコア 0..-2） | `.codex/agents/obs-i-risk.toml` |
+| K 騎手・乗り替わり | `.codex/agents/obs-k-jockey.toml` |
+| L 条件実績・リピーター | `.codex/agents/obs-l-repeater.toml` |
 
 > 観点の**カタログ的定義・相別マッピング・グルーピング（5/7/11観点）**は `observation-points.md`。
 > 観点が**何を返すか（スキーマ）と全観点共通の規律**は本ファイルの「共通ルール」「推奨ソース」「出力スキーマ」。
