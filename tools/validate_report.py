@@ -46,6 +46,19 @@ class V:
         return val
 
 
+def is_int(x):
+    """bool を除く int。馬番・rank_order など整数フィールドの型ガード（"1" 文字列混入を弾く）。"""
+    return isinstance(x, int) and not isinstance(x, bool)
+
+
+def check_int_list(arr, path, v: V):
+    """馬番配列の各要素が int であることを検証（非int要素を列挙してエラー）。"""
+    if isinstance(arr, list):
+        bad = [x for x in arr if not is_int(x)]
+        if bad:
+            v.err(path, f"馬番配列は int 要素必須。非int: {bad!r}")
+
+
 def scan_pct(obj, path, v: V):
     """全文字列を走査して % / ％ を I2 違反として記録。"""
     if isinstance(obj, str):
@@ -95,6 +108,8 @@ def validate(d, v: V):
                 for k in ("no", "horse", "leg_type"):
                     v.req(row, k, p)
                 if isinstance(row, dict) and "no" in row:
+                    if not is_int(row["no"]):
+                        v.err(f"{p}.no", f"馬番は int 必須。実際: {row['no']!r}")
                     if row["no"] in leg_nos:
                         v.err(p, f"馬番 {row['no']} が脚質表に重複")
                     leg_nos.add(row.get("no"))
@@ -126,13 +141,21 @@ def validate(d, v: V):
                         v.err(f"{p}.phase_flow", f"段階フローのキー不足: {miss}")
                 for k in ("formation_head", "formation_last_corner", "risers", "sinkers"):
                     v.req(pat, k, p, list)
-        # box_reverse の pattern 参照整合
+                # 馬番配列の要素型（"1" 文字列混入が後段の集合一致/投影を壊すのを防ぐ）
+                for k in ("formation_head", "formation_last_corner", "risers", "sinkers", "contesters"):
+                    if k in pat:
+                        check_int_list(pat[k], f"{p}.{k}", v)
+        # box_reverse の pattern 参照整合＋馬番配列の要素型
         box = pace.get("box_reverse")
         if isinstance(box, list):
             for i, b in enumerate(box):
                 bp = b.get("pattern") if isinstance(b, dict) else None
                 if bp and pat_ids and bp not in pat_ids:
                     v.err(f"$.pace.box_reverse[{i}]", f"未知のパターン id: {bp!r}（定義: {sorted(pat_ids)}）")
+                if isinstance(b, dict):
+                    for k in ("center", "inside", "spot", "drop"):
+                        if k in b:
+                            check_int_list(b[k], f"$.pace.box_reverse[{i}].{k}", v)
         # pace_factors（展開トリガー早見・任意）= 来そうな展開の判断材料。あれば形を検証
         pf = pace.get("pace_factors")
         if pf is not None:
@@ -163,6 +186,8 @@ def validate(d, v: V):
                         orders.append(r["rank_order"])
                     else:
                         v.err(f"{p}.rank_order", f"int 必須（順位相関の採点正本）。実際: {r['rank_order']!r}")
+                if not is_int(r.get("no")):
+                    v.err(f"{p}.no", f"馬番は int 必須。実際: {r.get('no')!r}")
                 if r.get("no") in nos:
                     v.err(p, f"馬番 {r.get('no')} が重複")
                 nos.add(r.get("no"))

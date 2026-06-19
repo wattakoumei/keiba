@@ -8,7 +8,9 @@ report.json の `used_observations` と、同ディレクトリの実 `research-
 
 検出する穴（実例: 20260617-kawasaki-11=B欠落・E空・I空 / 20260621-tokyo-11=A欠落→復元）:
   - used_observations に挙がっているのに research-<観点>.json が**保存されていない**（ERROR）
-  - 研究artifact が**全頭未満＝部分欠損**（ERROR）: 非E は `horses < field_size`、E は脚質証拠なので `legs < field_size`
+  - 研究artifact の馬番集合が **report.rank の全馬と不一致**（ERROR）: 件数でなく集合一致で見るため、
+    同数でも**重複・別馬混入で1頭欠ける**ケースを捕捉（非E は `horses[].no`、E は `legs[].no`）。
+    rank が全頭そろわない時のみ件数（`< field_size`）に退避。
 
 使い方:
   python3 tools/validate_research_bundle.py <race-id>
@@ -37,6 +39,16 @@ def check_bundle(report_path):
         return errors, warnings
     field_size = d.get("field_size")
 
+    def _is_int(x):
+        return isinstance(x, int) and not isinstance(x, bool)
+
+    # 期待する全馬の馬番集合（report の rank が正本＝§3全馬）。全頭そろっていれば「件数」でなく「集合一致」で検証＝
+    # 同数でも重複や別馬混入で1頭欠けるケースを捕捉する。rank が全頭でなければ集合照合は諦め件数に退避（report側で別途error）。
+    expected = set(row.get("no") for row in d.get("rank", [])
+                   if isinstance(row, dict) and _is_int(row.get("no")))
+    if not (isinstance(field_size, int) and len(expected) == field_size):
+        expected = None
+
     # 実在する research-<X>.json を収集
     present = {}
     for p in glob.glob(os.path.join(race_dir, "research-*.json")):
@@ -51,22 +63,28 @@ def check_bundle(report_path):
                 f"（合成は返り値で通っても artifact 欠落＝欠落無検知の経路）"
             )
             continue
-        # 全頭カバー＝必須充足（部分欠損は error）。E は legs、それ以外は horses が全頭分あるか
-        if not isinstance(field_size, int):
-            continue
+        # 全頭カバー＝必須充足（部分欠損/重複/別馬混入は error）。E は legs、それ以外は horses。
         try:
             r = json.load(open(path, encoding="utf-8"))
         except Exception as e:
             errors.append(f"観点 {obs}: research-{obs}.json 読込失敗 — {e}")
             continue
-        if obs == "E":
-            n = len(r.get("legs", []))
-            if n < field_size:
-                errors.append(f"観点 E: research-E.json の legs {n} が field_size {field_size} 未満（脚質を全頭分持たない＝部分欠損）")
-        else:
-            n = len(r.get("horses", []))
-            if n < field_size:
-                errors.append(f"観点 {obs}: research-{obs}.json の horses {n} が field_size {field_size} 未満（部分欠損＝必須充足を満たさない）")
+        key = "legs" if obs == "E" else "horses"
+        rows = r.get(key, [])
+        if expected is not None:
+            # 件数でなく馬番集合の一致（重複は集合で潰れるため、欠け馬が顕在化する）
+            nos = set(x.get("no") for x in rows if isinstance(x, dict) and _is_int(x.get("no")))
+            miss = sorted(n for n in expected if n not in nos)
+            extra = sorted(n for n in nos if n not in expected)
+            if miss or extra:
+                seg = []
+                if miss:
+                    seg.append(f"欠け={miss}")
+                if extra:
+                    seg.append(f"余分/別馬={extra}")
+                errors.append(f"観点 {obs}: research-{obs}.json の馬番集合が全馬と不一致（{key}・重複/別馬混入の疑い） {' '.join(seg)}")
+        elif isinstance(field_size, int) and len(rows) < field_size:
+            errors.append(f"観点 {obs}: research-{obs}.json の {key} {len(rows)} が field_size {field_size} 未満（部分欠損）")
     return errors, warnings
 
 
