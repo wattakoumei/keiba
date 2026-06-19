@@ -52,11 +52,13 @@ def is_int(x):
 
 
 def check_int_list(arr, path, v: V):
-    """馬番配列の各要素が int であることを検証（非int要素を列挙してエラー）。"""
-    if isinstance(arr, list):
-        bad = [x for x in arr if not is_int(x)]
-        if bad:
-            v.err(path, f"馬番配列は int 要素必須。非int: {bad!r}")
+    """馬番配列が list かつ各要素 int であることを検証（非list/非int要素をエラー）。"""
+    if not isinstance(arr, list):
+        v.err(path, f"int[] 必須（list でない: {type(arr).__name__}）")
+        return
+    bad = [x for x in arr if not is_int(x)]
+    if bad:
+        v.err(path, f"馬番配列は int 要素必須。非int: {bad!r}")
 
 
 def scan_pct(obj, path, v: V):

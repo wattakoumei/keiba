@@ -70,21 +70,37 @@ def check_bundle(report_path):
             errors.append(f"観点 {obs}: research-{obs}.json 読込失敗 — {e}")
             continue
         key = "legs" if obs == "E" else "horses"
-        rows = r.get(key, [])
-        if expected is not None:
-            # 件数でなく馬番集合の一致（重複は集合で潰れるため、欠け馬が顕在化する）
-            nos = set(x.get("no") for x in rows if isinstance(x, dict) and _is_int(x.get("no")))
+        rows = r.get(key)
+        # 壊れた artifact は validator を落とさず error にして次へ（CI/レビュー向き）
+        if not isinstance(rows, list):
+            errors.append(f"観点 {obs}: research-{obs}.json の {key} が list でない（{type(rows).__name__}）＝壊れた artifact")
+            continue
+        # 各行 dict・no int・重複なし
+        nos = set()
+        for j, x in enumerate(rows):
+            if not isinstance(x, dict):
+                errors.append(f"観点 {obs}: {key}[{j}] が dict でない（{type(x).__name__}）")
+                continue
+            no = x.get("no")
+            if not _is_int(no):
+                errors.append(f"観点 {obs}: {key}[{j}].no が int でない（{no!r}）")
+                continue
+            if no in nos:
+                errors.append(f"観点 {obs}: {key} に馬番 {no} が重複")
+            nos.add(no)
+        # 行数 = field_size（N+1 行・余計な行も捕捉）
+        if isinstance(field_size, int) and len(rows) != field_size:
+            errors.append(f"観点 {obs}: {key} {len(rows)}行 が field_size {field_size} と不一致")
+        # 馬番集合 = report.rank の全馬（同数でも欠け/別馬を顕在化）
+        if expected is not None and nos != expected:
             miss = sorted(n for n in expected if n not in nos)
             extra = sorted(n for n in nos if n not in expected)
-            if miss or extra:
-                seg = []
-                if miss:
-                    seg.append(f"欠け={miss}")
-                if extra:
-                    seg.append(f"余分/別馬={extra}")
-                errors.append(f"観点 {obs}: research-{obs}.json の馬番集合が全馬と不一致（{key}・重複/別馬混入の疑い） {' '.join(seg)}")
-        elif isinstance(field_size, int) and len(rows) < field_size:
-            errors.append(f"観点 {obs}: research-{obs}.json の {key} {len(rows)} が field_size {field_size} 未満（部分欠損）")
+            seg = []
+            if miss:
+                seg.append(f"欠け={miss}")
+            if extra:
+                seg.append(f"余分/別馬={extra}")
+            errors.append(f"観点 {obs}: {key} の馬番集合が全馬と不一致 {' '.join(seg)}")
     return errors, warnings
 
 
