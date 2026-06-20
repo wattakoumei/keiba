@@ -1,0 +1,167 @@
+{
+  "race_id": "20260620-tokyo-11",
+  "observation_point": "F",
+  "observation_point_label": "調教・厩舎仕上げ",
+  "as_of": "2026-06-20",
+  "lens": "最終追い切りの時計/動き/併せ・調教場所・本数・前走比の変化・厩舎の勝負気配＝A_classのcond(今走でbaseを出せる状態)を測る。base(地力)は測らない。単独で着順は決めない。",
+  "seed_status": "fetch_oikiri.py(競馬ブック週間好時計ランキング)に本レース15頭は不在=全頭webで確認。不在≠調教不良。",
+  "method_note": "WebSearch複数バッチ+WebFetchで取得。yosounohone(競馬予想のホネ)で実数字、keiba-jiku2/netkeibaで定性評価。個別時計が取れた馬は限定的=取れない馬は確信度『低』で0でなく扱う。横比較せず同コース内・自己比で読む。",
+  "field_note": "東京ダ2100=長い直線501.6m×坂2度でA_finishと余力勝負=cond上向きが効くレース条件。坂路ラスト1F12.6以下=余力/13.0以上=失速の目安。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "マリオロード",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["最終追い切りの個別時計・動き・併せ結果がwebで取得できず=cond(状態)を実測で測れない(欠損)"],
+      "stable_intent_note": "安達昭夫厩舎=rubric catalog未登録。暫定ラベルは根拠不足で当てられず=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 2,
+      "name": "クールミラボー",
+      "score": 1,
+      "confidence": "中",
+      "pros": ["最終追い切りはA評価相当の好内容・状態面は上位との媒体評価=cond上向きシグナル"],
+      "cons": ["全体時計・ラスト1F・併せ相手の実数字までは取得できず=評価はA評価という定性どまり(時計事実で裏取りできていない)"],
+      "stable_intent_note": "寺島良厩舎=catalog未登録。状態評価上位という事実から暫定『中間/標準』・確信度低で報告(追記候補)。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/", "https://www.yosounohone.com/entry/tokyo-2026-6-20"]
+    },
+    {
+      "no": 3,
+      "name": "レヴォントゥレット",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["最終追い切りの個別時計・動き・併せ結果が取得できず=cond測れない(欠損)。逃げ/先行馬で展開の鍵だが状態の裏取り不能"],
+      "stable_intent_note": "矢作芳人厩舎=catalog未登録。情報不足で暫定ラベル付与せず=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 4,
+      "name": "ロードプレジール",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["牡8の高齢馬だが最終追い切りの動き・時計が取得できず=cond(維持できているか)を測れない(欠損)"],
+      "stable_intent_note": "佐藤悠太厩舎=catalog未登録。情報不足=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 5,
+      "name": "フタイテンロック",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["最終追い切りの個別時計・動き・併せ結果が取得できず=cond測れない(欠損)"],
+      "stable_intent_note": "佐藤吉勝厩舎=catalog未登録。情報不足=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 6,
+      "name": "タガノバビロン",
+      "score": 1,
+      "confidence": "中",
+      "pros": ["1週前にしっかり負荷をかけ→最終で動きに鋭さが増した=普段との差分(本数/強度upからの上昇)が観測でき上向き", "OP特別なら勝ち負け十分の仕上がりとの媒体評価=cond良好シグナル", "上がり最速35.7は出走馬中トップ級=終い余力の地力を状態が後押し(地力でなくcondへの注記)"],
+      "cons": ["全体時計・ラスト1Fの実数字は取得できず=『鋭さ増』は定性評価で時計事実の裏取りは弱い", "1週前強め→最終で動き向上の型は仕上がりの一方で『調教駆け』疑いを完全には排除できず=加点は中庸に留める"],
+      "stable_intent_note": "西園翔太厩舎=catalog未登録。1週前に負荷をかけ最終で上向きという『勝負仕上げ』の差分が観測=暫定『叩き仕上げ完了/標準〜やや強め』・確信度低で追記候補。",
+      "sources": ["https://www.yosounohone.com/entry/tokyo-2026-6-20", "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 7,
+      "name": "ハナウマビーチ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": ["最終追い切りで動きの鋭さに欠ける=強く推しづらいとの媒体評価=cond平行〜下降シグナル", "終い勝負のレース条件(東京ダ2100)で追い切りの鋭さ不足は終い不発リスクと整合"],
+      "stable_intent_note": "西園翔太厩舎(同厩のタガノバビロンとは仕上がりに差)=catalog未登録。この馬は上向き材料乏しく暫定ラベルは付けず・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/", "https://www.yosounohone.com/entry/tokyo-2026-6-20"]
+    },
+    {
+      "no": 8,
+      "name": "タイセイドレフォン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": ["最終追い切りで動きに物足りなさが残り強調しづらいとの媒体評価=cond平行〜下降シグナル", "牡7・58kg背負いで状態が今ひとつなら終い勝負で割り引き材料"],
+      "stable_intent_note": "西村真幸厩舎=catalog未登録。上向き材料乏しく暫定ラベル付与せず・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 9,
+      "name": "スナークラファエロ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["最終追い切りの個別時計・動き・併せ結果が取得できず=cond測れない(欠損)"],
+      "stable_intent_note": "野中賢二厩舎=catalog未登録。情報不足=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 10,
+      "name": "リアレスト",
+      "score": 1,
+      "confidence": "中",
+      "pros": ["最終追い切りはA評価相当の好内容・状態面は上位との媒体評価=cond上向きシグナル"],
+      "cons": ["全体時計・ラスト1F・併せ相手の実数字は取得できず=A評価という定性どまり(時計事実の裏取りは弱い)"],
+      "stable_intent_note": "尾関知人厩舎=catalog未登録。状態上位の事実から暫定『中間/標準』・確信度低で追記候補。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/", "https://www.yosounohone.com/entry/tokyo-2026-6-20"]
+    },
+    {
+      "no": 11,
+      "name": "ピカピカサンダー",
+      "score": 2,
+      "confidence": "中",
+      "pros": ["美浦坂路52.3-38.0-24.8-12.2の実数字を確認=ラスト1F12.2は余力目安(12.6以下)を満たす絶好調域", "最終追い切りで最も目を引いた1頭・終始余裕の手応えからラストの反応まで申し分なし=馬なり寄りで好時計の余力サインに近い", "全体ラップ(38.0-24.8-12.2の加速ラップ)が終い詰まる形=終い勝負の東京ダ2100の条件と合致しcondへの最上級加点"],
+      "cons": ["美浦坂路の絶対値は馬場で±動く=横比較不可だが実数字が好内容なので減点要素は小さい", "速い坂路時計は『調教駆け』の可能性を一応留保=地力・実戦適性(他観点)と統合して最終判断"],
+      "stable_intent_note": "鹿戸雄一厩舎=catalog未登録。最終で最も目を引く好時計=本気仕上げの差分と読めるが普段の基準が無く暫定『標準〜やや強め』・確信度低で追記候補。",
+      "sources": ["https://www.yosounohone.com/entry/tokyo-2026-6-20", "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 12,
+      "name": "ミッキークレスト",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["最終追い切りの個別時計・動き・併せ結果が取得できず=cond測れない(欠損)"],
+      "stable_intent_note": "大久保龍志厩舎(同厩レッドプロフェシーと2頭出し)=catalog未登録。この馬は情報不足=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    },
+    {
+      "no": 13,
+      "name": "ルヴァンユニベール",
+      "score": 1,
+      "confidence": "中",
+      "pros": ["最終追い切りはA評価相当の好内容・状態面は上位との媒体評価=cond上向きシグナル", "上がり最速36.0と終い堅実で状態良好がレース条件(終い勝負)と合致"],
+      "cons": ["全体時計・ラスト1F・併せ相手の実数字は取得できず=A評価という定性どまり(時計事実の裏取りは弱い)"],
+      "stable_intent_note": "北出成人厩舎=catalog未登録。状態上位の事実から暫定『中間/標準』・確信度低で追記候補。主戦級の戸崎騎乗。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/", "https://www.yosounohone.com/entry/tokyo-2026-6-20"]
+    },
+    {
+      "no": 14,
+      "name": "レッドプロフェシー",
+      "score": 1,
+      "confidence": "中",
+      "pros": ["最終追い切りはA評価相当の好内容・状態面は上位との媒体評価=cond上向きシグナル", "上がり最速36.1と終い確かで状態良好がレース条件(終い勝負)と合致"],
+      "cons": ["全体時計・ラスト1F・併せ相手の実数字は取得できず=A評価という定性どまり(時計事実の裏取りは弱い)"],
+      "stable_intent_note": "大久保龍志厩舎(同厩ミッキークレストと2頭出し・この馬の方が状態評価上)=catalog未登録。状態上位の事実から暫定『中間/標準』・確信度低で追記候補。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/", "https://www.yosounohone.com/entry/tokyo-2026-6-20"]
+    },
+    {
+      "no": 15,
+      "name": "アムールドパリ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["最終追い切りの個別時計・動き・併せ結果が取得できず=cond測れない(欠損)。牝馬55kgで斤量利はあるが状態は裏取り不能"],
+      "stable_intent_note": "稲垣幸雄厩舎=catalog未登録。情報不足=generic(→)・確信度低。",
+      "sources": ["https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"]
+    }
+  ],
+  "stable_intent_catalog_candidates": [
+    {"trainer": "西園翔太", "tentative_label": "叩き仕上げ完了/追い切り常態=標準〜やや強め", "confidence": "低", "evidence": "タガノバビロンで1週前に負荷→最終で動きに鋭さ増の勝負仕上げ差分を観測(同厩ハナウマビーチは鋭さ欠く=2頭出しで仕上げに差)。", "as_of": "2026-06"},
+    {"trainer": "鹿戸雄一", "tentative_label": "本気仕上げ時に好時計を出す/追い切り常態=標準〜やや強め", "confidence": "低", "evidence": "ピカピカサンダーが最終で最も目を引く坂路好時計(52.3-38.0-24.8-12.2)=勝負気配の差分と読める。", "as_of": "2026-06"},
+    {"trainer": "寺島良/尾関知人/北出成人/大久保龍志", "tentative_label": "中間/標準(暫定)", "confidence": "低", "evidence": "各馬(クールミラボー/リアレスト/ルヴァンユニベール/レッドプロフェシー)が最終追い切りでA評価相当・状態上位の媒体評価。型ラベル確定には複数走の蓄積が必要。", "as_of": "2026-06"}
+  ]
+}

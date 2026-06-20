@@ -1,0 +1,155 @@
+{
+  "observation_point": "F",
+  "race_id": "20260620-tokyo-10",
+  "as_of": "2026-06-20",
+  "lens": "最終追い切りの時計/動き/併せ・調教場所・本数・前走比の変化・厩舎勝負気配。A_classのcond(状態項)に効く。単独で着順は決めない。",
+  "seed_note": "fetch_oikiri.py(競馬ブック好時計)の今週上位に当レース出走馬は不在=全頭web補完。ランキング不在≠調教不良。netkeiba/競馬ラボ調教欄は会員制で実測非取得=スポーツ紙/専門記事スニペットの質的評価が主。実測時計が取れたのはメランジェのラスト1F=10.7のみ。",
+  "method_note": "実測時計が広く取れないため大半が質的評価=確信度は中〜低。検索スニペットに混入する『相模湖特別の着順』等の予測・結果語はI1により証拠採用せず、調教の事実(場所/動き/コメント)のみ採用。",
+  "horses": [
+    {
+      "no": 1, "name": "メランジェ", "trainer": "田中剛", "jockey": "F.ゴンサルベス",
+      "course": "美浦W(推定)", "last_1f": "10.7", "time_detail": "ラスト1F 10.7=終い余力十分の好時計", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "気合乗り・反応の良さが際立つ=上向き示唆",
+      "stable_intent": "短期免許のゴンサルベス(南米リーディング8回)起用=外部強化騎手の配置は勝負気配の差分(↑)。田中剛は中間標準型と暫定。",
+      "score": 1.0, "confidence": "中",
+      "pros": ["[F]美浦W最終追いでラスト1F 10.7と終いがしっかり伸びた=瞬発持続力勝負の東京1400に合うcondの上向きシグナル", "[F]気合乗り・反応の良さが媒体評価で際立つと複数スニペット一致=動きの質が良い", "[F]短期免許ゴンサルベス起用は外部強化騎手の配置=勝負気配の差分として上向き"],
+      "cons": ["[F]脚質は追/遅で終い型=ラスト1Fの良さが調教駆けでなく実戦の決め手に直結するかは地力(A_finish)と統合要。好時計はcond補助に留める", "[F]併せ相手・本数・馬なり/一杯が未取得=動きの質的評価止まりで確信度は中"],
+      "sources": ["https://www.keiba-jiku2.net/sagamiko-tokubetsu-2026-yosou/", "https://sports.yahoo.co.jp/keiba/directory/trainer/01119/"]
+    },
+    {
+      "no": 2, "name": "レイククレセント", "trainer": "大竹正博", "jockey": "荻野極",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "大竹正博=暫定中間/標準型。差分情報なし。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 3, "name": "ダガーリング", "trainer": "柴田卓", "jockey": "松山弘平",
+      "course": "不明", "last_1f": "不明", "time_detail": "連戦ローテだが攻め(調教)で活気十分と媒体評価", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "連戦ながら活気を維持=condを保てている",
+      "stable_intent": "柴田卓=暫定中間/標準型。連戦継続=叩き上昇でなく現状維持型のローテ。",
+      "score": 0.5, "confidence": "中",
+      "pros": ["[F]連戦ローテにもかかわらず攻めで活気十分=疲れが出ておらずcondを維持できている", "[F]主戦級の松山弘平(関西騎手)を遠征起用=騎乗手配の差分はわずかにプラス"],
+      "cons": ["[F]連戦で上積み(上向き)というより平行線=自己ベスト更新の上昇サインは確認できず", "[F]時計・場所・併せの実測なし=活気の質的評価止まり"],
+      "sources": ["https://www.keiba-jiku2.net/sagamiko-tokubetsu-2026-yosou/", "https://www.keibalab.jp/db/jockey/01126/"]
+    },
+    {
+      "no": 4, "name": "カラヴァジェスティ", "trainer": "奥村武", "jockey": "津村明秀",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "奥村武=暫定中間/標準型。差分情報なし。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 5, "name": "ギフテッド", "trainer": "武井亮", "jockey": "今村聖奈",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "武井亮=暫定中間/標準型。差分情報なし。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 6, "name": "サクセスカラー", "trainer": "久保田貴士", "jockey": "横山典弘",
+      "course": "美浦(大外併走・推定W)", "last_1f": "不明", "time_detail": "大外を回って時計以上の動き=見た目の伸びが時計を上回る好内容", "partner": "併せ(大外回し)", "drive": "不明", "count": "不明",
+      "vs_prev": "折り合い面の成長が感じられる=精神面のcond上昇",
+      "stable_intent": "久保田貴士=暫定中間/標準型。横山典弘騎乗=主戦級の継続/手配。",
+      "score": 1.0, "confidence": "中",
+      "pros": ["[F]大外を回して時計以上の動き=コース不利を背負っても伸びる好内容(調教駆けの絶対値でなく相対の良さ)", "[F]折り合い面の成長が媒体評価で挙がる=終い型(追/遅)にとって精神面condの上向きは終盤の決め手に直結しやすい"],
+      "cons": ["[F]時計の絶対値・併せ相手の格・本数が未取得=『時計以上』の比較対象が不明で確信度は中", "[F]脚質が追/遅で位置取りリスクは残る=cond良化を着順に変換するには展開待ち"],
+      "sources": ["https://www.keiba-jiku2.net/sagamiko-tokubetsu-2026-yosou/", "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021104200/4F"]
+    },
+    {
+      "no": 7, "name": "クレパスキュラー", "trainer": "栗田徹", "jockey": "C.ルメール",
+      "course": "美浦坂路", "last_1f": "不明", "time_detail": "うましる追い切り注目で★★相当、好調維持。坂路での最終追い。", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "好調維持(派手な上昇はないが平行線で高水準)。前走勝利時に陣営が『気持ちの面の課題(過度に行きたがる)』を指摘済み。",
+      "stable_intent": "栗田徹=暫定中間/標準型。ルメール継続騎乗=主戦固定でトップ騎手を維持=陣営の期待は高い(現状維持の勝負気配)。3歳で連戦。",
+      "score": 1.0, "confidence": "中",
+      "pros": ["[F]美浦坂路の最終追いで追い切り注目馬に選出(★★)=好調を維持している", "[F]ルメール継続騎乗=トップ騎手を確保し続ける陣営姿勢=condへの自信(差分でなく高水準の維持)"],
+      "cons": ["[F]前走勝利時に陣営・騎手が『気持ちの面の課題=折り合い・過度に行きたがる』を明言=精神面condのリスクが残る。調教の好調が実戦のcondに直結しない懸念", "[F]3歳の連戦かつ初の左回り・コース替わり=condの上向き(自己ベ更新)の確証はなく平行線評価に留める"],
+      "sources": ["https://www.yosounohone.com/entry/tokyo-2026-6-20", "https://tospo-keiba.jp/breaking_news/66550", "https://www.keibalab.jp/db/horse/2023106925/"]
+    },
+    {
+      "no": 8, "name": "チムグクル", "trainer": "福永祐一", "jockey": "戸崎圭太",
+      "course": "不明", "last_1f": "不明", "time_detail": "派手さはないが好調を維持(media)", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "好調維持=平行線(上昇/下降のサインは弱い)",
+      "stable_intent": "福永祐一(新人調教師寄り)=暫定中間/標準型。戸崎圭太=主戦級手配。",
+      "score": 0.5, "confidence": "中",
+      "pros": ["[F]派手さはないが好調を維持と媒体評価=condに大きな下降サインはない", "[F]戸崎圭太を確保=騎乗手配は整っている"],
+      "cons": ["[F]『派手さなし』=上向き(自己ベ更新)の積極サインは無く平行線評価", "[F]時計・場所・併せの実測なし=好調の質を裏付ける事実が薄い"],
+      "sources": ["https://www.keiba-jiku2.net/sagamiko-tokubetsu-2026-yosou/", "https://www.keibalab.jp/db/trainer/01203/"]
+    },
+    {
+      "no": 9, "name": "アスミル", "trainer": "本田優", "jockey": "菊沢一樹",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "本田優(栗東)=暫定中間/標準型。3歳で遠征(関東遠征)。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い", "[F]栗東所属の3歳が東京へ遠征=輸送のcond影響は当日まで未知"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 10, "name": "キョウエイボニータ", "trainer": "伊藤伸一", "jockey": "松岡正海",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "伊藤伸一=暫定中間/標準型。差分情報なし。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 11, "name": "ビービーエフォート", "trainer": "高柳瑞樹", "jockey": "三浦皇成",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "高柳瑞樹=暫定中間/標準型。差分情報なし。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 12, "name": "ユキノエミリオ", "trainer": "竹内正洋", "jockey": "木幡初也",
+      "course": "不明", "last_1f": "不明", "time_detail": "個別の追い切り情報を取得できず", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "不明",
+      "stable_intent": "竹内正洋=暫定中間/標準型。差分情報なし。",
+      "score": 0.0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F]最終追いの場所・時計・動き・本数いずれも取得できず=cond判断材料なし。確信度低で0扱い"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605030510"]
+    },
+    {
+      "no": 13, "name": "コンテネレッツア", "trainer": "宮田敬介", "jockey": "大野拓弥",
+      "course": "不明", "last_1f": "不明", "time_detail": "先行力を生かせる仕上がりと媒体評価", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "仕上がり良好(先行力を出せる状態)=平行線〜やや上向き",
+      "stable_intent": "宮田敬介=暫定中間/標準型。大野拓弥=継続/手配。",
+      "score": 0.5, "confidence": "中",
+      "pros": ["[F]先行力を生かせる仕上がりと媒体評価=テンの出脚を出せるcond=先行集中の構図で位置を取りやすい", "[F]近走で堅実に動けており大崩れのサインなし"],
+      "cons": ["[F]時計・場所・併せの実測なし=『仕上がり良好』の裏付けが質的評価止まり", "[F]上向き(自己ベ更新)の積極サインまでは確認できず平行線寄り"],
+      "sources": ["https://www.keiba-jiku2.net/sagamiko-tokubetsu-2026-yosou/", "https://www.umadb.com/uma/au33728/"]
+    },
+    {
+      "no": 14, "name": "ラージギャラリー", "trainer": "高橋亮", "jockey": "丸山元気",
+      "course": "栗東(推定)", "last_1f": "不明", "time_detail": "先行力を生かせる仕上がりと媒体評価。脚質先/速でテン速い。", "partner": "不明", "drive": "不明", "count": "不明",
+      "vs_prev": "先行力を出せる状態=仕上がり良好",
+      "stable_intent": "高橋亮(栗東)=暫定中間/標準型。母も同厩で重賞挑戦歴=陣営は素質評価。栗東から東京遠征。",
+      "score": 0.5, "confidence": "中",
+      "pros": ["[F]先行力を生かせる仕上がりと媒体評価=テン速(先/速)を出せるcond=ハナ〜2列目を取りやすく展開の鍵を握れる状態", "[F]陣営が母同様に素質評価=勝負度は低くない"],
+      "cons": ["[F]時計・場所・併せの実測なし=仕上がりの質は質的評価止まり", "[F]栗東から東京への遠征輸送=condへの影響は当日まで未知。逃げ/先行馬は折り合い・行きっぷりの当日確認が要"],
+      "sources": ["https://www.keiba-jiku2.net/sagamiko-tokubetsu-2026-yosou/", "https://news.yahoo.co.jp/articles/77bff12a8c1d97d86d54744ff278a5a1baa5a3e9"]
+    }
+  ],
+  "stable_intent_additions": [
+    {"trainer": "田中剛", "label_tentative": "仕上げ型:中間 / 追い切り常態:標準 / 騎手起用:選択的強化", "confidence": "低", "basis": "今回ゴンサルベス(短期免許の南米トップ騎手)を外部強化として起用=主戦固定でない選択的な騎手強化の一例。1レースのみの観測=暫定。"},
+    {"trainer": "栗田徹", "label_tentative": "仕上げ型:中間 / 追い切り常態:標準 / 騎手起用:主戦固定(ルメール)", "confidence": "低", "basis": "クレパスキュラーでルメールを継続起用しトップ騎手を確保=主戦固定寄りで期待馬に手厚い。1頭の観測=暫定。"},
+    {"trainer": "久保田貴士", "label_tentative": "仕上げ型:中間 / 追い切り常態:標準 / 騎手起用:主戦級手配(横山典弘)", "confidence": "低", "basis": "サクセスカラーで横山典弘を起用しベテラン主戦級を確保。1頭の観測=暫定。"}
+  ]
+}

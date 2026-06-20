@@ -1,0 +1,39 @@
+{
+  "observation": "D. コース/距離/馬場適性",
+  "race_id": "20260620-hanshin-10",
+  "confidence_overall": "中",
+  "course_constant": {
+    "course": "阪神 芝2200m 内回り(右)",
+    "physical_from_catalog": "直線 内356.5m(短め)・初角まで約525m・発走直後約200m下り・急坂2回・高低差1.9m。瞬発+パワーの総合力、坂2回で消耗が出るタフ設計(宝塚記念と同舞台)。※course-geometry.md 正本=web再調査せず",
+    "leg_bias_fact": "脚質別(過去データ): 逃げ 勝率16.7%/複勝33.3%、先行 8.2%/25.9%、差し 8.4%/24.4%、追込 2.3%/11.6%。前残り寄りだが、ゴール前急坂で甘い逃げは止まり差しも決め手次第で届く総合コース。直線が短い分、差しが届くには相応のハイペース消耗が要る",
+    "draw_bias_fact": "内外の枠成績差は小さい(1・3枠やや注目という資料)。明確な外枠有利は無い",
+    "pedigree_apt_fact": "ルーラーシップ産駒は非根幹2200に好相性、キズナ産駒は阪神2200/2400で好走率高、ゴールドシップ産駒は道悪・荒れ馬場で台頭しパンパン良では甘くなりやすい(血統由来の馬場適性=参考)"
+  },
+  "meeting_now": {
+    "kaisai": "第3回阪神・開催後半。6/13に同コース(阪神芝2200)施行、6/14に宝塚記念=本レースと同舞台で実施済み",
+    "going": "想定 良(当日確認)。含水率・クッション値の具体数値は未取得=当日ボードで確認",
+    "track_change": "柵替わり情報は未取得(事実として確認できず=当日確認)",
+    "note": "当日参考: R7 芝2400(同回り内→外)で前後・内外バイアスを採取するのが妥当"
+  },
+  "horses": [
+    {"no":1,"name":"シャルクハフト","eval":0,"confidence":"低","pros":["上り最速36.7=瞬発型でなく持続寄り、坂2回のタフ設計とは相性が極端には悪くない"],"cons":["阪神芝2200の明確な好走実績は確認できず","差し脚質で直線356.5m短め=前残り傾向の中で届かせる消耗が要る"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":2,"name":"サダムオプシス","eval":1,"confidence":"中","pros":["父ルーラーシップ=非根幹2200に好相性の血統(阪神2200のパワー総合適性プラス材料)"],"cons":["追込脚質+テン遅で直線短い前残り寄りコースは展開待ち","当該コース個別実績は未確認"],"sources":["https://www.jbis.or.jp/horse/0001337684/record/","https://www.umameshi.com/info/keibajou/hanshin-t2200.html"]},
+    {"no":3,"name":"シュバルツマサムネ","eval":1,"confidence":"中","pros":["逃げ/先行型=前残り寄りの当該コース脚質適性が高い(逃げ複勝33%)","御堂筋S(阪神芝)など関西圏で先行する形を経験"],"cons":["急坂2回のタフ設計+ハイになれば甘くなる懸念","2200mの距離経験は限定的(個別好走の確証は弱め)"],"sources":["https://www.keibalab.jp/db/horse/2022104887/","https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":4,"name":"メイショウソウタ","eval":0,"confidence":"低","pros":["父ドレフォン×母父マンハッタンカフェ=パワー寄りで坂2回に対応しうる"],"cons":["差し+上り35.9=決め手不足で直線短い前残りコースでは届きにくい","阪神芝2200の好走実績は確認できず"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":5,"name":"ピンキープロミス","eval":1,"confidence":"低","pros":["父ゴールドシップ=道悪・荒れ馬場で台頭する血統(当日重なら上積み材料)","6歳で長距離・タフ条件の経験量"],"cons":["想定良馬場ではゴールドシップ産駒は決め手が甘くなりやすい","追込+テン遅で前残り寄りコースは展開頼み"],"sources":["https://www.bloodline-trackbias.work/entry/2021/04/08/190000","https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":6,"name":"サクソンジェンヌ","eval":0,"confidence":"中","pros":["先行・テン速=前残り寄り当該コースの脚質適性は良い(近走1角3,3,3,1で前々)"],"cons":["阪神の実績はダ中心(逆瀬川S ダ1800重で6着)で、阪神芝2200内回りは実質新条件寄り","欧州色の血統(SaxonWarrior×DarkAngel)で坂2回・2200の消耗持続は未知数"],"sources":["https://www.jbis.or.jp/horse/0001349651/record/main/"]},
+    {"no":7,"name":"ドットクルー","eval":0,"confidence":"低","pros":["6歳で条件経験量、上り33.1の決め手は持つ"],"cons":["追込+近4走1角後方(12,13,14,5)で直線356.5m短い前残りコースは不利","阪神芝2200の個別好走は確認できず"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":8,"name":"ナムラフッカー","eval":0,"confidence":"低","pros":["母父ルーラーシップ=2200非根幹への適性血統"],"cons":["追込脚質で前残り寄りコース不向き、近走1角18/18の最後方ロス","阪神芝2200/2400の好走実績は確認できず"],"sources":["https://www.umameshi.com/info/keibajou/hanshin-t2200.html","https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":9,"name":"サークルオブジョイ","eval":0,"confidence":"低","pros":["差し・テン中で中団確保できれば直線で動ける","近走1角5,3,5,1で前付け傾向に変化"],"cons":["米国型血統(Constitution×ColonelJohn)で2200距離延長・坂2回の総合適性は未知数","阪神芝2200の好走実績は確認できず"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":10,"name":"サトノクローク","eval":0,"confidence":"低","pros":["母父ディープインパクト=瞬発質も持つ"],"cons":["追込+テン遅で近走1角後方(13,9,13)、前残り寄り短い直線では届きにくい","阪神芝2200の好走実績は確認できず"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":11,"name":"アスターブジエ","eval":-1,"confidence":"中","pros":["父オルフェーヴル=長距離・タフ条件への血統適性","6歳で当該コース自体は経験済み"],"cons":["昨年の同レース(2025-06-21 阪神芝2200 ストークス)で12着前後の凡走=当該コース・距離で結果が出ていない","追込+テン遅で前残り寄りコースは展開が向かないと厳しい"],"sources":["https://p.keibabook.co.jp/db/uma/0901877/seiseki","https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":12,"name":"カエルム","eval":0,"confidence":"低","pros":["母父キングカメハメハ=パワー要素、坂2回に対応しうる"],"cons":["差し+テン遅で前残り寄りコースは中団以降から届かせる必要","父ブラックタイドで阪神芝2200個別好走は確認できず"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":13,"name":"インジケーター","eval":1,"confidence":"中","pros":["逃げ・テン速=前残り寄り当該コースの脚質適性が最も高い(逃げ複勝33%)","近4走1角1,1,1,3の実逃げ多数で主導権を取れる"],"cons":["上り最速36.4=決め手は乏しく、ハイペース消耗や坂2回で甘くなれば失速リスク","米国型血統(Liam'sMap×StreetSense)で2200の持続・坂2回は未知数"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/","https://www.umameshi.com/info/keibajou/hanshin-t2000.html"]},
+    {"no":14,"name":"ウインデイジー","eval":0,"confidence":"低","pros":["父ゴールドシップ=道悪・荒れ馬場で台頭する血統(当日重なら上積み)"],"cons":["差し+テン遅で想定良なら前残り寄りコースは展開頼み","阪神芝2200の好走実績は確認できず"],"sources":["https://www.bloodline-trackbias.work/entry/2021/04/08/190000","https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":15,"name":"アロンディ","eval":2,"confidence":"高","pros":["阪神芝2200(2025-09-27 3歳上1勝C)で1着=当該コース・距離の好走実績が明確","父ハービンジャー×母父エピファネイア=2200のタフ・パワー総合適性が高い血統","4歳の上り馬で阪神芝2400(境港特別2勝C)も3着=同舞台適性の裏付け"],"cons":["差し脚質で直線356.5m短いため、前が止まらない展開だと取りこぼし余地"],"sources":["https://www.jbis.or.jp/horse/0001360689/","https://s.keibabook.co.jp/db/uma/0936875/top"]},
+    {"no":16,"name":"キーパフォーマー","eval":0,"confidence":"低","pros":["父キタサンブラック=2200のスタミナ・パワー適性血統"],"cons":["追込+テン遅で近走1角後方寄り、前残り寄り短い直線は不利","阪神芝2200の好走実績は確認できず"],"sources":["https://keiba-course.com/course/hanshin-turf-2200/"]},
+    {"no":17,"name":"タイセイフェリーク","eval":0,"confidence":"中","pros":["阪神芝2400(御堂筋S 3勝C)6着=当該舞台周辺の経験あり、距離はこなす","母父ディープインパクト=瞬発質"],"cons":["御堂筋S(阪神長距離)で6着止まり=当該舞台で上位の結果は出ていない","追込+テン遅で前残り寄りコースは展開頼み"],"sources":["https://s.keibabook.co.jp/db/uma/0901248/top","https://www.jbis.or.jp/horse/0001325538/record/"]},
+    {"no":18,"name":"ファームツエンティ","eval":0,"confidence":"低","pros":["父キズナ=阪神芝2200/2400で好走率の高い血統","中京芝2200・京都芝2400を経験=2200級の距離はこなす"],"cons":["追込+テン遅で近走1角9/9等の後方、前残り寄り短い直線は不利","阪神芝2200の個別好走実績は確認できず"],"sources":["https://www.jbis.or.jp/horse/0001321816/record/all/","https://navi-keiba.com/sire/kizuna"]}
+  ],
+  "note": "個別馬のJBIS/netkeiba成績ページは403/404で全頭の精細取得は不可。コース恒常傾向(脚質別・枠別)・当該開催の事実(第3回後半・同コース既施行)・主要馬の核実績(アロンディ阪神2200勝ち、アスターブジエ同レース凡走、タイセイフェリーク阪神2400経験)は確認済み。含水率/クッション値の数値は未取得=当日ボードで要確認。馬場バイアスの符号化(有利/不利)は合成側に委ねる=本観点は事実のみ。"
+}

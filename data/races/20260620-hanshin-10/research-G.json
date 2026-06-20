@@ -1,0 +1,274 @@
+{
+  "observation": "G. ローテ・馬体・間隔",
+  "race_id": "20260620-hanshin-10",
+  "race_date": "2026-06-20",
+  "confidence_overall": "中",
+  "field_note": "馬体重の具体推移はnetkeiba系403/JBIS404でほぼ取得不能(確信度低)。間隔・距離替わり・叩き何走目はdocomoスポーツ馬ページで全18頭採取。延長組(⑥⑬⑭=マイル/2000近辺→2200)は折合いリスク。休み明け/間隔広め=⑪⑫⑮⑱(中8-14週)。連戦疲労気味=①⑤⑦。上昇ローテ顕著=⑩サトノクローク(烏丸S2着で前走大幅良化)。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "シャルクハフト",
+      "pros": [],
+      "cons": [
+        "前走5/16→中4週の短間隔で叩き連戦、近走11→13→9→11着と凡走が続き上積み感薄い(疲労気味)"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2022104745/"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "サダムオプシス",
+      "pros": [
+        "前走5/10烏丸S5着→中5週で間隔・状態適度、休み明けでなく叩き良化期"
+      ],
+      "cons": [
+        "近走入着止まりで馬体重トレンド不明(確信度低)"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021105474/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シュバルツマサムネ",
+      "pros": [
+        "前走5/10烏丸S→中5週、2400/2200近辺で距離替わり小さく叩き5走目の使い込み(状態維持)"
+      ],
+      "cons": [
+        "前走8着で着順は下降、馬体重不明"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2022104887/"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウソウタ",
+      "pros": [
+        "前走5/16→中4-5週、北山S3着など好走歴あり叩き良化レンジ"
+      ],
+      "cons": [
+        "近走9→7→3→15→9と上下動が大きく安定感を欠く"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021103263/"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ピンキープロミス",
+      "pros": [
+        "4/19蓬莱峡特別1着で勢いあり、間隔も中4-5週で詰まりすぎず"
+      ],
+      "cons": [
+        "6歳で1月から毎月使う連戦ローテ、勝った後の弥彦S9着で反動懸念"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2020106475/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サクソンジェンヌ",
+      "pros": [
+        "前走5/23→中3-4週で間隔詰まりすぎず叩き継続の先行馬、使われ強化型"
+      ],
+      "cons": [
+        "前走シドニーT(マイル近辺)→2200は距離延長で折合い・スタミナに課題、牝5で斤量54はハンデ恩恵小"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021106993/"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ドットクルー",
+      "pros": [],
+      "cons": [
+        "前走5/31むらさき賞(東京)10着→本レース阪神=中2週の短間隔かつ輸送替わり、近走14→13→14→5→10と低迷"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2020101486/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ナムラフッカー",
+      "pros": [
+        "前走5/10烏丸S4着で同舞台2200近辺の好走、中5週で間隔・距離とも好適、叩き良化レンジ"
+      ],
+      "cons": [
+        "近走全般は入着圏外が多く決め手の確実性は不明、馬体重不明"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021102510/"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "サークルオブジョイ",
+      "pros": [
+        "前走5/10烏丸S6着→中5週、松籟S(2/28)から間隔を置いて使い詰めず疲労薄い"
+      ],
+      "cons": [
+        "2勝クラス勝ち上がり後の3勝クラスで頭打ち気味、馬体重トレンド不明"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021105796/"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "サトノクローク",
+      "pros": [
+        "前走5/10烏丸S2着で12→13→6着から急上昇=上昇ローテ顕著、中5週・距離維持で状態ピーク継続が見込める"
+      ],
+      "cons": [
+        "6歳で長期に凡走が続いた後の単発好走、反動の可能性は残る"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2020106667/"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "アスターブジエ",
+      "pros": [],
+      "cons": [
+        "前走4/19→中8週とやや間隔が開き仕上げの上積みは要確認、近走4→5→6→6→12と着順下降"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2020103111/"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "カエルム",
+      "pros": [
+        "前走3/7潮来特別1着、勝った勢いを保つ実質昇級初戦級"
+      ],
+      "cons": [
+        "前走3/7→本レース6/20は中14週=休み明け、勝利後の長期休養明け+距離延長で仕上げと折合いは未知数(確信度中)"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021105160/"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "インジケーター",
+      "pros": [
+        "前走5/24丹沢S→中3-4週で逃げ馬として間隔は問題なし、4/12印西特別1着で勢い"
+      ],
+      "cons": [
+        "近走はマイル~2000中心、2200は距離延長で逃げて持つかスタミナが課題、上り36秒台でロングスパート消耗に弱い可能性"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021103574/"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ウインデイジー",
+      "pros": [
+        "3/21淡路特別1着の勝ち上がり馬で勢い、前走5/10→中5週で間隔は好適"
+      ],
+      "cons": [
+        "前走烏丸S11着で当舞台2200近辺の対応に不安、距離延長気味で折合い要確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021106194/"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "アロンディ",
+      "pros": [
+        "1/12琵琶湖特別1着・前々走御堂筋S(2400)5着でスタミナ素地、4歳で上昇余地"
+      ],
+      "cons": [
+        "前走4/19→中8週とやや間隔が開き叩き台込みの仕上げか要確認、前走15着大敗からの立て直し"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2022105827/"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "キーパフォーマー",
+      "pros": [
+        "前走5/23シドニーT5着→中4週で間隔好適、昇級2戦目級で上積み余地"
+      ],
+      "cons": [
+        "3勝クラスでは京橋S14着など通用度に不安、馬体重トレンド不明"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021104948/"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "タイセイフェリーク",
+      "pros": [
+        "前走5/23シドニーT→中4週で間隔好適、牝6でハンデ54と斤量負担小"
+      ],
+      "cons": [
+        "近走8→5→6→8→7着と入着圏外続きでクラス通用度に乏しい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2020103713/"
+      ]
+    },
+    {
+      "no": 18,
+      "name": "ファームツエンティ",
+      "pros": [
+        "4/11明石特別1着の勝ち上がり直後で勢い、前々走淡路特別3着とも好走の上昇馬"
+      ],
+      "cons": [
+        "前走4/11→本レース6/20は中9-10週=やや休み明け気味で実質昇級初戦、3勝クラス初挑戦で間隔込みの仕上げ要確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2020104491/"
+      ]
+    }
+  ],
+  "note": "馬体重の数値推移はnetkeiba/JBISが403/404で全頭未取得=各consの体重トレンドは『不明・確信度低』。間隔/距離替わり/叩き本数はdocomoスポーツ馬ページで採取(確信度中)。当日の馬体重とパドックでの太め残り/絞れ具合は§0当日ボードで要確認(特に休み明けの⑪⑫⑮⑱)。"
+}

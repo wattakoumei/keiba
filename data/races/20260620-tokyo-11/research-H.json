@@ -1,0 +1,219 @@
+{
+  "point": "H 当日気配・パドック・直前情報",
+  "overall_confidence": "低",
+  "note": "spawn指示に従い data/races/20260620-tokyo-11/research-H.json 相当の構造化要約を本出力として返す（全文proseは生成・保存せず）。展開合成STEP4aへ渡せる今走の出方コメントは取得できなかった点を明記。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "マリオロード",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず（OP特別で記事化薄い）"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クールミラボー",
+      "pros": [
+        "[H] 媒体の最終追い切り評価でA評価＝好内容・状態面は上位とされる(2026/6/20向け、鉄矢サイト要約=二次情報)"
+      ],
+      "cons": [
+        "[H] パドック・返し馬・確定馬体重は分析時点で未取得"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "レヴォントゥレット",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ロードプレジール",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "フタイテンロック",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "タガノバビロン",
+      "pros": [
+        "[H] 媒体評価で1週前にしっかり負荷をかけ動きに鋭さが増し、OP特別なら勝ち負け十分の仕上がりとされる(2026/6/20向け、鉄矢サイト要約=二次情報)"
+      ],
+      "cons": [
+        "[H] パドック・返し馬・確定馬体重は分析時点で未取得"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ハナウマビーチ",
+      "pros": [],
+      "cons": [
+        "[H] 媒体評価で動きに物足りなさが残り今回は強調しづらいとされる(2026/6/20向け、鉄矢サイト要約=二次情報)",
+        "[H] パドック・確定馬体重は未取得"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "タイセイドレフォン",
+      "pros": [],
+      "cons": [
+        "[H] 媒体評価で動きに物足りなさが残り今回は強調しづらいとされる(2026/6/20向け、鉄矢サイト要約=二次情報)",
+        "[H] パドック・確定馬体重は未取得"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スナークラファエロ",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず（適性面の言及はあるが状態・気配ではない）"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://keiba-headline.com/sleipnir-stakes-forecast-2026-401025"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアレスト",
+      "pros": [
+        "[H] 媒体の最終追い切り評価でA評価＝好内容・状態面は上位とされる(2026/6/20向け、鉄矢サイト要約=二次情報)"
+      ],
+      "cons": [
+        "[H] パドック・返し馬・確定馬体重は分析時点で未取得"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ピカピカサンダー",
+      "pros": [
+        "[H] 媒体評価で最終追い切りが最も目を引き、終始余裕の手応えからラストの反応まで申し分なし＝最高評価(2026/6/20向け、鉄矢サイト要約=二次情報)",
+        "[H] ホネ(yosounohone)で坂路52.3-38.0-24.8-12.2を馬なり気味に好ラップ＝今走追い切りの直接確認素材"
+      ],
+      "cons": [
+        "[H] パドック・返し馬・確定馬体重は分析時点で未取得"
+      ],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/",
+        "https://www.yosounohone.com/entry/tokyo-2026-6-20"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ミッキークレスト",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ルヴァンユニベール",
+      "pros": [
+        "[H] 媒体の最終追い切り評価でA評価＝好内容・状態面は上位とされる(2026/6/20向け、鉄矢サイト要約=二次情報)"
+      ],
+      "cons": [
+        "[H] パドック・返し馬・確定馬体重は分析時点で未取得"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "レッドプロフェシー",
+      "pros": [
+        "[H] 媒体の最終追い切り評価でA評価＝好内容・状態面は上位とされる(2026/6/20向け、鉄矢サイト要約=二次情報)"
+      ],
+      "cons": [
+        "[H] パドック・返し馬・確定馬体重は分析時点で未取得"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba-jiku2.net/sleipnir-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "アムールドパリ",
+      "pros": [],
+      "cons": [
+        "[H] 追い切り評価の個別記述を取得できず（前走内容の言及はあるが今走の状態・気配ではない）"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://keiba-headline.com/sleipnir-stakes-forecast-2026-401025"
+      ]
+    }
+  ],
+  "field_note": "OP特別(別定)のため共同会見はなく今走の関係者・騎手の戦法/出方コメントは取得できず（空欄が正常）。当日パドック・返し馬評価・確定馬体重は分析時点(6/20朝)で全頭未取得＝観点H全体の確信度「低」。実体として採用できたのは媒体(鉄矢サイト=HTTPS取得失敗のためWebSearchサマリ経由の二次情報／yosounohone=ホネ)の追い切り評価のみ。今走に向けた評価であることは確認済み（前走回顧ではない）。要注意の除外: umanity「追って一言」(日付2024/6/13・別出走馬)、umanity入線速報・netkeiba結果記事(別年または市場情報I1)は今走素材として不採用。ユーザー補強推奨: 当日のパドック寸評・確定馬体重・返し馬の貼り付けがあれば本観点を更新可能。各馬スコアは限定素材に基づく仮置きで全頭確信度低。"
+}

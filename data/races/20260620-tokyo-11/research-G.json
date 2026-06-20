@@ -1,0 +1,25 @@
+{
+  "observation": "G. ローテ・馬体・間隔",
+  "confidence_overall": "中",
+  "as_of": "2026-06-20",
+  "race_date": "2026-06-20",
+  "field_note": "全15頭の間隔/叩き何走目/距離変化を把握。連闘=3レヴォントゥレット(中0週)。距離大幅延長=9スナークラファエロ(1600→2100/距離不安コメント)。リフレッシュ立て直し=6タガノバビロン(中8週)/7ハナウマビーチ(中11週)/12ミッキークレスト(中9週)。叩き良化進行=14レッドプロフェシー(上昇中)/8タイセイ&15アムール(叩き2走目)。好調馬体トレンド=11ピカピカサンダー506kg漸増。馬体重実数は多くが未取得(JRA成績PDFが画像化不可・netkeiba/競馬ラボ403)=トレンドは確信度低。間隔/叩き/距離変化は確信度中〜高。",
+  "horses": [
+    {"no": 1, "name": "マリオロード", "pros": ["平城京S(5/10)→中5週で叩き続けるローテで状態維持"], "cons": ["牡7と高齢で上積み乏しく現状維持型"], "score": 0, "confidence": "中", "sources": ["https://race.netkeiba.com/race/newspaper.html?race_id=202608030611"]},
+    {"no": 2, "name": "クールミラボー", "pros": ["ブリリアントS(5/3)→中6週の余裕あるローテで立て直し向き"], "cons": ["馬体重トレンド未取得で確信度低"], "score": 0, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2020103387/"]},
+    {"no": 3, "name": "レヴォントゥレット", "pros": ["三宮S(6/13)で前進=調子自体は上向き"], "cons": ["三宮S(6/13)→今回(6/20)が連闘(中0週)で疲労残りリスク", "1800→2100の距離延長が連闘と重なり負荷大"], "score": -1, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2021103717/", "https://www.yamaguchi-yoshino.com/entry/2026/06/17/202552"]},
+    {"no": 4, "name": "ロードプレジール", "pros": ["ブリリアントS(5/3)→中6週で休養十分"], "cons": ["牡8と高齢で上昇余地が乏しい", "前走6着(15番手追走)で現状維持型"], "score": -1, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2018102576/"]},
+    {"no": 5, "name": "フタイテンロック", "pros": ["平城京S(5/10)→中5週で間隔は標準"], "cons": ["前走平城京S15着・前々走ポルックスS16着と凡走続きで下降基調", "牡7と高齢で立て直しの兆し乏しい"], "score": -2, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2019102665/"]},
+    {"no": 6, "name": "タガノバビロン", "pros": ["アンタレスS(4/18)→中8週でリフレッシュし疲労なく出走", "牡4の上がり馬で前走アンタレス4着・前々走レグルス2着と充実", "1800→2100延長は上がり最速35.7の持続力タイプに前向き"], "score": 1, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2022106553/", "https://www.keibalab.jp/db/horse/2022106553/"]},
+    {"no": 7, "name": "ハナウマビーチ", "pros": ["マーチS(3/29)→中11週で立て直しの休養を確保"], "cons": ["前走マーチS11着・前々走プロキオン12着と重賞で連続大敗", "休み明け実績不明で叩き台になる懸念"], "score": -1, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2022102874/"]},
+    {"no": 8, "name": "タイセイドレフォン", "pros": ["12/21休み明け→平城京S(5/10)→今回で叩き2走目=上積み見込み", "中5週で間隔は標準"], "cons": ["牡7高齢で叩いても前走6着どまり", "馬体重トレンド未取得"], "score": 0, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2019105308/"]},
+    {"no": 9, "name": "スナークラファエロ", "pros": ["アハルテケS(5/30)→中2週で間隔は確保"], "cons": ["1600→2100の大幅距離延長(+500m)で距離守備範囲を大きく超過", "陣営/回顧で1700-1800が適距離と指摘=2100は距離不安"], "score": -2, "confidence": "中", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202605021111", "https://www.yamaguchi-yoshino.com/entry/2026/06/03/201650"]},
+    {"no": 10, "name": "リアレスト", "pros": ["ブリリアントS(5/3)→中6週で間隔は十分"], "cons": ["前走ブリリアント7着(13番手追走)で現状維持型", "馬体重トレンド未取得で確信度低"], "score": 0, "confidence": "低", "sources": ["https://en.netkeiba.com/db/horse/2021105496/"]},
+    {"no": 11, "name": "ピカピカサンダー", "pros": ["馬体重506kg(494→498→504→498→506)と漸増傾向で好調を示唆", "ブリリアントS(5/3)→中6週で間隔良好", "アンタレス16着→東京替わりブリリアント4着と急上昇の上がり馬"], "score": 1, "confidence": "中", "sources": ["https://sports.yahoo.co.jp/keiba/directory/horse/2022105979/"]},
+    {"no": 12, "name": "ミッキークレスト", "pros": ["吾妻小富士S(4/11)→中9週でリフレッシュ済み"], "cons": ["前走9着・出遅れ+不利の凡走でメンバー強化への対応に不安", "馬体重トレンド未取得"], "score": 0, "confidence": "中", "sources": ["https://www.yamaguchi-yoshino.com/entry/2026/04/15/202733", "https://race.netkeiba.com/race/shutuba.html?race_id=202603010111"]},
+    {"no": 13, "name": "ルヴァンユニベール", "pros": ["平城京S(5/10)→中5〜6週で間隔は標準", "馬体重560kg台で安定(542→552→554→560)し大型でパワー裏付け"], "cons": ["1800→2100の距離延長(初の2100級は対応待ち、不来方賞ダ2000は5着)"], "score": 0, "confidence": "中", "sources": ["https://poginfo.com/pogs/horseData/show/2022103941", "https://www.jbis.or.jp/horse/0001359866/"]},
+    {"no": 14, "name": "レッドプロフェシー", "pros": ["金蹄S(2/21)1着→レグルス8着→ブリリアントS(5/3)2着と叩き良化が進行中", "ブリリアントS→中6週の余裕ローテで連戦の上積みを維持"], "cons": ["牡6で上昇カーブはやや緩やか", "馬体重実数未取得"], "score": 1, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2020101579/", "https://race.netkeiba.com/race/newspaper.html?race_id=202605020410"]},
+    {"no": 15, "name": "アムールドパリ", "pros": ["12/21→約4.5ヶ月休養明けでブリリアントS2着=休み明け好走の素地", "今回はその叩き2走目(中6週)で上積み見込み", "牝5・55kg軽量で2100の消耗戦に余力面で前向き"], "cons": ["休養前のブラジルC9着・名古屋城7着とOPでは足踏みもあった"], "score": 1, "confidence": "中", "sources": ["https://sports.smt.docomo.ne.jp/keiba/data/horse/2021105264/"]}
+  ],
+  "note": "馬体重の実数推移はピカピカサンダー(506kg漸増)・ルヴァンユニベール(560kg安定)・アムールドパリ(448kg前走)のみ取得。他馬はnetkeiba/競馬ラボが403、JRA成績PDFが画像レンダ不可で馬体重未取得=トレンド評価は確信度低。間隔/叩き何走目/距離変化は出走表seed+docomo/JBIS/POGで把握=確信度中〜高。連闘は3レヴォントゥレットのみ。"
+}

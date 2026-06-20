@@ -1,0 +1,245 @@
+{
+  "point": "H 当日気配・パドック・直前情報",
+  "overall_confidence": "低",
+  "note": "レース格＝3勝クラスの平場ハンデ戦。重賞/OPと違い共同会見・追い切り後コメントの記事化はほぼ無く、関係者・騎手の出方コメント(行く/控える)は全頭で取得できなかった(=平場では正常)。当日気配の核(パドック寸評・確定馬体重・返し馬・発汗)は分析時点(当日朝〜前日想定)で未掲載のため全頭で欠損。東スポ・netkeiba・競馬ブックのパドック/調教欄はいずれも当日未更新か会員限定で取得不可。唯一拾えた素材は12番カエルムが追い切り注目馬(★★, 6/11栗東CW・6/17栗東坂路)として掲載された点のみで、これは気配としての弱い加点材料(コメント無し・出方の言及無し)。この観点は全頭ほぼ空欄が正常な状態。ユーザー補強推奨: レース当日にパドック評価・確定馬体重・発汗の有無・返し馬の気配を貼り付けてもらえれば、A_class状態項とSTEP4a展開合成(特に逃げ3番シュバルツマサムネ・13番インジケーター、先行6番サクソンジェンヌの出方)を更新できる。全頭score=0(=欠損を確信度低で表現、減点ではない)。",
+  "field_note": "3勝クラス平場のためコメント/パドックの記事化期待値は低く、探索を軽く切り上げた。当日のパドック・馬体重・返し馬が出れば本観点は再評価可能。追い切り好時計の数値評価は観点F(厩舎・調教)が主担当のため重複加点を避け、本観点では「気配としての媒体注目」レベルにとどめた。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "シャルクハフト",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック寸評・確定馬体重・関係者コメントいずれも取得不能(平場のため記事化されず・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "サダムオプシス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シュバルツマサムネ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 逃げ脚質で出方コメント(ハナ主張の有無)を探したが平場ゆえ陣営コメント記事化なし=展開トリガーの直前確認は不可。パドック気配も当日未掲載。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウソウタ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ピンキープロミス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サクソンジェンヌ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 先行・テン速で出方コメントを探したが平場ゆえ陣営の戦法コメント記事化なし=先行争いの直前確認は不可。パドック気配も当日未掲載。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ドットクルー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ナムラフッカー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "サークルオブジョイ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "サトノクローク",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "アスターブジエ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "カエルム",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[H] 媒体(競馬予想のホネ)の追い切り注目馬に当レースから唯一掲載=動き・気配が注目された(★★/6月11日栗東CW・6月17日栗東坂路, 今走に向けた最終追いベース)。気配面の弱い好材料"
+      ],
+      "cons": [
+        "[H] パドック寸評・確定馬体重・返し馬・陣営コメントは当日未掲載で未確認。追い切り評価は媒体の主観で出方コメントは無し。確信度低"
+      ],
+      "sources": [
+        "https://www.yosounohone.com/entry/hanshin-2026-6-20",
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "インジケーター",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 逃げ脚質で出方コメント(3番との先行争い)を探したが平場ゆえ記事化なし=展開トリガーの直前確認は不可。パドック気配も当日未掲載。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ウインデイジー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "アロンディ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "キーパフォーマー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "タイセイフェリーク",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    },
+    {
+      "no": 18,
+      "name": "ファームツエンティ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H] 当日気配・パドック・馬体重・コメント取得不能(平場・当日未掲載)。欠損につき確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"
+      ]
+    }
+  ]
+}

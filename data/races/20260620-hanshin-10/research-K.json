@@ -1,0 +1,143 @@
+{
+  "observation": "K",
+  "race_id": "20260620-hanshin-10",
+  "race": "ストークステークス(2026-06-20 阪神10R 芝2200m内回り・3勝クラス・ハンデ・18頭)",
+  "as_of": "2026-06-20",
+  "lens": "騎手・乗り替わり方向・コンビ相性・騎手の当該コース/距離調子・減量斤量利と経験面",
+  "course_note": "阪神内2200は初角まで約525m・急坂2回・直線356.5mのロングスパート/タフ設計。仕掛けどころの判断と先行争いの捌き=騎手の出方が効く。逃げ2頭(③⑬)+先行(⑥)の捌きが鍵→テン乗り・新人を相対的に重く割引。",
+  "overall_confidence": "中",
+  "data_gaps": "前走騎手はseed未提供。web(JRA馬個別/御堂筋S結果/コメント記事)で主要馬は特定。JRA個別ページのレース名/一部騎手表記は機械翻訳で崩れ→騎手名の確証が取れた馬のみ乗替確定、取れない馬は継続=0と断定せず確信度を下げた。坂井瑠星(⑥)の前走継続可否はnetkeiba/競馬ラボが403/2025年表示で確証薄。",
+  "horses": [
+    {
+      "no": 1, "name": "シャルクハフト", "jockey": "富田暁", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]差し・上り最速36.7型に対し追える富田で大きな不利は無し"],
+      "cons": ["[K]前走騎手未特定で乗替方向は保留=確信度低", "[K]富田の当該コース格別の強調材料は拾えず中立"],
+      "sources": ["https://www.keibalab.jp/db/trainer/01110/", "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 2, "name": "サダムオプシス", "jockey": "幸英明", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定・継続の可能性)",
+      "pros": ["[K]幸英明はベテランで阪神内回り・展開捌きは安定材料"],
+      "cons": ["[K]追込・テン遅で先行争いに乗れず展開待ち=鞍上の腕で覆しにくい", "[K]前走騎手未特定で乗替方向は保留"],
+      "sources": ["https://www.keibalab.jp/db/jockey/00732/", "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 3, "name": "シュバルツマサムネ", "jockey": "小崎綾也", "score": -0.5, "confidence": "中",
+      "change_direction": "横の乗り替わり(前走 斎藤新→小崎綾也)",
+      "pros": ["[K]逃げ/先行型で小崎も先行を打てる騎手=脚質ミスマッチでは無い"],
+      "cons": ["[K]逃げ・先行争いが鍵の本舞台でテン乗り(初コンビ)=ハナ争いの呼吸合わせに不安→割引", "[K]前走御堂筋Sは斎藤新で『ハナに行く形にできず』4着。乗替で逃げ宣言の主導権が読みにくい(展開トリガー馬として記録)"],
+      "sources": ["https://news.netkeiba.com/?pid=news_view&no=326416", "https://sports.smt.docomo.ne.jp/keiba/result/race/2026032909020210/result.html"]
+    },
+    {
+      "no": 4, "name": "メイショウソウタ", "jockey": "菱田裕二", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]菱田は阪神での騎乗経験豊富で大崩れしにくい中立評価"],
+      "cons": ["[K]前走騎手未特定で乗替方向は保留=確信度低", "[K]差し・テン中で位置取りは菱田次第だが特筆の相性材料なし"],
+      "sources": ["https://www.keibalab.jp/db/jockey/01144/", "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 5, "name": "ピンキープロミス", "jockey": "国分優作", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]追込・上り最速32.7型に国分優作で末脚を引き出す形は合う"],
+      "cons": ["[K]前走騎手未特定で乗替方向は保留", "[K]近走1角9-14番手の後方 ハンデ戦の中で鞍上の妙味は限定的"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 6, "name": "サクソンジェンヌ", "jockey": "坂井瑠星", "score": 1.0, "confidence": "中",
+      "change_direction": "継続濃厚(確証薄→確信度下げ)",
+      "pros": ["[K]坂井瑠星は阪神・芝中距離で実績ある有力騎手。先行(テン速・近4走1角3,3,3,1)型と好相性で前々の好位を取れる=本舞台で位置取りの優位", "[K]継続騎乗濃厚なら呼吸合致=テン乗り割引なし"],
+      "cons": ["[K]前走も坂井かは403/2025年表示で確証薄→継続と断定せず確信度を中に留める", "[K]坂井は土曜から騎乗多く調子の直接確認(直近勝ち星)は未取得"],
+      "sources": ["https://www.keibalab.jp/db/jockey/01163/", "https://www.jbis.or.jp/horse/0001349651/record/"]
+    },
+    {
+      "no": 7, "name": "ドットクルー", "jockey": "高杉吏麒", "score": -0.3, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]追込・上り型で末脚を活かす乗り方なら高杉でも一定対応"],
+      "cons": ["[K]高杉は経験浅め(若手)でタフな18頭立て・坂2回の捌きに経験面の不安", "[K]前走騎手未特定で乗替方向は保留"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 8, "name": "ナムラフッカー", "jockey": "高倉稜", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走 御堂筋S出走・騎手表記未確定)",
+      "pros": ["[K]高倉はベテランで阪神の捌きは安定材料"],
+      "cons": ["[K]追込で前走1角18/18など後方一辺倒=鞍上で覆しにくい", "[K]前走騎手の確証が取れず乗替方向は保留"],
+      "sources": ["https://sports.smt.docomo.ne.jp/keiba/result/race/2026032909020210/result.html", "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 9, "name": "サークルオブジョイ", "jockey": "亀田温心", "score": 0.3, "confidence": "中",
+      "change_direction": "やや強化(直近 岡田祥生(8着)→亀田温心)",
+      "pros": ["[K]若手起用から中堅・亀田温心へ=やや強化の乗替。差し型で位置を取りに行ける鞍上"],
+      "cons": ["[K]直近8着と馬自体が不振で鞍上強化が結果に直結するか不透明", "[K]初コンビ(テン乗り)=差し追込多数の隊列で位置取りの呼吸に不安が残る"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021105796/75", "https://www.keibalab.jp/db/jockey/01176/"]
+    },
+    {
+      "no": 10, "name": "サトノクローク", "jockey": "田口貫太", "score": -0.5, "confidence": "中",
+      "change_direction": "テン乗り濃厚(近走 田口貫太の記録なし=初コンビの可能性)",
+      "pros": ["[K]田口貫太は減量明けの伸び盛り若手で勢いはある"],
+      "cons": ["[K]近走の記録に田口無し=難しい馬へのテン乗りの可能性。近4走13,9,13着と大敗続きで鞍上替えでも上昇余地薄", "[K]追込・テン遅で位置取れず展開待ち=若手鞍上で捌きの不安"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102020106667/EA", "https://www.keibalab.jp/db/jockey/01208/history.html"]
+    },
+    {
+      "no": 11, "name": "アスターブジエ", "jockey": "角田大和", "score": -0.2, "confidence": "低",
+      "change_direction": "不明(前走 御堂筋S6着・騎手表記未確定)",
+      "pros": ["[K]角田大和は先行・捌きに一定の積極性"],
+      "cons": ["[K]近4走1角18,11,7,9で後方一辺倒+追込型=鞍上の腕で覆しにくい", "[K]前走騎手の確証が取れず乗替方向は保留"],
+      "sources": ["https://sports.smt.docomo.ne.jp/keiba/result/race/2026032909020210/result.html", "https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 12, "name": "カエルム", "jockey": "M.デムーロ", "score": 1.0, "confidence": "中",
+      "change_direction": "強化テン乗り(近走 福永祐一/武豊/岩田康誠→M.デムーロ・初コンビ)",
+      "pros": ["[K]トップ騎手M.デムーロへの乗替=強化。差し型に対し位置取り・仕掛けの精度が上がる本舞台向きの鞍上強化", "[K]2026/3/7は福永で勝利の実績馬=有力騎手の継投で勝負気配の一貫"],
+      "cons": ["[K]近走も福永・武豊・岩田康誠と実力騎手が続く=今回の強化は『特別な勝負』というより日常的継投(intent→寄り)", "[K]初コンビ(テン乗り)=タフな本舞台で馬の特性把握に一抹の不安"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002021105160%2F86", "https://www.keibalab.jp/db/jockey/05212/"]
+    },
+    {
+      "no": 13, "name": "インジケーター", "jockey": "田山旺佑", "score": 0.2, "confidence": "中",
+      "change_direction": "継続騎乗(印西特別4/12を田山旺佑で勝利)",
+      "pros": ["[K]田山旺佑は▲3kg減量騎手(2025年デビュー・30勝以下)で斤量53.0は明確な斤量利。継続騎乗で逃げの呼吸は合致", "[K]前走印西特別を逃げ切り勝ち=コンビで自分のペースを作れた実績(展開トリガー馬として記録)"],
+      "cons": ["[K]新人騎手で18頭立て・坂2回・先行争いが鍵のタフ戦は経験面で重く割引。逃げ宣言馬③との主導権争いの捌きに不安", "[K]前走は中山ダ2400m勝ち=今回 芝替わり+一線級相手で減量利が相殺される懸念"],
+      "sources": ["https://news.netkeiba.com/?no=327855&pid=news_view", "https://www.jra.go.jp/datafile/meikan/rookies/2025/jockey4.html"]
+    },
+    {
+      "no": 14, "name": "ウインデイジー", "jockey": "松若風馬", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]松若は阪神の差し追込を引き出す乗り方に一定実績"],
+      "cons": ["[K]前走騎手未特定で乗替方向は保留", "[K]差し・テン遅で位置取り課題=鞍上で大きく動かしにくい"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 15, "name": "アロンディ", "jockey": "西村淳也", "score": 1.2, "confidence": "中",
+      "change_direction": "明確な強化(前走 古川吉洋(御堂筋S5着)→西村淳也)",
+      "pros": ["[K]古川吉洋→西村淳也=明確な騎手強化。西村は京都新聞杯V3など2026好調・関西中堅トップ級で勝負気配↑", "[K]前走御堂筋S5着(『外枠・昇級・レコード決着で頑張った』)と素地あり+近4走1角11,9,8,3で前進し位置を取れる脚質に鞍上強化が噛む"],
+      "cons": ["[K]初コンビ(テン乗り)=連続騎乗の呼吸合わせは一戦目", "[K]西村の直近勝ち星(当週調子)の直接確認は未取得→確信度を中に留める"],
+      "sources": ["https://news.netkeiba.com/?pid=news_view&no=326416", "https://tospo-keiba.jp/breaking_news/71432"]
+    },
+    {
+      "no": 16, "name": "キーパフォーマー", "jockey": "吉村誠之助", "score": -0.3, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]斤量53.0は減量起用なら斤量利の可能性"],
+      "cons": ["[K]吉村誠之助は経験浅めの若手=18頭立てタフ戦の捌きに経験面の不安", "[K]前走騎手未特定で乗替方向は保留"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 17, "name": "タイセイフェリーク", "jockey": "藤懸貴志", "score": -0.2, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]藤懸はベテランで阪神の捌きは安定"],
+      "cons": ["[K]近4走1角15,15と後方+追込型=鞍上で覆しにくい", "[K]前走騎手未特定で乗替方向は保留"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    },
+    {
+      "no": 18, "name": "ファームツエンティ", "jockey": "酒井学", "score": 0.0, "confidence": "低",
+      "change_direction": "不明(前走騎手未特定)",
+      "pros": ["[K]酒井学はベテランで折り合い・追込の引き出しに一定実績"],
+      "cons": ["[K]追込・テン遅で位置取れず展開待ち=鞍上で動かしにくい", "[K]前走騎手未特定で乗替方向は保留"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202609030510"]
+    }
+  ],
+  "stable_intent_candidates": [
+    {"trainer": "武英智(⑮アロンディ)", "騎手起用ラベル": "流動寄り(暫定)", "確信度": "低", "根拠": "外部の好調騎手 西村淳也を起用=強化だが、流動型なら強化は日常範囲。今回はテン乗り強化でintent→〜↑(generic読み)。1走確認のため確信度低"},
+    {"trainer": "高橋康之(⑬インジケーター)", "騎手起用ラベル": "選択的(暫定)", "確信度": "低", "根拠": "減量▲田山旺佑を前走勝利後に継続=斤量利狙いの起用。主戦固定とまでは確証なし"},
+    {"trainer": "安田翔伍(⑫カエルム)", "騎手起用ラベル": "選択的強化(暫定)", "確信度": "低", "根拠": "福永/武豊/岩田康誠→M.デムーロと一線級を継投=勝負どころで上位騎手を当てる傾向。主戦固定ではなく案件ごとに強化騎手を当てる流動〜選択的"}
+  ]
+}
