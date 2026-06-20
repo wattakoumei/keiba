@@ -1,0 +1,143 @@
+{
+  "observation_point": "F",
+  "observation_label": "調教・厩舎仕上げ",
+  "race_id": "20260620-hakodate-11",
+  "race": "函館11R STV杯 2勝クラス 芝1200m 洋芝 16頭",
+  "as_of": "2026-06-20",
+  "lens": "最終追い切りの時計/動き/併せ・調教場所・本数・前走比変化・厩舎勝負気配。A_classのcond(状態項)に効く＝地力は測らない。単独で着順を決めない。",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri.py seed は空。2勝クラスのため重賞のような全頭調教時計が公開ソースに乏しく、多くの馬で具体時計が取得不能＝不明・確信度低で止めた。会員制(netkeiba/競馬ラボ)と証明書エラー(鉄矢の予想)で一次時計の直接取得は不可。",
+  "coverage_caveat": "16頭中、具体的な追い切り評価/コメントが取得できたのはキープサインオン(1)/マジカルフェアリー(4)/ラパンチュール(16)の3頭中心。他は不明＝0近辺・確信度低で統合段階で過信しないこと。",
+  "horses": [
+    {
+      "no": 1, "name": "キープサインオン", "score": 0.5, "confidence": "中",
+      "course": "函館W", "media_rating": "★★(競馬予想のホネ)",
+      "pros": ["[F]函館Wで『軽快フィニッシュ』と評価(競馬予想のホネ)＝終いの脚に余力を感じる動き。先行脚質で展開構造(前残り)に乗りやすい状態",
+               "[F]在厩(函館W)で調整＝滞在開催の馬場・コースに馴染んだ仕上げ"],
+      "cons": ["[F]★★は当該媒体の中位評価で抜けた絶好調サインではない。具体時計・脚色の裏取り不可で確信度は中止まり"],
+      "sources": ["https://www.yosounohone.com/entry/hakodate-2026-6-20"]
+    },
+    {
+      "no": 2, "name": "バンブルビー", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が公開ソースで取得できず＝不明。差し脚質、状態は判断材料なし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 3, "name": "ピコアーガイル", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": ["[F]逃げ脚質・テン速＝展開トリガー馬(ハナ主張可能)。前残り構造で位置取りは作りやすい立場(状態が伴えば)"],
+      "cons": ["[F]最終追い切りの時計・動き・併せが取得できず＝状態の上向き/平行/下降が不明。展開上の鍵馬だが仕上げの裏取り不可で確信度低"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 4, "name": "マジカルフェアリー", "score": 1.0, "confidence": "中",
+      "course": "函館(滞在)", "media_rating": "好気配(鉄矢の予想スニペット)",
+      "pros": ["[F]『滞在効果で折り合いが改善、終いの伸びも鋭く前走以上の気配』(鉄矢の予想)＝状態上向きの明確なサイン。前走比プラス=cond加点の根拠",
+               "[F]滞在(函館)調整で気性面が落ち着き、先行脚質が展開(前残り)に噛み合う状態に向かっている"],
+      "cons": ["[F]具体的な追い切り時計・脚色・併せ結果の一次データは未取得＝コメントベースの上向き評価。確信度は中"],
+      "sources": ["https://www.keiba-jiku2.net/stv-cup-2026-yosou/", "https://umaho.jp/horses/50743/next_race_comments"]
+    },
+    {
+      "no": 5, "name": "スイミーユニバンス", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝不明。追い込み脚質で前残り構造には不利、状態の裏付けもなし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 6, "name": "レザンノワール", "score": 0.3, "confidence": "低",
+      "course": "不明(今回)", "media_rating": "不明(今回)",
+      "pros": ["[F]過去(京成杯時)に美浦坂路で当日最速級(4F50.2)の好時計を出せる素地あり＝強い時計を出せるタイプ。先行脚質で展開構造には合う",
+               "[F]上がり実績(上33.0)に見合う終いの動きが出せれば状態面の下支えになりうる"],
+      "cons": ["[F]今回(STV杯)の最終追い切りの場所・時計・脚色が取得できず＝今走のcondは不明。過去の好時計は今回の状態を保証しない＝確信度低",
+               "[F]過去の坂路好時計実績は『調教駆け』の可能性も含むため、好時計を地力・状態と即断せず加点を抑制"],
+      "sources": ["https://umasiru.com/archives/18115", "https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 7, "name": "ニシノラヴァンダ", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": ["[F]先行・テン速＝前残り構造で位置を取りやすい立場(状態が伴えば)"],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝状態不明。先行勢の一角だが仕上げの裏取り不可"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 8, "name": "フードマン", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの具体的な時計・動き・評価が公開ソースで取得できず＝不明。差し脚質、状態の判断材料なし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 9, "name": "スムースベルベット", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝不明。差し脚質、状態の裏付けなし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 10, "name": "アンジュプロミス", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": ["[F]3歳53kg(軽量)・先行テン速＝前残り構造で位置取りに有利な立場(状態が伴えば)。矢作厩舎管理"],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝状態不明。先行勢の一角だが仕上げの裏取り不可で確信度低"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 11, "name": "ビーコング", "score": -0.3, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝不明。差し脚質で前残り構造に不利、前走テン36.8と位置取りが厳しい質＝状態面の上向きサインも確認できず軽い減点"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 12, "name": "モンサンゴールデン", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝不明。3歳差し・テン遅で前残り構造には不利、状態の裏付けもなし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 13, "name": "ブルーサンセット", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝不明。差し脚質、状態の判断材料なし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 14, "name": "トウカイエルデ", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": [],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝不明。追い込み・テン遅で前残り構造に不利、状態の裏付けもなし"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 15, "name": "モズアンタレス", "score": 0.0, "confidence": "低",
+      "course": "不明", "media_rating": "不明",
+      "pros": ["[F]テン速ではないが上がり最速級(上32.8)の決め手を持つ質＝終いの動きが出れば状態の下支えに(ただし前残り構造には届きにくい立場)"],
+      "cons": ["[F]最終追い切りの時計・動き・評価が取得できず＝今走のcondは不明。追い込み脚質で展開構造に不利、仕上げの裏取り不可で確信度低"],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"]
+    },
+    {
+      "no": 16, "name": "ラパンチュール", "score": 0.8, "confidence": "中",
+      "course": "不明", "media_rating": "好調アピール・仕上がり上位(複数媒体スニペット)",
+      "pros": ["[F]複数媒体で『好調をアピール、仕上がり上位評価』＝状態は良好サイド。武豊への乗替＝主戦/有力騎手の確保で厩舎の勝負気配は前向きに読める(観測可能な変化)",
+               "[F]近2走は崩れていない上位常連で、状態が整っていれば実戦適性を出しやすい仕上がり"],
+      "cons": ["[F]具体的な追い切り時計・脚色・併せ結果の一次データは未取得＝コメント/評価ベースで確信度は中",
+               "[F]追い込み脚質のため、状態が良くても前残り構造では終いの脚を引き出せず仕上げ良化が着順に直結しないリスク(condは良いが展開で相殺されうる)"],
+      "sources": ["https://www.keiba-jiku2.net/stv-cup-2026-yosou/", "https://keiba-headline.com/stv-hai-forecast-2026-400843"]
+    }
+  ],
+  "stable_intent_addendum_candidates": [
+    {
+      "stable": "蛯名正義(美浦)", "tentative_label": "騎手起用=選択的強化(暫定)",
+      "confidence": "低",
+      "basis": "STV杯でラパンチュールに武豊を起用＝外部の有力騎手を確保した観測事実。勝負気配の前向きシグナルとして拾うが1例のみ＝型ラベルは暫定。"
+    },
+    {
+      "stable": "寺島良(栗東)", "tentative_label": "仕上げ型=滞在/上積み志向(暫定)",
+      "confidence": "低",
+      "basis": "マジカルフェアリーを函館滞在で調整し『折り合い改善・終い鋭く前走以上の気配』とコメント＝滞在で上積みを作る型の可能性。1例のみで暫定。"
+    }
+  ]
+}

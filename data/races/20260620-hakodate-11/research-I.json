@@ -1,0 +1,233 @@
+{
+  "observation": "I. リスク/割引要因",
+  "race_id": "20260620-hakodate-11",
+  "confidence_overall": "中",
+  "field_note": "減点専用観点。函館芝1200(JRA最短直線262m・洋芝で時計かかる・終盤下りで前残り＝逃げ先行有利)・16頭フルゲートの構造下では、(1)上がり最速値が遅い追込/差し、(2)テン遅で前残り構造に脚質が逆行する後方馬、(3)大外枠×追込のワイドトリップ、が着順取りこぼしの主因。前・先行ラベル(1,4,6,7,10)は構造順応で位置取りリスク小。放牧明け(4,14)は軽い割引。個別の出遅れ癖/気性難はweb上に明示記述が乏しく、各馬の確信度は中〜低。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "キープサインオン",
+      "cons": [
+        "[I]先行脚質で前残り構造に順応、目立つ位置取りリスクなし",
+        "[I]最内枠は包まれ・進路狭窄の軽い懸念はあるが先行なら回避可"
+      ],
+      "eval": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.keibalab.jp/db/horse/2022103556/",
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "バンブルビー",
+      "cons": [
+        "[I]差し脚質・テン中で前残り構造にやや不利な位置取りになりうる(軽)",
+        "[I]個別の出遅れ/気性記述は確認できず欠損(確信度低)"
+      ],
+      "eval": -1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keibalab.jp/db/horse/2014100222/",
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ピコアーガイル",
+      "cons": [
+        "[I]通算12戦2勝7着外と勝ち切れず詰めが甘い傾向(下降というより頭打ち・軽)",
+        "[I]逃げ・テン速で前残り構造には脚質が順応するため位置取りリスクは小"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.winkeiba.jp/data/horse?PedigreeNum=2021110165",
+        "https://www.keibalab.jp/db/horse/2021110165/"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "マジカルフェアリー",
+      "cons": [
+        "[I]JRA表記で放牧明け＝休養明け一戦の上積み未知(軽)",
+        "[I]中距離で近走不振→1200m短縮で復調傾向のため下降基調ではない(リスク相殺)"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.jp/db/horse/2022104174/",
+        "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022104174/E6"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スイミーユニバンス",
+      "cons": [
+        "[I]追込・テン遅で前残り構造に脚質が逆行、後方からだと届きにくい位置取りリスク",
+        "[I]通算18戦2勝と勝ち味に遅く詰めの甘さ(軽)"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keibalab.jp/db/horse/2020103632/",
+        "https://www.jbis.or.jp/race/result/20250615/102/11/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レザンノワール",
+      "cons": [
+        "[I]先行脚質・上り最速値も優秀で前残り構造に順応、目立つリスクなし",
+        "[I]個別の出遅れ/脚部の明示記述は確認できず(欠損・軽)"
+      ],
+      "eval": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jbis.or.jp/horse/0001336848/",
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ニシノラヴァンダ",
+      "cons": [
+        "[I]先行・テン速で前残り構造に順応、位置取りリスク小",
+        "[I]重賞(フェアリーS/HBC賞)で着外続きの成績面はあるが本観点(取りこぼし要因)では大きな減点材料に乏しい"
+      ],
+      "eval": 0,
+      "confidence": "中",
+      "sources": [
+        "https://uma-x.jp/uma_detail/2022102220",
+        "https://www.jbis.or.jp/horse/0001360366/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "フードマン",
+      "cons": [
+        "[I]差し脚質・テン中で前残り構造にやや不利な位置取りになりうる(軽)",
+        "[I]通算14戦2勝で勝ち切れず詰めの甘さ(軽)"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.winkeiba.jp/data/horse?PedigreeNum=2022110056",
+        "https://sports.yahoo.co.jp/keiba/directory/horse/2022110056/"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スムースベルベット",
+      "cons": [
+        "[I]差し脚質・テン中で前残り構造に対しやや後手の位置取りリスク(軽)",
+        "[I]個別の出遅れ/気性/脚部記述は確認できず欠損(確信度低)"
+      ],
+      "eval": -1,
+      "confidence": "低",
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202602010311"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "アンジュプロミス",
+      "cons": [
+        "[I]3歳牝(斤量53は軽量で恩恵側＝減点材料ではない)、先行で前残り構造に順応",
+        "[I]7戦2勝の若駒で2勝クラス・古馬相手・初環境的な相手強化の経験不足リスク(軽)"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://yahagistable.com/horse/14015/",
+        "https://www.jbis.or.jp/horse/0001369040/"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ビーコング",
+      "cons": [
+        "[I]上り最速値33.6帯に対し当該馬は遅く(seed上36.8＝出走中で最も遅い)、終盤下り・短直線の決め脚勝負で取りこぼしの最大リスク",
+        "[I]通算29戦2勝(着外17)と長期キャリアで勝ち切れない頭打ち＝詰めの甘さが顕著",
+        "[I]差し脚質で前残り構造に脚質が逆行、後方一気が決まりにくい"
+      ],
+      "eval": -2,
+      "confidence": "中",
+      "sources": [
+        "https://www.winkeiba.jp/data/horse?PedigreeNum=2021103595",
+        "https://www.keibalab.jp/db/horse/2021103595/"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "モンサンゴールデン",
+      "cons": [
+        "[I]前走は折り合いスムーズに追走し上り最速33.4で差し切り勝ち＝気性/折り合いの不安は乏しい",
+        "[I]差し脚質で前残り構造にはやや不利、加えて3歳でキャリア浅く2勝クラス・古馬相手は経験不足リスク(軽)"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.yushun-company.com/topics/20260524/",
+        "https://www.keibalab.jp/db/horse/2023104044/"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ブルーサンセット",
+      "cons": [
+        "[I]差し脚質・テン中で前残り構造にやや不利な位置取りリスク(軽)",
+        "[I]個別の出遅れ/気性/脚部の明示記述は確認できず欠損(確信度低)"
+      ],
+      "eval": -1,
+      "confidence": "低",
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202602010311",
+        "https://www.jbis.or.jp/horse/0001221956/sire/progeny/"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "トウカイエルデ",
+      "cons": [
+        "[I]JRA表記で放牧明け＝休養明けで仕上がり/実戦勘に上積み未知の割引",
+        "[I]追込・テン遅で前残り構造に脚質が逆行、後方からは届きにくい位置取りリスク"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021100365/63",
+        "https://www.keibalab.jp/db/horse/2021100365/"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "モズアンタレス",
+      "cons": [
+        "[I]追込・テン遅で前残り構造に脚質が逆行、後方待機ゆえ展開待ちの位置取りリスク",
+        "[I]ただし上り最速32.8級と末脚は鋭く、ハイ寄り想定なら減点は限定的"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keibalab.jp/db/horse/2020106519/",
+        "https://umaho.jp/horses/45144"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ラパンチュール",
+      "cons": [
+        "[I]大外8枠16番×追込脚質＝前残り構造の短直線でワイドに回す位置取り＋進路確保の二重リスク",
+        "[I]1勝クラス勝ち上がり直後で2勝クラス・斤量56・相手強化の昇級初戦の経験不足(軽)"
+      ],
+      "eval": -1,
+      "confidence": "中",
+      "sources": [
+        "https://keibana.com/news/116897/",
+        "https://poginfo.ddo.jp/pogs/horseData/show/2022107340"
+      ]
+    }
+  ],
+  "note": "keibalab/umaho/keiba-jiku等は403/SSLでfetch不可、JRA/WIN!keiba/winkeiba/yahoo/yushunのsearch+winkeibaのfetchで補完。個別の出遅れ癖・気性難・脚部不安の一次記述は多くの馬で確認できず、本観点の減点は主に『前残り構造に対する脚質/位置取りの逆行』『放牧明け』『勝ち切れない頭打ち』『昇級初戦の経験不足』という構造ベースの軽減点が中心(確信度中〜低)。最大減点は⑪ビーコング(上がり最遅×頭打ち×脚質逆行)。市場情報は不使用。"
+}
