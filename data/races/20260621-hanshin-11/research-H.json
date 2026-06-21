@@ -1,0 +1,331 @@
+{
+ "race_id": "20260621-hanshin-11",
+ "observation_point": "H",
+ "observation_label": "当日気配・パドック・直前情報",
+ "as_of": "2026-06-21",
+ "race_class_expectation": "GⅢ重賞のため追い切り後コメント・調教評価は記事化される（取得期待値=中〜高）。ただし当日パドック寸評・確定馬体重・返し馬は分析時点(発走15:30前)で未発表＝空欄が正常。",
+ "overall_confidence": "中",
+ "field_note": "追い切り評価・状態コメント・陣営の見立ては複数スポーツ系/調教系媒体から取得できた。一方、当日パドック点数・確定馬体重・返し馬・発汗気配は発走前で未取得＝該当馬は空欄+確信度低。これらはユーザー側でパドック中継・確定馬体重の貼り付けによる補強を推奨。なお取得したコメントの多くは『追い切り後/最終追い切り(今走に向けた)』のものと判断できたが、媒体要約のため日付の特定が甘い箇所は確信度を下げた。展開トリガー(出方=行く/控える)に直結する関係者コメントは明示されたものが乏しく、STEP4a素材としては脚質seed優先で扱うべき。",
+ "user_augment_request": "発走前の確定馬体重・パドック寸評(各紙の◎数/評点)・返し馬・発汗の貼り付けで全馬の確信度を上げられる。特に上位印候補(7キープカルム/4ブエナオンダ/10エルトンバローズ/5ファーヴェント/16スリールミニョン)の馬体減増と気配を補強希望。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "スマートワイス",
+   "condition_notes": "今走に向けた状態・パドックの具体的好材料は確認できず。芝1600mの近2戦が振るわず距離短縮(1400m)替わり待ち、との媒体見立て＝陣営の積極的な勝負気配コメントは拾えない。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=先行/テン中)",
+   "score": 0,
+   "confidence": "低",
+   "sources": [
+    "https://winsight.jp/column/column_page?id=26021"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ファインライン",
+   "condition_notes": "今走に向けた状態・調教・パドックの個別コメント取得できず。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=差し/テン遅)",
+   "score": 0,
+   "confidence": "低",
+   "sources": []
+  },
+  {
+   "no": 3,
+   "name": "メイショウシンタケ",
+   "condition_notes": "8歳。今走に向けた状態・調教の個別好材料は取得できず。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=追込/テン遅)",
+   "score": 0,
+   "confidence": "低",
+   "sources": []
+  },
+  {
+   "no": 4,
+   "name": "ブエナオンダ",
+   "condition_notes": "近走『使われるたびに道中の通過順が下がっている』と消極的評価。京都芝外回りが本来の適性で、阪神外回りへの強調材料は乏しいとの媒体見立て。状態面の積極的好材料は拾えず、むしろレース運びの後傾化が懸念。",
+   "comments": [
+    {
+     "text": "使われるたびに道中通過順が下がっていってしまっている／阪神外回りへの強調材料は乏しい",
+     "date": "2026-06(今走プレビュー)",
+     "source": "winsight",
+     "type": "今走に向けた媒体見立て(陣営直接コメントではない)"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "近走通過順が後退傾向＝先行seedでも前に行けていない可能性(展開合成で要留意)",
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "https://winsight.jp/column/column_page?id=26021"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "ファーヴェント",
+   "condition_notes": "追い切り高評価(媒体評価A)。一週前は『馬なりで自己ベストを上回る時計、併せ馬でも先着』、最終追いは『馬なりでラスト1F11.9秒まで伸ばし終いの反応良好』。間隔をあけた臨戦過程がプラス、阪神芝外回り2勝の得意舞台での巻き返し警戒。仕上がりは一歩リードの評。",
+   "comments": [
+    {
+     "text": "馬なりで自己ベストを上回る時計、併せ馬でも先着(一週前)→最終追い馬なりでラスト1F11.9秒、終いの反応良好",
+     "date": "2026-06(一週前〜最終追い切り)",
+     "source": "鉄矢/keiba-jiku・複数調教系媒体",
+     "type": "今走に向けた追い切り評価"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態◎、終いの反応良好＝終盤A_finish寄りの後押し材料(脚質seed=先行/テン中)",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keiba-jiku2.net/shirasagi-stakes-2026-yosou/",
+    "https://hikky-keiba.com/shirasagistakes/"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "シンフォーエバー",
+   "condition_notes": "今走に向けた状態・調教の個別好材料は取得できず。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=差し/テン中)",
+   "score": 0,
+   "confidence": "低",
+   "sources": []
+  },
+  {
+   "no": 7,
+   "name": "キープカルム",
+   "condition_notes": "昨年勝馬。最終追い切りで調教師が『動きはいつも通りダイナミック。夏でもへこたれた感じはない』とコメント、精神的成長を指摘。追い切り全体時計優秀(自己ベスト51.0秒級)で『前走時に近い水準、調整量十分』。坂路での動きに迫力、仕上がり一歩リードの評。",
+   "comments": [
+    {
+     "text": "動きはいつも通りダイナミック。夏でもへこたれた感じはない(調教師)",
+     "date": "2026-06(最終追い切り後)",
+     "source": "keibanomiryoku/複数調教系媒体",
+     "type": "今走に向けた追い切り後コメント"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態◎(連覇に向け仕上がり良好)。脚質seed=追込/テン遅＝終盤勝負の後押し材料",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibanomiryoku.com/article/shirasagi-stakes-2026-work-out.html",
+    "https://hikky-keiba.com/shirasagistakes/"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "サイルーン",
+   "condition_notes": "『順調で大きく評価を落とす材料は見当たらない』との媒体評。せん7歳。個別の強い好材料コメントまでは拾えず、状態は平常〜順調。",
+   "comments": [
+    {
+     "text": "順調で評価を落とす材料は見当たらない",
+     "date": "2026-06(今走プレビュー)",
+     "source": "鉄矢/keiba-jiku",
+     "type": "今走に向けた媒体見立て"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態は順調(脚質seed=差し/テン遅)",
+   "score": 0,
+   "confidence": "低",
+   "sources": [
+    "https://www.keiba-jiku2.net/shirasagi-stakes-2026-yosou/"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "ファンダム",
+   "condition_notes": "今走に向けた状態・調教の個別好材料は取得できず。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=先行/テン中)",
+   "score": 0,
+   "confidence": "低",
+   "sources": []
+  },
+  {
+   "no": 10,
+   "name": "エルトンバローズ",
+   "condition_notes": "追い切り高評価(媒体評価A)。一週前『2頭併せで追走から同入・先着まで持ち込め負荷のかかった内容』、最終追いも『一週前から直前までの流れ良好』。前走マイラーズC(GⅡ)は勝ち馬と0秒4差で内容悪くなく、GⅢ相手なら軽くは扱えないとの見立て。",
+   "comments": [
+    {
+     "text": "2頭併せで追走から同入・先着、負荷のかかった内容(一週前)→直前まで流れ良好",
+     "date": "2026-06(一週前〜最終追い切り)",
+     "source": "鉄矢/keiba-jiku",
+     "type": "今走に向けた追い切り評価"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態◎、負荷追いをこなせる充実(脚質seed=先行/テン中)。58kg背負う点は別観点(斤量)で評価",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keiba-jiku2.net/shirasagi-stakes-2026-yosou/"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "エコロアルバ",
+   "condition_notes": "3歳53kg。放牧帰りで『硬さが全くない』と回復を確認、前走の出負けから立ち直り『状態は上がってきている』。ただし最終追い切りは『余力を残す形』で自己ベストには届かず＝攻め量は十分だが直前は抑え目という見方も。渋った馬場は歓迎できる適性との評。",
+   "comments": [
+    {
+     "text": "放牧で硬さが全くない／状態は上がってきている",
+     "date": "2026-06(放牧帰り〜今走に向けて)",
+     "source": "winsight/keibanomiryoku",
+     "type": "今走に向けた状態評価"
+    },
+    {
+     "text": "最終追い切りは余力を残す形で自己ベストに届かず(攻め量自体は十分)",
+     "date": "2026-06(最終追い切り)",
+     "source": "鉄矢/keiba-jiku",
+     "type": "今走に向けた追い切り評価"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態上昇基調。3歳53kgの軽量で終盤の伸びを後押ししやすい(脚質seed=追込/テン遅)",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://winsight.jp/column/column_page?id=26021",
+    "https://www.keiba-jiku2.net/shirasagi-stakes-2026-yosou/"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "カズミクラーシュ",
+   "condition_notes": "調教師が『やっと本格化した』とコメント、安定性の向上を指摘。状態は上向きの評。",
+   "comments": [
+    {
+     "text": "やっと本格化した(調教師)",
+     "date": "2026-06(今走に向けて)",
+     "source": "keibanomiryoku",
+     "type": "今走に向けた陣営コメント"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "本格化・安定性向上の上向き材料(脚質seed=先行/テン中)",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibanomiryoku.com/article/shirasagi-stakes-2026-work-out.html"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "メタルスピード",
+   "condition_notes": "陣営が『もう馬はできている』と仕上げ完了と判断。唯一のテン速で前々から運ぶ脚質、状態面は仕上がり済みの評。",
+   "comments": [
+    {
+     "text": "もう馬はできている(仕上げ完了)",
+     "date": "2026-06(今走に向けて)",
+     "source": "keibanomiryoku",
+     "type": "今走に向けた陣営コメント"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "仕上がり済み。唯一テン速=前々で運ぶ宣言的脚質で、ペースの主導権を握る側になりうる(展開合成で逃げ/番手候補として要留意)",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibanomiryoku.com/article/shirasagi-stakes-2026-work-out.html"
+   ]
+  },
+  {
+   "no": 14,
+   "name": "ミニトランザット",
+   "condition_notes": "追い切り好評。一週前『沈み込むようなところが見られて良かった』、最終追いでも陣営が『収まりが良くなって、いい形で競馬に向かえる』と高評価。状態は良好の評。",
+   "comments": [
+    {
+     "text": "沈み込むようなところが見られて良かった(一週前)／収まりが良くなりいい形で競馬に向かえる(陣営)",
+     "date": "2026-06(一週前〜最終追い切り)",
+     "source": "keibanomiryoku",
+     "type": "今走に向けた追い切り後陣営コメント"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態良好・気持ちの面で進境(脚質seed=追込/テン遅)。終盤勝負の後押し材料",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibanomiryoku.com/article/shirasagi-stakes-2026-work-out.html"
+   ]
+  },
+  {
+   "no": 15,
+   "name": "ショウナンアデイブ",
+   "condition_notes": "7歳。今走に向けた状態・調教の個別好材料は取得できず。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=差し/テン中)",
+   "score": 0,
+   "confidence": "低",
+   "sources": []
+  },
+  {
+   "no": 16,
+   "name": "スリールミニョン",
+   "condition_notes": "牝4・55kg。永島まなみ騎乗。今走に向けた個別の強い状態好材料コメントまでは特定できず(媒体は名前を挙げるが具体寸評は薄い)。状態は平常〜順調の範囲。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=先行/テン中・牝55kg軽量)",
+   "score": 0,
+   "confidence": "低",
+   "sources": [
+    "https://winsight.jp/column/column_page?id=26021"
+   ]
+  },
+  {
+   "no": 17,
+   "name": "スイープアワーズ",
+   "condition_notes": "最終追い切りで『ラスト2ハロンは沈み込むような走り。いい精神状態』と高評価。転厩後にメンタルが改善し、レース流れへの対応能力が向上との評。状態・気配は上向き。",
+   "comments": [
+    {
+     "text": "ラスト2ハロンは沈み込むような走り。いい精神状態／転厩後メンタル改善・流れへの対応向上",
+     "date": "2026-06(最終追い切り後)",
+     "source": "keibanomiryoku",
+     "type": "今走に向けた追い切り後評価"
+    }
+   ],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "状態・精神面上向き(脚質seed=追込/テン遅)。終盤勝負の後押し材料",
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibanomiryoku.com/article/shirasagi-stakes-2026-work-out.html"
+   ]
+  },
+  {
+   "no": 18,
+   "name": "タガノエルピーダ",
+   "condition_notes": "牝5・55kg。今走に向けた状態・調教の個別好材料は取得できず。",
+   "comments": [],
+   "paddock_score": null,
+   "horse_weight": null,
+   "intent_signal": "不明(脚質seed=差し/テン中・牝55kg軽量)",
+   "score": 0,
+   "confidence": "低",
+   "sources": []
+  }
+ ]
+}

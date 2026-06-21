@@ -1,0 +1,196 @@
+{
+  "point": "H",
+  "overall_confidence": "低",
+  "note": "【取得期待値の事前設定】本レースは3勝クラスの特別戦(多摩川S・重賞ではない平場特別)。G1/重賞のような共同会見・追い切り後コメントの記事化は期待できず、当日パドック寸評・確定馬体重も「平場・条件戦＝ほぼ記事化されない→空欄が正常」のカテゴリ。加えて分析時点(2026-06-21・発走15:10前)は当日パドック/返し馬/確定馬体重がまだ公開されていない。よって本観点はほぼ全面空欄が想定通り。\n\n【取得結果】WebSearch 2バッチ＋WebFetch(netkeiba当日出馬表/予想サイト)で確認したが、(1)関係者・騎手の今走向けコメント=取得できず(検索で出るのは過去の重賞=東スポ杯2歳S等の前走/過去コメントで、今走戦法として扱うのは誤読のため不採用)、(2)媒体のパドック点数=未掲載、(3)確定馬体重=未掲載、(4)発汗・気配=未掲載。netkeiba当日出馬表も馬番/馬名/性齢/斤量/騎手/厩舎のみで短評・コメント・馬体重いずれも掲載なしを確認。捏造せず全頭スコア0・確信度低とした。\n\n【重馬場想定との関係】当日のクッション値・含水率・馬場発表・前半参考Rは未確定。これらは観点D(馬場)領域だが、本観点でも「パワー型/道悪で良く見える馬体・気配」の当日上積みは確定馬体重とパドックが出てから初めて判断材料になる。現時点では一切判断不可。\n\n【ユーザー補強のお願い(重要)】本観点は当日でないと埋まらない。発走前に以下を貼り付けてもらえれば確信度を引き上げられる: ①確定馬体重と増減(全16頭) ②スポーツ紙/競馬ブック/東スポのパドック寸評・点数 ③返し馬・発汗・気配の所見 ④出走表に騎手・調教師の今走コメントが付いていればその全文(日付・出典・今走向けか前走後かの区別付き)。特に展開トリガー馬(⑥ダノンエンブレム/⑩ラーンザロープスのハナ争い、⑧フライングブレード・⑭スマイルアップの先行意思)について「行く/控える」のコメントがあればSTEP4a展開合成の素材として有用。\n\n【取り違え注意】spawn時に渡された出走表ヘッダーは「11R 15:10発走」と表記されるが、検索で確認した実体は東京10R多摩川S(race_id 202605030610)。保存/突合は20260621-tokyo-10。なお同ディレクトリ配下に存在した_seed.json(tokyo-11)は牝馬限定の別レース(マカナ/ブラウンラチェット等)で本16頭と不一致のため不使用、出走表ヘッダーの16頭を正本とした。",
+  "field_note": "全16頭カバー。当日発走前かつ3勝クラス特別戦のため当日気配・パドック・確定馬体重・関係者コメントは全頭で取得不可=想定通りの空欄。全頭スコア0・確信度低。市場情報(・・直前変動)は本観点の特則どおり一切抽出していない。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "モンシュマン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "モンドデラモーレ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "エフォートレス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "グーテンベルク",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "上位印候補(戸崎騎乗)だが今走向けの陣営/騎手コメント・パドック評価とも未取得=判断材料なし"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ユハンヌス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ダノンエンブレム",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "展開トリガー馬(先・テン速)だが今走の出方(行く/控える)コメント未取得。検索で出るのは過去の東京勝ち鞍等で今走戦法ではない=不採用"
+      ],
+      "sources": [
+        "https://jra.jp/JRADB/accessU.html?CNAME=pw01dud002022104893/03"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "サトノヴィレ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "フライングブレード",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "展開トリガー馬(先)だが今走の出方コメント・パドック気配とも未取得"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レッドキングリー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "上位印候補(ルメール騎乗)だが今走向けコメント未取得。検索ヒットは過去の東スポ杯2歳S(前走/過去回顧)で今走戦法として扱わない=不採用"
+      ],
+      "sources": [
+        "https://tospo-keiba.jp/breaking_news/51818"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ラーンザロープス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "展開トリガー馬(先・テン速・牝56)。⑥とのハナ争い想定だが今走の出方コメント未取得"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "マックアルイーン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "マテンロウブラボー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "セシリエプラージュ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "スマイルアップ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "展開トリガー馬(先・牝7・牝56)だが今走の出方コメント未取得"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ウナギノボリ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ウインオーディン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"
+      ]
+    }
+  ]
+}

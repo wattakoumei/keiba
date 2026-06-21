@@ -1,0 +1,318 @@
+{
+  "observation_point": "H",
+  "observation_label": "当日気配・パドック・直前情報",
+  "race_id": "20260621-hanshin-10",
+  "race_name": "姫路ステークス(OP/L) 阪神10R ダ1800m",
+  "as_of": "2026-06-21",
+  "race_grade": "OP/Listed(別定)",
+  "acquisition_expectation": "中〜低。OP/Lだが共同会見は無く、当日パドック寸評・確定馬体重・直前の出方コメントは記事化が薄い。取得できたのは前日〜当日朝の追い切り後の状態評価が中心(=観点F寄り)で、本観点固有のパドック実見・確定馬体重・騎手の出方コメントは未取得。",
+  "global_notes": [
+    "確定馬体重(増減)は未取得=欠損。netkeiba出馬表は発走前で'---.-'表示。ユーザーによる確定馬体重の貼り付け補強を推奨。",
+    "パドックの実見寸評(媒体パドック点・発汗・気配)は未取得=欠損。当日発走直前のパドック評価をユーザー補強推奨。",
+    "騎手・陣営の'今走の出方(行く/控える/自信度)'コメントは未取得=欠損。STEP4a展開合成の素材としては入力不足。脚質はseed値で扱うこと。"
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "トウカイポワール",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "メイショウシナノ",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "追い切り評価A、叩き2戦目で上積みを感じる内容との状態評価(前日〜当日朝の追い切り後評価)。装蹄師コラムでも好感触馬として言及。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]追い切り後の状態評価で上積みを感じる内容との寸評(2026-06-20頃,予想/コラム媒体)。当日デキは良好方向"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・出方コメントは未取得=欠損。状態評価は追い切り寄りで本観点固有情報は薄い"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/",
+        "https://www.oricon.co.jp/article/3290915/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アークドール",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "装蹄師・西内荘コラムで姫路Sの好感触馬として言及(2026-06-20頃)。仕上がり良好方向の評価。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]装蹄師コラムで好感触馬として挙げられている(2026-06-20頃)。馬体・気配は良好方向と読める"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・騎手(M.デムーロ)の出方コメントは未取得=欠損"
+      ],
+      "sources": [
+        "https://www.oricon.co.jp/article/3290915/",
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ティンティンデオ",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ヒロノラメール",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "追い切り評価A、上積みを感じる内容との状態評価(前日〜当日朝の追い切り後評価)。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]追い切り後の状態評価で上積みを感じる内容(A評価,2026-06-20頃,予想媒体)。当日デキは良好方向"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・出方コメントは未取得=欠損"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ルクスフレンジー",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "追い切り評価S。自己ベスト(終い)更新後も力強い動きを維持し勢い衰えずとの状態評価(前日〜当日朝)。装蹄師コラムでも好感触馬として言及。気配最上位クラスの読み。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[H]追い切り後の状態評価がS=最上位。力強い動きを維持し勢い衰えずとの寸評(2026-06-20頃,予想/コラム媒体)。当日の気配・デキは出走馬中トップ級と読める",
+        "[H]装蹄師コラムでも好感触馬。馬体面の評価も良好方向"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・酒井学騎手の出方コメントは未取得=欠損。状態評価は追い切り寄りで、パドック発汗・気配の実見は別途要確認"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "タマモキャリコ",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "パシアンジャン",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "アカデミア",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "追い切り評価A。叩き2戦目(休み明け2走目)で素軽さが増したとの状態評価(前日〜当日朝の追い切り後評価)。上昇気配の読み。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]追い切り後の状態評価で叩き2戦目に素軽さが増したとの寸評(A評価,2026-06-20頃,予想媒体)。叩き上昇=当日気配は前進方向と読める"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・坂井瑠星騎手の出方コメントは未取得=欠損"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/",
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ロフティストーリー",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ルクスビッグスター",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "最終追い切り 栗東坂路で★★★(3つ星)の高評価(2026-06-21,追い切り注目馬記事)。状態は良好方向。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]最終追い切り栗東坂路で★★★の高評価(2026-06-21,予想媒体の追い切り注目馬)。当日の状態・気配は良好方向"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・小崎綾也騎手の出方コメントは未取得=欠損"
+      ],
+      "sources": [
+        "https://www.yosounohone.com/entry/hanshin-2026-6-21"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "キュールエフウジン",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ペイシャモノノフ",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "レヴァンテシチー",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "追い切り評価A、上積みを感じる内容との状態評価(前日〜当日朝の追い切り後評価)。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]追い切り後の状態評価で上積みを感じる内容(A評価,2026-06-20頃,予想媒体)。当日デキは良好方向"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・松山弘平騎手の出方コメントは未取得=欠損"
+      ],
+      "sources": [
+        "https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ロカヒ",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": "追い切り評価S。3週連続で終い11秒台を記録しパワフルな伸びが際立つとの状態評価(前日〜当日朝)。気配最上位クラスの読み。",
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[H]追い切り後の状態評価がS=最上位。3週連続で終い11秒台・パワフルな伸びが際立つとの寸評(2026-06-20頃,予想媒体)。当日の気配・デキは出走馬中トップ級と読める"
+      ],
+      "cons": [
+        "[H]確定馬体重・パドック実見・幸英明騎手の出方コメントは未取得=欠損。状態評価は追い切り寄りでパドック発汗・気配の実見は別途要確認"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ウィンターダフネ",
+      "paddock": null,
+      "weight_change": null,
+      "condition_comment": null,
+      "intent_comment": null,
+      "media_paddock_score": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[H]当日気配・確定馬体重・パドック寸評・出方コメントいずれも未取得=欠損(確信度低)"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/shutuba.html?race_id=202609030610"
+      ]
+    }
+  ]
+}

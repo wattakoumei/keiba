@@ -1,0 +1,120 @@
+{
+  "observation": "G. ローテ・馬体・間隔",
+  "race": "20260621-tokyo-11 多摩川ステークス 東京芝1400m 重想定 16頭",
+  "confidence_overall": "中",
+  "note": "G観点=状態項(cond)への寄与。前走日は6/21基準で間隔を概算。馬体重は直近値とトレンド。重馬場想定のためパワー・馬格(大型)を弱い加点、超小柄馬と長期休み明けを弱い減点で読む。多くが東京連戦で輸送なし=中立。netkeiba/umanity/競馬ブック/JRA成績から取得。レース名は当該システム表記(湘南S=SHONAN等)に依拠。",
+  "horses": [
+    {
+      "no": 1, "name": "モンシュマン", "style": "追",
+      "pros": ["[G]前走4/26東京1400m4着から中7週の標準ローテ・初の同舞台2戦目で前進余地", "[G]馬体472→476と漸増で状態維持・輸送なし(東京連続)"],
+      "cons": ["[G]近走は1200m凡走多く1400m替わったばかりで適距離は流動的(状態より適性寄り)"],
+      "score": 0, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2021105054", "https://www.keiba-jiku2.net/tamagawa-stakes-2026-yosou/"]
+    },
+    {
+      "no": 2, "name": "モンドデラモーレ", "style": "差",
+      "pros": ["[G]前走4/26東京1400m2着(湘南S)から中7週の好間隔・同舞台連続で状態安定", "[G]輸送なし(東京)・近2走で芝1400/1600を使い体調上向き"],
+      "cons": ["[G]通算10戦1勝で勝ち切れず変わり身は読みづらい"],
+      "score": 1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2022105830"]
+    },
+    {
+      "no": 3, "name": "エフォートレス", "style": "差",
+      "pros": ["[G]前走2/15東京1600m1着の内容自体は良い"],
+      "cons": ["[G]前走から約18週(4か月超)の長期休み明け・本数次第で仕上がり不安", "[G]1600m→1400mへ短縮で前走勝ち時の感覚と異なる・馬体488(+12)は前走増だが今回ぶっつけ"],
+      "score": -1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2021100564"]
+    },
+    {
+      "no": 4, "name": "グーテンベルク", "style": "差",
+      "pros": ["[G]前走5/24東京1400m3着(フリーウェイS)から中4週の好間隔・同舞台連続で疲労少なく上昇ローテ", "[G]馬体484で安定・輸送なし(東京)"],
+      "cons": ["[G]近走1600〜2000で凡走後に1400で3着=距離は短い方が合う見込みも確証は弱い"],
+      "score": 1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2022102391"]
+    },
+    {
+      "no": 5, "name": "ユハンヌス", "style": "差",
+      "pros": ["[G]前走5/24東京1400mから中4週・同舞台連続で間隔は良い・叩き5走目で動ける態勢"],
+      "cons": ["[G]前走11着・近走も二桁着多く近走凡走パターン継続中", "[G]馬体480(+12)は増加だが好走時より重め傾向で気配は微妙"],
+      "score": 0, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2020110039", "https://s.keibabook.co.jp/db/uma/0894870/top"]
+    },
+    {
+      "no": 6, "name": "ダノンエンブレム", "style": "先",
+      "pros": ["[G]前走5/3東京1600m1着(OP)から中7週の標準ローテ・東京連続で輸送なし・連勝級の上昇気配", "[G]1600m→1400m短縮は先行脚質にプラスに働きやすい"],
+      "cons": ["[G]馬体452と小柄で重馬場のパワー要求では非力に出る懸念(展開トリガー先行馬)"],
+      "score": 1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2022104893"]
+    },
+    {
+      "no": 7, "name": "サトノヴィレ", "style": "差",
+      "pros": ["[G]前走(2025/10/4東京1800m1着)の内容は良く東京コース実績・馬体494でパワー型は重馬場に向く"],
+      "cons": ["[G]前走から約8.5か月(約37週)の長期休み明け・実戦勘の戻りが最大の不安", "[G]1800m→1400mへ大幅距離短縮で追走テンポが忙しくなる懸念"],
+      "score": -1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2020104753", "https://www.keibalab.jp/db/horse/2020104753/data.html"]
+    },
+    {
+      "no": 8, "name": "フライングブレード", "style": "先",
+      "pros": ["[G]馬体492のパワー型で重馬場のタフな流れは脚質的に対応余地"],
+      "cons": ["[G]前走3/8阪神1600m12着から約15週の休み明け・近走も二桁着で上昇気配に乏しい", "[G]関西→東京の輸送がプラスし馬体減(-8前走)傾向の出る型・展開トリガー先行だが信頼薄"],
+      "score": -1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2020100906", "https://www.keibalab.jp/db/horse/2020100906/"]
+    },
+    {
+      "no": 9, "name": "レッドキングリー", "style": "差",
+      "pros": ["[G]前走5/10東京1400m1着から中5週の好間隔・同舞台連続で輸送なし・上昇ローテの典型", "[G]馬体500→506→512→512と成長して増→維持の理想的トレンド・パワー馬格で重馬場向き"],
+      "cons": ["[G]512kgで大きく出走間隔詰めての反動だけ留意(ただし前走勝ちで疲労は小)"],
+      "score": 2, "confidence": "高",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2022105991", "https://www.jbis.or.jp/horse/0001356307/"]
+    },
+    {
+      "no": 10, "name": "ラーンザロープス", "style": "先",
+      "pros": ["[G]前走4/19阪神1600mから約9週の間隔は許容範囲・近走馬体460台で安定・芝替わりでなく芝継続"],
+      "cons": ["[G]関西→東京の輸送が加わる・馬体462(-2)で小柄=重馬場のパワー戦で非力に出る懸念", "[G]1600m→1400m短縮自体は先行に可だが体は減少基調で気配は強くない(展開トリガー先行馬)"],
+      "score": 0, "confidence": "中",
+      "sources": ["https://www.keibalab.jp/db/horse/2021105011/", "https://umanity.jp/en/racedata/db/horse_top.php?code=2021105011"]
+    },
+    {
+      "no": 11, "name": "マックアルイーン", "style": "差",
+      "pros": ["[G]馬体528の大型でパワー型・重馬場のタフな流れは馬格的に対応余地"],
+      "cons": ["[G]前走3/1中山1200m10着から約16週の休み明け・近走二桁着続きで上昇気配薄い", "[G]1200m→1400mへ距離延長・馬体540→528と減少基調で気配下降の型"],
+      "score": -1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2022110014", "https://www.umadb.com/uma/au34989/"]
+    },
+    {
+      "no": 12, "name": "マテンロウブラボー", "style": "追",
+      "pros": ["[G]前走5/9東京1600m3着(ぶばいがわらS)から中6週の好間隔・東京連続で輸送なし", "[G]馬体498→500で安定・近4走で3-5-3-1着と崩れず状態は良い"],
+      "cons": ["[G]1600m→1400m短縮で追込脚質には忙しい流れになる懸念(状態より展開寄り)"],
+      "score": 1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2021101422", "https://db.netkeiba.com/social/horse_info_next.html?id=2021101422"]
+    },
+    {
+      "no": 13, "name": "セシリエプラージュ", "style": "追",
+      "pros": ["[G]前走4/26東京1400m6着から中8週・同舞台で輸送なし"],
+      "cons": ["[G]馬体420前後の超小柄で重馬場のパワー要求では明確に非力に出やすい", "[G]近走二桁着多く416〜422で体も増えず状態の上昇感に乏しい"],
+      "score": -1, "confidence": "中",
+      "sources": ["https://en.netkeiba.com/db/horse/2021104941/", "https://www.winkeiba.jp/data/horse?PedigreeNum=2021104941"]
+    },
+    {
+      "no": 14, "name": "スマイルアップ", "style": "先",
+      "pros": ["[G]7歳でキャリア豊富・先行脚質で展開上は前に行ける"],
+      "cons": ["[G]前走1/25中山ダ1200m14着から約21週(5か月)の長期休み明け・近走二桁着続きで気配低い", "[G]近走ダート中心からの芝復帰かつ1200m→1400mで条件替わり・馬体462(-6)と7歳で目減り傾向(展開トリガー先行馬だが信頼薄)"],
+      "score": -2, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2019103815", "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002019103815/E3"]
+    },
+    {
+      "no": 15, "name": "ウナギノボリ", "style": "追",
+      "pros": ["[G]前走4/26東京1400mから中8週・3/21淀屋橋S2着など近走で動けており通算55戦のタフさ"],
+      "cons": ["[G]前走14着で大敗・着順の上下動が激しく状態の読みづらさ(7歳)", "[G]馬体490前後で安定はするが近走勝ち負けはダ短距離で芝1400の上昇材料は限定的"],
+      "score": 0, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2019107016", "https://en.netkeiba.com/db/horse/2019107016/"]
+    },
+    {
+      "no": 16, "name": "ウインオーディン", "style": "追",
+      "pros": ["[G]前走5/24東京1400m(フリーウェイS)から中4週の間隔・東京連続で輸送なし・馬体490安定"],
+      "cons": ["[G]前走12着・近走も2000m級で11-11着と二桁続きで気配下降中", "[G]2000m→1400mへ短縮で追走と決め手の折り合いが課題・状態の上昇感に乏しい"],
+      "score": -1, "confidence": "中",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2020105217", "https://www.keibalab.jp/db/horse/2020105217/data.html"]
+    }
+  ]
+}

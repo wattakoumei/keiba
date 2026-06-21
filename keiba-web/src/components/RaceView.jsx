@@ -107,7 +107,7 @@ export default function RaceView({ race }) {
 
       {/* 展開トリガー早見＝来そうな展開を判断する材料（先行勢の数・枠・コース形状・例年傾向・当日で動く点）。当日にティアを付け替える素 */}
       {(pace.pace_factors?.length > 0) && (
-        <details class="fold pace-factors" open>
+        <details class="fold pace-factors">
           <summary>展開を読む材料（来そうな展開の判断材料）</summary>
           <div class="scroll-x">
             <table class="factor-table">

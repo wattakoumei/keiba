@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL;
           <a href={`${base}races/${r.race_id}/`}>
             <span class="date">{r.date}</span>
             <span class="name">{r.edition ?? ''} {r.race_name}{r.grade ? `（${r.grade}）` : ''}</span>
-            <span class="meta">{r.course?.track}{r.course?.surface}{r.course?.distance}m · {r.field_size}頭</span>
+            <span class="meta">{r.course?.track}{r.race_no != null ? `${r.race_no}R` : ''} {r.course?.surface}{r.course?.distance}m · {r.field_size}頭</span>
           </a>
         </li>
       ))}

@@ -163,12 +163,15 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .pace-table .pdetail > td { padding: 2px 10px 12px; background: var(--panel-2); border-bottom: 1px solid var(--line); }
 
 /* 展開トリガー早見（pace_factors）= 来そうな展開の判断材料 */
-.factor-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+/* table-layout:fixed で列幅を明示配分。読み(f-read)を主役に。長文の当日チェックは折り返す（nowrapにすると読み列が1文字幅に潰れる） */
+.factor-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; table-layout: fixed; }
 .factor-table th { color: var(--muted); font-size: 0.76rem; font-weight: 600; text-align: left; padding: 4px 7px; border-bottom: 1px solid var(--line); }
-.factor-table td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.factor-table td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; word-break: break-word; line-height: 1.55; }
 .factor-table tr:last-child td { border-bottom: none; }
-.factor-table .f-name { font-weight: 600; white-space: nowrap; color: var(--accent); }
-.factor-table .f-day { white-space: nowrap; }
+.factor-table th:nth-child(1), .factor-table td:nth-child(1) { width: 17%; }
+.factor-table th:nth-child(2), .factor-table td:nth-child(2) { width: 49%; }
+.factor-table th:nth-child(3), .factor-table td:nth-child(3) { width: 34%; }
+.factor-table .f-name { font-weight: 600; color: var(--accent); }
 
 .legadv { display: inline-flex; gap: 4px; flex-wrap: wrap; }
 .la { font-size: 0.78rem; font-variant-numeric: tabular-nums; border-radius: 5px; padding: 1px 5px; border: 1px solid var(--line); }

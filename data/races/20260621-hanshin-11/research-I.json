@@ -1,0 +1,163 @@
+{
+  "race_id": "20260621-hanshin-11",
+  "observation_point": "I",
+  "lens": "リスク/割引要因（出遅れ癖・気性難/掛かり・脚部不安/故障・斤量増・不利枠・近走下降基調・初環境/距離不安）。減点専用 0..-2。",
+  "as_of": "2026-06-21",
+  "score_band": "0..-2 (0=目立つリスクなし / -1=軽い懸念 / -2=重いリスク)",
+  "horses": [
+    {
+      "no": 1, "name": "スマートワイス", "score": -1, "confidence": "中",
+      "cons": [
+        "[I] 昨秋以降の芝1600m2走がいずれも二桁着順＝マイルで結果が出ておらず、本来は1400mが合うとの見立て＝距離(マイル)不安",
+        "[I] 先行脚質だが内枠1番＝先行争いで包まれ/詰まるとロスのリスク"
+      ],
+      "pros": ["出遅れ・気性難・脚部不安の具体的言及はなし"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://www.keibalab.jp/db/horse/2021105618/"]
+    },
+    {
+      "no": 2, "name": "ファインライン", "score": 0, "confidence": "低",
+      "cons": ["[I] 差し/テン遅で展開待ちの面はあるが、出遅れ癖・気性難・脚部不安の具体情報は取得できず（欠損）"],
+      "pros": ["目立つリスクの確証なし"],
+      "sources": ["https://p.keibabook.co.jp/db/uma/0916647/kanzen"]
+    },
+    {
+      "no": 3, "name": "メイショウシンタケ", "score": -1, "confidence": "中",
+      "cons": [
+        "[I] 牡8歳と高齢＝ピーク後の年齢的下降懸念",
+        "[I] 重賞で連続の馬券圏外＝近走の重賞通用度が下降基調",
+        "[I] 追込/テン遅で展開依存（前が止まらないと届かない脚質リスク）"
+      ],
+      "pros": [],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://s.keibabook.co.jp/db/uma/0920245/top"]
+    },
+    {
+      "no": 4, "name": "ブエナオンダ", "score": -1, "confidence": "中",
+      "cons": [
+        "[I] 斤量58kg継続＝当レース最重量級の負担",
+        "[I] 京都金杯1着は再現性の難しい騎乗/展利との指摘、続く東京新聞杯は大外枠＋先行馬総崩れの展開で2番手追走から15着と崩れ＝展開・馬場に着順が振れやすい(ペース悪化時の総崩れリスク)"
+      ],
+      "pros": ["ダービー卿CT6着と大崩れまではせず一定の地力"],
+      "sources": ["https://www.yamaguchi-yoshino.com/entry/2026/01/07/232302", "https://winsight.jp/column/column_page?id=18006", "https://news.netkeiba.com/?pid=news_view&no=326457"]
+    },
+    {
+      "no": 5, "name": "ファーヴェント", "score": 0, "confidence": "中",
+      "cons": ["[I] ダービー卿CTはスロー先行で展開向くも勝ち切れず3着＝決め手でやや見劣る面はあるが、出遅れ/気性/脚部の重いリスクは確認できず"],
+      "pros": ["京都金杯2着→ダービー卿CT3着と近走安定し下降基調なし＝本格化の評", "斤量57kgで増なし"],
+      "sources": ["https://s.keibabook.co.jp/db/uma/0919698/top", "https://news.netkeiba.com/?pid=news_view&no=326457"]
+    },
+    {
+      "no": 6, "name": "シンフォーエバー", "score": -2, "confidence": "中",
+      "cons": [
+        "[I] 『復調の兆しがうかがえない近走。厳しい』との評＝近走が明確な下降基調",
+        "[I] 米国産系(Complexity×Pulpit)で関西/阪神外回り適性は未知＝初環境寄りの不安"
+      ],
+      "pros": [],
+      "sources": ["https://winsight.jp/column/column_page?id=26021"]
+    },
+    {
+      "no": 7, "name": "キープカルム", "score": -1, "confidence": "中",
+      "cons": [
+        "[I] 斤量58kg＝当レース最重量級の負担",
+        "[I] 追込/テン遅で後方から運ぶ脚質＝前が止まらない展開や直線で前が壁になると差し届かない展開依存リスク(中京記念も外を回して前を捕まえ切れず5着)"
+      ],
+      "pros": ["上り最速32.6＝決め手は最上位クラス、ペース流れれば台頭余地"],
+      "sources": ["https://www.keibalab.jp/db/horse/2021105119/", "https://s.keibabook.co.jp/db/uma/0919920/top"]
+    },
+    {
+      "no": 8, "name": "サイルーン", "score": -2, "confidence": "中",
+      "cons": [
+        "[I] せん7歳の高齢＝年齢的下降懸念",
+        "[I] 好走が中山芝1600m主体で、7歳にして初の関西遠征＝初環境(輸送・コース替わり)の不安が大きく『連続好走は至難』の評",
+        "[I] 差し/テン遅で展開待ちの脚質"
+      ],
+      "pros": [],
+      "sources": ["https://winsight.jp/column/column_page?id=26021"]
+    },
+    {
+      "no": 9, "name": "ファンダム", "score": -1, "confidence": "低",
+      "cons": [
+        "[I] 『開催最終週かつ悪天候の影響を受ける馬場が予想される日曜阪神は不適条件』との評＝当日馬場が渋れば割引(※当日馬場は分析時点未確定＝確信度低)",
+        "[I] キャリア7戦と浅く古馬重賞のメンバー強化に対する経験不足の懸念"
+      ],
+      "pros": ["先行脚質で位置は取れる"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://sports.yahoo.co.jp/keiba/directory/horse/2022105836/"]
+    },
+    {
+      "no": 10, "name": "エルトンバローズ", "score": -2, "confidence": "中",
+      "cons": [
+        "[I] 近走が東京新聞杯13着→マイラーズC8着と明確な下降基調(かつての重賞勝ち馬から後退)",
+        "[I] 斤量58kg＝当レース最重量級の負担"
+      ],
+      "pros": ["全頭診断では懸念限定的でポジティブ評との別見解もあり、地力自体は重賞級"],
+      "sources": ["https://www.jbis.or.jp/horse/0001320356/record/", "https://winsight.jp/column/column_page?id=26021"]
+    },
+    {
+      "no": 11, "name": "エコロアルバ", "score": -1, "confidence": "中",
+      "cons": [
+        "[I] 3歳でキャリア4戦と浅く、古馬混合重賞は初対戦＝経験/相手強化のリスク",
+        "[I] 前走NHKマイルC9着＝直近で凡走（ただし斤量53kgは恵量で割引相殺方向）"
+      ],
+      "pros": ["サウジアラビアRC勝ち・朝日杯FS4着とマイル重賞で実績、斤量3歳53kgの恵量はリスクを大きく相殺"],
+      "sources": ["https://news.yahoo.co.jp/articles/84ca530d1a40973e2055ae54843c0a7c542c481e", "https://winsight.jp/column/column_page?id=26021"]
+    },
+    {
+      "no": 12, "name": "カズミクラーシュ", "score": 0, "confidence": "中",
+      "cons": ["[I] 前走京都10R(条件戦)1着からの重賞格上げ＝相手強化リスクはあるが、出遅れ/気性/脚部の重い懸念は確認できず"],
+      "pros": ["2026年は京都マイルで連勝と上昇基調＝下降ではない", "斤量57kg増なし、先行で位置取れる"],
+      "sources": ["https://www.jbis.or.jp/horse/0001335100/record/", "https://s.keibabook.co.jp/db/uma/0920353/top"]
+    },
+    {
+      "no": 13, "name": "メタルスピード", "score": -2, "confidence": "中",
+      "cons": [
+        "[I] 阪神・京都開催で【0-0-0-6】＝関西主要場で好走歴ゼロ＝コース/開催適性の重い不安",
+        "[I] 唯一のテン速・上り最速35.2と前で運ぶタイプ＝楽な単騎逃げにならず締まったマイル戦になると終盤A_finishで失速しやすい脚質リスク"
+      ],
+      "pros": ["ハナを主張できれば展開の主導権は握れる(展開トリガー馬)"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://jra.jp/JRADB/accessU.html?CNAME=pw01dud002020101772/5A"]
+    },
+    {
+      "no": 14, "name": "ミニトランザット", "score": 0, "confidence": "低",
+      "cons": ["[I] 追込/テン遅で展開待ちの面はあるが、全頭診断で『懸念材料は限定的でポジティブ評価が目立つ』とされ重い割引は見当たらず"],
+      "pros": ["懸念限定的・斤量57kg増なし"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021"]
+    },
+    {
+      "no": 15, "name": "ショウナンアデイブ", "score": -2, "confidence": "中",
+      "cons": [
+        "[I] 牡7歳の高齢＝年齢的下降懸念",
+        "[I] 重賞で連続の馬券圏外＝近走の重賞通用度が下降基調",
+        "[I] 差し脚質で展開待ち"
+      ],
+      "pros": [],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://www.keibalab.jp/db/horse/2019105239/"]
+    },
+    {
+      "no": 16, "name": "スリールミニョン", "score": -2, "confidence": "中",
+      "cons": [
+        "[I] 全4勝が1200〜1400mで芝1600m替わりは【0-0-0-4】＝マイル未勝利・距離延長の重い不安",
+        "[I] 調教師談『精神的にも力みがとれてきた』＝裏返せば従来は力む/折り合いに課題があった気性面の含み"
+      ],
+      "pros": ["牝55kgの軽量、前走安土城S3着で先行力はあり、追い切りは坂路単走で鋭い動き"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://umanity.jp/racedata/race_newsdet.php?nid=11872358"]
+    },
+    {
+      "no": 17, "name": "スイープアワーズ", "score": -1, "confidence": "低",
+      "cons": [
+        "[I] 『高速馬場が見込めない馬場想定でパフォーマンス減の可能性』＝当日馬場が渋れば割引(※当日馬場未確定＝確信度低)",
+        "[I] 追込/テン遅で後方からの展開待ち脚質"
+      ],
+      "pros": ["斤量57kg増なし"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021"]
+    },
+    {
+      "no": 18, "name": "タガノエルピーダ", "score": -1, "confidence": "中",
+      "cons": [
+        "[I] 重賞で連続の馬券圏外＝近走の重賞通用度が下降気味",
+        "[I] 差し/テン中で展開待ちの面"
+      ],
+      "pros": ["牝55kgの軽量、3勝の実績はあり大きな脚部/気性の確証はなし"],
+      "sources": ["https://winsight.jp/column/column_page?id=26021", "https://www.keibalab.jp/db/horse/2021106550/"]
+    }
+  ],
+  "field_note": "出遅れ癖・故障/脚部不安の確たる個別情報はどの馬も取得できず(欠損は確信度低で据え置き)。割引が効いたのは主に(a)斤量58kg=4ブエナオンダ/7キープカルム/10エルトンバローズ、(b)近走下降基調=6シンフォーエバー/10エルトンバローズ/3メイショウシンタケ/15ショウナンアデイブ/18タガノエルピーダ、(c)高齢=3(8歳)/8(7歳)/15(7歳)、(d)初環境/コース不適=8サイルーン(7歳初関西)/13メタルスピード(関西0-0-0-6)/6シンフォーエバー(米血関西未知)、(e)距離(マイル)不安=1スマートワイス/16スリールミニョン。当日馬場が渋れば9ファンダム/17スイープアワーズに追加割引(当日確定事項=確信度低)。市場情報は一切不使用。"
+}

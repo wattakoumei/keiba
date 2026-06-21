@@ -1,0 +1,201 @@
+{
+  "race_id": "20260621-hanshin-10",
+  "observation_point": "I",
+  "lens": "リスク/割引要因（出遅れ・気性難・脚部不安・斤量増・不利枠・下降基調・初環境）。減点専用 0..-2",
+  "as_of": "2026-06-21",
+  "method_note": "JRA競走馬DB(成績)・予想記事の事実部分・血統カタログを参照。web取得が薄い馬はseed(脚質/テン/上がり/斤量)で判断し再検索せず。市場語は不使用。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "トウカイポワール",
+      "score": -1,
+      "confidence": "中",
+      "cons": [
+        "[I] 牝5・56.0kgで唯一の逃げ。前に行く脚質ゆえ展開ハマり依存で取りこぼし幅が大きい（先行争い次第で潰れ得る）",
+        "[I] 牝馬混合のOP/L別定戦で牡58勢相手は格上挑戦的、地力の上限が懸念"
+      ],
+      "pros": ["[I] 逃げ脚質で出遅れリスクは構造的に小さい（テン中）"],
+      "sources": ["https://winsight.jp/db/horse_race_result?code=2021102389", "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021102389/2D"]
+    },
+    {
+      "no": 2,
+      "name": "メイショウシナノ",
+      "score": -1,
+      "confidence": "中",
+      "cons": [
+        "[I] 近5走 7着→3着→4着→7着とムラ・連続使いで上昇基調とは言い難い（前走上賀茂S 7着・ダ1900）",
+        "[I] テン遅い追込タイプで展開待ち。前が崩れないと届かず取りこぼしリスク"
+      ],
+      "pros": ["[I] 体が絞れてきたとの陣営評価で状態面の下振れは限定的"],
+      "sources": ["https://umanity.jp/racedata/db/horse_top.php?code=2020106635", "https://jra.jp/JRADB/accessU.html?CNAME=pw01dde1005202603010220260606%2FA7"]
+    },
+    {
+      "no": 3,
+      "name": "アークドール",
+      "score": -1,
+      "confidence": "中",
+      "cons": [
+        "[I] 2勝目が約1年4ヶ月ぶりで使い詰めできない/間隔の空く臨戦。叩き上昇途上で状態の安定に懸念",
+        "[I] テン遅い追込脚質で展開待ち、出脚に時間がかかれば取りこぼし"
+      ],
+      "pros": ["[I] 差し切りでの白星実績あり決め手は確か"],
+      "sources": ["https://inseltc.com/insels-salon/detail/?id=8669", "https://www.keibalab.jp/db/horse/2021110012/"]
+    },
+    {
+      "no": 4,
+      "name": "ティンティンデオ",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[I] 父ドレフォン産駒は5歳から急落傾向の血統リスク（一般傾向）。5歳の今季にピークアウト懸念",
+        "[I] テン遅い差し脚質で展開待ち"
+      ],
+      "pros": [],
+      "sources": ["https://navi-keiba.com/sire/drefong", "https://yuruyuru-biyori.com/2784/"]
+    },
+    {
+      "no": 5,
+      "name": "ヒロノラメール",
+      "score": 0,
+      "confidence": "低",
+      "cons": ["[I] テン遅い追込で展開依存だが、明確な減点材料(故障/出遅れ/下降)は確認できず"],
+      "pros": [],
+      "sources": ["https://umaho.jp/ranks?places=8&courses=1&distances=1800&parent=17220"]
+    },
+    {
+      "no": 6,
+      "name": "ルクスフレンジー",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[I] 父モーリス×母父ステイゴールドで本質は芝血統。ダート適性に未知数あり初条件リスク（推定）",
+        "[I] 上33.6の鋭い末脚＝極端な追込型で、スロー前残り展開だと届かない取りこぼし"
+      ],
+      "pros": [],
+      "sources": ["https://navi-keiba.com/sire/maurice", "https://www.aolplatforms.jp/horse/maurice-blood/"]
+    },
+    {
+      "no": 7,
+      "name": "タマモキャリコ",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[I] 上38.0と末脚が鈍く、先行して粘り込む形が崩れると総合力(坂2回消耗)コースで失速リスク",
+        "[I] 2勝クラス(菅名岳特別)level中心からの相手強化で地力の上限が懸念"
+      ],
+      "pros": ["[I] 先行脚質で出遅れの構造的リスクは小さい"],
+      "sources": ["https://www.jbis.or.jp/horse/0001025279/sire/progeny/", "https://southzone.sakura.ne.jp/nar/search.php?w=f&t=%E3%82%B7%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%BC"]
+    },
+    {
+      "no": 8,
+      "name": "パシアンジャン",
+      "score": -1,
+      "confidence": "中",
+      "cons": [
+        "[I] JRA-DB上は過去14戦が芝中心(1700-1900m)・直近勝利が2024/10と古く、ダート替わり/相手強化での未知数と間隔リスク",
+        "[I] テン中だが差し脚質で展開待ちの面"
+      ],
+      "pros": [],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002021104503/54", "https://www.keibalab.jp/db/jockey/01208/"]
+    },
+    {
+      "no": 9,
+      "name": "アカデミア",
+      "score": -1,
+      "confidence": "中",
+      "cons": [
+        "[I] 昇級2戦目・OP/L初挑戦に近い臨戦で相手強化。実績上限が未知数（叩き上昇途上）",
+        "[I] 阪神ダ1800は初コースの可能性で初条件リスク（推定）"
+      ],
+      "pros": ["[I] 先行脚質・好位差しで出遅れリスクは小さい。昇級初戦の内容は評価可"],
+      "sources": ["https://thoroughbredskills.com/2024/08/23/ryuuseisakai/", "https://poginfo.ddo.jp/pogs/horseData/show/2022105180"]
+    },
+    {
+      "no": 10,
+      "name": "ロフティストーリー",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[I] 牝4・56.0kgで牡58勢相手の別定戦は地力上限が懸念",
+        "[I] テン中だが差し脚質で展開待ち。前が止まらないと取りこぼし"
+      ],
+      "pros": ["[I] マインドユアビスケッツ産駒はダート外枠で好走傾向＝枠(5枠10)はマイナスではない"],
+      "sources": ["https://thoroughbredskills.com/2024/09/07/mind-your-biscuits/", "https://sports.smt.docomo.ne.jp/keiba/data/horse/2022105738/"]
+    },
+    {
+      "no": 11,
+      "name": "ルクスビッグスター",
+      "score": -2,
+      "confidence": "高",
+      "cons": [
+        "[I] 明確な下降基調：直近 札幌11着→中山15着→中山10着と二桁連発(2026/5/17,4/26,4/5)。近走は芝中心で凡走続き",
+        "[I] 上33.6の極端な追込型でスロー前残りだと全く届かない＝展開ハマり待ちの取りこぼしリスク最大",
+        "[I] 6歳・連敗中で状態面の下振れ懸念"
+      ],
+      "pros": [],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102020104297/78", "https://jra.jp/JRADB/accessU.html?CNAME=pw01dud002020104297/91"]
+    },
+    {
+      "no": 12,
+      "name": "キュールエフウジン",
+      "score": -2,
+      "confidence": "中",
+      "cons": [
+        "[I] 7歳の高齢でピークアウト/衰え懸念。世代最年長で地力の維持に不安",
+        "[I] テン遅い追込脚質で展開待ち、坂2回消耗コースで高齢馬は最後甘くなりやすい取りこぼしリスク"
+      ],
+      "pros": ["[I] 父ホッコータルマエでダート適性自体はある"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002020104297/91", "https://www.keibalab.jp/db/breed/11202410/"]
+    },
+    {
+      "no": 13,
+      "name": "ペイシャモノノフ",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[I] 6歳・先行脚質(テン中)だが上37.0と末脚が鈍く、先行争いに巻き込まれると坂2回消耗で失速リスク",
+        "[I] 父ニシケンモノノフ系で相手強化時の地力上限に懸念（推定）"
+      ],
+      "pros": ["[I] 先行脚質で出遅れの構造的リスクは小さい"],
+      "sources": ["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0108202603111020260530%2F50"]
+    },
+    {
+      "no": 14,
+      "name": "レヴァンテシチー",
+      "score": -1,
+      "confidence": "中",
+      "cons": [
+        "[I] 放牧明け表示で休み明けの臨戦リスク（DB上『放牧』）。間隔が空いた仕上がり途上の懸念",
+        "[I] テン遅い追込脚質で展開待ち、初の相手強化(OP/L)で地力未知数"
+      ],
+      "pros": ["[I] 父ルヴァンスレーヴでダート1800適性は血統的に裏付け・複勝率は安定傾向"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022104267%2F60", "https://nobinobi-kaisyu.com/le-vent-se-leve-0/"]
+    },
+    {
+      "no": 15,
+      "name": "ロカヒ",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[I] 4歳でOP/L級は相手強化、地力上限が未知数（近走は1700-2100mの下級条件中心）",
+        "[I] テン遅い差し・大外8枠で枠的に外を回されるロスの懸念（テン遅く位置取り苦しい）"
+      ],
+      "pros": ["[I] 父キズナは阪神ダ1800と好相性で適性自体はプラス"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002022106644%2FA2", "https://keiba-course.com/course/hanshin-dirt-1800/"]
+    },
+    {
+      "no": 16,
+      "name": "ウィンターダフネ",
+      "score": -2,
+      "confidence": "中",
+      "cons": [
+        "[I] 2勝クラス(直近54kg)からの臨戦で、別定56.0は斤量増＋一気の相手強化＝格上挑戦の取りこぼしリスク大",
+        "[I] テン遅い追込脚質で展開待ち。28戦3勝と勝ち切れず複勝圏止まりが多い決め手不足",
+        "[I] 牝6・大外8枠16でテン遅く、外を回されるロス＋位置取り苦戦の懸念"
+      ],
+      "pros": [],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002020103246/DF", "https://umanity.jp/racedata/db/horse_top.php?code=2020103246"]
+    }
+  ],
+  "field_note": "減点専用観点。最重リスク(-2)は No.11ルクスビッグスター(明確な下降+極端追込)・No.12キュールエフウジン(7歳衰え)・No.16ウィンターダフネ(斤量増+一気の相手強化+大外)。先行勢(1,7,9,13)は出遅れ構造リスクが小さく相対的に軽い。追込/差し多数のため『スロー前残りで届かない』取りこぼしが多数馬に共通リスクとして乗る。"
+}

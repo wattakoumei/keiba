@@ -1,0 +1,59 @@
+{
+  "source": "keibabook_bestcyokyo",
+  "n": 3,
+  "note": "週のベスト調教ランキング＝好時計馬の抜粋。全出走馬ではない（不在馬はFがweb補完）",
+  "horses": [
+    {
+      "name": "オーレアミスト",
+      "cond": "古馬１勝クラス",
+      "race": "6/20 阪神 7R",
+      "train_date": "6/17",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        78.0,
+        63.6,
+        50.6,
+        37.5,
+        12.7
+      ],
+      "load": "一杯",
+      "last_1f": 12.7
+    },
+    {
+      "name": "エンジョイドライブ",
+      "cond": "障害未勝利",
+      "race": null,
+      "train_date": "6/18",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        80.3,
+        64.8,
+        50.3,
+        36.4,
+        11.8
+      ],
+      "load": "一杯",
+      "last_1f": 11.8
+    },
+    {
+      "name": "タカモリ",
+      "cond": "２歳新馬",
+      "race": null,
+      "train_date": "6/18",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        79.3,
+        64.9,
+        51.1,
+        37.0,
+        12.0
+      ],
+      "load": "一杯",
+      "last_1f": 12.0
+    }
+  ],
+  "url": "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+}

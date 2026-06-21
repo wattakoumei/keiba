@@ -1,0 +1,163 @@
+{
+  "observation_point": "F",
+  "race_id": "20260621-hanshin-10",
+  "as_of": "2026-06-21",
+  "lens": "最終追い切りの時計/動き/併せ・調教場所・本数・厩舎勝負気配（cond＝今走でbaseを出せる状態か。base=地力は測らない）",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri.py seed空。競馬ブックベスト調教にも姫路S出走馬は不在（=載らない=必ずしも調教不良ではない）。netkeiba調教欄で上位3頭の実測のみ無料取得、残りは媒体評価(鉄矢)とweb検索の断片で補完。",
+  "stable_intent_note": "本レース厩舎は全頭catalog未登録。generic基準で読み確信度を下げた。明確に型ラベル化できる差分(普段緩め厩舎の強い時計等)は今回観測できず、追記候補は最小限。",
+  "horses": [
+    {
+      "no": 1, "name": "トウカイポワール",
+      "score": -0.5, "confidence": "中",
+      "facts": {
+        "course": "栗東坂路", "time": "52.0-37.5-24.9-12.3(ラスト1F12.3)",
+        "gait": "良化薄い", "awase": "外エブリデイ一杯と併せ0.1先着",
+        "media_eval": "netkeiba C評価『併走先着こそ果たしたが時計動きは前走から大きく変わらず。良化スロー』"
+      },
+      "pros": ["[F]坂路ラスト1F12.3は失速域でなく余力あり=逃げ脚に必要な状態は保つ"],
+      "cons": ["[F]併せ相手に一杯で乗られての0.1先着=楽な内容でない。良化薄く前走比上昇サイン乏しい(cond平行〜やや下)"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202609030610"]
+    },
+    {
+      "no": 2, "name": "メイショウシナノ",
+      "score": 0.5, "confidence": "中",
+      "facts": {
+        "course": "栗東CW", "time": "83.3-68.1-53.3-37.7-11.7(ラスト1F11.7)",
+        "gait": "強め・単走", "awase": "単走",
+        "media_eval": "netkeiba C評価『ゴール前で気合をつけられたがギアが変わらず平凡な伸び』／鉄矢A評価で上積み感"
+      },
+      "pros": ["[F]CWラスト1F11.7は終い速い数字=持続力面の状態は良好", "[F]鉄矢A評価で『上積みを感じる内容』=媒体は上向きと判断"],
+      "cons": ["[F]netkeibaは強めに追ってギア変わらず平凡と低評価=媒体間で評価割れ。テン遅の追込脚質で坂2回消耗ダ1800の状態適合は限定的"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202609030610", "https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 3, "name": "アークドール",
+      "score": -0.5, "confidence": "中",
+      "facts": {
+        "course": "栗東坂路", "time": "55.0-39.8-26.0-13.2(ラスト1F13.2)",
+        "gait": "一杯・単走", "awase": "単走",
+        "media_eval": "netkeiba C評価『相変わらず攻めでは重たい走りだがハードにやれており状態は安定』"
+      },
+      "pros": ["[F]ハードに追えて状態は安定=仕上げ自体は進む。攻め駆けしないタイプで実戦は変わり得る"],
+      "cons": ["[F]坂路一杯でラスト1F13.2は失速域=終い詰まる。攻めの重さで上昇サインに乏しく cond上向きとは読めない"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202609030610"]
+    },
+    {
+      "no": 4, "name": "ティンティンデオ",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報なし(媒体評価リスト・好時計ランキングいずれも不在)"},
+      "pros": [],
+      "cons": ["[F]調教の具体時計・動き取得不能=cond判断材料なし(0でなく確信度低で保留)"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 5, "name": "ヒロノラメール",
+      "score": 0.75, "confidence": "中",
+      "facts": {"media_eval": "鉄矢A評価『上積みを感じる内容』"},
+      "pros": ["[F]鉄矢A評価で上積み=媒体は cond上向きと判断（S評価2頭に次ぐ群）"],
+      "cons": ["[F]具体の時計・コース・併せが取得できず評価はA評価ラベル依存=確信度は中止まり"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 6, "name": "ルクスフレンジー",
+      "score": 1.5, "confidence": "中",
+      "facts": {
+        "course": "栗東(コース詳細未取得)",
+        "media_eval": "鉄矢S評価『自己ベストを更新した後も力強い動きを維持し勢いは衰えていない』"
+      },
+      "pros": ["[F]媒体最上位S評価。自己ベスト更新=縦比較で上昇サイン(自分比べで本観点が最重視する根拠)", "[F]更新後も力強い動き維持=ピーク持続。cond明確に上向き"],
+      "cons": ["[F]具体の最終追い時計・ラスト1F・併せ結果が数値で取得できず、S評価ラベル依存で確信度は中。好時計の調教駆けフィルタは数値未確認のため留保"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/", "https://www.keiba-jiku2.net/win5-20260621-yosou/"]
+    },
+    {
+      "no": 7, "name": "タマモキャリコ",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報・媒体評価なし"},
+      "pros": [],
+      "cons": ["[F]調教情報取得不能=cond判断材料なし(確信度低で保留)"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 8, "name": "パシアンジャン",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報・媒体評価なし"},
+      "pros": [],
+      "cons": ["[F]調教情報取得不能=cond判断材料なし(確信度低で保留)"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 9, "name": "アカデミア",
+      "score": 1.0, "confidence": "中",
+      "facts": {"media_eval": "鉄矢A評価『叩き2戦目で素軽さが増し』・記事の中心視馬"},
+      "pros": ["[F]叩き2戦目で素軽さ増=叩き上昇のパターンで cond上向き(差分=休み明けからの上積み)", "[F]媒体はA評価かつ中心視=好位先行脚質と状態がダ1800に適合との読み"],
+      "cons": ["[F]具体の最終追い時計・ラスト1Fが数値で取得できず確信度は中。素軽さは定性評価で実測裏付けは弱い"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/", "https://www.keiba-jiku2.net/win5-20260621-yosou/"]
+    },
+    {
+      "no": 10, "name": "ロフティストーリー",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報・媒体評価なし"},
+      "pros": [],
+      "cons": ["[F]調教情報取得不能=cond判断材料なし(確信度低で保留)"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 11, "name": "ルクスビッグスター",
+      "score": 0.25, "confidence": "低",
+      "facts": {
+        "course": "栗東坂路",
+        "media_eval": "競馬予想のホネ 追い切り注目馬★★★(3つ星)。ただし短評記載なし"
+      },
+      "pros": ["[F]『追い切り注目馬』として星評価で取り上げられ=媒体は動きを一定評価"],
+      "cons": ["[F]具体時計・ラスト1F・併せ結果なし。★3の基準が記事固有で水準帯不明=確信度低"],
+      "sources": ["https://www.yosounohone.com/entry/hanshin-2026-6-21"]
+    },
+    {
+      "no": 12, "name": "キュールエフウジン",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報・媒体評価なし"},
+      "pros": [],
+      "cons": ["[F]調教情報取得不能=cond判断材料なし(確信度低で保留)"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 13, "name": "ペイシャモノノフ",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報なし。展開上ハナ主張の一角と目される"},
+      "pros": [],
+      "cons": ["[F]調教の具体時計・動き取得不能=cond判断材料なし(確信度低で保留)。逃げ争いの当事者だが状態の裏付けは欠く"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 14, "name": "レヴァンテシチー",
+      "score": 0.75, "confidence": "中",
+      "facts": {"media_eval": "鉄矢A評価『上積みを感じる内容』"},
+      "pros": ["[F]鉄矢A評価で上積み=媒体は cond上向きと判断（S評価群に次ぐ）"],
+      "cons": ["[F]具体の時計・コース・併せ未取得=A評価ラベル依存で確信度は中"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    },
+    {
+      "no": 15, "name": "ロカヒ",
+      "score": 1.5, "confidence": "中",
+      "facts": {
+        "course": "栗東(コース詳細未取得)",
+        "media_eval": "鉄矢S評価『3週連続で終い11秒台を記録しパワフルな伸びが際立った』"
+      },
+      "pros": ["[F]媒体最上位S評価。終い11秒台を3週連続=反復した好終い(本観点が最重視するラスト1F余力)。一過性でなく安定した好状態", "[F]パワフルな伸び=坂2回消耗のダ1800で求められる持続力に状態が合致"],
+      "cons": ["[F]終い11秒台の全体時計・併せ相手・コース水準帯が数値で未確認=調教駆けフィルタは留保。S評価ラベル依存で確信度は中"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/", "https://www.keiba-jiku2.net/win5-20260621-yosou/"]
+    },
+    {
+      "no": 16, "name": "ウィンターダフネ",
+      "score": 0.0, "confidence": "低",
+      "facts": {"media_eval": "web上に最終追いの具体情報・媒体評価なし"},
+      "pros": [],
+      "cons": ["[F]調教情報取得不能=cond判断材料なし(確信度低で保留)"],
+      "sources": ["https://www.keiba-jiku2.net/himeji-stakes-2026-yosou/"]
+    }
+  ],
+  "stable_intent_append_candidates": [],
+  "overall_confidence": "中〜低",
+  "field_note": "seed空・競馬ブックベスト調教不在・netkeiba無料枠は上位3頭のみ・有料媒体は数値伏せのため、本レースは実測の縦比較がほぼ取れず媒体評価ラベル(鉄矢S/A)依存。S評価=⑥ルクスフレンジー(自己ベスト更新)/⑮ロカヒ(終い11秒台3週連続)が頭一つ抜け、A評価=⑨アカデミア(叩き2戦目素軽さ)/⑤ヒロノラメール/⑭レヴァンテシチー/②メイショウシナノ(上積み)が次群。netkeiba実測のある①③は良化薄〜重く C評価で本観点はマイナス。残り8頭(④⑦⑧⑩⑪⑫⑬⑯)は情報取得不能で0+確信度低保留=単独で着順を動かさない。"
+}
