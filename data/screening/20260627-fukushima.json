@@ -117,6 +117,156 @@
       },
       "quadrant": "博打",
       "score": -1
+    },
+    {
+      "r": 1,
+      "surface": "障",
+      "distance": 2750,
+      "headcount": 14,
+      "class": "未勝利",
+      "race_type": "—",
+      "race_name": "障害3歳上未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "障害"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 2,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "class": "未勝利",
+      "race_type": "—",
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 4,
+      "surface": "障",
+      "distance": 2750,
+      "headcount": 10,
+      "class": "—",
+      "race_type": "—",
+      "race_name": "障害3歳上オープン",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "障害"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 5,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 11,
+      "class": "新馬",
+      "race_type": "—",
+      "race_name": "サラ系2歳新馬",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 6,
+      "surface": "ダ",
+      "distance": 1150,
+      "headcount": 10,
+      "class": "新馬",
+      "race_type": "—",
+      "race_name": "サラ系2歳新馬",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "福島開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 7,
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 16,
+      "class": "未勝利",
+      "race_type": "—",
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 8,
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 16,
+      "class": "未勝利",
+      "race_type": "—",
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
+    },
+    {
+      "r": 10,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 11,
+      "class": "特別/OP",
+      "race_type": "—",
+      "race_name": "いわき特別",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": null,
+      "quadrant": "見送り",
+      "score": -3
     }
   ]
 }
