@@ -1,0 +1,67 @@
+{
+  "date": "20260628",
+  "venue": "hakodate",
+  "place": "02",
+  "as_of": "2026-06-26T(事前)",
+  "odds_available": false,
+  "races": [
+    {
+      "r": 11,
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 15,
+      "class": "GⅢ",
+      "race_type": "ハンデ",
+      "race_name": "函館記念",
+      "cond_rage": "強",
+      "cond_flags": [
+        "ローカルG3ハンデ重賞",
+        "函館開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "デビットバローズ",
+          "アラタ",
+          "マジックサンズ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先4/差3/追7",
+        "concern": "58kgトップハンデ4頭が横並びで近走に抜け頭なし、軽ハンデ上がり馬まで力接近＝荒れ素地最強。本命1点は不向き"
+      },
+      "quadrant": "博打",
+      "score": -1
+    },
+    {
+      "r": 9,
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 10,
+      "class": "2勝クラス特別",
+      "race_type": "定量/別定",
+      "race_name": "臥牛山特別",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "中距離特別"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ハルフロンティア",
+          "ドッグウッド",
+          "ゴーゴータカシ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃2/先2/差4/追2",
+        "concern": "ハルフロンティア軸も勝ち切り材料欠き、八雲特別組ドッグウッド/ナムラと2-4着級が拮抗で本命割れ"
+      },
+      "quadrant": "妙味なし",
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "date": "20260628",
+  "venue": "kokura",
+  "place": "10",
+  "as_of": "2026-06-26T(事前)",
+  "odds_available": false,
+  "races": [
+    {
+      "r": 10,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 16,
+      "class": "西部日刊スポーツ杯",
+      "race_type": "ハンデ",
+      "race_name": "西部日刊スポーツ杯",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数",
+        "ハンデ"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "レーティッシュ",
+          "マハートマーベル",
+          "コスモストーム"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先2/差9/追4",
+        "concern": "ハンデで斤量5kg散らばり＋2勝クラス上位が団子。川田レーティッシュ地力上位もトップハンデ57の差し馬＝展開待ちで本命定まらず"
+      },
+      "quadrant": "博打",
+      "score": -1
+    },
+    {
+      "r": 9,
+      "surface": "芝",
+      "distance": 2600,
+      "headcount": 8,
+      "class": "2勝クラス特別",
+      "race_type": "定量/別定",
+      "race_name": "帆柱山特別",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "長距離特別"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ナリタエスペランサ",
+          "サラトガチップス"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先1/差2/追4",
+        "concern": "ナリタ地力1枚上だが古馬特別へ昇級初戦で格未証明。スロー差し決着なら上がり最速勢(サトノ/ニュークレド)台頭で本命割れ"
+      },
+      "quadrant": "妙味なし",
+      "score": 0
+    },
+    {
+      "r": 11,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 8,
+      "class": "紫川S(OP)",
+      "race_type": "定量/別定",
+      "race_name": "紫川ステークス",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "OP特別",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "スカイハイ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃2/先0/差5/追1",
+        "concern": "スカイハイ決め手最速32.8で質は頭一つだが57別定最重量＋差し脚質＝展開待ち。テン速2頭の前残りなら差し勢ごと届かず"
+      },
+      "quadrant": "妙味なし",
+      "score": 0
+    }
+  ]
+}
