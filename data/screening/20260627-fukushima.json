@@ -1,0 +1,95 @@
+{
+  "date": "20260627",
+  "venue": "fukushima",
+  "place": "03",
+  "as_of": "2026-06-26T(事前)",
+  "odds_available": false,
+  "races": [
+    {
+      "r": 12,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "class": "3歳上1勝クラス",
+      "race_type": "定量/別定",
+      "race_name": "3歳上1勝クラス",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ファインサマーデイ",
+          "ビッグフラワー"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先4/差7/追2",
+        "concern": "差し7・追2の決め手型が多く拮抗。逃げ1頭で展開ひとつで上位入替"
+      },
+      "quadrant": "博打",
+      "score": -1
+    },
+    {
+      "r": 9,
+      "surface": "ダ",
+      "distance": 1150,
+      "headcount": 16,
+      "class": "特別(条件)",
+      "race_type": "定量/別定",
+      "race_name": "さくらんぼ特別",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数",
+        "ダ短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ケブランリ",
+          "タケルハーロック"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先4/差7/追4",
+        "concern": "抜けた主軸不在・2勝クラス組が横並び、軽量先行馬は当該クラス未経験の格上挑戦"
+      },
+      "quadrant": "博打",
+      "score": -1
+    },
+    {
+      "r": 3,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "class": "3歳上1勝クラス",
+      "race_type": "定量/別定",
+      "race_name": "3歳上1勝クラス",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "コパノエイダン",
+          "プロスペクトパーク"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先4/差3/追6",
+        "concern": "未勝利勝ち上がり組と古馬居残り組が混在で主軸割れ。追込6頭で渋滞しやすい"
+      },
+      "quadrant": "博打",
+      "score": -1
+    }
+  ]
+}

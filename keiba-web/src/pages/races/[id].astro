@@ -7,6 +7,9 @@ export function getStaticPaths() {
   return loadRaces().map((race) => ({ params: { id: race.race_id }, props: { race } }));
 }
 const { race } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const ymd = (race.race_id || '').split('-')[0];
+const showCrumb = /^\d{8}$/.test(ymd);
 const c = race.course ?? {};
 const db = race.day_board ?? {};
 const pace = race.pace ?? {};
@@ -14,6 +17,7 @@ const hasDayBoard =
   db.reference_races?.length || db.going?.length || db.paddock_watch?.length || db.other_unknowns?.length;
 ---
 <Base title={`${race.race_name} 分析`}>
+  {showCrumb && <p class="sub crumb"><a href={`${base}dates/${ymd}/`}>← {race.date} の一覧へ</a></p>}
   <h1>🏇 {race.edition ?? ''} {race.race_name}{race.grade ? `（${race.grade}）` : ''}</h1>
   <p class="sub">
     {race.date} · {c.track}{c.surface}{c.distance}m{c.direction ? `（${c.direction}回り）` : ''} · {race.conditions} · {race.field_size}頭

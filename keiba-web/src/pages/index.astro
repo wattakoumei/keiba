@@ -1,25 +1,47 @@
 ---
 import Base from '../layouts/Base.astro';
-import { loadRaces } from '../lib/races.js';
-const races = loadRaces();
+import { loadDates, fmtDate } from '../lib/races.js';
+const dates = loadDates();
 const base = import.meta.env.BASE_URL;
+
+const SHOBU = new Set(['本命勝負', '鉄板コツコツ']);
+const PLACE = { '01': '札幌', '02': '函館', '03': '福島', '04': '新潟', '05': '東京',
+  '06': '中山', '07': '中京', '08': '京都', '09': '阪神', '10': '小倉' };
+function dateSummary(d) {
+  const venues = [...new Set([
+    ...d.screenings.map((s) => PLACE[s.place] || s.venue),
+    ...d.reports.map((r) => r.course?.track),
+  ].filter(Boolean))];
+  const shobu = d.screenings.reduce(
+    (a, s) => a + (s.races?.filter((x) => SHOBU.has(x.quadrant)).length || 0), 0);
+  return { venues, shobu, nRace: d.reports.length, hasScreen: d.screenings.length > 0 };
+}
 ---
 <Base title="競馬予想レポート">
   <h1>競馬予想レポート</h1>
-  <p class="sub">展開予想・着順予想（百分率は出さない／市場は使わない）。{races.length} レース。</p>
-  {races.length === 0 ? (
-    <p class="panel">report.json がまだありません（新レースを analyze-race で出力すると並びます）。</p>
+  <p class="sub">日付 → その日の勝負レース（根拠付き）→ 予想。市場は選別レイヤーだけで使い（団子度）、予想本体は内在情報のみ・% は出さない。</p>
+  {dates.length === 0 ? (
+    <p class="panel">まだデータがありません（analyze-race で予想、screen-card で勝負レース選別を出すと並びます）。</p>
   ) : (
-    <ul class="race-list">
-      {races.map((r) => (
-        <li>
-          <a href={`${base}races/${r.race_id}/`}>
-            <span class="date">{r.date}</span>
-            <span class="name">{r.edition ?? ''} {r.race_name}{r.grade ? `（${r.grade}）` : ''}</span>
-            <span class="meta">{r.course?.track}{r.race_no != null ? `${r.race_no}R` : ''} {r.course?.surface}{r.course?.distance}m · {r.field_size}頭</span>
-          </a>
-        </li>
-      ))}
+    <ul class="date-list">
+      {dates.map((d) => {
+        const s = dateSummary(d);
+        return (
+          <li>
+            <a href={`${base}dates/${d.ymd}/`}>
+              <span class="date">{fmtDate(d.ymd)}</span>
+              <span class="name">{s.venues.join('・') || '—'}</span>
+              <span class="meta">
+                {s.hasScreen && (s.shobu > 0
+                  ? <span class="qbadge q-honmei">勝負候補 {s.shobu}</span>
+                  : <span class="cnt muted">選別済・勝負候補なし</span>)}
+                {s.nRace > 0 && <span class="cnt">予想 {s.nRace}R</span>}
+                {!s.hasScreen && s.nRace > 0 && <span class="cnt muted">選別未実行</span>}
+              </span>
+            </a>
+          </li>
+        );
+      })}
     </ul>
   )}
 </Base>

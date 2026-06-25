@@ -11,6 +11,7 @@ on:
     paths:
       - 'keiba-web/**'
       - 'data/races/**/report.json'
+      - 'data/screening/*.json'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 

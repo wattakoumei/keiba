@@ -1,0 +1,38 @@
+{
+  "date": "20260627",
+  "venue": "hakodate",
+  "place": "02",
+  "as_of": "2026-06-26T(事前)",
+  "odds_available": false,
+  "races": [
+    {
+      "r": 11,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 14,
+      "class": "青函S(OP)",
+      "race_type": "定量/別定",
+      "race_name": "青函ステークス",
+      "cond_rage": "中",
+      "cond_flags": [
+        "函館開催",
+        "芝短距離",
+        "OP特別"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ティニア",
+          "ルージュラナキラ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃0/先3/差6/追5",
+        "concern": "逃げ不在で隊列読めず、近走OP特別で7-12着が横並び＝突出馬なし、展開引き当て勝負"
+      },
+      "quadrant": "博打",
+      "score": -1
+    }
+  ]
+}

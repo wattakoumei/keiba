@@ -194,8 +194,61 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .bridge { border-left: 2px solid var(--accent); color: var(--text); font-size: 0.9rem; }
 .disclaimer { margin-top: 22px; font-size: 0.76rem; }
 
+/* ---- ① 日付一覧 ---- */
+.date-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.date-list a {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
+  padding: 12px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; color: var(--text);
+}
+.date-list .date { color: var(--muted); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+.date-list .name { font-weight: 600; }
+.date-list .meta { display: inline-flex; gap: 8px; align-items: center; font-size: 0.8rem; color: var(--muted); }
+.date-list .cnt { white-space: nowrap; }
+.muted { color: var(--muted); }
+.crumb { margin: 0 0 6px; }
+
+/* ---- ② 選別カード ---- */
+.card { margin: 18px 0; }
+.pre-badge { margin-left: 8px; font-size: 0.72rem; font-weight: 700; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; vertical-align: middle; }
+
+/* 象限バッジ */
+.qbadge { display: inline-block; font-size: 0.76rem; font-weight: 700; border-radius: 999px;
+  padding: 2px 9px; border: 1px solid var(--line); white-space: nowrap; }
+.q-honmei { color: #b3261e; background: color-mix(in srgb, #d62828 12%, white); border-color: color-mix(in srgb, #d62828 40%, transparent); }
+.q-tetsu  { color: #1d5fbf; background: color-mix(in srgb, #2563eb 10%, white); border-color: color-mix(in srgb, #2563eb 38%, transparent); }
+.q-skip   { color: var(--muted); background: var(--panel-2); }
+
+/* 選別テーブル */
+.screen-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.screen-table th { color: var(--muted); font-size: 0.76rem; font-weight: 600; text-align: left; padding: 5px 7px; border-bottom: 1px solid var(--line); }
+.screen-table td { padding: 9px 7px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.screen-table .srow.shobu.q-honmei { box-shadow: inset 4px 0 0 #d62828; }
+.screen-table .srow.shobu.q-tetsu  { box-shadow: inset 4px 0 0 #2563eb; }
+.screen-table .srow.q-skip { opacity: 0.62; }
+.rcell .go { display: block; font-size: 0.72rem; color: var(--accent); }
+.rcell .nopred { display: block; font-size: 0.72rem; }
+.rname { font-weight: 600; }
+.rcourse { font-size: 0.78rem; }
+.cond-tags { margin-left: 6px; color: var(--text); }
+.rage { display: inline-block; font-size: 0.74rem; font-weight: 700; border-radius: 5px; padding: 1px 6px; margin-bottom: 4px; }
+.rage-hi { color: #b3261e; background: color-mix(in srgb, #d62828 12%, white); }
+.rage-mid { color: var(--mark-chui); background: color-mix(in srgb, var(--mark-chui) 12%, white); }
+.rage-lo { color: var(--muted); background: var(--panel-2); }
+.fchips { display: inline-flex; flex-wrap: wrap; gap: 4px; margin-left: 2px; }
+.fchip { font-size: 0.72rem; background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; color: var(--text); }
+.dango { font-size: 0.8rem; margin-top: 5px; }
+.signals { margin: 3px 0 0; padding-left: 1em; list-style: disc; }
+.signals li { font-size: 0.72rem; color: var(--muted); margin: 1px 0; }
+.xcell .anchor { font-size: 0.85rem; }
+.xcell .legs-line { font-size: 0.74rem; margin-top: 2px; }
+.xcell .concern { font-size: 0.76rem; color: var(--text); margin-top: 3px; max-width: 22em; }
+.xcell .diverge { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+
 @media (max-width: 560px) {
   .row-detail { grid-template-columns: 1fr; }
   .sens { display: none; } /* 狭幅では展開感度は行展開で読む */
   body { font-size: 14px; }
+  .date-list a { grid-template-columns: auto 1fr; }
+  .date-list .meta { grid-column: 1 / -1; }
 }

@@ -1,0 +1,66 @@
+{
+  "date": "20260627",
+  "venue": "kokura",
+  "place": "10",
+  "as_of": "2026-06-26T(事前)",
+  "odds_available": false,
+  "races": [
+    {
+      "r": 11,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "class": "薩摩S(OP)",
+      "race_type": "定量/別定",
+      "race_name": "薩摩ステークス",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数",
+        "OP特別"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ハリーケーン",
+          "ゴッドブルービー",
+          "シンビリーブ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃2/先5/差5/追3",
+        "concern": "OP特別の小差集団で堅実勢3-4頭横並び、抜けた主軸不在。逃げ2頭でペース不安定の芽"
+      },
+      "quadrant": "博打",
+      "score": -1
+    },
+    {
+      "r": 10,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 13,
+      "class": "特別(条件)",
+      "race_type": "定量/別定",
+      "race_name": "宗像特別",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "サディーク"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃4/先1/差5/追3",
+        "concern": "サディーク1頭は比較的クリアだが2列目が複数横並びで2-3着割れ。逃げ4頭でテン速く隊列当日次第"
+      },
+      "quadrant": "博打",
+      "score": -1
+    }
+  ]
+}

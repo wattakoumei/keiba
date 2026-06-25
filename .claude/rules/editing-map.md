@@ -25,6 +25,11 @@
 | `tools/score_race.py` | 任意サニティチェックの決定論実装（並びの整合のみ。%の正本ではない）。 |
 | `tools/validate_report.py` | report.json の**スキーマ＋I2(%禁止)＋I5(複数パターン必須)＋全頭カバー(rank=field_size)**ゲート（STEP5必須・依存ゼロ）。 |
 | `tools/validate_research_bundle.py` | **`used_observations`↔実 `research-<観点>.json` の対応ゲート**（観点欠落の無検知を塞ぐ＝P6対策・STEP5必須）。schema検証とは別tool＝過去レースの `--all` schema検証を壊さない。 |
+| **── 選別レイヤー（`/screen-card`・予想とは別レイヤー・I1-S 市場隔離）──** | |
+| `.claude/skills/screen-card/SKILL.md` | `/screen-card` の**手順**（STEP1 カード取得→2 条件荒れ度→3 団子度(オッズ)→4 shortlist→5 軽量X→6 マトリクス配置）。日付＋開催場から勝負レースを絞る。 |
+| `.claude/skills/screen-card/references/screening-model.md` | **選別モデルと出力契約の正本**（X×Yマトリクス・Y算出=条件荒れ度+団子度・軽量X・妙味判定・出力体裁・`data/screening/`スキーマ・二段運用）。 |
+| `.claude/skills/screen-card/references/upset-conditions.md` | **荒れ条件カタログ**（Y軸の**条件側**正本：ハンデ/福島/多頭数/芝道悪…の事前荒れフラグ＋堅い条件）。半静的＝年1更新。**🚧 選別専用＝予想本体(`/analyze-race`)には使わない**。 |
+| `tools/fetch_odds.py` | **P1 隔離オッズ→団子度**（Y軸の当日側）。単勝→①1-2人気差②1人気オッズ③30倍以下頭数④平均→団子度ティア（純ロジック＝`--self-check`）。JRA=発売中のみ／`paste`が確実経路。**団子度の数値閾値の正本**。出力は `data/screening/` のみ。 |
 
 ## 「〜を変えたい」→ どこを直す
 
@@ -39,7 +44,13 @@
 | スコアリングの**語彙・エンジン（6ノブ）** | `scoring-model.md` |
 | **採点基準・A/B/C 仕分け・修正ルーティング** | `review-prediction/SKILL.md` |
 | **スクレイピング**（取得元・コード） | `scraping.md` |
+| **速度・締切（速報モード／壁時計を切り詰める）** | `analyze-race/SKILL.md`（STEP1 締切確認・STEP2 速報5観点・CREED の `DEADLINE_CAP`・runOne の `model`）。観点を減らす/web を1バッチに絞る/研究agentを軽量モデルにが主レバー。馬券は発走で締切＝速度は精度の前提 |
 | 予測ログの**フィールド**（pace/rank レコード） | `output-template.md` 末尾（＋読む側の review-prediction/SKILL.md） |
+| **勝負レース選別の手順**（カード横断・どのレースを絞るか） | `screen-card/SKILL.md` |
+| **選別モデル**（X×Yマトリクス・妙味判定・出力体裁） | `screen-card/references/screening-model.md` |
+| **荒れ条件**（どんな番組が荒れるか＝Y条件側） | `screen-card/references/upset-conditions.md` |
+| **団子度の閾値**（オッズの割れ判定＝Y盤側） | `tools/fetch_odds.py`（FAV_SPLIT 等・ワンソース） |
+| **市場の隔離方針**（選別が市場をどこまで使うか） | `harness-invariants.md` I1-S（正本） |
 
 ## 不変則を変えるときの手順（ドリフト防止）
 

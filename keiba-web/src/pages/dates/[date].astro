@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadDates, reportId } from '../../lib/races.js';
+
+export function getStaticPaths() {
+  return loadDates().map((entry) => ({ params: { date: entry.ymd }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const reportIds = new Set(entry.reports.map((r) => r.race_id)); // ③へリンク可能なレース
+
+const PLACE = { '01': '札幌', '02': '函館', '03': '福島', '04': '新潟', '05': '東京',
+  '06': '中山', '07': '中京', '08': '京都', '09': '阪神', '10': '小倉' };
+
+function quadMeta(q) {
+  if (q === '本命勝負') return { emoji: '🟥', cls: 'q-honmei', shobu: true };
+  if (q === '鉄板コツコツ') return { emoji: '🟦', cls: 'q-tetsu', shobu: true };
+  return { emoji: '⬜', cls: 'q-skip', shobu: false }; // 博打・妙味なし・見送り
+}
+const rageCls = { '強': 'rage-hi', '中': 'rage-mid', '弱': 'rage-lo' };
+const dangoCls = { '割れ': 'tier-honmei', '中': 'tier-taikou', '収束': 'tier-fukusen' };
+
+// 選別でカバーされた report id（残りの予想を別掲するため）
+const covered = new Set();
+for (const s of entry.screenings)
+  for (const r of (s.races || [])) covered.add(reportId(entry.ymd, s.venue, r.r));
+const leftover = entry.reports.filter((r) => !covered.has(r.race_id));
+
+function sortedRaces(card) {
+  return [...(card.races || [])].sort(
+    (a, b) => (b.score ?? -99) - (a.score ?? -99) || (a.r ?? 99) - (b.r ?? 99));
+}
+function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
+---
+<Base title={`${entry.iso} のレース`}>
+  <h1>{entry.iso} のレース</h1>
+
+  {entry.screenings.length === 0 ? (
+    <p class="sub">選別（screen-card）は未実行。予想済みレースのみ表示。<br />
+      <span class="muted">screen-card を回すと「勝負レース＋根拠」がここに並びます。</span></p>
+  ) : (
+    <p class="sub">勝負レース選別（screen-card）。X=硬さ × Y=荒れ度 のマトリクスで仕分け。市場（団子度）は選別のみ・買い目は出さない。</p>
+  )}
+
+  {entry.screenings.map((card) => {
+    const races = sortedRaces(card);
+    const nH = races.filter((x) => x.quadrant === '本命勝負').length;
+    const nT = races.filter((x) => x.quadrant === '鉄板コツコツ').length;
+    return (
+      <section class="card">
+        <h2>{venueName(card)}{!card.odds_available && <span class="pre-badge">事前</span>}</h2>
+        <p class="sub">🟥 本命勝負 {nH} ・ 🟦 鉄板コツコツ {nT} ・ 見送り {races.length - nH - nT}
+          {!card.odds_available && <span class="muted">（オッズ未公開＝団子度・ズレは当日確定）</span>}</p>
+        <div class="scroll-x">
+          <table class="screen-table">
+            <thead><tr>
+              <th>R</th><th>レース / コース</th><th>象限</th>
+              <th>荒れ度 Y（根拠）</th><th>うちの読み X（根拠）</th>
+            </tr></thead>
+            <tbody>
+              {races.map((x) => {
+                const q = quadMeta(x.quadrant);
+                const rid = reportId(entry.ymd, card.venue, x.r);
+                const linked = reportIds.has(rid);
+                const xa = x.x_axis || {};
+                return (
+                  <tr class={`srow ${q.cls}${q.shobu ? ' shobu' : ''}`}>
+                    <td class="nowrap rcell">
+                      {linked
+                        ? <a href={`${base}races/${rid}/`}><b>{x.r}R</b><span class="go">予想 ›</span></a>
+                        : <span><b>{x.r}R</b><span class="muted nopred">未予想</span></span>}
+                    </td>
+                    <td>
+                      <div class="rname">{x.race_name || '—'}</div>
+                      <div class="sub rcourse">{x.surface}{x.distance}m{x.headcount ? ` ${x.headcount}頭` : ''}
+                        {(x.class || x.race_type) && <span class="cond-tags">{x.class}{x.race_type ? ` ${x.race_type}` : ''}</span>}</div>
+                    </td>
+                    <td class="nowrap"><span class={`qbadge ${q.cls}`}>{q.emoji} {x.quadrant}</span></td>
+                    <td class="ycell">
+                      {x.cond_rage && <span class={`rage ${rageCls[x.cond_rage] || ''}`}>条件 {x.cond_rage}</span>}
+                      {x.cond_flags?.length > 0 && (
+                        <span class="fchips">{x.cond_flags.map((f) => <span class="fchip">{f}</span>)}</span>)}
+                      <div class="dango">
+                        団子 {x.dango_tier
+                          ? <span class={dangoCls[x.dango_tier] || ''}>{x.dango_tier}</span>
+                          : <span class="muted">事前（未取得）</span>}
+                      </div>
+                      {x.dango_signals?.length > 0 && (
+                        <ul class="signals">{x.dango_signals.map((s) => <li>{s}</li>)}</ul>)}
+                    </td>
+                    <td class="xcell">
+                      {xa.anchor?.length > 0
+                        ? <div class="anchor">主軸 <b>{xa.anchor.join('・')}</b>{xa.confidence ? `（${xa.confidence}）` : ''}</div>
+                        : <div class="muted">未読み</div>}
+                      {xa.field_legs && <div class="legs-line muted">脚質 {xa.field_legs}</div>}
+                      {xa.concern && <div class="concern">懸念: {xa.concern}</div>}
+                      <div class="diverge">ズレ: {xa.market_divergence || <span class="muted">当日確認</span>}</div>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    );
+  })}
+
+  {leftover.length > 0 && (
+    <section class="card">
+      <h2>{entry.screenings.length > 0 ? '予想（選別外）' : '予想済みレース'}</h2>
+      <ul class="race-list">
+        {leftover.map((r) => (
+          <li>
+            <a href={`${base}races/${r.race_id}/`}>
+              <span class="name">{r.edition ?? ''} {r.race_name}{r.grade ? `（${r.grade}）` : ''}</span>
+              <span class="meta">{r.course?.track}{r.race_no != null ? `${r.race_no}R` : ''} {r.course?.surface}{r.course?.distance}m · {r.field_size}頭</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <p class="sub disclaimer">選別は「どのレースを・どの戦い方（本命勝負/鉄板コツコツ/見送り）で」までが責務。券種・金額・買い目は人間判断（市場は賭ける瞬間だけ）。</p>
+</Base>
