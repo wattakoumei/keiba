@@ -243,6 +243,7 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .dango { font-size: 0.8rem; margin-top: 5px; }
 .signals { margin: 3px 0 0; padding-left: 1em; list-style: disc; }
 .signals li { font-size: 0.72rem; color: var(--muted); margin: 1px 0; }
+.xcell .cut-reason { font-size: 0.8rem; font-weight: 700; color: var(--mark-chui); margin-bottom: 3px; }
 .xcell .anchor { font-size: 0.85rem; }
 .xcell .legs-line { font-size: 0.74rem; margin-top: 2px; }
 .xcell .concern { font-size: 0.76rem; color: var(--text); margin-top: 3px; max-width: 22em; }

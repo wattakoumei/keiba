@@ -92,6 +92,7 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
                         <ul class="signals">{x.dango_signals.map((s) => <li>{s}</li>)}</ul>)}
                     </td>
                     <td class="xcell">
+                      {x.cut_reason && <div class="cut-reason">✖ 切り理由: {x.cut_reason}</div>}
                       {xa.anchor?.length > 0
                         ? <div class="anchor">主軸 <b>{xa.anchor.join('・')}</b>{xa.confidence ? `（${xa.confidence}）` : ''}</div>
                         : <div class="muted">未読み</div>}
