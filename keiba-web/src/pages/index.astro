@@ -4,7 +4,7 @@ import { loadDates, fmtDate } from '../lib/races.js';
 const dates = loadDates();
 const base = import.meta.env.BASE_URL;
 
-const SHOBU = new Set(['本命勝負', '鉄板コツコツ']);
+const SHOBU = new Set(['本命勝負', '鉄板コツコツ', '穴ボックス']);
 const PLACE = { '01': '札幌', '02': '函館', '03': '福島', '04': '新潟', '05': '東京',
   '06': '中山', '07': '中京', '08': '京都', '09': '阪神', '10': '小倉' };
 function dateSummary(d) {

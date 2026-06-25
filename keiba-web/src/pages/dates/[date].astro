@@ -15,7 +15,9 @@ const PLACE = { '01': '札幌', '02': '函館', '03': '福島', '04': '新潟', 
 function quadMeta(q) {
   if (q === '本命勝負') return { emoji: '🟥', cls: 'q-honmei', shobu: true };
   if (q === '鉄板コツコツ') return { emoji: '🟦', cls: 'q-tetsu', shobu: true };
-  return { emoji: '⬜', cls: 'q-skip', shobu: false }; // 博打・妙味なし・見送り
+  if (q === '穴ボックス') return { emoji: '🎯', cls: 'q-box', shobu: true };
+  if (q === '切り') return { emoji: '✖', cls: 'q-kiri', shobu: false };
+  return { emoji: '⬜', cls: 'q-skip', shobu: false }; // 妙味なし・見送り・博打
 }
 const rageCls = { '強': 'rage-hi', '中': 'rage-mid', '弱': 'rage-lo' };
 const dangoCls = { '割れ': 'tier-honmei', '中': 'tier-taikou', '収束': 'tier-fukusen' };
@@ -46,10 +48,11 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
     const races = sortedRaces(card);
     const nH = races.filter((x) => x.quadrant === '本命勝負').length;
     const nT = races.filter((x) => x.quadrant === '鉄板コツコツ').length;
+    const nB = races.filter((x) => x.quadrant === '穴ボックス').length;
     return (
       <section class="card">
         <h2>{venueName(card)}{!card.odds_available && <span class="pre-badge">事前</span>}</h2>
-        <p class="sub">🟥 本命勝負 {nH} ・ 🟦 鉄板コツコツ {nT} ・ 見送り {races.length - nH - nT}
+        <p class="sub">🟥 本命勝負 {nH} ・ 🟦 鉄板コツコツ {nT} ・ 🎯 穴ボックス {nB} ・ 見送り/切り {races.length - nH - nT - nB}
           {!card.odds_available && <span class="muted">（オッズ未公開＝団子度・ズレは当日確定）</span>}</p>
         <div class="scroll-x">
           <table class="screen-table">

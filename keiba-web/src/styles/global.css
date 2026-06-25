@@ -217,6 +217,8 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
   padding: 2px 9px; border: 1px solid var(--line); white-space: nowrap; }
 .q-honmei { color: #b3261e; background: color-mix(in srgb, #d62828 12%, white); border-color: color-mix(in srgb, #d62828 40%, transparent); }
 .q-tetsu  { color: #1d5fbf; background: color-mix(in srgb, #2563eb 10%, white); border-color: color-mix(in srgb, #2563eb 38%, transparent); }
+.q-box    { color: #b06a00; background: color-mix(in srgb, #e8771a 14%, white); border-color: color-mix(in srgb, #e8771a 42%, transparent); }
+.q-kiri   { color: var(--muted); background: var(--panel-2); text-decoration: line-through; }
 .q-skip   { color: var(--muted); background: var(--panel-2); }
 
 /* 選別テーブル */
@@ -225,7 +227,8 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .screen-table td { padding: 9px 7px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .screen-table .srow.shobu.q-honmei { box-shadow: inset 4px 0 0 #d62828; }
 .screen-table .srow.shobu.q-tetsu  { box-shadow: inset 4px 0 0 #2563eb; }
-.screen-table .srow.q-skip { opacity: 0.62; }
+.screen-table .srow.shobu.q-box    { box-shadow: inset 4px 0 0 #e8771a; }
+.screen-table .srow.q-skip, .screen-table .srow.q-kiri { opacity: 0.6; }
 .rcell .go { display: block; font-size: 0.72rem; color: var(--accent); }
 .rcell .nopred { display: block; font-size: 0.72rem; }
 .rname { font-weight: 600; }

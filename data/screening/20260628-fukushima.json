@@ -32,35 +32,6 @@
       "score": 3
     },
     {
-      "r": 9,
-      "surface": "芝",
-      "distance": 2000,
-      "headcount": 14,
-      "class": "牝2勝クラス特別",
-      "race_type": "定量",
-      "race_name": "松島特別",
-      "cond_rage": "中",
-      "cond_flags": [
-        "福島開催",
-        "牝馬限定"
-      ],
-      "dango_tier": null,
-      "dango_signals": [],
-      "x_axis": {
-        "anchor": [
-          "ボウウィンドウ",
-          "クロシェットノエル",
-          "ホウオウシンデレラ"
-        ],
-        "confidence": "割れて絞れない",
-        "market_divergence": null,
-        "field_legs": "逃0/先4/差6/追4",
-        "concern": "全頭56.0完全定量で上位4頭拮抗＝頭固定困難。逃げ不在でペース緩むと前残り→決着順読みづらい"
-      },
-      "quadrant": "博打",
-      "score": 0
-    },
-    {
       "r": 10,
       "surface": "ダ",
       "distance": 1700,
@@ -85,8 +56,8 @@
         "field_legs": "逃1/先4/差4/追1",
         "concern": "斤量58横一線で力フラット、抜けた1頭不在。逃げ1頭で隊列読めず上位2-3頭に割れ＝ボックス妙味向き"
       },
-      "quadrant": "博打",
-      "score": 0
+      "quadrant": "穴ボックス",
+      "score": 2
     },
     {
       "r": 11,
@@ -115,7 +86,36 @@
         "field_legs": "逃1/先6/差4/追4",
         "concern": "重賞実績馬5頭が斤量で均され横並び、各馬近走に大敗を挟み信頼の核なし。福島16頭3歳ハンデGⅢ＝荒れ二重"
       },
-      "quadrant": "博打",
+      "quadrant": "穴ボックス",
+      "score": 2
+    },
+    {
+      "r": 9,
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 14,
+      "class": "牝2勝クラス特別",
+      "race_type": "定量",
+      "race_name": "松島特別",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "牝馬限定"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ボウウィンドウ",
+          "クロシェットノエル",
+          "ホウオウシンデレラ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃0/先4/差6/追4",
+        "concern": "全頭56.0完全定量で上位4頭拮抗＝頭固定困難。逃げ不在でペース緩むと前残り→決着順読みづらい"
+      },
+      "quadrant": "切り",
       "score": -1
     },
     {

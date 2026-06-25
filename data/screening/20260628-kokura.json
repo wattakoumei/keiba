@@ -6,6 +6,36 @@
   "odds_available": false,
   "races": [
     {
+      "r": 10,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 16,
+      "class": "西部日刊スポーツ杯",
+      "race_type": "ハンデ",
+      "race_name": "西部日刊スポーツ杯",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数",
+        "ハンデ"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "レーティッシュ",
+          "マハートマーベル",
+          "コスモストーム"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先2/差9/追4",
+        "concern": "ハンデで斤量5kg散らばり＋2勝クラス上位が団子。川田レーティッシュ地力上位もトップハンデ57の差し馬＝展開待ちで本命定まらず"
+      },
+      "quadrant": "穴ボックス",
+      "score": 2
+    },
+    {
       "r": 9,
       "surface": "芝",
       "distance": 2600,
@@ -58,36 +88,6 @@
       },
       "quadrant": "妙味なし",
       "score": 0
-    },
-    {
-      "r": 10,
-      "surface": "ダ",
-      "distance": 1700,
-      "headcount": 16,
-      "class": "西部日刊スポーツ杯",
-      "race_type": "ハンデ",
-      "race_name": "西部日刊スポーツ杯",
-      "cond_rage": "中",
-      "cond_flags": [
-        "小倉開催",
-        "多頭数",
-        "ハンデ"
-      ],
-      "dango_tier": null,
-      "dango_signals": [],
-      "x_axis": {
-        "anchor": [
-          "レーティッシュ",
-          "マハートマーベル",
-          "コスモストーム"
-        ],
-        "confidence": "割れて絞れない",
-        "market_divergence": null,
-        "field_legs": "逃1/先2/差9/追4",
-        "concern": "ハンデで斤量5kg散らばり＋2勝クラス上位が団子。川田レーティッシュ地力上位もトップハンデ57の差し馬＝展開待ちで本命定まらず"
-      },
-      "quadrant": "博打",
-      "score": -1
     },
     {
       "r": 1,
