@@ -6,6 +6,60 @@
   "odds_available": false,
   "races": [
     {
+      "r": 1,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 6,
+      "class": "3歳未勝利",
+      "race_type": "定量",
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "超少頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "シスキンブルーム",
+          "スマートメモリー"
+        ],
+        "confidence": "絞れる",
+        "market_divergence": null,
+        "field_legs": "逃1/先1/差3/追1",
+        "concern": "全頭が新馬1走のみでサンプル僅少。軸はシスキンブルーム1頭に寄せたい"
+      },
+      "quadrant": "鉄板コツコツ",
+      "score": 3
+    },
+    {
+      "r": 10,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 13,
+      "class": "特別(条件)",
+      "race_type": "定量/別定",
+      "race_name": "宗像特別",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "サディーク"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃4/先1/差5/追3",
+        "concern": "サディーク1頭は比較的クリアだが2列目が複数横並びで2-3着割れ。逃げ4頭でテン速く隊列当日次第"
+      },
+      "quadrant": "博打",
+      "score": -1
+    },
+    {
       "r": 11,
       "surface": "ダ",
       "distance": 1700,
@@ -36,31 +90,58 @@
       "score": -1
     },
     {
-      "r": 10,
+      "r": 9,
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 8,
+      "class": "特別",
+      "race_type": "定量/別定",
+      "race_name": "八代特別",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "中距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ダノンアトラス",
+          "サヴォアフェール"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃1/先1/差3/追3",
+        "concern": "抜けた1頭不在で2頭に割れ。逃げ1頭のスロー前残りで差し追込が取りこぼすリスク"
+      },
+      "quadrant": "妙味なし",
+      "score": 0
+    },
+    {
+      "r": 12,
       "surface": "芝",
       "distance": 1200,
-      "headcount": 13,
-      "class": "特別(条件)",
+      "headcount": 8,
+      "class": "3歳上1勝クラス",
       "race_type": "定量/別定",
-      "race_name": "宗像特別",
-      "cond_rage": "中",
+      "race_name": "3歳上1勝クラス",
+      "cond_rage": "弱",
       "cond_flags": [
-        "小倉開催",
         "芝短距離"
       ],
       "dango_tier": null,
       "dango_signals": [],
       "x_axis": {
         "anchor": [
-          "サディーク"
+          "タナスーペルノーバ",
+          "ピアストイヤーズ"
         ],
         "confidence": "割れて絞れない",
         "market_divergence": null,
-        "field_legs": "逃4/先1/差5/追3",
-        "concern": "サディーク1頭は比較的クリアだが2列目が複数横並びで2-3着割れ。逃げ4頭でテン速く隊列当日次第"
+        "field_legs": "逃1/先2/差3/追2",
+        "concern": "本命候補が昇級初戦で実績未確定。層は薄いが軸が割れる"
       },
-      "quadrant": "博打",
-      "score": -1
+      "quadrant": "妙味なし",
+      "score": 0
     }
   ]
 }

@@ -33,6 +33,60 @@
       },
       "quadrant": "博打",
       "score": -1
+    },
+    {
+      "r": 7,
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 11,
+      "class": "3歳上1勝クラス",
+      "race_type": "定量/別定",
+      "race_name": "サラ系3歳上1勝クラス",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "中距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "ドウアドバンテージ",
+          "マカナアネラ"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃0/先4/差3/追4",
+        "concern": "主軸が連続2着で勝ち切れず、3歳の格上経験・昇級勢が複数横並びで対抗読みにくい"
+      },
+      "quadrant": "妙味なし",
+      "score": 0
+    },
+    {
+      "r": 10,
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 11,
+      "class": "2勝クラス特別",
+      "race_type": "定量/別定",
+      "race_name": "洞爺湖特別",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "中距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "バルティカ",
+          "レイヤードレッド"
+        ],
+        "confidence": "割れて絞れない",
+        "market_divergence": null,
+        "field_legs": "逃0/先0/差4/追7",
+        "concern": "能力団子＋追込偏重で展開頼み。前止まらず凡走リスクが全頭に均等"
+      },
+      "quadrant": "妙味なし",
+      "score": 0
     }
   ]
 }

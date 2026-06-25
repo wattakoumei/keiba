@@ -6,30 +6,56 @@
   "odds_available": false,
   "races": [
     {
-      "r": 12,
+      "r": 11,
       "surface": "芝",
-      "distance": 1200,
-      "headcount": 16,
-      "class": "3歳上1勝クラス",
+      "distance": 2000,
+      "headcount": 9,
+      "class": "OP特別",
       "race_type": "定量/別定",
-      "race_name": "3歳上1勝クラス",
-      "cond_rage": "強",
+      "race_name": "バーデンバーデンカップ",
+      "cond_rage": "中",
       "cond_flags": [
-        "福島開催",
-        "多頭数",
-        "芝短距離"
+        "福島開催"
       ],
       "dango_tier": null,
       "dango_signals": [],
       "x_axis": {
         "anchor": [
-          "ファインサマーデイ",
-          "ビッグフラワー"
+          "マリアイリダータ",
+          "ハニーコム"
+        ],
+        "confidence": "絞れる",
+        "market_divergence": null,
+        "field_legs": "逃1/先3/差4/追1",
+        "concern": "マリアイは差し馬で福島2000・少頭数の前残り紛れに注意。相手はハニーコム/フィオレストラーダが僅差"
+      },
+      "quadrant": "鉄板コツコツ",
+      "score": 3
+    },
+    {
+      "r": 3,
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "class": "3歳上1勝クラス",
+      "race_type": "定量/別定",
+      "race_name": "3歳上1勝クラス",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": [],
+      "x_axis": {
+        "anchor": [
+          "コパノエイダン",
+          "プロスペクトパーク"
         ],
         "confidence": "割れて絞れない",
         "market_divergence": null,
-        "field_legs": "逃1/先4/差7/追2",
-        "concern": "差し7・追2の決め手型が多く拮抗。逃げ1頭で展開ひとつで上位入替"
+        "field_legs": "逃1/先4/差3/追6",
+        "concern": "未勝利勝ち上がり組と古馬居残り組が混在で主軸割れ。追込6頭で渋滞しやすい"
       },
       "quadrant": "博打",
       "score": -1
@@ -64,29 +90,30 @@
       "score": -1
     },
     {
-      "r": 3,
-      "surface": "ダ",
-      "distance": 1700,
-      "headcount": 15,
+      "r": 12,
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
       "class": "3歳上1勝クラス",
       "race_type": "定量/別定",
       "race_name": "3歳上1勝クラス",
-      "cond_rage": "中",
+      "cond_rage": "強",
       "cond_flags": [
         "福島開催",
-        "多頭数"
+        "多頭数",
+        "芝短距離"
       ],
       "dango_tier": null,
       "dango_signals": [],
       "x_axis": {
         "anchor": [
-          "コパノエイダン",
-          "プロスペクトパーク"
+          "ファインサマーデイ",
+          "ビッグフラワー"
         ],
         "confidence": "割れて絞れない",
         "market_divergence": null,
-        "field_legs": "逃1/先4/差3/追6",
-        "concern": "未勝利勝ち上がり組と古馬居残り組が混在で主軸割れ。追込6頭で渋滞しやすい"
+        "field_legs": "逃1/先4/差7/追2",
+        "concern": "差し7・追2の決め手型が多く拮抗。逃げ1頭で展開ひとつで上位入替"
       },
       "quadrant": "博打",
       "score": -1
