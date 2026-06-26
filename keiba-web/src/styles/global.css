@@ -209,6 +209,11 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 
 /* ---- ② 選別カード ---- */
 .card { margin: 18px 0; }
+.venue-fold { margin: 12px 0; }
+.venue-fold > summary { color: var(--text); font-size: 0.98rem; font-weight: 700; padding: 11px 0; }
+.venue-fold .vname { margin-right: 4px; }
+.venue-fold .vcount { font-weight: 400; font-size: 0.8rem; color: var(--muted); margin-left: 8px; }
+.venue-fold[open] > .scroll-x { margin-bottom: 10px; }
 .pre-badge { margin-left: 8px; font-size: 0.72rem; font-weight: 700; color: var(--muted);
   border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; vertical-align: middle; }
 

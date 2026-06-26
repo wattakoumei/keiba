@@ -50,10 +50,11 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
     const nT = races.filter((x) => x.quadrant === '鉄板コツコツ').length;
     const nB = races.filter((x) => x.quadrant === '穴ボックス').length;
     return (
-      <section class="card">
-        <h2>{venueName(card)}{!card.odds_available && <span class="pre-badge">事前</span>}</h2>
-        <p class="sub">🟥 本命勝負 {nH} ・ 🟦 鉄板コツコツ {nT} ・ 🎯 穴ボックス {nB} ・ 見送り/切り {races.length - nH - nT - nB}
-          {!card.odds_available && <span class="muted">（オッズ未公開＝団子度・ズレは当日確定）</span>}</p>
+      <details class="fold venue-fold" open>
+        <summary>
+          <span class="vname">{venueName(card)}</span>{!card.odds_available && <span class="pre-badge">事前</span>}
+          <span class="vcount">🟥{nH} 🟦{nT} 🎯{nB} ・ 見送り/切り {races.length - nH - nT - nB}</span>
+        </summary>
         <div class="scroll-x">
           <table class="screen-table">
             <thead><tr>
@@ -106,7 +107,7 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
             </tbody>
           </table>
         </div>
-      </section>
+      </details>
     );
   })}
 
