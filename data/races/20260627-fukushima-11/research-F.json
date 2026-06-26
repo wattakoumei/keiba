@@ -1,0 +1,23 @@
+{
+  "point": "F 調教・厩舎仕上げ",
+  "race_id": "20260627-fukushima-11",
+  "as_of": "2026-06-27",
+  "overall_confidence": "低",
+  "field_note": "seed(fetch_oikiri.py=競馬ブック好時計)は空。本レースは3歳上3勝クラスで、出走全頭の最終追い切り時計(コース/ラスト1F/併せ)は一般webにほぼ非公開。唯一『追い切り評価』を掲げるkeiba-jiku2.net(鉄矢)はTLS証明書エラーでfetch不可。よって本観点は全般に確信度低。横比較できる実測時計が無いため、観測できた『勝負気配の差分(騎手起用・昇級/連勝による上昇)』のみを素直に加点し、時計の捏造はしない。テーオーダグラスの検索結果は3歳限定ラジオNIKKEI賞の別馬情報と混同(5歳が3歳戦に出走は不可能)で汚染=採用しない。",
+  "stable_intent_additions": [
+    {"trainer": "杉山晴紀(栗東)", "label_tentative": "好調・フロントランナー型/中間標準〜強め", "confidence": "中", "basis": "東スポ『令和のフロントランナー』特集=近年勝率上位の上昇厩舎。フィオレストラーダ昇級初戦に充てる勢い。"},
+    {"trainer": "田中博康(美浦)", "label_tentative": "上昇厩舎/強化騎手起用に積極(選択的強化)", "confidence": "低", "basis": "連勝中マリアイリダータに坂井瑠星(関西トップ)を遠征起用=勝負気配↑の差分。"},
+    {"trainer": "須貝尚介(栗東)", "label_tentative": "GI実績の標準仕上げ型", "confidence": "低", "basis": "実績厩舎だが当該馬の今回追い切り実測を確認できず=generic低確信。"}
+  ],
+  "horses": [
+    {"no":1,"name":"テーオーダグラス","score":0,"confidence":"低","pros":[],"cons":["最終追い切りの実測(時計/併せ/動き)を確認できず=cond不明","検索ヒットは3歳限定ラジオNIKKEI賞の別馬情報と混同しており不採用"],"sources":["https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"]},
+    {"no":2,"name":"ノーランサンライズ","score":0,"confidence":"低","pros":[],"cons":["追い切り実測・厩舎気配の差分とも取得不能=cond不明"],"sources":[]},
+    {"no":3,"name":"ハニーコム","score":0,"confidence":"低","pros":["[I]前走同クラスで2着と好走、近走の出来は維持の可能性"],"cons":["最終追い切りの実測を確認できず","福島芝初=状態の裏付けが乏しい"],"sources":["https://keiba-headline.com/baden-baden-cup-forecast-2026-401153"]},
+    {"no":4,"name":"マリアイリダータ","score":1,"confidence":"中","pros":["[F]連勝中(1勝→2勝クラス)で充実期、上昇基調","[F]坂井瑠星への乗り替わり=田中博康厩舎の強化騎手起用=勝負気配↑の観測可能な差分"],"cons":["追い切りの実測時計は未確認=cond上昇は気配ベース","昇級初戦で状態の本物度は中"],"sources":["https://keiba-headline.com/baden-baden-cup-forecast-2026-401153","https://www.jbis.or.jp/horse/0001359413/"]},
+    {"no":5,"name":"ホウオウスーペリア","score":0,"confidence":"低","pros":[],"cons":["最終追い切りの実測を確認できず","6歳・追込脚質で状態上昇の裏付け無し=cond平行線想定"],"sources":["https://keiba-headline.com/baden-baden-cup-forecast-2026-401153","https://www.jbis.or.jp/horse/0001325289/"]},
+    {"no":6,"name":"ホルトバージ","score":0,"confidence":"低","pros":[],"cons":["追い切り実測・厩舎気配とも取得不能=cond不明"],"sources":[]},
+    {"no":7,"name":"リーティアコナル","score":0,"confidence":"低","pros":[],"cons":["追い切り実測・厩舎気配とも取得不能=cond不明(唯一の逃げ馬だが調教面の裏付け無し)"],"sources":[]},
+    {"no":8,"name":"フィオレストラーダ","score":1,"confidence":"低","pros":["[F]前走2勝クラス勝ちからの昇級初戦=勝ち上がり直後の勢い","[F]好調・上昇の杉山晴紀厩舎に管理=仕上げ面の信頼は相対的に高い"],"cons":["最終追い切りの実測時計は未確認=cond上昇は勢いベース、調教駆け検証不可","昇級でclassが問われ、F単独の加点は控えめ"],"sources":["https://keiba-headline.com/baden-baden-cup-forecast-2026-401153","https://www.keibalab.jp/db/trainer/01157/"]},
+    {"no":9,"name":"アマイ","score":0,"confidence":"低","pros":[],"cons":["最終追い切りの実測を確認できず=cond不明","6歳牝で状態上昇の裏付け無し=平行線想定"],"sources":["https://poginfo.com/pogs/horseData/show/2020100809"]}
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "point": "F",
+  "overall_confidence": "低",
+  "note": "青函ステークス2026の全頭追い切り診断記事は分析時点(6/26)で未公開。個別実測が取れたのはジョーメッドヴィン(函館ウッド馬なり終い12.3=絶好調サイン・最高評価)とクファシル(6/18函館ウッド終い13.0=失速目安・やや見劣り)の2頭のみ。ティニア(昨年当レース2着)・モリノドリーム(一昨年勝ち馬)は当地状態適性が実証済みでcondを下支えするが今走追い切りは未取得で確信度低。残り多くは追い切り実測未取得=0近傍・確信度低。seedは該当馬不在で全頭web補完(不在≠調教不良)。Fは単独で着順を決めない=地力A〜Dと統合される前提。厩舎catalogは空のため全頭generic読み。横比較せず縦比較・終い1F重視・馬なり好時計を最上・調教駆けフィルタを適用。検索ヒットの一部(函館記念のアメリカンステージ/マイネルレノン2025/ロードフォアエース母系)は別馬・別年・別レースと判断し採用せず。当日に追い切り診断が出れば終い1Fとコース替わりの差分で再評価可能。研究JSON: /Users/watasekoumei/development/keiba/data/races/20260627-hakodate-11/research-F.json",
+  "field_note": "厩舎傾向catalog(stable-intent-rubric.md)は空のため全頭generic読み。追記候補3厩舎を提示(いずれも確信度低・1観察): 清水久詞=中間/標準〜やや強め/流動(青函ジョーメッドヴィンで函館ウッド馬なり終い12.3+現地仕上げ=前向きな攻め)、矢作芳人=中間/普段強め/選択的強化(中間時計で坂路〜ウッドにしっかり負荷の常態=強い時計は平常運転として読む)、友道康夫=中間/標準/選択的強化(トップ厩舎・仕上げ堅実のgeneric評価)。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダンツエラン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測・媒体評価を取得できず仕上がり判断不能=確信度低"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ブラックチャリス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測を取得できず=確信度低",
+        "[F]マイル路線から1200m初戦=仕上げの狙い目が読めず不確実"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジョーメッドヴィン",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[F]最終・函館ウッド馬なりで終い12.3=軽い負荷で好時計、余力を残す絶好調サイン(馬なり好時計が最上)",
+        "[F]現地函館ウッドで仕上げ=洋芝・当地への順応を兼ねた前向きな攻め",
+        "[F]複数媒体が追い切りA級評価で一致=事実時計と主観評価が同方向"
+      ],
+      "cons": [
+        "[F]1週前は末強めで終い12.8とやや平凡=最終で上向いたが地力(base)を保証はしない(調教駆けフィルタ留意)"
+      ],
+      "sources": [
+        "https://www.keibanomiryoku.com/article/hakodate-sprint-stakes-2026-work-out.html",
+        "https://umasiru.com/archives/20458"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ステークホルダー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測・評価を取得できず=確信度低"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ティニア",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]昨年同レース2着の実績馬=当地・洋芝状態適性が実証済(condの下支え材料)"
+      ],
+      "cons": [
+        "[F]今回向け追い切りの時計・脚色を取得できず=今走の仕上がり上昇/平行の判断不能で確信度低",
+        "[F]6歳56kgで斤量増の可能性、調教の上積み確認が取れず"
+      ],
+      "sources": [
+        "https://umasiru.com/archives/20458",
+        "https://www.keibalab.jp/db/race/202606270211/past.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "クファシル",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[F]ノーザンFしがらき仕上げ=外厩経由はトレセン時計が軽くても割り引かない(仕上げ済みの可能性)"
+      ],
+      "cons": [
+        "[F]6/18函館ウッドの終い13.0=終いが詰まらず余力に乏しい時計(13.0以上=失速目安)、上昇サインに乏しい",
+        "[F]最終追い切りの確報(脚色・併せ)が取れず=馬なり余力か一杯かの判別不能で確信度を限定"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/db/horse_news.php?code=2020103356&page=1"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "マイネルレノン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]今回向け追い切り実測を取得できず=仕上がり判断不能で確信度低(検索ヒットの函館記念追い切りは2025年・別レースと判断し不採用)"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "サウザンサニー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測を取得できず=確信度低",
+        "[F]前走大敗からの巻き返し度合いを示す追い切り材料なし"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モリノドリーム",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]一昨年の当レース勝ち実績=当地・洋芝状態適性が実証済(condの下支え)"
+      ],
+      "cons": [
+        "[F]今回向け追い切りの時計を取得できず=7歳の今走の上積み/維持の判断不能で確信度低"
+      ],
+      "sources": [
+        "https://umasiru.com/archives/20458"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ナムラローズマリー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測を取得できず=確信度低"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ナムラクララ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測を取得できず=今走の仕上がり判断不能で確信度低"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンステージ",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]矢作厩舎=普段から強めに攻める常態で仕上げ精度は高い陣営(強い時計は平常運転として読み本気度を過大評価しない)"
+      ],
+      "cons": [
+        "[F]青函向け最終追い切りの実測時計を取得できず=今走の状態判断不能で確信度低(函館記念の同名情報は別馬と判断し不採用)",
+        "[F]斤量57.5kg最重量=仕上げが甘いと負担増が応える、追い切りでの余力確認が取れていない"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511",
+        "https://p.keibabook.co.jp/db/kyusya/%EF%BE%94019?syori=tyokyo"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ロードフォアエース",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]友道厩舎=仕上げが堅実なトップ厩舎=大崩れの少ない仕上げが期待できる(generic加点・確信度低)"
+      ],
+      "cons": [
+        "[F]青函向け追い切りの時計・脚色を取得できず=今走の上積み判断不能で確信度低",
+        "[F]斤量57.5kg最重量=状態次第で負担が応える"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511",
+        "https://umasiru.com/archives/20458"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ルージュラナキラ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]追い切り実測を取得できず=今走の仕上がり判断不能で確信度低"
+      ],
+      "sources": [
+        "https://sports.yahoo.co.jp/keiba/race/denma/2602010511"
+      ]
+    }
+  ]
+}

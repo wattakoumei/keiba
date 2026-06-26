@@ -1,0 +1,215 @@
+{
+  "point": "L",
+  "field_note": "青函ステークスはリピーター舞台（2022ハンデ再開後の函館開幕週名物スプリント／洋芝1200条件巧者・前年好走馬の再来が出やすい）。同条件好走の筆頭はティニア(5番=2025青函S2着,今回も56kg)。クファシル(6番)は北海道洋芝1200の条件巧者だがOP上位では一歩足りない。モリノドリーム(9番)は2024優勝馬だが牝7・以降3着内ゼロの凡走続きで鮮度割引し0据え置き。ジョーメッドヴィン(3番)・マイネルレノン(7番)は同条件で凡走リピートのマイナス。残り9頭は函館・青函S該当実績なし=既定0(若い4歳/3歳勢は初)。",
+  "overall_confidence": "中〜高",
+  "note": "research-L.json保存先: /Users/watasekoumei/development/keiba/data/races/20260627-hakodate-11/research-L.json。スコアは-2..+2の5段階。ティニア(5)が同条件好走の明確なリピーターで筆頭(+1.5)、クファシル(6)が北海道洋芝1200の条件巧者で次点(+1)。モリノドリーム(9)は2024優勝馬だが鮮度割引で0据え置き。ジョーメッドヴィン(3)・マイネルレノン(7)は同条件凡走リピートで-1。netkeiba本体・keibalab・JBIS一部が403/404のため、POG-INFO・競馬ブック・WebSearch要約で代替取得した(条件別の細かい全戦績は一部確信度低)。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダンツエラン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[L]函館・青函Sの該当条件実績は確認できず=該当条件実績なし(既定0)"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ブラックチャリス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[L]牝3で函館・青函S初=該当条件実績なし(既定0)。前走桜花賞で条件大きく異なる"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジョーメッドヴィン",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[L]函館で凡走リピート: 2025青函S10着・2025函館SS7着・2026函館SS8着(前走)=函館芝1200で好走歴ゼロ",
+        "[L]鮮度は直近で再現済み(割引不要・マイナス確度高)。この条件で勝ち負けできない履歴"
+      ],
+      "sources": [
+        "https://www.jbis.or.jp/horse/0001334211/record/",
+        "https://race.netkeiba.com/race/result.html?race_id=202502010511"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ステークホルダー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[L]ハービンジャー産駒で洋芝適性ある血統"
+      ],
+      "cons": [
+        "[L]函館・青函Sの該当条件好走実績は確認できず=該当条件実績なし(既定0)。前走中山1200で11着・後方"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ティニア",
+      "score": 1.5,
+      "confidence": "高",
+      "pros": [
+        "[L]最強リピーター候補=2025青函S2着(函館洋芝1200で今回完全同条件)",
+        "[L]当時56kg→今回も56kgで斤量条件再現。Frankel産駒で洋芝適性",
+        "[L]牡6で加齢の急落兆候は弱く1年前の実績=鮮度十分・条件一致の好走が明確"
+      ],
+      "cons": [
+        "[L]条件好走は1回(青函S2着)で勝ち切ってはいない=頭まで満額ではない"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/result.html?race_id=202502010511",
+        "https://poginfo.com/pogs/horseData/show/2020110090"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "クファシル",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[L]北海道洋芝1200の条件巧者=函館芝1200で[1-1-0-2](2024年1勝&2着)・札幌芝1200でも1勝(2024 WASJ1)",
+        "[L]条件適性が複数勝ち鞍で裏付け済み=同条件の安定感"
+      ],
+      "cons": [
+        "[L]OP上位では一歩足りない=2025青函S7着・キーンランドC12着で頭まで強くは押せない"
+      ],
+      "sources": [
+        "https://poginfo.com/pogs/horseData/show/2020103356",
+        "https://race.netkeiba.com/race/result.html?race_id=202502010511"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "マイネルレノン",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[L]札幌芝1200では2着あり(2024 TVh賞)=北海道全否定ではない"
+      ],
+      "cons": [
+        "[L]函館1200で好走歴なし=2025青函S16着・2024函館TVh杯6着で同条件凡走の履歴",
+        "[L]牡7で加齢も逆風。函館適性は割引"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/db/uma/0886337/seiseki",
+        "https://race.netkeiba.com/race/result.html?race_id=202502010511"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "サウザンサニー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[L]函館・青函Sの該当条件実績は確認できず=該当条件実績なし(既定0)。前走中山1200で後方15着"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モリノドリーム",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[L]本来はリピーター筆頭=2024青函S1着(当時牝5)"
+      ],
+      "cons": [
+        "[L]当時牝5→今回牝7で鮮度割引大。優勝以降3着以内ゼロ=2025青函S5着・キーンランドC9着・カーバンクル4着・愛知杯15着・京都鞍馬S8着(前走)と凡走続き",
+        "[L]古い好走を満額にしない原則＋加齢/近走衰え兆候で相殺し0据え置き(プラスにしない)"
+      ],
+      "sources": [
+        "https://poginfo.com/pogs/horseData/show/2019102273",
+        "https://news.netkeiba.com/?pid=news_view&no=267855",
+        "https://race.netkeiba.com/race/result.html?race_id=202502010511"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ナムラローズマリー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[L]函館・青函Sの該当条件好走実績は確認できず=該当条件実績なし(既定0)。前走福島1200で11着"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ナムラクララ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[L]牝4で函館・青函S初=該当条件実績なし(既定0)。前走京都1200で12着"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンステージ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[L]牡4で函館・青函S初=該当条件実績なし(既定0)。前走は中山ダ替わりで11着"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ロードフォアエース",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[L]中山芝1200で2着歴あり(2025春雷S)=平坦短距離の地力はある"
+      ],
+      "cons": [
+        "[L]函館・洋芝1200の該当条件実績は確認できず=条件が異なる(函館での好走歴なし)。既定0"
+      ],
+      "sources": [
+        "https://www.jbis.or.jp/horse/0001340263/record/",
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ルージュラナキラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[L]牝4で函館・青函S初=該当条件実績なし(既定0)。前走中山オーシャンS8着"
+      ],
+      "sources": [
+        "https://www.keibalab.jp/db/race/202506280211/past.html"
+      ]
+    }
+  ]
+}

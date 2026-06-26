@@ -1,0 +1,227 @@
+{
+  "point": "H 当日気配・パドック・直前情報",
+  "field_note": "前日(6/26)時点の調査。リステッド(L)の取得期待値どおり共同会見はなく、netkeiba調教評価サマリー(全14頭の媒体短評)と1-3番の厩舎コメント(6/27付・今走向け)のみ取得可。4-14番の厩舎コメントはプレミアム制限で未取得。パドック寸評・確定馬体重・返し馬・発汗気配は前日のため全頭未取得=正常。コメントはいずれも今走向け談話で前走回顧ではない。先行型(12アメリカンステージ・13ロードフォアエース)の出方(ハナ主張)の陣営談話は未取得=STEP4a展開合成のトリガーとして当日補強が必要。市場情報(—・評価)は排除済み。",
+  "note": "調教評価=全14頭カバー(媒体サマリー)/厩舎コメント=3/14頭/パドック・馬体重・返し馬=0/14頭。当日(6/27)に確定馬体重・パドック点・返し馬・残り厩舎コメントのユーザー補強を推奨。",
+  "overall_confidence": "低〜中",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダンツエラン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[H]陣営「リフレッシュして現地入り。雰囲気は悪くない、積極的な競馬ができれば」(6/27付・今走向け)"
+      ],
+      "cons": [
+        "[H]調教評価B『変身注』=現状未知数の含み。前走大敗からの上積みは陣営談話頼み"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/comment.html?race_id=202602010511",
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ブラックチャリス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[H]調教評価A『動き抜群』=14頭中唯一の最上位評価",
+        "[H]陣営も斤量53kgの恩恵を認識(牝3軽量)"
+      ],
+      "cons": [
+        "[H]陣営コメントは『洋芝で改めて』『古馬牡馬相手』と慎重トーン=自信満々ではない"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/comment.html?race_id=202602010511",
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジョーメッドヴィン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[H]調教『気合乗る』+陣営『タフなので中1週問題ない』=状態前向き(6/27付・今走向け)",
+        "[H]前走テン不良を陣営が認識し改善余地として整理"
+      ],
+      "cons": [
+        "[H]調教評価B止まり。函館SS8着からの上積みは陣営談話頼み"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/comment.html?race_id=202602010511",
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ステークホルダー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『迫力十分』=動きに見栄えありとの媒体評価"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=直前気配の材料薄い"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ティニア",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『追毎良化』=追い切りごとに良化の上昇含み"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "クファシル",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『動き軽快』=動き自体は軽い好材料"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "マイネルレノン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『出来安定』=崩れなし。前走京都鞍馬S4着好走後で気配維持の含み"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "サウザンサニー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『迫力十分』=動きに見栄えありとの媒体評価"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モリノドリーム",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[H]調教短評『気配上昇』=14頭中で状態の上昇を媒体が明示",
+        "[H]武豊への鞍上強化+北海道滞在・洋芝は本馬の得意条件(過去から評価)"
+      ],
+      "cons": [
+        "[H]厩舎コメント本文・パドック・確定馬体重は前日未取得=裏付けは媒体短評頼み"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511",
+        "https://www.radionikkei.jp/keiba_article/news/post_32437.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ナムラローズマリー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『元気一杯』=活気・気配良好との媒体評価"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ナムラクララ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『キビキビ』=動きの軽快さは好材料"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンステージ",
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『好気合』=気合乗り良好。先行型として気配前向き",
+        "[H]最終追いを函館芝で実施=滞在・コース慣れの含み(出典弱)"
+      ],
+      "cons": [
+        "[H]厩舎コメント本文・パドック・馬体重未取得。先行脚質ゆえ出方(ハナ主張か)の談話が欲しいが未取得",
+        "[H]斤量57.5kgは最重量級トップハンデ"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ロードフォアエース",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『力強い』=動きに力強さ。L級(春雷S・ラピスラズリS)実績の先行馬"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得。斤量57.5kg最重量級。出方の談話なし"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ルージュラナキラ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[H]調教短評『態勢整う』=仕上がり整ったとの媒体評価"
+      ],
+      "cons": [
+        "[H]厩舎コメント・パドック・馬体重未取得=確信度低"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202602010511"
+      ]
+    }
+  ]
+}

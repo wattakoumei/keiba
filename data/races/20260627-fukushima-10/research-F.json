@@ -1,0 +1,117 @@
+{
+  "race_id": "20260627-fukushima-10",
+  "observation_point": "F",
+  "lens": "調教・厩舎仕上げ（cond＝今走でbaseをどれだけ出せる状態か）",
+  "as_of": "2026-06-26",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri seed は空（当該レース馬は好時計ランキング不在）。不在≠調教不良。全頭 web 補完。",
+  "method_note": "一次事実は netkeiba 調教欄の評価グレード(A-D)+一言コメント(全頭カバー)。補助に競馬予想のホネの星評価(リフレックス/コックピットサイトのみ掲載)。個別の時計/ラスト1F/併せ結果はプレミアム範囲で取得不能=確信度を下げる。福島開催は『調教駆け健在』(媒体見出し)=軽い馬場で時計が出やすく好評価を額面通りにしない戒め適用。",
+  "stable_intent_note": "厩舎catalog空=generic。型ラベル判定は確信度低。観測可能な差分(乗込入念/変身十分/軽め等のコメント差)のみ拾う。",
+  "horses": [
+    {
+      "no": 1, "name": "ハイクオリティ", "score": 0.5, "confidence": "中",
+      "stable": "今野貞一", "jockey": "F.ゴンサルベス",
+      "facts": "netkeiba調教評価B『力強い』。逃げ馬の前向きな気配コメント。個別時計は取得不能。",
+      "pros": ["[F]調教評価B『力強い』=好気配側。逃げの自分のリズムを作れる状態と読める"],
+      "cons": ["[F]個別時計/ラスト1F不明=確信度限定。福島は調教駆け健在の場で好評価を割引余地"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 2, "name": "ラストレガシー", "score": 0.5, "confidence": "中",
+      "stable": "手塚貴久", "jockey": "田辺裕信",
+      "facts": "netkeiba調教評価B『元気一杯』。手塚厩舎(関東上位厩舎)。個別時計不明。",
+      "pros": ["[F]調教評価B『元気一杯』=活気あるコメント。昇級初戦に向け状態は前向き"],
+      "cons": ["[F]個別時計/併せ結果不明=確信度限定"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 3, "name": "リフレックス", "score": 1.0, "confidence": "中",
+      "stable": "金成貴史", "jockey": "三浦皇成",
+      "facts": "netkeiba調教評価B『益々快調』。競馬予想のホネ=6/17美浦W+6/24美浦Wで★★、追い切り注目馬として掲載(『前走同様好ラップを披露の3歳2騎』の1頭)。2週連続ウッド追い。",
+      "pros": ["[F]調教評価B『益々快調』+媒体★★で2週連続美浦W追い=上昇基調。本数を確保し前向きな仕上げ", "[F]3歳の上り馬として複数媒体が注目=勝負気配を観測"],
+      "cons": ["[F]『調教駆け健在』の場での好評価=軽い馬場での好時計の可能性。cond補助に留める(地力はB系で別判定)"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110", "https://www.yosounohone.com/entry/fukushima-2026-6-27"]
+    },
+    {
+      "no": 4, "name": "ホウオウフロイト", "score": -0.5, "confidence": "中",
+      "stable": "加藤和宏", "jockey": "杉原誠人",
+      "facts": "netkeiba調教評価C『バカつく』=折り合い面/気の悪さを示唆するネガティブ寄りコメント。",
+      "pros": [],
+      "cons": ["[F]調教評価C『バカつく』=気持ちが入りすぎ/折り合い不安の含み。状態の上向きサインに乏しい"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 5, "name": "ショウナンヤッホー", "score": 0.5, "confidence": "中",
+      "stable": "栗田徹", "jockey": "津村明秀",
+      "facts": "netkeiba調教評価B『キビキビ』=動きの良さを示すコメント。近走着順は不振だが調教気配は前向き。",
+      "pros": ["[F]調教評価B『キビキビ』=動き自体は良好。近走凡走に対し状態面は悪くない"],
+      "cons": ["[F]個別時計不明。実戦で結果が出ていない=調教気配と実戦のギャップに注意(調教駆けフィルタ)"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 6, "name": "コックピットサイト", "score": 1.0, "confidence": "中",
+      "stable": "鹿戸雄一", "jockey": "荻野極",
+      "facts": "netkeiba調教評価B『変身十分』。競馬予想のホネ=6/17美浦坂路で★★、追い切り注目馬として掲載(3歳2騎の1頭)。前走は葵S(芝1200)大敗→ダート戻りローテ。鹿戸厩舎(関東上位)。",
+      "pros": ["[F]調教評価B『変身十分』+媒体★★=芝大敗からダート戻りで気配良化を示すコメント。条件替わりに好材料", "[F]坂路で前向きな仕上げ。媒体注目で勝負気配を観測"],
+      "cons": ["[F]芝→ダの変わり身は調教だけでは測れない。『変身十分』の好評価も調教駆けの含みあり=cond補助に留める"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110", "https://www.yosounohone.com/entry/fukushima-2026-6-27"]
+    },
+    {
+      "no": 7, "name": "コスモマルーン", "score": -0.5, "confidence": "中",
+      "stable": "秋本大介", "jockey": "菊沢一樹",
+      "facts": "netkeiba調教評価C『内モタれ』=走行面の不安(内にもたれる)を示すネガティブ寄りコメント。牝6の古馬。",
+      "pros": [],
+      "cons": ["[F]調教評価C『内モタれ』=動きに不安の含み。状態が大きく上向くサインに乏しい"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 8, "name": "ゲンパチルーナ", "score": -0.5, "confidence": "中",
+      "stable": "西田雄一郎", "jockey": "武藤雅",
+      "facts": "netkeiba調教評価C『気配平凡』=可もなく不可もなく、上向きサインに欠けるコメント。",
+      "pros": [],
+      "cons": ["[F]調教評価C『気配平凡』=状態面で目立つ上昇気配なし。cond押し上げ要素に乏しい"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 9, "name": "ドゥマーヴェリック", "score": 0.0, "confidence": "中",
+      "stable": "大竹正博", "jockey": "戸崎圭太",
+      "facts": "netkeiba調教評価C『乗込入念』=じっくり乗り込み型(時計を派手に出さず量で仕上げる)コメント。大竹厩舎の昇級即実力馬(前走利根川特別2勝C級レースで3着)。主戦級の戸崎を確保。",
+      "pros": ["[F]戸崎圭太を確保=有力騎手起用で勝負気配の観測材料(generic確信度低だが)", "[F]『乗込入念』=量を踏む仕上げ型。時計が地味でも仕上がり不足とは限らない(外厩/乗り込み型は割引かない原則)"],
+      "cons": ["[F]調教評価C止まりで『益々快調』『元気一杯』のB勢に比べ気配コメントが地味=今回の状態の上向き度は中立評価"],
+      "intent_label": "乗り込み型(暫定)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 10, "name": "ルクスメンデス", "score": -0.5, "confidence": "中",
+      "stable": "小崎憲", "jockey": "小崎綾也",
+      "facts": "netkeiba調教評価C『軽め順調』=軽い調整で順調だが強い負荷をかけていないコメント。近走着外続き。",
+      "pros": [],
+      "cons": ["[F]調教評価C『軽め順調』=強い追い切りで負荷をかけた様子に乏しい。近走不振と合わせ上昇気配は限定的"],
+      "intent_label": "普段緩め?(暫定)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    },
+    {
+      "no": 11, "name": "オーケーマヒナ", "score": -0.5, "confidence": "中",
+      "stable": "相沢郁", "jockey": "石川裕紀人",
+      "facts": "netkeiba調教評価C『仕上るも』=仕上げはしたが期待は限定的というニュアンスのコメント。牝4・近走大敗続き。",
+      "pros": [],
+      "cons": ["[F]調教評価C『仕上るも』=仕上げ自体はしているが上昇の決め手に欠ける含み。近走大敗と整合"],
+      "intent_label": "不明(generic)", "intent_confidence": "低",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020110"]
+    }
+  ],
+  "stable_intent_addendum_candidates": [
+    {
+      "stable": "大竹正博", "tentative_label": "乗り込み型(追い切り常態=量で仕上げる/派手な時計を出さない傾向の可能性)",
+      "confidence": "低", "basis": "今回ドゥマーヴェリックの調教評価コメントが『乗込入念』=量を踏む仕上げ。1サンプルのみ・統計未確認のため暫定。human承認まで採用保留。"
+    }
+  ]
+}

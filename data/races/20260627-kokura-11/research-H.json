@@ -1,0 +1,321 @@
+{
+ "race_id": "20260627-kokura-11",
+ "observation_point": "H",
+ "observation_point_label": "当日気配・パドック・直前情報",
+ "as_of": "2026-06-26",
+ "race_class_expectation": "3勝クラス(条件戦・平場相当)。G1/重賞のような共同会見・追い切り後コメントの記事化はほぼ無い→厩舎/騎手コメントは空欄が正常。一部予想媒体の追い切り評価のみ取得可能。パドック・返し馬・確定馬体重・当日発汗は分析時点(レース前日)未取得=ユーザー補強推奨。",
+ "summary": "厩舎/騎手の今走向けコメント・出方(行く/控える)宣言は条件戦のため記事化されておらず取得不能(空欄が正常)。代替として予想媒体(鉄矢の競馬予想)の追い切り評価のみ素材化。追い切り高評価3頭=9ゴッドブルービー/13シンビリーブ/15パフ。好仕上がり=11ストップヤーニング/4ハリーケーン/3テーオールビー。残る馬の追い切り個別評価・全頭のパドック/返し馬/確定馬体重/当日発汗は未取得。媒体評価の追い切り言及のみ採用。",
+ "data_gaps": [
+  "全頭のパドック寸評・媒体パドック点数=未取得(レース前日のため未実施)",
+  "全頭の返し馬・当日発汗・気配=未取得",
+  "全頭の確定馬体重=未取得",
+  "厩舎/騎手の今走向けコメント(出方=行く/控える・自信度)=条件戦のため記事化なし・取得不能",
+  "追い切り評価は1媒体(鉄矢の競馬予想)のみ。1~2/5~8/10/12/14は個別追い切り言及なし(言及外=評価不明であり減点材料ではない)"
+ ],
+ "user_reinforcement_request": "当日のパドック評価(各社寸評・点数)・確定馬体重とその増減・返し馬/発汗の気配を貼り付けてもらえれば本観点のcond(状態項)を確信度を上げて再評価できる。現状は条件戦ゆえ素材が薄く確信度=低。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "ケイアイメキラ",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切り評価とも個別の取得情報なし。条件戦のためコメント記事化なし(空欄が正常)。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ジューンエオス",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切り評価とも個別の取得情報なし。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "テーオールビー",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0.5,
+   "confidence": "低",
+   "pros": [
+    "[H]追い切りで好仕上がりと評価され、上位争いに加わる態勢が整っているとの媒体評(鉄矢の競馬予想・2026-06下旬・今走に向けた調教評価)。"
+   ],
+   "cons": [],
+   "note_h": "[H]媒体の追い切り評価で『好仕上がり・上位争い態勢』。ただし1媒体のみ・タイム値の具体記載は無く確信度低。パドック/馬体重は未取得。",
+   "sources": [
+    "https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "ハリーケーン",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0.5,
+   "confidence": "低",
+   "pros": [
+    "[H]追い切りで好仕上がりと評価され、上位争いに加わる態勢が整っているとの媒体評(鉄矢の競馬予想・2026-06下旬・今走向け調教評価)。昇級初戦の状態面はマイナス材料なし。"
+   ],
+   "cons": [],
+   "note_h": "[H]媒体の追い切り評価で『好仕上がり』。昇級戦だが状態面の不安材料は記事化されず。1媒体のみ・確信度低。パドック/馬体重未取得。",
+   "sources": [
+    "https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "グランキングオー",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切り評価とも個別の取得情報なし。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "メイショウミカワ",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切り評価とも個別の取得情報なし。8歳だが状態面の言及なし。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "カネトシゴウト",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切り評価とも個別の取得情報なし(出馬表掲載のみ確認)。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "プロミシングスター",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切り評価とも個別の取得情報なし。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "ゴッドブルービー",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 1.5,
+   "confidence": "中",
+   "pros": [
+    "[H]追い切りで最も目を引いた3頭の1頭。コーナーワーク(CW)で79秒台を消化し、最終坂路でも終い11秒8と鋭い伸びを披露(鉄矢の競馬予想・2026-06下旬・今走向け調教評価)＝状態は上向きと読める。"
+   ],
+   "cons": [],
+   "note_h": "[H]今開催の追い切りで最高評価グループ。CW79秒台＋坂路終い11.8の具体タイムで好調を裏付け＝この観点単独で明確な加点。タイム値が具体的なため他馬より確信度やや高(中)。ただし1媒体・パドック/馬体重は未取得。",
+   "sources": [
+    "https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "マッシャーブルム",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切りの個別評価情報なし(展開上は先行争いの一角と媒体が言及するが、これは脚質予想であり状態評価ではないため本観点では加点せず=観点E/STEP4a素材)。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "ストップヤーニング",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0.5,
+   "confidence": "低",
+   "pros": [
+    "[H]追い切りで好仕上がりと評価され、上位争いに加わる態勢が整っているとの媒体評(鉄矢の競馬予想・2026-06下旬・今走向け調教評価)。"
+   ],
+   "cons": [],
+   "note_h": "[H]媒体の追い切り評価で『好仕上がり』。1媒体のみ・タイム具体値なし・確信度低。パドック/馬体重未取得。",
+   "sources": [
+    "https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "アレナパラシオ",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切りの個別評価情報なし(媒体は先行争いの一角と展開言及=脚質予想でありSTEP4a素材。状態評価ではないため本観点で加点せず)。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "シンビリーブ",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 1.0,
+   "confidence": "中",
+   "pros": [
+    "[H]追い切りで最も目を引いた3頭の1頭。入念な乗り込みで動きが軽快となり、立て直し効果は十分との媒体評(鉄矢の競馬予想・2026-06下旬・今走向け調教評価)＝休養/不振からの立て直しがプラスに出ていると読める。"
+   ],
+   "cons": [],
+   "note_h": "[H]今開催の追い切り高評価グループ。『立て直し効果十分』の表現は近走で間隔or不振があった示唆だが、状態が上向いた点は加点。具体タイム記載は無く確信度は中。パドック/馬体重・川田騎手の出方コメントは未取得(条件戦のため記事化なし)。",
+   "sources": [
+    "https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 14,
+   "name": "メイショウコガシラ",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note_h": "[H]当日気配・追い切りの個別評価情報なし。昇級初戦だが状態面の言及なし。確信度低。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  },
+  {
+   "no": 15,
+   "name": "パフ",
+   "paddock_note": null,
+   "warmup_note": null,
+   "sweat_condition": null,
+   "body_weight_confirmed": null,
+   "media_paddock_score": null,
+   "connections_comment": null,
+   "intent_signal": null,
+   "score": 1.5,
+   "confidence": "中",
+   "pros": [
+    "[H]追い切りで最も目を引いた3頭の1頭。CWと坂路でともに高水準の内容を消化し、前走以上の仕上がりを感じさせるとの媒体評(鉄矢の競馬予想・2026-06下旬・今走向け調教評価)＝状態は前走比で上向き。"
+   ],
+   "cons": [],
+   "note_h": "[H]今開催の追い切り最高評価グループ。『前走以上の仕上がり』＝前走比で状態上昇と明示され、この観点単独で明確な加点。CW/坂路とも高水準だがタイム具体値なし。1媒体ゆえ確信度中。パドック/馬体重未取得。",
+   "sources": [
+    "https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"
+   ]
+  }
+ ]
+}

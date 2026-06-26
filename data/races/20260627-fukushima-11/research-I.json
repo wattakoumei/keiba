@@ -1,0 +1,148 @@
+{
+  "race_id": "20260627-fukushima-11",
+  "observation_point": "I",
+  "lens": "リスク/割引要因（着順の取りこぼし要因：出遅れ/気性/脚部不安/斤量/不利枠/下降基調/初環境）",
+  "score_range": "0..-2 (減点専用)",
+  "method_note": "web検索は各馬DBのランディングのみで気性/出遅れ/脚部の個別記述が乏しかった。リスク判定の主証拠は出走表seed(直近4走の初角・着順・上り)＝下降基調/大頭数凡走/格上げの事実から取りこぼし要因を抽出。脚部不安は確証取れず＝推定/低のまま据え置き、過度な減点はしない。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "テーオーダグラス",
+      "score": -1.5,
+      "confidence": "中",
+      "cons": [
+        "[I] 直近4走で15着・13着・12着と二桁大敗が連続（下降基調）＝取りこぼし常習の懸念。3走前阪神は上り38.9で全く脚を使えず非効率な敗戦",
+        "[I] 直近むらさき賞8着(上り33.9)でやや上向きだが依然連対外＝勝ち負けの再現性は未確認"
+      ],
+      "pros": [],
+      "sources": [
+        "https://www.keibalab.jp/db/horse/2021102246/",
+        "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021102246/63",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ノーランサンライズ",
+      "score": -1.0,
+      "confidence": "中",
+      "cons": [
+        "[I] 福島勝ち(4角1着)→京都5着→中山16着→京都11着と時系列で下降基調。直近2走は2桁含む凡走で勢いを欠く",
+        "[I] 中山16着は上り39.8の極端な大敗＝道悪/不利の可能性ありだが内容として大きな取りこぼし歴（要因は推定）"
+      ],
+      "pros": [],
+      "sources": [
+        "https://www.keibalab.jp/db/horse/2022102219/",
+        "https://p.keibabook.co.jp/db/uma/0932972/seiseki",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ハニーコム",
+      "score": -0.5,
+      "confidence": "中",
+      "cons": [
+        "[I] 直近は京都2着(上り33.7)と良化基調で大きなリスクは小さいが、2走前中京12着の凡走があり成績の上下動（ムラ）が残る"
+      ],
+      "pros": [],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md",
+        "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "マリアイリダータ",
+      "score": 0.0,
+      "confidence": "中",
+      "cons": [
+        "[I] 直近4走1着・1着・2着・2着で上昇/充実の一途、斤量も牝56で増減なし＝目立つ取りこぼし要因は検出されず。気性難・脚部不安の関係者言及も確認できず（クリーン）。差し脚質×福島短直線の取りこぼしは展開(E)領域でここでは減点しない"
+      ],
+      "pros": [],
+      "sources": [
+        "https://poginfo.com/pogs/horseData/show/2022105064",
+        "https://p.keibabook.co.jp/db/uma/0936117/kinkyo",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ホウオウスーペリア",
+      "score": -1.0,
+      "confidence": "中",
+      "cons": [
+        "[I] 追込×決め手の質が鈍く上り最速でも35.5（しばしば37-38秒台）＝福島292m短直線では差し届かず脚を余す取りこぼし構造。1走で初角12番手と極端な後方からの競馬で展開待ちになりやすい",
+        "[I] 6歳で上積み余地は乏しく、近走も6着・11着・4着・6着と勝ち切れない頭打ち"
+      ],
+      "pros": [],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md",
+        "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022100626/B5"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ホルトバージ",
+      "score": -2.0,
+      "confidence": "中",
+      "cons": [
+        "[I] 直近4走が10着・8着・9着・11着と全て二桁前後で勝ち負けに全く絡めず、競争力欠如の長い不振（明確な下降/底ばい基調）",
+        "[I] 上りが36.7-38.4と一貫して遅く決め手不足。福島短直線で差し脚が間に合う見込みが薄い＝最大級の取りこぼしリスク。脚部不安の示唆も一部にあるが裏取り不十分（推定・確信度低）"
+      ],
+      "pros": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002021102905/20",
+        "https://poginfo.ddo.jp/pogs/horseData/show/2021102905",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "リーティアコナル",
+      "score": -0.5,
+      "confidence": "中",
+      "cons": [
+        "[I] 単騎逃げ想定で取りこぼしの主因はゲート＆主導権だが、直近も初角1番手連発でゲートは安定（出遅れ歴は確認できず）＝懸念は軽い",
+        "[I] 18頭立ての大頭数では7着・4着と止まる傾向＝厳しいペースや絡まれた時に残り170mの1.2m上りで甘くなる脆さ。今回9頭の楽な逃げなら軽減（条件付き懸念）"
+      ],
+      "pros": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022110040/CB",
+        "https://www.umadb.com/uma/au35766/skill/",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "フィオレストラーダ",
+      "score": -1.0,
+      "confidence": "中",
+      "cons": [
+        "[I] 前走2勝クラス勝ちでの昇級初戦＝格上げ割引。勝ち鞍2連勝はいずれも8頭立ての少頭数で、18頭立てでは13着と大頭数で崩れた歴あり（相手強化の不確実性）",
+        "[I] 先行脚質でアマイ・ハニーコム・リーティアコナルと前で主張が重なれば消耗のリスク（条件付き）"
+      ],
+      "pros": [],
+      "sources": [
+        "https://s.keibabook.co.jp/db/uma/0931388/top",
+        "https://www.keibalab.jp/db/horse/2022100626/",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "アマイ",
+      "score": -1.0,
+      "confidence": "中",
+      "cons": [
+        "[I] 直近4走は中山で7着・9着・5着・5着と勝ち切れず競争力が頭打ち。6歳牝で上積み余地は乏しい",
+        "[I] 直近4走すべて中山＝今回が福島への初輸送/環境替わりの可能性（右小回りで適性近いが未知）。先行/速のテンでリーティアコナルらと前を主張すれば序盤消耗の取りこぼしリスク"
+      ],
+      "pros": [],
+      "sources": [
+        "https://poginfo.com/pogs/horseData/show/2020100809",
+        "/Users/watasekoumei/development/keiba/data/races/20260627-fukushima-11/出走表.md"
+      ]
+    }
+  ]
+}

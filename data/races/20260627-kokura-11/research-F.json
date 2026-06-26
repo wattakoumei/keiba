@@ -1,0 +1,29 @@
+{
+  "observation": "F. 調教・厩舎仕上げ",
+  "race_id": "20260627-kokura-11",
+  "as_of": "2026-06-26",
+  "confidence_overall": "中",
+  "field_note": "追い切り評価の一次ソースは鉄矢の競馬予想(薩摩S2026記事)。最上位3頭=⑨ゴッドブルービー(CW79秒台+最終坂路終い11.8の鋭伸)・⑬シンビリーブ(入念乗込で動き軽快・立て直し効果)・⑮パフ(CW坂路とも高水準・前走以上)。好仕上がり=④ハリーケーン(昇級)・⑪ストップヤーニング(成長著)・③テーオールビー。これらはcondの上向きシグナル。残りの馬は具体時計が取得できず確信度低で中立。seed該当なし(好時計ランキング非掲載≠不良)。厩舎catalog空。横比較せず縦(前走比)で読み、好時計はcond補助に留め地力と統合する。",
+  "stable_intent_addendum_candidates": [
+    {"trainer": "森秀行", "labels": {"仕上げ型": "中間(暫定)", "追い切り常態": "標準(暫定)", "騎手起用": "選択的強化(暫定)"}, "confidence": "低", "basis": "⑬シンビリーブに立て直し後の入念な乗込+主戦級の川田を起用=この一戦の勝負気配。1走のみ確証薄"},
+    {"trainer": "角田晃一", "labels": {"仕上げ型": "中間(暫定)", "追い切り常態": "標準(暫定)", "騎手起用": "流動(暫定)"}, "confidence": "低", "basis": "⑨ゴッドブルービーをCW79秒台+坂路終い11.8でビシッと攻め、小倉巧者の現級突破狙いに仕上げ(攻め強め)"}
+  ],
+  "horses": [
+    {"no": 1, "name": "ケイアイメキラ", "pros": [], "cons": ["[F]最終追いの具体時計/動きが取得できず仕上がり不明=確信度低"], "score": 0, "confidence": "低", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 2, "name": "ジューンエオス", "pros": [], "cons": ["[F]追い切り具体情報が取得できず仕上がり不明=確信度低", "[F]牝馬で56kg・記事の調教注目馬から漏れ"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 3, "name": "テーオールビー", "pros": ["[F]記事で『好仕上がり』と評価される一頭=condやや上向き", "[F]先行争い当事者として追える状態に仕上がっている"], "cons": ["[F]最上位3頭には届かず・時計の具体値は未取得で確信度中"], "score": 1, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 4, "name": "ハリーケーン", "pros": ["[F]昇級初戦ながら追い切りで好仕上がり=上位争いの態勢が整ったと評価", "[F]調教注目馬群(④⑪③)に名が挙がる=condは平行〜上向き"], "cons": ["[F]昇級初戦で時計の絶対水準は未取得=確信度中"], "score": 1, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 5, "name": "グランキングオー", "pros": [], "cons": ["[F]追い切りの具体時計/動きが取得できず仕上がり不明=確信度低", "[F]記事の調教注目馬から漏れ"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 6, "name": "メイショウミカワ", "pros": [], "cons": ["[F]8歳・最終追いの具体情報が取得できず確信度低", "[F]記事の調教注目馬から漏れ"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 7, "name": "カネトシゴウト", "pros": [], "cons": ["[F]追い切りの具体情報が取得できず仕上がり不明=確信度低"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 8, "name": "プロミシングスター", "pros": [], "cons": ["[F]追い切りの具体情報が取得できず仕上がり不明=確信度低", "[F]記事の調教注目馬から漏れ"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 9, "name": "ゴッドブルービー", "pros": ["[F]CWで79秒台を消化し最終坂路で終い11.8の鋭い伸び=馬なり強度で好時計級の余力", "[F]併用追い(CW+坂路)で終い詰める=condは明確に上向き、追い切り最上位評価の一頭", "[F]角田晃一厩が小倉巧者の現級突破狙いでビシッと攻め強め=勝負気配(暫定)"], "cons": ["[F]終い11.8は速いが調教駆けの可能性は地力と統合して判断(好時計≠強さ)"], "score": 2, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 10, "name": "マッシャーブルム", "pros": [], "cons": ["[F]追い切りの具体情報が取得できず仕上がり不明=確信度低", "[F]前走(東大路S)初角9→16着と崩れており立て直し度合いが不明"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 11, "name": "ストップヤーニング", "pros": ["[F]『成長著しい』と評価され追い切りも好仕上がり=condは上向き(4歳の上昇基調)", "[F]調教注目馬群(⑪④③)に名が挙がる"], "cons": ["[F]時計の絶対値は未取得=確信度中"], "score": 1, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 12, "name": "アレナパラシオ", "pros": ["[F]逃げ宣言級の脚質で先行争い当事者=自分のペースを作れる状態にはある"], "cons": ["[F]追い切り好調の明確な記載はなく『先行候補』止まり=condは平行線評価(確信度中)"], "score": 0, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 13, "name": "シンビリーブ", "pros": ["[F]入念な乗り込みで動きが軽快=立て直し効果は十分、condは休み明けでも上向き", "[F]追い切り最上位3頭の一角・主戦級の川田騎乗=森厩の勝負気配(暫定)"], "cons": ["[F]立て直し明けで実戦での仕上がり完成度は当日要確認"], "score": 2, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]},
+    {"no": 14, "name": "メイショウコガシラ", "pros": [], "cons": ["[F]昇級初戦・追い切りの具体情報が取得できず仕上がり不明=確信度低", "[F]上りbestデータ欠損で調教比較材料も乏しい"], "score": 0, "confidence": "低", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202610020111"]},
+    {"no": 15, "name": "パフ", "pros": ["[F]CWと坂路ともに高水準の内容を消化し前走以上の仕上がり=condは明確に上向き", "[F]追い切り最上位3頭の一角=終い確実な差し脚を出せる状態"], "cons": ["[F]時計の具体ラスト値は未取得=確信度中、好時計が調教駆けでないか地力と統合"], "score": 2, "confidence": "中", "sources": ["https://www.keiba-jiku2.net/satsuma-stakes-2026-yosou/"]}
+  ],
+  "note": "鉄矢の競馬予想(薩摩S2026)記事のWebFetchは証明書エラーで本文取得不可、検索スニペットから抽出。追い切り最上位=⑨⑬⑮、好仕上がり=④⑪③で一貫。残り8頭は具体時計が取れず中立0・確信度低(=調教不良の判定ではなく情報欠損)。seed該当0頭。厩舎catalog空につき森秀行/角田晃一に暫定ラベルを追記候補で報告(確信度低)。"
+}

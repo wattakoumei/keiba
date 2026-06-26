@@ -1,0 +1,160 @@
+{
+  "observation_point": "H",
+  "observation_label": "当日気配・パドック・直前情報",
+  "race_id": "20260627-fukushima-10",
+  "race_name": "いわき特別",
+  "as_of": "2026-06-26",
+  "race_grade": "平場・条件戦(3歳上2勝クラス)",
+  "acquisition_expectation": "低（平場条件戦＝共同会見/追い切り後コメントはほぼ記事化されない。加えて分析時点は前日＝当日パドック・確定馬体重・返し馬・直前気配は未発生。空欄が正常）",
+  "field_note": "本観点の主素材（当日パドック気配・確定馬体重・発汗・返し馬・関係者の出方コメント）は前日時点では未存在。条件戦のため陣営コメントも記事化されておらず、ほぼ全頭で取得不能＝確信度低・score=0。唯一、追い切り注目馬リスト(競馬予想のホネ)に2頭が★★(中位)で掲載されたが、これは調教時計の動き(観点F領域)であり当日状態評価ではない。当日にユーザーがパドック評価・確定馬体重を貼れば本観点は再評価可能。捏造はしない。",
+  "user_reinforcement_needed": "当日（6/27）にパドック寸評・発汗/気配・確定馬体重(増減)・返し馬の各馬評価を貼り付けてください。本観点は当日情報が入って初めて有効化します。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ハイクオリティ",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得（前日時点で情報なし）",
+      "intent_note": "逃げ脚質だが今走の出方を示す陣営/騎手コメントは未取得",
+      "sources": []
+    },
+    {
+      "no": 2,
+      "name": "ラストレガシー",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "今走の戦法コメント未取得",
+      "sources": []
+    },
+    {
+      "no": 3,
+      "name": "リフレックス",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": ["[H/F境界] 追い切り注目馬リストに★★(中位)掲載=6/17美浦W＆6/24美浦W。最終追いを併用で動いた範囲（2026-06-25付・競馬予想のホネ）。当日状態評価ではなく時計面の動きとして弱い参考"],
+      "cons": [],
+      "comment_3set": {
+        "date": "2026-06-25頃",
+        "source": "競馬予想のホネ（追い切り注目馬）",
+        "type": "今走に向けた調教評価（媒体の主観・関係者コメントではない）",
+        "content": "6/17美浦W＆6/24美浦Wで★★(中位)評価"
+      },
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": ["https://www.yosounohone.com/entry/fukushima-2026-6-27"]
+    },
+    {
+      "no": 4,
+      "name": "ホウオウフロイト",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": []
+    },
+    {
+      "no": 5,
+      "name": "ショウナンヤッホー",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": []
+    },
+    {
+      "no": 6,
+      "name": "コックピットサイト",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": ["[H/F境界] 追い切り注目馬リストに★★(中位)掲載=6/17美浦坂路（2026-06-25付・競馬予想のホネ）。前走は芝(葵S)からダート替わり。最終追いを坂路で行った範囲。当日状態評価ではなく時計面の弱い参考"],
+      "cons": [],
+      "comment_3set": {
+        "date": "2026-06-25頃",
+        "source": "競馬予想のホネ（追い切り注目馬）",
+        "type": "今走に向けた調教評価（媒体の主観・関係者コメントではない）",
+        "content": "6/17美浦坂路で★★(中位)評価"
+      },
+      "paddock_note": "当日未取得",
+      "intent_note": "先行脚質だが今走(芝→ダート替わり)での出方を示す陣営コメントは未取得",
+      "sources": ["https://www.yosounohone.com/entry/fukushima-2026-6-27"]
+    },
+    {
+      "no": 7,
+      "name": "コスモマルーン",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": []
+    },
+    {
+      "no": 8,
+      "name": "ゲンパチルーナ",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": []
+    },
+    {
+      "no": 9,
+      "name": "ドゥマーヴェリック",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "先行脚質だが今走の出方を示す陣営/騎手(戸崎)コメントは未取得",
+      "sources": []
+    },
+    {
+      "no": 10,
+      "name": "ルクスメンデス",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": []
+    },
+    {
+      "no": 11,
+      "name": "オーケーマヒナ",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "comment_3set": null,
+      "paddock_note": "当日未取得",
+      "intent_note": "戦法コメント未取得",
+      "sources": []
+    }
+  ],
+  "overall_confidence": "低",
+  "sources": [
+    "https://www.yosounohone.com/entry/fukushima-2026-6-27",
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202603020110"
+  ]
+}

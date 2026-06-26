@@ -1,0 +1,484 @@
+{
+ "race_id": "20260627-kokura-11",
+ "observation_point": "E",
+ "observation_label": "展開証拠(脚質分類・先行争い当事者・枠の有利不利)",
+ "as_of": "2026-06-26",
+ "course_note": "小倉ダ1700: 初角まで343m・芝スタート無し・3/4角下りスパイラルでスピード持続=前残り寄り。直線291.3m平坦。初角343mあり外枠先行は包まれにくいが追走ロスもある。",
+ "leg_table": [
+  {
+   "no": 1,
+   "name": "ケイアイメキラ",
+   "style": "追込",
+   "ten_speed": "遅",
+   "expected_pos": "後方",
+   "source_basis": "seed(JRA精密)",
+   "confidence": "中",
+   "note": "テン遅・差し追込。後方一気型。seed素通し。"
+  },
+  {
+   "no": 2,
+   "name": "ジューンエオス",
+   "style": "追込",
+   "ten_speed": "中",
+   "expected_pos": "後方",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "牝。後方待機。seed素通し。"
+  },
+  {
+   "no": 3,
+   "name": "テーオールビー",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "差し。h2h東大路S・小倉城Sで中団〜後方追走。seed素通し。"
+  },
+  {
+   "no": 4,
+   "name": "ハリーケーン",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "好位",
+   "source_basis": "seed+web",
+   "confidence": "中",
+   "note": "昇級馬(last3/top3)。先行ラベル・テン中。内目で好位取り想定。ハナ主張は薄く番手以降。"
+  },
+  {
+   "no": 5,
+   "name": "グランキングオー",
+   "style": "先行",
+   "ten_speed": "速",
+   "expected_pos": "先行(番手〜好位)",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "テン速・先行。ハナ争いに絡みうるが逃げ実績は薄く番手寄り。父シニスターミニスター。"
+  },
+  {
+   "no": 6,
+   "name": "メイショウミカワ",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団後方",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "8歳差し。h2h豊前S・小倉城Sで後方。seed素通し。"
+  },
+  {
+   "no": 7,
+   "name": "カネトシゴウト",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "好位",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "先行・テン中だが上り35.5と末も持つ好位差し寄り。ハナ主張は薄い。"
+  },
+  {
+   "no": 8,
+   "name": "プロミシングスター",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "差し・上り36.3。中団から。seed素通し。"
+  },
+  {
+   "no": 9,
+   "name": "ゴッドブルービー",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "差し。h2h豊前S(fc4/pos2)・小倉城S(pos4)で中団好位差し。seed素通し。"
+  },
+  {
+   "no": 10,
+   "name": "マッシャーブルム",
+   "style": "逃げ",
+   "ten_speed": "中",
+   "expected_pos": "逃げ〜番手",
+   "source_basis": "seed+web",
+   "confidence": "中",
+   "note": "逃ラベルだがテン中。ハナ主張しうるが⑫のテン速には引いて番手の公算。h2h東大路S(fc9/pos16)では後方に沈んだ前歴あり=ハナ取れぬと脆い。"
+  },
+  {
+   "no": 11,
+   "name": "ストップヤーニング",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "差し・上り36.2。h2h阪神2勝C(fc2/pos6)・和布刈特別(pos3)中団差し。seed素通し。"
+  },
+  {
+   "no": 12,
+   "name": "アレナパラシオ",
+   "style": "逃げ",
+   "ten_speed": "速",
+   "expected_pos": "逃げ(ハナ筆頭)",
+   "source_basis": "seed+web(確認)",
+   "confidence": "高",
+   "note": "テン速・逃。河北新報杯(fc1/pos1)・奥羽S(fc1)で逃げ切り/逃げ。『スッと先手を取り引きつけて運ぶ』戦法。本線のハナ。小回り適性高。"
+  },
+  {
+   "no": 13,
+   "name": "シンビリーブ",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "好位",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "先行・テン中。先行/差し両様の前歴。川田騎乗で好位インを取りに行く公算。ハナ主張は薄い。"
+  },
+  {
+   "no": 14,
+   "name": "メイショウコガシラ",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "先行(好位)",
+   "source_basis": "seed(class_move:昇級・前走1着)",
+   "confidence": "低",
+   "note": "昇級馬(last1/top1=前走勝ち上がり)。seedは先行ラベル。テン速データ欠損(agari_best null)。web戦績は障害戦混入のノイズで脚質特定できず=確信度低。前走勝ち上がりで前付け意欲ある可能性は留意。"
+  },
+  {
+   "no": 15,
+   "name": "パフ",
+   "style": "追込",
+   "ten_speed": "中",
+   "expected_pos": "後方",
+   "source_basis": "seed",
+   "confidence": "中",
+   "note": "追込・上り35.8の鋭い末。h2h河北新報杯(fc2/pos3)・響灘特別(pos3)・由布院特別(fc13/pos1)。⑫アレナパラシオの後ろから差す形。seed素通し。"
+  }
+ ],
+ "front_contention": {
+  "hana_principal": {
+   "no": 12,
+   "name": "アレナパラシオ",
+   "basis": "テン速・逃ラベル・河北新報杯/奥羽S(fc1)逃げ切り実績・『スッと先手』戦法コメント(2025-11-09河北新報杯回顧由来=出方の傾向証拠)"
+  },
+  "hana_challengers": [
+   {
+    "no": 10,
+    "name": "マッシャーブルム",
+    "basis": "逃ラベルだがテン中。ハナ主張しうるが⑫のテン速には引いて番手の公算。"
+   },
+   {
+    "no": 5,
+    "name": "グランキングオー",
+    "basis": "テン速・先行。前に行く脚はあるがハナ実績薄=番手争い側。"
+   }
+  ],
+  "likely_pull_back": [
+   {
+    "no": 4,
+    "name": "ハリーケーン",
+    "basis": "先行ラベルだがハナ主張薄・番手以降"
+   },
+   {
+    "no": 7,
+    "name": "カネトシゴウト",
+    "basis": "先行だが上り35.5の好位差し寄り・ハナ主張薄"
+   },
+   {
+    "no": 13,
+    "name": "シンビリーブ",
+    "basis": "先行だが好位インを取る型・ハナ主張薄"
+   },
+   {
+    "no": 14,
+    "name": "メイショウコガシラ",
+    "basis": "昇級先行馬・前付け意欲あるかは不確定(確信度低)"
+   }
+  ],
+  "synthesis_hint": "ハナは⑫アレナパラシオが本線。⑩マッシャーブルムが引かず競ればハイペース化リスク(⑫はテン速なので⑩が無理に張り合うと共倒れ→⑦⑪⑮ら差し台頭)。⑩が素直に番手に控えれば⑫マイペース単騎逃げ→前残り(下りスパイラルで持続)。⑤も絡むと番手列が窮屈。3着以内に差し勢が来るかは先行争いの激化度で分岐=STEP4aで合成。"
+ },
+ "draw_bias": {
+  "course_basis": "初角まで343m・芝スタート無し・下りスパイラルで前残り寄り。初角343mあり外枠先行は包まれにくいが追走ロスもある(course-geometry.md 小倉ダ1700)。",
+  "notes": [
+   {
+    "no_range": "内枠(1-5)",
+    "effect": "先行勢(④⑤)はロスなく好位確保しやすい。⑫より内のハナ争いは限定的。"
+   },
+   {
+    "no_range": "中枠(6-10)",
+    "effect": "⑩逃げは中枠から。包まれにくく無難。"
+   },
+   {
+    "no_range": "外枠(11-15)",
+    "effect": "⑫アレナパラシオは外だが初角343m+テン速で先手を取りに行ける(外枠不利を相殺)。⑬⑭先行は追走ロスやや有。⑮追込は後方外で進路自由。"
+   }
+  ],
+  "summary": "初角343mで極端な外枠不利は出にくいコース。前残り寄り。先行争い当事者の枠は⑫(外12枠)が最も前・⑩(中10枠)番手・⑤(内5枠)好位で、⑫が外から主張しても初角まで距離があり包まれにくい。"
+ },
+ "lead_contenders_for_synthesis": [
+  {
+   "no": 12,
+   "name": "アレナパラシオ",
+   "stance": "ハナ筆頭。テン速・逃げ切り実績・単騎なら楽逃げ→前残り起点"
+  },
+  {
+   "no": 10,
+   "name": "マッシャーブルム",
+   "stance": "番手濃厚だがハナ主張すれば競り合いでハイ化トリガー"
+  },
+  {
+   "no": 5,
+   "name": "グランキングオー",
+   "stance": "テン速の番手争い。列を窮屈にしうる"
+  },
+  {
+   "no": 15,
+   "name": "パフ",
+   "stance": "⑫の直後を追走できる差し(h2hで⑫の3着追走実績)=ハイ化なら筆頭で台頭"
+  }
+ ],
+ "sources": [
+  "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002021100752/D7 (⑫アレナパラシオ JRA)",
+  "https://s.keibabook.co.jp/cyuou/seiseki/202503060210 (⑫河北新報杯 逃げ切り)",
+  "https://news.netkeiba.com/?pid=news_view&no=300941 (⑩マッシャーブルム 戦法分析・記者予想は証拠不採用/逃ラベルはseed)",
+  "https://umanity.jp/en/racedata/db/horse_top.php?code=2022106453 (④ハリーケーン)",
+  "https://umanity.jp/en/racedata/db/horse_top.php?code=2022100664 (⑤グランキングオー)"
+ ],
+ "completeness": "全15頭カバー。深掘り=先行争い当事者⑫⑩⑤④⑦⑬⑭。差し追込勢はseed素通し。",
+ "limits": "⑭メイショウコガシラはテン速データ欠損+web戦績ノイズ(障害混入)で出方確信度低。⑩のハナ主張強度は当日次第。馬場バイアスは観点D担当のため未調査。",
+ "legs": [
+  {
+   "no": 1,
+   "name": "ケイアイメキラ",
+   "style": "追込",
+   "ten_speed": "遅",
+   "expected_pos": "後方",
+   "pros": [],
+   "cons": [
+    "テン遅・差し追込。後方一気型。seed素通し。"
+   ],
+   "sources": [
+    "seed(JRA精密)"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ジューンエオス",
+   "style": "追込",
+   "ten_speed": "中",
+   "expected_pos": "後方",
+   "pros": [],
+   "cons": [
+    "牝。後方待機。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "テーオールビー",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "pros": [],
+   "cons": [
+    "差し。h2h東大路S・小倉城Sで中団〜後方追走。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "ハリーケーン",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "好位",
+   "pros": [],
+   "cons": [
+    "昇級馬(last3/top3)。先行ラベル・テン中。内目で好位取り想定。ハナ主張は薄く番手以降。"
+   ],
+   "sources": [
+    "seed+web"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "グランキングオー",
+   "style": "先行",
+   "ten_speed": "速",
+   "expected_pos": "先行(番手〜好位)",
+   "pros": [],
+   "cons": [
+    "テン速・先行。ハナ争いに絡みうるが逃げ実績は薄く番手寄り。父シニスターミニスター。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "メイショウミカワ",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団後方",
+   "pros": [],
+   "cons": [
+    "8歳差し。h2h豊前S・小倉城Sで後方。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "カネトシゴウト",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "好位",
+   "pros": [],
+   "cons": [
+    "先行・テン中だが上り35.5と末も持つ好位差し寄り。ハナ主張は薄い。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "プロミシングスター",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "pros": [],
+   "cons": [
+    "差し・上り36.3。中団から。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "ゴッドブルービー",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "pros": [],
+   "cons": [
+    "差し。h2h豊前S(fc4/pos2)・小倉城S(pos4)で中団好位差し。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "マッシャーブルム",
+   "style": "逃げ",
+   "ten_speed": "中",
+   "expected_pos": "逃げ〜番手",
+   "pros": [],
+   "cons": [
+    "逃ラベルだがテン中。ハナ主張しうるが⑫のテン速には引いて番手の公算。h2h東大路S(fc9/pos16)では後方に沈んだ前歴あり=ハナ取れぬと脆い。"
+   ],
+   "sources": [
+    "seed+web"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "ストップヤーニング",
+   "style": "差し",
+   "ten_speed": "中",
+   "expected_pos": "中団",
+   "pros": [],
+   "cons": [
+    "差し・上り36.2。h2h阪神2勝C(fc2/pos6)・和布刈特別(pos3)中団差し。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "アレナパラシオ",
+   "style": "逃げ",
+   "ten_speed": "速",
+   "expected_pos": "逃げ(ハナ筆頭)",
+   "pros": [],
+   "cons": [
+    "テン速・逃。河北新報杯(fc1/pos1)・奥羽S(fc1)で逃げ切り/逃げ。『スッと先手を取り引きつけて運ぶ』戦法。本線のハナ。小回り適性高。"
+   ],
+   "sources": [
+    "seed+web(確認)"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "シンビリーブ",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "好位",
+   "pros": [],
+   "cons": [
+    "先行・テン中。先行/差し両様の前歴。川田騎乗で好位インを取りに行く公算。ハナ主張は薄い。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  },
+  {
+   "no": 14,
+   "name": "メイショウコガシラ",
+   "style": "先行",
+   "ten_speed": "中",
+   "expected_pos": "先行(好位)",
+   "pros": [],
+   "cons": [
+    "昇級馬(last1/top1=前走勝ち上がり)。seedは先行ラベル。テン速データ欠損(agari_best null)。web戦績は障害戦混入のノイズで脚質特定できず=確信度低。前走勝ち上がりで前付け意欲ある可能性は留意。"
+   ],
+   "sources": [
+    "seed(class_move:昇級・前走1着)"
+   ]
+  },
+  {
+   "no": 15,
+   "name": "パフ",
+   "style": "追込",
+   "ten_speed": "中",
+   "expected_pos": "後方",
+   "pros": [],
+   "cons": [
+    "追込・上り35.8の鋭い末。h2h河北新報杯(fc2/pos3)・響灘特別(pos3)・由布院特別(fc13/pos1)。⑫アレナパラシオの後ろから差す形。seed素通し。"
+   ],
+   "sources": [
+    "seed"
+   ]
+  }
+ ],
+ "lead_contenders": [
+  {
+   "no": 12,
+   "name": "アレナパラシオ",
+   "stance": "ハナ筆頭。テン速・逃げ切り実績・単騎なら楽逃げ→前残り起点"
+  },
+  {
+   "no": 10,
+   "name": "マッシャーブルム",
+   "stance": "番手濃厚だがハナ主張すれば競り合いでハイ化トリガー"
+  },
+  {
+   "no": 5,
+   "name": "グランキングオー",
+   "stance": "テン速の番手争い。列を窮屈にしうる"
+  },
+  {
+   "no": 15,
+   "name": "パフ",
+   "stance": "⑫の直後を追走できる差し(h2hで⑫の3着追走実績)=ハイ化なら筆頭で台頭"
+  }
+ ]
+}
