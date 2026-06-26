@@ -1,0 +1,255 @@
+{
+ "observation_point": "H",
+ "observation_label": "当日気配・パドック・直前情報",
+ "race_id": "20260627-kokura-10",
+ "race_name": "宗像特別（3歳上2勝クラス）",
+ "race_grade": "平場・条件戦（2勝クラス）",
+ "as_of": "2026-06-26（前日・分析時点）",
+ "overall_confidence": "低",
+ "field_note": "本レースは平場の3歳上2勝クラス（条件戦）。特則どおり共同会見・追い切り後コメント・パドック点が記事化される期待値は低く、web取得はほぼ全頭で欠損（=空欄が正常）。加えて分析時点が前日（6/26）のため、当日パドック・返し馬・発汗気配・確定馬体重は未発生で物理的に未取得。よって本観点は全頭スコア0近傍・確信度低。当日ユーザー補強（パドック評価・確定馬体重・返し馬の貼り付け）を強く推奨。",
+ "acquisition_expectation": "低（平場2勝クラス＋前日時点＝コメント/パドック未取得が正常）",
+ "user_augmentation_request": "当日のパドック寸評・確定馬体重（前走比増減）・返し馬の気配・直前の発汗/イレ込みを貼り付けで補強してほしい。特に展開トリガーとなる逃げ4頭（②ホーリーブラッサム・④ジェニファー・⑦スネーフリンガ・⑫クォーツァイト）の気配・気合乗りと、騎手の出方コメント（行く/控える）があれば最優先で。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "ミキノバカラ",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場2勝クラス＝当日気配/コメント未取得（欠損）。当日パドック・馬体重で補強要。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ホーリーブラッサム",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": "斉藤崇調教師名義で『少し力強くなってきた。重賞でどんな競馬ができるか』という談話が検索サマリに出たが、文言が重賞に向けたもの＝今回の宗像特別(平場)に向けた今走コメントではない／別レース・過去回顧の可能性が高い。3点セット(日付・出典本文・今走か否か)を確定できないため今走の戦法素材としては不採用。",
+   "media_paddock_score": null,
+   "intent_running_style": "脚質シードは逃げ(テン速)。ただし上記コメントは今走の出方を示す根拠にならない（誤読回避のため戦法には反映しない）。",
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "唯一コメント断片がヒットしたが今走非該当の疑い濃厚＝採用せず確信度低。逃げ4頭の1頭=展開トリガー馬なので当日の気合乗り/出方コメントを最優先で補強要。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110",
+    "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002022103060%2F03"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "メイショウミリオレ",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝当日気配/コメント未取得（欠損）。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "ジェニファー",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。逃げ4頭の1頭=展開トリガー馬。当日の出方コメント・気配を補強要。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "オオナミコナミ",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "ヤマニンレセディ",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "スネーフリンガ",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。逃げ4頭の1頭=展開トリガー馬。当日の出方コメント・気配を補強要。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "ロードトレゾール",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。先行馬＝隊列に絡むので当日の出方が分かれば補強価値あり。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "ブリーズオンチーク",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "ルージュサウダージ",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。3歳・斤量53.0だが本観点では当日気配が未取得のため評価保留。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "サディーク",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "クォーツァイト",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。逃げ4頭の1頭=展開トリガー馬。当日の出方・気配を補強要。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "シュブロンレーヴル",
+   "paddock": null,
+   "warmup": null,
+   "sweat_condition": null,
+   "connection_comment": null,
+   "media_paddock_score": null,
+   "intent_running_style": null,
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [],
+   "note": "前日時点・平場＝未取得（欠損）。",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110"
+   ]
+  }
+ ],
+ "sources_master": [
+  "https://race.netkeiba.com/race/shutuba.html?race_id=202610020110",
+  "https://www.keibalab.jp/db/race/202606271010/past.html",
+  "https://tospo-keiba.jp/race/202610020110/race-detail/rating",
+  "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002022103060%2F03"
+ ]
+}

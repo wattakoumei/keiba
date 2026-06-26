@@ -1,0 +1,37 @@
+{
+  "race_id": "20260627-kokura-10",
+  "observation_point": "D",
+  "lens": "コース/距離/馬場適性",
+  "as_of": "2026-06-26",
+  "course_context": {
+    "static_geometry_source": "references/course-geometry.md (再調査せず正本使用)",
+    "course_constant_facts": {
+      "脚質傾向": "逃げ 勝率25.8%/複勝47.0%、先行 勝率10.1%/複勝34.6%、差し 勝率4.6%/複勝16.3%、追込 勝率1.5%/複勝4.4%。前残り傾向が強く差し追込は不利",
+      "枠順傾向": "7枠 複勝23.0%(最高)、8枠 複勝20.9%、1枠 複勝19.2%、2枠 複勝16.1%(最低)。外枠やや有利(初角まで距離があり包まれにくい)",
+      "性質": "テン3F超高速の純スプリント・コーナリング技術も問う。息を入れる区間なし",
+      "source": "https://keiba-course.com/course/kokura-turf-1200/"
+    },
+    "current_meet_facts": {
+      "芝張替え": "第1回小倉終了後にコース全周の内側を中心に約23,700平方mを芝張替え。6月開催は更新後の芝(生育やや不揃いの箇所ありも概ね良好)",
+      "整備": "6/22(月)に芝刈り実施",
+      "含水率クッション値": "分析時点(当日馬場)未確定=欠損",
+      "source": "https://www.jra.go.jp/keiba/baba/index2.html"
+    }
+  },
+  "horses": [
+    {"no":1,"name":"ミキノバカラ","score":-1.0,"confidence":"低","note":"差し脚質×前残りコースで枠も最内1枠=コース形状とミスマッチ。当該コース実績は未取得","sources":["https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":2,"name":"ホーリーブラッサム","score":0.0,"confidence":"中","note":"逃げ質はコース合うが過去は芝1400m中心(新馬1400逃切→近走1400)で芝1200実績薄い。距離短縮の可否が鍵=未知。逃げて押し切れれば前残りコースは追い風","sources":["https://db.netkeiba.com/horse/result/2022103060/"]},
+    {"no":3,"name":"メイショウミリオレ","score":-1.5,"confidence":"低","note":"追込・上がり最速型。芝1200で13着(1:08.5)など短距離合わず。前残りコースで脚質最不適","sources":["https://db.netkeiba.com/horse/result/2021103278/"]},
+    {"no":4,"name":"ジェニファー","score":2.0,"confidence":"高","note":"前走5/10小倉芝1200mで2着(1:09.7)=当該コース当該距離直近好走。逃げ質で前残りコースに最適。2024-25でなく直近実績で鮮度高","sources":["https://db.netkeiba.com/horse/result/2021103932/","https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":5,"name":"オオナミコナミ","score":-1.0,"confidence":"低","note":"差し脚質×前残りコースでミスマッチ。エピファネイア産駒2-3-0-1も当該コース1200実績は未取得","sources":["https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":6,"name":"ヤマニンレセディ","score":0.0,"confidence":"低","note":"差し(テン中)で上がり33.5。前残りコースでは展開待ちだがテンに脚あれば中団から。当該コース実績未取得","sources":["https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":7,"name":"スネーフリンガ","score":0.5,"confidence":"中","note":"逃げ質はコース合致(2勝・3走)。サンダースノー産駒。逃げ複勝47%コースで先手取れれば加点。当該コース1200実績は明確に取れず","sources":["https://db.netkeiba.com/horse/2022103039/","https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":8,"name":"ロードトレゾール","score":0.5,"confidence":"中","note":"先行質(テン速)でコース合致。ロードカナロア産駒=スプリント血統。19戦2勝で勝ち切り力は限定的だが先行複勝34.6%コースは追い風","sources":["https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":9,"name":"ブリーズオンチーク","score":-1.0,"confidence":"低","note":"追込・上がり型(遅テン)。前残りコースで脚質不適。当該コース実績未取得","sources":["https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":10,"name":"ルージュサウダージ","score":0.5,"confidence":"中","note":"芝1200で2勝(萌黄賞・山茶花賞いずれも良)・近走AOIステークス(G3 京都芝1200)。3歳53kg軽量。追込脚質は前残りコースで割引だが芝1200の地力上位・上がり33.2と切れる→ハイペース化なら台頭","sources":["https://en.netkeiba.com/db/horse/2023103721/","https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":11,"name":"サディーク","score":1.0,"confidence":"中","note":"前走5/3小倉芝1200mで5着・3/15に芝1200で1着=当該コース当該距離の直近経験あり。差し質でコース脚質はやや割引も1200適性は確認できた","sources":["https://db.netkeiba.com/horse/result/2022110063/","https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":12,"name":"クォーツァイト","score":-0.5,"confidence":"低","note":"逃げ質はコース合うが上がり最速37.2と鈍く近走1400中心で芝1200実績薄い。ダイワメジャー産駒。テン速いが押し切り力に疑問","sources":["https://db.netkeiba.com/horse/result/2021104777/","https://keiba-course.com/course/kokura-turf-1200/"]},
+    {"no":13,"name":"シュブロンレーヴル","score":-0.5,"confidence":"低","note":"差し(テン中・上がり33.7)。オルフェーヴル産駒で道悪適性は血統的に注目だが前残りコースで脚質割引。当該コース1200実績未取得","sources":["https://keiba-course.com/course/kokura-turf-1200/"]}
+  ],
+  "field_note": "小倉芝1200mは逃げ複勝47%・先行34.6%と前残り傾向が顕著で差し追込(複勝16/4%)は構造的に不利。外枠7-8枠やや有利。テン超高速の純スプリント。2026年は第1回終了後に内側中心の芝張替えがあり6月開催は更新後の芝。馬場状態・含水率・クッション値は当日未確定=欠損。逃げ先行で枠が外目の馬を素直に加点、追込型は割引。ただし先行集中で前傾化すれば前崩れ→差し台頭の可能性は合成側で評価。"
+}
