@@ -13,6 +13,9 @@ const INTENT_CLASS = { '↑↑': 'i-up2', '↑': 'i-up', '→': 'i-flat', '↓':
 // 脚質タイプの色（逃→先→差→追＝前→後を暖→寒で）。§2有利脚質と§3着順表で共通。
 const LEG_COLOR = { '逃': 'leg-nige', '先': 'leg-senko', '差': 'leg-sashi', '追': 'leg-oikomi' };
 
+// win_prob/place_prob (0..1) → "14.6%"。欠損は "—"。源=score_race.py の決定論出力（並びは論理が主・率は参考＝市場を見ない内在値）。
+const pct = (v) => (typeof v === 'number' ? (v * 100).toFixed(1) + '%' : '—');
+
 // 脚質文字列の 逃/先/差/追 だけ着色（"先〜好位""差・捲り" 等の他文字はそのまま）
 function LegType({ text = '' }) {
   return (
@@ -192,7 +195,7 @@ export default function RaceView({ race }) {
       <div class="scroll-x">
         <table class="rank-table">
           <thead>
-            <tr><th></th><th>印</th><th>枠馬</th><th>馬名 / 騎手</th><th>展開列</th><th>展開感度</th><th></th></tr>
+            <tr><th></th><th>印</th><th>単勝</th><th>複勝</th><th>枠馬</th><th>馬名 / 騎手</th><th>展開列</th><th>展開感度</th><th></th></tr>
           </thead>
           <tbody>
             {rows.map((r) => {
@@ -205,6 +208,8 @@ export default function RaceView({ race }) {
                   <tr class={`row ${dim ? 'dim' : ''} ${hitSym ? 'hit ' + FIT_CLASS[hitSym] : ''} ${isExcluded ? 'excluded' : ''}`}>
                     <td><button class="exp" onClick={() => toggleExpand(r.no)} aria-label="詳細">{open ? '▾' : '▸'}</button></td>
                     <td><span class={`mark ${MARK_CLASS[r.mark] || ''}`}>{r.mark}</span></td>
+                    <td class="prob nowrap">{pct(r.win_prob)}</td>
+                    <td class="prob nowrap">{pct(r.place_prob)}</td>
                     <td class="nowrap">{r.gate}-{r.no}</td>
                     <td class="cell-horse" onClick={() => toggleExpand(r.no)}>
                       <div class="hname">{starred.has(r.no) ? '⭐ ' : ''}{r.horse}{r.intent ? <span class={`intent ${INTENT_CLASS[r.intent] || 'i-flat'}`} title="勝負気配度（陣営の本気度: F追い切り+K起用+H気配。能力とは独立）">{r.intent}</span> : null}</div>
@@ -225,7 +230,7 @@ export default function RaceView({ race }) {
                   </tr>
                   {open && (
                     <tr class="detail-row">
-                      <td colSpan={7}>
+                      <td colSpan={9}>
                         <div class="row-detail">
                           <div class="pc">
                             <h4>好材料</h4>
@@ -248,6 +253,7 @@ export default function RaceView({ race }) {
       <p class="sub">
         印 ◎本命 ◯対抗 ▲単穴 △連下 ×注意 注ヒモ。展開列 ◎中心/○圏内/△一発（圏外は非表示）。
         脚質 <LegType text="逃" /> <LegType text="先" /> <LegType text="差" /> <LegType text="追" />。
+        <strong>単勝/複勝</strong>はエンジン(score_race)の決定論値＝<strong>並びは印の論理が主</strong>・率は参考（市場を見ない内在値＝目安）。
         除外・注目は端末内のみ（共有されません）。
       </p>
 

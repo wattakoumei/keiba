@@ -22,9 +22,10 @@
 | `.claude/skills/analyze-race/references/stable-intent-rubric.md` | **厩舎の勝負気配傾向**（3次元の型ラベル＝仕上げ型/追い切り常態/騎手起用）の定義＋lazy catalog。F/K に spawn 注入し `intent` の"普段の基準"に使う。半静的・有料DB不要・総合力とは独立。出会った厩舎を追記候補→human承認で追記。 |
 | `.claude/skills/analyze-race/references/scraping.md` | `tools/fetch_racecard.py`（出走表/当日カード）・`tools/fetch_oikiri.py`（追い切り好時計seed=観点F）の使い方・場コード・JRA/競馬ラボ/競馬ブック経路。 |
 | `.claude/skills/review-prediction/SKILL.md` | `/review-prediction`：**2スコアカード採点**・A/B/C 仕分け・修正先ルーティング・results.jsonl 形式。 |
-| `tools/score_race.py` | 任意サニティチェックの決定論実装（並びの整合のみ。%の正本ではない）。 |
+| `tools/score_race.py` | **単勝率/複勝率(win_prob/place_prob)の決定論生成器**＝毎回回して `rank[]` に注入(I8)＋並びの整合サニティ。率は数値Fのみ・**並びは論理が主**（食い違いは engine_check）。 |
 | `tools/weight_adjust.py` | **斤量・馬格(馬体重)×馬場/芝ダ/距離の決定論 seed-enricher**（出走表.mdから符号付き重量タグ＋先行勢の共倒れ判定 front_verdict）。3チャンネル＝pace(斤量×先行→共倒れ・展開合成へ)／I(斤量減点)／D/G(馬格×馬場のパワー適性)。%禁止・**実効標準基準（定量/別定は牝を性別手当ぶん中立化→実効中央値＝性別差を消し年齢/別定加増だけ残す。ハンデは実斤量が信号）**・閾値の正本。当日は`--going`/`--weights`で再算定。spawn注入＝web再調査しない(I10)。 |
-| `tools/validate_report.py` | report.json の**スキーマ＋I2(%禁止)＋I5(複数パターン必須)＋全頭カバー(rank=field_size)**ゲート（STEP5必須・依存ゼロ）。 |
+| `tools/inject_probs.py` | **単勝率/複勝率の注入器**（I8・STEP5必須）。research-*.json の観点スコア＋report.json の `pace.patterns`/`leg_table` から `score_race` を決定論で回し `win_prob`/`place_prob` を rank[] に書き戻す。率の手組みゼロ・**並びは論理が主**（率順に並べ替えない・食い違いは engine_check の素）。 |
+| `tools/validate_report.py` | report.json の**スキーマ＋I2(%禁止)＋I5(複数パターン必須)＋全頭カバー(rank=field_size)＋率2カラム(win_prob/place_prob 0..1・全頭)**ゲート（STEP5必須・依存ゼロ）。 |
 | `tools/validate_research_bundle.py` | **`used_observations`↔実 `research-<観点>.json` の対応ゲート**（観点欠落の無検知を塞ぐ＝P6対策・STEP5必須）。schema検証とは別tool＝過去レースの `--all` schema検証を壊さない。 |
 | **── 選別レイヤー（`/screen-card`・予想とは別レイヤー・I1-S 市場隔離）──** | |
 | `.claude/skills/screen-card/SKILL.md` | `/screen-card` の**手順**（STEP1 カード取得→2 条件荒れ度→3 団子度(オッズ)→4 shortlist→5 軽量X→6 マトリクス配置）。日付＋開催場から勝負レースを絞る。 |
@@ -38,6 +39,7 @@
 | やりたいこと | 主に直すファイル |
 |---|---|
 | レポートの**列・見た目・分量**（行を増減、列追加、書式） | `output-template.md`（必要なら CLAUDE.md データ配置の1行も） |
+| **単勝率/複勝率の2カラム**（率の算出・描画・注入） | `tools/score_race.py`（win_prob/place_prob の生成＝源）＋ `output-template.md`（rank スキーマ・web描画）＋ `analyze-race/SKILL.md`（race.json組立・注入）＋ I2/I8（`harness-invariants.md`）。**並びは論理が主・率は参考列** |
 | **不変則**（% / 市場 / mermaid / サマリ等の方針） | `harness-invariants.md` → 各文書のエコーを追従（下記手順） |
 | **観点の調査手順・クエリ・ソース・スコア指針**を1つ調整 | `.claude/agents/obs-<id>.md`（その観点の subagent だけ） |
 | **観点の追加/削除・相別マッピング・グルーピング**（着順の読み筋＝レビューA系の修正先） | `observation-points.md`（追加時は新 `.claude/agents/obs-*.md` ＋ SKILL の `AGENT_OF` も） |

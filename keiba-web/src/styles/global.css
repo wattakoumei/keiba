@@ -75,6 +75,8 @@ th, td { text-align: left; padding: 6px 7px; border-bottom: 1px solid var(--line
 th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .num { text-align: right; font-variant-numeric: tabular-nums; }
+/* 単勝/複勝率（score_race 由来の参考値）。等幅数字・控えめ色＝並びの主役は印、率は添え物 */
+.prob { text-align: right; font-variant-numeric: tabular-nums; font-size: 0.84rem; color: var(--muted); }
 .nowrap { white-space: nowrap; }
 
 /* ---- pattern detail ---- */

@@ -63,6 +63,8 @@ def build_ranks(d):
             "mark": r.get("mark"),
             "rank_order": r.get("rank_order"),
             "intent": r.get("intent", "→"),
+            "win_prob": r.get("win_prob"),       # score_race 由来の単勝率（0..1・無ければ None）。review の補助採点用＝並びの主は論理
+            "place_prob": r.get("place_prob"),   # 同・複勝率（top3 Harville近似）
             "pattern_fit": r.get("pattern_fit", {}),
             "pace_sensitivity": r.get("pace_sensitivity", ""),
             "pros": r.get("pros", []),
