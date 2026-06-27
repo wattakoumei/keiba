@@ -23,6 +23,7 @@
 | `.claude/skills/analyze-race/references/scraping.md` | `tools/fetch_racecard.py`（出走表/当日カード）・`tools/fetch_oikiri.py`（追い切り好時計seed=観点F）の使い方・場コード・JRA/競馬ラボ/競馬ブック経路。 |
 | `.claude/skills/review-prediction/SKILL.md` | `/review-prediction`：**2スコアカード採点**・A/B/C 仕分け・修正先ルーティング・results.jsonl 形式。 |
 | `tools/score_race.py` | 任意サニティチェックの決定論実装（並びの整合のみ。%の正本ではない）。 |
+| `tools/weight_adjust.py` | **斤量・馬格(馬体重)×馬場/芝ダ/距離の決定論 seed-enricher**（出走表.mdから符号付き重量タグ＋先行勢の共倒れ判定 front_verdict）。3チャンネル＝pace(斤量×先行→共倒れ・展開合成へ)／I(斤量減点)／D/G(馬格×馬場のパワー適性)。%禁止・中央値基準・閾値の正本。当日は`--going`/`--weights`で再算定。spawn注入＝web再調査しない(I10)。 |
 | `tools/validate_report.py` | report.json の**スキーマ＋I2(%禁止)＋I5(複数パターン必須)＋全頭カバー(rank=field_size)**ゲート（STEP5必須・依存ゼロ）。 |
 | `tools/validate_research_bundle.py` | **`used_observations`↔実 `research-<観点>.json` の対応ゲート**（観点欠落の無検知を塞ぐ＝P6対策・STEP5必須）。schema検証とは別tool＝過去レースの `--all` schema検証を壊さない。 |
 | **── 選別レイヤー（`/screen-card`・予想とは別レイヤー・I1-S 市場隔離）──** | |
@@ -41,11 +42,12 @@
 | **観点の調査手順・クエリ・ソース・スコア指針**を1つ調整 | `.claude/agents/obs-<id>.md`（その観点の subagent だけ） |
 | **観点の追加/削除・相別マッピング・グルーピング**（着順の読み筋＝レビューA系の修正先） | `observation-points.md`（追加時は新 `.claude/agents/obs-*.md` ＋ SKILL の `AGENT_OF` も） |
 | **展開パターンの作り方**・phase_flow・展開列の源（展開の読み筋＝レビューB系の修正先） | `pace-synthesis.md` |
+| **斤量・馬格(馬体重)×馬場/芝ダの効かせ方**（閾値・共倒れ判定・チャンネル配分） | `tools/weight_adjust.py`（閾値の正本）＋ 消費先 `pace-synthesis.md`「先行勢の質」／`observation-points.md` 相別マッピング／agents obs-i,d,g。配線は `analyze-race/SKILL.md` STEP1/3/6 |
 | 各観点の**調査手順・ソース** | `research-protocol.md` |
 | スコアリングの**語彙・エンジン（6ノブ）** | `scoring-model.md` |
 | **採点基準・A/B/C 仕分け・修正ルーティング** | `review-prediction/SKILL.md` |
 | **スクレイピング**（取得元・コード） | `scraping.md` |
-| **速度・締切（速報モード／壁時計を切り詰める）** | `analyze-race/SKILL.md`（STEP1 締切確認・STEP2 速報5観点・CREED の `DEADLINE_CAP`・runOne の `model`）。観点を減らす/web を1バッチに絞る/研究agentを軽量モデルにが主レバー。馬券は発走で締切＝速度は精度の前提 |
+| **速度・締切（速報モード／壁時計を切り詰める）** | `analyze-race/SKILL.md`（STEP1 締切確認・STEP2 速報5観点・CREED の `DEADLINE_CAP`・runOne の `model`）。観点を減らす/web を1バッチに絞るが主レバー（研究agentは常時 Sonnet＝モデルはレバーでない。Opusは合成 PaceSynthesis/着順のみ）。馬券は発走で締切＝速度は精度の前提 |
 | 予測ログの**フィールド**（pace/rank レコード） | `output-template.md` 末尾（＋読む側の review-prediction/SKILL.md） |
 | **勝負レース選別の手順**（カード横断・どのレースを絞るか） | `screen-card/SKILL.md` |
 | **選別モデル**（X×Yマトリクス・妙味判定・出力体裁） | `screen-card/references/screening-model.md` |
