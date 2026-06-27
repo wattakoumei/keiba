@@ -67,7 +67,8 @@ def build_input(report, scores, conf):
             "conf": conf.get(no, {}),
         })
     patterns = [{"id": p.get("id"), "prob": p.get("prob", 0.0),
-                 "pace_level": p.get("pace_level", 0.5), "contesters": p.get("contesters", [])}
+                 "pace_level": p.get("pace_level", 0.5), "contesters": p.get("contesters", []),
+                 "leg_advantage": p.get("leg_advantage") or {}}   # v4.1: 展開項(脚質別有利不利)を率に効かせる
                 for p in (pace.get("patterns") or [])]
     return {"race_id": report.get("race_id", ""), "horses": horses, "patterns": patterns}
 

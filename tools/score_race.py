@@ -33,7 +33,7 @@ score_race.py — 着順エンジン v4.0（相変位再帰モデル）の決定
 """
 import sys, json, math, argparse, statistics
 
-MODEL_VERSION = "4.0"
+MODEL_VERSION = "4.1"
 
 # === パラメータ早見表（6ノブ・scoring-model.md と一致させる） ===
 PARAMS = {
@@ -43,6 +43,7 @@ PARAMS = {
     "w_pos0":  0.8,   # 終端の位置重み(ハイ時 L=1)
     "w_pos1":  2.6,   # スロー化で増える位置重み(=前残りレバー, L=0で計3.4)
     "T":       0.35,  # softmax 温度(S スケール 0..~1.5 上)
+    "LEG_ADV_GAIN": 0.20,  # 合成器著作 leg_advantage の終端S変調ゲイン(v4.1)。pace_level では出ないコース固有の脚質有利不利(残差)を率に反映。0=従来(無効)
 }
 # 構造定数（非tunable・ノブ数を6に固定するため）
 MID_DRAIN_BASE, MID_DRAIN_PACE = 0.6, 0.8   # 中盤消耗 (0.6 + 0.8*L)
@@ -57,6 +58,8 @@ TEN_MAP = {"速": 1.0, "中": 0.5, "遅": 0.1}
 STY_MAP = {"逃": 1.0, "先": 0.75, "差": 0.3, "追": 0.1}
 # 脚質ラベルの別名（先頭文字で吸収）
 STY_ALIAS = {"逃げ": "逃", "先行": "先", "差し": "差", "追込": "追", "自在": "先"}
+# _sty_key の返すキー → leg_advantage(report.json) のキー（合成器はフル名で著作）
+STY_TO_ADV = {"逃": "逃げ", "先": "先行", "差": "差し", "追": "追込"}
 
 
 def norm(score, conf):
@@ -159,9 +162,12 @@ def inject_af(horses, ab):
     # 値が無ければ phase_abilities の af=0.5 のまま
 
 
-def run_pattern(horses, ab, L, P):
-    """1パターン(pace_level L)について3相再帰を回し、終端S・pos履歴・energyを返す。"""
+def run_pattern(horses, ab, L, P, leg_adv=None):
+    """1パターン(pace_level L)について3相再帰を回し、終端S・pos履歴・energyを返す。
+    leg_adv（合成器著作の脚質別有利不利 {逃げ,先行,差し,追込} -2..+2）があれば終端Sを脚質ぶん変調＝
+    pace_level では出ないコース固有の前残り/差し台頭の残差を率に反映（v4.1）。"""
     nos = [h["no"] for h in horses]
+    sty_of = {h["no"]: _sty_key(h.get("style")) for h in horses}
     intent = {no: ab[no]["A_early"] * (1 - INTENT_PACE_DAMP * L) for no in nos}
     mean_intent = sum(intent.values()) / len(intent)
 
@@ -183,6 +189,12 @@ def run_pattern(horses, ab, L, P):
         w_pos = P["w_pos0"] + P["w_pos1"] * (1 - L)
         kick = Af * e
         S[no] = Acl * (w_pos * p + kick)
+        # 展開項(v4.1): 合成器のleg_advantageを脚質ぶん乗算変調（la -2..+2 を /2 で -1..1、gainで控えめに）
+        if leg_adv:
+            ak = STY_TO_ADV.get(sty_of.get(no))
+            la = leg_adv.get(ak) if ak else None
+            if isinstance(la, (int, float)):
+                S[no] *= clip(1 + P["LEG_ADV_GAIN"] * la / 2, 0.2, 2.0)
     return pos1, pos2, energy, S
 
 
@@ -267,7 +279,7 @@ def compute(data):
     per_pat = {}
     for pat in patterns:
         L = pat.get("pace_level", 0.5)
-        pos1, pos2, energy, S = run_pattern(horses, ab, L, P)
+        pos1, pos2, energy, S = run_pattern(horses, ab, L, P, pat.get("leg_advantage"))
         cw = softmax(S, P["T"])           # 条件付き勝率
         cp3 = harville_place3(cw)          # 条件付き複勝率
         per_pat[pat["id"]] = dict(L=L, prob=pat.get("prob", 0.0),
