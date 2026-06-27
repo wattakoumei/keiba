@@ -24,6 +24,7 @@
 | `.claude/skills/review-prediction/SKILL.md` | `/review-prediction`：**2スコアカード採点**・A/B/C 仕分け・修正先ルーティング・results.jsonl 形式。 |
 | `tools/score_race.py` | **単勝率/複勝率(win_prob/place_prob)の決定論生成器**＝毎回回して `rank[]` に注入(I8)＋並びの整合サニティ。率は数値Fのみ・**並びは論理が主**（食い違いは engine_check）。 |
 | `tools/weight_adjust.py` | **斤量・馬格(馬体重)×馬場/芝ダ/距離の決定論 seed-enricher**（出走表.mdから符号付き重量タグ＋先行勢の共倒れ判定 front_verdict）。3チャンネル＝pace(斤量×先行→共倒れ・展開合成へ)／I(斤量減点)／D/G(馬格×馬場のパワー適性)。%禁止・**実効標準基準（定量/別定は牝を性別手当ぶん中立化→実効中央値＝性別差を消し年齢/別定加増だけ残す。ハンデは実斤量が信号）**・閾値の正本。当日は`--going`/`--weights`で再算定。spawn注入＝web再調査しない(I10)。 |
+| `tools/risk_flags.py` | **観点Iの非重量・コース非依存の決定論 seed-enricher**（fetch_racecard seed JSONから 高齢old/下降基調decline/大幅昇級class_jump/休み明けlayoff を符号付き減点で算定）。Iの「決定論層」をエージェントの外に出し、obs-iのwebを非決定論層（脚部/気性/故障/中止歴）だけに絞る＝Iの遅延源を消す。**一次フラグ**＝webが敗因文脈で割引可。斤量はweight_adjust担当・不利枠はcourse-geometry領域＝二重化しない。閾値の正本(`OLD_AGE/BAD_RATIO/LAYOFF/CLASS_JUMP`)。`--self-check`。spawn注入＝web再調査しない(I10)。 |
 | `tools/inject_probs.py` | **単勝率/複勝率の注入器**（I8・STEP5必須）。research-*.json の観点スコア＋report.json の `pace.patterns`/`leg_table` から `score_race` を決定論で回し `win_prob`/`place_prob` を rank[] に書き戻す。率の手組みゼロ・**並びは論理が主**（率順に並べ替えない・食い違いは engine_check の素）。 |
 | `tools/validate_report.py` | report.json の**スキーマ＋I2(%禁止)＋I5(複数パターン必須)＋全頭カバー(rank=field_size)＋率2カラム(win_prob/place_prob 0..1・全頭)**ゲート（STEP5必須・依存ゼロ）。 |
 | `tools/validate_research_bundle.py` | **`used_observations`↔実 `research-<観点>.json` の対応ゲート**（観点欠落の無検知を塞ぐ＝P6対策・STEP5必須）。schema検証とは別tool＝過去レースの `--all` schema検証を壊さない。 |
@@ -45,6 +46,8 @@
 | **観点の追加/削除・相別マッピング・グルーピング**（着順の読み筋＝レビューA系の修正先） | `observation-points.md`（追加時は新 `.claude/agents/obs-*.md` ＋ SKILL の `AGENT_OF` も） |
 | **展開パターンの作り方**・phase_flow・展開列の源（展開の読み筋＝レビューB系の修正先） | `pace-synthesis.md` |
 | **斤量・馬格(馬体重)×馬場/芝ダの効かせ方**（閾値・共倒れ判定・チャンネル配分） | `tools/weight_adjust.py`（閾値の正本）＋ 消費先 `pace-synthesis.md`「先行勢の質」／`observation-points.md` 相別マッピング／agents obs-i,d,g。配線は `analyze-race/SKILL.md` STEP1/3/6 |
+| **観点Iの決定論リスクの閾値・追加フラグ**（高齢/下降基調/昇級/休み明け） | `tools/risk_flags.py`（閾値の正本）＋ 消費先 `agents/obs-i-risk.md`（非決定論層との統合）。配線は `analyze-race/SKILL.md` STEP1/3。前走騎手・距離を seed に足す系は `tools/fetch_racecard.py`(`recent[]`) |
+| **観点Kの遅延（前走騎手のweb同定）** | `tools/fetch_racecard.py`（`recent[].jockey`＝seedで確定）＋ `agents/obs-k-jockey.md`（webは騎手コース成績だけ）。配線は `analyze-race/SKILL.md`（seed注入 E/C/B/K） |
 | 各観点の**調査手順・ソース** | `research-protocol.md` |
 | スコアリングの**語彙・エンジン（6ノブ）** | `scoring-model.md` |
 | **採点基準・A/B/C 仕分け・修正ルーティング** | `review-prediction/SKILL.md` |

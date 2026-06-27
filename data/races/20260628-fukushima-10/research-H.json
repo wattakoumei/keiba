@@ -1,0 +1,153 @@
+{
+ "point": "H",
+ "race_id": "20260628-fukushima-10",
+ "race_name": "鶴ヶ城ステークス（福島10R）",
+ "as_of": "2026-06-27",
+ "retrieval_note": "3勝クラス条件戦のためほぼ記事化されず。前日時点でパドック情報未取得（発走2026-06-28 15:10）。探索は軽く切り上げ・空欄が正常。ユーザー補強推奨：当日パドック映像・馬体重・騎手インタビューを直接確認してください。",
+ "overall_confidence": "低",
+ "horses": [
+  {
+   "no": 1,
+   "name": "オリーブグリーン",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 2,
+   "name": "メイショウフウドウ",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 3,
+   "name": "バギーウィップ",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": "[前走後回顧コメント・2025-05-03・武藤雅騎手/netkeiba] わらび賞(4馬身差完勝)後「ポテンシャルのある馬。使ってさらに良くなりそう。まだ緩さがある」",
+   "comment_type": "前走後回顧（今走向けではない）",
+   "pros": [
+    "[H:前走後コメント・2025-05-03] 武藤雅「ポテンシャルある馬、使って良くなりそう」（約1年前・今走への直接効力なし）"
+   ],
+   "cons": [
+    "[H:前走後コメント・2025-05-03] 同コメントで「まだ緩さがある」と指摘（今走時点での解消度不明）"
+   ],
+   "sources": [
+    "https://news.yahoo.co.jp/articles/14b148f0151c231a2c98aee9f5335c07cda6f823",
+    "https://news.netkeiba.com/?pid=news_view&no=296086"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "エクリプスルバン",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2021106623/"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "ヴァナルガンド",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 6,
+   "name": "タイセイミッション",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 7,
+   "name": "ラフエイジアン",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 8,
+   "name": "アイウィル",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 9,
+   "name": "ドバイブルース",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": "[騎乗予定確認・2026-06-27・keibanomiryoku.com] 横山武史の6/28福島10R騎乗馬として確認。具体的コメントなし。",
+   "comment_type": "騎乗予定記録のみ（コメントなし）",
+   "pros": [],
+   "cons": [],
+   "sources": [
+    "https://www.keibanomiryoku.com/%E6%A8%AA%E5%B1%B1%E6%AD%A6%E5%8F%B2"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "ゴールドアローン",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  },
+  {
+   "no": 11,
+   "name": "クロースコンバット",
+   "score": 0,
+   "confidence": "低",
+   "paddock": null,
+   "comment": null,
+   "comment_type": null,
+   "pros": [],
+   "cons": [],
+   "sources": []
+  }
+ ]
+}

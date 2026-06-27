@@ -1,0 +1,113 @@
+{
+  "race_id": "20260628-fukushima-10",
+  "observation": "I",
+  "title": "リスク/割引要因",
+  "generated": "2026-06-27",
+  "weight_seed_note": "全馬 rel:0（実効中央値58kg基準・牝-2kg性別手当適用済み）。斤量ティア影響なし。front_verdict=先行勢に明確な重ハンデなし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "オリーブグリーン",
+      "score": 0,
+      "confidence": "中",
+      "cons": [],
+      "notes": "出遅れ・気性・脚部不安の記録なし。内枠（枠1馬番1）は差し馬には福島ダート前残り傾向で中立〜微不利だが減点対象外。特段リスクなし。",
+      "sources": []
+    },
+    {
+      "no": 2,
+      "name": "メイショウフウドウ",
+      "score": 0,
+      "confidence": "低",
+      "cons": [],
+      "notes": "出遅れ・気性・脚部不安の具体記録なし。取得データ不足のため確信度低。",
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud102021104445/30"]
+    },
+    {
+      "no": 3,
+      "name": "バギーウィップ",
+      "score": -1,
+      "confidence": "中",
+      "cons": ["膝ケア継続（2026年2月時点：天栄担当者『膝の状態は現状維持できていますので、今後も相談しながら進めていきます』）", "体使いが不完全との陣営コメントあり（萩原師・担当者同調）"],
+      "notes": "春の中山競走に向け天栄で乗り込み中とのこと。軽い懸念として評価。脚部不安が深刻とは断言できない。",
+      "sources": ["https://note.com/glass_dream_art/n/nbffba2a015ec"]
+    },
+    {
+      "no": 4,
+      "name": "エクリプスルバン",
+      "score": -1,
+      "confidence": "中",
+      "cons": ["2025年12月13日に競走中止（止）あり（舟山瑠泉騎乗）"],
+      "notes": "その後は2026年1月に1着・3月2着・4月2着と回復基調。jockey 佐々木大→戸崎圭太に変更。DNS歴が再発するリスクは軽度。",
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2021106623"]
+    },
+    {
+      "no": 5,
+      "name": "ヴァナルガンド",
+      "score": 0,
+      "confidence": "低",
+      "cons": [],
+      "notes": "6歳・18戦3勝 [3-7-2-6]。出遅れ・気性・脚部不安の具体記録なし。取得データ不足。",
+      "sources": ["https://uma-x.jp/uma_detail/2020104567"]
+    },
+    {
+      "no": 6,
+      "name": "タイセイミッション",
+      "score": 0,
+      "confidence": "低",
+      "cons": [],
+      "notes": "出遅れ・気性・脚部不安の具体記録なし。取得データ不足。",
+      "sources": []
+    },
+    {
+      "no": 7,
+      "name": "ラフエイジアン",
+      "score": 0,
+      "confidence": "中",
+      "cons": [],
+      "notes": "近走：2着(26/04)・5着(26/03)・4着(25/12)・10着(25/10)・7着(25/08)。10月の落ち込みから改善傾向。遅テン（追い馬の脚質的特性）は固定リスクでない。出遅れ・気性難の記録なし。",
+      "sources": ["https://db.netkeiba.com/horse/result/2020104738/"]
+    },
+    {
+      "no": 8,
+      "name": "アイウィル",
+      "score": -1,
+      "confidence": "中",
+      "cons": ["2026年1月25日1着後、2月7日8着・2月21日5着と連敗（下降基調）"],
+      "notes": "出遅れの記録なし。勝利直後に2連敗は近走下降基調のシグナル。",
+      "sources": ["https://sports.yahoo.co.jp/keiba/directory/horse/2021103502/"]
+    },
+    {
+      "no": 9,
+      "name": "ドバイブルース",
+      "score": 0,
+      "confidence": "低",
+      "cons": [],
+      "notes": "JBIS接続不可・成績取得不十分。出遅れ・気性・脚部不安の具体記録得られず。遅テン（差し脚質）は構造的特性。確信度低で記録なしとして扱う。",
+      "sources": ["https://db.netkeiba.com/horse/result/2021105182/"]
+    },
+    {
+      "no": 10,
+      "name": "ゴールドアローン",
+      "score": -1,
+      "confidence": "中",
+      "cons": ["近走成績が不安定：2025年12月7日10着（市川S）・2026年3月7日10着（上総S）"],
+      "notes": "2026年1月に2着あり底力は示すも、10着を複数回含む波形。牝馬-2kg（56kg）は重量面の恩恵だがI観点では対象外。形の波が懸念。",
+      "sources": ["https://sports.yahoo.co.jp/keiba/directory/horse/2021106874/"]
+    },
+    {
+      "no": 11,
+      "name": "クロースコンバット",
+      "score": -2,
+      "confidence": "高",
+      "cons": [
+        "牡7歳：11頭中最高齢。能力面の余力低下リスク大",
+        "最外枠（枠8・馬番11）の逃げ馬：福島ダート1700m（初角338m）で外から先頭に立つにはスタートから全力スプリント必要。序盤の余力ロスが大きい"
+      ],
+      "notes": "直近は2026年4月福島で2着（コース実績あり）・2月3着と形は悪くない。ただし7歳最外枠の逃げは構造的・不変のリスク。",
+      "sources": ["https://db.netkeiba.com/horse/result/2019105188/", "https://www.winkeiba.jp/data/horse?PedigreeNum=2019105188"]
+    }
+  ],
+  "field_note": "斤量seed全馬rel:0。重量ティア動かさず。出遅れ記録が確認できた馬なし（プレミアム制限で詳細コメント不取得）。",
+  "overall_confidence": "中"
+}

@@ -1,0 +1,263 @@
+{
+  "observation": "F",
+  "race_id": "20260628-fukushima-10",
+  "as_of": "2026-06-27",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri seed 空（対象馬 全頭 seed 外）→ web 補完",
+  "sources": [
+    "https://race.netkeiba.com/race/oikiri.html?race_id=202603020210",
+    "https://race.netkeiba.com/race/comment.html?race_id=202603020210"
+  ],
+  "stable_intent_candidates": [
+    {
+      "trainer": "矢作芳人",
+      "label": "フレッシュ型/普段強め/選択的強化騎手起用",
+      "confidence": "中",
+      "basis": "休み明けに仕上げてくる傾向が業界的に知られ、ウッド/坂路ともに強め追い切りが多い。強化騎手の積極起用あり。"
+    },
+    {
+      "trainer": "藤原英昭",
+      "label": "中間型/普段強め/流動的",
+      "confidence": "中",
+      "basis": "デキに厳しい選球眼型。普段からウッドで強め攻め・デキが悪い時は出走抑制傾向。"
+    },
+    {
+      "trainer": "大竹正博",
+      "label": "中間型/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報少なく暫定。栗東所属・ナダル産駒多数管理。"
+    },
+    {
+      "trainer": "田中博康",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報不足のため暫定。"
+    },
+    {
+      "trainer": "稲垣幸雄",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報不足のため暫定。"
+    },
+    {
+      "trainer": "伊藤圭三",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報不足のため暫定。"
+    },
+    {
+      "trainer": "中舘英二",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "元騎手の美浦調教師。公開情報不足。"
+    },
+    {
+      "trainer": "高木登",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報不足のため暫定。"
+    },
+    {
+      "trainer": "加藤征弘",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報不足のため暫定。"
+    },
+    {
+      "trainer": "青木孝文",
+      "label": "不明/標準/流動的",
+      "confidence": "低",
+      "basis": "公開情報不足のため暫定（ゴールドアローン・クロースコンバット両管理）。"
+    }
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "オリーブグリーン",
+      "trainer": "矢作芳人",
+      "oikiri_grade": "B",
+      "grade_source": "netkeiba",
+      "grade_label": "好気配",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "「勝負どころで少し気を抜いていた。ブリンカーの効果で、もうひと伸びを期待。」（荒木助手）",
+      "notable": "ブリンカー装着変更＝装具変化は勝負気配の可観測な変化",
+      "score": 1.0,
+      "confidence": "中",
+      "pros": ["netkeiba B評価（好気配）", "ブリンカー装着=気性対策の明示的変化・前走課題の改善狙い", "矢作芳人=フレッシュ型/普段強め→B評価は平均以上"],
+      "cons": ["追い切り時計・コース不明（premium壁）", "「気を抜く」気性課題が本番でも再発するリスク"]
+    },
+    {
+      "no": 2,
+      "name": "メイショウフウドウ",
+      "trainer": "藤原英昭",
+      "oikiri_grade": "D",
+      "grade_source": "netkeiba",
+      "grade_label": "要注意",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "「休養明けの前走は息切れした。小回りは良績があり、もう少し前進を期待。」（田代助手）",
+      "notable": "D評価＋前走息切れ言及＝追い切り状態でも連動した低評価。叩き効果はあるが今走もまだ仕上り途上",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": ["小回り良績あり（適性は別観点）", "叩き2走目→前走より上向き余地"],
+      "cons": ["netkeiba D評価（全頭最低）", "前走で息切れ＝cond未回復の可能性高", "藤原英昭=普段強め厩舎のD評価は深刻サイン"]
+    },
+    {
+      "no": 3,
+      "name": "バギーウィップ",
+      "trainer": "大竹正博",
+      "oikiri_grade": "A",
+      "grade_source": "netkeiba",
+      "grade_label": "動き絶好",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "「追い切りでの騎手の感触が良かった。小回りは合うので改めて期待します。」（南田助手）",
+      "notable": "A評価（全11頭中唯一）＋騎手の感触良好＝cond最上位。大竹厩舎は標準型→A評価は本来の好仕上がり",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": ["netkeiba A評価（全頭最高・動き絶好）", "騎手の追い切り感触良好のコメント", "A評価は調教駆けでなければcond最上"],
+      "cons": ["追い切り時計・コース・ラスト1F不明（詳細確認不能）", "ナダル×ディープ配合のダート適性は別観点（地力はFでは測らない）"]
+    },
+    {
+      "no": 4,
+      "name": "エクリプスルバン",
+      "trainer": "田中博康",
+      "oikiri_grade": "B",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "B評価。詳細不明。田中博康厩舎ラベル暫定。",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": ["netkeiba B評価"],
+      "cons": ["時計・コース・コメント全て不明", "確信度低（詳細取得不能）"]
+    },
+    {
+      "no": 5,
+      "name": "ヴァナルガンド",
+      "trainer": "稲垣幸雄",
+      "oikiri_grade": "B",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "B評価。詳細不明。",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": ["netkeiba B評価"],
+      "cons": ["時計・コース・コメント全て不明"]
+    },
+    {
+      "no": 6,
+      "name": "タイセイミッション",
+      "trainer": "伊藤圭三",
+      "oikiri_grade": "B",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "B評価。詳細不明。",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": ["netkeiba B評価"],
+      "cons": ["時計・コース・コメント全て不明"]
+    },
+    {
+      "no": 7,
+      "name": "ラフエイジアン",
+      "trainer": "中舘英二",
+      "oikiri_grade": "B",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "B評価。詳細不明。",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": ["netkeiba B評価"],
+      "cons": ["時計・コース・コメント全て不明"]
+    },
+    {
+      "no": 8,
+      "name": "アイウィル",
+      "trainer": "高木登",
+      "oikiri_grade": "C",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "C評価。平行線。",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["netkeiba C評価（平均水準）", "時計・コース不明"]
+    },
+    {
+      "no": 9,
+      "name": "ドバイブルース",
+      "trainer": "加藤征弘",
+      "oikiri_grade": "C",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "C評価。平行線。横山武史騎手起用だが追い切り評価は並。",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": ["横山武史という強化騎手起用（騎手側は別観点K）"],
+      "cons": ["netkeiba C評価（平均水準）", "時計・コース不明"]
+    },
+    {
+      "no": 10,
+      "name": "ゴールドアローン",
+      "trainer": "青木孝文",
+      "oikiri_grade": "C",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "C評価。平行線。",
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [],
+      "cons": ["netkeiba C評価（平均水準）", "時計・コース不明"]
+    },
+    {
+      "no": 11,
+      "name": "クロースコンバット",
+      "trainer": "青木孝文",
+      "oikiri_grade": "B",
+      "grade_source": "netkeiba",
+      "grade_label": "（短評不明）",
+      "course": "不明",
+      "last_1f": "不明",
+      "tempo": "不明",
+      "trainer_comment": "不明（premium）",
+      "notable": "B評価。詳細不明。同厩ゴールドアローン（C）より上の評価。",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": ["netkeiba B評価（同厩ゴールドアローンC比で優位）"],
+      "cons": ["時計・コース・コメント全て不明"]
+    }
+  ],
+  "data_quality_note": "全頭 seed 外。netkeiba 調教評価(A/B/C/D)と厩舎コメント（上位3頭のみ無料公開）を一次ソースとして使用。追い切りコース・時計・ラスト1F は premium 壁のため全頭不明。時計の縦比較・コース評価は実施不能。確信度は全般的に中〜低。"
+}

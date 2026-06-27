@@ -84,6 +84,10 @@ PATTERNS = {
     "jra_past_rc": re.compile(r'<div class="rc">([^<]+)</div>'),                      # 近走の競馬場
     "jra_past_race": re.compile(r'<div class="name"><a[^>]*>([^<]+)</a>'),            # 近走のレース名
     "jra_past_pos": re.compile(r'<div class="place">(\d+)<span>着'),                  # 近走の着順
+    "jra_past_jockey": re.compile(r'<div class="jockey">([^<]+)</div>'),             # 近走の騎手（前走騎手＝観点K乗替判定の seed。同セル内・追加fetch不要）
+    "jra_past_dist": re.compile(r'<span class="dist">(ダ|芝|障)?([\d,]+)(ダ|芝)?</span>'),  # 近走の距離（距離替わり判定の seed。同セル内）
+    "jra_past_time": re.compile(r'<p class="time">([\d:.]+)</p>'),                   # 近走の走破時計（観点A時計の seed。同セル内）
+    "jra_past_bw": re.compile(r'<p class="h_weight">(\d+)<span>kg'),                 # 近走の馬体重（観点G馬体トレンドの seed。同セル内）
     # JRA出馬表のレース条件: race_title 内 <td class="dist">ダート1,800<span>メートル</span>（権威ソース）
     "jra_dist": re.compile(r'class="dist">(ダート|芝|障害)([\d,]+)<span>(?:メートル|ｍ)'),
     # 新マークアップ（2026-06 確認）: コース：</span>1,800<span class="unit">メートル</span><span class="detail">（芝・左）
@@ -303,6 +307,10 @@ def parse_jra_full(h):
             rcm = PATTERNS["jra_past_rc"].search(p)
             rnm = PATTERNS["jra_past_race"].search(p)
             pom = PATTERNS["jra_past_pos"].search(p)
+            jkm = PATTERNS["jra_past_jockey"].search(p)
+            dstm = PATTERNS["jra_past_dist"].search(p)
+            tmm = PATTERNS["jra_past_time"].search(p)
+            bwm = PATTERNS["jra_past_bw"].search(p)
             race_name = html.unescape(rnm.group(1)).strip() if rnm else None
             cls = classify_class(race_name)
             entry = {"first_corner": fc, "field": field,
@@ -311,6 +319,10 @@ def parse_jra_full(h):
                               if dm else None),
                      "venue": html.unescape(rcm.group(1)).strip() if rcm else None,
                      "race": race_name,
+                     "jockey": html.unescape(jkm.group(1)).strip() if jkm else None,  # 前走騎手＝観点K乗替判定の seed
+                     "dist": int(dstm.group(2).replace(",", "")) if dstm else None,   # 近走距離＝距離替わり判定の seed
+                     "time": tmm.group(1) if tmm else None,                           # 走破時計＝観点A時計の seed
+                     "body_weight": int(bwm.group(1)) if bwm else None,               # 馬体重＝観点G馬体トレンドの seed
                      "class_rank": cls["rank"], "class_label": cls["label"],
                      "class_certain": cls["certain"],
                      "pos": int(pom.group(1)) if pom else None}

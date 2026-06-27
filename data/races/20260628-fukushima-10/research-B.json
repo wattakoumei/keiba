@@ -1,0 +1,276 @@
+{
+  "race_id": "20260628-fukushima-10",
+  "observation": "B",
+  "label": "近走内容・クラス通用度",
+  "generated": "2026-06-27",
+  "class_resolutions": [
+    {"race": "桃山S", "venue": "京都", "date": "2026-05-30", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202608031110"},
+    {"race": "千葉日報杯", "venue": "中山", "date": "2026-04-04", "class_rank": 3, "certain": true, "source": "https://uma-x.jp/race_result/6202603031020260404"},
+    {"race": "下総S", "venue": "中山", "date": "2026-04-18", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202606030710"},
+    {"race": "夏至S", "venue": "東京", "date": "2026-06-13", "class_rank": 4, "certain": true, "source": "https://www.keiba-jiku2.net/geshi-stakes-2026-yosou/"},
+    {"race": "花園S", "venue": "京都", "date": "2025-11-30", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202508040810"},
+    {"race": "堺ステークス", "venue": "阪神", "date": "2025-09-28", "class_rank": 4, "certain": true, "source": "https://db.netkeiba.com/race/202509040910/"},
+    {"race": "西部日刊スポーツ杯", "venue": "小倉", "date": "2025-06-29", "class_rank": 3, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202510020210"},
+    {"race": "アリエスS", "venue": "中山", "date": "2026-04-05", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/result.html?race_id=202606030410"},
+    {"race": "上総S", "venue": "中山", "date": "2026-03-07", "class_rank": 4, "certain": true, "source": "https://race.sp.netkeiba.com/?pid=odds_view&type=b5&housiki=c1&race_id=202606020310"},
+    {"race": "北総S", "venue": "中山", "date": "2025-12-21", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202506050610"},
+    {"race": "招福S", "venue": "中山", "date": "2026-01-04", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010109"},
+    {"race": "金蹄S", "venue": "東京", "date": "2026-02-21", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/result.html?race_id=202605010710"},
+    {"race": "豊前S", "venue": "小倉", "date": "2026-02-07", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/result.html?race_id=202610010511"},
+    {"race": "奥羽S", "venue": "福島", "date": "2025-11-24", "class_rank": 4, "certain": true, "source": "https://race.netkeiba.com/race/shutuba.html?race_id=202503030611"},
+    {"race": "小倉城S", "venue": "小倉", "date": "2026-02-21", "class_rank": 4, "certain": true, "source": "https://www.keibalab.jp/db/race/202502221011/past.html"},
+    {"race": "三条S", "venue": "新潟", "date": "2026-05-02", "class_rank": 4, "certain": true, "source": "https://www.keibalab.jp/db/race/202506291010/past.html"},
+    {"race": "河口湖S", "venue": "東京", "date": "2025-10-25", "class_rank": 4, "certain": true, "source": "https://www.keiba-jiku2.net/kawaguchiko-stakes-2025-yosou/"},
+    {"race": "是政S", "venue": "東京", "date": "2026-05-02", "class_rank": 4, "certain": true, "source": "https://tospo-keiba.jp/race/202405020309/race-detail/data"},
+    {"race": "和布刈特別", "venue": "小倉", "date": "2026-02-22", "class_rank": null, "certain": false, "note": "class_band [2,5] 確認不能"},
+    {"race": "由布院特別", "venue": "小倉", "date": "2026-02-08", "class_rank": null, "certain": false, "note": "class_band [2,5] 確認不能"},
+    {"race": "鳴海特別", "venue": "中京", "date": "2025-12-13", "class_rank": null, "certain": false, "note": "class_band [2,5] 確認不能"},
+    {"race": "響灘特別", "venue": "小倉", "date": "2026-01-25", "class_rank": null, "certain": false, "note": "class_band [2,5] 確認不能"},
+    {"race": "初茜賞", "venue": "中山", "date": "2026-01-05", "class_rank": null, "certain": false, "note": "格不明"},
+    {"race": "報知杯大雪H", "venue": "札幌", "date": "2025-08-16", "class_rank": null, "certain": false, "note": "格不明・ハンデ戦"},
+    {"race": "檜山特別", "venue": "函館", "date": "2025-06-22", "class_rank": null, "certain": false, "note": "class_band [2,5] 3歳時出走の可能性"},
+    {"race": "わらび賞", "venue": "新潟", "date": "2025-05-03", "class_rank": null, "certain": false, "note": "格不明・3歳時出走の可能性"}
+  ],
+  "catalog_pending": [
+    "桃山S=3勝クラス","下総S=3勝クラス","夏至S=3勝クラス","花園S=3勝クラス","堺ステークス=3勝クラス",
+    "西部日刊スポーツ杯=2勝クラス","千葉日報杯=2勝クラス","アリエスS=3勝クラス","上総S=3勝クラス",
+    "北総S=3勝クラス","招福S=3勝クラス","金蹄S=3勝クラス","豊前S=3勝クラス","奥羽S=3勝クラス",
+    "小倉城S=3勝クラス","三条S=3勝クラス","河口湖S=3勝クラス","是政S=3勝クラス"
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "オリーブグリーン",
+      "class_vs_current": "昇級直後（千葉日報杯=2勝クラス勝ち→桃山S=3勝クラス5着→今回2回目3勝クラス）",
+      "recent_position_tracking": [
+        {"race": "桃山S(3勝クラス)", "first_corner_rank": "8/16", "finish": 5, "agari": 35.6, "note": "後方から自己最速上がり"},
+        {"race": "千葉日報杯(2勝クラス)", "first_corner_rank": "3/15", "finish": 1, "agari": null}
+      ],
+      "content_quality": "初3勝クラス(桃山S)で後方8番手→上がり35.6(agari_best)5着。展開不利を克服した好内容",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "初3勝クラス(桃山S)で後方8番手から上がり35.6(自己ベスト)5着=展開不利を克服した内容",
+        "底を見せていない=2回目の3勝クラスで上積み期待"
+      ],
+      "cons": [
+        "3勝クラス経験1回のみ(桃山Sの1回)=データ少"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202608031110", "https://uma-x.jp/race_result/6202603031020260404"]
+    },
+    {
+      "no": 2,
+      "name": "メイショウフウドウ",
+      "class_vs_current": "昇級後3連続大敗（西部日刊スポーツ杯=2勝クラス勝ち→3勝クラスに上がり底を見せた）",
+      "recent_position_tracking": [
+        {"race": "夏至S(3勝クラス)", "first_corner_rank": "3/16", "finish": 16, "agari": 37.5, "note": "先行して最下位"},
+        {"race": "花園S(3勝クラス)", "first_corner_rank": "5/16", "finish": 16, "agari": 44.5, "note": "agari44.5=完全力負け"},
+        {"race": "堺S(3勝クラス)", "first_corner_rank": "3/16", "finish": 13, "agari": 38.9}
+      ],
+      "content_quality": "3勝クラスで13/16/16着の3連続大敗。花園S上がり44.5=底を見せた",
+      "score": -2,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "3勝クラスで13着→16着→16着の3連続大敗=クラス不通用を複数証拠で確認",
+        "花園S agari=44.5(異常遅)=完全な力負け・底を見せた"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202508040810", "https://race.netkeiba.com/race/shutuba.html?race_id=202510020210"]
+    },
+    {
+      "no": 3,
+      "name": "バギーウィップ",
+      "class_vs_current": "3歳時に勝ち上がり→3勝クラスで3着→12着と不安定",
+      "recent_position_tracking": [
+        {"race": "下総S(3勝クラス)", "first_corner_rank": "5/13", "finish": 12, "agari": 38.8, "note": "大敗"},
+        {"race": "招福S(3勝クラス)", "first_corner_rank": "5/11", "finish": 3, "agari": 38.4},
+        {"race": "檜山特別(格不明)", "first_corner_rank": "2/14", "finish": 1, "agari": 37.0, "note": "3歳時・class_band[2,5]"}
+      ],
+      "content_quality": "招福S(3勝クラス)3着→下総S(3勝クラス)12着と差が大きく通用度は不安定",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "招福S(3勝クラス)3着の実績=3勝クラスに一度は通用"
+      ],
+      "cons": [
+        "下総S(3勝クラス)12着の大敗=同じ3勝クラスで逆の結果・不安定",
+        "h2h下総S:エクリプスルバン2着・ドバイブルース4着・ラフエイジアン6着に離される"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202606030710", "https://race.netkeiba.com/race/shutuba.html?race_id=202606010109"]
+    },
+    {
+      "no": 4,
+      "name": "エクリプスルバン",
+      "class_vs_current": "2勝クラス勝ち後、3勝クラスで下総S2着・上総S2着と連続好走",
+      "recent_position_tracking": [
+        {"race": "下総S(3勝クラス)", "first_corner_rank": "2/13", "finish": 2, "agari": 37.5, "note": "前め先行から2着"},
+        {"race": "上総S(3勝クラス)", "first_corner_rank": "3/14", "finish": 2, "agari": 38.5},
+        {"race": "2勝クラス(中山)", "first_corner_rank": "2/13", "finish": 1, "agari": 37.6}
+      ],
+      "content_quality": "3勝クラスで上総S2着→下総S2着と連続好走。先行前めの位置取りで安定した通用度",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "3勝クラスで上総S2着・下総S2着の連続好走=クラス最高の安定した通用度",
+        "先行テン速=前め2番手以内確保→小回り福島で有利"
+      ],
+      "cons": [
+        "3勝クラスで2連続2着=勝ちきれていない"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202606030710", "https://race.sp.netkeiba.com/?pid=odds_view&type=b5&housiki=c1&race_id=202606020310"]
+    },
+    {
+      "no": 5,
+      "name": "ヴァナルガンド",
+      "class_vs_current": "2勝クラス勝ち後、3勝クラスで苦戦(9/15/7着)",
+      "recent_position_tracking": [
+        {"race": "是政S(3勝クラス)", "first_corner_rank": "8/16", "finish": 7, "agari": 37.9},
+        {"race": "金蹄S(3勝クラス)", "first_corner_rank": "4/16", "finish": 15, "agari": 41.4, "note": "大敗・agari41.4"},
+        {"race": "北総S(3勝クラス)", "first_corner_rank": "2/15", "finish": 9, "agari": 37.8}
+      ],
+      "content_quality": "3勝クラスで北総S9着→金蹄S15着(agari41.4大敗)→是政S7着と苦戦",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "是政S(3勝クラス)で7着=直近は少し持ち直し"
+      ],
+      "cons": [
+        "金蹄S(3勝クラス)15着agari=41.4の大敗あり=クラス不適の可能性",
+        "北総S9着・3勝クラス全走で掲示板外が多い"
+      ],
+      "sources": ["https://race.netkeiba.com/race/result.html?race_id=202605010710", "https://race.netkeiba.com/race/shutuba.html?race_id=202506050610"]
+    },
+    {
+      "no": 6,
+      "name": "タイセイミッション",
+      "class_vs_current": "前走アリエスS(3勝クラス)10着大敗・和布刈特別の格不明",
+      "recent_position_tracking": [
+        {"race": "アリエスS(3勝クラス)", "first_corner_rank": "9/16", "finish": 10, "agari": 39.2, "note": "大敗"},
+        {"race": "和布刈特別(格不明class_band[2,5])", "first_corner_rank": "2/16", "finish": 1, "agari": 37.4, "note": "自己ベスト"},
+        {"race": "由布院特別(格不明)", "first_corner_rank": "1/16", "finish": 3}
+      ],
+      "content_quality": "アリエスS(3勝クラス)で10着大敗。和布刈特別勝ちはクラス格不明のため評価保留",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "和布刈特別1着(自己ベストagari37.4)=格が3勝クラスなら通用度あり(格不確認)"
+      ],
+      "cons": [
+        "アリエスS(3勝クラス)10着大敗=直近の3勝クラスで明確に不通用",
+        "和布刈特別・由布院特別・鳴海特別すべてclass_band[2,5]=格不明のため純粋な3勝クラス実績なし"
+      ],
+      "sources": ["https://race.netkeiba.com/race/result.html?race_id=202606030410"]
+    },
+    {
+      "no": 7,
+      "name": "ラフエイジアン",
+      "class_vs_current": "3勝クラスに定着・北総S4着/上総S5着/下総S6着と継続的に掲示板内",
+      "recent_position_tracking": [
+        {"race": "下総S(3勝クラス)", "first_corner_rank": "13/13", "finish": 6, "agari": 36.7, "note": "最後方から6着"},
+        {"race": "上総S(3勝クラス)", "first_corner_rank": "11/14", "finish": 5, "agari": 38.2},
+        {"race": "北総S(3勝クラス)", "first_corner_rank": "13/15", "finish": 4, "agari": 36.2},
+        {"race": "河口湖S(3勝クラス)", "first_corner_rank": "10/16", "finish": 10, "agari": 36.1, "note": "agari_best"}
+      ],
+      "content_quality": "3勝クラス定着馬。後方一辺倒で6/5/4着と安定するが勝ちきれない。agari_best=36.1",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "3勝クラスで北総S4着・上総S5着・下総S6着と継続して掲示板内=底を見せていない",
+        "上がりの質が高い(agari_best=36.1)=速い流れで差し脚が活きる"
+      ],
+      "cons": [
+        "後方最後方から追い込み一辺倒=小回り福島で展開が向かないと圏外",
+        "h2h:エクリプスルバン・ドバイブルースより一貫して下位"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202606030710", "https://race.netkeiba.com/race/shutuba.html?race_id=202506050610"]
+    },
+    {
+      "no": 8,
+      "name": "アイウィル",
+      "class_vs_current": "響灘特別(格不明)1着後に3勝クラスで8着・5着と混在",
+      "recent_position_tracking": [
+        {"race": "小倉城S(3勝クラス)", "first_corner_rank": "11/13", "finish": 5, "agari": 37.2, "note": "後方から5着"},
+        {"race": "豊前S(3勝クラス)", "first_corner_rank": "4/16", "finish": 8, "agari": 37.7},
+        {"race": "響灘特別(格不明class_band[2,5])", "first_corner_rank": "4/16", "finish": 1, "agari": 36.6, "note": "自己ベスト"}
+      ],
+      "content_quality": "響灘特別1着後に3勝クラスで5/8着。3勝クラスでの通用度は格下推移の可能性あり",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "小倉城S(3勝クラス)で後方11番手から5着=前走に展開不利あり、内容は拾える"
+      ],
+      "cons": [
+        "響灘特別のクラス格不明(class_band[2,5])=真の実力評価が困難",
+        "豊前S(3勝クラス)8着=先行策で苦戦"
+      ],
+      "sources": ["https://race.netkeiba.com/race/result.html?race_id=202610010511"]
+    },
+    {
+      "no": 9,
+      "name": "ドバイブルース",
+      "class_vs_current": "3勝クラスに定着・上総S3着/下総S4着と最近好走中",
+      "recent_position_tracking": [
+        {"race": "下総S(3勝クラス)", "first_corner_rank": "7/13", "finish": 4, "agari": 37.4},
+        {"race": "上総S(3勝クラス)", "first_corner_rank": "10/14", "finish": 3, "agari": 38.0},
+        {"race": "北総S(3勝クラス)", "first_corner_rank": "13/15", "finish": 8, "agari": 37.1},
+        {"race": "奥羽S(3勝クラス・福島)", "first_corner_rank": "7/15", "finish": 7, "agari": 37.9, "note": "同コース経験"}
+      ],
+      "content_quality": "3勝クラスで上総S3着・下総S4着と最近2走で好走。同コース福島の奥羽S経験あり",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "3勝クラスで上総S3着・下総S4着と最近2走連続好走=上昇途上",
+        "奥羽S(福島ダート1700m・3勝クラス)7着の同コース経験あり"
+      ],
+      "cons": [
+        "奥羽S(福島)は7着=同コースでは好走実績なし",
+        "上総/下総Sで安定しても勝ちきれていない"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202606030710", "https://race.sp.netkeiba.com/?pid=odds_view&type=b5&housiki=c1&race_id=202606020310"]
+    },
+    {
+      "no": 10,
+      "name": "ゴールドアローン",
+      "class_vs_current": "3勝クラスに定着・招福S2着/三条S4着の実績+56kg牝馬",
+      "recent_position_tracking": [
+        {"race": "三条S(3勝クラス)", "first_corner_rank": "7/15", "finish": 4, "agari": 39.1},
+        {"race": "上総S(3勝クラス)", "first_corner_rank": "6/14", "finish": 10, "agari": 40.1, "note": "大敗"},
+        {"race": "招福S(3勝クラス)", "first_corner_rank": "6/11", "finish": 2, "agari": 38.0},
+        {"race": "北総S(3勝クラス)", "first_corner_rank": "8/15", "finish": 5, "agari": 36.8, "note": "agari_best"}
+      ],
+      "content_quality": "3勝クラスで招福S2着・北総S5着・三条S4着の実績。56kg(牝馬)で2kg軽量",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "3勝クラスで招福S2着(h2hでバギーウィップ3着より上位)の実績",
+        "56kg牝馬=別定58kgより2kg軽量で体力面で有利"
+      ],
+      "cons": [
+        "上総S(3勝クラス)10着agari=40.1の大敗あり=一定の不安定さ",
+        "h2h上総S:エクリプスルバン2着・ドバイブルース3着・ラフエイジアン5着より大きく下位"
+      ],
+      "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202606010109"]
+    },
+    {
+      "no": 11,
+      "name": "クロースコンバット",
+      "class_vs_current": "奥羽S(福島)3着実績あるが近2走で大敗・同コース経験の両面",
+      "recent_position_tracking": [
+        {"race": "アリエスS(3勝クラス)", "first_corner_rank": "1/16", "finish": 15, "agari": 40.2, "note": "逃げて大敗"},
+        {"race": "豊前S(3勝クラス)", "first_corner_rank": "1/16", "finish": 9, "agari": 38.1, "note": "逃げて9着"},
+        {"race": "奥羽S(3勝クラス・福島)", "first_corner_rank": "4/15", "finish": 3, "agari": 37.7, "note": "控えて3着=同コース好走"}
+      ],
+      "content_quality": "奥羽S(福島ダート1700m)では4番手控えで3着。逃げると苦戦(アリエスS15着・豊前S9着)",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "奥羽S(福島ダート1700m=同条件)で4番手控えから3着=同コース実績"
+      ],
+      "cons": [
+        "アリエスS(3勝クラス)逃げて15着agari=40.2/豊前S(3勝クラス)逃げて9着=近2走大敗",
+        "逃げ馬が複数いる今回=競りかけで持久力消耗リスク"
+      ],
+      "sources": ["https://race.netkeiba.com/race/result.html?race_id=202606030410", "https://race.netkeiba.com/race/shutuba.html?race_id=202503030611"]
+    }
+  ]
+}
