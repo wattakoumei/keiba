@@ -1,0 +1,180 @@
+{
+  "observation_point": "F",
+  "label": "調教・厩舎仕上げ",
+  "race_id": "20260627-fukushima-09",
+  "as_of": "2026-06-27",
+  "affects": "A_class.cond (今走でbaseをどれだけ出せる状態か)",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri.py seed=該当馬なし（全頭web補完）。一次事実はnetkeiba調教評価ランク(A〜D)+短評。時計詳細は会員制で大半取得不可＝確信度を下げて扱う。",
+  "method_note": "netkeibaの調教評価ランク(A〜D)+短評を一次採用。横比較せず縦比較優先・調教駆けフィルタ適用・cond観点単独で着順を決めない。厩舎はrubric catalog外=intentはgeneric据え置き(当該レース実測の差分のみ拾う)。",
+  "overall_confidence": "中低",
+  "horses": [
+    {
+      "no": 1, "name": "ゲクウ", "score": -1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [],
+      "cons": [
+        "[F]netkeiba調教評価D『直線伸欠』=終い伸び欠く=cond下降サイン。先行馬で終い甘いと小回り福島ダ1150でも踏ん張れない懸念",
+        "[F]4歳先行馬で同級据え置き=上昇気配の差分も乏しい(時計詳細は未取得=確信度中)"
+      ]
+    },
+    {
+      "no": 2, "name": "カワキタマナレア", "score": 0.5, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価B『素軽い』=動き軽快でcondは平常以上"
+      ],
+      "cons": [
+        "[F]追込/テン遅=ハイになれば終い活きるが、condが良くても脚質が小回り短距離で割引(cond観点としては減点せず・地力/展開側で判断)"
+      ]
+    },
+    {
+      "no": 3, "name": "ゴルトリッチ", "score": 0.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価C『乗込入念』=本数を入れて入念に仕上げ=破綻なし"
+      ],
+      "cons": [
+        "[F]6歳・評価はC止まり=上向きの強いサインまでは出ていない(時計詳細未取得=確信度中)"
+      ]
+    },
+    {
+      "no": 4, "name": "タケルハーロック", "score": 1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価B『好気配』=昇級初戦に向けcond上向き。昇級初戦のフレッシュさと好気配の一致は前向き材料"
+      ],
+      "cons": [
+        "[F]昇級初戦でクラスの壁は地力側の論点(cond観点では加点・実戦適性と統合)"
+      ]
+    },
+    {
+      "no": 5, "name": "イノキ", "score": 0.5, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価B『気配上々』=cond良好"
+      ],
+      "cons": [
+        "[F]追込/テン遅で位置取り課題は脚質側の論点(cond観点では減点せず)"
+      ]
+    },
+    {
+      "no": 6, "name": "エコロシード", "score": 0.5, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109", "https://rihua-keiba.com/", "search:エコロシード 追い切り"],
+      "pros": [
+        "[F]netkeiba調教評価B『好調子』=cond良好",
+        "[F]最終美浦W 52.1-37.1-12.0 馬なり(3頭併せ内・0.5秒先行0.1秒遅れ)=軽い負荷で標準級の終い=余力あり",
+        "[F]1週前6F80秒台のキツイ追い切りを消化=しっかり負荷をかけて仕上げ(本気度の差分シグナル)"
+      ],
+      "cons": [
+        "[F]ラスト1F 12.0は坂路換算でなくW・馬なりで余力域だが突出はせず=絶好調の11秒台ではない",
+        "[F]堀師コメント『去年は暑さでバテた、暑くなると消耗』=夏場の状態リスク(condの不確実性)。鈴木伸尋でなく堀師=catalog外・generic読み"
+      ]
+    },
+    {
+      "no": 7, "name": "ケブランリ", "score": -1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109", "https://www.yosounohone.com/entry/fukushima-2026-6-27"],
+      "pros": [
+        "[F]競馬予想のホネ『最終追い切り美浦坂路★★』=最低限の仕上げはある"
+      ],
+      "cons": [
+        "[F]netkeiba調教評価D『伸び平凡』=終いの伸びが平凡=cond上向きとは言えず。3歳先行馬で動きが平凡だと小回りで甘くなる懸念",
+        "[F]媒体の★★(2つ)も水準級どまり=好時計の証拠なし"
+      ]
+    },
+    {
+      "no": 8, "name": "オセアエクスプレス", "score": -1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [],
+      "cons": [
+        "[F]netkeiba調教評価D『いま一息』=condに物足りなさ=上昇気配なし。差し馬でcond甘いと末脚不発リスク"
+      ]
+    },
+    {
+      "no": 9, "name": "アメリカンチケット", "score": 0.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109", "https://www.jra.go.jp/JRADB/accessU.html"],
+      "pros": [
+        "[F]netkeiba調教評価C『仕上十分』=逃げ馬として平常モードで出走可=condは整っている(マイナスではない)",
+        "[F]藤原英昭厩舎(catalog外)=実績厩舎の『仕上十分』は信頼度やや高め(generic据え置きだが破綻リスク低)"
+      ],
+      "cons": [
+        "[F]評価はC=強い上昇サインまでは出ていない。逃げ単騎想定で時計より実戦の主張が鍵(時計詳細未取得=確信度中)"
+      ]
+    },
+    {
+      "no": 10, "name": "ヒラボクカレラ", "score": 1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価B『出来は良』=condしっかり上向き。福島1勝C勝ちの舞台でcond良好は強い後押し",
+        "[F]坂井瑠星主戦級騎乗+出来良=陣営の前向きさが読める(乗替方向はプラス)"
+      ],
+      "cons": [
+        "[F]差し/テン中で位置取りは脚質側の論点(cond観点では加点)・時計詳細未取得=確信度中"
+      ]
+    },
+    {
+      "no": 11, "name": "グラスブランシュ", "score": -1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [],
+      "cons": [
+        "[F]netkeiba調教評価D『動き平凡』=condに物足りなさ=上昇気配なし。追込脚質でcond甘いと末脚が鈍る懸念"
+      ]
+    },
+    {
+      "no": 12, "name": "タッカージーティー", "score": 0.5, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価B『好気配』=cond良好"
+      ],
+      "cons": [
+        "[F]差し/テン遅で位置取りは脚質側の論点(cond観点では減点せず)。横山典弘騎乗・鈴木伸尋厩舎(catalog外)=generic据え置き"
+      ]
+    },
+    {
+      "no": 13, "name": "サードウインド", "score": 0.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価C『仕上十分』=condは整っている=破綻なし"
+      ],
+      "cons": [
+        "[F]評価C=強い上向きサインまでは出ていない(時計詳細未取得=確信度中)"
+      ]
+    },
+    {
+      "no": 14, "name": "モリノセピア", "score": 0.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価C『仕上がる』=condは整いつつある=破綻なし"
+      ],
+      "cons": [
+        "[F]評価C止まり=上昇の強いサインなし。差し/テン遅で位置取りは脚質側の論点。鈴木伸尋厩舎(catalog外)=generic"
+      ]
+    },
+    {
+      "no": 15, "name": "ルクスレイモンド", "score": 0.5, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価C『遅れ上々』=併せで遅れたが内容(動き)は上々=3歳上昇馬としてcondは前向き",
+        "[F]戸崎圭太騎乗=主戦級配置で陣営の本気度が読める(差分シグナル・catalog外厩舎)"
+      ],
+      "cons": [
+        "[F]評価はCで併せ馬に『遅れ』=相手より動けていない可能性=突出した好気配ではない(condの不確実性・時計詳細未取得)"
+      ]
+    },
+    {
+      "no": 16, "name": "シアター", "score": 1.0, "confidence": "中",
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020109"],
+      "pros": [
+        "[F]netkeiba調教評価B『仕上良好』=condしっかり上向き。上り最速34.3の決め手型で仕上がり良好は終いの裏付け",
+        "[F]差し馬で出来良好=ハイペース想定で末脚が活きる状態(cond面で展開待ちの強い後押し)"
+      ],
+      "cons": [
+        "[F]差し/テン中で位置取りは脚質側の論点(cond観点では加点)。茶木太樹厩舎(catalog外)=generic据え置き・時計詳細未取得=確信度中"
+      ]
+    }
+  ],
+  "stable_intent_additions": [
+    {"trainer": "堀宣行", "tentative_label": "仕上げ型寄り(暫定)", "confidence": "低", "basis": "エコロシードを1週前6F80秒台のキツイ追いで負荷→最終馬なり余力残し。叩き上げでなく一度しっかり負荷をかける型の可能性。1サンプルのみ=要追検証"},
+    {"trainer": "藤原英昭", "tentative_label": "完成度重視・破綻少(暫定)", "confidence": "低", "basis": "アメリカンチケットを『仕上十分(C)』で平常モード送り出し=過剰仕上げせず実戦に余力残す名門の型と整合。型ラベルは要追検証"}
+  ]
+}

@@ -1,0 +1,354 @@
+{
+ "observation": "K. 騎手・乗り替わり・コンビ相性",
+ "race_id": "20260627-fukushima-03",
+ "confidence_overall": "中",
+ "field_note": "今走鞍上は全頭netkeiba出馬表で確定。①⑥⑪⑬は▲3kg減量騎手(斤量mathで-3確認: 3歳牡55/牝53・4歳上牡58基準)。前走騎手はnetkeiba過去馬柱(shutuba_past)で全15頭取得・再検証済。最大のK材料は⑨プロスペクトパークの坂井瑠星(前走非トップ騎手→トップG1騎手の明確な強化↑↑、前走福島3着の先行馬)。強化は⑮北村宏司・⑦武藤雅・⑭柴田大知。弱化は③横山武史降板・⑥吉田豊→減量・⑪石川裕紀人→減量。先行勢に難しい減量テン乗りは不在(⑨坂井・⑫木幡は対応可、①は石田拓郎継続)＝先行争いの破綻リスクは低め。厩舎型カタログは全15厩舎未登録=intentはgeneric読みで確信度下げ。",
+ "field_level_handoff": {
+  "go_forward": [
+   {
+    "no": 12,
+    "name": "ラルフテソーロ",
+    "stance": "木幡巧也でハナ主張(逃/テン速・前走東京も先頭)＝単騎逃げ濃厚。テン乗りだが逃げ戦法は継続可能",
+    "jockey_intent": "行く"
+   },
+   {
+    "no": 9,
+    "name": "プロスペクトパーク",
+    "stance": "坂井瑠星・テン速・前走福島3番手。好位先行で⑫を見る形。テン乗りだが位置取りは騎手力で確保",
+    "jockey_intent": "行く(好位)"
+   },
+   {
+    "no": 1,
+    "name": "コウユーニポポニコ",
+    "stance": "石田拓郎継続・前走東京3番手→1着の先行。▲3kg(50kg)で楽に先行を試みる",
+    "jockey_intent": "行く"
+   },
+   {
+    "no": 5,
+    "name": "ナリノシャーウッド",
+    "stance": "菊沢一樹・先行型(前走大野拓弥から乗替)。約3ヵ月ぶりで出方はやや不確実",
+    "jockey_intent": "行く想定(確信中)"
+   },
+   {
+    "no": 7,
+    "name": "ブルーユンチェリー",
+    "stance": "武藤雅・先行型(牝4)。先行勢の一角",
+    "jockey_intent": "行く"
+   }
+  ],
+  "hold_back": "②⑥⑧⑪⑬⑮(追)・③⑩⑭(差)は控える。先頭は⑫単騎濃厚、⑨が好位で続き、①⑤⑦が前付け＝先行争いは中規模だが⑫が主張すれば楽な単騎も。テン乗りで先行争いを難しくする減量騎手は前列に不在(⑨坂井・⑫木幡は対応可、①は継続)＝先行争いの破綻リスクは低め"
+ },
+ "stable_intent_addenda": [
+  {
+   "trainer": "高柳瑞樹",
+   "tentative_label": "騎手起用=選択的強化(暫定)",
+   "confidence": "低",
+   "basis": "プロスペクトパーク(前走非トップ騎手→今走坂井瑠星)へトップ騎手を配置。勝負時に上位騎手を呼ぶ型の可能性。単一レースの観測=確証薄、要追加蓄積"
+  },
+  {
+   "trainer": "天間昭一",
+   "tentative_label": "騎手起用=流動/減量多用(暫定)",
+   "confidence": "低",
+   "basis": "クラウンフリード前走長谷川蓮(若手)→今走佐藤(▲減量)。低斤量狙いの若手起用が常態の可能性。1走のみ=暫定"
+  },
+  {
+   "trainer": "鹿戸雄一",
+   "tentative_label": "騎手起用=流動/斤量利狙い(暫定)",
+   "confidence": "低",
+   "basis": "実績のあるサムシングニュー(小倉未勝利勝ち)で吉田豊→▲減量石神=52kgの斤量利狙いの公算。1走のみ=暫定"
+  }
+ ],
+ "horses": [
+  {
+   "no": 1,
+   "name": "コウユーニポポニコ",
+   "jockey": "石田拓郎(▲3kg)",
+   "prev_jockey": "石田拓郎",
+   "change_dir": "継続",
+   "weight_relief": "▲3kg(50.0kg)",
+   "pros": [
+    "[K]前走東京未勝利1着の鞍上を継続=人馬の意思疎通、先行意図を共有",
+    "[K]▲3kg(50kg)は3歳牝の先行馬に実質的な斤量利＝前で楽に運べる"
+   ],
+   "cons": [
+    "[K]減量騎手で昇級初戦・小回り先行＝先行争いの当事者になると経験面の不安"
+   ],
+   "score": 0.5,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202603020103",
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ラフレードピエル",
+   "jockey": "江田照男",
+   "prev_jockey": "長浜鴻緒",
+   "change_dir": "乗替(若手→ベテラン)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]前走若手→江田照男でテン乗りながら経験は上積み"
+   ],
+   "cons": [
+    "[K]江田照男は近年勝ち鞍少なく強い後押しにはならず。馬も追込で近走凡走続き"
+   ],
+   "score": 0.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "ジェネラスキング",
+   "jockey": "F.ゴンサルベス",
+   "prev_jockey": "横山武史",
+   "change_dir": "弱化(トップ騎手降板)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]ゴンサルベスはダート水準級＝極端な不安ではない"
+   ],
+   "cons": [
+    "[K]前走勝利時の横山武史(トップ騎手)から乗り替わり＝明確な弱化。テン乗りで昇級初戦の折り合いも未知数"
+   ],
+   "score": -1.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "タイセツナヒ",
+   "jockey": "原優介",
+   "prev_jockey": "田山旺佑",
+   "change_dir": "乗替(横ばい)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]田山旺佑→原優介でやや実績上の若手へ。テン乗りだが大きな違和感なし"
+   ],
+   "cons": [
+    "[K]騎手強化幅は小さく、馬の近走(11着)を覆す材料には乏しい"
+   ],
+   "score": 0.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "ナリノシャーウッド",
+   "jockey": "菊沢一樹",
+   "prev_jockey": "大野拓弥",
+   "change_dir": "乗替(横ばい〜やや弱化・ベテラン→中堅若手)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]菊沢一樹は先行型をそつなく御せる中堅"
+   ],
+   "cons": [
+    "[K]大野拓弥(経験豊富)→菊沢一樹で生の経験はやや減。馬も近走大敗続き(13,15着)で騎手だけでは押せない"
+   ],
+   "score": 0.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "サムシングニュー",
+   "jockey": "石神(道佳?・▲3kg/名は推定)",
+   "prev_jockey": "吉田豊",
+   "change_dir": "弱化(ベテラン→減量)",
+   "weight_relief": "▲3kg(52.0kg)",
+   "pros": [
+    "[K]▲3kg(52kg)の斤量利。差し脚(近2走上り36.4)を活かす軽ハンデ"
+   ],
+   "cons": [
+    "[K]経験豊富な吉田豊から減量騎手へ＝技術面は弱化。決め手勝負の馬に小回りでの仕掛け判断を減量騎手に託す不安"
+   ],
+   "score": -0.5,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "ブルーユンチェリー",
+   "jockey": "武藤雅",
+   "prev_jockey": "嶋田純次",
+   "change_dir": "強化(やや格上へ)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]嶋田純次→武藤雅で経験・勝負強さは上積み＝先行型を立て直せる鞍上"
+   ],
+   "cons": [
+    "[K]馬自身が近走(7,14,7,14着)と崩れ気味で、騎手強化だけでは反転材料として弱い"
+   ],
+   "score": 0.5,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "ガムラスタン",
+   "jockey": "小林脩斗",
+   "prev_jockey": "横山琉人",
+   "change_dir": "乗替(横ばい・若手間)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]小林脩斗は伸び盛りの若手＝水準級"
+   ],
+   "cons": [
+    "[K]横山琉人→小林脩斗は同格の若手乗替で強化幅ほぼ無し＝中立"
+   ],
+   "score": 0.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "プロスペクトパーク",
+   "jockey": "坂井瑠星",
+   "prev_jockey": "石神深道",
+   "change_dir": "強化↑↑(非トップ騎手→トップG1騎手)",
+   "weight_relief": "なし(トップハンデ58kg)",
+   "pros": [
+    "[K]前走鞍上から坂井瑠星(リーディング上位・G1勝ち鞍)への明確な強化↑↑。先行/テン速の馬を好位で運び終いを引き出せる最適配置",
+    "[K]前走福島3着のコース実績馬に勝負騎手＝高柳瑞樹厩舎の勝負気配を示唆(暫定・確信低)"
+   ],
+   "cons": [
+    "[K]テン乗り(初コンビ)＋トップハンデ58kg。位置取りは騎手力で確保できるが斤量負担は残る"
+   ],
+   "score": 2.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103",
+    "https://www.keibalab.jp/db/jockey/01163/"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "ショウナンパトス",
+   "jockey": "津村明秀",
+   "prev_jockey": "岩田望来",
+   "change_dir": "乗替(横ばい〜やや弱化)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]津村明秀は福島巧者の堅実ベテラン＝差し馬の進路取りに長け、テン乗りでも信頼度は高い"
+   ],
+   "cons": [
+    "[K]岩田望来(上位騎手)からの乗替で生の技術指標はやや弱化。強化材料ではない"
+   ],
+   "score": 0.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "キタノブレイク",
+   "jockey": "上里(▲3kg)",
+   "prev_jockey": "石川裕紀人",
+   "change_dir": "弱化(実績騎手→減量)",
+   "weight_relief": "▲3kg(55.0kg)",
+   "pros": [
+    "[K]▲3kg(本来58→55kg)の斤量利あり"
+   ],
+   "cons": [
+    "[K]石川裕紀人(実績騎手)から減量騎手へ＝弱化。馬が近走(10,9,10,9着)と大不振で、減量騎手で反転は見込みにくい"
+   ],
+   "score": -1.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "ラルフテソーロ",
+   "jockey": "木幡巧也",
+   "prev_jockey": "ディー(外国人短期と推定)",
+   "change_dir": "乗替(やや弱化・戦法は維持可)",
+   "weight_relief": "なし(トップハンデ58kg)",
+   "pros": [
+    "[K]木幡巧也は逃げ・先行戦法を御せる中堅＝単騎逃げ濃厚のこの馬で前への意思は継続(展開トリガー)",
+    "[K]テン乗りでも逃げ戦法は型が明快で破綻しにくい"
+   ],
+   "cons": [
+    "[K]前走『ディー』(外国人短期と推定)からは生の技術ではやや弱化。トップハンデ58kg。前走騎手の確定が曖昧で確信度やや下げ"
+   ],
+   "score": 0.0,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "クラウンフリード",
+   "jockey": "佐藤(▲3kg・名は推定)",
+   "prev_jockey": "長谷川蓮",
+   "change_dir": "乗替(若手→減量・横ばい)",
+   "weight_relief": "▲3kg(55.0kg)",
+   "pros": [
+    "[K]▲3kg(本来58→55kg)の斤量利"
+   ],
+   "cons": [
+    "[K]長谷川蓮(若手)→佐藤(減量)で経験面の上積みなし。近走データ自体が乏しく(seed欠損)、小回りで減量騎手＝確信度低の評価"
+   ],
+   "score": -0.5,
+   "confidence": "低",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 14,
+   "name": "コパノエイダン",
+   "jockey": "柴田大知",
+   "prev_jockey": "原優介",
+   "change_dir": "乗替(経験面やや強化)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]原優介→柴田大知でベテランの位置取り技術が上積み。昇級初戦(前走東京未勝利1着・上り37.3の差し)に手堅い鞍上"
+   ],
+   "cons": [
+    "[K]強化幅は中程度で、コンビ初(テン乗り)。差し届くかは展開頼み"
+   ],
+   "score": 0.5,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  },
+  {
+   "no": 15,
+   "name": "パータリプトラ",
+   "jockey": "北村宏司",
+   "prev_jockey": "高杉吏麒",
+   "change_dir": "強化(若手→熟練ベテラン)",
+   "weight_relief": "なし",
+   "pros": [
+    "[K]高杉吏麒(若手)→北村宏司への強化。当馬最速級の上り(36.3)を小回りで的確に引き出せる差し/追込巧者の鞍上"
+   ],
+   "cons": [
+    "[K]テン乗り(初コンビ)＋馬の近走不振(10,5,14,12着)。追込脚はペース次第で騎手強化だけでは推せない"
+   ],
+   "score": 0.8,
+   "confidence": "中",
+   "sources": [
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202603020103"
+   ]
+  }
+ ],
+ "notes": "①⑥⑪⑬の今走騎手をwebで確定(全て▲3kg減量騎手・斤量-3で整合: ①石田拓郎=継続/⑥石神(道佳?)/⑪上里/⑬佐藤)。⑥⑬の減量騎手フルネームは推定(スコア非依存)。前走騎手はnetkeiba過去馬柱(shutuba_past)で全15頭取得・再検証済=乗替方向は全頭確定(⑤も大野拓弥で確認、保留解消)。⑫前走『ディー』は表記断片で外国人短期と推定(確信中)。⑬は今走騎手の小モデル抽出『佐藤哲三』は引退騎手のため不採用、佐藤(▲)とのみ確定。厩舎型カタログは全15厩舎未登録=intentはgeneric、高柳瑞樹/天間昭一/鹿戸雄一の暫定ラベルを追記候補で報告。市場(支持・市場値)は不参照。"
+}

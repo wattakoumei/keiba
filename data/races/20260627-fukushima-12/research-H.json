@@ -1,0 +1,34 @@
+{
+  "observation_point": "H",
+  "label": "当日気配・パドック・直前情報",
+  "race_id": "20260627-fukushima-12",
+  "as_of": "2026-06-27",
+  "expectation_set": "平場・3歳上1勝クラス=陣営コメント/パドック寸評は無料媒体ではほぼ非掲載。取得期待値は低。軽探索で確認のみ(WebSearch3バッチ+WebFetch1バッチで切上げ)。",
+  "overall_confidence": "低",
+  "point": "1勝クラス平場のため陣営コメント・パドック点は無料媒体で未掲載。馬体重も発走前で未発表。当日パドック評価・確定馬体重・出方コメントは取得できず=全馬H寄与は中立(確信度低)、ユーザー補強が必要。唯一の当日材料は馬場=稍重(複数ソース一致・確信度中)。",
+  "field_note": "(1) netkeibaパドック速報頁は『このレースはパドック速報公開対象外/公開遅延・不具合により停止』=本レース(1勝クラス)のパドック寸評・馬体重・発汗気配は取得不能。厩舎コメント頁も対象は新馬戦と特別のみ=本レース対象外。tospo/競馬ブックの厩舎の話・寸評は購読制でWebFetch不可。note.comプレビュー(Red)は有料(¥390)でコメント部分非公開。捏造せず空欄とした。 (2) 出馬表の馬体重は全馬未発表(発走前)。確定馬体重(増減)はユーザーが当日貼付で補強を。 (3) 騎手確認(spawnで要確認指定): ①オレイア=佐藤(下名要確認)/⑨サムハラ=石田(下名要確認、斤52は減量騎手の可能性)/⑪エバーラスト=石神(下名要確認、斤52)。seed欠落の⑩ジェイエルライナー=小林脩斗・⑬ステートオブロック=丸山元気はseedと一致。※騎手はH観点でなくA/E系の素材として記録。 (4) 当日馬場=稍重(やや重)。netkeiba出馬表頁・WebSearch要約の複数ソースで稍重と一致(確信度中)。天候は曇〜晴で流動的。含水率・クッション値は未取得。発走直前に最終確認推奨(観点D側で確定を)。 (5) 出方(行く/控える)コメントは1件も取得できず=STEP4a展開合成の当日トリガー素材は無し。脚質seedで合成を。",
+  "supplement_request": "ユーザー補強推奨: ①確定馬体重と増減(全16頭) ②パドック気配・発汗・返し馬の寸評(スポーツ紙/競馬ブック) ③当日馬場状態・含水率・クッション値。これらが入れば本観点を再評価可能。",
+  "sources_global": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202603020112",
+    "https://race.netkeiba.com/race/paddock.html?race_id=202603020112",
+    "https://www.jra.go.jp/keiba/baba/"
+  ],
+  "horses": [
+    {"no":1,"name":"オレイア","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。騎手=佐藤(下名要確認)。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":2,"name":"ルシェロアズーリ","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":3,"name":"クリノゴッホ","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":4,"name":"テルケンレンスキー","score":0,"confidence":"低","note":"逃げ脚質だが出方コメント未取得(展開トリガー素材なし)。馬体重/パドック未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":5,"name":"テンプーシャオン","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":6,"name":"デアリングエア","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":7,"name":"ラブリーガール","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":8,"name":"ココボロ","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":9,"name":"サムハラ","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。騎手=石田(下名要確認、斤52は減量騎手の可能性)。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":10,"name":"ジェイエルライナー","score":0,"confidence":"低","note":"seed欠落馬。出馬表上は騎手=小林脩斗(seed一致)。脚質はweb確定できず(出馬表に脚質欄なし)=A/E観点でnetkeiba過去走から要確定。パドック/馬体重未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":11,"name":"エバーラスト","score":0,"confidence":"低","note":"昇級初戦。騎手=石神(下名要確認、斤52)。パドック気配は昇級馬で要注目だが当日未取得。馬体重未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":12,"name":"ビッグフラワー","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":13,"name":"ステートオブロック","score":0,"confidence":"低","note":"seed欠落馬。出馬表上は騎手=丸山元気(seed一致)。脚質はweb確定できず(出馬表に脚質欄なし)=A/E観点でnetkeiba過去走から要確定。パドック/馬体重未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":14,"name":"ルクスコロン","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":15,"name":"ファインサマーデイ","score":0,"confidence":"低","note":"先行/テン速だが出方コメント未取得(展開トリガー素材なし)。馬体重/パドック未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]},
+    {"no":16,"name":"コックオーヴァン","score":0,"confidence":"低","note":"パドック/馬体重/コメント未取得。","pros":[],"cons":[],"sources":["https://race.netkeiba.com/race/shutuba.html?race_id=202603020112"]}
+  ]
+}

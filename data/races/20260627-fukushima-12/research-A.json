@@ -1,0 +1,163 @@
+{
+  "observation_point": "A",
+  "label": "能力指数・時計（スピード指数/上がり3F/走破時計/レースレベル）",
+  "race_id": "20260627-fukushima-12",
+  "as_of": "2026-06-27",
+  "lens_note": "持ちタイム絶対値だけでなく『どのレベルで出した時計か』を重視。素の能力評価のみ（相別振り分けは合成側）。",
+  "data_quality": "対象が3歳上1勝クラスの軽量級で、公開webにタイム指数/走破時計の馬別明細がほぼ無い。netkeiba/keibabook等の成績テーブルはWebFetchで描画されず（一部は田中太郎等のプレースホルダ名が返り＝ハルシネーション、近走明細は破棄）。よって主証拠は seed の『上がり最速』(fetch_racecard コアデータ)＋クラス/昇降級＋種牡馬のスプリント適性。上がり最速は出走距離/馬場が不明=A_finish代理として中確信で扱い、走破時計絶対値は概ね不明。鮮度（いつ出した値か）不明のため全体に満額にしない。",
+  "horses": [
+    {
+      "no": 1, "name": "オレイア", "score": -1.5, "confidence": "中",
+      "agari_best": "36.6", "class_status": "同級(1勝)",
+      "pros": [],
+      "cons": [
+        "[A] 上がり最速36.6＝本馬のベストでも極端に遅い。フィールド最遅の決め手で、差し脚質と噛み合わずA_finishは明確な弱点",
+        "[A] 速い走破時計/好指数の裏付け無し。レースレベルでの好走時計も確認できず"
+      ],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed=fetch_racecard core)"]
+    },
+    {
+      "no": 2, "name": "ルシェロアズーリ", "score": 0.0, "confidence": "中",
+      "agari_best": "34.6", "class_status": "同級(1勝)", "career": "11戦1勝[1-1-0-9]",
+      "pros": ["[A] 先行/テン速で序盤の速さ(A_early)は持つ＝小回り1200向きの脚"],
+      "cons": [
+        "[A] 上がり34.6は平均的で決め手の伸びしろ乏しい",
+        "[A] 11戦1勝・2着1で1勝クラスを長く勝ち切れず＝能力天井がこの水準を示唆"
+      ],
+      "sources": ["https://spaia-keiba.com/index.php/db/horse/detail?horse_id=2022105996", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 3, "name": "クリノゴッホ", "score": 0.0, "confidence": "中",
+      "agari_best": "34.1", "class_status": "同級(1勝)",
+      "pros": ["[A] 上がり34.1は当クラスで通用する手堅い決め手。6歳で経験豊富＝時計安定"],
+      "cons": ["[A] 6歳せん馬で1勝クラス継続＝地力天井がこの水準。突き抜ける指数の裏付け無し"],
+      "sources": ["https://umanity.jp/racedata/db/horse_top.php?code=2020103885", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 4, "name": "テルケンレンスキー", "score": 1.0, "confidence": "中",
+      "agari_best": "34.0", "class_status": "同級(1勝)", "career": "9戦1勝[1-3-0-5]",
+      "pros": [
+        "[A] 2着3回＝1勝クラスで安定して際どい時計を出している＝当クラス通用の地力",
+        "[A] 逃げ/テン速で前受けしつつ上がり34.0＝先行押し切り型の好材料(A_early+そこそこA_finish)"
+      ],
+      "cons": ["[A] 1勝どまりで勝ち切る決め手はやや欠く。父サトノダイヤ×Galileoは本来中長距離血で1200絶対スピードは未知"],
+      "sources": ["https://db.netkeiba.com/horse/2023100954/", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 5, "name": "テンプーシャオン", "score": 0.0, "confidence": "中",
+      "agari_best": "34.5", "class_status": "同級(1勝)",
+      "pros": ["[A] 上がり34.5は平均水準は確保。父ドレフォン×クロフネでスピード血は持つ"],
+      "cons": [
+        "[A] テン遅×差しで序盤の速さ無く、決め手も34.5止まり＝小回り短直線で間に合う指数に乏しい",
+        "[A] 6歳1勝クラス滞在＝地力天井がこの水準"
+      ],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)"]
+    },
+    {
+      "no": 6, "name": "デアリングエア", "score": 0.0, "confidence": "中",
+      "agari_best": "34.1", "class_status": "同級(1勝)",
+      "pros": ["[A] 上がり34.1は当クラスで通用する決め手。父エピファネイアで底力は平均以上"],
+      "cons": ["[A] 突出した好時計/好指数の裏付け無し＝平均的。差し質で短直線福島1200は時計を要求される"],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)"]
+    },
+    {
+      "no": 7, "name": "ラブリーガール", "score": 1.0, "confidence": "中",
+      "agari_best": "33.6", "class_status": "同級(1勝)",
+      "pros": [
+        "[A] 上がり33.6＝フィールド上位の決め手を先行ポジから出せる＝A_early+A_finish両立の好材料",
+        "[A] 父サートゥルナーリアで地力は当クラス上位級"
+      ],
+      "cons": ["[A] 出走歴が浅く(2024秋デビュー)、33.6が若齢/低レベル戦の値の可能性＝鮮度割引・近走の同水準裏付けは未確認(全盛時値の注記)"],
+      "sources": ["https://sports.yahoo.co.jp/keiba/directory/horse/2022102696/", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 8, "name": "ココボロ", "score": -0.5, "confidence": "中",
+      "agari_best": "34.5", "class_status": "同級(1勝)",
+      "pros": ["[A] 父ビッグアーサー＝1200特化スプリント血で距離適性は良好"],
+      "cons": [
+        "[A] 追込×テン遅で序盤遅く、最速上がりも34.5＝追込にしては決め手が甘く、短直線福島1200で届く時計指数に乏しい"
+      ],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)"]
+    },
+    {
+      "no": 9, "name": "サムハラ", "score": 1.5, "confidence": "中",
+      "agari_best": "33.4", "class_status": "同級(1勝)",
+      "pros": [
+        "[A] 上がり33.4＝フィールド最速の決め手。A_finishの絶対値はメンバー随一",
+        "[A] 3歳牡馬・斤52の軽量＝上昇余地大。父サートゥルナーリアで地力も裏付け"
+      ],
+      "cons": ["[A] 追込質で33.4を出した距離/レベル不明＝走破時計絶対値は未確認。鮮度割引(満額にしない)"],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)", "https://www.jbis.or.jp/horse/0001215724/record/"]
+    },
+    {
+      "no": 10, "name": "ジェイエルライナー", "score": 0.0, "confidence": "低",
+      "agari_best": "不明", "class_status": "同級(1勝)", "career": "軽量(牝4・差/追込)",
+      "pros": ["[A] 父タワーオブロンドン＝一線級スプリンター(スプリンターズS勝ち/函館SP上がり最速)で短距離決め手の素質は血統的に裏付け"],
+      "cons": [
+        "[A] 上がり最速seed欠落＝決め手の絶対値が確認できず(確信度低)",
+        "[A] 好走破時計/好指数の確証無し＝当クラス通用の時計は未証明"
+      ],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022101819/4F", "https://www.jbis.or.jp/horse/0001209439/record/"]
+    },
+    {
+      "no": 11, "name": "エバーラスト", "score": 0.0, "confidence": "中",
+      "agari_best": "34.0", "class_status": "昇級(未勝利→1勝)",
+      "pros": [
+        "[A] 上がり34.0は決め手として悪くない。3歳牡馬・斤52で上昇余地。父ミスターメロディ＝スプリント血で1200適性◎"
+      ],
+      "cons": [
+        "[A] 昇級初戦＝34.0は未勝利レベルで出した時計でレースレベルが一段下。1勝クラスの時計水準は未証明(レベル割引)"
+      ],
+      "sources": ["https://www.keibalab.jp/db/breed/11202556/", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 12, "name": "ビッグフラワー", "score": 1.0, "confidence": "中",
+      "agari_best": "33.5", "class_status": "同級(1勝)",
+      "pros": [
+        "[A] 上がり33.5＝フィールド2番手の決め手＝A_finish上位。父ビッグアーサー(1200特化)で距離適性も最適",
+        "[A] 斤58を背負える地力＝当クラスでの実績タイム水準は上位を示唆"
+      ],
+      "cons": ["[A] テン遅×差しで序盤の速さ無く、33.5を出した距離/レベル不明。5歳1勝クラス滞在＝地力天井はこの水準寄り"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021100958/D2", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 13, "name": "ステートオブロック", "score": 0.0, "confidence": "低",
+      "agari_best": "不明", "class_status": "seed欠落・要確認",
+      "pros": ["[A] 父シルバーステート＝スピード型マイラー血で先行スピードの素地。斤58を課される=地力評価は低くない"],
+      "cons": [
+        "[A] 上がり最速seed欠落＝決め手の絶対値が確認できず",
+        "[A] keibabook成績テーブル(同厩松尾卓哉)は地方大井ダ1200・好時計(ベスト1.13.7)を示すが、本馬はJRA芝1200・丸山騎乗＝同名/転入の整合不明でデータ矛盾。芝での好時計/指数は未証明(確信度低)"
+      ],
+      "sources": ["https://s.keibabook.co.jp/db/uma/0932278/top", "data/races/20260627-fukushima-12/出走表.md"]
+    },
+    {
+      "no": 14, "name": "ルクスコロン", "score": -1.0, "confidence": "中",
+      "agari_best": "34.9", "class_status": "同級(1勝)",
+      "pros": ["[A] 先行/テン中で序盤の位置は取れる。父モーリス×ダイワメジャーで地力素地はある"],
+      "cons": [
+        "[A] 上がり最速34.9＝フィールド下位(①に次ぐ遅さ)で決め手が甘く、先行しても差し返される時計水準。好指数の裏付け無し"
+      ],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)"]
+    },
+    {
+      "no": 15, "name": "ファインサマーデイ", "score": 1.0, "confidence": "中",
+      "agari_best": "33.9", "class_status": "同級(1勝)",
+      "pros": [
+        "[A] 上がり33.9を先行/テン速のポジから出せる＝A_early+A_finish両立で福島1200に最適",
+        "[A] 父ファインニードル＝スプリントG1馬で1200絶対スピードの血統裏付け◎。3歳の上昇余地"
+      ],
+      "cons": ["[A] 33.9を出した距離/レベル不明で走破時計絶対値は未確認。鮮度割引"],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)"]
+    },
+    {
+      "no": 16, "name": "コックオーヴァン", "score": 0.5, "confidence": "中",
+      "agari_best": "34.1", "class_status": "同級(1勝)",
+      "pros": [
+        "[A] 上がり34.1は当クラス通用の決め手。3歳牝・斤53の軽量で上昇余地",
+        "[A] 父ウインブライトで底力は平均以上"
+      ],
+      "cons": ["[A] 突出した好時計/好指数の裏付けは無く、3歳で経験浅め＝タイム水準は未だ平均圏"],
+      "sources": ["data/races/20260627-fukushima-12/出走表.md (seed)"]
+    }
+  ]
+}

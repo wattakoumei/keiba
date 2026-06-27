@@ -1,0 +1,38 @@
+{
+  "race_id": "20260627-fukushima-09",
+  "observation_point": "H",
+  "observation_label": "当日気配・パドック・直前情報",
+  "as_of": "2026-06-27",
+  "race_grade": "平場・条件戦(3歳上2勝クラス)",
+  "expectation_note": "レース格=平場の条件戦。共同会見・追い切り後コメントの記事化はほぼ無し→空欄が正常。分析時点(発走14:35前/前日朝想定)で当日馬体重・パドックは未発表(netkeiba出馬表の馬体重欄は '---.-')。探索は軽く切り上げた(創作しない)。",
+  "overall_confidence": "低",
+  "field_level_findings": {
+    "weights_status": "全頭 未発表(当日計量前)。netkeiba出馬表で '---.-' 表示を確認。",
+    "paddock_status": "媒体パドック寸評・点数とも未掲載(当日朝以降に立つ想定)。競馬ブック・netkeibaのパドックページは当日分が未生成。",
+    "comments_status": "陣営/騎手コメント、共同会見、返し馬評価とも記事化を確認できず(平場のため期待値どおり)。",
+    "training_note_out_of_scope": "観点H外だが付記: 7ケブランリに追い切り注目記事(競馬予想のホネ)で美浦坂路★★の評価あり。これは観点F(調教)の領域でHのスコアには未反映。"
+  },
+  "horses": [
+    {"no": 1, "name": "ゲクウ", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。空欄が正常。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 2, "name": "カワキタマナレア", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 3, "name": "ゴルトリッチ", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 4, "name": "タケルハーロック", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "昇級初戦だが当日気配・パドック・コメントは取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 5, "name": "イノキ", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 6, "name": "エコロシード", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "テン速・先行で展開トリガー候補だが、出方を明言する陣営コメントは取得できず(前走後/今走前の区別がつく記述なし)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 7, "name": "ケブランリ", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "追い切り注目記事で美浦坂路★★の評価あり(観点F領域・Hには未反映)。当日気配・パドック・出方コメントは取得不能。", "sources": ["https://www.yosounohone.com/entry/fukushima-2026-6-27", "https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 8, "name": "オセアエクスプレス", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 9, "name": "アメリカンチケット", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "逃げ脚質で展開トリガー候補。藤原英昭厩舎・出方を示すコメントを探したが今走向けの記事は取得できず。当日気配・パドックも未発表。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 10, "name": "ヒラボクカレラ", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "福島1勝C勝ちの実績馬だが当日気配・パドック・コメントは取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 11, "name": "グラスブランシュ", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 12, "name": "タッカージーティー", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "横山典騎乗だが出方を示すコメントは取得できず。当日気配・パドックも未発表。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 13, "name": "サードウインド", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 14, "name": "モリノセピア", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "当日気配・パドック・コメントとも取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 15, "name": "ルクスレイモンド", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "戸崎騎乗・先行脚質で注目馬だが、今走向けの陣営/騎手コメント・出方の明言は取得できず。当日気配・パドックも未発表。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]},
+    {"no": 16, "name": "シアター", "score": 0, "confidence": "低", "pros": [], "cons": [], "notes": "上り最速34.3の差し馬だが当日気配・パドック・コメントは取得不能(平場・未発表)。", "sources": ["https://race.netkeiba.com/race/shutuba.html?race_id=202603020109"]}
+  ],
+  "user_augmentation_request": "本観点は当日情報が核。発走前に(1)確定馬体重と前走比増減、(2)媒体のパドック寸評/点数(競馬ブック・スポーツ紙の馬体評価)、(3)有力馬の返し馬・発汗・気配、を貼り付けてもらえれば cond 項を再評価できる。特に逃げ9アメリカンチケット・先行6エコロシード/15ルクスレイモンドの当日の出方は展開合成(STEP4a)のティア付け替えに直結。",
+  "sources": [
+    "https://race.netkeiba.com/race/shutuba.html?race_id=202603020109",
+    "https://www.yosounohone.com/entry/fukushima-2026-6-27"
+  ]
+}
