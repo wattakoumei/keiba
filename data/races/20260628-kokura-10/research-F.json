@@ -1,0 +1,272 @@
+{
+  "point": "F調教・厩舎仕上げ",
+  "overall_confidence": "低",
+  "note": "seed空（競馬ブックベスト調教ランキングに当該馬なし）。netkeiba追い切りページでB/C評価・脚色テキストを全16頭取得。タイム実測は1〜3番の3頭のみ（残りはpaywall）。全厩舎がstable-intent-rubric catalog未掲載→暫定ラベル・確信度一律「低」。C評価の2頭（No.12・No.14）は調教観点では明確な減点。",
+  "field_note": "B評価14頭・C評価2頭（カウンティフェア・グレイスオブゴッド）。seed不在=好時計ランキング圏外だが積極的マイナスではなく「好時計の積極加点根拠なし」扱い。メイショウジェンマがCWラスト11.7秒+「相手を手応えで圧倒」で最強コメント。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "シンコーナホチャン",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[F]CWラスト1F 11.8秒=余力水準（12.6以下の目安達成）",
+        "[F]6か月休み明けとして乗り込み量確保、粘り強化コメント=上向きシグナル",
+        "[F]netkeiba評価B・攻め熱心=積極仕上げ"
+      ],
+      "cons": [
+        "[F]全体時計84.3秒はスロー（仕上げ途中の可能性）",
+        "[F]長休明け初戦=状態上限不明。厩舎（畑端省吾）catalog未掲載"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "メイショウジェンマ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[F]CWラスト1F 11.7秒=余力十分（11秒台）",
+        "[F]「相手を手応えで圧倒」は今週最強の調教コメント",
+        "[F]上がり重点にもかかわらず評価高い=余力そのもの"
+      ],
+      "cons": [
+        "[F]全体時計87.6秒はスロー（上がり重点のため比較不可）",
+        "[F]厩舎（飯田祐史）catalog未掲載"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "レーティッシュ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[F]栗坂ラスト1F 12.4秒=余力水準（12.6以下）",
+        "[F]「追うごとに動きに余裕も出てきた。好態勢」=脚色の質向上シグナル",
+        "[F]netkeiba評価B・仕上上々"
+      ],
+      "cons": [
+        "[F]ラスト12.4は余力水準だが絶好調域（12.0以下）には届かず",
+        "[F]厩舎（高橋一哉）catalog未掲載"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウクーガー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[F]netkeiba評価B・仕上良好=標準的な良状態"
+      ],
+      "cons": [
+        "[F]タイム詳細不取得（paywall）",
+        "[F]厩舎（中内田充正）catalog未掲載"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "コウジョリョウゾク",
+      "score": -0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・一歩前進=3か月休み後の改善方向"
+      ],
+      "cons": [
+        "[F]「一歩前進」は最高状態未達の表現=改善途上",
+        "[F]前走12着大敗後の3か月休み=立て直し途上の可能性",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サンライズプルート",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・キビキビ=先行馬として躍動感ある調教内容",
+        "[F]3か月休み後の仕上がりとして良好"
+      ],
+      "cons": [
+        "[F]タイム詳細不取得",
+        "[F]厩舎（東田明士）catalog未掲載"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テーオーライマン",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・出来安定=状態維持"
+      ],
+      "cons": [
+        "[F]「安定」は上昇感ゼロの平行線表現",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヘール",
+      "score": -0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・態勢整う=最低限の出走準備完了"
+      ],
+      "cons": [
+        "[F]障害転落後4か月の平地復帰=体型・筋肉バランス変化の不確実性大",
+        "[F]「態勢整う」は到達感の弱い表現（上昇感なし）",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カルパ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・仕上良好=安定した良状態"
+      ],
+      "cons": [
+        "[F]タイム詳細不取得",
+        "[F]2か月休み明け後の上限不明"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "マハートマーベル",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・出来は良=前走1着継続で状態落ちなし"
+      ],
+      "cons": [
+        "[F]「良」は上昇感なし",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "アラナコア",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・動き軽快=積極的な仕上がり感",
+        "[F]2勝クラス降級で厩舎が本気仕上げの気配（推定）"
+      ],
+      "cons": [
+        "[F]タイム詳細不取得",
+        "[F]2か月休み後の上限不明"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "カウンティフェア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[F]C評価・気配平凡=状態未整備の明確なシグナル",
+        "[F]3か月休み明けで仕上がり遅れ",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "コスモストーム",
+      "score": 0.5,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・気配上昇=明確な上向きシグナル",
+        "[F]前走4着から改善傾向"
+      ],
+      "cons": [
+        "[F]タイム詳細不取得",
+        "[F]「上昇」の天井が不明"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "グレイスオブゴッド",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[F]C評価・反応平凡=明確な状態懸念",
+        "[F]2か月休み後の復帰で仕上がり不全",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ズバットマサムネ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・出来は良=安定水準"
+      ],
+      "cons": [
+        "[F]前走12着大敗後の状態、タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スマートプレシャス",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[F]B評価・前走以上=前走14着からの明確な改善"
+      ],
+      "cons": [
+        "[F]前走14着（大崩れ）からの比較なので相対基準が低い",
+        "[F]タイム詳細不取得"
+      ],
+      "sources": [
+        "https://race.netkeiba.com/race/oikiri.html?race_id=202610020210"
+      ]
+    }
+  ]
+}

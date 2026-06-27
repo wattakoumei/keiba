@@ -1,0 +1,270 @@
+{
+  "point": "小倉D1700m：逃げ29%/先行22%の圧倒的前残りコース。6/27前日ダート不良〜重・上がり37〜38秒台で前残り傾向実測確認。スマートプレシャス（逃）＋サンライズプルート（先）が脚質適性最上位。差し・追込全般は観点Dのみでマイナス。",
+  "overall_confidence": "中",
+  "field_note": "【コース恒常】逃げ勝率29%/連対率46%、先行9%/22%、差し3%/7%、追込1%/3%（umameshi.com実績値）。直線291.3m・3〜4角下りスパイラル=スピード持続型前残り。初角343m助走で枠差は小（芝スタートなし）。枠別勝率は内外ほぼ均等（1〜7枠5〜7%、8枠9%）。【当該開催の今】第2回小倉1週目。6/27 4R（D1700m）：馬場不良・1着4番手通過・上がり37.7秒・前残り確認。6/27 7R：馬場重・上がり38.2〜38.5秒・4コーナー先頭馬が上位。砂厚9.0cm。6/28 14:55発走時の馬場は当日発表待ち（梅雨季継続で道悪想定）。道悪が続けば前残りバイアスさらに強化。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "シンコーナホチャン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "前走中京D同距離でコース替わりのみ・距離変化なし"
+      ],
+      "cons": [
+        "追/遅脚質は前残りコースで構造的に不利",
+        "道悪強化でさらに差しが届かない",
+        "前走上り38.2と遅め"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "メイショウジェンマ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "父ホッコータルマエ=重パワーダート血統で道悪適性あり（血統観点C担当・参考）"
+      ],
+      "cons": [
+        "追/遅脚質は前残りコースで不利",
+        "中山D→小倉Dのコース替わり"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "レーティッシュ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "父American Pharoah=道悪時小倉D実績上位血統（血統観点C担当・参考）",
+        "東京D1600→小倉D1700は+100mの緩い距離延長"
+      ],
+      "cons": [
+        "東京D1600は芝スタート=先行しやすい環境→小倉ダートSは条件が異なる",
+        "差し脚質は前残りコースで不利",
+        "斤量57kg（観点I担当）"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウクーガー",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "父メイショウボーラー=ダート適性あり（観点C担当）"
+      ],
+      "cons": [
+        "差し脚質は前残りコースで不利",
+        "前走上り38.0と遅め",
+        "新潟D→小倉Dのコース替わり"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "コウジョリョウゾク",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "追/遅脚質は前残りコースで最不利",
+        "3か月休み明け",
+        "前走2勝クラス12着惨敗からの臨戦"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サンライズプルート",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "先行脚質が前残りコース構造に適合",
+        "道悪で前残り傾向さらに強化=先行馬の優位が拡大",
+        "逃げ馬が潰れれば番手取りの可能性"
+      ],
+      "cons": [
+        "3か月休み明け",
+        "前走阪神9着と大敗（能力は観点A担当）"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html",
+        "https://race.netkeiba.com/race/result.html?race_id=202610020104"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テーオーライマン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "差/遅脚質は前残りコース・道悪でともに不利",
+        "当該コースでの実績確認不能"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヘール",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "障害転落→平地復帰でダート適性が実質未知（前走データなし）",
+        "4か月休み明け",
+        "差し脚質は前残りコースで不利"
+      ],
+      "sources": []
+    },
+    {
+      "no": 9,
+      "name": "カルパ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "母父キングカメハメハはダート適性あり（観点C担当）"
+      ],
+      "cons": [
+        "父モーリス=芝寄り血統でダート適性に疑問",
+        "差し脚質は前残りコースで不利"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "マハートマーベル",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "前走京都D1着の勢い",
+        "京都D1800→小倉D1700の距離短縮は前残り向きに方向転換"
+      ],
+      "cons": [
+        "差/遅脚質は前残り・道悪コースで構造的に不利",
+        "コース替わり（京都→小倉）"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "アラナコア",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "2勝クラス降級で相対能力は上位の可能性（観点A担当）"
+      ],
+      "cons": [
+        "差し脚質は前残りコースで不利",
+        "阪神D→小倉Dのコース替わり"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "カウンティフェア",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "先行脚質は前残りコースに適合",
+        "母父クロフネのダート適性（観点C担当）"
+      ],
+      "cons": [
+        "前走上り34.0は芝の数値（ダートでは説明不能）=芝→ダート転向の懸念大",
+        "父サートゥルナーリア=芝馬でダート適性疑問",
+        "前走コース種別（芝/ダート）確認不能=欠損"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "コスモストーム",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "前走上り35.7と差し馬中では速め"
+      ],
+      "cons": [
+        "差/遅脚質は前残りコースで不利",
+        "57kg重斤量（観点I担当）",
+        "道悪でさらに差しが届かない"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "グレイスオブゴッド",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "追/遅脚質は前残りコースで最不利",
+        "道悪でさらに後方不利",
+        "福島D→小倉Dのコース替わり"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ズバットマサムネ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "差し脚質は前残りコースで不利",
+        "前走12着惨敗"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スマートプレシャス",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "逃げ馬=小倉D1700m逃げ勝率29%（連対率46%）が突出",
+        "道悪強化でハナを守りやすくなる=逃げ有利がさらに拡大",
+        "母父スマートファルコン（ダート名馬）で道悪適性",
+        "52kg最軽量でペースに余裕"
+      ],
+      "cons": [
+        "前走福島14着惨敗（能力評価は観点A担当）",
+        "逃げ主張が複数出た場合は激流=展開担当判定"
+      ],
+      "sources": [
+        "https://www.umameshi.com/info/keibajou/kokura-d1700.html",
+        "https://race.netkeiba.com/race/result.html?race_id=202610020104"
+      ]
+    }
+  ],
+  "note": "research-d.json保存先: /Users/watasekoumei/development/keiba/data/races/20260628-kokura-10/research-d.json。道悪/馬格タグ(D/Gチャンネル)は当日馬体重発表後にweight_adjust.py --going重 --weightsで再算定要。カウンティフェア前走コース（芝/ダート）は確認不能=欠損（確信度低）。同一レースリピーター実績の深掘りは観点L担当。"
+}

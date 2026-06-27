@@ -1,0 +1,278 @@
+{
+  "point": "小倉ダ1700m=①短距離型血統（キンシャサノキセキ・スニッツェル）で⑮ズバットマサムネは父母父共に距離不適合・消し最有力。②小倉不向き二重（父メイショウボーラー小倉ダート×・母父ジャングルポケット小回り×）で④メイショウクーガーも血統的に消し。正加点は⑤ルヴァンスレーヴのダ1700m以上好走（4歳上昇期）、⑦ダノンバラードの小倉ダート好成績コース合致、⑩ブリックスアンドモルタルの本質米国ダート×前走1着、⑭ラニのダート1700mドンピシャ。③レーティッシュはAP×Harlan's Holiday=米国ダート二重血統で初ダートへの血統裏付けが強い材料。",
+  "overall_confidence": "中",
+  "horses": [
+    {
+      "no": 1,
+      "name": "シンコーナホチャン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[C]父パイロ=ダ1000-1700m最適・稍重/重で末脚冴える・1700mが上限距離で一致"
+      ],
+      "cons": [
+        "[C]母父ゴールドヘイロー=カタログ外・web未収録で血統サポート不明・低確信度",
+        "[C]父パイロは牝馬割引あり・牝5歳はパイロ2-4歳持続型のピーク後で下降期"
+      ],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "メイショウジェンマ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[C]父ホッコータルマエ=重◎水含み・叩き良化型・ダート万能・成長力型で6歳でも持続"
+      ],
+      "cons": [
+        "[C]父ホッコータルマエのベストはダ2000m・1700mはやや短め",
+        "[C]母父マンハッタンカフェ=スタミナ供給が2000m+方向で1700mでは余剰スタミナの鈍さが出る可能性"
+      ],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "レーティッシュ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[C]父American Pharoah×母父Harlan's Holiday=米国ダート二重血統・カフェファラオ等ダートG1産駒輩出・初ダートへの血統的裏付けが強い",
+        "[C]4歳=AP産駒の成長ピーク付近・上昇期"
+      ],
+      "cons": [
+        "[C]前走までの実績は芝主体（agari35秒台）で初ダートの可能性=血統はダート向きだが実績は芝で好走という矛盾→再現性への疑問（確信度を下げる材料）",
+        "[C]斤量57kg（実効+2kg）不利"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/american-pharoah-data0/",
+        "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%BA%E3%83%9B%E3%83%AA%E3%83%87%E3%83%BC"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウクーガー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[C]父メイショウボーラー=ダ1700-2000m距離適性は当該距離と一致"
+      ],
+      "cons": [
+        "[C]父メイショウボーラー=小倉ダートが苦手コースとして明記・当該コース不向き",
+        "[C]母父ジャングルポケット=東京◎・小回り×=小倉の小回りコースは不適合・父母父両方で小倉不向きが二重に重なる",
+        "[C]6歳=標準成長型のピーク後・下降期"
+      ],
+      "sources": [
+        "https://www.doragon-keiba.com/meisho-bowler",
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "コウジョリョウゾク",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[C]父ルヴァンスレーヴ=ダ1700m以上で成績上昇・馬場不問・牡馬優勢",
+        "[C]牡4歳=ルヴァンスレーヴ仕上がりやや遅め型の上昇期でまだ伸びる"
+      ],
+      "cons": [
+        "[C]母父チチカステナンゴ=欧州フランス系・芝寄り傾向・ダートサポートが弱い",
+        "[C]前走2勝クラス12着大敗=血統は合うが凡走が続く（敗因判定はB側の仕事）"
+      ],
+      "sources": [
+        "https://keibamemo.hateblo.jp/entry/2025/12/06/162658",
+        "https://www.doragon-keiba.com/chichicastenango"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サンライズプルート",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[C]父リオンディーズ=芝ダ兼用・道悪/重め◎でダート適性あり"
+      ],
+      "cons": [
+        "[C]母父ディープインパクト=芝専的供給（良高速◎/不良×・瞬発型）でダート能力を弱める方向性・カタログ上「リオンディーズ×母父マンカフェ◎」の特記は本馬（母父ディープ）には非該当",
+        "[C]6歳=リオンディーズ標準成長型のピーク後・下降期懸念"
+      ],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テーオーライマン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[C]父ダノンバラード=ダート全成績で芝を上回る・得意距離1700-2000mがドンピシャ・小倉ダートは好成績コースとして記録あり"
+      ],
+      "cons": [
+        "[C]父ダノンバラード=早熟傾向（2歳が強い・4歳以降の頭は厳しい）で4歳の本馬はピークまたは若干下降開始の懸念",
+        "[C]母父アグネスデジタル=ダート平均勝利距離1375m・短距離寄りで1700mのスタミナサポートは弱め"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/danon-ballade-data0/",
+        "https://navi-keiba.com/sire/agnesdigital",
+        "https://navi-keiba.com/coursedata/kokura/d1700"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヘール",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "[C]父シュヴァルグラン=晩成型（3歳後半から上昇）・5歳でピーク付近・母父タニノギムレット=ダート1700-1800mで良績"
+      ],
+      "cons": [
+        "[C]障害転落からの平地復帰で平地血統評価の検証材料がほぼゼロ・血統の適性が未検証状態",
+        "[C]父シュヴァルグラン産駒のダートは競馬場依存が強く小倉での成績データが薄い"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/cheval-grand-0/",
+        "https://navi-keiba.com/sire/TaninoGimlet"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カルパ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[C]母父キングカメハメハ=芝ダ兼用・万能でダートをサポート・5歳=モーリス晩成型のピーク付近"
+      ],
+      "cons": [
+        "[C]父モーリス=芝主体（ダ道悪上昇）で良馬場ダートは芝に比べてサポートが弱まる傾向"
+      ],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "マハートマーベル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[C]父ブリックスアンドモルタル=米国産ダート血統（本質ダート）・牡馬にスピード+先行力供給・1600-2000mで活躍・4歳ピーク付近"
+      ],
+      "cons": [
+        "[C]父ブリックスアンドモルタルの全体産駒統計は芝タイプが多く「ダートで苦戦」傾向も存在=実績あり×血統の矛盾（確信度を下げる材料）",
+        "[C]母父マンハッタンカフェ=スタミナ供給型でダート的ではない"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/bricks-and-mortar-0/",
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "アラナコア",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[C]父ブリックスアンドモルタル（本質ダート血統）×母父キングカメハメハ（万能ダート兼用）=両方向からダートをサポートする構成"
+      ],
+      "cons": [
+        "[C]父ブリックスアンドモルタルの全体産駒統計は芝タイプ多・2勝クラスから降格で当該条件での地力不足を示唆"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/bricks-and-mortar-0/",
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "カウンティフェア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[C]母父クロフネ=パワー+スピード・ダート化供給の代表的BMS・ダートを強化する方向"
+      ],
+      "cons": [
+        "[C]父サートゥルナーリア=直線長コース高信頼・小倉の短い直線（291m）は明確な不適合",
+        "[C]父サートゥルナーリア=芝主体でダートは「も」レベル・良の時計向き"
+      ],
+      "sources": [
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "コスモストーム",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[C]父デクラレーションオブウォー=小倉コースで好成績・道悪得意・母父キングカメハメハは万能でダートサポート",
+        "[C]4歳=ピーク付近"
+      ],
+      "cons": [
+        "[C]父デクラレーションオブウォーのダートは短距離（1200m系）が主力・ダ1700mは距離がやや長め",
+        "[C]斤量57kg（実効+2kg）不利"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/declaration-of-war-data0/",
+        "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "グレイスオブゴッド",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[C]父ラニ=A.P.Indy系ダート専用・ダート1700m（複勝回収率121%）がドンピシャ適性距離・スピード持続型スタミナ"
+      ],
+      "cons": [
+        "[C]牝6歳=奥手型ラニでも6歳は高齢・下降期懸念",
+        "[C]母父スキャターザゴールド=ミスプロ系ダート血統だがBMSとしての傾向データ薄い・低確信度"
+      ],
+      "sources": [
+        "https://shimancyukeiba.com/traits-of-lanis-progeny/",
+        "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%A3%E3%82%BF%E3%83%BC%E3%82%B6%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ズバットマサムネ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[C]父キンシャサノキセキ=ダート全般の成績が芝を上回る傾向"
+      ],
+      "cons": [
+        "[C]父キンシャサノキセキ=スプリント特化（1200m主戦場）・1800m以上で成績急落・ダ1700mは明確な距離不向き",
+        "[C]母父スニッツェル=豪州Danzig系最高峰スプリンター・短距離スピード供給のみ・1700mのスタミナ不足を父と共に加速させる二重距離不適合"
+      ],
+      "sources": [
+        "https://navi-keiba.com/sire/kinshasanokiseki",
+        "https://www.keibalab.jp/db/breed/11202104/"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スマートプレシャス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[C]母父スマートファルコン=ゴールドアリュール系ダート専用・小倉ダート1700mで複勝率3割超・回収値抜群=当該コース血統的に最適合"
+      ],
+      "cons": [
+        "[C]父シャンハイボビー=短距離特化（ダート1400m以下が主戦場）・1700mは距離不向き・早熟型で牝5歳は下降期",
+        "[C]父シャンハイボビー産駒は牡馬優位・牝馬は成績劣後"
+      ],
+      "sources": [
+        "https://nobinobi-kaisyu.com/shanghai-bobby-0/",
+        "https://navi-keiba.com/sire/smartfalcon"
+      ]
+    }
+  ],
+  "note": "カタログ追記候補（全17血統確認済み）: American Pharoah・Harlan's Holiday・メイショウボーラー・ルヴァンスレーヴ・チチカステナンゴ・ダノンバラード・アグネスデジタル・シュヴァルグラン・タニノギムレット・ブリックスアンドモルタル・デクラレーションオブウォー・ラニ・スキャターザゴールド・キンシャサノキセキ・スニッツェル・シャンハイボビー・スマートファルコン。詳細は data/races/20260628-kokura-10/research-c.json を参照。",
+  "field_note": "①母父ゴールドヘイロー=web検索でも傾向データ未取得（Victory Road等に掲載なし）・Halo系の可能性あるが不確定=低確信度で評価。カタログ追記候補に追加要だが情報源不足のため暫定保留。⑧メイショウヘールは障害転落後の平地復帰で平地血統評価の検証材料がほぼゼロ=最低確信度。小倉ダート1700m好成績種牡馬（参考）: ダノンバラード・ラニ・シニスターミニスター・アメリカンペイトリオット。"
+}
