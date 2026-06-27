@@ -29,7 +29,8 @@
         "concern": "オオセイケイは前走新馬3着＝出走中最上位着順・上がり最速・6/6東京新馬で同走2頭に直接先着(h2h)。逃げテン速で5頭立てなら形を作れる。ただ2歳未勝利のムラ＋無形のユイノヘラクレスが伏兵リスク"
       },
       "quadrant": "鉄板コツコツ",
-      "score": 3
+      "score": 3,
+      "post_time": "11:10"
     },
     {
       "r": 10,
@@ -57,7 +58,8 @@
         "concern": "斤量58横一線で力フラット、抜けた1頭不在。逃げ1頭で隊列読めず上位2-3頭に割れ＝ボックス妙味向き"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "15:10"
     },
     {
       "r": 11,
@@ -87,7 +89,8 @@
         "concern": "重賞実績馬5頭が斤量で均され横並び、各馬近走に大敗を挟み信頼の核なし。福島16頭3歳ハンデGⅢ＝荒れ二重"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "15:45"
     },
     {
       "r": 9,
@@ -117,7 +120,8 @@
       },
       "quadrant": "切り",
       "score": -1,
-      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）"
+      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）",
+      "post_time": "14:35"
     },
     {
       "r": 1,
@@ -136,7 +140,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:05"
     },
     {
       "r": 2,
@@ -155,7 +160,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:40"
     },
     {
       "r": 4,
@@ -174,7 +180,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:40"
     },
     {
       "r": 5,
@@ -192,7 +199,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:30"
     },
     {
       "r": 6,
@@ -211,7 +219,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:00"
     },
     {
       "r": 7,
@@ -231,7 +240,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:30"
     },
     {
       "r": 8,
@@ -249,7 +259,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "14:00"
     },
     {
       "r": 12,
@@ -267,7 +278,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "16:30"
     }
   ]
 }

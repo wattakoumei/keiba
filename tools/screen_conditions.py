@@ -146,14 +146,21 @@ def cmd_fill(ymd, place, venue):
         data = {"date": ymd, "venue": venue, "place": place,
                 "as_of": "(条件のみ)", "odds_available": False, "races": []}
     have = {r["r"] for r in data["races"]}
+    day = fetch_day(ymd, place)
+    times = {rc["r"]: rc.get("post_time") for rc in day}
+    # 既存行（ハーネス作成分を含む）にも発走時刻を充填＝バックフィル兼用
+    for r in data["races"]:
+        if times.get(r["r"]):
+            r["post_time"] = times[r["r"]]
     added = 0
-    for rc in fetch_day(ymd, place):
+    for rc in day:
         if rc["r"] in have:
             continue
         c = cond_assess(place, rc.get("surface"), rc.get("distance"),
                         rc.get("headcount"), rc.get("race_name"))
         data["races"].append({
-            "r": rc["r"], "surface": rc.get("surface"), "distance": rc.get("distance"),
+            "r": rc["r"], "post_time": rc.get("post_time"),
+            "surface": rc.get("surface"), "distance": rc.get("distance"),
             "headcount": rc.get("headcount"), "class": c["class"], "race_type": "—",
             "race_name": rc.get("race_name"),
             "cond_rage": c["cond_rage"], "cond_flags": c["cond_flags"],

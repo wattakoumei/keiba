@@ -33,7 +33,8 @@
         "concern": "ハンデで斤量5kg散らばり＋2勝クラス上位が団子。川田レーティッシュ地力上位もトップハンデ57の差し馬＝展開待ちで本命定まらず"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "14:55"
     },
     {
       "r": 9,
@@ -60,7 +61,8 @@
         "concern": "ナリタ地力1枚上だが古馬特別へ昇級初戦で格未証明。スロー差し決着なら上がり最速勢(サトノ/ニュークレド)台頭で本命割れ"
       },
       "quadrant": "妙味なし",
-      "score": 0
+      "score": 0,
+      "post_time": "14:20"
     },
     {
       "r": 11,
@@ -87,7 +89,8 @@
         "concern": "スカイハイ決め手最速32.8で質は頭一つだが57別定最重量＋差し脚質＝展開待ち。テン速2頭の前残りなら差し勢ごと届かず"
       },
       "quadrant": "妙味なし",
-      "score": 0
+      "score": 0,
+      "post_time": "15:30"
     },
     {
       "r": 1,
@@ -107,7 +110,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "09:55"
     },
     {
       "r": 2,
@@ -126,7 +130,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:30"
     },
     {
       "r": 3,
@@ -146,7 +151,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:00"
     },
     {
       "r": 4,
@@ -165,7 +171,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:30"
     },
     {
       "r": 5,
@@ -184,7 +191,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:20"
     },
     {
       "r": 6,
@@ -203,7 +211,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:50"
     },
     {
       "r": 7,
@@ -221,7 +230,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:20"
     },
     {
       "r": 8,
@@ -239,7 +249,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:50"
     },
     {
       "r": 12,
@@ -258,7 +269,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "16:15"
     }
   ]
 }

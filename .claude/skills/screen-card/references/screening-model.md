@@ -84,7 +84,8 @@ shortlist（🟥系=Y高の荒れ候補 ＋ 🟦系=Y低だが軸が立ちそう
   "date": "20260628", "venue": "hakodate", "place": "02",
   "as_of": "<実行時刻>", "odds_available": true,
   "races": [
-    {"r": 11, "surface": "芝", "distance": 1200, "headcount": 16,
+    {"r": 11, "post_time": "15:45",                            // 発走時刻（day カード由来。日付ページR列に表示）
+     "surface": "芝", "distance": 1200, "headcount": 16,
      "class": "3勝クラス", "race_type": "ハンデ", "race_name": "…",
      "cond_rage": "強", "cond_flags": ["ハンデ","多頭数","芝短距離"],
      "dango_tier": "割れ", "dango_signals": ["…"],            // fetch_odds.py 由来。未公開なら null

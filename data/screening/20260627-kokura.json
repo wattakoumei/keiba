@@ -30,7 +30,8 @@
         "concern": "全頭が新馬1走のみでサンプル僅少。軸はシスキンブルーム1頭に寄せたい"
       },
       "quadrant": "鉄板コツコツ",
-      "score": 3
+      "score": 3,
+      "post_time": "09:55"
     },
     {
       "r": 10,
@@ -57,7 +58,8 @@
         "concern": "サディーク1頭は比較的クリアだが2列目が複数横並びで2-3着割れ。逃げ4頭でテン速く隊列当日次第"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "14:55"
     },
     {
       "r": 11,
@@ -87,7 +89,8 @@
         "concern": "OP特別の小差集団で堅実勢3-4頭横並び、抜けた主軸不在。逃げ2頭でペース不安定の芽"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "15:30"
     },
     {
       "r": 9,
@@ -114,7 +117,8 @@
         "concern": "抜けた1頭不在で2頭に割れ。逃げ1頭のスロー前残りで差し追込が取りこぼすリスク"
       },
       "quadrant": "妙味なし",
-      "score": 0
+      "score": 0,
+      "post_time": "14:20"
     },
     {
       "r": 12,
@@ -141,7 +145,8 @@
         "concern": "本命候補が昇級初戦で実績未確定。層は薄いが軸が割れる"
       },
       "quadrant": "妙味なし",
-      "score": 0
+      "score": 0,
+      "post_time": "16:15"
     },
     {
       "r": 2,
@@ -159,7 +164,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:30"
     },
     {
       "r": 3,
@@ -178,7 +184,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:00"
     },
     {
       "r": 4,
@@ -197,7 +204,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:30"
     },
     {
       "r": 5,
@@ -216,7 +224,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:20"
     },
     {
       "r": 6,
@@ -235,7 +244,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:50"
     },
     {
       "r": 7,
@@ -254,7 +264,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:20"
     },
     {
       "r": 8,
@@ -273,7 +284,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:50"
     }
   ]
 }

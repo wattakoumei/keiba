@@ -236,6 +236,7 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .screen-table .srow.q-skip, .screen-table .srow.q-kiri { opacity: 0.6; }
 .rcell .go { display: block; font-size: 0.72rem; color: var(--accent); }
 .rcell .nopred { display: block; font-size: 0.72rem; }
+.rcell .ptime { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
 .rname { font-weight: 600; }
 .rcourse { font-size: 0.78rem; }
 .cond-tags { margin-left: 6px; color: var(--text); }

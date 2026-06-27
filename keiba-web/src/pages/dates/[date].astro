@@ -73,6 +73,7 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
                       {linked
                         ? <a href={`${base}races/${rid}/`}><b>{x.r}R</b><span class="go">予想 ›</span></a>
                         : <span><b>{x.r}R</b><span class="muted nopred">未予想</span></span>}
+                      {x.post_time && <div class="ptime">{x.post_time} 発走</div>}
                     </td>
                     <td>
                       <div class="rname">{x.race_name || '—'}</div>

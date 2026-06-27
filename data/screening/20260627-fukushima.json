@@ -30,7 +30,8 @@
         "concern": "マリアイは差し馬で福島2000・少頭数の前残り紛れに注意。相手はハニーコム/フィオレストラーダが僅差"
       },
       "quadrant": "本命勝負",
-      "score": 5
+      "score": 5,
+      "post_time": "15:45"
     },
     {
       "r": 3,
@@ -58,7 +59,8 @@
         "concern": "未勝利勝ち上がり組と古馬居残り組が混在で主軸割れ。追込6頭で渋滞しやすい"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "11:15"
     },
     {
       "r": 9,
@@ -87,7 +89,8 @@
         "concern": "抜けた主軸不在・2勝クラス組が横並び、軽量先行馬は当該クラス未経験の格上挑戦"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "14:35"
     },
     {
       "r": 12,
@@ -116,7 +119,8 @@
         "concern": "差し7・追2の決め手型が多く拮抗。逃げ1頭で展開ひとつで上位入替"
       },
       "quadrant": "穴ボックス",
-      "score": 2
+      "score": 2,
+      "post_time": "16:30"
     },
     {
       "r": 1,
@@ -135,7 +139,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:05"
     },
     {
       "r": 2,
@@ -154,7 +159,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:40"
     },
     {
       "r": 4,
@@ -173,7 +179,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:45"
     },
     {
       "r": 5,
@@ -192,7 +199,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:30"
     },
     {
       "r": 6,
@@ -210,7 +218,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:01"
     },
     {
       "r": 7,
@@ -229,7 +238,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:30"
     },
     {
       "r": 8,
@@ -248,7 +258,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "14:01"
     },
     {
       "r": 10,
@@ -266,7 +277,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "15:10"
     }
   ]
 }

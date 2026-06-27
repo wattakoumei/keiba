@@ -31,7 +31,8 @@
       },
       "quadrant": "切り",
       "score": -1,
-      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）"
+      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）",
+      "post_time": "13:10"
     },
     {
       "r": 10,
@@ -59,7 +60,8 @@
       },
       "quadrant": "切り",
       "score": -1,
-      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）"
+      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）",
+      "post_time": "14:45"
     },
     {
       "r": 11,
@@ -89,7 +91,8 @@
       },
       "quadrant": "切り",
       "score": -1,
-      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）"
+      "cut_reason": "逃げ不在（逃0＝ペースメーカー不在で展開が読めない）",
+      "post_time": "15:20"
     },
     {
       "r": 1,
@@ -109,7 +112,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "09:50"
     },
     {
       "r": 2,
@@ -127,7 +131,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:20"
     },
     {
       "r": 3,
@@ -145,7 +150,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "10:50"
     },
     {
       "r": 4,
@@ -164,7 +170,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "11:20"
     },
     {
       "r": 5,
@@ -184,7 +191,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:10"
     },
     {
       "r": 6,
@@ -202,7 +210,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "12:40"
     },
     {
       "r": 8,
@@ -220,7 +229,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "13:40"
     },
     {
       "r": 9,
@@ -239,7 +249,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "14:10"
     },
     {
       "r": 12,
@@ -257,7 +268,8 @@
       "dango_signals": [],
       "x_axis": null,
       "quadrant": "見送り",
-      "score": -3
+      "score": -3,
+      "post_time": "16:05"
     }
   ]
 }
