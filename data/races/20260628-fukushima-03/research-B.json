@@ -1,0 +1,153 @@
+{
+  "observation": "B",
+  "label": "近走内容・クラス通用度",
+  "race_id": "20260628-fukushima-03",
+  "generated": "2026-06-28",
+  "sources": [
+    "https://sports.smt.docomo.ne.jp/keiba/result/race/2026060605030104/result.html",
+    "https://race.netkeiba.com/race/result.html?race_id=202609030305",
+    "https://s.keibabook.co.jp/db/uma/0980738/top"
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェテソーロ",
+      "class_move": { "vs_current": "同級", "last": 1, "top": 1 },
+      "recent_summary": [
+        {
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "新馬",
+          "dist": 1400,
+          "surface": "芝",
+          "field": 7,
+          "pos": 6,
+          "first_corner": 3,
+          "agari": 35.7,
+          "time": "1:23.5",
+          "margin_from_winner": "1.3秒差(約7馬身超)",
+          "content": "差しポジション(1角3番手)から6着。上がり35.7は⑤オオセイケイと同値だが前走同組最下位に近い大敗。展開的不利なし(スロー寄りミドル)=力負け色。"
+        }
+      ],
+      "bottom_revealed": true,
+      "class_certain": true,
+      "score": -1,
+      "confidence": "中",
+      "pros": ["差し脚質で展開次第の一発はゼロではない"],
+      "cons": ["前走6着/7(1.3秒差)=同組最下位付近", "距離短縮1400→1200mは差し馬に不利(直線292m)", "前走通過順3番手で末脚も出ず底を見せた"]
+    },
+    {
+      "no": 2,
+      "name": "アイファーラピッド",
+      "class_move": { "vs_current": "同級", "last": 1, "top": 1 },
+      "recent_summary": [
+        {
+          "date": "2026-06-13",
+          "venue": "阪神",
+          "race": "新馬",
+          "dist": 1200,
+          "surface": "芝",
+          "field": 11,
+          "pos": 9,
+          "first_corner": 3,
+          "agari": 35.8,
+          "time": "1:10.8",
+          "margin_from_winner": "2.6秒差(勝ち馬1:08.2比)",
+          "content": "1角3番手の先行策から9着大敗。先行勢トップの勝ち馬(1-1通過、上がり33.8)と比べ上がり35.8で末脚なし。ペース前半3F 34.4(やや速め)も言い訳にならない大差。先行しながら失速=力負け。"
+        }
+      ],
+      "bottom_revealed": true,
+      "class_certain": true,
+      "jockey_change": "武豊→団野大成",
+      "body_weight": 486,
+      "score": -2,
+      "confidence": "中",
+      "pros": ["距離1200mは前走と同じ"],
+      "cons": [
+        "前走9着/11(2.6秒差)=大敗、先行したのに末脚出ず力負け色",
+        "上がり35.8は前走11頭中最下位クラス",
+        "乗替(武豊→団野大成)=前走騎手の感触引継ぎなし",
+        "体重486kgの大型馬=2歳牝馬として重く機動力に疑問"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベアアミーチ",
+      "class_move": { "vs_current": "同級", "last": 1, "top": 1 },
+      "recent_summary": [
+        {
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "新馬",
+          "dist": 1400,
+          "surface": "芝",
+          "field": 7,
+          "pos": 5,
+          "first_corner": 2,
+          "agari": 35.7,
+          "time": "1:23.4",
+          "margin_from_winner": "1.2秒差(同組⑤オオセイケイに1.1秒差)",
+          "content": "1角2番手の先行策で5着。同レース⑤オオセイケイ(3着・1:22.3)と1.1秒差、明確に劣位。上がり35.7は同組最速タイながらタイム差は大。"
+        }
+      ],
+      "bottom_revealed": true,
+      "class_certain": true,
+      "weight_kg": 52.0,
+      "note": "斤量52.0kg(減量騎手)=⑤との実質斤量差+3kg。騎手未定。",
+      "score": -1,
+      "confidence": "中",
+      "pros": ["斤量52.0kgの恩恵(他馬比-3kg)が今走の実質差を縮める", "先行脚質は福島1200mで位置取りやすい"],
+      "cons": [
+        "前走5着/7(⑤に1.1秒差)=直接対戦で明確に劣勢",
+        "先行しながら末脚上がり35.7=速さ不足",
+        "騎手未定=当日情報次第"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ユイノヘラクレス",
+      "class_move": { "vs_current": null, "last": null, "top": null },
+      "recent_summary": [],
+      "bottom_revealed": false,
+      "class_certain": true,
+      "note": "初出走。牡2・ホークビル産駒。近走情報ゼロのため内容評価不能。",
+      "score": 0,
+      "confidence": "低",
+      "pros": ["初出走=底未見せ、潜在能力不明"],
+      "cons": ["実績皆無=通用度未知", "牡馬で今回の牝馬中心フィールドに対してデータなし"]
+    },
+    {
+      "no": 5,
+      "name": "オオセイケイ",
+      "class_move": { "vs_current": "同級", "last": 1, "top": 1 },
+      "recent_summary": [
+        {
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "新馬",
+          "dist": 1400,
+          "surface": "芝",
+          "field": 7,
+          "pos": 3,
+          "first_corner": 1,
+          "agari": 34.8,
+          "time": "1:22.3",
+          "margin_from_winner": "0.1-0.3秒差(1/2馬身)",
+          "content": "逃げ(1角1番手)から3着、上がり34.8は全馬最速。勝ち馬(差し馬ラードンチェイス)とは1/2馬身差。逃げながら末脚も使える=非常に高い近走内容。距離短縮1400→1200mで逃げポジションがより取りやすくなる。底未見せ状態。"
+        }
+      ],
+      "bottom_revealed": false,
+      "class_certain": true,
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "逃げて全馬最速上がり34.8=前後半バランス優秀、底未見せ",
+        "同組最上位(3着)、上位2頭との差は1/2馬身",
+        "距離短縮1400→1200mは逃げ脚質に有利(ポジション取り易)",
+        "前走通過順1-1で今回も主導権を握れる可能性大"
+      ],
+      "cons": ["前走逃げて3着=勝ち切れなかった(差し馬に捕まった)", "1200mで同等以上の逃げ馬が現れると楽逃げにならない可能性"]
+    }
+  ],
+  "field_note": "5頭中3頭(①③⑤)は2026-06-06東京新馬1400m直接対戦あり。⑤>>③>①の序列明確。②は別レース大敗、④は初出走。全馬2歳未勝利(同級)。"
+}

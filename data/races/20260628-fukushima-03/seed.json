@@ -1,0 +1,209 @@
+{
+  "race_id": "202606280303",
+  "source": "jra",
+  "n": 5,
+  "surface": "芝",
+  "distance": 1200,
+  "headcount": 5,
+  "draw_fixed": true,
+  "horses": [
+    {
+      "no": 1,
+      "waku": 1,
+      "name": "ドルチェテソーロ",
+      "sex_age": "牝2/黒鹿",
+      "weight": "55.0",
+      "jockey": "木幡 巧也",
+      "trainer": "牧 光二",
+      "sire": "フィエールマン",
+      "damsire": "Declaration of War",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 35.7,
+      "recent": [
+        {
+          "first_corner": 3,
+          "field": 7,
+          "agari": 35.7,
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "新馬",
+          "jockey": "木幡 巧也",
+          "dist": 1400,
+          "time": "1:23.5",
+          "body_weight": 414,
+          "class_rank": 1,
+          "class_label": "新馬",
+          "class_certain": true,
+          "pos": 6
+        }
+      ],
+      "class_move": {
+        "last": 1,
+        "top": 1,
+        "vs_current": "同級"
+      }
+    },
+    {
+      "no": 2,
+      "waku": 2,
+      "name": "アイファーラピッド",
+      "sex_age": "牝2/栗",
+      "weight": "55.0",
+      "jockey": "団野 大成",
+      "trainer": "森 秀行",
+      "sire": "Jackie's Warrior",
+      "damsire": "Bernardini",
+      "style": "先",
+      "ten_speed": "中",
+      "agari_best": 35.8,
+      "recent": [
+        {
+          "first_corner": 3,
+          "field": 11,
+          "agari": 35.8,
+          "date": "2026-06-13",
+          "venue": "阪神",
+          "race": "新馬",
+          "jockey": "武 豊",
+          "dist": 1200,
+          "time": "1:10.8",
+          "body_weight": 486,
+          "class_rank": 1,
+          "class_label": "新馬",
+          "class_certain": true,
+          "pos": 9
+        }
+      ],
+      "class_move": {
+        "last": 1,
+        "top": 1,
+        "vs_current": "同級"
+      }
+    },
+    {
+      "no": 3,
+      "waku": 3,
+      "name": "ベアアミーチ",
+      "sex_age": "牝2/芦",
+      "weight": "52.0",
+      "jockey": null,
+      "trainer": "杉浦 宏昭",
+      "sire": "ミスチヴィアスアレックス",
+      "damsire": "スウェプトオーヴァーボード",
+      "style": "先",
+      "ten_speed": "中",
+      "agari_best": 35.7,
+      "recent": [
+        {
+          "first_corner": 2,
+          "field": 7,
+          "agari": 35.7,
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "新馬",
+          "jockey": "丹内 祐次",
+          "dist": 1400,
+          "time": "1:23.4",
+          "body_weight": 434,
+          "class_rank": 1,
+          "class_label": "新馬",
+          "class_certain": true,
+          "pos": 5
+        }
+      ],
+      "class_move": {
+        "last": 1,
+        "top": 1,
+        "vs_current": "同級"
+      }
+    },
+    {
+      "no": 4,
+      "waku": 4,
+      "name": "ユイノヘラクレス",
+      "sex_age": "牡2/鹿",
+      "weight": "55.0",
+      "jockey": "木幡 初也",
+      "trainer": "深山 雅史",
+      "sire": "ホークビル",
+      "damsire": "エイシンサンディ",
+      "style": null,
+      "ten_speed": null,
+      "agari_best": null,
+      "recent": [],
+      "class_move": {
+        "last": null,
+        "top": null,
+        "vs_current": null
+      }
+    },
+    {
+      "no": 5,
+      "waku": 5,
+      "name": "オオセイケイ",
+      "sex_age": "牝2/鹿",
+      "weight": "55.0",
+      "jockey": "横山 武史",
+      "trainer": "竹内 正洋",
+      "sire": "サートゥルナーリア",
+      "damsire": "ディープインパクト",
+      "style": "逃",
+      "ten_speed": "速",
+      "agari_best": 34.8,
+      "recent": [
+        {
+          "first_corner": 1,
+          "field": 7,
+          "agari": 34.8,
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "新馬",
+          "jockey": "横山 武史",
+          "dist": 1400,
+          "time": "1:22.3",
+          "body_weight": 444,
+          "class_rank": 1,
+          "class_label": "新馬",
+          "class_certain": true,
+          "pos": 3
+        }
+      ],
+      "class_move": {
+        "last": 1,
+        "top": 1,
+        "vs_current": "同級"
+      }
+    }
+  ],
+  "h2h": [
+    {
+      "date": "2026-06-06",
+      "venue": "東京",
+      "race": "新馬",
+      "horses": [
+        {
+          "no": 5,
+          "name": "オオセイケイ",
+          "first_corner": 1,
+          "pos": 3
+        },
+        {
+          "no": 3,
+          "name": "ベアアミーチ",
+          "first_corner": 2,
+          "pos": 5
+        },
+        {
+          "no": 1,
+          "name": "ドルチェテソーロ",
+          "first_corner": 3,
+          "pos": 6
+        }
+      ]
+    }
+  ],
+  "race_class": "2歳未勝利",
+  "race_class_rank": 1,
+  "race_class_label": "未勝利"
+}

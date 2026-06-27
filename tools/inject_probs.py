@@ -49,20 +49,28 @@ def load_research_scores(race_dir):
     return scores, conf
 
 
-def build_input(report, scores, conf):
-    """report.json + 集約済み scores から score_race の入力 JSON を組む。"""
+def build_input(report, scores, conf, seed=None):
+    """report.json + 集約済み scores から score_race の入力 JSON を組む。
+    seed（fetch_racecard 出力）があれば各馬の ten_speed/agari_best/recent/style を score_race に渡す＝
+    A_early(序盤の速さ)/A_cruise(位置安定)/A_finish(上がり) を中立0.5でなく実データで作る（v4.1 精緻化）。"""
     pace = report.get("pace", {}) or {}
     style_of = {row.get("no"): row.get("leg_type")
                 for row in (pace.get("leg_table") or []) if isinstance(row, dict)}
+    seed_of = {h.get("no"): h for h in (seed or {}).get("horses", []) if isinstance(h, dict)}
     horses = []
     for r in report.get("rank", []) or []:
         no = r.get("no")
         if not isinstance(no, int) or isinstance(no, bool):
             continue
+        s = seed_of.get(no, {})
         horses.append({
             "no": no,
             "name": r.get("horse", str(no)),
-            "style": style_of.get(no),       # ten/agari/recent/draw_adj は省略=score_race が中立(0.5)で扱う
+            # style は seed の素の脚質("差")を優先・無ければ leg_table の leg_type（装飾は score_race が先頭文字で吸収）
+            "style": s.get("style") or style_of.get(no),
+            "ten_speed": s.get("ten_speed"),     # A_early の素（速/中/遅）。seed 無→score_race が中立0.5
+            "agari_best": s.get("agari_best"),   # A_finish の素（上がり最速の field 相対）
+            "recent": s.get("recent") or [],     # A_cruise の素（first_corner/field の位置安定）
             "scores": scores.get(no, {}),
             "conf": conf.get(no, {}),
         })
@@ -91,7 +99,10 @@ def main():
         print(f"✗ research-*.json から観点スコアが1件も取れない（{race_dir}）", file=sys.stderr)
         return 1
 
-    data = build_input(report, scores, conf)
+    seed_path = os.path.join(race_dir, "seed.json")
+    seed = json.load(open(seed_path, encoding="utf-8")) if os.path.exists(seed_path) else None
+
+    data = build_input(report, scores, conf, seed)
     if not data["patterns"]:
         print("✗ pace.patterns が無い＝率を出せない", file=sys.stderr)
         return 1

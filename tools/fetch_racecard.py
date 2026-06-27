@@ -88,6 +88,7 @@ PATTERNS = {
     "jra_past_dist": re.compile(r'<span class="dist">(ダ|芝|障)?([\d,]+)(ダ|芝)?</span>'),  # 近走の距離（距離替わり判定の seed。同セル内）
     "jra_past_time": re.compile(r'<p class="time">([\d:.]+)</p>'),                   # 近走の走破時計（観点A時計の seed。同セル内）
     "jra_past_bw": re.compile(r'<p class="h_weight">(\d+)<span>kg'),                 # 近走の馬体重（観点G馬体トレンドの seed。同セル内）
+    "jra_past_grade": re.compile(r'<span class="grade_icon[^"]*">([^<]+)</span>'),   # 近走のクラス表記(3勝ク/2勝ク/ＯＰ/ＧⅢ…)＝番組編成で確定済みの格。レース名推測より確実(観点B用・同セル内)
     # JRA出馬表のレース条件: race_title 内 <td class="dist">ダート1,800<span>メートル</span>（権威ソース）
     "jra_dist": re.compile(r'class="dist">(ダート|芝|障害)([\d,]+)<span>(?:メートル|ｍ)'),
     # 新マークアップ（2026-06 確認）: コース：</span>1,800<span class="unit">メートル</span><span class="detail">（芝・左）

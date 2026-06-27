@@ -1,0 +1,76 @@
+{
+  "observation": "I",
+  "race_id": "20260628-fukushima-03",
+  "generated": "2026-06-28",
+  "method": "2-layer: deterministic seed (risk_flags.py + weight_adjust.py I-channel) + non-deterministic web (gate/temperament/leg/DNF)",
+  "deterministic_summary": {
+    "decline_flags": [1, 2, 3],
+    "weight_I_flags": [],
+    "note": "全馬の斤量I-channelタグなし（重ハンデ先行なし）。decline -0.5が①②③に立つ。"
+  },
+  "non_deterministic_findings": {
+    "sources_checked": [
+      "https://race.netkeiba.com/race/result.html?race_id=202605030104",
+      "https://winsight.jp/db/horse_profile?code=2024108275",
+      "https://x.com/mk19821221/status/2065225874442756390"
+    ],
+    "note": "2歳新馬上がり中心=web情報が薄い。出遅れ癖・気性難・脚部不安・競走中止歴は全頭で実測情報を取得できず。",
+    "debut_race_body_weights": {
+      "1_ドルチェテソーロ": 414,
+      "3_ベアアミーチ": 434,
+      "5_オオセイケイ": 444
+    }
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェテソーロ",
+      "deterministic_flags": [{"tag": "decline", "delta": -0.5, "note": "前走大敗（6/7）"}],
+      "weight_I_tags": [],
+      "non_det_findings": "出遅れ・気性・脚部・中止歴：実測情報なし。デビュー戦馬体重414kg（小柄、D/G領域）",
+      "flag_override": "1400m→1200m短縮で敗因の一部説明可（フラグ軽度割引方向だが6/7の大差は保留）",
+      "score": -0.5,
+      "confidence": "medium"
+    },
+    {
+      "no": 2,
+      "name": "アイファーラピッド",
+      "deterministic_flags": [{"tag": "decline", "delta": -0.5, "note": "前走大敗（9/11）"}],
+      "weight_I_tags": [],
+      "non_det_findings": "出遅れ・気性・脚部・中止歴：実測情報なし",
+      "flag_override": "前走阪神新馬1200m（今回と同距離）で9/11の大敗=距離敗因説明が効かない。declineフラグは割引不可・上書きなし",
+      "score": -0.5,
+      "confidence": "medium"
+    },
+    {
+      "no": 3,
+      "name": "ベアアミーチ",
+      "deterministic_flags": [{"tag": "decline", "delta": -0.5, "note": "前走大敗（5/7）"}],
+      "weight_I_tags": [],
+      "non_det_findings": "出遅れ・気性・脚部・中止歴：実測情報なし。騎手未定（K領域）",
+      "flag_override": "1400m→1200m短縮=敗因の一部説明できる方向（5/7はギリギリBAD_RATIO超）。軽度割引可",
+      "score": -0.5,
+      "confidence": "medium"
+    },
+    {
+      "no": 4,
+      "name": "ユイノヘラクレス",
+      "deterministic_flags": [],
+      "weight_I_tags": [],
+      "non_det_findings": "初出走=能力・リスク情報ゼロ。web情報なし",
+      "flag_override": "なし（フラグ自体ゼロ）",
+      "score": 0,
+      "confidence": "low"
+    },
+    {
+      "no": 5,
+      "name": "オオセイケイ",
+      "deterministic_flags": [],
+      "weight_I_tags": [],
+      "non_det_findings": "出遅れ・気性・脚部・中止歴：実測情報なし。前走1角1番手を維持→気性・ゲートの大きな問題なし（推定）",
+      "flag_override": "なし（フラグゼロ）",
+      "score": 0,
+      "confidence": "medium"
+    }
+  ]
+}

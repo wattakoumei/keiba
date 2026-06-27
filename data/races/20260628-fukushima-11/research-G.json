@@ -1,0 +1,356 @@
+{
+  "race_id": "20260628-fukushima-11",
+  "observation": "G",
+  "label": "ローテ・馬体・間隔",
+  "scored_at": "2026-06-28",
+  "note": "間隔・距離替わり・馬体重トレンドはseed一次事実。仕上げ意図・厩舎コメントのみweb補完。当日馬体重未取得＝D/Gタグ保留(weight.jsonに準拠)。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ルージュボヤージュ",
+      "interval_weeks": 10,
+      "interval_label": "中9週・休み明け1走目",
+      "dist_change": "1800→1800 同距離",
+      "bw_trend": "468→482→472 (+14後-10、直近微減)",
+      "weight_tag_I": "斤量52=軽量 rel-2.5",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[G]前走中山1800m1着(1:49.4)・調教で3頭併せ3馬身突き放し=仕上げ秀逸",
+        "[G]軽量52kg・牝馬割当で斤量負担なし",
+        "[G]福島1800m実績有(2025-07-13 1着)"
+      ],
+      "cons": [
+        "[G]中9週休み明け初戦・GⅢ昇級",
+        "[G]体重直近-10kg(482→472)=微減傾向"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872730",
+        "https://news.yahoo.co.jp/articles/3956dc4fd8a2635ab53ed493b2e858e8ee23b962"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クカイリモク",
+      "interval_weeks": 6,
+      "interval_label": "中5週・叩き2走目",
+      "dist_change": "1800→1800 同距離",
+      "bw_trend": "502→500 (-2、安定)",
+      "weight_tag_I": "斤量53 rel-1.5(並)",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[G]叩き2走目・前走1着(東京1800・1:47.1好時計)",
+        "[G]体重安定(500kg台)・成長継続",
+        "[G]同距離ローテ・適切間隔"
+      ],
+      "cons": [
+        "[G]乗替(レーン→ゴンサルベス)=K観点事項"
+      ],
+      "sources": [
+        "https://news.netkeiba.com/?pid=news_view&no=335317"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジーネキング",
+      "interval_weeks": 7,
+      "interval_label": "中6週",
+      "dist_change": "1600→1800 距離延長+200m",
+      "bw_trend": "492→496→494→490 (微減傾向)",
+      "weight_tag_I": "斤量56=実効+1.5kg 減点",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]距離延長(1600→1800)でスタミナ活かせる可能性"
+      ],
+      "cons": [
+        "[G]前走NHKマイルC13着大敗・近2走で二桁着順",
+        "[G]体重微減傾向(496→490)・下降基調",
+        "[G]重ハンデ56kg(I観点減点)"
+      ],
+      "sources": []
+    },
+    {
+      "no": 4,
+      "name": "サイモンシャリオ",
+      "interval_weeks": 6,
+      "interval_label": "中5週",
+      "dist_change": "2000→1800 距離短縮-200m",
+      "bw_trend": "490→486→482→490 (一時減後回復・直近+8)",
+      "weight_tag_I": "斤量52=軽量 rel-2.5",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[G]体重回復(482→490)・状態上向き",
+        "[G]軽量52kg・厩舎談「軽ハンデ生かして」",
+        "[G]福島2000m3着実績有(2026-04-18)"
+      ],
+      "cons": [
+        "[G]2000→1800距離短縮・前走6着"
+      ],
+      "sources": [
+        "https://topics.smt.docomo.ne.jp/article/tospokeiba/sports/tospokeiba-127408"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "リッツパーティー",
+      "interval_weeks": 7,
+      "interval_label": "中6週・叩き2走目",
+      "dist_change": "1800→1800 同距離",
+      "bw_trend": "494→486→482 (緩やかな減少-12・最近4ヶ月)",
+      "weight_tag_I": "斤量54 rel-0.5(並)",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[G]前走東京1800m1着(同日エプソムカップと0.1差の好時計)・叩き2走目",
+        "[G]調教S評価・「馬体一回り大きく成長感」・地面を力強く叩く走法=状態良好"
+      ],
+      "cons": [
+        "[G]体重緩やかな減少傾向(494→482・-12)",
+        "[G]初右回り・初夏競馬"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872730",
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "コルテオソレイユ",
+      "interval_weeks": 7,
+      "interval_label": "中6週",
+      "dist_change": "1600→1800 距離延長+200m(初の1800m)",
+      "bw_trend": "458→458→458→452 (安定後直近-6)",
+      "weight_tag_I": "斤量54 rel-0.5(並)",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[G]前走京都1600m1着(昇級前走好走)"
+      ],
+      "cons": [
+        "[G]1600→1800距離延長・初の芝1800m経験",
+        "[G]体重直近-6kg(458→452)=絞り込みか仕上げ過多"
+      ],
+      "sources": []
+    },
+    {
+      "no": 7,
+      "name": "ショウナンガルフ",
+      "interval_weeks": 4,
+      "interval_label": "中3週・叩き2走目",
+      "dist_change": "2400→1800 距離短縮-600m",
+      "bw_trend": "472→492→480→486 (成長増・直近安定)",
+      "weight_tag_I": "斤量57=実効+2.5kg 大減点",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]須貝師「スイッチが入った」・厩舎で復調を実感",
+        "[G]叩き2走目・体重成長継続"
+      ],
+      "cons": [
+        "[G]前走ダービー17着大敗・近3走全て6着以下",
+        "[G]2400→1800急距離短縮(-600m)・スタミナ型の短縮",
+        "[G]重ハンデ57kg(I観点大減点)"
+      ],
+      "sources": [
+        "https://news.netkeiba.com/?pid=news_view&no=335307"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディールメーカー",
+      "interval_weeks": 11,
+      "interval_label": "中10週・休み明け1走目",
+      "dist_change": "1600→1800 距離延長+200m",
+      "bw_trend": "486→494→498→498 (成長期+12・近2走安定)",
+      "weight_tag_I": "斤量56=実効+1.5kg 減点",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]体重安定成長(+12kg)・近2走498kg固定"
+      ],
+      "cons": [
+        "[G]中10週休み明け初戦",
+        "[G]1600→1800距離延長",
+        "[G]重ハンデ56kg(I観点減点)"
+      ],
+      "sources": []
+    },
+    {
+      "no": 9,
+      "name": "キンググローリー",
+      "interval_weeks": 7,
+      "interval_label": "中6週",
+      "dist_change": "2200→1800 距離短縮-400m",
+      "bw_trend": "470→472→462→466 (470台→462落ち→微回復)",
+      "weight_tag_I": "斤量54 rel-0.5(並)",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]距離短縮で先行脚質活かせる可能性"
+      ],
+      "cons": [
+        "[G]前走京都2200m13着大敗",
+        "[G]体重462→466と低位推移・2走前から-6"
+      ],
+      "sources": []
+    },
+    {
+      "no": 10,
+      "name": "ガリレア",
+      "interval_weeks": 11,
+      "interval_label": "中10週・休み明け1走目",
+      "dist_change": "1600→1800 距離延長+200m",
+      "bw_trend": "438→448→448→450 (成長トレンド+12)",
+      "weight_tag_I": "斤量54 rel-0.5(並)",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]体重緩やかな成長トレンド(+12・成長期)"
+      ],
+      "cons": [
+        "[G]中10週休み明け・距離延長(初1800m系)",
+        "[G]近3走で10着・11着・10着と不振継続",
+        "[G]小柄(448-450kg)・距離延長でのスタミナ不安"
+      ],
+      "sources": []
+    },
+    {
+      "no": 11,
+      "name": "コロナドブリッジ",
+      "interval_weeks": 8,
+      "interval_label": "中7週",
+      "dist_change": "1900→1800 距離短縮-100m",
+      "bw_trend": "510→516→524→518 (成長増後-6・高止まり)",
+      "weight_tag_I": "斤量54 rel-0.5(並)・馬格は大型500kg超",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]大型馬(510-524kg)・距離変化はほぼ同距離圏内"
+      ],
+      "cons": [
+        "[G]近2戦凡走(8着・7着)・前走agari38.2と著しく鈍い",
+        "[G]体重524→518(-6)=全盛期より落ちてきた"
+      ],
+      "sources": []
+    },
+    {
+      "no": 12,
+      "name": "ローベルクランツ",
+      "interval_weeks": 7,
+      "interval_label": "中6週",
+      "dist_change": "1600→1800 距離延長+200m",
+      "bw_trend": "484→494→484→484 (494から484で安定)",
+      "weight_tag_I": "斤量57=実効+2.5kg 大減点",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]体重安定(484kg・3走連続)・調教「落ち着きも出てきた」=精神面改善"
+      ],
+      "cons": [
+        "[G]1600→1800距離延長・師談「小回りはともかく」＝コース不安含み",
+        "[G]重ハンデ57kg(I観点大減点)・前走4着のみ"
+      ],
+      "sources": [
+        "https://topics.smt.docomo.ne.jp/article/tospokeiba/sports/tospokeiba-127408"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "サノノグレーター",
+      "interval_weeks": 10,
+      "interval_label": "中9週・休み明け1走目",
+      "dist_change": "2000→1800 距離短縮-200m",
+      "bw_trend": "468→468→456→458 (468→456減後微回復)",
+      "weight_tag_I": "斤量56=実効+1.5kg 減点",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]距離短縮・体重微回復(456→458)"
+      ],
+      "cons": [
+        "[G]中9週休み明け初戦",
+        "[G]前走9着・近4走で1着は0",
+        "[G]重ハンデ56kg"
+      ],
+      "sources": []
+    },
+    {
+      "no": 14,
+      "name": "スカイスプレンダー",
+      "interval_weeks": 20,
+      "interval_label": "中19週・長期休み明け(骨折後復帰)",
+      "dist_change": "2400→1800 距離短縮-600m",
+      "bw_trend": "474→474→472 (安定・ほぼ不変)",
+      "weight_tag_I": "斤量55 rel+0.5(並)",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "[G]前走東京2400m1着(ゆりかもめ賞)・調教「久々でも臨戦態勢整った」=仕上げは確認済",
+        "[G]体重安定・機動力で小回りこなせるとの評価",
+        "[G]距離短縮ローテが福島1800mにプラスとの見方"
+      ],
+      "cons": [
+        "[G]中19週(約5ヶ月)長期休み明け・骨折後の復帰戦=不確実性大",
+        "[G]2400→1800急距離短縮(-600m)"
+      ],
+      "sources": [
+        "https://news.yahoo.co.jp/articles/4701b7faf00e3ccf6756c0117ada75f592f3a2e5",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872599"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "バドリナート",
+      "interval_weeks": 7,
+      "interval_label": "中6週",
+      "dist_change": "2200→1800 距離短縮-400m",
+      "bw_trend": "490→488→492→492 (安定・最近2走492kg固定)",
+      "weight_tag_I": "斤量57=実効+2.5kg 大減点",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[G]体重安定(492kg固定)・調教4ハロン54.6-12.6(馬なり好時計)",
+        "[G]距離短縮・厩舎「福島合いそう」コメント"
+      ],
+      "cons": [
+        "[G]前走京都2200m11着大敗",
+        "[G]重ハンデ57kg(I観点大減点)"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872730",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872799"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スペルーチェ",
+      "interval_weeks": 7,
+      "interval_label": "中6週",
+      "dist_change": "1400→1800 距離延長+400m",
+      "bw_trend": "456→456→456→450 (安定後直近-6)",
+      "weight_tag_I": "斤量55 rel+0.5(並)",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[G]前走3着・連続好走圏内"
+      ],
+      "cons": [
+        "[G]1400→1800(+400m)大幅距離延長・スプリント系からの急延長",
+        "[G]体重-6kg(456→450)=絞り込みか消耗か不明"
+      ],
+      "sources": []
+    }
+  ],
+  "interval_summary": {
+    "long_layoff": ["馬14:スカイスプレンダー(中19週・骨折)", "馬8:ディールメーカー(中10週)", "馬10:ガリレア(中10週)", "馬1:ルージュボヤージュ(中9週)", "馬13:サノノグレーター(中9週)"],
+    "fresh_2nd": ["馬2:クカイリモク(中5週・叩き2走目)", "馬5:リッツパーティー(中6週・叩き2走目)", "馬7:ショウナンガルフ(中3週・叩き2走目)"]
+  },
+  "dist_change_summary": {
+    "same": ["馬1:1800→1800", "馬2:1800→1800"],
+    "extension": ["馬3:+200", "馬6:+200(初1800)", "馬8:+200", "馬10:+200", "馬12:+200", "馬16:+400(急)"],
+    "reduction": ["馬4:-200", "馬7:-600(急)", "馬9:-400", "馬13:-200", "馬14:-600(急)", "馬15:-400"]
+  }
+}

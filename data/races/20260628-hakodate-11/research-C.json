@@ -1,0 +1,256 @@
+{
+ "point": "C 血統",
+ "horses": [
+  {
+   "no": 1,
+   "name": "バルナバ",
+   "score": 2,
+   "confidence": "高",
+   "pros": [
+    "[C] ハービンジャー×函館洋芝2000m=父の最適条件（持続パワー・時計かかる馬場◎・芝1600-2600特2000）",
+    "[C] 晩成寄り血統×4歳=上昇期・成長余地あり（ピーク未到達）",
+    "[C] 母父マンハッタンカフェ=スタミナ補完・道悪中立方向"
+   ],
+   "cons": [],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ファウストラーゼン",
+   "score": -1,
+   "confidence": "中",
+   "pros": [
+    "[C] 母父スペシャルウィーク=スタミナ・地力底上げ供給で延長への対応力補完"
+   ],
+   "cons": [
+    "[C] 父モズアスコット=芝での平均勝距1522m・産駒はダート志向強（中央勝率ダート>芝）、芝2000mは血統的に距離過長",
+    "[C] 近走（大阪杯13着・ダイヤモンド15着）と父産駒の短距離志向が整合→2000m芝の裏付け薄い"
+   ],
+   "sources": [
+    "https://nobinobi-kaisyu.com/mozu-ascot-0/",
+    "https://db.netkeiba.com/horse/sire/2014110031/",
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "ピースワンデュック",
+   "score": -1,
+   "confidence": "中",
+   "pros": [
+    "[C] グレーターロンドン産駒は距離延長で回収率が良い傾向（短縮より延長が適）"
+   ],
+   "cons": [
+    "[C] 父グレーターロンドン=本質マイラー（産駒好走レンジ〜1600m）、2000mは血統的に過長",
+    "[C] 母父ジャングルポケット=東京◎・小回り×、函館小回り右回りは不利方向"
+   ],
+   "sources": [
+    "https://nobinobi-kaisyu.com/greater-london-data0/",
+    "https://www.jbis.or.jp/horse/0001149061/sire/entry/",
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "マジックサンズ",
+   "score": 1,
+   "confidence": "高",
+   "pros": [
+    "[C] 父キズナ=小回り◎・持続パワー型・1600m以上・道悪も対応、函館洋芝2000mは合う条件",
+    "[C] 母父キングカメハメハ=バランス万能型・芝ダ中立補完"
+   ],
+   "cons": [
+    "[C] 近走は主に1800m路線（エプソムC・中山記念）→2000mへの延長は実績面でやや薄い（血統は問題なし）"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "イガッチ",
+   "score": 1,
+   "confidence": "中",
+   "pros": [
+    "[C] 父リアルスティール=芝1300-2000万能・持続型・道悪も対応、2000mは父の距離レンジ上限",
+    "[C] 標準成長型×4歳=ピーク期"
+   ],
+   "cons": [
+    "[C] カタログ特記は東京◎→ローカル小回り函館への転換は血統傾向上の未知数"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "サンストックトン",
+   "score": -1,
+   "confidence": "中",
+   "pros": [
+    "[C] 母父キングカメハメハ=バランス万能で中立補完"
+   ],
+   "cons": [
+    "[C] 父ワールドエース=重馬場でパフォーマンス低下・得意2100-2400mで函館2000mは短め、函館後半の時計かかる馬場と重化は血統的弱点",
+    "[C] 持続型成長×7歳=高齢下降期の懸念（標準以上の年齢）"
+   ],
+   "sources": [
+    "https://nobinobi-kaisyu.com/world-ace-0/",
+    "https://db.netkeiba.com/horse/sire/2009106353/",
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "チャックネイト",
+   "score": 0,
+   "confidence": "中",
+   "pros": [
+    "[C] 父ハーツクライ=持続スタミナ・稍重◎・洋芝の時計かかる馬場に血統的適性あり",
+    "[C] 母父Dynaformer=Roberto系スタミナ・パワー馬（Big Brown父）、ハーツクライとスタミナ二重化で洋芝タフ条件向き（推定・日本サンプル薄）"
+   ],
+   "cons": [
+    "[C] ハーツクライ晩成系×8歳せん=ピーク大幅超過・下降期（晩成でも8歳は過ぎた年齢）"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md",
+    "https://db.netkeiba.com/horse/ped/000a001dd9/"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "ケイアイセナ",
+   "score": -1,
+   "confidence": "中",
+   "pros": [
+    "[C] 母父Smarty Jones(Gone West/Mr.Prospector系)=スピード供給で先行力補完（推定・JP Racing サンプル薄）"
+   ],
+   "cons": [
+    "[C] 父ディープインパクト=高速良馬場◎・不良×、時計かかる洋芝は血統的弱点",
+    "[C] フレッシュ時◎のディープ産駒特性×7歳=高齢では活かせない。標準成長型でピーク過ぎ"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "オニャンコポン",
+   "score": 0,
+   "confidence": "中",
+   "pros": [
+    "[C] 父エイシンフラッシュ=道悪上昇型（不良複勝率28.6%）・2000mは「悪くない成績」、函館後半の時計かかる馬場は血統的に合う条件",
+    "[C] 母父ヴィクトワールピサ=牡馬6-7歳で好調傾向（7歳せんと合致・一応加点材料）"
+   ],
+   "cons": [
+    "[C] 母父ヴィクトワールピサ=小回り苦手・直線長コース得意、函館小回り右回りは血統上不利方向"
+   ],
+   "sources": [
+    "https://hikky-keiba.com/eishinflash/",
+    "https://navi-keiba.com/sire/victoirepisa"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "ケリフレッドアスク",
+   "score": -1,
+   "confidence": "高",
+   "pros": [
+    "[C] 母父ディープインパクト=瞬発供給（ただし道悪では割引方向）"
+   ],
+   "cons": [
+    "[C] 父ドゥラメンテ=芝重×（カタログ明記）、函館後半の時計かかる洋芝は血統的最大の弱点",
+    "[C] やや早熟系×4歳牝=ピーク期だが条件不適合が適性を上回る"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "ジュタ",
+   "score": -1,
+   "confidence": "中",
+   "pros": [
+    "[C] 母父Street Sense(Street Cry/Mr.Prospector系)=底力・スピード供給（推定・JP Racing サンプル薄）"
+   ],
+   "cons": [
+    "[C] 父ドゥラメンテ=芝重×（カタログ明記）、函館後半洋芝は血統的弱点条件",
+    "[C] ドゥラメンテ×Street Sense(ダート系)=瞬発・スピード二重化で道悪耐性が補われない方向"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "エコロディノス",
+   "score": 1,
+   "confidence": "中",
+   "pros": [
+    "[C] 父キタサンブラック=持続スタミナ・重め可・1800m以上◎、函館洋芝の時計かかる馬場に対応",
+    "[C] 母父Generous=英国ND系欧州スタミナ馬（カールレオン系）、パワー・スタミナ補完で洋芝タフ条件向き（推定）",
+    "[C] 持続成長型×4歳=上昇期（まだ伸びしろあり）"
+   ],
+   "cons": [
+    "[C] 母父Generousは日本で期待外れだった種牡馬歴あり・BMSとしての日本サンプル薄く確信度低"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md",
+    "https://umanity.jp/en/racedata/db/horse_top.php?code=1140002925"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "アラタ",
+   "score": -2,
+   "confidence": "高",
+   "pros": [
+    "[C] 母父ハーツクライ=スタミナ・パワー持続供給、道悪・渋り芝への補完は洋芝2000mに合う"
+   ],
+   "cons": [
+    "[C] 父キングカメハメハ=標準〜早熟型×9歳=ピーク大幅超過・完全な下降期（成長型の観点から最大の懸念）",
+    "[C] 9歳での斤量58kg=高齢×高ハンデの血統成長型との二重懸念"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 14,
+   "name": "フィーリウス",
+   "score": 1,
+   "confidence": "高",
+   "pros": [
+    "[C] 父キタサンブラック=持続スタミナ・重め可・1800m以上、函館洋芝2000mに血統的適性あり",
+    "[C] 持続成長型（2歳→6歳復活型）×4歳=まだ上昇期・伸びしろあり"
+   ],
+   "cons": [
+    "[C] 母父ロードカナロア=道悪割引（カタログ明記）、函館後半の馬場が重化した場合に血統的減点方向"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  },
+  {
+   "no": 15,
+   "name": "デビットバローズ",
+   "score": -1,
+   "confidence": "高",
+   "pros": [],
+   "cons": [
+    "[C] 父ロードカナロア=高速良◎・道悪割引（カタログ明記）、時計かかる函館後半洋芝は血統的弱点",
+    "[C] やや晩成（4歳完成）×7歳せん=完成から3年以上経過・下降期",
+    "[C] 母父サンデーサイレンス=高速芝向き瞬発供給→道悪耐性を補強しない方向"
+   ],
+   "sources": [
+    "/Users/watasekoumei/development/keiba/.claude/skills/analyze-race/references/pedigree-catalog.md"
+   ]
+  }
+ ],
+ "field_note": "函館洋芝2000m開催後半（内荒れ・時計かかる）という条件で血統フィルタが明確に機能する。ハービンジャー(#1)が最適条件で突出。キズナ(#4)・キタサンブラック(#12 #14)が次位グループ。ディープインパクト(#8)・ロードカナロア(#15)・ドゥラメンテ(#10 #11)は道悪割引・芝重×で血統的に条件外。7歳以上の高齢馬(#7 #8 #9 #13 #15)は成長型の観点から下降期懸念を共通付記。カタログ追記候補(父): モズアスコット[マイル特化・ダート志向・確信度中]/ グレーターロンドン[本質マイラー〜1600m・確信度中]/ ワールドエース[重馬場↓・得意2100m+・確信度中]/ エイシンフラッシュ[道悪上昇型・2000mOK・成熟型・確信度中]。カタログ追記候補(母父): Dynaformer[Roberto系スタミナ・パワー・JP sample薄・確信度低]/ ヴィクトワールピサ[SS系・小回り苦手・直線長コース好み・牡馬場不問・6-7歳好調・確信度中]/ Generous[英国ND系欧州スタミナ・日本での産駒低迷あり・BMS供給は欧州スタミナ方向・確信度低]/ Street Sense[Gone West/Mr.Prospector系スピード・JP sample薄・確信度低]/ Smarty Jones[Gone West系スピード・JP sample薄・確信度低]。",
+ "note": "カタログ外4父(モズアスコット/グレーターロンドン/ワールドエース/エイシンフラッシュ)はWebSearch各1件で評価完了。Dynaformer(Roberto系確認・Big Brown父)/ヴィクトワールピサ/Generous(英国ND確認)は概要取得済み。Street Sense/Smarty JonesはJP racing sampleが極めて薄く確信度低として処理。確実性(A_class)への寄与(=カタログ内): バルナバ+2/マジックサンズ+1/エコロディノス+1/フィーリウス+1/イガッチ+1。強懸念(A_classマイナス): アラタ-2/ドゥラメンテ2頭-1/ロードカナロア-1/ディープ-1。",
+ "overall_confidence": "高（カタログ内11頭）/ 中（カタログ外4頭）"
+}

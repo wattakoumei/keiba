@@ -1,0 +1,434 @@
+{
+  "observation": "B",
+  "label": "近走内容・クラス通用度",
+  "race_id": "20260628-fukushima-11",
+  "race_class_rank": 5,
+  "generated": "2026-06-28",
+  "class_corrections_from_web": [
+    {"no": 3,  "name": "ジーネキング",    "race": "2026-04-11 中山1600m", "confirmed_class": "NZT(GⅡ・class_rank7)",    "note": "3着→NHKマイルC出走権取得"},
+    {"no": 3,  "name": "ジーネキング",    "race": "2026-05-10 東京1600m", "confirmed_class": "NHKマイルC(GⅠ・class_rank9)", "note": "13着大敗"},
+    {"no": 7,  "name": "ショウナンガルフ", "race": "2026-05-31 東京2400m", "confirmed_class": "日本ダービー(GⅠ・class_rank9)", "note": "17着最下位"},
+    {"no": 8,  "name": "ディールメーカー","race": "2026-04-11 中山1600m", "confirmed_class": "NZトロフィー(GⅡ・class_rank7)",  "note": "4着・格上で着内"},
+    {"no": 9,  "name": "キンググローリー","race": "2026-05-09 京都2200m", "confirmed_class": "京都新聞杯(GⅡ・class_rank7)推定", "note": "13着大敗(agari37.0)"},
+    {"no": 12, "name": "ローベルクランツ","race": "2026-05-10 東京1600m", "confirmed_class": "NHKマイルC(GⅠ・class_rank9)", "note": "4着・格上で掲示板"},
+    {"no": 14, "name": "スカイスプレンダー","race": "2026-02-10 東京2400m", "confirmed_class": "ゆりかもめ賞(1勝C・class_rank2)推定", "note": "1着快勝後に骨折→4ヶ月半休養明け"},
+    {"no": 15, "name": "バドリナート",    "race": "2026-05-09 京都2200m", "confirmed_class": "京都新聞杯(GⅡ・class_rank7)", "note": "11着大敗"},
+    {"no": 4,  "name": "サイモンシャリオ","race": "2026-05-16 京都2000m", "confirmed_class": "あずさ賞(1勝C)",  "note": "6着"},
+    {"no": 4,  "name": "サイモンシャリオ","race": "2026-04-18 福島2000m", "confirmed_class": "ひめさゆり賞(1勝C)","note": "3着"}
+  ],
+  "catalog_addition_candidates": [],
+  "horses": [
+    {
+      "no": 1,
+      "name": "ルージュボヤージュ",
+      "vs_current": "昇級",
+      "last_class_rank": 2,
+      "top_class_rank": 2,
+      "score": 1.0,
+      "confidence": "中",
+      "style_tag": "先・テン速",
+      "recent_content": [
+        {"date":"2026-04-18","venue_dist":"中山1800m","pos":1,"agari":33.1,"class":"1勝C","content":"快勝・33.1の優秀な末脚"},
+        {"date":"2026-02-22","venue_dist":"東京1600m","pos":5,"agari":35.3,"class":"1勝C","content":"着外"},
+        {"date":"2025-07-13","venue_dist":"福島1800m","pos":1,"agari":35.7,"class":"新馬","content":"新馬勝ち・福島1800m実績"}
+      ],
+      "pros": [
+        "[B] 前走1勝C中山1800m快勝(agari33.1)→33秒台前半の末脚を発揮し底未見せのまま昇級",
+        "[B] 3走前も福島1800m新馬勝ち→今回と同距離同会場の実績がある"
+      ],
+      "cons": [
+        "[B] 1勝クラスまでの実績→GⅢへの昇級で格上通用度は未知",
+        "[B] 牝馬52kgの軽量補正あり→斤量差を除いた純粋な地力測定が困難"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    },
+    {
+      "no": 2,
+      "name": "クカイリモク",
+      "vs_current": "昇級",
+      "last_class_rank": 1,
+      "top_class_rank": 1,
+      "score": -1.0,
+      "confidence": "低",
+      "style_tag": "先・テン中",
+      "recent_content": [
+        {"date":"2026-05-17","venue_dist":"東京1800m","pos":1,"agari":33.8,"class":"未勝利","content":"未勝利快勝"},
+        {"date":"2026-04-26","venue_dist":"東京1800m","pos":2,"agari":33.5,"class":"未勝利","content":"2着"}
+      ],
+      "pros": [
+        "[B] キャリア2戦で未勝利快勝(33.8)→底を見せておらず上積みの余地あり"
+      ],
+      "cons": [
+        "[B] 未勝利→GⅢ一気昇級・1勝クラス経験ゼロ→クラス通用度の裏付けなし",
+        "[B] キャリア2戦と経験浅く、格上のペース適応が未知"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    },
+    {
+      "no": 3,
+      "name": "ジーネキング",
+      "vs_current": "降級",
+      "last_class_rank": 9,
+      "top_class_rank": 9,
+      "score": 0.0,
+      "confidence": "中",
+      "style_tag": "差・テン中",
+      "recent_content": [
+        {"date":"2026-05-10","venue_dist":"東京1600m","pos":13,"agari":34.9,"class":"NHKマイルC(GⅠ)","content":"13着大敗"},
+        {"date":"2026-04-11","venue_dist":"中山1600m","pos":3, "agari":34.0,"class":"NZT(GⅡ)","content":"3着・権利取得"},
+        {"date":"2026-03-15","venue_dist":"中山1800m","pos":12,"agari":35.9,"class":"不明","content":"12着大敗"},
+        {"date":"2026-01-18","venue_dist":"中山2000m","pos":10,"agari":35.3,"class":"不明","content":"10着"}
+      ],
+      "pros": [
+        "[B] 前々走NZT(GⅡ)3着→格上で通用した実績あり・今回GⅢへの降格は格的に有利"
+      ],
+      "cons": [
+        "[B] 前走NHKマイルC(GⅠ) 13着大敗→GⅠではレベル差明確",
+        "[B] 3・4走前も着外大敗(12着・10着)→不安定さが目立つ"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://www.chunichi.co.jp/article/1248592",
+        "https://jra.jp/datafile/seiseki/g1/nmc/result/nmc2026.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サイモンシャリオ",
+      "vs_current": "昇級",
+      "last_class_rank": 2,
+      "top_class_rank": 2,
+      "score": -1.0,
+      "confidence": "中",
+      "style_tag": "差・テン遅",
+      "recent_content": [
+        {"date":"2026-05-16","venue_dist":"京都2000m","pos":6,"agari":34.5,"class":"あずさ賞(1勝C)","content":"6着"},
+        {"date":"2026-04-18","venue_dist":"福島2000m","pos":3,"agari":34.8,"class":"ひめさゆり賞(1勝C)","content":"3着"},
+        {"date":"2026-03-29","venue_dist":"阪神2000m","pos":1,"agari":34.9,"class":"未勝利","content":"未勝利勝ち"}
+      ],
+      "pros": [
+        "[B] 52kg軽量・前々走福島2000mで3着→福島コースの実績あり"
+      ],
+      "cons": [
+        "[B] 1勝クラスで6着・3着どまり→GⅢへの昇級で通用度の裏付けが薄い",
+        "[B] 近走は2000m主体→今回1800mと距離短縮でポジション変化が不確か"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://s.keibabook.co.jp/db/uma/0947490/top"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "リッツパーティー",
+      "vs_current": "昇級",
+      "last_class_rank": 2,
+      "top_class_rank": 2,
+      "score": 1.0,
+      "confidence": "中",
+      "style_tag": "差・テン中",
+      "recent_content": [
+        {"date":"2026-05-09","venue_dist":"東京1800m","pos":1,"agari":34.1,"class":"1勝C","content":"1勝C快勝・34.1末脚"},
+        {"date":"2026-02-21","venue_dist":"東京2000m","pos":4,"agari":34.0,"class":"不明","content":"4着"},
+        {"date":"2026-01-31","venue_dist":"東京1800m","pos":1,"agari":33.6,"class":"新馬","content":"新馬勝ち(33.6末脚)"}
+      ],
+      "pros": [
+        "[B] 前走1勝C東京1800m快勝(34.1)→1800mで2勝・底未見せのまま昇級",
+        "[B] 新馬でも33.6の優秀な末脚→A_finishの質が一定水準以上"
+      ],
+      "cons": [
+        "[B] 1勝クラスまでの実績→GⅢ通用度は未知"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    },
+    {
+      "no": 6,
+      "name": "コルテオソレイユ",
+      "vs_current": "昇級",
+      "last_class_rank": 2,
+      "top_class_rank": 2,
+      "score": 0.0,
+      "confidence": "中",
+      "style_tag": "差・テン中",
+      "recent_content": [
+        {"date":"2026-05-09","venue_dist":"京都1600m","pos":1,"agari":33.7,"class":"1勝C","content":"1勝C快勝(33.7末脚)"},
+        {"date":"2026-03-22","venue_dist":"中京1600m","pos":2,"agari":33.5,"class":"不明","content":"2着"},
+        {"date":"2026-03-08","venue_dist":"中山1600m","pos":6,"agari":34.8,"class":"1勝C","content":"6着"},
+        {"date":"2025-12-21","venue_dist":"阪神1600m","pos":11,"agari":36.0,"class":"不明","content":"11着大敗"}
+      ],
+      "pros": [
+        "[B] 前走1勝C快勝(33.7)→昇級戦で底未見せ"
+      ],
+      "cons": [
+        "[B] 全実績が1600m→今回1800mは初の距離延長・スタミナ適性未知",
+        "[B] 4走前に11着大敗あり→安定感に欠ける面も"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    },
+    {
+      "no": 7,
+      "name": "ショウナンガルフ",
+      "vs_current": "降級",
+      "last_class_rank": 9,
+      "top_class_rank": 9,
+      "score": -2.0,
+      "confidence": "高",
+      "style_tag": "追・テン遅",
+      "recent_content": [
+        {"date":"2026-05-31","venue_dist":"東京2400m","pos":17,"agari":34.1,"class":"日本ダービー(GⅠ)","content":"17着最下位(18頭立て)"},
+        {"date":"2026-02-10","venue_dist":"京都1800m","pos":9, "agari":34.3,"class":"不明","content":"9着"},
+        {"date":"2025-12-27","venue_dist":"中山2000m","pos":14,"agari":35.6,"class":"不明","content":"14着大敗"},
+        {"date":"2025-09-06","venue_dist":"札幌1800m","pos":1, "agari":35.0,"class":"不明","content":"1着"}
+      ],
+      "pros": [
+        "[B] ダービー(GⅠ)出走実績→格上経験あり"
+      ],
+      "cons": [
+        "[B] 前走ダービー17着最下位・近走3走で9/14/17着と大敗続き→底を完全に見せている",
+        "[B] 57kg最重量斤量→現状態での更なる負荷"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://jra.jp/datafile/seiseki/g1/derby/result/derby2026.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディールメーカー",
+      "vs_current": "降級",
+      "last_class_rank": 7,
+      "top_class_rank": 7,
+      "score": 1.0,
+      "confidence": "中",
+      "style_tag": "先・テン中",
+      "recent_content": [
+        {"date":"2026-04-11","venue_dist":"中山1600m","pos":4,"agari":34.3,"class":"NZトロフィー(GⅡ)","content":"GⅡ4着・格上で着内"},
+        {"date":"2026-03-08","venue_dist":"中山1600m","pos":1,"agari":34.8,"class":"1勝C","content":"1勝C快勝"},
+        {"date":"2026-01-10","venue_dist":"中山1600m","pos":1,"agari":34.6,"class":"未勝利","content":"未勝利勝ち"},
+        {"date":"2025-07-27","venue_dist":"新潟1600m","pos":2,"agari":32.8,"class":"未勝利","content":"2着(32.8末脚)"}
+      ],
+      "pros": [
+        "[B] 前走NZトロフィー(GⅡ)4着→格上のGⅡで着内の実績・今回GⅢは降格で有利",
+        "[B] 未勝利→1勝C→GⅡと着実な昇格路線を踏んでいる"
+      ],
+      "cons": [
+        "[B] 全実績が1600m→今回1800mは初の距離延長",
+        "[B] 騎手乗替(戸崎→高杉吏麒)→前走GⅡは戸崎騎乗"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://topics.smt.docomo.ne.jp/amp/article/sponichi/sports/sponichi-spngoo-20260625-0029",
+        "https://www.keibanomiryoku.com/article/new-zealand-trophy-2026-results.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "キンググローリー",
+      "vs_current": "降級",
+      "last_class_rank": 7,
+      "top_class_rank": 7,
+      "score": 0.0,
+      "confidence": "中",
+      "style_tag": "先・テン速",
+      "recent_content": [
+        {"date":"2026-05-09","venue_dist":"京都2200m","pos":13,"agari":37.0,"class":"京都新聞杯(GⅡ)推定","content":"13着大敗(agari37.0)"},
+        {"date":"2026-04-18","venue_dist":"福島2000m","pos":1, "agari":34.8,"class":"不明","content":"1着・福島コース実績"},
+        {"date":"2026-03-29","venue_dist":"中山2200m","pos":1, "agari":36.4,"class":"未勝利","content":"未勝利勝ち"},
+        {"date":"2026-03-07","venue_dist":"中山2200m","pos":3, "agari":36.2,"class":"未勝利","content":"3着"}
+      ],
+      "pros": [
+        "[B] 前々走福島2000m 1着→今回福島コース実績あり・舞台適性の裏付け"
+      ],
+      "cons": [
+        "[B] 前走京都新聞杯(GⅡ)13着大敗(agari37.0)→GⅡでは完全に力負け",
+        "[B] 近走実績が長距離(2000-2200m)中心→1800mのスピード要求への対応未知"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872599"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ガリレア",
+      "vs_current": "不明",
+      "last_class_rank": null,
+      "top_class_rank": null,
+      "score": -2.0,
+      "confidence": "中",
+      "style_tag": "差・テン中",
+      "recent_content": [
+        {"date":"2026-04-11","venue_dist":"中山1600m","pos":11,"agari":35.1,"class":"不明","content":"11着"},
+        {"date":"2026-03-15","venue_dist":"中山1800m","pos":10,"agari":35.2,"class":"不明","content":"10着"},
+        {"date":"2026-02-15","venue_dist":"東京1800m","pos":7, "agari":35.3,"class":"不明","content":"7着"},
+        {"date":"2025-11-15","venue_dist":"京都1600m","pos":7, "agari":36.1,"class":"不明","content":"7着"}
+      ],
+      "pros": [],
+      "cons": [
+        "[B] 近走4走で最高着順7着・全走着外→底を見せておりGⅢ通用の証左なし",
+        "[B] agariは35秒台→末脚の絶対値も低く、GⅢでは決定力不足"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    },
+    {
+      "no": 11,
+      "name": "コロナドブリッジ",
+      "vs_current": "不明",
+      "last_class_rank": null,
+      "top_class_rank": 1,
+      "score": -1.0,
+      "confidence": "中",
+      "style_tag": "逃・テン速",
+      "recent_content": [
+        {"date":"2026-05-02","venue_dist":"京都1900m","pos":7,"agari":38.2,"class":"不明","content":"7着大敗(agari38.2)"},
+        {"date":"2026-03-21","venue_dist":"阪神2000m","pos":8,"agari":35.6,"class":"不明","content":"8着"},
+        {"date":"2025-12-13","venue_dist":"阪神2000m","pos":1,"agari":33.4,"class":"エリカ賞(1勝C)推定","content":"1勝C快勝"},
+        {"date":"2025-09-15","venue_dist":"阪神2000m","pos":1,"agari":33.8,"class":"未勝利","content":"未勝利勝ち"}
+      ],
+      "pros": [
+        "[B] 逃げ馬として自分のペースで運べれば粘り込める→ハナが取れた時のみ有効"
+      ],
+      "cons": [
+        "[B] 前走agari38.2の大敗・直近2走で逃げ機能不全→先手が取れずに失速パターン",
+        "[B] エリカ賞(1勝C)後に2戦連続大敗→クラス上昇で対応できていない"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://s.keibabook.co.jp/db/uma/0954428/top"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ローベルクランツ",
+      "vs_current": "降級",
+      "last_class_rank": 9,
+      "top_class_rank": 9,
+      "score": 2.0,
+      "confidence": "高",
+      "style_tag": "先・テン中",
+      "recent_content": [
+        {"date":"2026-05-10","venue_dist":"東京1600m","pos":4, "agari":34.1,"class":"NHKマイルC(GⅠ)","content":"GⅠ4着・速い流れの中で掲示板"},
+        {"date":"2026-03-28","venue_dist":"阪神1800m","pos":2, "agari":33.4,"class":"不明","content":"2着(33.4末脚)"},
+        {"date":"2026-02-10","venue_dist":"京都1800m","pos":7, "agari":33.0,"class":"不明","content":"7着(agari_best33.0は優秀)"},
+        {"date":"2025-11-24","venue_dist":"東京1800m","pos":8, "agari":33.8,"class":"不明","content":"8着"}
+      ],
+      "pros": [
+        "[B] 前走NHKマイルC(GⅠ)4着→出走馬中最高の格上実績・GⅢは降格で格的優位",
+        "[B] agari_best33.0(近走最速)→GⅠの速い流れでも33秒台の末脚を保持"
+      ],
+      "cons": [
+        "[B] 全実績が1600-1800m混在・今回1800m延長で距離適性は微妙",
+        "[B] 57kg最重量→GⅠ4着の能力でも斤量負担が相殺要因"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://juicestand-bubbles.com/uma/au36370/history/race/r202605100411/",
+        "https://note.com/catassan/n/n5f9a9c34262f"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "サノノグレーター",
+      "vs_current": "不明",
+      "last_class_rank": null,
+      "top_class_rank": null,
+      "score": -1.0,
+      "confidence": "中",
+      "style_tag": "追・テン遅",
+      "recent_content": [
+        {"date":"2026-04-19","venue_dist":"中山2000m","pos":9,"agari":33.9,"class":"不明","content":"9着(末脚33.9は使うが届かず)"},
+        {"date":"2026-03-15","venue_dist":"中山1800m","pos":5,"agari":34.2,"class":"不明","content":"5着"},
+        {"date":"2026-02-15","venue_dist":"東京1800m","pos":6,"agari":34.0,"class":"不明","content":"6着"},
+        {"date":"2025-12-06","venue_dist":"中山2000m","pos":1,"agari":34.5,"class":"不明","content":"1着"}
+      ],
+      "pros": [
+        "[B] 末脚は33.9台を継続して使える→A_finishの数値自体は悪くない"
+      ],
+      "cons": [
+        "[B] 直近3走で9/5/6着→勝ちに届いていない・クラス通用の証明が弱い",
+        "[B] 追込×福島小回り(直線292m)→A_finishを活かせる展開が限定的"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    },
+    {
+      "no": 14,
+      "name": "スカイスプレンダー",
+      "vs_current": "昇級",
+      "last_class_rank": 2,
+      "top_class_rank": 2,
+      "score": 1.0,
+      "confidence": "中",
+      "style_tag": "追・テン遅(自在性あり)",
+      "recent_content": [
+        {"date":"2026-02-10","venue_dist":"東京2400m","pos":1,"agari":33.8,"class":"ゆりかもめ賞(1勝C)推定","content":"快勝・自ら動いて好位から押し切り・非凡な瞬発力評価"},
+        {"date":"2026-01-04","venue_dist":"京都2000m","pos":4,"agari":34.1,"class":"1勝C","content":"4着"},
+        {"date":"2025-11-23","venue_dist":"京都1800m","pos":1,"agari":34.1,"class":"未勝利","content":"1着"}
+      ],
+      "pros": [
+        "[B] 前走ゆりかもめ賞1着・好位から自ら動いて押し切り→自在性と非凡な瞬発力の評価",
+        "[B] キャリア3戦2勝・底未見せで昇級→上積みの余地あり"
+      ],
+      "cons": [
+        "[B] 骨折明け4ヶ月半の休養→体調・パフォーマンス維持の不確実性",
+        "[B] 1勝C止まりの実績→GⅢ通用度は未証明"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872689",
+        "https://news.netkeiba.com/?no=335346&pid=news_view"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "バドリナート",
+      "vs_current": "降級",
+      "last_class_rank": 7,
+      "top_class_rank": 7,
+      "score": -1.0,
+      "confidence": "中",
+      "style_tag": "先・テン中",
+      "recent_content": [
+        {"date":"2026-05-09","venue_dist":"京都2200m","pos":11,"agari":36.5,"class":"京都新聞杯(GⅡ)","content":"11着大敗(agari36.5)"},
+        {"date":"2025-12-27","venue_dist":"中山2000m","pos":5, "agari":35.2,"class":"不明","content":"5着"},
+        {"date":"2025-10-26","venue_dist":"京都1800m","pos":1, "agari":34.3,"class":"不明","content":"1着"},
+        {"date":"2025-09-06","venue_dist":"阪神2000m","pos":1, "agari":35.1,"class":"未勝利","content":"未勝利勝ち"}
+      ],
+      "pros": [
+        "[B] GⅡ(京都新聞杯)経験あり→格上経験を踏んでのGⅢ降格"
+      ],
+      "cons": [
+        "[B] 前走GⅡ11着大敗(agari36.5)→格上では完全に力負け・下降基調が明確",
+        "[B] 57kg最重量+近走下降基調→プラス要素が少ない"
+      ],
+      "sources": [
+        "seed: data/races/20260628-fukushima-11/seed_slim.json",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11868129"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スペルーチェ",
+      "vs_current": "昇級",
+      "last_class_rank": 2,
+      "top_class_rank": 2,
+      "score": 0.0,
+      "confidence": "低",
+      "style_tag": "追・テン遅",
+      "recent_content": [
+        {"date":"2026-05-10","venue_dist":"京都1400m","pos":3,"agari":33.3,"class":"不明","content":"3着(agari33.3)"},
+        {"date":"2026-03-21","venue_dist":"中山1600m","pos":1,"agari":34.6,"class":"1勝C","content":"1勝C快勝"},
+        {"date":"2026-03-01","venue_dist":"中山1600m","pos":2,"agari":33.6,"class":"1勝C","content":"2着"},
+        {"date":"2025-12-21","venue_dist":"阪神1600m","pos":14,"agari":36.1,"class":"不明","content":"14着大敗"}
+      ],
+      "pros": [
+        "[B] 1勝C勝ち・前走3着と近走は安定した圏内実績"
+      ],
+      "cons": [
+        "[B] 全実績1400-1600m→今回1800mは初の距離延長・スタミナ適性未知",
+        "[B] 追込で小回り福島では位置取りが後方になる懸念"
+      ],
+      "sources": ["seed: data/races/20260628-fukushima-11/seed_slim.json"]
+    }
+  ],
+  "note": "クラス確認の要：ジーネキング(NZT3着/NHKマイルC13着)・ショウナンガルフ(ダービー17着)・ディールメーカー(NZT4着)・ローベルクランツ(NHKマイルC4着)・キンググローリー/バドリナート(京都新聞杯出走推定)はweb確認済み。通過順(コーナー順位)はseedに含まれず・脚質タグのみ。スカイスプレンダーは骨折明け休養中で前走ゆりかもめ賞(1勝C推定)が直近。"
+}

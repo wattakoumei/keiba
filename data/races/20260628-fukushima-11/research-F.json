@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "race_id": "20260628-fukushima-11",
+    "observation": "F",
+    "label": "調教・厩舎仕上げ",
+    "generated": "2026-06-28",
+    "sources": [
+      "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+      "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html",
+      "https://umanity.jp/racedata/race_newsdet.php?nid=11872737"
+    ],
+    "seed_used": false,
+    "note": "追い切り好時計seedは空。全頭webから取得。2ソース照合。全調教師はstable-intent-rubric catalogに該当なし→全頭generic読み+暫定ラベル追記候補"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "ルージュボヤージュ",
+      "trainer": "木村哲也",
+      "final_workout": {
+        "course": "美浦ウッド",
+        "furlongs": "6F",
+        "splits": "82.5-66.9-52.3-37.6-11.3",
+        "last1F": 11.3,
+        "mode": "不明（余力ある動き）",
+        "partner": "不明"
+      },
+      "media_rating": "S",
+      "key_facts": [
+        "自己ベスト更新",
+        "「素晴らしい動き、これまで最高」(agyo)",
+        "ラスト11.3は美浦Wで余力の証"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑↑",
+        "basis": "S評価・自己ベスト更新という事実変化＝本気仕上げのサイン（catalog外・暫定）",
+        "append_candidate": true
+      },
+      "score": 2.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 美浦W6F ラスト11.3・自己ベスト更新=上昇サイン最上位",
+        "[F] S評価・「これまで最高」の動き=状態極上"
+      ],
+      "cons": [
+        "[F] 具体的な調教負荷（馬なり/一杯）の詳細が不明"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クカイリモク",
+      "trainer": "堀宣行",
+      "final_workout": {
+        "course": "美浦ウッド",
+        "furlongs": "5F",
+        "splits": "65.2-50.1-35.6-11.0",
+        "last1F": 11.0,
+        "mode": "不明（近走比軽め）",
+        "partner": "不明"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "ラスト11.0は美浦Wとして非常に速い時計",
+        "「近走比で軽めの調整」(agyo)",
+        "「夏負け傾向」(keibanomiryoku)=体調面懸念"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "堀厩舎catalog外・B評価＋夏負け傾向コメントで差分プラスとは判定しにくい（暫定）",
+        "append_candidate": true
+      },
+      "score": 0.0,
+      "confidence": "低",
+      "pros": [
+        "[F] ラスト11.0は美浦Wで極めて速い実数値"
+      ],
+      "cons": [
+        "[F] B評価・「夏負け傾向」コメント=体調面の不安が残る",
+        "[F] 「近走比で軽めの調整」=体がフル負荷に対応できない可能性"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジーネキング",
+      "trainer": "斎藤誠",
+      "final_workout": {
+        "course": "美浦ウッド",
+        "furlongs": "5F",
+        "splits": "66.3-50.8-36.9-11.5",
+        "last1F": 11.5,
+        "mode": "不明",
+        "partner": "楽々先着"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "「楽々先着」(agyo)=余力の証",
+        "「状態良好・反応優秀」(keibanomiryoku)",
+        "ラスト11.5は美浦Wで良好"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑",
+        "basis": "斎藤誠厩舎catalog外・楽々先着＋A評価は平常以上の状態（暫定）",
+        "append_candidate": true
+      },
+      "score": 1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 美浦W5F ラスト11.5・楽々先着=余力あり",
+        "[F] A評価・「状態良好・反応優秀」"
+      ],
+      "cons": [
+        "[F] 56kg斤量で末脚がどこまで出るか本番での確認必要"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サイモンシャリオ",
+      "trainer": "梅田智之",
+      "final_workout": {
+        "course": "栗東坂路",
+        "furlongs": "800m",
+        "splits": "56.1-40.4-26.1-12.5",
+        "last1F": 12.5,
+        "mode": "不明",
+        "partner": "不明"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "「調整程度の内容」(agyo)",
+        "「軽ハンデ活用狙い」(keibanomiryoku)",
+        "坂路ラスト12.5=余力ライン(12.6以下)は辛うじてクリア"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "梅田智之厩舎catalog外・B評価＋「調整程度」=特別な上積みなし（暫定）",
+        "append_candidate": true
+      },
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 坂路ラスト12.5=余力基準(12.6以下)内"
+      ],
+      "cons": [
+        "[F] B評価・「調整程度」=仕上がり感薄い",
+        "[F] 「軽ハンデ活用」という叩き台的な位置づけコメント"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "リッツパーティー",
+      "trainer": "岩戸孝樹",
+      "final_workout": {
+        "course": "美浦ウッド",
+        "furlongs": "6F",
+        "splits": "81.8-66.4-51.4-36.8-11.3",
+        "last1F": 11.3,
+        "mode": "不明",
+        "partner": "楽々先着"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "「楽々先着」(agyo)=余力の証",
+        "「左右差改善・乗りやすい」(keibanomiryoku)=状態改善",
+        "ラスト11.3は美浦Wで優秀"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑",
+        "basis": "岩戸孝樹厩舎catalog外・「左右差改善」という具体的改善事実+楽々先着=上昇サイン（暫定）",
+        "append_candidate": true
+      },
+      "score": 1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 美浦W6F ラスト11.3・楽々先着=余力充分",
+        "[F] 「左右差改善」という前走比での具体的改善=上昇サイン"
+      ],
+      "cons": [
+        "[F] 改善の具体的な時計根拠（前走時比較）が不明"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "コルテオソレイユ",
+      "trainer": "佐藤悠太",
+      "final_workout": {
+        "course": "栗東坂路",
+        "furlongs": "800m",
+        "splits": "54.3-39.0-24.5-11.6",
+        "last1F": 11.6,
+        "mode": "不明",
+        "partner": "先着"
+      },
+      "media_rating": "S",
+      "key_facts": [
+        "坂路ラスト11.6=絶好調水準(11秒台)",
+        "「いい感じのフットワーク」(keibanomiryoku)",
+        "S評価・「距離延長推奨」コメントあり"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑↑",
+        "basis": "佐藤悠太厩舎catalog外・S評価＋坂路11.6台=本気仕上げのサイン（暫定）",
+        "append_candidate": true
+      },
+      "score": 2.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 栗東坂路ラスト11.6=坂路11秒台は絶好調水準（基準12.6以下の最上位帯）",
+        "[F] S評価・先着=余力あり"
+      ],
+      "cons": [
+        "[F] 馬なり/一杯の詳細が不明（強度確認できず）"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ショウナンガルフ",
+      "trainer": "須貝尚介",
+      "final_workout": {
+        "course": "栗東CW",
+        "furlongs": "6F",
+        "splits": "84.6-69.1-53.6-38.2-11.8",
+        "last1F": 11.8,
+        "mode": "不明",
+        "partner": "古馬3勝馬と互角"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "「古馬3勝馬と互角」(agyo)=格上相手に互角は高評価",
+        "「徐々に良化」(keibanomiryoku)",
+        "CWラスト11.8は良好"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑",
+        "basis": "須貝尚介厩舎catalog外・格上相手と互角という具体的事実変化（暫定）",
+        "append_candidate": true
+      },
+      "score": 1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 古馬3勝クラス相手と互角=格上との比較で状態の充実確認",
+        "[F] A評価・CWラスト11.8"
+      ],
+      "cons": [
+        "[F] 「徐々に良化」止まり=絶好調とは言えない現時点"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディールメーカー",
+      "trainer": "大和田成",
+      "final_workout": {
+        "course": "美浦ウッド",
+        "furlongs": "5F",
+        "splits": "68.4-52.2-37.9-11.8",
+        "last1F": 11.8,
+        "mode": "不明",
+        "partner": "互角"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "「地味な動き」(agyo)",
+        "「バランス改善・緩さ残存」(keibanomiryoku)",
+        "ラスト11.8は並水準"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "大和田成厩舎catalog外・B評価＋緩さ残存=差分プラスなし（暫定）",
+        "append_candidate": true
+      },
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] ラスト11.8は一定の水準"
+      ],
+      "cons": [
+        "[F] B評価・「地味な動き」・「緩さ残存」=仕上がり不十分",
+        "[F] バランス改善と言うが課題が残ると明言されている"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "キンググローリー",
+      "trainer": "古賀慎明",
+      "final_workout": {
+        "course": "美浦ウッド",
+        "furlongs": "6F",
+        "splits": "82.8-67.3-52.1-37.8-11.8",
+        "last1F": 11.8,
+        "mode": "不明",
+        "partner": "不明"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "「よく動けた」(keibanomiryoku)",
+        "師コメント「福島は2走前で強い勝ち方をしていて相性はいい」",
+        "「入念な乗り込み、丁寧な調整」(agyo)",
+        "前走後放牧=ダメージ回復確認済み"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑",
+        "basis": "古賀慎明厩舎catalog外・積極的師コメント＋入念乗り込み=本気一戦として選択（暫定）",
+        "append_candidate": true
+      },
+      "score": 1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] A評価・入念乗り込みで本番に向け丁寧な調整",
+        "[F] 師コメント積極的・放牧後のダメージ回復確認済み"
+      ],
+      "cons": [
+        "[F] ラスト11.8は並水準・本数の詳細不明"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872737"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ガリレア",
+      "trainer": "清水英克",
+      "final_workout": {
+        "course": "美浦ポリトラック",
+        "furlongs": "5F",
+        "splits": "64.0-49.9-36.7-11.4",
+        "last1F": 11.4,
+        "mode": "不明",
+        "partner": "置き去り"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "「置き去り」(agyo)=大きく先着",
+        "師コメント「フットワークがすごく良くなっている。パワーアップして力強くなっている」",
+        "「体に厚み出現」(keibanomiryoku)"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "↑",
+        "basis": "清水英克厩舎catalog外・「パワーアップ」師コメント+「体に厚み」という身体的成長事実=前走比上昇サイン（暫定）",
+        "append_candidate": true
+      },
+      "score": 1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 併せ馬「置き去り」+ポリラスト11.4=余力充分",
+        "[F] 師コメント「パワーアップ・力強くなっている」+体に厚み=馬自体の成長"
+      ],
+      "cons": [
+        "[F] ポリトラックは馬場差があり単純比較に注意"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872737"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "コロナドブリッジ",
+      "trainer": "庄野靖志",
+      "final_workout": {
+        "course": "栗東坂路",
+        "furlongs": "800m",
+        "splits": "52.2-38.0-24.7-12.3",
+        "last1F": 12.3,
+        "mode": "軽く仕掛け",
+        "partner": "不明"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "師コメント「軽く仕掛けただけで反応は良かったし、動きに力強さもあった。思い描いた通り」",
+        "agyo「追って失速気味」とkeibanomiryokuの師コメントで評価乖離",
+        "坂路ラスト12.3=余力ライン内"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "庄野靖志厩舎catalog外・師コメントは満足だが媒体B評価=差分判定困難（暫定）",
+        "append_candidate": true
+      },
+      "score": 0.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 坂路ラスト12.3=余力基準(12.6以下)内",
+        "[F] 師コメント「軽く仕掛けただけで反応良好・思い描いた通り」"
+      ],
+      "cons": [
+        "[F] agyo「追って失速気味」=媒体評価はB・好時計とは言えない水準",
+        "[F] B評価・ラスト12.3は逃げ馬として特別優れた時計ではない"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872737"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ローベルクランツ",
+      "trainer": "小林真也",
+      "final_workout": {
+        "course": "栗東ポリトラック",
+        "furlongs": "5F",
+        "splits": "76.0-58.7-42.9-12.8",
+        "last1F": 12.8,
+        "mode": "不明",
+        "partner": "不明"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "「本数が少なめ」(agyo)=調教量の懸念",
+        "「我慢利いて反応良好」(keibanomiryoku)",
+        "ポリラスト12.8=基準(12.6以下)を超える失速"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "小林真也厩舎catalog外・B評価＋ポリ12.8失速＋本数少なめ=特別な本気気配なし（暫定）",
+        "append_candidate": true
+      },
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 「我慢利いて反応良好」=気性面の落ち着き確認"
+      ],
+      "cons": [
+        "[F] ポリラスト12.8=余力基準(12.6以下)超え・失速傾向",
+        "[F] B評価・本数少なめ=仕上がり面に不安"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "サノノグレーター",
+      "trainer": "尾形和幸",
+      "final_workout": {
+        "course": "美浦坂路",
+        "furlongs": "800m",
+        "splits": "56.9-42.2-27.9-13.8",
+        "last1F": 13.8,
+        "mode": "不明",
+        "partner": "不明"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "agyo「南W3ハロン36.2秒・A評価」=別タームの追い切りの可能性",
+        "keibanomiryoku坂路ラスト13.8=明確な失速（13.0超）",
+        "「弾んでいて軽やか・不安なし」(keibanomiryoku)との乖離あり",
+        "2ソースで情報乖離=最終追い特定困難"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "尾形和幸厩舎catalog外・情報乖離により差分判定困難（暫定）",
+        "append_candidate": true
+      },
+      "score": -1.0,
+      "confidence": "低",
+      "pros": [
+        "[F] agyo A評価・「弾んでいて軽やか」というコメント"
+      ],
+      "cons": [
+        "[F] keibanomiryoku坂路ラスト13.8=失速指標(13.0超)の明確な数値",
+        "[F] 2ソース乖離で最終追い確認困難=確信度「低」"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "スカイスプレンダー",
+      "trainer": "池江泰寿",
+      "final_workout": {
+        "course": "栗東坂路",
+        "furlongs": "800m",
+        "splits": "55.4-39.7-25.6-12.6",
+        "last1F": 12.6,
+        "mode": "不明",
+        "partner": "先着"
+      },
+      "media_rating": "A",
+      "key_facts": [
+        "「骨折から回復」(keibanomiryoku)=ケガ明け",
+        "「併せ馬に先着、良い動き」(agyo)",
+        "坂路ラスト12.6=余力ライン上（ギリギリ）"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "池江泰寿厩舎catalog外・骨折明けA評価は回復確認=普通仕上げ（暫定）",
+        "append_candidate": true
+      },
+      "score": 0.0,
+      "confidence": "中",
+      "pros": [
+        "[F] A評価・先着=骨折明けとして合格水準の動き確認",
+        "[F] 坂路ラスト12.6=余力基準(12.6以下)の境界値でクリア"
+      ],
+      "cons": [
+        "[F] 骨折明けで本来の力が出るかは本番次第",
+        "[F] 12.6はギリギリ=際立った余力感はない"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "バドリナート",
+      "trainer": "松永幹夫",
+      "final_workout": {
+        "course": "栗東坂路",
+        "furlongs": "800m",
+        "splits": "54.5-39.4-25.2-12.6",
+        "last1F": 12.6,
+        "mode": "一杯",
+        "partner": "互角程度"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "「一杯に追って互角程度」(agyo)=高負荷で並水準",
+        "「蹄ケガから回復・タイム型でない」(keibanomiryoku)",
+        "B評価・ラスト12.6は一杯追いで達成=余力感なし"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "松永幹夫厩舎catalog外・B評価＋一杯追いで12.6=差分プラスなし（暫定）",
+        "append_candidate": true
+      },
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[F] 坂路ラスト12.6=余力基準内（ただし一杯追いのため余力感は薄い）"
+      ],
+      "cons": [
+        "[F] B評価・「一杯に追って互角程度」=高負荷で並水準=余力なし",
+        "[F] 蹄ケガ明け・「タイム型でない」=状態面の注意信号"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スペルーチェ",
+      "trainer": "宮田敬介",
+      "final_workout": {
+        "course": "美浦ポリトラック",
+        "furlongs": "5F",
+        "splits": "69.0-52.7-38.7-11.5",
+        "last1F": 11.5,
+        "mode": "調教負荷軽め",
+        "partner": "不明"
+      },
+      "media_rating": "B",
+      "key_facts": [
+        "「速い全体時計、調教負荷が軽い」(agyo)",
+        "「メリハリ出現・折り合い改善」(keibanomiryoku)",
+        "ポリラスト11.5=良好な数値"
+      ],
+      "stable_intent": {
+        "label_provisional": "中間型/標準/流動",
+        "confidence": "低",
+        "intent": "→",
+        "basis": "宮田敬介厩舎catalog外・B評価でも「折り合い改善」は前向きサイン（暫定）",
+        "append_candidate": true
+      },
+      "score": 0.0,
+      "confidence": "中",
+      "pros": [
+        "[F] ポリラスト11.5は良好な実数値",
+        "[F] 「折り合い改善・メリハリ出現」=前走比の改善事実"
+      ],
+      "cons": [
+        "[F] B評価・「調教負荷が軽い」=時計は速いが仕上がり感は薄い",
+        "[F] ポリは馬場差があり同コース比較が必要"
+      ],
+      "sources": [
+        "https://agyo-keiba.com/radionikkeisyo2026-oikiri/",
+        "https://www.keibanomiryoku.com/article/radio-nikkei-sho-2026-work-out.html"
+      ]
+    }
+  ],
+  "stable_intent_catalog_append_candidates": [
+    {"trainer": "木村哲也", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "S評価・自己ベスト更新という事実変化から本気仕上げと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "堀宣行", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "B評価・夏負け傾向コメントから特別な勝負気配なしと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "斎藤誠", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "A評価・楽々先着から標準以上の状態と暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "梅田智之", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "B評価・調整程度コメントから特別な本気気配なしと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "岩戸孝樹", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "左右差改善という具体的改善事実から上昇トレンドと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "佐藤悠太", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "S評価・坂路11.6台から本気仕上げと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "須貝尚介", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "格上古馬と互角という具体的事実から状態充実と暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "大和田成", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "B評価・緩さ残存コメントから差分プラスなしと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "古賀慎明", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "積極的師コメント・入念乗り込みから本気一戦として選択と暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "清水英克", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "師コメント「パワーアップ・力強くなった」+体に厚み=前走比成長と暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "庄野靖志", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "師コメント満足だが媒体B評価・ラスト12.3から差分判定困難と暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "小林真也", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "B評価・本数少なめ・ポリ12.8失速から特別な本気気配なしと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "尾形和幸", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "2ソース乖離で最終追い特定困難・情報不足から判断保留", "race": "20260628-fukushima-11"},
+    {"trainer": "池江泰寿", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "骨折明けA評価で回復確認=通常仕上げと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "松永幹夫", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "B評価・一杯追いで12.6=差分プラスなしと暫定判断", "race": "20260628-fukushima-11"},
+    {"trainer": "宮田敬介", "provisional_label": "中間型/標準/流動", "confidence": "低", "basis": "B評価でも折り合い改善事実あり=前向きだが本気サインとまでは言えないと暫定判断", "race": "20260628-fukushima-11"}
+  ]
+}

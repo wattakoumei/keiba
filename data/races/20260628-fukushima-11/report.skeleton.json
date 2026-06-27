@@ -1,0 +1,1085 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260628-fukushima-11",
+ "race_name": "",
+ "edition": "",
+ "race_no": 11,
+ "grade": "",
+ "date": "2026-06-28",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 1800,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 16,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "I",
+  "K",
+  "L"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "ルージュボヤージュ",
+    "jockey": "北村 宏司",
+    "trainer": "木村 哲也",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "1",
+    "no": 2,
+    "horse": "クカイリモク",
+    "jockey": "F.ゴンサルベス",
+    "trainer": "堀 宣行",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 3,
+    "horse": "ジーネキング",
+    "jockey": "菊沢 一樹",
+    "trainer": "斎藤 誠",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 4,
+    "horse": "サイモンシャリオ",
+    "jockey": "田口 貫太",
+    "trainer": "梅田 智之",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 5,
+    "horse": "リッツパーティー",
+    "jockey": "横山 武史",
+    "trainer": "岩戸 孝樹",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 6,
+    "horse": "コルテオソレイユ",
+    "jockey": "荻野 極",
+    "trainer": "佐藤 悠太",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 7,
+    "horse": "ショウナンガルフ",
+    "jockey": "丸山 元気",
+    "trainer": "須貝 尚介",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 8,
+    "horse": "ディールメーカー",
+    "jockey": "高杉 吏麒",
+    "trainer": "大和田 成",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 9,
+    "horse": "キンググローリー",
+    "jockey": "石川 裕紀人",
+    "trainer": "古賀 慎明",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 10,
+    "horse": "ガリレア",
+    "jockey": "石橋 脩",
+    "trainer": "清水 英克",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 11,
+    "horse": "コロナドブリッジ",
+    "jockey": "三浦 皇成",
+    "trainer": "庄野 靖志",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 12,
+    "horse": "ローベルクランツ",
+    "jockey": "松山 弘平",
+    "trainer": "小林 真也",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 13,
+    "horse": "サノノグレーター",
+    "jockey": "田辺 裕信",
+    "trainer": "尾形 和幸",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 14,
+    "horse": "スカイスプレンダー",
+    "jockey": "戸崎 圭太",
+    "trainer": "池江 泰寿",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 15,
+    "horse": "バドリナート",
+    "jockey": "津村 明秀",
+    "trainer": "松永 幹夫",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 16,
+    "horse": "スペルーチェ",
+    "jockey": "M.デムーロ",
+    "trainer": "宮田 敬介",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "単騎前残り（⑪/①単騎ハナ・スロー）",
+    "tier": "本線",
+    "prob": 0.4,
+    "trigger": "⑪が二の脚で楽にハナ→①は2番手で折り合い、⑨も控える。重ハンデ⑧⑫⑮は競らず先行集団に収まり先行争い不発。",
+    "pace_level": 0.28,
+    "contesters": [],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 2,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [],
+    "formation_last_corner": [],
+    "bias": "内前有利・前残り（甘い逃げはゴール前小上りで甘くなる）",
+    "phase_flow": {
+     "early": "外⑪が二の脚でハナ、内①は最短ラチで2番手・⑨も前々につけ、初角305mが短く先行7頭の隊列が早々に確定（A_earlyが効くが超スローで消耗は小）。",
+     "mid": "向正面の緩い上りでも超スローで誰も動かず、前と重ハンデ⑧⑫⑮も追走が楽に脚を温存（A_cruiseが効き消耗が出ない）。",
+     "late": "残400mの下りから加速、ゴール前170-50mの1.2m上りで位置を取った①⑨と軽量先行が瞬発、甘い逃げ⑪は小上りで甘くなりやすい（A_finish×位置×坂）。",
+     "result": "前残り＝①⑨と前づけ勢が浮上、57kg⑫⑮は小上りで止まり気味、追込⑦⑬⑭⑯は292m短直線で届かず。"
+    },
+    "risers": [
+     1,
+     2,
+     8,
+     9,
+     11,
+     12
+    ],
+    "sinkers": []
+   },
+   {
+    "id": "β",
+    "name": "先行争い激化→共倒れ→差し台頭（ハイ）",
+    "tier": "対抗",
+    "prob": 0.33,
+    "trigger": "⑪と①が互いに譲らずハナ主張、⑨も参加。先行7頭が密集して締まり、重ハンデ⑧⑫⑮も位置取りに脚を使う。",
+    "pace_level": 0.88,
+    "contesters": [],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": -1,
+     "差し": 2,
+     "追込": 0
+    },
+    "formation_head": [],
+    "formation_last_corner": [],
+    "bias": "差し台頭だが好位中団まで（最後方追込は短直線で頭打ち）",
+    "phase_flow": {
+     "early": "外⑪と内①が互いに譲らず⑨も主張、初角305mまでに三つ巴でハナを削り合い先行7頭が前半から脚を使う（A_earlyを競って消費）。",
+     "mid": "締まったラップで重ハンデ⑧⑫⑮(56-57kg)が追走に脚を奪われ前の貯金が溶ける、中団差しは脚を温存（A_cruiseの差が開く＝重い先行が苦しくなる）。",
+     "late": "下り坂で後続が押し上げゴール前1.2m上りで競った先行が総崩れ、中団でタメた⑤⑥③⑩が突っ込む（A_finishが効く相へ反転）。",
+     "result": "先行共倒れ＝好位中団差し⑤⑥③⑩が台頭、ただし最後方追込⑦⑬⑯は292m短直線+外枠で差し損ね。"
+    },
+    "risers": [
+     1,
+     3,
+     5,
+     6,
+     10,
+     14
+    ],
+    "sinkers": []
+   },
+   {
+    "id": "γ",
+    "name": "平均・内前瞬発（⑪単騎だが先行集団が締める）",
+    "tier": "伏線",
+    "prob": 0.27,
+    "trigger": "⑪が単騎ハナだが①⑨が好位で締めて平均ペース、重ハンデ先行は競らず位置キープ。",
+    "pace_level": 0.5,
+    "contesters": [],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 2,
+     "差し": 0,
+     "追込": -1
+    },
+    "formation_head": [],
+    "formation_last_corner": [],
+    "bias": "内前有利・好位瞬発",
+    "phase_flow": {
+     "early": "⑪が単騎ハナだが①⑨が好位で締め、先行集団が密集して平均ペース、初角305mで内の①がロスなく好位を確保（A_earlyが効く）。",
+     "mid": "平均ペースで前は無理なく追走、重ハンデ先行も競らない限り位置を保てる（A_cruiseは概ね均衡）。",
+     "late": "残400mの下りから瞬発勝負、ゴール前1.2m上りで内前を立ち回った①⑨と好位差し⑤が抜け、甘い逃げ⑪は番手勢に交わされる（A_finish×位置）。",
+     "result": "内前残り＝①⑨⑤が中心、後方差し・追込は短直線で届かず取りこぼし。"
+    },
+    "risers": [
+     1,
+     5,
+     6,
+     9,
+     11,
+     12
+    ],
+    "sinkers": []
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "①と⑪が互いに譲らずハナ争い激化＋重ハンデ⑧⑫⑮が位置取りに脚を使えば β(先行共倒れ→差し台頭)が0.33→0.55へ・α後退。⑪が二の脚で楽に単騎ハナ＋①が2番手で折り合えば α(単騎前残り)に固定。先行集団が緩んで平均ペースなら γ(平均・内前)上昇。当日に内前残りが継続なら α/γを上げβを下げる（ただしペース構造はレース固有＝1鞍の差し決着で既存の筋は消さない＝非対称ルール）。逆に前半参考Rで複数鞍が外差し決着なら β格上げ。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線",
+    "center": [
+     1,
+     9,
+     11
+    ],
+    "inside": [
+     2,
+     8,
+     12
+    ],
+    "spot": [
+     5,
+     6,
+     15
+    ],
+    "drop": []
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗",
+    "center": [
+     5
+    ],
+    "inside": [
+     1,
+     3,
+     6,
+     10,
+     14
+    ],
+    "spot": [
+     4,
+     7,
+     13,
+     16
+    ],
+    "drop": []
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線",
+    "center": [
+     1,
+     9
+    ],
+    "inside": [
+     5,
+     6,
+     11,
+     12
+    ],
+    "spot": [
+     2,
+     3,
+     8,
+     10
+    ],
+    "drop": []
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "ルージュボヤージュ",
+   "jockey": "北村 宏司",
+   "trainer": "木村 哲也",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A_finish] agari_best 33.1(中山1800m 1勝クラス1着時)は出走馬上位水準の上がり"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走1勝C中山1800m快勝(agari33.1)→33秒台前半の末脚を発揮し底未見せのまま昇級"
+    },
+    {
+     "tag": "C",
+     "note": "[C血統] コントレイル(ディープ系)がベスト距離1800-2000芝と完全一致・福島1800m勝利実績が血統を裏付け"
+    },
+    {
+     "tag": "D",
+     "note": "福島 芝1800同距離で1着実績(最内1枠1番×開幕週内前バイアス)"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "K",
+     "note": "前走1着での降板はネガティブシグナル"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "3",
+   "horse": "リッツパーティー",
+   "jockey": "横山 武史",
+   "trainer": "岩戸 孝樹",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A_class] 前走東京1800m 1勝クラス1着で走破時計1:45.4(良)=同クラス東京1800mで異次元の速時計、GⅢクラスと同水準"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走1勝C東京1800m快勝(34.1)→1800mで2勝・底未見せのまま昇級"
+    },
+    {
+     "tag": "F",
+     "note": "[F] 美浦W6F ラスト11.3・楽々先着=余力充分"
+    },
+    {
+     "tag": "G",
+     "note": "[G]前走東京1800m1着(同日エプソムカップと0.1差の好時計)・叩き2走目"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "D",
+     "note": "差し脚質×小回り短直線=不利"
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "gate": "6",
+   "horse": "ローベルクランツ",
+   "jockey": "松山 弘平",
+   "trainer": "小林 真也",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A_class] 毎日杯GⅢ(阪神1800m良)2着1:45.2で重賞レベルの走破時計を確認、勝ち馬との差0.1秒"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走NHKマイルC(GⅠ)4着→出走馬中最高の格上実績・GⅢは降格で格的優位"
+    },
+    {
+     "tag": "C",
+     "note": "[C小回り] サトノダイヤモンドは小回りローカル◎→福島は父系の得意フィールド"
+    },
+    {
+     "tag": "D",
+     "note": "阪神1800 2着(2026-03-28)=1800m距離実績あり"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "F",
+     "note": "[F] ポリラスト12.8=余力基準(12.6以下)超え・失速傾向"
+    },
+    {
+     "tag": "G",
+     "note": "[G]1600→1800距離延長・師談「小回りはともかく」＝コース不安含み"
+    },
+    {
+     "tag": "I",
+     "note": "[I-weight]斤量57kg=実効標準+2.5kg・先行馬に最重量・ゴール前上りで止まりやすい"
+    },
+    {
+     "tag": "L",
+     "note": "57.0kgは過去10年でラジオNIKKEI賞3着以内実績ゼロの不利斤量"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "3",
+   "horse": "コルテオソレイユ",
+   "jockey": "荻野 極",
+   "trainer": "佐藤 悠太",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C小回り] ウインブライトは小回りコース◎東京×→ 福島が主戦場となる適性"
+    },
+    {
+     "tag": "F",
+     "note": "[F] 栗東坂路ラスト11.6=坂路11秒台は絶好調水準（基準12.6以下の最上位帯）"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 全4走が1600m戦、1800mでの走破時計の裏付けが皆無"
+    },
+    {
+     "tag": "D",
+     "note": "差し脚質×小回り短直線=不利"
+    },
+    {
+     "tag": "K",
+     "note": "前走1着での主戦浜中離脱はネガティブ"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "5",
+   "horse": "キンググローリー",
+   "jockey": "石川 裕紀人",
+   "trainer": "古賀 慎明",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "D",
+     "note": "福島2000で1着(2026-04)=同会場実績新鮮"
+    },
+    {
+     "tag": "F",
+     "note": "[F] A評価・入念乗り込みで本番に向け丁寧な調整"
+    },
+    {
+     "tag": "L",
+     "note": "2走前に福島芝を楽勝した実績。今回と同開催コース（福島芝）での好走経験"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_finish] agari_best 34.8は出走馬中最低水準、終盤の決め手で明確に劣位"
+    },
+    {
+     "tag": "G",
+     "note": "[G]前走京都2200m13着大敗"
+    },
+    {
+     "tag": "I",
+     "note": "[I-det decline]前走13着/16頭の大敗=下降基調"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "1",
+   "horse": "クカイリモク",
+   "jockey": "F.ゴンサルベス",
+   "trainer": "堀 宣行",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "D",
+     "note": "先行脚質×小回り前残り理論適合"
+    },
+    {
+     "tag": "G",
+     "note": "[G]叩き2走目・前走1着(東京1800・1:47.1好時計)"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B] 未勝利→GⅢ一気昇級・1勝クラス経験ゼロ→クラス通用度の裏付けなし"
+    },
+    {
+     "tag": "C",
+     "note": "[C馬場] サートゥルナーリアは直線長コース高信頼=福島短直線(292m)で瞬発タイプが不向き"
+    },
+    {
+     "tag": "I",
+     "note": "[I-ndet]右回り初経験=福島・小回りコースへの適応不安(推定・確信度低)"
+    },
+    {
+     "tag": "K",
+     "note": "D.レーンとの好コンビを途切れさせた（前2走1着・2着）"
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "gate": "6",
+   "horse": "コロナドブリッジ",
+   "jockey": "三浦 皇成",
+   "trainer": "庄野 靖志",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C距離] ベンバトル平均勝利距離1788m・芝1600-2000主体→福島1800mと合致"
+    },
+    {
+     "tag": "K",
+     "note": "三浦皇成は逃げ馬の扱いに定評あり（逃げ×三浦の組み合わせはセオリー的加点）"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 近2走でagari 35.6→38.2と急激な悪化、逃げて捕まった後の大失速が続く"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走agari38.2の大敗・直近2走で逃げ機能不全→先手が取れずに失速パターン"
+    },
+    {
+     "tag": "G",
+     "note": "[G]近2戦凡走(8着・7着)・前走agari38.2と著しく鈍い"
+    },
+    {
+     "tag": "L",
+     "note": "2勝はいずれも1000m通過63秒以上の超スロー展開での逃げ切り。超スロー限定の実績"
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "gate": "7",
+   "horse": "スカイスプレンダー",
+   "jockey": "戸崎 圭太",
+   "trainer": "池江 泰寿",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A_class] ゆりかもめ賞(1勝クラス東京2400m)を11/2馬身差・agari 33.8で圧勝、1勝クラスでの余力が大きい"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走ゆりかもめ賞1着・好位から自ら動いて押し切り→自在性と非凡な瞬発力の評価"
+    },
+    {
+     "tag": "K",
+     "note": "前走1着から継続騎乗"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "C",
+     "note": "[C馬場] サートゥルナーリアは直線長コース高信頼→福島短直線(292m)で瞬発型が不向き"
+    },
+    {
+     "tag": "D",
+     "note": "2400→1800大幅短縮=テンポ変化"
+    },
+    {
+     "tag": "G",
+     "note": "[G]中19週(約5ヶ月)長期休み明け・骨折後の復帰戦=不確実性大"
+    },
+    {
+     "tag": "I",
+     "note": "[I-det layoff]138日休み明け=骨折由来の長期休養"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "gate": "2",
+   "horse": "サイモンシャリオ",
+   "jockey": "田口 貫太",
+   "trainer": "梅田 智之",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C母父] ロージズインメイBMSとして芝1700-2000が最良・小回りコース(札幌・小倉)◎・先行しぶとさ供給"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 全4走が2000m未勝利・1勝クラス止まり、GⅢ水準の裏付けなし"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 1勝クラスで6着・3着どまり→GⅢへの昇級で通用度の裏付けが薄い"
+    },
+    {
+     "tag": "F",
+     "note": "[F] B評価・「調整程度」=仕上がり感薄い"
+    },
+    {
+     "tag": "K",
+     "note": "好績の主戦松若風馬が離脱"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "2",
+   "horse": "ジーネキング",
+   "jockey": "菊沢 一樹",
+   "trainer": "斎藤 誠",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "F",
+     "note": "[F] 美浦W5F ラスト11.5・楽々先着=余力あり"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 中山1800mで12着1:46.9・東京1600mで13着と連続惨敗、クラス通用度に疑問"
+    },
+    {
+     "tag": "D",
+     "note": "差し脚質×小回り短直線=届きにくい"
+    },
+    {
+     "tag": "G",
+     "note": "[G]前走NHKマイルC13着大敗・近2走で二桁着順"
+    },
+    {
+     "tag": "I",
+     "note": "[I-det decline]前走13着/18頭の大敗=下降基調の一次フラグ"
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "gate": "7",
+   "horse": "サノノグレーター",
+   "jockey": "田辺 裕信",
+   "trainer": "尾形 和幸",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "L",
+     "note": "葉牡丹賞(中山芝2000m・小回りコース)でJRA2歳レコードの圧勝。小回りコースでの適性実証済み"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 中山1800m5着1:46.2・東京1800m6着1:46.4と1800mで上位着順に届かず(推定2勝クラス)"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 直近3走で9/5/6着→勝ちに届いていない・クラス通用の証明が弱い"
+    },
+    {
+     "tag": "D",
+     "note": "追込脚質×小回り短直線=届かない"
+    },
+    {
+     "tag": "F",
+     "note": "[F] keibanomiryoku坂路ラスト13.8=失速指標(13.0超)の明確な数値"
+    }
+   ]
+  },
+  {
+   "no": 16,
+   "gate": "8",
+   "horse": "スペルーチェ",
+   "jockey": "M.デムーロ",
+   "trainer": "宮田 敬介",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 12,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 全4走が1400-1600m戦のみ、1800mでの走破時計の裏付けが皆無"
+    },
+    {
+     "tag": "C",
+     "note": "[C回り] レイデオロは左回り○=右回り福島で適性低下の懸念"
+    },
+    {
+     "tag": "D",
+     "note": "1400→1800大幅延長=初体験"
+    },
+    {
+     "tag": "G",
+     "note": "[G]1400→1800(+400m)大幅距離延長・スプリント系からの急延長"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "gate": "4",
+   "horse": "ディールメーカー",
+   "jockey": "高杉 吏麒",
+   "trainer": "大和田 成",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 13,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "B",
+     "note": "[B] 前走NZトロフィー(GⅡ)4着→格上のGⅡで着内の実績・今回GⅢは降格で有利"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 全4走が1600m戦のみ、1800mでの時計の裏付けが皆無"
+    },
+    {
+     "tag": "C",
+     "note": "[C距離] イスラボニータは1200-1600主体→1800mへの距離延長が最大の懸念"
+    },
+    {
+     "tag": "F",
+     "note": "[F] B評価・「地味な動き」・「緩さ残存」=仕上がり不十分"
+    },
+    {
+     "tag": "G",
+     "note": "[G]中10週休み明け初戦"
+    }
+   ]
+  },
+  {
+   "no": 15,
+   "gate": "8",
+   "horse": "バドリナート",
+   "jockey": "津村 明秀",
+   "trainer": "松永 幹夫",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 14,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_finish] agari_best 34.3はやや平凡、直近の京都2200m11着でagari 36.5と大失速"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走GⅡ11着大敗(agari36.5)→格上では完全に力負け・下降基調が明確"
+    },
+    {
+     "tag": "F",
+     "note": "[F] B評価・「一杯に追って互角程度」=高負荷で並水準=余力なし"
+    },
+    {
+     "tag": "I",
+     "note": "[I-det decline]前走11着/16頭の大敗=下降基調"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "gate": "5",
+   "horse": "ガリレア",
+   "jockey": "石橋 脩",
+   "trainer": "清水 英克",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 15,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "F",
+     "note": "[F] 併せ馬「置き去り」+ポリラスト11.4=余力充分"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] 東京1800m 7着1:46.5・中山1800m 10着1:46.7と1800mで一貫した下位着順(推定2勝クラス以上)"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 近走4走で最高着順7着・全走着外→底を見せておりGⅢ通用の証左なし"
+    },
+    {
+     "tag": "C",
+     "note": "[C馬場] モズアスコットは洋芝(札幌)◎だが福島は野芝系→直接的恩恵なし"
+    },
+    {
+     "tag": "D",
+     "note": "差し脚質×小回り=不利"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "4",
+   "horse": "ショウナンガルフ",
+   "jockey": "丸山 元気",
+   "trainer": "須貝 尚介",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 16,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C小回り] ハービンジャーは小回り○・時計のかかる馬場で信頼→福島の条件に合う"
+    },
+    {
+     "tag": "F",
+     "note": "[F] 古馬3勝クラス相手と互角=格上との比較で状態の充実確認"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A_class] ダービー17着2:24.2=GⅠ水準で通用せず、agari 34.1はGⅠ出走馬として平凡"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走ダービー17着最下位・近走3走で9/14/17着と大敗続き→底を完全に見せている"
+    },
+    {
+     "tag": "D",
+     "note": "追込脚質×小回り短直線=届かない"
+    },
+    {
+     "tag": "G",
+     "note": "[G]前走ダービー17着大敗・近3走全て6着以下"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

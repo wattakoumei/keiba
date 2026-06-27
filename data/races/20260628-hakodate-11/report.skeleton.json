@@ -1,0 +1,1108 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260628-hakodate-11",
+ "race_name": "",
+ "edition": "",
+ "race_no": 11,
+ "grade": "",
+ "date": "2026-06-28",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 2000,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 15,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "I",
+  "K",
+  "L"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "バルナバ",
+    "jockey": "斎藤 新",
+    "trainer": "浜田 多実雄",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "ファウストラーゼン",
+    "jockey": "小林 美駒",
+    "trainer": "須貝 尚介",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 3,
+    "horse": "ピースワンデュック",
+    "jockey": "佐々木 大輔",
+    "trainer": "大竹 正博",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 4,
+    "horse": "マジックサンズ",
+    "jockey": "横山 和生",
+    "trainer": "須貝 尚介",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 5,
+    "horse": "イガッチ",
+    "jockey": "浜中 俊",
+    "trainer": "笹田 和秀",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 6,
+    "horse": "サンストックトン",
+    "jockey": "松本 大輝",
+    "trainer": "堀内 岳志",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 7,
+    "horse": "チャックネイト",
+    "jockey": "鮫島 克駿",
+    "trainer": "堀 宣行",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 8,
+    "horse": "ケイアイセナ",
+    "jockey": "武 豊",
+    "trainer": "平田 修",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 9,
+    "horse": "オニャンコポン",
+    "jockey": "横山 琉人",
+    "trainer": "小島 茂之",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 10,
+    "horse": "ケリフレッドアスク",
+    "jockey": "北村 友一",
+    "trainer": "藤原 英昭",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 11,
+    "horse": "ジュタ",
+    "jockey": "坂井 瑠星",
+    "trainer": "矢作 芳人",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 12,
+    "horse": "エコロディノス",
+    "jockey": "池添 謙一",
+    "trainer": "大久保 龍志",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 13,
+    "horse": "アラタ",
+    "jockey": "大野 拓弥",
+    "trainer": "和田 勇介",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 14,
+    "horse": "フィーリウス",
+    "jockey": "丹内 祐次",
+    "trainer": "手塚 貴久",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 15,
+    "horse": "デビットバローズ",
+    "jockey": "岩田 望来",
+    "trainer": "上村 洋行",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "alpha",
+    "name": "③単騎・前残り(スロー)",
+    "tier": "本線★★★",
+    "prob": 0.4,
+    "trigger": "⑧武豊が③を見て2番手に控え、⑫⑮外2頭も無理に押し上げない。③が2枠最短経路でハナを主張し単騎で隊列が落ち着く。",
+    "pace_level": 0.35,
+    "contesters": [],
+    "leg_advantage": {},
+    "formation_head": [
+     5
+    ],
+    "formation_last_corner": [
+     5
+    ],
+    "bias": "逃げ・先行圧倒的有利。好位差しまでが圏内、中団以降の差し・追込は構造的不利。",
+    "phase_flow": {
+     "early": "③が2枠から初角最短経路でハナ、⑧武豊は無理せず2番手、⑤内目3-4番手。A_early上位の先行勢が前半600mを緩く流す(テン速いが競らないため実質スロー)。",
+     "mid": "向正面〜3角上りで③が単騎マイペース、⑫⑮は外から位置を確保するが脚を使わされず隊列固定。A_cruise＝楽な追走で前5頭が脚を温存する。",
+     "late": "3-4角内の頂上から直線へ下りで前が止まらず、③⑤⑫がそのまま腰を入れる。A_finishは決め手より位置と持続力勝負＝中団以降の差し脚が間に合わない。",
+     "result": "前残り。③⑤⑫⑧が上位を占め、末脚最上位の④が中団から届いて掲示板圏、純後方追込は全滅。"
+    },
+    "risers": [
+     3,
+     5,
+     8,
+     12,
+     14,
+     15
+    ],
+    "sinkers": [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "id": "beta",
+    "name": "先行共倒れ・中団差し台頭",
+    "tier": "対抗★★",
+    "prob": 0.3,
+    "trigger": "③のハナに⑧武豊が主張、または⑫⑮外2頭がポジション確保で前半から押し上げ、重ハンデ⑧57.5/⑮58が競る(front_verdict増幅)。先頭集団が雁行して前半が速くなる。",
+    "pace_level": 0.7,
+    "contesters": [],
+    "leg_advantage": {},
+    "formation_head": [],
+    "formation_last_corner": [],
+    "bias": "先行共倒れで中団差しが台頭。ただし函館最短直線ゆえ純後方追込は届かず、台頭は中団まで。",
+    "phase_flow": {
+     "early": "③のハナに⑧(武豊)が主張、または⑫⑮外2頭がポジション確保で前半から押し上げ、先頭集団が並んで600mを速く入る。A_early上位でも重ハンデ⑧57.5/⑮58が競るため消耗が先行する。",
+     "mid": "向正面で隊列が縦長化せず先行勢が雁行、③⑧⑮が互いに脚を削る。A_cruiseで楽できるのは中団で脚を溜めた④⑪⑭。",
+     "late": "3-4角で競った先行勢の脚が上がり、直線下りでも止まる。A_finish＝末脚最上位の④と上昇中の⑪⑭が中団から差し込む。ただし函館262m最短直線＝純後方追込は届かない。",
+     "result": "先行共倒れ・中団差し台頭。④⑪⑭が上位、競り負けた③⑧⑮は崩れる。後方追込は構造的に圏外。"
+    },
+    "risers": [
+     4,
+     5,
+     11,
+     12,
+     14
+    ],
+    "sinkers": [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10,
+     13,
+     15
+    ]
+   },
+   {
+    "id": "gamma",
+    "name": "平均ペース・好位先行総力戦",
+    "tier": "対抗★★",
+    "prob": 0.2,
+    "trigger": "③がハナだが⑧は控えて競らず、⑤⑫⑮が折り合って好位。単騎にはならないが過度に競らず前半が平均で縦長の隊列になる。",
+    "pace_level": 0.5,
+    "contesters": [],
+    "leg_advantage": {},
+    "formation_head": [],
+    "formation_last_corner": [],
+    "bias": "先行〜好位差し有利の地力勝負。紛れ小さく実力上位が順当。",
+    "phase_flow": {
+     "early": "③がハナだが⑧は控えて競らず、⑤⑫⑮が折り合って好位、前半600mは平均。A_earlyで無理なく先行5頭が隊列を作る。",
+     "mid": "向正面〜3角で縦長の隊列、各馬が等速追走。A_cruise＝地力(A_class)上位がポジションを維持して脚を溜める。",
+     "late": "直線下りで好位勢が抜け出し、好位差しの④と先行⑫⑧の地力勝負。A_finishは決め手と地力の総合＝紛れが小さい。",
+     "result": "実力順・好位先行総力戦。⑫④⑧⑤が中心、地力上位が順当に上位を分け合う。"
+    },
+    "risers": [
+     3,
+     4,
+     5,
+     8,
+     12,
+     14
+    ],
+    "sinkers": [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "id": "delta",
+    "name": "内荒れ顕在化・外回し/道悪有利",
+    "tier": "伏線★",
+    "prob": 0.1,
+    "trigger": "開催3週目最終日の内荒れが極端化、または当日雨で洋芝が渋る。内を通る先行勢の馬場が悪く、外を回せる馬・洋芝タフ血統が相対浮上。",
+    "pace_level": 0.5,
+    "contesters": [],
+    "leg_advantage": {},
+    "formation_head": [],
+    "formation_last_corner": [],
+    "bias": "内荒れ／道悪で馬場の取捨が脚質を上書き。外を回せる馬・洋芝タフ血統が浮上、高速良血統は割引。",
+    "phase_flow": {
+     "early": "前半は平均だが、内荒れ極端化／道悪化で内を通る先行勢の馬場が悪く、外を回せる馬が相対浮上。A_earlyは位置より馬場の取捨が効く。",
+     "mid": "向正面〜3角で外目を通した馬がロスなく進出、内の③⑤は傷んだ芝で伸びを欠く。A_cruise＝洋芝タフ条件への適性(パワー血統)が物を言う。",
+     "late": "直線、洋芝道悪巧者の⑬と重め可の血統(⑫④)が外から伸びる。A_finish＝高速決め手より持続パワー。",
+     "result": "馬場差で序列入れ替え。⑬アラタが一発、⑫④⑧が外から浮上、高速良血統(⑮⑩⑪)は割引。"
+    },
+    "risers": [
+     4,
+     8,
+     12,
+     13
+    ],
+    "sinkers": [
+     2,
+     5,
+     6,
+     9,
+     10,
+     11,
+     15
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "①③が出遅れ/控えて逃げ役が替わり隊列の主役が変わる、②函館で例外的に純後方追込が突き抜ける(過去10年0%)、③⑧⑫⑮が誰も競らず想定外の超スローで前4頭固定決着——のいずれかが起きれば、前残り基調＋『差し台頭は中団まで』という全パターンの骨格前提が崩れる。特に③単騎成立(α/γ)とβ共倒れは排他的＝当日の③の行きっぷりと⑧の出方で一方が消える。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "alpha",
+    "tier": "本線★★★",
+    "center": [
+     3,
+     5,
+     12
+    ],
+    "inside": [
+     8,
+     14,
+     15
+    ],
+    "spot": [
+     4,
+     11
+    ],
+    "drop": [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "pattern": "beta",
+    "tier": "対抗★★",
+    "center": [
+     4,
+     11,
+     14
+    ],
+    "inside": [
+     5,
+     12
+    ],
+    "spot": [
+     3,
+     8
+    ],
+    "drop": [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10,
+     13,
+     15
+    ]
+   },
+   {
+    "pattern": "gamma",
+    "tier": "対抗★★",
+    "center": [
+     12
+    ],
+    "inside": [
+     3,
+     4,
+     5,
+     8,
+     14
+    ],
+    "spot": [
+     11,
+     15
+    ],
+    "drop": [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "pattern": "delta",
+    "tier": "伏線★",
+    "center": [
+     13
+    ],
+    "inside": [
+     4,
+     8,
+     12
+    ],
+    "spot": [
+     1,
+     3,
+     7,
+     14
+    ],
+    "drop": [
+     2,
+     5,
+     6,
+     9,
+     10,
+     11,
+     15
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 4,
+   "gate": "3",
+   "horse": "マジックサンズ",
+   "jockey": "横山 和生",
+   "trainer": "須貝 尚介",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "beta": "◎",
+    "gamma": "○",
+    "delta": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "エプソムC(GIII)4着1:45.5はGIII勝ち時計(1:45.3)から0.2秒差 = 勝ち馬と同水準の決め手"
+    },
+    {
+     "tag": "B",
+     "note": "NHKマイルC2着(GⅠ)・マイルCSGⅠ出走の格上経験+通用実績"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父キズナ=小回り◎・持続パワー型・1600m以上・道悪も対応、函館洋芝2000mは合う条件"
+    },
+    {
+     "tag": "F",
+     "note": "65.6-11.4は速い時計（ペースメーカー役でも）"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "D",
+     "note": "差馬×函館短直線(後方・中団苦戦)"
+    },
+    {
+     "tag": "I",
+     "note": "[weight-I] 斤量58=実効標準+2kg"
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "gate": "7",
+   "horse": "エコロディノス",
+   "jockey": "池添 謙一",
+   "trainer": "大久保 龍志",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "alpha": "◎",
+    "beta": "○",
+    "gamma": "◎",
+    "delta": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "京都記念(GII)2200m 3着2:13.0 = GIIクラスでの入着実績"
+    },
+    {
+     "tag": "B",
+     "note": "京都記念GⅡ3着fc:3先行での格上好走・通用度証明"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父キタサンブラック=持続スタミナ・重め可・1800m以上◎、函館洋芝の時計かかる馬場に対応"
+    },
+    {
+     "tag": "F",
+     "note": "馬なりで67.0-12.5=余力感強い"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[非決定論] 喉頭蓋エントラップメント手術後の復帰戦=術後の不確実性残存"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "3",
+   "horse": "イガッチ",
+   "jockey": "浜中 俊",
+   "trainer": "笹田 和秀",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "alpha": "◎",
+    "beta": "○",
+    "gamma": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C] 父リアルスティール=芝1300-2000万能・持続型・道悪も対応、2000mは父の距離レンジ上限"
+    },
+    {
+     "tag": "G",
+     "note": "中8週・体重安定(476→476→476→478, 成長)・6月頭から函館早期入厩で輸送適応済み"
+    },
+    {
+     "tag": "K",
+     "note": "前走1着コンビそのままGIII参戦=勝負気配"
+    },
+    {
+     "tag": "L",
+     "note": "2024年 函館芝1800m（未勝利戦）勝ち＝洋芝・小回り適性を個人戦績で実証"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "2000mでの時計実績は1勝クラス2:00.6のみ = GIIIクラスでの2000m時計証明なし"
+    },
+    {
+     "tag": "B",
+     "note": "3勝クラス→GⅢ大幅昇級・GⅢ格上経験ゼロ"
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "gate": "8",
+   "horse": "フィーリウス",
+   "jockey": "丹内 祐次",
+   "trainer": "手塚 貴久",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "alpha": "○",
+    "beta": "◎",
+    "gamma": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C] 父キタサンブラック=持続スタミナ・重め可・1800m以上、函館洋芝2000mに血統的適性あり"
+    },
+    {
+     "tag": "F",
+     "note": "函館芝ラスト11.7=余力感あり"
+    },
+    {
+     "tag": "G",
+     "note": "NF天栄から函館入り・助手コメント『こんなにやるの！？ってぐらいいい仕上がり』"
+    },
+    {
+     "tag": "L",
+     "note": "右回りでの通算成績[4-2-3-2]と好成績・洋芝経験あり"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "class_move.top:3 相当 = 3勝クラス・オープン特別が最高クラス。GIIIが大幅格上げ"
+    },
+    {
+     "tag": "B",
+     "note": "3勝クラス→GⅢ大幅昇級・GⅢ格上経験皆無"
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "gate": "6",
+   "horse": "ジュタ",
+   "jockey": "坂井 瑠星",
+   "trainer": "矢作 芳人",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "beta": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "B",
+     "note": "エプソムCは後方17番手から上がり最速圏・展開不利での8着で内容は底未見せ"
+    },
+    {
+     "tag": "G",
+     "note": "中7週・体重安定成長(500→500→500→504)"
+    },
+    {
+     "tag": "K",
+     "note": "坂井瑠星は格上で強化方向"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "C",
+     "note": "[C] 父ドゥラメンテ=芝重×（カタログ明記）、函館後半洋芝は血統的弱点条件"
+    },
+    {
+     "tag": "D",
+     "note": "差馬×函館短直線"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "gate": "5",
+   "horse": "ケイアイセナ",
+   "jockey": "武 豊",
+   "trainer": "平田 修",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "alpha": "○",
+    "gamma": "○",
+    "delta": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "D",
+     "note": "洋芝実証済み(函館巴賞レコード勝ち・札幌記念4着)"
+    },
+    {
+     "tag": "K",
+     "note": "津村明秀→武豊は明確な格上げ強化"
+    },
+    {
+     "tag": "L",
+     "note": "2025年7月13日 函館巴賞（1800m）をレコード（1分44秒8）勝ち＝同開催・同コース系での近年の好走実績"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "agari_best35.2は上がり勝負で劣勢(先行馬として最低水準)"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父ディープインパクト=高速良馬場◎・不良×、時計かかる洋芝は血統的弱点"
+    },
+    {
+     "tag": "I",
+     "note": "[old] 7歳"
+    }
+   ]
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "バルナバ",
+   "jockey": "斎藤 新",
+   "trainer": "浜田 多実雄",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C] ハービンジャー×函館洋芝2000m=父の最適条件（持続パワー・時計かかる馬場◎・芝1600-2600特2000）"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "福島民報杯(GIII)1:59.0 9着 = GIIIクラスでは時計出ても着外"
+    },
+    {
+     "tag": "B",
+     "note": "3勝クラス→GⅢ大幅昇級・GⅢ格上経験なし"
+    },
+    {
+     "tag": "F",
+     "note": "13.3失速・手前変換難・ゴール前気合い入れ直し=余力なし"
+    }
+   ]
+  },
+  {
+   "no": 15,
+   "gate": "8",
+   "horse": "デビットバローズ",
+   "jockey": "岩田 望来",
+   "trainer": "上村 洋行",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "alpha": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "大阪杯GI8着1:58.3はGI勝ち時計(1:57.6)から0.7秒差 = GI水準の時計に対応"
+    },
+    {
+     "tag": "B",
+     "note": "鳴尾記念GⅢ1着fc:4・同格重賞勝ちが直近実績"
+    },
+    {
+     "tag": "K",
+     "note": "岩田望来との主戦コンビ（鳴尾記念1着実績）"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "C",
+     "note": "[C] 父ロードカナロア=高速良◎・道悪割引（カタログ明記）、時計かかる函館後半洋芝は血統的弱点"
+    },
+    {
+     "tag": "F",
+     "note": "71.6-12.9は軽め=状態の詳細確認不能"
+    },
+    {
+     "tag": "G",
+     "note": "体重急落: 504→514→504→502, 鳴尾記念比-12kg（前走大阪杯時点）"
+    },
+    {
+     "tag": "I",
+     "note": "[old] 7歳"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "gate": "6",
+   "horse": "ケリフレッドアスク",
+   "jockey": "北村 友一",
+   "trainer": "藤原 英昭",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "F",
+     "note": "前走比で重さ解消・手応え抜群"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "agari_best32.8はヴィクトリアマイルGI14着(下位)での末脚 = GI掲示板外の数字で信頼性低"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父ドゥラメンテ=芝重×（カタログ明記）、函館後半の時計かかる洋芝は血統的最大の弱点"
+    },
+    {
+     "tag": "D",
+     "note": "追馬×函館短直線"
+    },
+    {
+     "tag": "G",
+     "note": "体重下降トレンド: 456→454→452→450, -6kg継続下降"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "4",
+   "horse": "チャックネイト",
+   "jockey": "鮫島 克駿",
+   "trainer": "堀 宣行",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "K",
+     "note": "鮫島克駿は実力派（テン乗りながら格上方向）"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "宝塚記念は2025年(1年以上前) = 鮮度割引・全盛時の値"
+    },
+    {
+     "tag": "B",
+     "note": "8歳せん・宝塚記念後の3走全て7着以下で下降基調"
+    },
+    {
+     "tag": "D",
+     "note": "追馬×函館短直線"
+    },
+    {
+     "tag": "G",
+     "note": "中12週長休・8歳高齢"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "ファウストラーゼン",
+   "jockey": "小林 美駒",
+   "trainer": "須貝 尚介",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "F",
+     "note": "函館芝5F65.0-11.4=最速水準、相手制す"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "大阪杯GI13着2:00.6 = GI勝ち時計(1:57.6)から3秒以上遅れ"
+    },
+    {
+     "tag": "B",
+     "note": "直近4走で13-15-12-18着、全て力負けで通用度ゼロ"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父モズアスコット=芝での平均勝距1522m・産駒はダート志向強（中央勝率ダート>芝）、芝2000mは血統的に距離過長"
+    },
+    {
+     "tag": "D",
+     "note": "追馬×函館短直線"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "2",
+   "horse": "ピースワンデュック",
+   "jockey": "佐々木 大輔",
+   "trainer": "大竹 正博",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 12,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "alpha": "◎",
+    "gamma": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "単騎逃げが成立しないと失速するパターンが明確"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父グレーターロンドン=本質マイラー（産駒好走レンジ〜1600m）、2000mは血統的に過長"
+    },
+    {
+     "tag": "F",
+     "note": "C評価・手前変換難・制御難=本番での折り合い不安"
+    },
+    {
+     "tag": "G",
+     "note": "体重急落: 462→458→452, -10kg（前走最軽値）"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "4",
+   "horse": "サンストックトン",
+   "jockey": "松本 大輝",
+   "trainer": "堀内 岳志",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 13,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "大阪杯GI12着1:59.3(GI勝ちより1.7秒遅れ)、中山記念GII9着と近走下位"
+    },
+    {
+     "tag": "B",
+     "note": "大阪杯/中山記念で2走連続後方不発・届かず"
+    },
+    {
+     "tag": "C",
+     "note": "[C] 父ワールドエース=重馬場でパフォーマンス低下・得意2100-2400mで函館2000mは短め、函館後半の時計かかる馬場と重化は血統的弱点"
+    },
+    {
+     "tag": "D",
+     "note": "追馬×函館短直線"
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "gate": "7",
+   "horse": "アラタ",
+   "jockey": "大野 拓弥",
+   "trainer": "和田 勇介",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 14,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "delta": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "D",
+     "note": "函館記念2023年優勝(当該コース距離の最強実績)"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "C",
+     "note": "[C] 父キングカメハメハ=標準〜早熟型×9歳=ピーク大幅超過・完全な下降期（成長型の観点から最大の懸念）"
+    },
+    {
+     "tag": "F",
+     "note": "しまい反応渋・推進力不足"
+    },
+    {
+     "tag": "G",
+     "note": "中15週長期休養明け・9歳高齢"
+    },
+    {
+     "tag": "I",
+     "note": "[old] 9歳=高齢（能力余力の低下リスク）"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "5",
+   "horse": "オニャンコポン",
+   "jockey": "横山 琉人",
+   "trainer": "小島 茂之",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 15,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "agari_best33.8はエプソムC15着(最下位)での末脚 = 展開後方一気で届かない文脈・低価値"
+    },
+    {
+     "tag": "B",
+     "note": "直近4走全て2桁着順・力負け連続"
+    },
+    {
+     "tag": "F",
+     "note": "最終追い切り実質なし（17日美浦Wのみ）"
+    },
+    {
+     "tag": "G",
+     "note": "近4走: 8着→11着→11着→15着の下降一途"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

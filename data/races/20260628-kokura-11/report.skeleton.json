@@ -1,0 +1,615 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260628-kokura-11",
+ "race_name": "",
+ "edition": "",
+ "race_no": 11,
+ "grade": "",
+ "date": "2026-06-28",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 1200,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 8,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "D",
+  "E",
+  "I",
+  "K",
+  "L"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "リチャードバローズ",
+    "jockey": "菱田 裕二",
+    "trainer": "上村 洋行",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "ベイビーキッス",
+    "jockey": "藤懸 貴志",
+    "trainer": "青木 孝文",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "ジュンヴァンケット",
+    "jockey": "富田 暁",
+    "trainer": "友道 康夫",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 4,
+    "horse": "ロードトレイル",
+    "jockey": "田山 旺佑",
+    "trainer": "藤岡 健一",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 5,
+    "horse": "テーオーダヴィンチ",
+    "jockey": "幸 英明",
+    "trainer": "岡田 稲男",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 6,
+    "horse": "アサクサグレース",
+    "jockey": "杉原 誠人",
+    "trainer": "加藤 公太",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 7,
+    "horse": "ブラックケリー",
+    "jockey": "西村 淳也",
+    "trainer": "長谷川 浩大",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 8,
+    "horse": "スカイハイ",
+    "jockey": "川田 将雅",
+    "trainer": "清水 久詞",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "⑥単騎逃げ・前残り",
+    "tier": "本線",
+    "prob": 0.5,
+    "trigger": "③が⑥のハナ主張に控える（富田テン乗りで無理させない）＝⑥単騎。小倉芝1200の前残りバイアスがそのまま出る",
+    "pace_level": 0.4,
+    "contesters": [],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 1,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     6,
+     3
+    ],
+    "formation_last_corner": [
+     6,
+     3
+    ],
+    "bias": "前残り（小倉芝1200 逃げ複47%/先行複35% vs 差し複16%/追込複4%）・直線293m短く差し届きにくい",
+    "phase_flow": {
+     "early": "⑥がテン速で楽にハナ、③が番手・後続は差し追込で隊列縦長（A_early＝⑥③が前を確保）",
+     "mid": "⑥マイペースで緩め、前2頭が脚を溜める（A_cruise＝先行有利の隊形が固定）",
+     "late": "直線293m短く下り加速で前が止まらない＝差しの決め手が間に合いにくい（A_finish＝⑥の粘りと⑧の伸びの競合）",
+     "result": "⑥粘り込み・③続き、地力最上位の⑧が外から差し込んで3着争い。②の追込は前が止まらず届くか微妙"
+    },
+    "risers": [
+     3,
+     6,
+     8
+    ],
+    "sinkers": [
+     1,
+     4,
+     7
+    ]
+   },
+   {
+    "id": "β",
+    "name": "⑥③競り合い・ハイペース→差し台頭",
+    "tier": "対抗",
+    "prob": 0.33,
+    "trigger": "③が富田で前を主張し⑥と競る／テンが流れる。先行2頭の共倒れで差しが浮上",
+    "pace_level": 0.7,
+    "contesters": [],
+    "leg_advantage": {
+     "逃げ": -1,
+     "先行": 0,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     6,
+     3
+    ],
+    "formation_last_corner": [
+     8,
+     2
+    ],
+    "bias": "前消耗で差し台頭・地力決着寄り",
+    "phase_flow": {
+     "early": "⑥③がテン速で競り合いペース上昇（A_early＝両者ハナ争いで脚を使う）",
+     "mid": "ハイペースで前2頭の余力を削る（A_cruise＝先行勢が消耗）",
+     "late": "前が止まり外から差し脚が決まる（A_finish＝⑧の決め手・②の追込が活きる）",
+     "result": "地力最上位の⑧が突き抜け、上がり最速級の②が追い込む。⑥は粘り残れるか・③は競り負けて後退"
+    },
+    "risers": [
+     2,
+     8
+    ],
+    "sinkers": [
+     3,
+     4,
+     7
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "超スロー・極端な前残り",
+    "tier": "伏線",
+    "prob": 0.17,
+    "trigger": "⑥単騎かつ誰も動かず超スロー。④が好位を取りに前付け転換",
+    "pace_level": 0.2,
+    "contesters": [],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 2,
+     "差し": -2,
+     "追込": -2
+    },
+    "formation_head": [
+     6,
+     3
+    ],
+    "formation_last_corner": [
+     6,
+     3,
+     4
+    ],
+    "bias": "超前残り・差し全滅",
+    "phase_flow": {
+     "early": "⑥超スローで単騎、③番手、④が好位を取りに前付け（A_early＝前付けできた馬だけが圏内）",
+     "mid": "誰も動けず隊列固定（A_cruise＝瞬発力勝負の地形）",
+     "late": "瞬発勝負でも前が止まらない（A_finish＝後方は脚を余す）",
+     "result": "⑥③が抜け出し④が好位から食い込む。差し追込は完全に届かず"
+    },
+    "risers": [
+     3,
+     4,
+     6
+    ],
+    "sinkers": [
+     1,
+     2,
+     7
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "本線αの前提は『⑥が単騎ハナ』。③が富田で競りかける／⑥がハナを取れないとβ（差し台頭）へ。馬場が渋って時計がかかると差し有利化し⑧②が浮上。逆に⑧が芝1200初の忙しさでテンに置かれると○の評価が崩れる。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線",
+    "center": [
+     3,
+     6
+    ],
+    "inside": [
+     8
+    ],
+    "spot": [
+     2,
+     5
+    ],
+    "drop": [
+     1,
+     4,
+     7
+    ]
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗",
+    "center": [
+     8
+    ],
+    "inside": [
+     2
+    ],
+    "spot": [
+     1,
+     5,
+     6
+    ],
+    "drop": [
+     3,
+     4,
+     7
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線",
+    "center": [
+     3,
+     6
+    ],
+    "inside": [
+     4
+    ],
+    "spot": [
+     5,
+     8
+    ],
+    "drop": [
+     1,
+     2,
+     7
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 6,
+   "gate": "6",
+   "horse": "アサクサグレース",
+   "jockey": "杉原 誠人",
+   "trainer": "加藤 公太",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 逃/テン速の先行力＝前残り小倉芝1200でA_earlyが最も活きる型。芝1200を前々から連対量産(花見山特別 福島芝1200・2勝1着1:07.7/讃岐特別 阪神芝1200・2勝2着1:08.2/芝1200・1勝1着1:07.8)＝芝スプリントの地力と勝ち切り型のA_classが上向き"
+    },
+    {
+     "tag": "D",
+     "note": "小倉芝1200で勝ち鞍＝当該コース・距離の実証適性が最良"
+    },
+    {
+     "tag": "K",
+     "note": "[K] 杉原誠人が継続騎乗(乗替なし＝事実)。近走の連対・勝ち鞍も杉原で、ダ1700を逃げて勝たせた手の内＝送り出し・折り合いの呼吸に割引なし"
+    },
+    {
+     "tag": "L",
+     "note": "[L] 小倉ダ1700で牝1勝クラス勝ち＋福島ダ1700(花見山特別)勝ち＝右回りダ1700を2勝、いずれも逃げて押し切り＝今回と同距離・同回り・先行という条件が複数回再現する唯一の明確リピーター(強い+2)。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I非決定論]出遅れ癖/気性難/脚部不安の具体記録はwebで確認できず(逃げ馬のゲート不安報告なし)"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "gate": "8",
+   "horse": "スカイハイ",
+   "jockey": "川田 将雅",
+   "trainer": "清水 久詞",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 重要訂正:seedの『ダ』は誤りで、フリーウェイS(東京芝1400・3勝)5着・心斎橋S(阪神芝1400・3勝)3着・白秋S3着＝3勝クラスの芝マイル下で堅実に上位入着＝当メンバー最上位のA_class。さらに上がり32.8(当該最速)・33.5の鋭い決め手＝A_finishは別格"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I決定論weight]斤量57.0kg=実効標準+2.5kgのハンデ加増(重)。差し脚質に酷量=weight_adjustのIチャンネル減点を採用。大型馬で斤量耐性はあるが差し届かせる負荷は明確"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "ジュンヴァンケット",
+   "jockey": "富田 暁",
+   "trainer": "友道 康夫",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 逃/テン速の先行力＝前残り小倉芝1200でA_earlyが最も活きる型。京都2勝クラス(芝1200)で1着・2着の連対実績＝芝スプリントの地力あり、父キズナで芝適性も担保"
+    },
+    {
+     "tag": "D",
+     "note": "京都芝1200(2勝クラス)で1着＋知多特別2着・中京芝1200 2着＝芝1200巧者で距離ドンピシャ"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I決定論]layoff-0.5(休み明け)。dist_shiftは却下"
+    },
+    {
+     "tag": "K",
+     "note": "[K] 杉原誠人→富田暁の乗替＝テン乗り(初コンビ)で逃げ候補＝③⑥のハナ争いの当事者。先行争いが鍵の局面でペース判断・主張の呼吸に不安"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "ベイビーキッス",
+   "jockey": "藤懸 貴志",
+   "trainer": "青木 孝文",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 巌流島S(小倉芝1200・3勝クラス)で上がり33.9＝当メンバー最速級の決め手(A_finish強)。3勝クラスの芝1200を実際に走った地力がある"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "D",
+     "note": "小倉芝1200は経験ありも凡走＝同条件適性は低い"
+    },
+    {
+     "tag": "I",
+     "note": "[I決定論]decline-0.5(前走 下関S12着)+layoff-0.5(134日休み明け)=合算-1.0"
+    },
+    {
+     "tag": "L",
+     "note": "[L] その小倉ダ1700は下関S12着・巌流島S8着と2戦とも掲示板外＝同条件を反復しても走れていない凡走パターン(鮮度は今季で割引できない弱実績)。追込・テン遅で前残り寄りの当該条件と脚質が噛み合わない。"
+    }
+   ]
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "リチャードバローズ",
+   "jockey": "菱田 裕二",
+   "trainer": "上村 洋行",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A] 芝1200の実績ゼロ＝近走すべてダート1400。芝替わり＋距離短縮(1400→1200)の二重課題で持ち時計の裏付けが本条件にない"
+    },
+    {
+     "tag": "D",
+     "note": "芝1400巧者の芝1200短縮で末脚を活かしにくい"
+    },
+    {
+     "tag": "I",
+     "note": "[I決定論]decline-1.0: 直近2走 湘南S13着・節分S15着の連続大敗。間の尾張特別(中京ダ1400)1着の後の2連敗で下降が新しい"
+    },
+    {
+     "tag": "K",
+     "note": "[K] 横山武史(トップ級)→菱田の乗替＝鞍上格はやや弱化、かつ菱田はこの馬テン乗り(初コンビ)"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "5",
+   "horse": "テーオーダヴィンチ",
+   "jockey": "幸 英明",
+   "trainer": "岡田 稲男",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A] 牡8の高齢＝持ち時計に鮮度割引が必要。近走主戦場はダートで芝1200の実績がseedにない(未知)"
+    },
+    {
+     "tag": "I",
+     "note": "[I決定論]old-1.0(牡8高齢)+decline-0.5(前走 渡月橋S13着)=合算-1.5。高齢は競争力の構造的天井で割引不可"
+    },
+    {
+     "tag": "L",
+     "note": "[L] 小倉ダ1700はテレQ杯12着の凡走のみ＝当該条件の好走実績ゼロ。本領は阪/中京ダ1400で1700は長め(近走も全て1400)。"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "7",
+   "horse": "ブラックケリー",
+   "jockey": "西村 淳也",
+   "trainer": "長谷川 浩大",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A] 芝1200(巌流島S)は13着1:08.1＝3勝クラスで力負け、A_classが届かない"
+    },
+    {
+     "tag": "D",
+     "note": "小倉芝1200は経験ありも凡走＝同条件適性は低い"
+    },
+    {
+     "tag": "I",
+     "note": "[I決定論]decline-1.0: 朱雀S13着・巌流島S13着の連続大敗。1400(朱雀S)と1700(巌流島S)両距離での大敗=距離で説明できず=割引せず採用"
+    },
+    {
+     "tag": "L",
+     "note": "[L] 小倉ダ1700は巌流島S13着の大敗のみ＝当該条件で通用していない。本領は中京ダ1400(知立S4着)で距離/コースが今回と不一致＝当該条件のリピーター材料なし(鮮度は今季)。"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "gate": "4",
+   "horse": "ロードトレイル",
+   "jockey": "田山 旺佑",
+   "trainer": "藤岡 健一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A] 芝1200(下関S15着・巌流島S12着)を実際に走って2戦とも3勝クラスで力負け(1:08.1=勝ち時計+1.3s)＝A_classが明確に足りない"
+    },
+    {
+     "tag": "D",
+     "note": "小倉芝1200は経験ありも凡走＝同条件適性は低い"
+    },
+    {
+     "tag": "I",
+     "note": "[I割引]ダ1700は下関S15着・巌流島S12着と凡走続きだが、1200に戻して6着=敗因は距離=D観点の適性問題でIでは減点しない(割引適用)"
+    },
+    {
+     "tag": "K",
+     "note": "[K] 横山琉人→田山旺佑の乗替＝テン乗り(初コンビ)、両者若手で当該メンバー中の鞍上格はやや弱化"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

@@ -1,0 +1,239 @@
+{
+  "point": "A 能力指数・時計",
+  "overall_confidence": "中",
+  "field_note": "走破時計・上がり3Fはseed確定値を一次事実として使用。レースレベルをweb確認した6頭: ローベルクランツ(毎日杯GⅢ2着1:45.2確認・勝ち馬アルトラムス1:45.1)/リッツパーティー(1勝クラス東京1800m1:45.4=同クラス異次元の速時計)/スカイスプレンダー(ゆりかもめ賞1勝クラス東京2400m11/2馬身差圧勝)/クカイリモク(未勝利2戦のみ)/ショウナンガルフ(日本ダービー17着agari34.1)/コロナドブリッジ(エリカ賞1勝クラス1着)。残10頭はseed class_rankからクラス推定。鮮度割引不要(全近走2年以内)。",
+  "note": "ディールメーカーのagari_best 32.8は新潟芝1600m外回り(直線1000m特殊条件)での値=1800m決め手の裏付けにならない(実質34.6相当)。スカイスプレンダーの東京2400m→1800m短縮は距離適性(D観点)が別途評価すべき。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ルージュボヤージュ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[A_finish] agari_best 33.1(中山1800m 1勝クラス1着時)は出走馬上位水準の上がり",
+        "[A_class] 前走中山1800m 1勝クラス1:49.4(良)は同クラス標準内で安定"
+      ],
+      "cons": [
+        "[A_class] 全裏付けが1勝クラス止まり、GⅢ水準との時計差は未検証",
+        "[A_class] 牝馬52kg軽量での時計のため牡馬換算では割引が必要"
+      ],
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud102023104224%2F53"]
+    },
+    {
+      "no": 2,
+      "name": "クカイリモク",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "[A_class] 東京1800m未勝利2戦で1:46.8-1:47.1と安定した時計をマーク",
+        "[A_finish] agari_best 33.5(D.レーン騎乗時)は使える決め手レベル"
+      ],
+      "cons": [
+        "[A_class] 2戦ともに未勝利クラス、GⅢ水準との時計差は未確認=推定",
+        "[A_class] キャリア2戦で能力上限が不明確、直GⅢ昇級の時計的根拠が薄い"
+      ],
+      "sources": [
+        "https://topics.smt.docomo.ne.jp/amp/article/hochi/sports/hochi-20260517-OHT1T51107",
+        "https://www.keibalab.jp/db/horse/2023105684/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジーネキング",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [
+        "[A_class] 中山1600m3着(2勝クラス推定)でagari 34.0を記録した実績あり"
+      ],
+      "cons": [
+        "[A_class] 中山1800mで12着1:46.9・東京1600mで13着と連続惨敗、クラス通用度に疑問",
+        "[A_finish] agari_best 34.0は出走馬中下位水準、56kg斤量と合わせて時計的優位なし"
+      ],
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud102023107199%2F9E"]
+    },
+    {
+      "no": 4,
+      "name": "サイモンシャリオ",
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[A_class] 52kg軽量での出走は時計が出やすい条件"
+      ],
+      "cons": [
+        "[A_class] 全4走が2000m未勝利・1勝クラス止まり、GⅢ水準の裏付けなし",
+        "[A_finish] agari_best 34.5は出走馬最低水準に近い、決め手で明確に劣位"
+      ],
+      "sources": []
+    },
+    {
+      "no": 5,
+      "name": "リッツパーティー",
+      "score": 2.0,
+      "confidence": "高",
+      "pros": [
+        "[A_class] 前走東京1800m 1勝クラス1着で走破時計1:45.4(良)=同クラス東京1800mで異次元の速時計、GⅢクラスと同水準",
+        "[A_finish] agari_best 33.6、前走勝ちレースでも34.1と安定した上がりを供給"
+      ],
+      "cons": [],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872736",
+        "https://jra.jp/JRADB/accessU.html?CNAME=pw01dud102023104224%2F53"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "コルテオソレイユ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[A_finish] agari_best 33.5は使えるレベル(中京1600m2着・2勝クラス推定時)"
+      ],
+      "cons": [
+        "[A_class] 全4走が1600m戦、1800mでの走破時計の裏付けが皆無"
+      ],
+      "sources": []
+    },
+    {
+      "no": 7,
+      "name": "ショウナンガルフ",
+      "score": -1.5,
+      "confidence": "高",
+      "pros": [
+        "[A_class] 日本ダービー(GⅠ)出走実績は格クラスの証明"
+      ],
+      "cons": [
+        "[A_class] ダービー17着2:24.2=GⅠ水準で通用せず、agari 34.1はGⅠ出走馬として平凡",
+        "[A_finish] agari_best 34.1は出走馬下位水準、57kg最重量との合わせで時計的に厳しい"
+      ],
+      "sources": ["https://www.jra.go.jp/keiba/g1/derby/syutsuba.html"]
+    },
+    {
+      "no": 8,
+      "name": "ディールメーカー",
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[A_class] 中山1600m 1勝クラス1着で1:33.5は同クラスで速い時計"
+      ],
+      "cons": [
+        "[A_class] 全4走が1600m戦のみ、1800mでの時計の裏付けが皆無",
+        "[A_finish] agari_best 32.8は新潟外回り直線特殊条件のもの=実質34.6相当で決め手の裏付けにならない"
+      ],
+      "sources": []
+    },
+    {
+      "no": 9,
+      "name": "キンググローリー",
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[A_class] 福島2000m(2勝クラス推定)1着1:57.8は福島での実績あり"
+      ],
+      "cons": [
+        "[A_finish] agari_best 34.8は出走馬中最低水準、終盤の決め手で明確に劣位",
+        "[A_class] 直近の京都2200mで13着=agari 37.0と大失速"
+      ],
+      "sources": []
+    },
+    {
+      "no": 10,
+      "name": "ガリレア",
+      "score": -2.0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A_class] 東京1800m 7着1:46.5・中山1800m 10着1:46.7と1800mで一貫した下位着順(推定2勝クラス以上)",
+        "[A_finish] agari_best 35.1は出走馬最低水準、1800mで決め手が一度も機能していない"
+      ],
+      "sources": []
+    },
+    {
+      "no": 11,
+      "name": "コロナドブリッジ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[A_finish] agari_best 33.4(エリカ賞1勝クラス・逃げ切り時に計上)"
+      ],
+      "cons": [
+        "[A_class] 近2走でagari 35.6→38.2と急激な悪化、逃げて捕まった後の大失速が続く",
+        "[A_class] 裏付けが1勝クラス止まり(エリカ賞)、GⅢ水準の時計実績なし"
+      ],
+      "sources": ["https://s.keibabook.co.jp/db/uma/0954428/top"]
+    },
+    {
+      "no": 12,
+      "name": "ローベルクランツ",
+      "score": 1.5,
+      "confidence": "高",
+      "pros": [
+        "[A_class] 毎日杯GⅢ(阪神1800m良)2着1:45.2で重賞レベルの走破時計を確認、勝ち馬との差0.1秒",
+        "[A_finish] agari_best 33.0は出走馬上位、毎日杯でも33.4を計上し重賞で通用する決め手"
+      ],
+      "cons": [
+        "[A_class] 57kg最重量を背負う今回は時計換算で減点が必要",
+        "[A_class] 毎日杯2着止まりで勝ち切れず、前走東京1600m4着と勢いに陰り"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11866994",
+        "https://s.keibabook.co.jp/db/uma/0954259/top"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "サノノグレーター",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[A_finish] agari_best 33.9は出走馬中程度の決め手、1800mでも終盤に脚を使える"
+      ],
+      "cons": [
+        "[A_class] 中山1800m5着1:46.2・東京1800m6着1:46.4と1800mで上位着順に届かず(推定2勝クラス)"
+      ],
+      "sources": []
+    },
+    {
+      "no": 14,
+      "name": "スカイスプレンダー",
+      "score": 0.5,
+      "confidence": "高",
+      "pros": [
+        "[A_class] ゆりかもめ賞(1勝クラス東京2400m)を11/2馬身差・agari 33.8で圧勝、1勝クラスでの余力が大きい",
+        "[A_finish] agari_best 33.8は安定して使えるレベル"
+      ],
+      "cons": [
+        "[A_class] 1勝クラスレベルの時計のみで重賞水準との差は未知",
+        "[A_class] 1800mでの実績は未勝利1着(1:47.8)のみで今回が実質初の1800m重賞"
+      ],
+      "sources": ["https://s.keibabook.co.jp/cyuou/seiseki/202601040409"]
+    },
+    {
+      "no": 15,
+      "name": "バドリナート",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[A_class] 京都1800m(2勝クラス推定)1着1:47.1でGⅢ準備レースに近い実績"
+      ],
+      "cons": [
+        "[A_finish] agari_best 34.3はやや平凡、直近の京都2200m11着でagari 36.5と大失速",
+        "[A_class] 57kg最重量での出走は時計換算で大きな減点"
+      ],
+      "sources": []
+    },
+    {
+      "no": 16,
+      "name": "スペルーチェ",
+      "score": -1.0,
+      "confidence": "中",
+      "pros": [
+        "[A_finish] agari_best 33.3は使えるレベル(京都1400m3着時に計上)"
+      ],
+      "cons": [
+        "[A_class] 全4走が1400-1600m戦のみ、1800mでの走破時計の裏付けが皆無",
+        "[A_finish] agari_best 33.3は短距離で出した数字で1800mでの持続力への転換は未知"
+      ],
+      "sources": []
+    }
+  ]
+}

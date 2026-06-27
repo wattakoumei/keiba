@@ -1,0 +1,234 @@
+{
+  "observation": "C",
+  "race_id": "20260628-fukushima-03",
+  "surface": "芝",
+  "distance": 1200,
+  "venue": "福島",
+  "as_of": "2026-06-28",
+  "catalog_note": "カタログ内(⑤父サートゥルナーリア・⑤母父ディープインパクト)はweb再調査せず。カタログ外8血(フィエールマン/Declaration of War/Jackie's Warrior/Bernardini/ミスチヴィアスアレックス/スウェプトオーヴァーボード/ホークビル/エイシンサンディ)はweb調査済み→追記候補。",
+  "catalog_addendum_candidates": [
+    {
+      "name": "フィエールマン",
+      "role": "父(①)",
+      "category": "ディープ系ステイヤー",
+      "best_dist": "1800以上(2400+主戦)",
+      "surface": "芝",
+      "going": "良〜稍重",
+      "growth": "晩成(2歳勝率4.0%)",
+      "finish_quality": "スタミナ・持続",
+      "note": "芝1200m勝率3.6%(55戦)=短距離は最大弱点。東京芝1400mも勝率0%。",
+      "confidence": "中",
+      "source": "https://yuruyuru-biyori.com/3405/"
+    },
+    {
+      "name": "Declaration of War",
+      "role": "母父(①)",
+      "category": "War Front系(ND系/Northern Dancer)",
+      "best_dist": "1600-2000",
+      "surface": "芝ダ兼用",
+      "going": "中立",
+      "supply_quality": "先行力・スピード・万能",
+      "note": "War Front直仔、芝重賞勝ち(英QA・IS)。BMS供給は先行ポジション感覚と万能性。短距離特化ではない。",
+      "confidence": "低",
+      "source": "https://www.umapick.com/bloodline/declaration-of-war-progeny-features"
+    },
+    {
+      "name": "Jackie's Warrior",
+      "role": "父(②)",
+      "category": "More Than Ready系(ストームキャット系)",
+      "best_dist": "1200-1600(6-8f)",
+      "surface": "芝ダ両用(米芝スプリント勝ち含む)",
+      "going": "良",
+      "growth": "早熟(2歳から活躍・初年度産駒2026デビュー)",
+      "finish_quality": "スピード持続・スプリント",
+      "note": "Eclipse Award アメリカチャンピオンスプリンター(2021)。5G1勝。2026年初年度産駒がデビュー開始(6月に初勝利)。サンプルほぼゼロ。",
+      "confidence": "低",
+      "source": "https://www.spendthriftfarm.com/stallions/jackies-warrior/"
+    },
+    {
+      "name": "Bernardini",
+      "role": "母父(②)",
+      "category": "AW系(A.P.Indy系)",
+      "best_dist": "中距離(平均勝ち距離芝1400m・ダ1308m)",
+      "surface": "芝ダ兼用",
+      "going": "力強い馬場",
+      "supply_quality": "パワー・スタミナ底力",
+      "note": "プリークネス勝ち(1900m)。BMS供給はパワーと体力。短距離化には中立〜マイナス。",
+      "confidence": "低",
+      "source": "https://db.netkeiba.com/horse/sire/000a0111fe/"
+    },
+    {
+      "name": "ミスチヴィアスアレックス",
+      "role": "父(③)",
+      "category": "Into Mischief系(ストームキャット系)",
+      "best_dist": "ダ1200-1400",
+      "surface": "ダート◎・芝×(「芝は即切り」級の弱点)",
+      "going": "ダ良〜稍重",
+      "growth": "早熟(2〜3歳春)",
+      "finish_quality": "スピード・パワー(ダート)",
+      "note": "ダート短距離A級種牡馬。芝での勝率はダートの1/5以下。日本初のInto Mischief系。芝1200mは血統的に最大の懸念。",
+      "confidence": "中",
+      "source": "https://umanity.jp/keibasapuri/view.php?id=834"
+    },
+    {
+      "name": "スウェプトオーヴァーボード",
+      "role": "母父(③)",
+      "category": "Forty Niner系(ミスプロ系)",
+      "best_dist": "芝1000-1200・ダ1000-1400",
+      "surface": "芝短距離・ダ短距離両用",
+      "going": "稍重◎(渋った馬場で好走)",
+      "supply_quality": "スピード(純スプリント力)",
+      "note": "代表産駒レッドファルクス(スプリンターズS)・パドトロワ。BMS供給は芝短距離の純スピード。父(③)のダート適性と相反する。",
+      "confidence": "中高",
+      "source": "https://navi-keiba.com/sire/sweptoverboard"
+    },
+    {
+      "name": "ホークビル",
+      "role": "父(④)",
+      "category": "Kitten's Joy系(El Prado→Sadler's Wells系)",
+      "best_dist": "短〜マイル(1200-1600)",
+      "surface": "芝対応(北米芝/ドバイ)・ダも",
+      "going": "力のいる馬場対応",
+      "growth": "不明(サンプル少)",
+      "finish_quality": "持続・パワー",
+      "note": "UAE拠点、近親にジャンダルム(スプリンターズS勝ち)。日本中央競馬サンプル極小。地方競馬向きとも評価。芝短距離対応の可能性はあるが確信度低。",
+      "confidence": "低",
+      "source": "https://thoroughbredskills.com/2024/02/06/hawkbill/"
+    },
+    {
+      "name": "エイシンサンディ",
+      "role": "母父(④)",
+      "category": "サンデーサイレンス系(競走歴なし)",
+      "best_dist": "不明",
+      "surface": "不明",
+      "going": "不明",
+      "supply_quality": "SS系の気性・瞬発(推定)",
+      "note": "競走歴なし・種牡馬としてミツアキサイレンス等を輩出。BMSとしての系統的傾向データ不足。SS系として一般的な瞬発供給はあり得るが確信度極低。",
+      "confidence": "最低",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%82%B7%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%87%E3%82%A3"
+    }
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェテソーロ",
+      "sire": "フィエールマン",
+      "damsire": "Declaration of War",
+      "dist_fit": "不適合",
+      "surface_fit": "中立(芝OK)",
+      "going_fit": "中立",
+      "growth_stage": "晩成型×2歳=成長期初期(未完成)",
+      "score": -2.0,
+      "confidence": "中",
+      "pros": [
+        "[C血統] Declaration of War BMS=War Front系万能型、先行ポジション感覚を供給"
+      ],
+      "cons": [
+        "[C血統] フィエールマン産駒の芝1200m勝率3.6%(55戦)=最大弱点距離、短距離は守備範囲外",
+        "[C血統] 晩成型(父産駒2歳勝率4.0%)×2歳=現時点で真の能力未発揮、血統ポテンシャルを活かすのは3歳以降"
+      ],
+      "sources": [
+        "https://yuruyuru-biyori.com/3405/",
+        "https://www.umapick.com/bloodline/declaration-of-war-progeny-features"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アイファーラピッド",
+      "sire": "Jackie's Warrior",
+      "damsire": "Bernardini",
+      "dist_fit": "適合(父がスプリントチャンピオン)",
+      "surface_fit": "推定可(父は米芝スプリントも制覇、ただし日本芝未実証)",
+      "going_fit": "中立",
+      "growth_stage": "早熟寄り推定(父More Than Ready系=2歳から動く傾向)×初年度産駒=不確実",
+      "score": 1.0,
+      "confidence": "低",
+      "pros": [
+        "[C血統] 父Jackie's Warrior=Eclipse Award アメリカチャンピオンスプリンター(2021)、1200-1600mが主戦場=距離適合",
+        "[C血統] 父More Than Ready系は早熟傾向、2歳での活躍に対応しやすい"
+      ],
+      "cons": [
+        "[C血統] 初年度産駒(2026デビュー)=日本芝での産駒サンプルほぼゼロ、確信度低",
+        "[C血統] Bernardini BMS=パワー・スタミナ型、短距離向きでなく距離短縮方向の補強としては弱い"
+      ],
+      "sources": [
+        "https://www.spendthriftfarm.com/stallions/jackies-warrior/",
+        "https://en.wikipedia.org/wiki/Jackie's_Warrior"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベアアミーチ",
+      "sire": "ミスチヴィアスアレックス",
+      "damsire": "スウェプトオーヴァーボード",
+      "dist_fit": "距離は合う(短距離型父)が芝への懸念大",
+      "surface_fit": "不適合(父が芝ほぼ機能せず)×BMS好適(スウェプトは芝短距離強)",
+      "going_fit": "稍重向き(BMS由来)",
+      "growth_stage": "早熟型×2歳=ピーク附近(成長型は有利)、ただし芝で発揮できるか不明",
+      "score": -1.0,
+      "confidence": "低",
+      "contradiction_note": "前走東京芝1400m5着(7頭)=血統不適合ながら走れた事実。但し父の芝弱点は統計的に明確=再現性に疑問。",
+      "pros": [
+        "[C血統] スウェプトオーヴァーボード BMS=芝1000-1200mのスプリント専門型、代表産駒レッドファルクス(スプリンターズS)=距離条件のBMS的裏付けあり",
+        "[C血統] 早熟型×2歳=血統の成長型が現段階にマッチ"
+      ],
+      "cons": [
+        "[C血統] ミスチヴィアスアレックス=芝での勝率がダートの1/5以下、「芝は即切り」レベルの弱点=父が今回の馬場で大きな足かせ",
+        "[C血統] 血統的矛盾(父ダート強×BMS芝スプリント強)=血統シグナルが相反、確信度を大幅引き下げ"
+      ],
+      "sources": [
+        "https://umanity.jp/keibasapuri/view.php?id=834",
+        "https://navi-keiba.com/sire/sweptoverboard"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ユイノヘラクレス",
+      "sire": "ホークビル",
+      "damsire": "エイシンサンディ",
+      "dist_fit": "推定可(父は短〜マイル対応)",
+      "surface_fit": "推定可(父のKitten's Joy系は芝対応、ただし日本実績薄)",
+      "going_fit": "不明",
+      "growth_stage": "不明(サンプル不足)",
+      "score": 0.0,
+      "confidence": "最低",
+      "pros": [
+        "[C血統] ホークビル近親ジャンダルム(スプリンターズS)=短距離芝の実績が血脈上にある",
+        "[C血統] Kitten's Joy系は北米芝を得意とする系統=芝対応の素地あり"
+      ],
+      "cons": [
+        "[C血統] ホークビル日本中央競馬サンプル極小=産駒傾向確認不能、確信度最低",
+        "[C血統] エイシンサンディ BMS=競走歴なし・BMSとしての傾向データ不足=判断不能"
+      ],
+      "sources": [
+        "https://thoroughbredskills.com/2024/02/06/hawkbill/",
+        "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%82%B7%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%87%E3%82%A3"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オオセイケイ",
+      "sire": "サートゥルナーリア",
+      "damsire": "ディープインパクト",
+      "dist_fit": "不適合(父ベスト1600-2000m、1200mは父産駒の最短以下)",
+      "surface_fit": "適合(芝◎・良◎)",
+      "going_fit": "良◎",
+      "growth_stage": "標準型×2歳=成長中(2〜3歳で本領)、現段階は発展途上",
+      "score": -1.0,
+      "confidence": "中",
+      "contradiction_note": "前走東京1400m3着(7頭)=血統ベスト距離外(1600-2000m)での好走。今回1200mへさらに短縮=血統不向き方向への追加距離変化。再現性よりは距離短縮で切れ負けのリスク増。",
+      "pros": [
+        "[C血統] キンカメ系(父ロードカナロア)×母父ディープインパクト=カタログ記載ニックス、血統活力面の加点",
+        "[C血統] ディープインパクト BMS=芝瞬発を供給、良馬場での瞬発力を助長"
+      ],
+      "cons": [
+        "[C血統] サートゥルナーリア産駒の「直線長コース高信頼」=福島小回り直線292mは真逆の条件",
+        "[C血統] 父ベスト距離1600-2000m×今回1200m=血統的に200-400m短すぎる距離帯、前走3着は1400mだがそれでも短縮方向",
+        "[C血統] ディープインパクト BMS=やや延長向きの供給質、1200m短縮では活きにくい"
+      ],
+      "sources": [
+        "pedigree-catalog.md(サートゥルナーリア/ディープインパクト記載)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "observation": "L",
+  "label": "条件実績・リピーター",
+  "race_id": "20260628-fukushima-11",
+  "generated_at": "2026-06-28",
+  "race_level_patterns": {
+    "handicap_weight": {
+      "note": "過去10年で57kg以上から3着以内馬なし。52kg以下も3着1回のみ。好走帯は53-56kg",
+      "source": "ラジオNIKKEI賞過去データ（複数メディア）"
+    },
+    "nhk_mile_connection": {
+      "pattern": "前走NHKマイルC組【0-0-1-4】",
+      "note": "小回り未経験の東京マイル組が苦戦",
+      "source": "winsight全頭診断"
+    },
+    "pace_type": {
+      "note": "超スロー限定実績馬は条件不一致リスク。好位〜中団の連対率高い"
+    }
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "ルージュボヤージュ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "2025年7月 福島5R新馬(芝1800m)を4馬身差圧勝。今回と同一コースでの勝利実績",
+        "コントレイル産駒のJRA初勝利をこのコースで記録。コース適性の裏付けとして信頼性高い"
+      ],
+      "cons": [
+        "52.0kgは過去データで苦戦傾向(52kg以下は3着1回のみ)",
+        "新馬戦なので相手関係が弱く、条件再現の強度として割引"
+      ],
+      "sources": [
+        "https://news.netkeiba.com/?pid=news_view&no=302091",
+        "https://news.netkeiba.com/?no=334962&pid=news_view"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クカイリモク",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": []
+    },
+    {
+      "no": 3,
+      "name": "ジーネキング",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "NHKマイルC13着は東京長直線が合わなかった可能性。福島短直線へのコース替わりで条件改善期待"
+      ],
+      "cons": [
+        "小回りコースでの好走実績自体はなし。改善『期待』止まり"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872579"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サイモンシャリオ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "52.0kgは過去データで好走例少ない"
+      ],
+      "sources": []
+    },
+    {
+      "no": 5,
+      "name": "リッツパーティー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "前走(東京芝1800m)は休み明けながら1分45秒4の好時計で勝利。休み明け耐性を確認"
+      ],
+      "cons": [
+        "福島小回りコースでの直接実績なし"
+      ],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "コルテオソレイユ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": []
+    },
+    {
+      "no": 7,
+      "name": "ショウナンガルフ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "デビュー・札幌2歳S(札幌芝1800m小回り)で2連勝。小回りコースで実績あり"
+      ],
+      "cons": [
+        "57.0kgは過去10年でラジオNIKKEI賞3着以内実績ゼロの不利斤量",
+        "ホープフルS14着・きさらぎ賞9着・ダービー17着と直近3戦大敗続き。下降基調を示す",
+        "早熟型の2歳時小回り実績を3歳ハンデ重賞で満額評価するのはリスク"
+      ],
+      "sources": [
+        "https://en.netkeiba.com/db/horse/result/2023105332/",
+        "https://winsight.jp/column/column_page?id=26552"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディールメーカー",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "イスラボニータ産駒は福島芝1800mで馬券内率30%の産駒データ（産駒全体データ、個馬実績ではない）"
+      ],
+      "cons": [],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "キンググローリー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "2走前に福島芝を楽勝した実績。今回と同開催コース（福島芝）での好走経験",
+        "前走は距離が2000mだが、同じ福島コースでの勝利は今回1800mへの接続として有効"
+      ],
+      "cons": [
+        "距離2000m→1800mへの短縮。完全な同条件ではなく、若干の距離減"
+      ],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552",
+        "https://sports.yahoo.co.jp/keiba/directory/horse/2023100021/"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ガリレア",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "「軽い馬場で前に行って速いL2を使う先行瞬発型。福島1800mでは楽逃げ以外で買いづらい」との分析"
+      ],
+      "sources": []
+    },
+    {
+      "no": 11,
+      "name": "コロナドブリッジ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "2勝はいずれも1000m通過63秒以上の超スロー展開での逃げ切り。超スロー限定の実績",
+        "今回は逃げ・先行馬が多数で超スロー維持が難しく、条件が再現しない可能性が高い"
+      ],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ローベルクランツ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "57.0kgは過去10年でラジオNIKKEI賞3着以内実績ゼロの不利斤量",
+        "小回りコース未経験。全戦が東京・阪神・京都等の大回りコース",
+        "前走NHKマイルC組は【0-0-1-4】の過去不振データ該当"
+      ],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552",
+        "https://www.umadb.com/uma/au36370/history/"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "サノノグレーター",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "葉牡丹賞(中山芝2000m・小回りコース)でJRA2歳レコードの圧勝。小回りコースでの適性実証済み",
+        "「当時と同じ開幕週の馬場替わりは歓迎」との評価。季節・馬場タイプの条件再現あり"
+      ],
+      "cons": [
+        "中山芝2000mと福島芝1800mは同じ小回りだが、コースは異なる。完全リピーターではない",
+        "葉牡丹賞後の成績（皐月賞など）が必ずしも好調とは言えない情報あり"
+      ],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552",
+        "https://www.radionikkei.jp/keiba_article/news/post_36504.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "スカイスプレンダー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "調教では「動きは良化」とのコメント"
+      ],
+      "cons": [
+        "ゆりかもめ賞(東京芝2400m)後に橈側手根骨剥離骨折。4ヶ月半ぶりの実戦=骨折明け長期休養",
+        "骨折明けの実戦は通常最大のリスク要因。今回が事実上の復帰戦"
+      ],
+      "sources": [
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872689",
+        "https://news.netkeiba.com/?no=335346&pid=news_view"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "バドリナート",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "3歳初戦(京都新聞杯)は長期休養明けで11着大敗。「休み明けの影響もあり大敗」との記述",
+        "57.0kgは過去10年でラジオNIKKEI賞3着以内実績ゼロの不利斤量",
+        "今回の間隔が詰まりきっていない場合、再度の休み明け凡走パターンのリスク"
+      ],
+      "sources": [
+        "https://winsight.jp/column/column_page?id=26552",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11872599"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スペルーチェ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": []
+    }
+  ]
+}

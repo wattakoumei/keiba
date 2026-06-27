@@ -1,0 +1,199 @@
+{
+  "observation": "I",
+  "race_id": "20260628-hakodate-11",
+  "label": "リスク/割引要因",
+  "generated": "2026-06-28",
+  "method": "決定論層(seed転記)+非決定論層(web実測)",
+  "score_range": "0..-2(減点専用)",
+  "horses": [
+    {
+      "no": 1,
+      "name": "バルナバ",
+      "score": 0,
+      "confidence": "高",
+      "deterministic": {"risk_delta": 0, "weight_I": null},
+      "non_deterministic": {"findings": "出遅れ・気性・脚部不安の情報なし"},
+      "pros": ["決定論・非決定論リスクなし"],
+      "cons": [],
+      "sources": []
+    },
+    {
+      "no": 2,
+      "name": "ファウストラーゼン",
+      "score": -1,
+      "confidence": "中",
+      "deterministic": {"risk_delta": -1, "flags": ["decline:直近2走連続大敗(13/15・15/15)"]},
+      "non_deterministic": {"findings": "気性/脚部不安の情報なし"},
+      "pros": ["脚部不安・気性に特段の情報なし"],
+      "cons": ["[decline] 直近2走連続大敗(13/15・15/15)=下降基調"],
+      "sources": []
+    },
+    {
+      "no": 3,
+      "name": "ピースワンデュック",
+      "score": -1,
+      "confidence": "中",
+      "deterministic": {"risk_delta": -0.5, "flags": ["decline:前走大敗(14/15)"]},
+      "non_deterministic": {"findings": "出遅れ傾向・掛かり癖の指摘あり（複数ソース）"},
+      "pros": [],
+      "cons": ["[decline] 前走大敗(14/15)", "[気性] 出遅れ傾向・掛かり癖の指摘あり"],
+      "sources": []
+    },
+    {
+      "no": 4,
+      "name": "マジックサンズ",
+      "score": -1,
+      "confidence": "中",
+      "deterministic": {"risk_delta": 0, "weight_I": "斤量58=実効標準+2kg・ハンデ加増"},
+      "non_deterministic": {"findings": "2025年1月に左橈側手根骨骨折判明・3か月以上休養→エプソムC4着まで復帰済み。骨折歴が残存リスク"},
+      "pros": ["骨折後復帰でエプソムC4着・地力回復の実績あり"],
+      "cons": ["[weight-I] 斤量58=実効標準+2kg", "[脚部] 2025年1月左橈側手根骨骨折歴（復帰済みだが再発リスク残存）"],
+      "sources": [
+        "https://www.jra.go.jp/news/202501/010803.html",
+        "https://news.netkeiba.com/?no=286191&pid=news_view"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "イガッチ",
+      "score": 0,
+      "confidence": "高",
+      "deterministic": {"risk_delta": 0, "weight_I": null},
+      "non_deterministic": {"findings": "出遅れ・気性・競走中止の情報なし"},
+      "pros": ["決定論・非決定論リスクなし"],
+      "cons": [],
+      "sources": []
+    },
+    {
+      "no": 6,
+      "name": "サンストックトン",
+      "score": -1,
+      "confidence": "中",
+      "deterministic": {"risk_delta": -1, "flags": ["old:7歳", "decline:前走大敗(12/15)"]},
+      "non_deterministic": {"findings": "特段の非決定論リスクなし"},
+      "pros": [],
+      "cons": ["[old] 7歳=やや高齢", "[decline] 前走大敗(12/15)=下降基調"],
+      "sources": []
+    },
+    {
+      "no": 7,
+      "name": "チャックネイト",
+      "score": -2,
+      "confidence": "高",
+      "deterministic": {"risk_delta": -1.5, "flags": ["old:8歳=高齢", "dist_shift:2500→2000m短縮"], "weight_I": "斤量58=実効標準+2kg・ハンデ加増"},
+      "non_deterministic": {"findings": "気性/脚部不安の特段情報なし"},
+      "pros": [],
+      "cons": ["[old] 8歳=高齢（能力余力の低下リスク）", "[dist_shift] 2500→2000m短縮（適性の再現性不安）", "[weight-I] 斤量58=実効標準+2kg"],
+      "sources": []
+    },
+    {
+      "no": 8,
+      "name": "ケイアイセナ",
+      "score": -2,
+      "confidence": "高",
+      "deterministic": {"risk_delta": -1.5, "flags": ["old:7歳", "decline:前走大敗(10/15)", "dist_shift:1600→2000m延長"], "weight_I": "斤量57.5=実効標準+1.5kg"},
+      "non_deterministic": {"findings": "脚部不安・気性の特段情報なし"},
+      "pros": [],
+      "cons": ["[old] 7歳", "[decline] 前走大敗(10/15)=下降基調", "[dist_shift] 1600→2000m延長（適性不安）", "[weight-I] 斤量57.5=実効標準+1.5kg"],
+      "sources": []
+    },
+    {
+      "no": 9,
+      "name": "オニャンコポン",
+      "score": -2,
+      "confidence": "高",
+      "deterministic": {"risk_delta": -1.5, "flags": ["old:7歳", "decline:直近2走連続大敗"]},
+      "non_deterministic": {"findings": "2023年4月右前管骨骨折・手術。2024年11月に気性難のため去勢手術。去勢後も直近2走連続大敗"},
+      "pros": [],
+      "cons": ["[old] 7歳", "[decline] 直近2走連続大敗", "[脚部] 2023年右前管骨骨折・手術歴", "[気性] 2024年11月去勢（気性難）後も成績低迷"],
+      "sources": [
+        "https://tospo-keiba.jp/breaking_news/30381",
+        "https://news.yahoo.co.jp/articles/34fff7a44277b5e14db160fb33bb55b1251caad0"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ケリフレッドアスク",
+      "score": -1,
+      "confidence": "中",
+      "deterministic": {"risk_delta": -1, "flags": ["decline:前走大敗(14/18)", "dist_shift:1600→2000m延長"]},
+      "non_deterministic": {"findings": "特段の非決定論リスクなし"},
+      "pros": [],
+      "cons": ["[decline] 前走大敗(14/18)", "[dist_shift] 1600→2000m延長（距離適性不安）"],
+      "sources": []
+    },
+    {
+      "no": 11,
+      "name": "ジュタ",
+      "score": 0,
+      "confidence": "中",
+      "deterministic": {"risk_delta": 0, "weight_I": null},
+      "non_deterministic": {"findings": "出遅れ・気性・故障の特段情報なし"},
+      "pros": ["決定論・非決定論リスクなし"],
+      "cons": [],
+      "sources": []
+    },
+    {
+      "no": 12,
+      "name": "エコロディノス",
+      "score": -0.5,
+      "confidence": "中",
+      "deterministic": {"risk_delta": -0.5, "flags": ["decline:前走大敗(15/15)"], "discount_note": "前走大敗は喉頭蓋エントラップメント(疾病)による→地力でない→decline -0.5を割引(0)"},
+      "non_deterministic": {"findings": "前走大阪杯で喉頭蓋エントラップメント発症→手術→函館記念は術後復帰戦。池添騎手は追い切り段階で喉は気にならないとコメント"},
+      "pros": ["前走大敗は疾病（喉頭蓋エントラップメント）による→地力でない→decline割引可", "池添騎手：追い切り段階では喉気にならない"],
+      "cons": ["[非決定論] 喉頭蓋エントラップメント手術後の復帰戦=術後の不確実性残存"],
+      "sources": [
+        "https://news.netkeiba.com/?no=334555&pid=news_view",
+        "https://news.yahoo.co.jp/articles/e82a77d95689949f8eadab47b614a412b4e506af"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "アラタ",
+      "score": -2,
+      "confidence": "高",
+      "deterministic": {"risk_delta": -2, "flags": ["old:9歳=高齢", "decline:直近2走連続大敗"], "weight_I": "斤量58=実効標準+2kg・ハンデ加増(cap済みで加算なし)"},
+      "non_deterministic": {"findings": "有馬記念(2025年12月)出走時上機嫌との記事。脚部不安の特段情報なし"},
+      "pros": [],
+      "cons": ["[old] 9歳=高齢（能力余力の低下リスク）", "[decline] 直近2走連続大敗=下降基調", "[weight-I] 斤量58=実効標準+2kg（cap内で最重リスク）"],
+      "sources": []
+    },
+    {
+      "no": 14,
+      "name": "フィーリウス",
+      "score": 0,
+      "confidence": "中",
+      "deterministic": {"risk_delta": 0, "weight_I": null},
+      "non_deterministic": {"findings": "脚部不安・出遅れ・気性の特段情報なし"},
+      "pros": ["決定論・非決定論リスクなし"],
+      "cons": [],
+      "sources": []
+    },
+    {
+      "no": 15,
+      "name": "デビットバローズ",
+      "score": -1,
+      "confidence": "中",
+      "deterministic": {"risk_delta": -0.5, "flags": ["old:7歳"], "weight_I": "斤量58=実効標準+2kg・ハンデ加増"},
+      "non_deterministic": {"findings": "去勢前は気性難があったが去勢後『気の悪さがすっかりなくなった』とのコメント。改善済み"},
+      "pros": ["去勢後の気性改善を陣営が確認（気性難は解消済み）"],
+      "cons": ["[old] 7歳", "[weight-I] 斤量58=実効標準+2kg"],
+      "sources": [
+        "https://tospo-keiba.jp/breaking_news/59605"
+      ]
+    }
+  ],
+  "key_findings": {
+    "score_minus2": ["チャックネイト(7)", "ケイアイセナ(8)", "オニャンコポン(9)", "アラタ(13)"],
+    "score_minus1": ["ファウストラーゼン(2)", "ピースワンデュック(3)", "マジックサンズ(4)", "サンストックトン(6)", "ケリフレッドアスク(10)", "デビットバローズ(15)"],
+    "score_minus05": ["エコロディノス(12)"],
+    "score_0": ["バルナバ(1)", "イガッチ(5)", "ジュタ(11)", "フィーリウス(14)"],
+    "notable_non_deterministic": [
+      "マジックサンズ: 2025年1月左橈側手根骨骨折歴（復帰済み）",
+      "エコロディノス: 喉頭蓋エントラップメント手術後復帰戦",
+      "オニャンコポン: 骨折・去勢の複合リスク",
+      "デビットバローズ: 去勢後気性改善（cons縮小）",
+      "ピースワンデュック: 出遅れ・掛かり癖の傾向あり"
+    ]
+  }
+}

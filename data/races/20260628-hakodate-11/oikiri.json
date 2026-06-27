@@ -1,0 +1,61 @@
+{
+  "source": "keibabook_bestcyokyo",
+  "n": 3,
+  "note": "週のベスト調教ランキング＝好時計馬の抜粋。全出走馬ではない（不在馬はFがweb補完）",
+  "horses": [
+    {
+      "name": "ニシノトリビュート",
+      "cond": "３歳未勝利",
+      "race": null,
+      "train_date": "6/24",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        93.5,
+        77.9,
+        64.0,
+        50.9,
+        37.4,
+        12.3
+      ],
+      "load": "一杯",
+      "last_1f": 12.3
+    },
+    {
+      "name": "ドラギニャン",
+      "cond": "障害未勝利",
+      "race": null,
+      "train_date": "6/24",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        79.1,
+        64.5,
+        51.0,
+        37.4,
+        12.0
+      ],
+      "load": "馬なり余力",
+      "last_1f": 12.0
+    },
+    {
+      "name": "キムタックフェイス",
+      "cond": "障害未勝利",
+      "race": null,
+      "train_date": "6/25",
+      "course": "栗東ＣＷ",
+      "going": "稍",
+      "laps": [
+        96.2,
+        80.1,
+        65.0,
+        52.3,
+        39.0,
+        12.9
+      ],
+      "load": "強め",
+      "last_1f": 12.9
+    }
+  ],
+  "url": "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+}

@@ -1,0 +1,220 @@
+{
+  "race_id": "20260628-hakodate-11",
+  "observation": "D",
+  "generated": "2026-06-28",
+  "course_permanent": {
+    "venue": "函館",
+    "surface": "芝",
+    "distance": 2000,
+    "direction": "右回り",
+    "grass_type": "洋芝",
+    "straight_m": 262.1,
+    "note": "JRA最短直線。発走=4角ポケット(坂頂上付近)・初角475m・発走直後から下り。3-4角スパイラル。終盤が下り=前が止まりにくく逃げ先行有利。",
+    "pace_style_bias": {
+      "escape": "2-0-2-7 勝率18.2% 複勝率36.4%",
+      "front": "6-3-4-21 勝率17.6% 複勝率38.2%",
+      "mid": "2-5-1-53 勝率3.3% 複勝率13.1%",
+      "rear": "0-1-3-45 勝率0.0% 複勝率8.2%"
+    },
+    "waku_bias": "4-6枠が各10%勝率で好調。8枠は0%勝率で不振。",
+    "source": "course-geometry.md(正本) / keibahint.com過去10年データ"
+  },
+  "current_meeting": {
+    "week": "第1回函館最終日(6/13~6/28の3週目)",
+    "inner_wear": "3週経過=内荒れ進行見込み。外目を通る馬が相対的に有利になる方向。",
+    "baba_status": "良(JRA公式当日情報)",
+    "cushion_value": "未取得=当日確認",
+    "moisture": "未取得=当日確認",
+    "source": "jra.go.jp/keiba/baba/index3.html"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "バルナバ",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": -0.5,
+      "pros": ["2000m同距離継続"],
+      "cons": ["追馬×函館短直線(後方0%勝率)", "洋芝実績なし(seed上)"]
+    },
+    {
+      "no": 2,
+      "name": "ファウストラーゼン",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": -1.0,
+      "pros": ["形式上2000m同距離"],
+      "cons": ["追馬×函館短直線", "洋芝初", "近走は3400m系長距離→実質的な路線替わり"]
+    },
+    {
+      "no": 3,
+      "name": "ピースワンデュック",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "逃げ=前残り構造にマッチ(逃げ18.2%勝率)",
+      "score": 0.0,
+      "pros": ["逃げ馬=函館前残り構造と脚質一致"],
+      "cons": ["洋芝初", "前走福島2000m逃げ14着(大敗直後)"]
+    },
+    {
+      "no": 4,
+      "name": "マジックサンズ",
+      "dist_change": 200,
+      "dist_from": 1800,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "差馬×直線262m=不利",
+      "score": -1.0,
+      "pros": [],
+      "cons": ["差馬×函館短直線(後方・中団苦戦)", "洋芝初", "1800m→2000m延長"]
+    },
+    {
+      "no": 5,
+      "name": "イガッチ",
+      "dist_change": 200,
+      "dist_from": 1800,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "先行=コース有利",
+      "score": 0.0,
+      "pros": ["先行馬=函館前残り構造と脚質一致", "seed内に2000m1着実績(福島2025-11-24)"],
+      "cons": ["洋芝初", "1800m→2000m延長"]
+    },
+    {
+      "no": 6,
+      "name": "サンストックトン",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": -0.5,
+      "pros": ["2000m同距離継続"],
+      "cons": ["追馬×函館短直線", "洋芝初"]
+    },
+    {
+      "no": 7,
+      "name": "チャックネイト",
+      "dist_change": -500,
+      "dist_from": 2500,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(不明)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": -0.5,
+      "pros": ["2500m→2000m距離短縮(スタミナ型の短縮)"],
+      "cons": ["追馬×函館短直線", "ステイヤー型=2000mの追走ペース対応不透明", "洋芝実績不明"]
+    },
+    {
+      "no": 8,
+      "name": "ケイアイセナ",
+      "dist_change": 400,
+      "dist_from": 1600,
+      "dist_to": 2000,
+      "yosiba_record": "◎ 2025年函館巴賞レコード1着・2025年札幌記念4着(seed)",
+      "style_vs_course": "先行=コース有利",
+      "score": 0.5,
+      "pros": ["洋芝実証済み(函館巴賞レコード勝ち・札幌記念4着)", "先行=函館前残り構造と脚質一致", "陣営コメント『函館適性ある・小回り2000mも合う』"],
+      "cons": ["1600m→2000m +400m延長", "函館記念で前走1600m組は過去10年0-0-0-5"]
+    },
+    {
+      "no": 9,
+      "name": "オニャンコポン",
+      "dist_change": 200,
+      "dist_from": 1800,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": -1.0,
+      "pros": [],
+      "cons": ["追馬×函館短直線(後方0%勝率)", "洋芝初", "近走不振"]
+    },
+    {
+      "no": 10,
+      "name": "ケリフレッドアスク",
+      "dist_change": 400,
+      "dist_from": 1600,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": -1.5,
+      "pros": [],
+      "cons": ["追馬×函館短直線", "洋芝初", "1600m→2000m +400m大幅延長", "直近はヴィクトリアマイル大敗(14着)"]
+    },
+    {
+      "no": 11,
+      "name": "ジュタ",
+      "dist_change": 200,
+      "dist_from": 1800,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "差馬×直線262m=不利",
+      "score": -0.5,
+      "pros": ["1800m→2000m延長は距離方向としてはプラス"],
+      "cons": ["差馬×函館短直線", "洋芝初"]
+    },
+    {
+      "no": 12,
+      "name": "エコロディノス",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "先行=コース有利",
+      "score": 0.0,
+      "pros": ["先行=函館前残り構造と脚質一致", "2000m・2200mの実績複数あり"],
+      "cons": ["洋芝初", "大阪杯15着(大幅凡走)は参考外だが本来の地力確認が必要"]
+    },
+    {
+      "no": 13,
+      "name": "アラタ",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "◎ 2023年函館記念優勝・2025年札幌記念3着(seed: 2025-08-17 pos=3)",
+      "style_vs_course": "追馬×直線262m=不利",
+      "score": 1.5,
+      "pros": ["函館記念2023年優勝(当該コース距離の最強実績)", "2025年札幌記念3着で洋芝直近実証", "陣営コメント『道悪はマイナスにならない』", "距離2000m同距離継続"],
+      "cons": ["追馬×直線262m=コース不利方向", "2023年実績は3年前=鮮度割引(2025年札幌記念3着で一定補完)", "9歳の高齢"]
+    },
+    {
+      "no": 14,
+      "name": "フィーリウス",
+      "dist_change": 200,
+      "dist_from": 1800,
+      "dist_to": 2000,
+      "yosiba_record": "seed上なし(洋芝初と推定)",
+      "style_vs_course": "差馬×直線262m=不利",
+      "score": 0.0,
+      "pros": ["1800m→2000m延長方向", "seed内に中山2200m1着・2500m実績=距離適性幅がある"],
+      "cons": ["差馬×函館短直線", "洋芝初"]
+    },
+    {
+      "no": 15,
+      "name": "デビットバローズ",
+      "dist_change": 0,
+      "dist_from": 2000,
+      "dist_to": 2000,
+      "yosiba_record": "△ 2024年函館巴賞2着(函館芝1800m)・2024年函館記念16着(大敗)",
+      "style_vs_course": "先行=コース有利",
+      "score": 0.0,
+      "pros": ["先行=函館前残り構造と脚質一致", "距離2000m同距離", "函館芝1800m実績あり(巴賞2着)"],
+      "cons": ["2024年函館記念16着の大敗歴", "函館記念での実績は大幅振れ幅あり"]
+    }
+  ],
+  "sources": [
+    "https://www.jra.go.jp/keiba/baba/index3.html",
+    "https://www.keibahint.com/blog-entry-1827.html",
+    "https://umanity.jp/racedata/race_newsdet.php?nid=11872647",
+    "https://news.yahoo.co.jp/articles/8599fc78ea0e851745cec55708db84cd01d0a78d",
+    "https://winsight.jp/column/column_page?id=26566",
+    "references/course-geometry.md"
+  ]
+}

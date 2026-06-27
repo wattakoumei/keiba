@@ -1,0 +1,255 @@
+{
+  "point": "I",
+  "race_id": "20260628-fukushima-11",
+  "generated": "2026-06-28",
+  "note": "決定論層(risk.json/weight.json Iチャンネル)を一次フラグとして転記。非決定論層(脚部不安/気性/競走中止歴)はweb実測で補完。スコア0..-2(減点専用)。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ルージュボヤージュ",
+      "score": 0.0,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量52=実効標準-2.5kg(軽量・Iマイナスタグなし)",
+      "ndet_findings": "特記なし",
+      "cons": [],
+      "pros": ["軽量52kg=斤量恩恵あり(マイナス要因なし)"],
+      "sources": []
+    },
+    {
+      "no": 2,
+      "name": "クカイリモク",
+      "score": -0.5,
+      "confidence": "中",
+      "det_flags": [],
+      "weight_I": "斤量53=実効標準-1.5kg(Iマイナスタグなし)",
+      "ndet_findings": "右回りコース経験なし(推定)",
+      "cons": ["[I-ndet]右回り初経験=福島・小回りコースへの適応不安(推定・確信度低)"],
+      "pros": ["斤量53kgは軽量側"],
+      "sources": ["https://en.netkeiba.com/db/horse/2023105684/"]
+    },
+    {
+      "no": 3,
+      "name": "ジーネキング",
+      "score": -1.0,
+      "confidence": "高",
+      "det_flags": ["decline -0.5: 前走大敗(13/18)"],
+      "weight_I": "斤量56=実効標準+1.5kg・ハンデ加増",
+      "ndet_findings": "脚部不安・競走中止歴の特記なし",
+      "cons": [
+        "[I-det decline]前走13着/18頭の大敗=下降基調の一次フラグ",
+        "[I-weight]斤量56kg=実効標準+1.5kg・差し馬に重量負担"
+      ],
+      "pros": ["故障歴・気性難の記録なし"],
+      "sources": ["https://www.keibalab.jp/db/horse/2023104885/"]
+    },
+    {
+      "no": 4,
+      "name": "サイモンシャリオ",
+      "score": 0.0,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量52=実効標準-2.5kg(軽量・Iマイナスタグなし)",
+      "ndet_findings": "特記なし",
+      "cons": [],
+      "pros": ["軽量52kg・決定論フラグなし"],
+      "sources": []
+    },
+    {
+      "no": 5,
+      "name": "リッツパーティー",
+      "score": 0.0,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量54=実効標準-0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "前走休み明け1800m好時計=状態面問題なし。脚部不安・気性難の記録なし",
+      "cons": [],
+      "pros": ["フラグなし・近走状態良好"],
+      "sources": ["https://umanity.jp/racedata/race_newsdet.php?nid=11872619"]
+    },
+    {
+      "no": 6,
+      "name": "コルテオソレイユ",
+      "score": 0.0,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量54=実効標準-0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "特記なし",
+      "cons": [],
+      "pros": ["フラグなし"],
+      "sources": []
+    },
+    {
+      "no": 7,
+      "name": "ショウナンガルフ",
+      "score": -2.0,
+      "confidence": "高",
+      "det_flags": [
+        "decline -1.0: 直近2走連続大敗(前走17/18・前々走9/9)=下降基調",
+        "dist_shift -0.5: 前走2400m→今回1800m=600m短縮"
+      ],
+      "weight_I": "斤量57=実効標準+2.5kg・ハンデ最重量",
+      "ndet_findings": "ホープフルS(2025/12)でスタートの遅さから外を回らされ位置取り後退=出遅れ癖の実績あり",
+      "cons": [
+        "[I-det decline]直近2走連続大敗=下降基調フラグ強",
+        "[I-weight]斤量57kg=実効標準+2.5kg・追い込み馬に最重量",
+        "[I-det dist_shift]600m短縮=適性再現性不安",
+        "[I-ndet]ホープフルS出遅れ実績=福島小回りでのスタート遅れは致命的"
+      ],
+      "pros": ["距離短縮が嵌まれば上昇余地(断定不可)"],
+      "sources": [
+        "https://www.excite.co.jp/news/article/SportsHochi_20251217_OHT1T51138/",
+        "https://after-race.com/horse/263234/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディールメーカー",
+      "score": -0.5,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量56=実効標準+1.5kg・ハンデ加増×先行",
+      "ndet_findings": "前走NZTで出遅れるも即座に3番手挽回=単発事象・癖とは断定できず",
+      "cons": [
+        "[I-weight]斤量56kg=実効標準+1.5kg・先行馬に重量負担"
+      ],
+      "pros": ["前走出遅れは挽回済み・癖の反復なし"],
+      "sources": ["https://note.com/racing_book/n/nbc242d18ccf4"]
+    },
+    {
+      "no": 9,
+      "name": "キンググローリー",
+      "score": -1.0,
+      "confidence": "高",
+      "det_flags": [
+        "decline -0.5: 前走大敗(13/16)",
+        "dist_shift -0.5: 前走2200m→今回1800m=400m短縮"
+      ],
+      "weight_I": "斤量54=実効標準-0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "脚部不安・気性難の特記なし。検索で競走中止歴も確認できず",
+      "cons": [
+        "[I-det decline]前走13着/16頭の大敗=下降基調",
+        "[I-det dist_shift]400m短縮=適性再現性不安"
+      ],
+      "pros": ["斤量54kgは標準以下・故障記録なし"],
+      "sources": ["https://sp.jra.jp/JRADB/accessU.html?CNAME=sj01ude002023100021/6A"]
+    },
+    {
+      "no": 10,
+      "name": "ガリレア",
+      "score": -1.0,
+      "confidence": "中",
+      "det_flags": ["decline -0.5: 前走大敗(11/15)"],
+      "weight_I": "斤量54=実効標準-0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "前走NZTでスタート後ダッシュ不足→後方追走。5枠10番=外枠でのスタート不安は影響大(推定)",
+      "cons": [
+        "[I-det decline]前走11着/15頭の大敗=下降基調",
+        "[I-ndet]NZTスタートダッシュ不足実績=外枠10番で再現リスク"
+      ],
+      "pros": ["斤量54kgは標準以下"],
+      "sources": ["https://note.com/racing_book/n/nbc242d18ccf4"]
+    },
+    {
+      "no": 11,
+      "name": "コロナドブリッジ",
+      "score": 0.0,
+      "confidence": "中",
+      "det_flags": [],
+      "weight_I": "斤量54=実効標準-0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "気性・掛かり・出遅れの具体情報取得できず。逃げ馬として初角305mまでの先行は課題だがI観点外(展開E担当)",
+      "cons": [],
+      "pros": ["フラグなし・斤量標準以下"],
+      "sources": ["https://umanity.jp/en/racedata/db/horse_top.php?code=2023107368"]
+    },
+    {
+      "no": 12,
+      "name": "ローベルクランツ",
+      "score": -1.0,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量57=実効標準+2.5kg・ハンデ最重量×先行",
+      "ndet_findings": "気性・脚部不安の特記なし。小回りコース経験が限定的との指摘あり",
+      "cons": [
+        "[I-weight]斤量57kg=実効標準+2.5kg・先行馬に最重量・ゴール前上りで止まりやすい"
+      ],
+      "pros": ["decline/layoff/class_jumpフラグなし"],
+      "sources": ["https://winsight.jp/column/column_page?id=26552"]
+    },
+    {
+      "no": 13,
+      "name": "サノノグレーター",
+      "score": -0.5,
+      "confidence": "高",
+      "det_flags": [],
+      "weight_I": "斤量56=実効標準+1.5kg・ハンデ加増×追い込み",
+      "ndet_findings": "特記なし。葉牡丹賞レコード勝ち実績=小回り適性はむしろプラス(I観点では採点外)",
+      "cons": [
+        "[I-weight]斤量56kg=実効標準+1.5kg・追い込み馬に重量負担"
+      ],
+      "pros": ["decline/layoffフラグなし"],
+      "sources": []
+    },
+    {
+      "no": 14,
+      "name": "スカイスプレンダー",
+      "score": -1.5,
+      "confidence": "中",
+      "det_flags": [
+        "dist_shift -0.5: 前走2400m→今回1800m=600m短縮",
+        "layoff -0.5: 前走から138日=休み明け"
+      ],
+      "weight_I": "斤量55=実効標準+0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "橈側手根骨離骨折・全治6カ月以上の骨折歴あり(シルクホースクラブ関連情報)。一週前追い切りは良動きと報告されているが骨折歴自体は消えない",
+      "cons": [
+        "[I-det layoff]138日休み明け=骨折由来の長期休養",
+        "[I-det dist_shift]600m短縮=適性再現性不安",
+        "[I-ndet]橈側手根骨離骨折歴=カーパル骨折は再発リスクがあり脚部脆弱性の懸念残(確信度中)"
+      ],
+      "pros": ["一週前追い切りで「迫力満点」「完封の動き」と評価=回復・状態は確認"],
+      "sources": [
+        "https://www.silkhorseclub.jp/horse_info/shozoku/detail/2023091/view",
+        "https://x.com/UMAandME/status/2067608569369997536"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "バドリナート",
+      "score": -2.0,
+      "confidence": "高",
+      "det_flags": [
+        "decline -0.5: 前走大敗(11/16)",
+        "dist_shift -0.5: 前走2200m→今回1800m=400m短縮"
+      ],
+      "weight_I": "斤量57=実効標準+2.5kg・ハンデ最重量×先行",
+      "ndet_findings": "日本ダービー回避直前に左後肢の蹄割れ(ひびが入った状態)を発症。京都新聞杯で復帰予定と報告。蹄の状態は今後の不安要因",
+      "cons": [
+        "[I-det decline]前走11着/16頭の大敗=下降基調",
+        "[I-det dist_shift]400m短縮=適性再現性不安",
+        "[I-weight]斤量57kg=実効標準+2.5kg・先行馬に最重量",
+        "[I-ndet]左後肢蹄割れ歴=足元の不安が残る可能性(確信度中)"
+      ],
+      "pros": ["距離短縮で折り合いは楽になる可能性"],
+      "sources": [
+        "https://news.netkeiba.com/?pid=news_view&no=327983",
+        "https://umanity.jp/racedata/race_newsdet.php?nid=11868129"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "スペルーチェ",
+      "score": -0.5,
+      "confidence": "高",
+      "det_flags": ["dist_shift -0.5: 前走1400m→今回1800m=400m延長"],
+      "weight_I": "斤量55=実効標準+0.5kg(Iマイナスタグなし)",
+      "ndet_findings": "「脚質が定まらないタイプ」=出脚・ポジション取りが不安定。差し損ね懸念あり",
+      "cons": [
+        "[I-det dist_shift]400m延長=最長距離への挑戦・スタミナ適性不透明",
+        "[I-ndet]脚質未固定=開幕週福島で差し損ねリスク(確信度中)"
+      ],
+      "pros": ["decline/layoffフラグなし"],
+      "sources": ["https://en.netkeiba.com/db/horse/2023105684/"]
+    }
+  ],
+  "overall_confidence": "中",
+  "field_note": "非決定論層の情報は馬によって濃淡あり。スカイスプレンダーの骨折歴はsearch結果の記述のみ(一口クラブ詳細ページでは確認できず)=確信度中。バドリナートの蹄割れはnetkeiba/umanity複数ソースで確認。ショウナンガルフの出遅れはホープフルS関係者コメントで確認。"
+}

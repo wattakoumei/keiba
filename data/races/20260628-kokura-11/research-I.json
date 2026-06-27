@@ -1,0 +1,115 @@
+{
+  "observation": "I. リスク/割引",
+  "confidence": "中",
+  "field_note": "決定論層(risk_flags/weight_adjust)を一次採用。dist_shiftはseed距離誤りのため全頭却下(②⑥はダ1700経験有・特に⑥は福島/小倉ダ1700逃げ勝ち)。web非決定論層では8頭いずれも目立つ故障/競走中止/出遅れ癖/気性難の具体記録はsurfaceせず(3勝クラスで事件性低くDB系ページ中心)。減点の主源は決定論(高齢/下降/休み明け/斤量)。非決定論で拾えた軟シグナルは⑦モーリス産駒の父譲りゲート/気性傾向+小柄430、③せん馬=去勢=気性軟シグナルのみ。1700適性由来の凡走(④など)は距離=D観点で割引しIでは減点しない。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "リチャードバローズ",
+      "pros": [],
+      "cons": [
+        "[I決定論]decline-1.0: 直近2走 湘南S13着・節分S15着の連続大敗。間の尾張特別(中京ダ1400)1着の後の2連敗で下降が新しい",
+        "[I割引判定]2敗は得意のダ1400での敗戦=距離で説明できず地力低下=割引せず採用。今回ダ1700は近走全1400から+300mの延長で未知=軽い上乗せ",
+        "[I非決定論]故障/競走中止/出遅れ癖の具体記録はwebで確認できず(放牧帰り)"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud102021103977/4C"]
+    },
+    {
+      "no": 2,
+      "name": "ベイビーキッス",
+      "pros": [],
+      "cons": [
+        "[I決定論]decline-0.5(前走 下関S12着)+layoff-0.5(134日休み明け)=合算-1.0",
+        "[I非決定論]テン遅の追込脚質で小倉ダ1700の前残り寄りコースは位置取りが届きにくい=ただし純Iの懸念でなく展開要因(E領域)",
+        "[I非決定論]脚部不安/競走中止/気性難の具体記録なし"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud002022102514/85"]
+    },
+    {
+      "no": 3,
+      "name": "ジュンヴァンケット",
+      "pros": [],
+      "cons": [
+        "[I決定論]layoff-0.5(休み明け)。dist_shiftは却下",
+        "[I非決定論]せん馬(去勢)=気性難に対する去勢処置の軟シグナル(掛かり/折り合いの過去示唆)だが具体的な掛かり/出遅れ記録はwebで確証できず",
+        "[I参考]ダ1700(下関S8着)より京都ダ1200の方が good=距離適性低下はD観点。-1の中では最も軽い"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud102021107180/6B"]
+    },
+    {
+      "no": 4,
+      "name": "ロードトレイル",
+      "pros": [
+        "[I決定論]decline/old/layoff/class_jumpの一次フラグ無し。前走 船橋S(中山ダ1200)6着で立て直し"
+      ],
+      "cons": [
+        "[I割引]ダ1700は下関S15着・巌流島S12着と凡走続きだが、1200に戻して6着=敗因は距離=D観点の適性問題でIでは減点しない(割引適用)",
+        "[I非決定論]競走中止/脚部不安/気性難の具体記録なし"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021100157%2FD7", "https://www.umadb.com/uma/au33338/history/race/?rotation=8"]
+    },
+    {
+      "no": 5,
+      "name": "テーオーダヴィンチ",
+      "pros": [],
+      "cons": [
+        "[I決定論]old-1.0(牡8高齢)+decline-0.5(前走 渡月橋S13着)=合算-1.5。高齢は競争力の構造的天井で割引不可",
+        "[I非決定論]脚部不安/競走中止の具体記録はwebで確認できず。ただし8歳という年齢リスク自体が重い",
+        "[I参考]戎橋S4着もあり完全崩壊ではないが、最重リスク馬"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": ["https://jra.jp/JRADB/accessU.html?CNAME=pw01dud002018104633/1E", "https://www.keibalab.jp/db/horse/2018104633/"]
+    },
+    {
+      "no": 6,
+      "name": "アサクサグレース",
+      "pros": [
+        "[I決定論]decline/old/layoff/class_jumpの一次フラグ実質なし。4歳充実期",
+        "[I実績]ダ1700で福島逃げ1着・小倉逃げ1着=距離/コースの不安なし(dist_shift却下の根拠)"
+      ],
+      "cons": [
+        "[I非決定論]出遅れ癖/気性難/脚部不安の具体記録はwebで確認できず(逃げ馬のゲート不安報告なし)"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022100547/17", "https://www.jbis.or.jp/horse/0001352210/"]
+    },
+    {
+      "no": 7,
+      "name": "ブラックケリー",
+      "pros": [],
+      "cons": [
+        "[I決定論]decline-1.0: 朱雀S13着・巌流島S13着の連続大敗。1400(朱雀S)と1700(巌流島S)両距離での大敗=距離で説明できず=割引せず採用",
+        "[I非決定論血統]父モーリスは自身ゲート下手で産駒に出遅れ・気性面の課題傾向が報告。本馬の具体的出遅れ記録は確証できないが血統由来の軟リスク",
+        "[I非決定論]馬体430と小柄=ダート3勝クラスでは非力面の懸念(D/G寄りだが下降と重なり負荷)"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102022100791/17", "https://www.aolplatforms.jp/horse/maurice-blood/"]
+    },
+    {
+      "no": 8,
+      "name": "スカイハイ",
+      "pros": [
+        "[I決定論]decline/old/layoff無し。近走 フリーウェイS5着/心斎橋S3着/白秋S3着と安定し地力下降なし"
+      ],
+      "cons": [
+        "[I決定論weight]斤量57.0kg=実効標準+2.5kgのハンデ加増(重)。差し脚質に酷量=weight_adjustのIチャンネル減点を採用。大型馬で斤量耐性はあるが差し届かせる負荷は明確",
+        "[I非決定論]脚部不安/競走中止/気性難の具体記録なし=リスクは斤量に限定"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": ["https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud102021101412%2FDA", "https://umanity.jp/en/racedata/db/horse_top.php?code=2021101412"]
+    }
+  ],
+  "notes": "web非決定論層は全頭で具体的な事件記録(故障/競走中止/明確な出遅れ癖)を確認できず=減点は決定論層(risk_flags/weight_adjust)が主。確信度はその分やや控えめ。dist_shiftは全頭却下(seed距離誤り)。④の1700凡走・③の1700適性低下は距離=D観点へ寄せIでは割引。最重は⑤(高齢8+下降)と⑦(連続大敗+モーリス血統リスク+小柄)。⑧は斤量57kg酷量のみ。"
+}
