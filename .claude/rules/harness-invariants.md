@@ -66,6 +66,11 @@
 `§0 当日ボード` → `§1 当日の分岐点(1行)` → `§2 展開予想【成果物1】` → `§3 着順予想表【成果物2】` → `§4 データの確かさ` → `§5 免責`。
 - **§2/§3 の番号は他文書（SKILL/各 reference）から参照されるので変えない**。体裁の正本は `skills/analyze-race/references/output-template.md`。
 
+## I11. 散文の内部用語禁止（読者は競馬ファン）
+- report.json の**文字列フィールド**（phase_flow の early/mid/late/result、bias、pace_sensitivity、pros/cons の note、engine_check 等）に**エンジン内部の変数名を書かない**。
+- 置換表: `A_early`→行き脚 / `A_cruise`→追走力 / `A_finish`→決め手(末脚) / `A_class`→地力 / `phase_flow`(散文中)→段階フロー / `pace_level`(散文中)→ペース水準 / `per_horse_fit`→パターン適合。
+- JSON の**キー名**（`"phase_flow":` 等の構造部分）はそのまま。禁止は値の散文のみ。
+
 ## I10. 静的データのワンソース化（再調査禁止）
 - **不変の事実は正本から一度だけ供給し、web で再調査しない**: コース物理形状（直線・坂・初角・芝スタート）＝`references/course-geometry.md`、種牡馬の産駒傾向＝`references/pedigree-catalog.md`（半静的・年1更新／カタログ外の血だけ web 調査）、出走表スパイン・脚質/テン速・h2h直接対戦・**前走騎手 `recent[].jockey`（K の乗替判定）**＝`tools/fetch_racecard.py` の seed、**斤量・馬格×馬場/芝ダの重量重みづけ＝`tools/weight_adjust.py` の決定論タグ（D/I/G は斤量・馬格を再調査せずこの値を採用。馬場・馬体重は当日に再算定）**、**観点Iの非重量・コース非依存の決定論リスク（高齢/下降基調/大幅昇級/休み明け）＝`tools/risk_flags.py`（I は一次フラグに採用し web は非決定論層＝脚部/気性/故障/中止歴だけ実測。敗因が距離/展開で説明でき地力でないなら割引可）**。
 - 供給経路は **spawn 時注入**（SKILL STEP1/3）。subagent は rules を自動ロードしない＝徹底は spawn データと各 agent 定義の記述が担う（誰が何に使うかは各 agent / pace-synthesis 側に書く）。

@@ -18,6 +18,17 @@
 > - **I5 複数パターン＋当日可変**: `pace.patterns[]` は必ず複数。
 > - **I6 確定材料の先取り**: 枠順・乗替・回避が確定済みなら `pace.leg_table`/`patterns`/`rank` 本文に最初から織り込む（`day_board` に後付けしない）。
 > - **I7 展開列＝箱組み**: `rank[].pattern_fit` と `pace.box_reverse` は同源（`per_horse_fit`）で矛盾させない。
+> - **I11 散文の内部用語禁止**: report.json の**文字列フィールド**（phase_flow の early/mid/late/result、bias、pace_sensitivity、pros/cons の note、engine_check 等）に**エンジン内部の変数名を書かない**。読者は競馬ファンであり開発者ではない。以下の置換表に従う:
+>   | 内部用語 | 散文での表現 |
+>   |---------|-------------|
+>   | `A_early` | 行き脚 |
+>   | `A_cruise` | 追走力 |
+>   | `A_finish` | 決め手 / 末脚 |
+>   | `A_class` | 地力 |
+>   | `phase_flow`（散文中での言及） | 段階フロー |
+>   | `pace_level` | ペース水準 |
+>   | `per_horse_fit` | パターン適合 |
+>   JSON の**キー名**（`"phase_flow":`, `"pace_level":` 等の構造部分）はそのまま。禁止は値の散文のみ。
 
 ---
 
