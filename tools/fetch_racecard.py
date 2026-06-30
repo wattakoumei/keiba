@@ -158,12 +158,15 @@ def classify_class(name):
 
 
 def class_move(last, top, race_rank):
-    """各馬の過去クラスと当該レース rank から昇降級を機械判定 {last, top, vs_current}。
-    last=前走 rank・top=近走最高 rank・vs_current=当該比較ラベル（rank 不明の側は None）。"""
+    """各馬の過去クラスと当該レース rank から昇降級を機械判定 {last, top, vs_current, delta}。
+    last=前走 rank・top=近走最高 rank・vs_current=当該比較ラベル（rank 不明の側は None）。
+    delta=当該rank - 前走rank（正=昇級・負=降級・0=同級・None=不明）。risk_flags が数値で消費。"""
     vs = None
+    delta = None
     if race_rank is not None and last is not None:
-        vs = "昇級" if race_rank > last else "降級" if race_rank < last else "同級"
-    return {"last": last, "top": top, "vs_current": vs}
+        delta = race_rank - last
+        vs = "昇級" if delta > 0 else "降級" if delta < 0 else "同級"
+    return {"last": last, "top": top, "vs_current": vs, "delta": delta}
 
 
 def fetch(url):

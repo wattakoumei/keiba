@@ -66,7 +66,7 @@ def to_leg_adv(v):
 
 
 # research 由来の pros/cons 素材に紛れる NG 語（validate_report が弾く＝骨格段階で落として手戻りを消す）。
-_NG_RE = re.compile(r'[%％]|人気|オッズ|配当|払戻|単勝|複勝')
+_NG_RE = re.compile(r'[%％]|人気|オッズ|配当|払戻')
 
 
 def clean_note(s):
@@ -251,7 +251,7 @@ def self_check():
     json.dump(seed, open(f"{RACES}/t-x-01/seed.json", "w"))
     json.dump(pm, open(f"{RACES}/t-x-01/pace-model.json", "w"))
     json.dump({"point": "A", "horses": [{"no": 1, "name": "A", "score": 2, "pros": ["好"], "cons": []},
-                                        {"no": 2, "name": "B", "score": -1, "pros": [], "cons": ["後方0%勝率", "難"]}]},
+                                        {"no": 2, "name": "B", "score": -1, "pros": [], "cons": ["難", "単勝圏外の走破時計", "後方0%勝率"]}]},
               open(f"{RACES}/t-x-01/research-A.json", "w"))
     rep = assemble("t-x-01")
     assert len(rep["rank"]) == 2, "全頭カバー"
@@ -263,7 +263,13 @@ def self_check():
     assert rep["pace"]["patterns"][0]["formation_head"] == [1, 2], "formation str→int[] 正規化"
     assert rep["pace"]["patterns"][0]["leg_advantage"] == {"逃げ": 1, "先行": 2, "差し": -1, "追込": -2}, "leg_advantage str→dict 正規化"
     b2 = [r for r in rep["rank"] if r["no"] == 2][0]
-    assert all(c["note"] == "難" for c in b2["cons"]), "%混入noteは骨格から除外（'後方0%勝率'が落ちる）"
+    cons_notes = [c["note"] for c in b2["cons"]]
+    assert "難" in cons_notes, "正当なcons noteが残る"
+    assert "後方0%勝率" not in cons_notes, "%混入noteは骨格から除外"
+    # clean_note が「単勝」「複勝」を通すことを直接検証（cc[0]のみ拾う構造のためcons_notesでは検証困難）
+    assert clean_note("単勝圏外の走破時計") == "単勝圏外の走破時計", "「単勝」を含む正当noteは通す（validate_reportと同基準）"
+    assert clean_note("複勝実績あり") == "複勝実績あり", "「複勝」を含む正当noteは通す"
+    assert clean_note("3番人気") is None, "「人気」はNG"
     blob = json.dumps(rep, ensure_ascii=False)
     for w in ["%", "％"]:
         assert w not in blob, f"%混入 {w}"

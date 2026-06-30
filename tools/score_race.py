@@ -128,7 +128,8 @@ def phase_abilities(h):
     draw_adj = h.get("draw_adj", 0.0) or 0.0
     A_early = clip(0.55 * ten + 0.35 * sty + 0.10 * nK + draw_adj)
 
-    # --- A_cruise: 近走位置の安定 ＋ スタミナ血統(C) ＋ 近走内容(B) − 気性(I) ---
+    # --- A_cruise: 近走位置の安定 ＋ スタミナ血統(C) ＋ 近走内容(B) ---
+    # I(リスク全般)は A_class の disc で効かせる。A_cruise に混ぜると脚部不安等が巡航力を不当に下げる
     recent = h.get("recent") or []
     ratios = []
     for r in recent:
@@ -139,7 +140,7 @@ def phase_abilities(h):
         stab = 1.0 - clip(statistics.pstdev(ratios) / 0.30)
     else:
         stab = 0.5
-    A_cruise = clip(0.45 * stab + 0.35 * nC + 0.20 * nB - 0.05 * (-eI))
+    A_cruise = clip(0.50 * stab + 0.35 * nC + 0.15 * nB)
 
     # --- A_finish: 上がり最速(相対) ＋ 決め手(B近走) ---
     A_finish_af = h.get("_af", 0.5)  # field 相対は集計後に注入(下の compute で設定)

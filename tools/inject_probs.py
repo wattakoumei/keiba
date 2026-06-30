@@ -49,6 +49,51 @@ def load_research_scores(race_dir):
     return scores, conf
 
 
+def _compute_draw_adj(report, field_size):
+    """bias_note から枠バイアス方向を読み、枠番に応じた draw_adj を返す {no: float}。
+    内有利 → 内枠にプラス・外枠にマイナス。外有利 → 逆。フラットなら全馬0。
+    ±0.05（最内/最外）のレンジ＝A_early の 10% 程度の補正。"""
+    bias = (report.get("pace", {}) or {}).get("bias_note", "") or ""
+    direction = 0
+    if "内有利" in bias or "内側有利" in bias:
+        direction = 1
+    elif "外有利" in bias or "外側有利" in bias:
+        direction = -1
+    if direction == 0:
+        return {}
+    rank = report.get("rank", []) or []
+    gates = [r.get("no") for r in rank if isinstance(r.get("no"), int)]
+    if not gates:
+        return {}
+    n = field_size or len(gates)
+    if n <= 1:
+        return {}
+    adj = {}
+    leg_table = (report.get("pace", {}) or {}).get("leg_table", []) or []
+    no_to_gate = {}
+    for row in leg_table:
+        no = row.get("no")
+        g = row.get("gate")
+        if isinstance(no, int) and g:
+            try:
+                no_to_gate[no] = int(g)
+            except (ValueError, TypeError):
+                pass
+    if not no_to_gate:
+        for r in rank:
+            no = r.get("no")
+            g = r.get("gate")
+            if isinstance(no, int) and g:
+                try:
+                    no_to_gate[no] = int(g)
+                except (ValueError, TypeError):
+                    pass
+    for no, gate in no_to_gate.items():
+        pos = (gate - 1) / max(n - 1, 1)
+        adj[no] = round(direction * 0.05 * (1 - 2 * pos), 4)
+    return adj
+
+
 def build_input(report, scores, conf, seed=None):
     """report.json + 集約済み scores から score_race の入力 JSON を組む。
     seed（fetch_racecard 出力）があれば各馬の ten_speed/agari_best/recent/style を score_race に渡す＝
@@ -57,6 +102,7 @@ def build_input(report, scores, conf, seed=None):
     style_of = {row.get("no"): row.get("leg_type")
                 for row in (pace.get("leg_table") or []) if isinstance(row, dict)}
     seed_of = {h.get("no"): h for h in (seed or {}).get("horses", []) if isinstance(h, dict)}
+    draw_adj = _compute_draw_adj(report, report.get("field_size"))
     horses = []
     for r in report.get("rank", []) or []:
         no = r.get("no")
@@ -73,6 +119,7 @@ def build_input(report, scores, conf, seed=None):
             "recent": s.get("recent") or [],     # A_cruise の素（first_corner/field の位置安定）
             "scores": scores.get(no, {}),
             "conf": conf.get(no, {}),
+            "draw_adj": draw_adj.get(no, 0.0),   # 枠バイアス補正（bias_note 由来）
         })
     patterns = [{"id": p.get("id"), "prob": p.get("prob", 0.0),
                  "pace_level": p.get("pace_level", 0.5), "contesters": p.get("contesters", []),
@@ -142,6 +189,19 @@ def main():
         print(f"⚠ 率を入れられない馬(rankにいるがscore入力に無い): {missing}", file=sys.stderr)
     print(f"# 論理の並び vs エンジン複勝率順: 食い違い {disagree}頭"
           f"（並びは論理が主＝率順に並べ替えない。engine_check の素）")
+
+    # 欠落観点の検出 → header_notes に警告付記（D4: 速報モード等で観点が落ちると率の精度が劣化）
+    FULL_OBS = set("ABCDFGHIKL")
+    used = set(report.get("used_observations", []))
+    used_upper = {x.upper() for x in used}
+    missing_obs = sorted(FULL_OBS - used_upper)
+    if missing_obs:
+        warn = f"観点欠落({','.join(missing_obs)}): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
+        notes = report.get("header_notes") or []
+        if not any("観点欠落" in n for n in notes):
+            notes.append(warn)
+            report["header_notes"] = notes
+            print(f"⚠ {warn}")
 
     if args.dry:
         print("（--dry: 書き戻さない）")
