@@ -31,7 +31,8 @@
     "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
     "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
     "展開はα(内前残り)とβ(先行共倒れ→差し)で勝ち筋が反転＝◎①は両にらみで軸不動、○⑤(差し)と▲⑫(前・地力)はどちらに振れるかで上下する。",
-    "engine_check: エンジン複勝率は⑫(61%)>⑤(27%)だが並びは○⑤→▲⑫＝⑤の展開頑健性(全パターン圏内)+54kgを重く、⑫は57kg×開幕週前残りでゴール前小上りに甘い読みで割引(論理が主・率順に並べ替えない)。⑫の地力(GⅠ4着)は厚めの連下で拾う。"
+    "engine_check: エンジン複勝率は⑫(61%)>⑤(27%)だが並びは○⑤→▲⑫＝⑤の展開頑健性(全パターン圏内)+54kgを重く、⑫は57kg×開幕週前残りでゴール前小上りに甘い読みで割引(論理が主・率順に並べ替えない)。⑫の地力(GⅠ4着)は厚めの連下で拾う。",
+    "観点欠落(H): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
   ],
   "pivot": "⑪コロナドブリッジが単騎で楽にハナを取れるか＝取れれば超スロー内前残りで◎①中心(α)、①や⑨と競れば先行共倒れで○⑤ら差し台頭(β)。福島開幕週2日目の内前バイアスの強度が当落を分ける。",
   "day_board": {
@@ -497,8 +498,8 @@
       "intent": "↑",
       "mark": "◎",
       "rank_order": 1,
-      "win_prob": 0.417,
-      "place_prob": 0.7694,
+      "win_prob": 0.2776,
+      "place_prob": 0.6263,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
@@ -541,8 +542,8 @@
       "intent": "↑",
       "mark": "◯",
       "rank_order": 2,
-      "win_prob": 0.0815,
-      "place_prob": 0.2737,
+      "win_prob": 0.0784,
+      "place_prob": 0.2483,
       "leg_type": "差",
       "pattern_fit": {
         "α": "△",
@@ -585,8 +586,8 @@
       "intent": "→",
       "mark": "▲",
       "rank_order": 3,
-      "win_prob": 0.1791,
-      "place_prob": 0.6142,
+      "win_prob": 0.1517,
+      "place_prob": 0.4529,
       "leg_type": "先",
       "pattern_fit": {
         "α": "○",
@@ -640,8 +641,8 @@
       "intent": "→",
       "mark": "△",
       "rank_order": 4,
-      "win_prob": 0.0331,
-      "place_prob": 0.1568,
+      "win_prob": 0.0534,
+      "place_prob": 0.1859,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
@@ -687,8 +688,8 @@
       "intent": "→",
       "mark": "△",
       "rank_order": 5,
-      "win_prob": 0.0413,
-      "place_prob": 0.1968,
+      "win_prob": 0.06,
+      "place_prob": 0.2073,
       "leg_type": "逃",
       "pattern_fit": {
         "α": "◎",
@@ -734,8 +735,8 @@
       "intent": "↑",
       "mark": "△",
       "rank_order": 6,
-      "win_prob": 0.0411,
-      "place_prob": 0.1442,
+      "win_prob": 0.0491,
+      "place_prob": 0.1602,
       "leg_type": "差",
       "pattern_fit": {
         "α": "△",
@@ -778,8 +779,8 @@
       "intent": "↓",
       "mark": "注",
       "rank_order": 7,
-      "win_prob": 0.0533,
-      "place_prob": 0.2481,
+      "win_prob": 0.071,
+      "place_prob": 0.2418,
       "leg_type": "先",
       "pattern_fit": {
         "α": "○",
@@ -821,8 +822,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 8,
-      "win_prob": 0.028,
-      "place_prob": 0.1288,
+      "win_prob": 0.0465,
+      "place_prob": 0.162,
       "leg_type": "先",
       "pattern_fit": {
         "α": "○",
@@ -868,8 +869,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 9,
-      "win_prob": 0.0233,
-      "place_prob": 0.0844,
+      "win_prob": 0.0345,
+      "place_prob": 0.1146,
       "leg_type": "差",
       "pattern_fit": {
         "β": "○",
@@ -911,8 +912,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 10,
-      "win_prob": 0.0192,
-      "place_prob": 0.0704,
+      "win_prob": 0.0303,
+      "place_prob": 0.1015,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -961,8 +962,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 11,
-      "win_prob": 0.0097,
-      "place_prob": 0.0354,
+      "win_prob": 0.0189,
+      "place_prob": 0.0638,
       "leg_type": "差",
       "pattern_fit": {
         "β": "○",
@@ -1004,8 +1005,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 12,
-      "win_prob": 0.0152,
-      "place_prob": 0.0543,
+      "win_prob": 0.0249,
+      "place_prob": 0.0833,
       "leg_type": "差",
       "pattern_fit": {
         "β": "△"
@@ -1046,8 +1047,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 13,
-      "win_prob": 0.0136,
-      "place_prob": 0.0489,
+      "win_prob": 0.0235,
+      "place_prob": 0.0786,
       "leg_type": "追",
       "pattern_fit": {
         "β": "△"
@@ -1088,8 +1089,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 14,
-      "win_prob": 0.0173,
-      "place_prob": 0.0627,
+      "win_prob": 0.0278,
+      "place_prob": 0.0928,
       "leg_type": "追",
       "pattern_fit": {
         "β": "△"
@@ -1125,8 +1126,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 15,
-      "win_prob": 0.0177,
-      "place_prob": 0.0774,
+      "win_prob": 0.0338,
+      "place_prob": 0.1179,
       "leg_type": "先",
       "pattern_fit": {
         "α": "△"
@@ -1162,8 +1163,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 16,
-      "win_prob": 0.0096,
-      "place_prob": 0.0346,
+      "win_prob": 0.0187,
+      "place_prob": 0.0628,
       "leg_type": "追",
       "pattern_fit": {
         "β": "△"

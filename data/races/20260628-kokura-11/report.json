@@ -28,7 +28,8 @@
     "市場ゼロ(I1): 市場情報・他人の予想は証拠にもログにも不使用。並びは馬の内在情報のみ。",
     "条件確定: 小倉芝1200・3勝クラス・ハンデ・8頭。fetch_racecardがダ1700と誤パース→走破時計1:07-1:09・netkeiba公式出馬表・全観点照合で芝1200に確定。",
     "小倉芝1200は前残りが強烈（逃げ・先行で複勝の大半を占め、差し・追込は大きく割り引かれる）＝差し7頭に構造的逆風。外枠やや有利だが8頭少頭数で枠差縮小。",
-    "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+    "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
+    "観点欠落(C,F,G,H): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
   ],
   "pivot": "③ジュンヴァンケットが⑥に競りかけるか控えるか＝前残り（⑥◎・③粘り）か差し台頭（⑧②浮上）かの分岐。",
   "day_board": {
@@ -379,8 +380,8 @@
       "intent": "→",
       "mark": "◎",
       "rank_order": 1,
-      "win_prob": 0.4234,
-      "place_prob": 0.7579,
+      "win_prob": 0.313,
+      "place_prob": 0.6862,
       "leg_type": "逃",
       "pattern_fit": {
         "α": "◎",
@@ -422,8 +423,8 @@
       "intent": "↑",
       "mark": "○",
       "rank_order": 2,
-      "win_prob": 0.1682,
-      "place_prob": 0.5597,
+      "win_prob": 0.1581,
+      "place_prob": 0.4898,
       "leg_type": "差",
       "pattern_fit": {
         "α": "○",
@@ -453,8 +454,8 @@
       "intent": "→",
       "mark": "▲",
       "rank_order": 3,
-      "win_prob": 0.1383,
-      "place_prob": 0.5507,
+      "win_prob": 0.1496,
+      "place_prob": 0.4835,
       "leg_type": "逃",
       "pattern_fit": {
         "α": "◎",
@@ -492,8 +493,8 @@
       "intent": "→",
       "mark": "△",
       "rank_order": 4,
-      "win_prob": 0.0621,
-      "place_prob": 0.2582,
+      "win_prob": 0.0845,
+      "place_prob": 0.2957,
       "leg_type": "差",
       "pattern_fit": {},
       "pace_sensitivity": "平均〜超スローで好位差しの立ち回りなら（α△）。芝1400巧者の短縮で幸は当地最多勝だが牡8高齢で上積み乏しい。",
@@ -523,8 +524,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 5,
-      "win_prob": 0.0361,
-      "place_prob": 0.1543,
+      "win_prob": 0.0578,
+      "place_prob": 0.2093,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -561,8 +562,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 6,
-      "win_prob": 0.0419,
-      "place_prob": 0.1801,
+      "win_prob": 0.0637,
+      "place_prob": 0.2299,
       "leg_type": "差",
       "pattern_fit": {
         "γ": "○"
@@ -598,8 +599,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 7,
-      "win_prob": 0.0649,
-      "place_prob": 0.2704,
+      "win_prob": 0.0864,
+      "place_prob": 0.3024,
       "leg_type": "差",
       "pattern_fit": {},
       "pace_sensitivity": "大外一気型で前残りコース最不向き。芝1200短縮・連続大敗で展開も向かない。",
@@ -633,8 +634,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 8,
-      "win_prob": 0.065,
-      "place_prob": 0.2687,
+      "win_prob": 0.0869,
+      "place_prob": 0.3031,
       "leg_type": "差",
       "pattern_fit": {},
       "pace_sensitivity": "小柄430で連続大敗、芝1200・3勝は力負け。西村強化乗替のみで地力・適性とも足りない。",

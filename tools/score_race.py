@@ -33,7 +33,7 @@ score_race.py — 着順エンジン v4.0（相変位再帰モデル）の決定
 """
 import sys, json, math, argparse, statistics
 
-MODEL_VERSION = "4.1"
+MODEL_VERSION = "4.2"
 
 # === パラメータ早見表（6ノブ・scoring-model.md と一致させる） ===
 PARAMS = {
@@ -42,7 +42,7 @@ PARAMS = {
     "g_fwd":   0.35,  # 前を取りに行く消耗結合
     "w_pos0":  0.8,   # 終端の位置重み(ハイ時 L=1)
     "w_pos1":  2.6,   # スロー化で増える位置重み(=前残りレバー, L=0で計3.4)
-    "T":       0.35,  # softmax 温度(S スケール 0..~1.5 上)
+    "T":       0.55,  # softmax 温度(S スケール 0..~2 上。v4.2: 0.35→0.55 過信を是正)
     "LEG_ADV_GAIN": 0.20,  # 合成器著作 leg_advantage の終端S変調ゲイン(v4.1)。pace_level では出ないコース固有の脚質有利不利(残差)を率に反映。0=従来(無効)
 }
 # 構造定数（非tunable・ノブ数を6に固定するため）

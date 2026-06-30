@@ -35,6 +35,8 @@
 | `.claude/skills/screen-card/references/upset-conditions.md` | **荒れ条件カタログ**（Y軸の**条件側**正本：ハンデ/福島/多頭数/芝道悪…の事前荒れフラグ＋堅い条件）。半静的＝年1更新。**🚧 選別専用＝予想本体(`/analyze-race`)には使わない**。 |
 | `tools/fetch_odds.py` | **P1 隔離オッズ→団子度**（Y軸の当日側）。単勝→①1-2人気差②1人気オッズ③30倍以下頭数④平均→団子度ティア（純ロジック＝`--self-check`）。JRA=発売中のみ／`paste`が確実経路。**団子度の数値閾値の正本**。出力は `data/screening/` のみ。 |
 | `tools/screen_conditions.py` | **条件荒れ度の機械算定**（STEP2の決定論実装・Y条件側）。場/頭数/距離/芝ダ/クラス/重賞名→`cond_rage`(強/中/弱)＋フラグ。`assess`=全R表示／`fill`=screening ファイルを**全R化**（未評価平場を『見送り・条件のみ』で補完）。源は upset-conditions・web不要。 |
+| `tools/calibrate_T.py` | **softmax温度Tの較正**（`/calibrate-T`）。report.json＋results.jsonl突合→T走査→Brier最小のTを提案。5件以上で判定。`--apply`でscore_race.pyに書き込み（scoring-model.mdミラーは手動）。 |
+| `.claude/skills/calibrate-T/SKILL.md` | `/calibrate-T` の手順（較正スクリプト実行→判定→適用→ミラー更新）。 |
 
 ## 「〜を変えたい」→ どこを直す
 
@@ -51,6 +53,7 @@
 | **観点Kの遅延（前走騎手のweb同定）** | `tools/fetch_racecard.py`（`recent[].jockey`＝seedで確定）＋ `agents/obs-k-jockey.md`（webは騎手コース成績だけ）。配線は `analyze-race/SKILL.md`（seed注入 E/C/B/K） |
 | 各観点の**調査手順・ソース** | `research-protocol.md` |
 | スコアリングの**語彙・エンジン（6ノブ）** | `scoring-model.md` |
+| **単勝率/複勝率の確率精度（Tの較正）** | `tools/calibrate_T.py`（較正スクリプト＝`/calibrate-T`）→ `tools/score_race.py`（T値）→ `scoring-model.md`（ミラー） |
 | **採点基準・A/B/C 仕分け・修正ルーティング** | `review-prediction/SKILL.md` |
 | **スクレイピング**（取得元・コード） | `scraping.md` |
 | **速度・締切（速報モード／壁時計を切り詰める）** | `analyze-race/SKILL.md`（STEP1 締切確認・STEP2 速報5観点・CREED の `DEADLINE_CAP`・runOne の `model`）。観点を減らす/web を1バッチに絞るが主レバー（研究agentは常時 Sonnet＝モデルはレバーでない。Opusは合成 PaceSynthesis/着順のみ）。馬券は発走で締切＝速度は精度の前提 |
