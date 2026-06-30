@@ -168,14 +168,20 @@ def build_rank(pm, seed, sc, pc):
             mk = fit_to_mark(fit.get(no, -9))
             if mk:
                 pattern_fit[pid] = mk
-        # pros/cons の素材: スコア>0観点の pros、スコア<0観点と I の cons を tag 付きで束ねる
+        # pros/cons の素材: スコア>0観点の pros 全件、スコア<0観点と I の cons 全件を tag 付きで束ねる
         pros, cons = [], []
         for pt, (pp, cc) in (pc.get(no) or {}).items():
             s = (sc.get(no) or {}).get(pt)
-            if isinstance(s, (int, float)) and s > 0 and pp and clean_note(pp[0]):
-                pros.append({"tag": pt, "note": clean_note(pp[0])})
-            if (pt == "I" or (isinstance(s, (int, float)) and s < 0)) and cc and clean_note(cc[0]):
-                cons.append({"tag": pt, "note": clean_note(cc[0])})
+            if isinstance(s, (int, float)) and s > 0:
+                for note in pp:
+                    cleaned = clean_note(note)
+                    if cleaned:
+                        pros.append({"tag": pt, "note": cleaned})
+            if pt == "I" or (isinstance(s, (int, float)) and s < 0):
+                for note in cc:
+                    cleaned = clean_note(note)
+                    if cleaned:
+                        cons.append({"tag": pt, "note": cleaned})
         total = sum(v for v in (sc.get(no) or {}).values() if isinstance(v, (int, float)))
         rows.append({
             "no": no, "gate": str(h.get("waku") or ""), "horse": h.get("name"),

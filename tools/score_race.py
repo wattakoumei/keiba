@@ -111,11 +111,12 @@ def phase_abilities(h):
 
     nA, nB, nC, nD = g("A"), g("B"), g("C"), g("D")
     nF, nG, nH, nK = g("F"), g("G"), g("H"), g("K")
+    nL = g("L")
     eI = sc.get("I", 0.0) or 0.0
 
     # --- A_class: 旧 ability0 を 0..1 に圧縮し、乗数へ降格 ---
     base = 0.40 * nA + 0.40 * nB + 0.20 * nC
-    apt = 1.0 + 0.15 * (2 * nD - 1)
+    apt = 1.0 + 0.15 * (2 * nD - 1) + 0.05 * (2 * nL - 1)  # L(リピーター)=条件適性としてaptに加算
     cond = (1.0 + 0.07 * (2 * nF - 1) + 0.05 * (2 * nG - 1)
             + 0.05 * (2 * nH - 1) + 0.06 * (2 * nK - 1))
     disc = 0.10 * (-eI)

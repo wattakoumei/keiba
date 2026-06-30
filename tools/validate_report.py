@@ -227,6 +227,13 @@ def validate(d, v: V):
                                 v.err(f"{p}.{kk}[{j}]", "要素は {tag, note} であること")
         if orders and sorted(orders) != list(range(1, len(orders) + 1)):
             v.err("$.rank", f"rank_order が 1..N の連番でない（重複/欠番＝順位相関の採点正本が破損）: {sorted(orders)}")
+        # N3: win_prob 総和チェック（率を持つレポートのみ。score_race.py のバグや手動編集で壊れた率を検出）
+        if has_prob:
+            wps = [r.get("win_prob", 0) for r in rank if isinstance(r, dict) and isinstance(r.get("win_prob"), (int, float))]
+            if wps:
+                wsum = sum(wps)
+                if abs(wsum - 1.0) > 0.05:
+                    v.err("$.rank", f"win_prob の総和が 1.0 から乖離: Σ={wsum:.4f}（score_race.py 注入の異常 or 手動編集の疑い）")
         # §2-1 脚質表と §3 着順表は同じ全馬集合であること（どちらかに欠落馬が混ざらない）
         if leg_nos and nos and leg_nos != nos:
             v.err("$.rank", f"脚質表(§2-1)と着順表(§3)の馬番集合が不一致: 脚質表のみ={sorted(leg_nos - nos)} / 着順表のみ={sorted(nos - leg_nos)}")
