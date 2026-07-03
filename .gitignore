@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .claude/settings.local.json
+
+# codex_fanout の一時プロンプト
+data/races/*/.codex_prompts/

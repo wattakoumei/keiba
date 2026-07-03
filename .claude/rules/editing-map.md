@@ -41,6 +41,12 @@
 | `tools/missing_results.py` | **改善ループのデータ欠落ゲート**（結果未記録/展開採点なし/着順採点なし/ペース未復元 の4種を列挙）。`/backfill-results` の STEP1。 |
 | `.claude/skills/backfill-results/SKILL.md` | **確定結果の収集バックフィル手順**（欠落特定→Sonnet並列収集→機械検証→追記）。事実収集のみ＝採点は `/review-prediction`。レース翌日の定期実行を想定。 |
 | `.claude/skills/calibrate-T/SKILL.md` | `/calibrate-T` の手順（較正スクリプト実行→判定→適用→ミラー更新）。 |
+| **── Codex 移植（別エージェントで同ハーネスを回す・単一ソース）──** | |
+| `AGENTS.md` | **Codex のエントリ（薄いポインタ）**。CLAUDE.md＋`.claude/rules/` を正本として指すだけ＝複製しない。Claude↔Codex の対応表（symlink/生成物/共有ツール）とドリフト防止を持つ。 |
+| `.agents/skills/` | Codex 用スキル。`SKILL.md` と `references/` は **`.claude/` への symlink＝同一バイト**（単一ソース）。Codex 側で編集＝正本を編集。別物にしない。 |
+| `.codex/agents/*.toml` | Codex 用の観点定義（11体）。**生成物**＝手で編集しない。正本 `.claude/agents/obs-*.md` を直し `tools/gen_codex_agents.py` で再生成。 |
+| `tools/gen_codex_agents.py` | **`.claude/agents/obs-*.md` → `.codex/agents/*.toml` ジェネレータ**（md↔toml は形式だけの差＝内容は正本一本）。`--check` でコミット前ゲート・`--self-check`。 |
+| `tools/codex_fanout.py` | **Codex の観点並列 fan-out driver**（Workflow 相当）。観点ごと `codex exec` を並列起動し research-`<X>`.json を書かせる。`--dry-run`/`--only`/`--self-check`。`codex` 実行コマンドは `CODEX_EXEC_TEMPLATE` env で版に合わせて上書き。 |
 
 ## 「〜を変えたい」→ どこを直す
 
