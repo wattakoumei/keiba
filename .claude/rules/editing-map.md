@@ -36,7 +36,8 @@
 | `tools/fetch_odds.py` | **P1 隔離オッズ→団子度**（Y軸の当日側）。単勝→①1-2人気差②1人気オッズ③30倍以下頭数④平均→団子度ティア（純ロジック＝`--self-check`）。JRA=発売中のみ／`paste`が確実経路。**団子度の数値閾値の正本**。出力は `data/screening/` のみ。 |
 | `tools/screen_conditions.py` | **条件荒れ度の機械算定**（STEP2の決定論実装・Y条件側）。場/頭数/距離/芝ダ/クラス/重賞名→`cond_rage`(強/中/弱)＋フラグ。`assess`=全R表示／`fill`=screening ファイルを**全R化**（未評価平場を『見送り・条件のみ』で補完）。源は upset-conditions・web不要。 |
 | `tools/calibrate_T.py` | **softmax温度Tの較正**（`/calibrate-T`）。report.json＋results.jsonl突合→T走査→Brier最小のTを提案。5件以上で判定。`--apply`でscore_race.pyに書き込み（scoring-model.mdミラーは手動）。 |
-| `tools/backtest.py` | **エンジン経路の一括再採点（バックテスト）**。research/report/seed＋results.jsonl を突合し、現行PARAMS（および `--set KEY=VALUE` 上書きとのA/B）で score_race を再生→Brier/対数損失/Spearman/的中率を集計。論理の並び(rank_order・◎)は「記録時の参照値」として並記（再生不能＝前向きでしか測れない）。読み取り専用＝report.json/results.jsonl を書き換えない。 |
+| `tools/backtest.py` | **エンジン経路の一括再採点（バックテスト）**。research/report/seed＋results.jsonl を突合し、現行PARAMS（および `--set KEY=VALUE` 上書きとのA/B）で score_race を再生→Brier/対数損失/Spearman/的中率を集計。`--segment` で脚質/馬場/頭数/距離別の較正ギャップ（系統誤差の特定→ノブ昇格の判断材料）。論理の並び(rank_order・◎)は「記録時の参照値」として並記（再生不能＝前向きでしか測れない）。読み取り専用＝report.json/results.jsonl を書き換えない。 |
+| `tools/record_change.py` | **変更台帳**（`data/changes.jsonl`・追記のみ）。ノブ/読み筋/ツール変更を採用時バックテスト集計と一緒に記録し、`compare` で導入後レースの効果測定（knob=同一レース集合での旧値反実仮想A/B・rule等=粗比較）。最低N=10ゲート。「1変更=1記録・複数ノブ同時変更をしない」が運用規律。 |
 | `.claude/skills/calibrate-T/SKILL.md` | `/calibrate-T` の手順（較正スクリプト実行→判定→適用→ミラー更新）。 |
 
 ## 「〜を変えたい」→ どこを直す
@@ -56,6 +57,8 @@
 | スコアリングの**語彙・エンジン（6ノブ）** | `scoring-model.md` |
 | **単勝率/複勝率の確率精度（Tの較正）** | `tools/calibrate_T.py`（較正スクリプト＝`/calibrate-T`）→ `tools/score_race.py`（T値）→ `scoring-model.md`（ミラー） |
 | **ノブ・エンジン変更の事前検証**（過去コーパスでA/B） | `tools/backtest.py`（`--set T=0.7` 等で現行と比較）→ 採用は人間承認・適用は従来経路（calibrate_T `--apply` / score_race PARAMS＋scoring-model.md ミラー） |
+| **変更の効果測定**（導入した変更が改善だったか） | `tools/record_change.py`（採用時に `add`・後日 `compare`）。読み筋（散文）変更は再生不能＝これが唯一の測定経路 |
+| **系統誤差の特定**（どのセグメントで率がズレるか） | `tools/backtest.py --segment` → ズレの大きい軸だけノブ/読み筋の修正候補に昇格 |
 | **採点基準・A/B/C 仕分け・修正ルーティング** | `review-prediction/SKILL.md` |
 | **スクレイピング**（取得元・コード） | `scraping.md` |
 | **速度・締切（速報モード／壁時計を切り詰める）** | `analyze-race/SKILL.md`（STEP1 締切確認・STEP2 速報5観点・CREED の `DEADLINE_CAP`・runOne の `model`）。観点を減らす/web を1バッチに絞るが主レバー（研究agentは常時 Sonnet＝モデルはレバーでない。Opusは合成 PaceSynthesis/着順のみ）。馬券は発走で締切＝速度は精度の前提 |

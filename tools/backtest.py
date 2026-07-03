@@ -114,8 +114,9 @@ def load_corpus(race_filter=None, since=None):
 # === 採点 ===
 
 def score_engine(corpus, params_override=None):
-    """コーパス全体をエンジン再生し、レース別＋集計の指標を返す。"""
+    """コーパス全体をエンジン再生し、レース別＋集計＋馬単位明細(starts)の指標を返す。"""
     per_race = []
+    starts = []  # 馬単位明細（セグメント較正の素）
     briers_w, briers_p, briers_base = [], [], []
     loglosses = []
     top1_win = top1_place = 0
@@ -131,12 +132,23 @@ def score_engine(corpus, params_override=None):
         nos = [n for n in race["valid_nos"] if n in wp]
         n_run = len(actual)
 
+        style_of = {h["no"]: score_race._sty_key(h.get("style")) or "不明"
+                    for h in data["horses"]}
+        course = (race["report"].get("course") or {}) if race.get("report") else {}
+        surface = (course.get("surface") or "不明").strip()
+        surface = {"ダート": "ダ", "turf": "芝", "dirt": "ダ"}.get(surface, surface)
+        dist = course.get("distance")
+
         for no in nos:
             won = 1 if actual[no] == 1 else 0
             placed = 1 if actual[no] <= 3 else 0
             briers_w.append((wp[no] - won) ** 2)
             briers_p.append((pp[no] - placed) ** 2)
             briers_base.append((1.0 / n_run - won) ** 2)
+            starts.append({"race_id": race["race_id"], "no": no,
+                           "style": style_of.get(no, "不明"), "surface": surface,
+                           "field": n_run, "dist": dist,
+                           "wp": wp[no], "pp": pp[no], "won": won, "placed": placed})
 
         winner = next((n for n in nos if actual[n] == 1), None)
         ll = -math.log(max(wp[winner], EPS)) if winner is not None else None
@@ -177,7 +189,67 @@ def score_engine(corpus, params_override=None):
         "top1_place_rate": round(top1_place / n, 3) if n else None,
         "top3_overlap_mean": round(sum(overlaps) / len(overlaps), 4) if overlaps else None,
     }
-    return {"aggregate": agg, "per_race": per_race}
+    return {"aggregate": agg, "per_race": per_race, "starts": starts,
+            "segments": segment_report(starts) if starts else None}
+
+
+# === セグメント較正（系統誤差の特定） ===
+
+def _field_bucket(n):
+    return "〜10頭" if n <= 10 else ("11-14頭" if n <= 14 else "15頭〜")
+
+
+def _dist_bucket(d):
+    if d is None:
+        return "不明"
+    return "〜1400m" if d <= 1400 else ("1401-1999m" if d < 2000 else "2000m〜")
+
+
+SEGMENT_AXES = {
+    "脚質": lambda s: s["style"],
+    "馬場": lambda s: s["surface"],
+    "頭数": lambda s: _field_bucket(s["field"]),
+    "距離": lambda s: _dist_bucket(s["dist"]),
+}
+
+
+def segment_report(starts):
+    """馬単位明細を軸別に集計し、予測率と実現率の乖離（較正ギャップ）を出す。
+    gap_win = mean(win_prob) − 実勝率。正=過大評価・負=過小評価。"""
+    out = {}
+    for axis, keyfn in SEGMENT_AXES.items():
+        groups = {}
+        for s in starts:
+            groups.setdefault(keyfn(s), []).append(s)
+        rows = []
+        for seg, ss in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+            n = len(ss)
+            mean_wp = sum(s["wp"] for s in ss) / n
+            act_win = sum(s["won"] for s in ss) / n
+            mean_pp = sum(s["pp"] for s in ss) / n
+            act_plc = sum(s["placed"] for s in ss) / n
+            rows.append({"segment": seg, "n": n,
+                         "pred_win": round(mean_wp, 4), "act_win": round(act_win, 4),
+                         "gap_win": round(mean_wp - act_win, 4),
+                         "pred_place": round(mean_pp, 4), "act_place": round(act_plc, 4),
+                         "gap_place": round(mean_pp - act_plc, 4),
+                         "brier_win": round(sum((s["wp"] - s["won"]) ** 2 for s in ss) / n, 5)})
+        out[axis] = rows
+    return out
+
+
+def segment_human(segs):
+    lines = ["## セグメント較正（gap=予測−実現。正=過大評価・負=過小評価。n<30は参考扱い）"]
+    for axis, rows in segs.items():
+        lines.append(f"### {axis}")
+        lines.append(f"{'セグメント':<12} {'n':>4} {'予測勝率':>8} {'実勝率':>8} {'gap':>8} "
+                     f"{'予測複勝':>8} {'実複勝':>8} {'gap':>8}")
+        for r in rows:
+            lines.append(f"{r['segment']:<12} {r['n']:>4} {r['pred_win']:>8.3f} {r['act_win']:>8.3f} "
+                         f"{r['gap_win']:>+8.3f} {r['pred_place']:>8.3f} {r['act_place']:>8.3f} "
+                         f"{r['gap_place']:>+8.3f}")
+        lines.append("")
+    return "\n".join(lines)
 
 
 def score_logic(corpus):
@@ -311,6 +383,13 @@ def self_check():
     lg = score_logic(corpus)["aggregate"]
     if lg["spearman_mean"] != 1.0 or lg["hon_win_rate"] != 1.0:
         errs.append("score_logic 完全的中例の採点不正")
+    segs = eng["segments"]
+    if segs is None or sum(r["n"] for r in segs["脚質"]) != 3:
+        errs.append("segment_report 脚質軸の件数不正")
+    total_gap = sum(r["gap_win"] * r["n"] for r in segs["脚質"]) / 3
+    exp_gap = sum(s["wp"] for s in eng["starts"]) / 3 - 1 / 3
+    if abs(total_gap - exp_gap) > 1e-3:
+        errs.append("segment gap の加重和が全体gapと不一致")
     # A/B: T を大きくすると確率が平坦化＝的中1着馬の logloss は増えるはず
     eng_hiT = score_engine(corpus, {"T": 5.0})
     if eng_hiT["aggregate"]["logloss_win"] <= a["logloss_win"]:
@@ -336,6 +415,8 @@ def main():
                     help="PARAMS 上書き KEY=VALUE（複数可）→ 現行とのA/B比較")
     ap.add_argument("--races", default=None, help="カンマ区切りの race_id で絞り込み")
     ap.add_argument("--since", default=None, help="YYYYMMDD 以降のレースのみ")
+    ap.add_argument("--segment", action="store_true",
+                    help="脚質/馬場/頭数/距離別の較正ギャップ表を追加表示")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--self-check", action="store_true")
     args = ap.parse_args()
@@ -362,9 +443,18 @@ def main():
            "logic": score_logic(corpus)}
 
     if args.json:
+        for k in ("engine_baseline", "engine_variant"):
+            if out.get(k):
+                out[k] = {kk: vv for kk, vv in out[k].items() if kk != "starts"}
         print(json.dumps(out, ensure_ascii=False, indent=2))
     else:
         print(human_report(out))
+        if args.segment:
+            print()
+            print(segment_human(out["engine_baseline"]["segments"]))
+            if out.get("engine_variant"):
+                print("## セグメント較正（上書き側）")
+                print(segment_human(out["engine_variant"]["segments"]))
     return 0
 
 
