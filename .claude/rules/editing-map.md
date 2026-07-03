@@ -38,6 +38,8 @@
 | `tools/calibrate_T.py` | **softmax温度Tの較正**（`/calibrate-T`）。report.json＋results.jsonl突合→T走査→Brier最小のTを提案。5件以上で判定。`--apply`でscore_race.pyに書き込み（scoring-model.mdミラーは手動）。 |
 | `tools/backtest.py` | **エンジン経路の一括再採点（バックテスト）**。research/report/seed＋results.jsonl を突合し、現行PARAMS（および `--set KEY=VALUE` 上書きとのA/B）で score_race を再生→Brier/対数損失/Spearman/的中率を集計。`--segment` で脚質/馬場/頭数/距離別の較正ギャップ（系統誤差の特定→ノブ昇格の判断材料）。論理の並び(rank_order・◎)は「記録時の参照値」として並記（再生不能＝前向きでしか測れない）。読み取り専用＝report.json/results.jsonl を書き換えない。 |
 | `tools/record_change.py` | **変更台帳**（`data/changes.jsonl`・追記のみ）。ノブ/読み筋/ツール変更を採用時バックテスト集計と一緒に記録し、`compare` で導入後レースの効果測定（knob=同一レース集合での旧値反実仮想A/B・rule等=粗比較）。最低N=10ゲート。「1変更=1記録・複数ノブ同時変更をしない」が運用規律。 |
+| `tools/missing_results.py` | **改善ループのデータ欠落ゲート**（結果未記録/展開採点なし/着順採点なし/ペース未復元 の4種を列挙）。`/backfill-results` の STEP1。 |
+| `.claude/skills/backfill-results/SKILL.md` | **確定結果の収集バックフィル手順**（欠落特定→Sonnet並列収集→機械検証→追記）。事実収集のみ＝採点は `/review-prediction`。レース翌日の定期実行を想定。 |
 | `.claude/skills/calibrate-T/SKILL.md` | `/calibrate-T` の手順（較正スクリプト実行→判定→適用→ミラー更新）。 |
 
 ## 「〜を変えたい」→ どこを直す
