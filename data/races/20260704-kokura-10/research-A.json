@@ -1,0 +1,20 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "取得済みseedの近走時計・上がり最速を中心に評価。小倉ダ1000実績を強く見る。",
+  "horses": [
+    {"no": 1, "name": "ペイシャヴァルツー", "pros": ["テン速は上位"], "cons": ["小倉1000で1:00.5、札幌1000で59.9と時計が足りない"], "score": -2, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 2, "name": "パルプフィクション", "pros": ["小倉1000で58.9の持ち時計"], "cons": ["直近は伸び切れず上位時計に一歩劣る"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 3, "name": "ディーエスショウマ", "pros": ["小倉1000で59.1"], "cons": ["直近の福島1150で時計・着順とも弱い"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 4, "name": "ザウリ", "pros": ["小倉1000で58.1、上がり34.6は出走馬上位"], "cons": ["追込寄りで展開待ち"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 5, "name": "リクエイ", "pros": ["小倉1000で59.4、福島1150で1:09.4"], "cons": ["上位時計にはやや届かない"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 6, "name": "ローズカリス", "pros": ["芝重賞で35秒台の脚はある"], "cons": ["ダ1000時計は未確認で距離短縮頼み"], "score": -1, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 7, "name": "ジャスパーソレイユ", "pros": ["中山1200で1:11.2の内容は地力材料"], "cons": ["直近2走は大敗"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 8, "name": "パールフロント", "pros": ["小倉1000で58.5、59.3と同舞台で安定"], "cons": ["テンは遅く位置が後ろになりやすい"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 9, "name": "アストラカ", "pros": ["芝1200で上がり33.2の決め手"], "cons": ["ダ1000の序盤位置が後ろになりすぎる"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 10, "name": "セールヴォラン", "pros": ["阪神1200で1:11.2、直近も2勝で4着"], "cons": ["小倉1000は初で忙しさが鍵"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 11, "name": "ブルーノート", "pros": ["阪神1200で上がり36.4"], "cons": ["近走時計が平凡"], "score": -2, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 12, "name": "ゴールデンバランス", "pros": ["前走小倉1000を58.0で逃げ切り、上がり35.3"], "cons": ["昇級で同じ形を作れるか"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]}
+  ],
+  "note": "出走表seedの時計・上がりを使用。市場情報は不使用。"
+}

@@ -1,0 +1,20 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "乗り替わり方向と騎手の位置取り期待をseedから評価。深掘りwebは未実施のため確信度は中以下。",
+  "horses": [
+    {"no": 1, "name": "ペイシャヴァルツー", "pros": ["内枠で主張しやすい"], "cons": ["井上敏樹へ乗替で強調材料は薄い"], "score": -1, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 2, "name": "パルプフィクション", "pros": ["富田暁は近走騎乗歴あり"], "cons": ["前走は吉田隼人から乗替"], "score": 0, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 3, "name": "ディーエスショウマ", "pros": ["菱田裕二で差しに徹せる"], "cons": ["斎藤新から乗替"], "score": 0, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 4, "name": "ザウリ", "pros": ["松山弘平への乗替は明確に前向き"], "cons": ["追込寄りで展開依存"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 5, "name": "リクエイ", "pros": ["長岡禎仁継続で癖を把握"], "cons": [], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 6, "name": "ローズカリス", "pros": ["田口貫太継続"], "cons": ["短距離ダート替わりで乗り方が難しい"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 7, "name": "ジャスパーソレイユ", "pros": ["川田将雅継続で立て直し期待"], "cons": ["近走大敗の修正が必要"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 8, "name": "パールフロント", "pros": ["高杉吏麒で軽快に運べれば"], "cons": ["川又賢治から乗替"], "score": 0, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 9, "name": "アストラカ", "pros": ["幸英明への乗替で前進余地"], "cons": ["後方一手の修正が課題"], "score": 0, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 10, "name": "セールヴォラン", "pros": ["松若風馬は近走騎乗歴があり好位策を取りやすい"], "cons": ["前走幸英明から乗替"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 11, "name": "ブルーノート", "pros": ["藤懸貴志で差しに徹する形"], "cons": ["近走から大きな強調なし"], "score": -1, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 12, "name": "ゴールデンバランス", "pros": ["西村淳也への乗替で外枠から主張しやすい"], "cons": ["前走逃げ切り時の松若風馬から乗替"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]}
+  ],
+  "note": "前走騎手比較は出走表seed由来。"
+}

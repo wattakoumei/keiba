@@ -1,0 +1,27 @@
+{
+  "legs": [
+    {"no": 1, "name": "ペイシャヴァルツー", "style": "逃げ", "ten_speed": "速", "expected_pos": "最内からハナ主張"},
+    {"no": 2, "name": "パルプフィクション", "style": "先行", "ten_speed": "中", "expected_pos": "内の好位"},
+    {"no": 3, "name": "ディーエスショウマ", "style": "差し", "ten_speed": "中", "expected_pos": "中団"},
+    {"no": 4, "name": "ザウリ", "style": "追込", "ten_speed": "遅", "expected_pos": "後方"},
+    {"no": 5, "name": "リクエイ", "style": "差し", "ten_speed": "中", "expected_pos": "中団"},
+    {"no": 6, "name": "ローズカリス", "style": "追込", "ten_speed": "中", "expected_pos": "後方"},
+    {"no": 7, "name": "ジャスパーソレイユ", "style": "差し", "ten_speed": "中", "expected_pos": "中団"},
+    {"no": 8, "name": "パールフロント", "style": "差し", "ten_speed": "遅", "expected_pos": "後方寄り"},
+    {"no": 9, "name": "アストラカ", "style": "追込", "ten_speed": "遅", "expected_pos": "後方"},
+    {"no": 10, "name": "セールヴォラン", "style": "差し", "ten_speed": "中", "expected_pos": "好位〜中団"},
+    {"no": 11, "name": "ブルーノート", "style": "追込", "ten_speed": "遅", "expected_pos": "後方"},
+    {"no": 12, "name": "ゴールデンバランス", "style": "逃げ", "ten_speed": "速", "expected_pos": "外からハナ主張"}
+  ],
+  "lead_contenders": [
+    {"no": 1, "stance": "最内で行き脚は速いが近走失速があり粘りは疑問"},
+    {"no": 10, "stance": "前走1角先頭で好位を取りに行く可能性"},
+    {"no": 12, "stance": "直近小倉1000を逃げ切り、主導権候補の中心"}
+  ],
+  "draw": [
+    {"no": 1, "note": "最内でハナ主張しやすい"},
+    {"no": 12, "note": "外枠だが小倉ダ1000は芝スタートなし、被されにくく主張可能"},
+    {"no": 8, "note": "差し馬で枠より位置取りが鍵"}
+  ],
+  "note": "脚質はfetch_racecard seedの通過順由来。"
+}

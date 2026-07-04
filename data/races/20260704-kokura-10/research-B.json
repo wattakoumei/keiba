@@ -1,0 +1,20 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "近走内容と同級通用度を評価。昇級馬は前走内容を加点しつつ、クラス替わりを懸念に残す。",
+  "horses": [
+    {"no": 1, "name": "ペイシャヴァルツー", "pros": ["逃げ脚質で主導権候補"], "cons": ["直近2走が15着・14着で失速傾向"], "score": -2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 2, "name": "パルプフィクション", "pros": ["同舞台で先行経験あり"], "cons": ["休み明け前の近走は9着・13着・12着"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 3, "name": "ディーエスショウマ", "pros": ["同級経験は豊富"], "cons": ["直近2走が13着・11着で内容が薄い"], "score": -2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 4, "name": "ザウリ", "pros": ["伊万里特別2着で同舞台同級通用"], "cons": ["中京1200は7着で取りこぼしあり"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 5, "name": "リクエイ", "pros": ["喜多方特別8着、同舞台7着で大崩れは少ない"], "cons": ["決め切る材料は弱い"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 6, "name": "ローズカリス", "pros": ["2歳G1・重賞経験があり相手経験は高い"], "cons": ["近2走が10着・16着で近況下降"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 7, "name": "ジャスパーソレイユ", "pros": ["1月中山で2勝クラス2着"], "cons": ["直近2走が15着・14着"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 8, "name": "パールフロント", "pros": ["伊万里特別5着・有田特別4着・喜多方特別7着で安定"], "cons": ["勝ち切りまでは位置取りが必要"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 9, "name": "アストラカ", "pros": ["2勝クラスで差し脚は使える"], "cons": ["近走は後方過ぎて届かない競馬が続く"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 10, "name": "セールヴォラン", "pros": ["直近2勝で4着・5着、前走は1角先頭で内容良化"], "cons": ["1000m替わりで追走の忙しさがある"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 11, "name": "ブルーノート", "pros": ["差し脚は使える"], "cons": ["近走11着・12着・8着で上昇材料が薄い"], "score": -2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 12, "name": "ゴールデンバランス", "pros": ["前走小倉1000を逃げ切り、同条件への適応が明確"], "cons": ["今回は昇級で相手強化"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md"]}
+  ],
+  "note": "seedのrecentを主材料に全頭評価。"
+}

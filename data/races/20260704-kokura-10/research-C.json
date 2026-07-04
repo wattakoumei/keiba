@@ -1,0 +1,20 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "短距離ダートへの血統適性を評価。カタログ内の傾向と母父のダート短距離要素を中心に扱う。",
+  "horses": [
+    {"no": 1, "name": "ペイシャヴァルツー", "pros": ["母父サウスヴィグラスで短距離ダートの行き脚を支える"], "cons": ["父側はカタログ外で補強不足"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 2, "name": "パルプフィクション", "pros": ["父ミッキーアイルはスピード・先行力が強い"], "cons": ["母父ステイゴールドで本質は持続寄り"], "score": 1, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 3, "name": "ディーエスショウマ", "pros": ["米国型ダート血統で短距離ダート自体は合う"], "cons": ["近走内容が血統適性を上書きする弱さ"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 4, "name": "ザウリ", "pros": ["父ビッグアーサーは短距離スピード型"], "cons": ["追込寄りで血統の先行力を今走の位置に直結しづらい"], "score": 1, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 5, "name": "リクエイ", "pros": ["母父スウェプトオーヴァーボードで短距離ダート向き"], "cons": ["父側はカタログ外で評価を控えめ"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 6, "name": "ローズカリス", "pros": ["母父ヘニーヒューズでダート短距離のスピードを補う"], "cons": ["父カリフォルニアクロームで1000mの忙しさはやや疑問"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 7, "name": "ジャスパーソレイユ", "pros": ["Mitole×Henny Hughesで米国型短距離色が濃い"], "cons": ["近況低調で血統だけでは上げきれない"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 8, "name": "パールフロント", "pros": ["母父クロフネはダート化・パワー供給"], "cons": ["父側は距離幅があり、1000mでは位置取りが鍵"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 9, "name": "アストラカ", "pros": ["父ドレフォンはダート1600-2000中心だがパワーは十分"], "cons": ["1000mへの短縮では序盤の忙しさが強い"], "score": 0, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 10, "name": "セールヴォラン", "pros": ["父グァンチャーレでスピード要素あり"], "cons": ["母父Swiss Spiritは国内評価材料が薄い"], "score": 0, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 11, "name": "ブルーノート", "pros": ["父コパノリッキー、母父クロフネでダート色は濃い"], "cons": ["短距離の行き脚より持続寄り"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]},
+    {"no": 12, "name": "ゴールデンバランス", "pros": ["母父Medaglia d'Oroで米国型ダートのスピード持続"], "cons": ["父レイデオロは短距離ダート特化ではない"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/pedigree-catalog.md"]}
+  ],
+  "note": "血統は一次フィルタ。近走実績を上書き材料にする。"
+}

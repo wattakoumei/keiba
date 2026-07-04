@@ -1,0 +1,20 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "小倉ダ1000は向正面2角寄り発走、下りから平坦直線で先手必勝寄り。ダートに芝スタートはない。",
+  "horses": [
+    {"no": 1, "name": "ペイシャヴァルツー", "pros": ["最内でハナ候補"], "cons": ["同舞台で先行失速があり適性を信頼しづらい"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 2, "name": "パルプフィクション", "pros": ["内枠先行で小倉1000の形は合う"], "cons": ["近走の粘り不足"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 3, "name": "ディーエスショウマ", "pros": ["小倉1000経験あり"], "cons": ["差し寄りで直線291mでは届きにくい"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 4, "name": "ザウリ", "pros": ["伊万里特別2着で同舞台適性が高い"], "cons": ["追込寄りで展開待ち"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 5, "name": "リクエイ", "pros": ["小倉1000で7着経験、差し込み余地あり"], "cons": ["決め手上位には劣る"], "score": 0, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 6, "name": "ローズカリス", "pros": ["軽斤量で短縮が刺激になる"], "cons": ["初ダ1000で追込寄りは割引"], "score": -1, "confidence": "低", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 7, "name": "ジャスパーソレイユ", "pros": ["短距離ダートの地力はある"], "cons": ["小倉1000初で近走の位置取りが安定しない"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 8, "name": "パールフロント", "pros": ["同舞台で5着・4着と条件適性が明確"], "cons": ["テンが遅く、前残りでは位置が足りない"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 9, "name": "アストラカ", "pros": ["ダート短距離経験はある"], "cons": ["後方一手で小倉1000の形と噛みにくい"], "score": -1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 10, "name": "セールヴォラン", "pros": ["前走1角先頭で1000mの流れに対応する余地"], "cons": ["小倉1000は初で外めから位置を取る必要"], "score": 1, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 11, "name": "ブルーノート", "pros": ["ダート短距離は経験豊富"], "cons": ["後方からでは小倉1000で苦しい"], "score": -2, "confidence": "中", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]},
+    {"no": 12, "name": "ゴールデンバランス", "pros": ["前走同舞台逃げ切りで適性最上位"], "cons": ["外枠から内の①を制する必要"], "score": 2, "confidence": "高", "sources": ["data/races/20260704-kokura-10/出走表.md", ".agents/skills/analyze-race/references/course-geometry.md"]}
+  ],
+  "note": "小倉ダ1000の静的形状と同舞台実績を使用。"
+}

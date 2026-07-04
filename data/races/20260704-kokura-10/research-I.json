@@ -1,0 +1,20 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.pyの決定論フラグを一次材料に、近走下降・休み明け・高齢を減点。",
+  "horses": [
+    {"no": 1, "name": "ペイシャヴァルツー", "pros": [], "cons": ["直近2走連続大敗と139日ぶり"], "score": -2, "confidence": "高", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 2, "name": "パルプフィクション", "pros": [], "cons": ["140日ぶりで近走も伸び切れず"], "score": -1, "confidence": "中", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 3, "name": "ディーエスショウマ", "pros": [], "cons": ["直近2走連続大敗"], "score": -1, "confidence": "高", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 4, "name": "ザウリ", "pros": [], "cons": ["7歳で追込寄り"], "score": -0.5, "confidence": "中", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 5, "name": "リクエイ", "pros": ["大きな決定論リスクなし"], "cons": [], "score": 0, "confidence": "中", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 6, "name": "ローズカリス", "pros": ["斤量が軽い"], "cons": ["近2走連続大敗"], "score": -1, "confidence": "中", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 7, "name": "ジャスパーソレイユ", "pros": [], "cons": ["近2走連続大敗"], "score": -1, "confidence": "高", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 8, "name": "パールフロント", "pros": ["大きな決定論リスクなし"], "cons": [], "score": 0, "confidence": "高", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 9, "name": "アストラカ", "pros": ["大きな決定論リスクなし"], "cons": ["後方一手"], "score": 0, "confidence": "中", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 10, "name": "セールヴォラン", "pros": ["直近内容が安定"], "cons": ["距離短縮で忙しさあり"], "score": 0, "confidence": "中", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 11, "name": "ブルーノート", "pros": [], "cons": ["7歳、下降基調、125日ぶり"], "score": -2, "confidence": "高", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]},
+    {"no": 12, "name": "ゴールデンバランス", "pros": ["決定論リスクなし"], "cons": ["昇級初戦"], "score": 0, "confidence": "高", "sources": ["tools/risk_flags.py", "data/races/20260704-kokura-10/出走表.md"]}
+  ],
+  "note": "決定論リスクseedを一次採用。"
+}
