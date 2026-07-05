@@ -1,0 +1,1244 @@
+{
+  "race_id": "202607050307",
+  "source": "jra",
+  "n": 15,
+  "surface": "ダ",
+  "distance": 1700,
+  "headcount": 15,
+  "draw_fixed": true,
+  "horses": [
+    {
+      "no": 1,
+      "waku": 1,
+      "name": "ニコ",
+      "sex_age": "牝4/黒鹿",
+      "weight": "56.0",
+      "jockey": "嶋田 純次",
+      "trainer": "大和田 成",
+      "sire": "ダノンバラード",
+      "damsire": "フレンチデピュティ",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 39.4,
+      "recent": [
+        {
+          "first_corner": 6,
+          "field": 15,
+          "agari": 39.4,
+          "date": "2026-04-12",
+          "venue": "福島",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1700,
+          "time": "1:49.5",
+          "body_weight": 398,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 12
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 2,
+      "waku": 2,
+      "name": "コヴェナント",
+      "sex_age": "牝4/鹿",
+      "weight": "56.0",
+      "jockey": "野中 悠太郎",
+      "trainer": "佐藤 吉勝",
+      "sire": "レッドベルジュール",
+      "damsire": "フサイチコンコルド",
+      "style": null,
+      "ten_speed": null,
+      "agari_best": null,
+      "recent": [],
+      "class_move": {
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
+      }
+    },
+    {
+      "no": 3,
+      "waku": 2,
+      "name": "ケープウィッカム",
+      "sex_age": "牝5/鹿",
+      "weight": "56.0",
+      "jockey": "戸崎 圭太",
+      "trainer": "中舘 英二",
+      "sire": "ドレフォン",
+      "damsire": "ディープインパクト",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 36.7,
+      "recent": [
+        {
+          "first_corner": 3,
+          "field": 14,
+          "agari": 36.7,
+          "date": "2026-05-16",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "戸崎 圭太",
+          "dist": 1600,
+          "time": "1:37.7",
+          "body_weight": 458,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 10,
+          "field": 16,
+          "agari": 37.1,
+          "date": "2026-04-25",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "三浦 皇成",
+          "dist": 1400,
+          "time": "1:25.3",
+          "body_weight": 458,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 4
+        },
+        {
+          "first_corner": 7,
+          "field": 15,
+          "agari": 37.8,
+          "date": "2026-03-01",
+          "venue": "中山",
+          "race": "牝1勝クラス",
+          "jockey": "岩田 康誠",
+          "dist": 1800,
+          "time": "1:54.1",
+          "body_weight": 456,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 3
+        },
+        {
+          "first_corner": 5,
+          "field": 15,
+          "agari": 39.2,
+          "date": "2025-12-06",
+          "venue": "中京",
+          "race": "牝1勝クラス",
+          "jockey": "丸山 元気",
+          "dist": 1800,
+          "time": "1:55.4",
+          "body_weight": 448,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 13
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 4,
+      "waku": 3,
+      "name": "フォンデネージュ",
+      "sex_age": "牝4/鹿",
+      "weight": "56.0",
+      "jockey": "木幡 巧也",
+      "trainer": "武井 亮",
+      "sire": "ドレフォン",
+      "damsire": "クロフネ",
+      "style": "先",
+      "ten_speed": "中",
+      "agari_best": 38.8,
+      "recent": [
+        {
+          "first_corner": 14,
+          "field": 15,
+          "agari": 39.4,
+          "date": "2026-04-12",
+          "venue": "福島",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1700,
+          "time": "1:49.9",
+          "body_weight": 522,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 14
+        },
+        {
+          "first_corner": 4,
+          "field": 13,
+          "agari": 39.1,
+          "date": "2026-02-07",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "岩田 康誠",
+          "dist": 1600,
+          "time": "1:40.1",
+          "body_weight": 518,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 11
+        },
+        {
+          "first_corner": 3,
+          "field": 16,
+          "agari": 38.8,
+          "date": "2025-12-13",
+          "venue": "中京",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1800,
+          "time": "1:55.3",
+          "body_weight": 516,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 10
+        },
+        {
+          "first_corner": 4,
+          "field": 14,
+          "agari": 39.6,
+          "date": "2025-10-18",
+          "venue": "新潟",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1800,
+          "time": "1:54.5",
+          "body_weight": 522,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 5
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 5,
+      "waku": 3,
+      "name": "グランコネクシオン",
+      "sex_age": "牝5/栗",
+      "weight": "56.0",
+      "jockey": "菊沢 一樹",
+      "trainer": "畠山 吉宏",
+      "sire": "ハーツクライ",
+      "damsire": "Manduro",
+      "style": "差",
+      "ten_speed": "遅",
+      "agari_best": 37.3,
+      "recent": [
+        {
+          "first_corner": 5,
+          "field": 10,
+          "agari": 38.2,
+          "date": "2026-05-17",
+          "venue": "新潟",
+          "race": "1勝クラス",
+          "jockey": "菊沢 一樹",
+          "dist": 1800,
+          "time": "1:54.8",
+          "body_weight": 442,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 4
+        },
+        {
+          "first_corner": 14,
+          "field": 15,
+          "agari": 37.9,
+          "date": "2026-04-26",
+          "venue": "福島",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1700,
+          "time": "1:47.2",
+          "body_weight": 432,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 12
+        },
+        {
+          "first_corner": 10,
+          "field": 16,
+          "agari": 38.7,
+          "date": "2026-03-01",
+          "venue": "小倉",
+          "race": "1勝クラス",
+          "jockey": "菊沢 一樹",
+          "dist": 1700,
+          "time": "1:46.8",
+          "body_weight": 440,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 11
+        },
+        {
+          "first_corner": 15,
+          "field": 15,
+          "agari": 37.3,
+          "date": "2026-02-01",
+          "venue": "小倉",
+          "race": "牝1勝クラス",
+          "jockey": "菊沢 一樹",
+          "dist": 1700,
+          "time": "1:47.2",
+          "body_weight": 444,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 6
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 6,
+      "waku": 4,
+      "name": "ヴンダーバール",
+      "sex_age": "牝3/鹿",
+      "weight": "53.0",
+      "jockey": "津村 明秀",
+      "trainer": "斎藤 誠",
+      "sire": "ナダル",
+      "damsire": "オルフェーヴル",
+      "style": "逃",
+      "ten_speed": "中",
+      "agari_best": 36.5,
+      "recent": [
+        {
+          "first_corner": 13,
+          "field": 16,
+          "agari": 36.5,
+          "date": "2026-06-21",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "戸崎 圭太",
+          "dist": 1600,
+          "time": "1:35.7",
+          "body_weight": 486,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 8,
+          "field": 16,
+          "agari": 37.3,
+          "date": "2026-06-06",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "横山 武史",
+          "dist": 1600,
+          "time": "1:38.3",
+          "body_weight": 486,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 5
+        },
+        {
+          "first_corner": 1,
+          "field": 8,
+          "agari": 36.5,
+          "date": "2026-05-17",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "横山 武史",
+          "dist": 1600,
+          "time": "1:37.4",
+          "body_weight": 482,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 37.6,
+          "date": "2025-11-30",
+          "venue": "東京",
+          "race": "未勝利",
+          "jockey": "横山 武史",
+          "dist": 1600,
+          "time": "1:37.7",
+          "body_weight": 478,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 1
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 7,
+      "waku": 4,
+      "name": "デルマアポロニア",
+      "sex_age": "牝4/栗",
+      "weight": "56.0",
+      "jockey": "松岡 正海",
+      "trainer": "蛯名 正義",
+      "sire": "オルフェーヴル",
+      "damsire": "ティンバーカントリー",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 37.7,
+      "recent": [
+        {
+          "first_corner": 12,
+          "field": 14,
+          "agari": 37.7,
+          "date": "2025-06-28",
+          "venue": "函館",
+          "race": "牝未勝利",
+          "jockey": "武 豊",
+          "dist": 1700,
+          "time": "1:45.5",
+          "body_weight": 478,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 1
+        },
+        {
+          "first_corner": 7,
+          "field": 14,
+          "agari": 38.0,
+          "date": "2025-06-14",
+          "venue": "函館",
+          "race": "牝未勝利",
+          "jockey": "松岡 正海",
+          "dist": 1700,
+          "time": "1:45.7",
+          "body_weight": 480,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 1,
+          "field": 14,
+          "agari": 38.9,
+          "date": "2025-04-12",
+          "venue": "中山",
+          "race": "牝未勝利",
+          "jockey": "松岡 正海",
+          "dist": 1800,
+          "time": "1:55.6",
+          "body_weight": 480,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 5,
+          "field": 16,
+          "agari": 38.1,
+          "date": "2025-03-22",
+          "venue": "中京",
+          "race": "未勝利",
+          "jockey": "C.ルメール",
+          "dist": 1400,
+          "time": "1:25.2",
+          "body_weight": 476,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 3
+        }
+      ],
+      "class_move": {
+        "last": 1,
+        "top": 1,
+        "vs_current": "昇級",
+        "delta": 1
+      }
+    },
+    {
+      "no": 8,
+      "waku": 5,
+      "name": "エイミームーン",
+      "sex_age": "牝4/栗",
+      "weight": "53.0",
+      "jockey": null,
+      "trainer": "矢野 英一",
+      "sire": "ポアゾンブラック",
+      "damsire": "ゴールドアリュール",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 35.9,
+      "recent": [
+        {
+          "first_corner": 8,
+          "field": 16,
+          "agari": 38.0,
+          "date": "2026-06-21",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1600,
+          "time": "1:37.0",
+          "body_weight": 460,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 5
+        },
+        {
+          "first_corner": 11,
+          "field": 16,
+          "agari": 35.9,
+          "date": "2026-05-23",
+          "venue": "東京",
+          "race": "1勝クラス",
+          "jockey": "石川 裕紀人",
+          "dist": 1400,
+          "time": "1:25.9",
+          "body_weight": 462,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 13
+        },
+        {
+          "first_corner": 12,
+          "field": 16,
+          "agari": 38.3,
+          "date": "2026-04-25",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "佐々木 大輔",
+          "dist": 1400,
+          "time": "1:26.7",
+          "body_weight": 468,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 12
+        },
+        {
+          "first_corner": 13,
+          "field": 16,
+          "agari": 37.8,
+          "date": "2026-02-21",
+          "venue": "阪神",
+          "race": "1勝クラス",
+          "jockey": "岩田 望来",
+          "dist": 1400,
+          "time": "1:27.0",
+          "body_weight": 472,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 11
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 9,
+      "waku": 5,
+      "name": "ランスノーブル",
+      "sex_age": "牝6/芦",
+      "weight": "53.0",
+      "jockey": null,
+      "trainer": "上原 博之",
+      "sire": "ハービンジャー",
+      "damsire": "クロフネ",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 37.1,
+      "recent": [
+        {
+          "first_corner": 4,
+          "field": 16,
+          "agari": 38.4,
+          "date": "2026-04-11",
+          "venue": "中山",
+          "race": "1勝クラス",
+          "jockey": "佐々木 大輔",
+          "dist": 1800,
+          "time": "1:53.0",
+          "body_weight": 480,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 4
+        },
+        {
+          "first_corner": 5,
+          "field": 13,
+          "agari": 38.3,
+          "date": "2026-03-28",
+          "venue": "中山",
+          "race": "牝1勝クラス",
+          "jockey": "佐々木 大輔",
+          "dist": 1800,
+          "time": "1:53.6",
+          "body_weight": 480,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 3
+        },
+        {
+          "first_corner": 7,
+          "field": 15,
+          "agari": 38.7,
+          "date": "2026-01-12",
+          "venue": "中山",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1800,
+          "time": "1:55.5",
+          "body_weight": 476,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 3
+        },
+        {
+          "first_corner": 9,
+          "field": 15,
+          "agari": 37.1,
+          "date": "2025-12-21",
+          "venue": "中山",
+          "race": "1勝クラス",
+          "jockey": null,
+          "dist": 1800,
+          "time": "1:51.5",
+          "body_weight": 474,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 3
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 10,
+      "waku": 6,
+      "name": "ベルフィーヌ",
+      "sex_age": "牝5/栗",
+      "weight": "56.0",
+      "jockey": "丸田 恭介",
+      "trainer": "堀内 岳志",
+      "sire": "マインドユアビスケッツ",
+      "damsire": "ハーツクライ",
+      "style": "追",
+      "ten_speed": "遅",
+      "agari_best": 36.8,
+      "recent": [
+        {
+          "first_corner": 14,
+          "field": 14,
+          "agari": 36.8,
+          "date": "2026-05-16",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "丸田 恭介",
+          "dist": 1600,
+          "time": "1:39.4",
+          "body_weight": 510,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 7
+        },
+        {
+          "first_corner": 14,
+          "field": 15,
+          "agari": 41.6,
+          "date": "2026-05-09",
+          "venue": "新潟",
+          "race": "牝1勝クラス",
+          "jockey": "丸田 恭介",
+          "dist": 1800,
+          "time": "1:58.7",
+          "body_weight": 516,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 13
+        },
+        {
+          "first_corner": 9,
+          "field": 15,
+          "agari": 38.3,
+          "date": "2026-04-12",
+          "venue": "福島",
+          "race": "牝1勝クラス",
+          "jockey": "丸田 恭介",
+          "dist": 1700,
+          "time": "1:47.0",
+          "body_weight": 514,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 9,
+          "field": 13,
+          "agari": 38.0,
+          "date": "2026-03-29",
+          "venue": "中京",
+          "race": "牝1勝クラス",
+          "jockey": "丸田 恭介",
+          "dist": 1800,
+          "time": "1:55.0",
+          "body_weight": 510,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 4
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 11,
+      "waku": 6,
+      "name": "マタミカンサン",
+      "sex_age": "牝4/鹿",
+      "weight": "53.0",
+      "jockey": null,
+      "trainer": "加藤 士津八",
+      "sire": "ゴールドドリーム",
+      "damsire": "コマンズ",
+      "style": "差",
+      "ten_speed": "中",
+      "agari_best": 37.8,
+      "recent": [
+        {
+          "first_corner": 6,
+          "field": 15,
+          "agari": 38.6,
+          "date": "2026-05-23",
+          "venue": "新潟",
+          "race": "牝1勝クラス",
+          "jockey": "F.ゴンサルベ",
+          "dist": 1800,
+          "time": "1:53.9",
+          "body_weight": 462,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 4
+        },
+        {
+          "first_corner": 5,
+          "field": 15,
+          "agari": 38.4,
+          "date": "2026-04-26",
+          "venue": "福島",
+          "race": "牝1勝クラス",
+          "jockey": "菱田 裕二",
+          "dist": 1700,
+          "time": "1:46.5",
+          "body_weight": 460,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 3
+        },
+        {
+          "first_corner": 1,
+          "field": 13,
+          "agari": 38.1,
+          "date": "2026-03-28",
+          "venue": "中山",
+          "race": "牝1勝クラス",
+          "jockey": "田辺 裕信",
+          "dist": 1800,
+          "time": "1:53.0",
+          "body_weight": 466,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 3,
+          "field": 15,
+          "agari": 37.8,
+          "date": "2026-03-01",
+          "venue": "中山",
+          "race": "牝1勝クラス",
+          "jockey": "戸崎 圭太",
+          "dist": 1800,
+          "time": "1:53.7",
+          "body_weight": 468,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 2
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 12,
+      "waku": 7,
+      "name": "リポジノ",
+      "sex_age": "牝4/鹿",
+      "weight": "56.0",
+      "jockey": "小崎 綾也",
+      "trainer": "秋本 大介",
+      "sire": "モズアスコット",
+      "damsire": "Hard Spun",
+      "style": null,
+      "ten_speed": null,
+      "agari_best": null,
+      "recent": [],
+      "class_move": {
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
+      }
+    },
+    {
+      "no": 13,
+      "waku": 7,
+      "name": "グランシャット",
+      "sex_age": "牝4/栗",
+      "weight": "56.0",
+      "jockey": "丸山 元気",
+      "trainer": "松尾 卓哉",
+      "sire": "ルヴァンスレーヴ",
+      "damsire": "アフリート",
+      "style": "先",
+      "ten_speed": "中",
+      "agari_best": 39.1,
+      "recent": [
+        {
+          "first_corner": 3,
+          "field": 13,
+          "agari": 39.1,
+          "date": "2026-03-29",
+          "venue": "中京",
+          "race": "牝1勝クラス",
+          "jockey": null,
+          "dist": 1800,
+          "time": "1:55.7",
+          "body_weight": 448,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 7
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 14,
+      "waku": 8,
+      "name": "ブルーサーマル",
+      "sex_age": "牝3/青鹿",
+      "weight": "53.0",
+      "jockey": "原 優介",
+      "trainer": "池上 昌和",
+      "sire": "アメリカンペイトリオット",
+      "damsire": "ディープスカイ",
+      "style": "差",
+      "ten_speed": "遅",
+      "agari_best": 37.3,
+      "recent": [
+        {
+          "first_corner": 9,
+          "field": 16,
+          "agari": 37.3,
+          "date": "2026-06-21",
+          "venue": "東京",
+          "race": "牝1勝クラス",
+          "jockey": "原 優介",
+          "dist": 1600,
+          "time": "1:36.3",
+          "body_weight": 526,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 4
+        },
+        {
+          "first_corner": 5,
+          "field": 15,
+          "agari": 37.3,
+          "date": "2026-05-03",
+          "venue": "東京",
+          "race": "牝未勝利",
+          "jockey": "原 優介",
+          "dist": 1600,
+          "time": "1:38.7",
+          "body_weight": 524,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 1
+        },
+        {
+          "first_corner": 7,
+          "field": 16,
+          "agari": 39.9,
+          "date": "2026-03-15",
+          "venue": "中山",
+          "race": "牝未勝利",
+          "jockey": "原 優介",
+          "dist": 1800,
+          "time": "1:56.6",
+          "body_weight": 518,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 4
+        },
+        {
+          "first_corner": 13,
+          "field": 16,
+          "agari": 38.8,
+          "date": "2026-01-12",
+          "venue": "中山",
+          "race": "牝未勝利",
+          "jockey": "内田 博幸",
+          "dist": 1800,
+          "time": "1:57.0",
+          "body_weight": 518,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 2
+        }
+      ],
+      "class_move": {
+        "last": 2,
+        "top": 2,
+        "vs_current": "同級",
+        "delta": 0
+      }
+    },
+    {
+      "no": 15,
+      "waku": 8,
+      "name": "アスコットヴェール",
+      "sex_age": "牝3/栗",
+      "weight": "53.0",
+      "jockey": "坂井 瑠星",
+      "trainer": "竹内 正洋",
+      "sire": "モズアスコット",
+      "damsire": "Street Cry",
+      "style": "逃",
+      "ten_speed": "速",
+      "agari_best": 38.4,
+      "recent": [
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 38.4,
+          "date": "2026-04-11",
+          "venue": "中山",
+          "race": "牝未勝利",
+          "jockey": "横山 武史",
+          "dist": 1800,
+          "time": "1:53.3",
+          "body_weight": 478,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 1
+        },
+        {
+          "first_corner": 3,
+          "field": 15,
+          "agari": 39.8,
+          "date": "2026-03-14",
+          "venue": "中山",
+          "race": "牝未勝利",
+          "jockey": "佐々木 大輔",
+          "dist": 1800,
+          "time": "1:56.9",
+          "body_weight": 474,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 2
+        },
+        {
+          "first_corner": 1,
+          "field": 16,
+          "agari": 41.7,
+          "date": "2025-12-20",
+          "venue": "中山",
+          "race": "牝未勝利",
+          "jockey": "佐々木 大輔",
+          "dist": 1800,
+          "time": "1:56.4",
+          "body_weight": 470,
+          "class_rank": 1,
+          "class_label": "未勝利",
+          "class_certain": true,
+          "pos": 6
+        },
+        {
+          "first_corner": 2,
+          "field": 16,
+          "agari": 38.5,
+          "date": "2025-11-30",
+          "venue": "東京",
+          "race": "新馬",
+          "jockey": "佐々木 大輔",
+          "dist": 1600,
+          "time": "1:39.5",
+          "body_weight": 472,
+          "class_rank": 1,
+          "class_label": "新馬",
+          "class_certain": true,
+          "pos": 2
+        }
+      ],
+      "class_move": {
+        "last": 1,
+        "top": 1,
+        "vs_current": "昇級",
+        "delta": 1
+      }
+    }
+  ],
+  "h2h": [
+    {
+      "date": "2026-06-21",
+      "venue": "東京",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 8,
+          "name": "エイミームーン",
+          "first_corner": 8,
+          "pos": 5
+        },
+        {
+          "no": 14,
+          "name": "ブルーサーマル",
+          "first_corner": 9,
+          "pos": 4
+        },
+        {
+          "no": 6,
+          "name": "ヴンダーバール",
+          "first_corner": 13,
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "venue": "東京",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 3,
+          "name": "ケープウィッカム",
+          "first_corner": 3,
+          "pos": 2
+        },
+        {
+          "no": 10,
+          "name": "ベルフィーヌ",
+          "first_corner": 14,
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "venue": "福島",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 11,
+          "name": "マタミカンサン",
+          "first_corner": 5,
+          "pos": 3
+        },
+        {
+          "no": 5,
+          "name": "グランコネクシオン",
+          "first_corner": 14,
+          "pos": 12
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "venue": "東京",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 3,
+          "name": "ケープウィッカム",
+          "first_corner": 10,
+          "pos": 4
+        },
+        {
+          "no": 8,
+          "name": "エイミームーン",
+          "first_corner": 12,
+          "pos": 12
+        }
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "venue": "福島",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 1,
+          "name": "ニコ",
+          "first_corner": 6,
+          "pos": 12
+        },
+        {
+          "no": 10,
+          "name": "ベルフィーヌ",
+          "first_corner": 9,
+          "pos": 2
+        },
+        {
+          "no": 4,
+          "name": "フォンデネージュ",
+          "first_corner": 14,
+          "pos": 14
+        }
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "venue": "中京",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 13,
+          "name": "グランシャット",
+          "first_corner": 3,
+          "pos": 7
+        },
+        {
+          "no": 10,
+          "name": "ベルフィーヌ",
+          "first_corner": 9,
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "venue": "中山",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 11,
+          "name": "マタミカンサン",
+          "first_corner": 1,
+          "pos": 2
+        },
+        {
+          "no": 9,
+          "name": "ランスノーブル",
+          "first_corner": 5,
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "venue": "中山",
+      "race": "牝1勝クラス",
+      "horses": [
+        {
+          "no": 11,
+          "name": "マタミカンサン",
+          "first_corner": 3,
+          "pos": 2
+        },
+        {
+          "no": 3,
+          "name": "ケープウィッカム",
+          "first_corner": 7,
+          "pos": 3
+        }
+      ]
+    }
+  ],
+  "race_class": "3歳上1勝クラス",
+  "race_class_rank": 2,
+  "race_class_label": "1勝クラス"
+}

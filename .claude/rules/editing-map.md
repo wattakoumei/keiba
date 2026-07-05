@@ -41,6 +41,12 @@
 | `tools/missing_results.py` | **改善ループのデータ欠落ゲート**（結果未記録/展開採点なし/着順採点なし/ペース未復元 の4種を列挙）。`/backfill-results` の STEP1。 |
 | `.claude/skills/backfill-results/SKILL.md` | **確定結果の収集バックフィル手順**（欠落特定→Sonnet並列収集→機械検証→追記）。事実収集のみ＝採点は `/review-prediction`。レース翌日の定期実行を想定。 |
 | `.claude/skills/calibrate-T/SKILL.md` | `/calibrate-T` の手順（較正スクリプト実行→判定→適用→ミラー更新）。 |
+| **── ROI/EV層（結果層の配当＝I1-R・EVレイヤー＝I1-E・予想とは別トラック）──** | |
+| `tools/fetch_result.py` | **確定結果＋払戻の取得**（keibalab `/db/race/`・JRAのみ）。`payout`/`paste-payout` サブコマンドで `record:"payout"` 行（100円あたり円建て・的中組番・全券種）を生成。相互検証則（馬連組番=実1-2着集合 等）内蔵。 |
+| `tools/box_sim.py` | **箱戦略バックテスト**（`STRATEGIES` の正本＝◎-○馬連/印上位BOX/box_reverse流し…×コーパス→的中率・回収率・払戻分布）。読み取り専用・I1-R トラック＝精度採点（/review-prediction）に混ぜない。 |
+| `tools/ev_board.py` | **EV提示**（貼り付けオッズ×`score_race.compute_exotics`→箱候補×点数×的中確率×EV表）。入出力は `data/ev/` 限定・金額/Kelly/購入指示なし（I1-E）。箱候補は box_sim.STRATEGIES を import（ワンソース）。 |
+| `.claude/skills/ev-board/SKILL.md` | `/ev-board` の**手順**（report.json 確定後→ユーザーがオッズ貼り付け→EV表提示。時系列の壁＝オッズで予想を変えない）。 |
+| `tools/_polite.py` | **web取得の礼儀ヘルパー正本**（robots.txt 尊重・ホスト別レート制限・不変ページの簡易キャッシュ・UA一元管理）。fetch_* 系が共用。取得ポリシーの散文は `scraping.md`。 |
 | **── Codex 移植（別エージェントで同ハーネスを回す・単一ソース）──** | |
 | `AGENTS.md` | **Codex のエントリ（薄いポインタ）**。CLAUDE.md＋`.claude/rules/` を正本として指すだけ＝複製しない。Claude↔Codex の対応表（symlink/生成物/共有ツール）とドリフト防止を持つ。 |
 | `.agents/skills/` | Codex 用スキル。`SKILL.md` と `references/` は **`.claude/` への symlink＝同一バイト**（単一ソース）。Codex 側で編集＝正本を編集。別物にしない。 |
@@ -75,7 +81,12 @@
 | **選別モデル**（X×Yマトリクス・妙味判定・出力体裁） | `screen-card/references/screening-model.md` |
 | **荒れ条件**（どんな番組が荒れるか＝Y条件側） | `screen-card/references/upset-conditions.md` |
 | **団子度の閾値**（オッズの割れ判定＝Y盤側） | `tools/fetch_odds.py`（FAV_SPLIT 等・ワンソース） |
-| **市場の隔離方針**（選別が市場をどこまで使うか） | `harness-invariants.md` I1-S（正本） |
+| **市場の隔離方針**（選別/配当/EVが市場をどこまで使うか） | `harness-invariants.md` I1-S／I1-R／I1-E（正本） |
+| **配当（払戻）の収集・スキーマ** | `tools/fetch_result.py`（payout/paste-payout・相互検証則）＋ `backfill-results/SKILL.md`（収集手順）＋ `tools/missing_results.py`（payout_missing 検知） |
+| **箱戦略の的中率・回収率**（どの箱が儲かるか） | `tools/box_sim.py`（STRATEGIES の正本・読み取り専用） |
+| **馬連/三連複の確率**（ペア/トリプル算出） | `tools/score_race.py`（harville_pair/harville_trio/compute_exotics） |
+| **EV提示**（オッズ×内在確率の箱候補表） | `tools/ev_board.py` ＋ `ev-board/SKILL.md`。隔離条件は I1-E |
+| **取得の礼儀**（robots・レート制限・キャッシュ・UA） | `tools/_polite.py`（実装の正本）＋ `scraping.md` 取得ポリシー節（散文） |
 
 ## 不変則を変えるときの手順（ドリフト防止）
 

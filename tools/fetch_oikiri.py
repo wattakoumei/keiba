@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-"""追い切り（調教）好時計リストを取得する（競馬ブック bestcyokyo・静的・無料）。
+"""追い切り（調教）好時計リスト（競馬ブック bestcyokyo・観点Fの seed）。
 
 観点F（調教・厩舎仕上げ）の seed。**全出走馬の追い切りは無料・標準ライブラリでは取得不可**
-（netkeiba oikiri は JS後読み、JRA公式は重賞のみ＋WAF、JRA-VANは有料Windows）。
-そのため本ツールは「今週のベスト調教ランキング＝目立つ好時計馬」を取得する設計:
+（netkeiba oikiri は JS後読み、JRA公式は重賞のみ、JRA-VANは有料Windows）。
+本ツールは「今週のベスト調教ランキング＝目立つ好時計馬」を扱う:
 対象レースの出走馬がこのリストにいれば追い切り好材料、いなければ F が web 調査で補完 or 不明とする。
 
 ★市場ゼロ: bestcyokyo はオッズ・人気・他人の予想印を含まない（純粋な調教実測のみ）。
+★取得ポリシー: **競馬ブック robots.txt は全botに Disallow=/（2026-07 確認）→ `week` の自動取得は
+  _polite が拒否する（RefusedByRobots＝設計どおり）**。人間がブラウザで開いてコピーした内容を
+  `paste` で流すのが正規経路（robots が変われば week が復活する）。seed 無しでも F は web 補完で回る。
 
 使い方:
-  python3 tools/fetch_oikiri.py week [--date M/D] [--json]
+  pbpaste | python3 tools/fetch_oikiri.py paste [--date M/D] [--json]   # 正規経路（ページを人間がコピー）
+  python3 tools/fetch_oikiri.py week [--date M/D] [--json]              # robots が許す場合のみ（現状は拒否）
   --date 6/14（M/D・先頭ゼロ可）で出走日フィルタ（省略時は今週全部）
 
 出力フィールド（各馬）:
@@ -22,10 +26,9 @@
 import sys
 import re
 import json
-import urllib.request
 
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+from _polite import polite_get, RefusedByRobots
+
 URL = "https://p.keibabook.co.jp/cyuou/bestcyokyo"
 
 TAG = re.compile(r'<[^>]+>')
@@ -86,6 +89,9 @@ def parse_row(cells):
     # 馬名: 2番目のセルが定番（リンクテキスト）。タイム/コース/日付でない最初の非数値長文
     if len(cells) >= 2 and cells[1] and not TIME.match(cells[1]):
         h["name"] = cells[1]
+    kat = next((c for c in cells if re.fullmatch(r'[ァ-ヶー]{2,9}', c)), None)
+    if kat and (not h["name"] or not re.fullmatch(r'[ァ-ヶー]{2,9}', h["name"])):
+        h["name"] = kat   # paste 経路は列位置が揺れる → カタカナ馬名セルを優先
     h["laps"] = laps
     h["last_1f"] = min(laps) if laps else None   # ラスト1Fは最小の累計＝終い区間
     return h if h["name"] and laps else None
@@ -93,8 +99,10 @@ def parse_row(cells):
 
 def fetch(date_filter=None):
     try:
-        req = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept-Language": "ja"})
-        raw = urllib.request.urlopen(req, timeout=25).read()
+        raw = polite_get(URL)   # robots 尊重＋レート制限（週次の動的ページ＝キャッシュしない）
+    except RefusedByRobots as e:
+        print(json.dumps({"error": str(e), "stage": "robots"}), file=sys.stderr)
+        sys.exit(1)
     except Exception as e:
         print(json.dumps({"error": str(e), "stage": "fetch"}), file=sys.stderr)
         sys.exit(1)
@@ -123,6 +131,32 @@ def fetch(date_filter=None):
             "horses": horses, "url": URL}
 
 
+def parse_paste(text, date_filter=None):
+    """人間がブラウザからコピーした bestcyokyo のテーブルテキストをパース（正規経路）。
+
+    行=1頭。セルはタブ or 連続空白区切り。列位置に依存しない parse_row の分類をそのまま使う。
+    """
+    horses = []
+    for line in text.splitlines():
+        cells = [c.strip() for c in re.split(r'\t+|\s{2,}', line) if c.strip()]
+        if len(cells) < 2:
+            cells = [c for c in line.split() if c]
+        if not any(TIME.match(c) for c in cells):
+            continue
+        h = parse_row(cells)
+        if h:
+            horses.append(h)
+    if date_filter:
+        horses = [h for h in horses if (h["race"] or "").startswith(date_filter)
+                  or h["train_date"] == date_filter]
+    if not horses:
+        print(json.dumps({"error": "no oikiri rows parsed from paste", "stage": "paste"}), file=sys.stderr)
+        sys.exit(1)
+    return {"source": "keibabook_bestcyokyo(paste)", "n": len(horses),
+            "note": "週のベスト調教ランキング＝好時計馬の抜粋。全出走馬ではない（不在馬はFがweb補完）",
+            "horses": horses}
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     as_json = "--json" in sys.argv
@@ -130,7 +164,10 @@ def main():
     for i, a in enumerate(sys.argv):
         if a == "--date" and i + 1 < len(sys.argv):
             date_filter = norm_date(sys.argv[i + 1])
-    out = fetch(date_filter)
+    if args and args[0] == "paste":
+        out = parse_paste(sys.stdin.read(), date_filter)
+    else:
+        out = fetch(date_filter)
     if as_json:
         print(json.dumps(out, ensure_ascii=False, indent=2))
         return

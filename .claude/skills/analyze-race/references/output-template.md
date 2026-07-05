@@ -146,7 +146,7 @@
 report.json から **2種のレコードを抽出して append**する（手書きしない）。review-prediction はこの jsonl を従来どおり読む。
 
 - **(1) pace レコード**（1レース1行・`record:"pace"`）: `pace.patterns[]` ＋ meta から組む。
-  `{record:"pace", race_id, race_name, date, model_version, patterns:[{id, name, likelihood_tier(=tier), trigger, pace_level, contesters, leg_advantage, formation_head, formation_last_corner, bias, phase_flow, prob}], falsification(=counter_conditions), note}`
+  `{record:"pace", race_id, race_name, date, model_version, patterns:[{id, name, likelihood_tier(=tier), trigger, pace_level, contesters, leg_advantage, formation_head, formation_last_corner, bias, phase_flow, prob}], pace_factors, box_reverse(=pace.box_reverse・I7 箱組み逆引き＝box_sim の入力), falsification(=counter_conditions), note}`
 - **(2) rank レコード**（**印持ち馬＝`mark!="—"` のみ**・1馬1行・`record:"rank"`）: `rank[]` から抽出。
   `{record:"rank", race_id, date, model_version, horse_no(=no), horse, trainer, mark, rank_order, intent, win_prob, place_prob, pattern_fit, pace_sensitivity, pros, cons}`（任意 `engine_check`）。`win_prob`/`place_prob` は review で着順精度の**補助採点**に使う（並びの主は論理）。
 

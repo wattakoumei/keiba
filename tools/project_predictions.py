@@ -42,6 +42,7 @@ def build_pace(d):
         "model_version": d.get("model_version"),
         "patterns": pats,
         "pace_factors": d["pace"].get("pace_factors", []),  # 展開トリガー早見（来そうな展開の判断材料）
+        "box_reverse": d["pace"].get("box_reverse", []),    # パターン別おすすめ馬（I7 箱組み逆引き。box_sim の入力）
         "falsification": d["pace"].get("counter_conditions", ""),
         "note": "",
     }

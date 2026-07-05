@@ -215,3 +215,8 @@ P(iが3着) = Σ_p prob_p * Σ_{k≠i}Σ_{l≠i,k} p_k,p * p_l,p/(1-p_k,p) * p_i
   結果バックフィルで較正コーパスが26レース368頭に拡大。calibrate_T の走査（Brier最小 T=0.75・skill +2.1%→+2.7%）と
   backtest の反実仮想A/B（logloss −0.017・エンジンtop1単勝 8%→12%）が独立に同方向で一致。0.70〜0.90 は平坦＝0.75 で十分。
   台帳: data/changes.jsonl chg-0001。効果測定は導入後レース10件で record_change.py compare。
+- **v4.4 (2026-07-05): 馬連ペア/三連複トリオ確率の純関数を追加（`harville_pair`/`harville_trio`/`sum_box`/`compute_exotics`）。**
+  数式・3相再帰・6ノブ・`compute()` の win/place 出力は**完全に不変**（既存レポートの率は1桁も変わらない）。
+  exotics はパターンごとの条件付き勝率 cw から組確率を作り**パターン確率で加重**（合成後 win から作るとパターン内相関が消え箱確率を過小評価するため禁止）。
+  消費者は I1-E EVレイヤー（`ev_board.py`）と箱バックテスト（`box_sim.py`）のみ＝report.json/predictions.jsonl には流さない。
+  self-check に Σpair≈1・Σtrio≈1・Harville恒等式（place[i]=Σtrio∋i・許容0.005）を追加。

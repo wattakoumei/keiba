@@ -8,6 +8,7 @@
     2. review_missing   — 結果はあるのに展開採点（pace_review）が無い
     3. missclass_missing— 結果はあるのに着順採点（miss_class）が無い
     4. pace_unlabeled   — 結果はあるのに実効ペース復元（label_reconstructed）が null
+    5. payout_missing   — 結果はあるのに払戻（record:"payout"）が未記録（I1-R・箱ROI検証の素）
 
 なぜコード化するか:
   結果記録の漏れは較正コーパスを痩せさせる（26件バックフィルの反省＝1ヶ月で25件溜め込んだ）。
@@ -25,6 +26,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def scan(races_dir, results_path):
     have_result, have_review, have_missclass, unlabeled = set(), set(), set(), set()
+    have_payout = set()
     if os.path.exists(results_path):
         with open(results_path, encoding="utf-8") as f:
             for line in f:
@@ -43,6 +45,8 @@ def scan(races_dir, results_path):
                     have_review.add(rid)
                 if "miss_class" in d:
                     have_missclass.add(rid)
+                if d.get("record") == "payout":
+                    have_payout.add(rid)
 
     predicted = set()
     for rd in sorted(glob.glob(os.path.join(races_dir, "*"))):
@@ -56,8 +60,10 @@ def scan(races_dir, results_path):
         "review_missing": sorted(have_result - have_review),
         "missclass_missing": sorted(have_result - have_missclass),
         "pace_unlabeled": sorted(unlabeled),
+        "payout_missing": sorted(have_result - have_payout),
         "counts": {"predicted": len(predicted), "with_result": len(have_result),
-                   "with_review": len(have_review), "with_missclass": len(have_missclass)},
+                   "with_review": len(have_review), "with_missclass": len(have_missclass),
+                   "with_payout": len(have_payout)},
     }
 
 
@@ -66,6 +72,7 @@ LABELS = {
     "review_missing": "展開採点 pace_review が無い（→ /review-prediction）",
     "missclass_missing": "着順採点 miss_class が無い（→ /review-prediction）",
     "pace_unlabeled": "実効ペース未復元 label_reconstructed=null（→ /review-prediction STEP1）",
+    "payout_missing": "払戻が未記録（→ fetch_result.py payout / paste-payout。I1-R）",
 }
 
 
@@ -101,9 +108,12 @@ def self_check():
                                 "pace_actual": {"label_reconstructed": "M"}}) + "\n")
             f.write(json.dumps({"record": "pace_review", "race_id": "r1"}) + "\n")
             f.write(json.dumps({"race_id": "r1", "miss_class": []}) + "\n")
+            f.write(json.dumps({"record": "payout", "race_id": "r1", "payouts": {}}) + "\n")
             f.write(json.dumps({"race_id": "r3", "finish": [],
                                 "pace_actual": {"label_reconstructed": None}}) + "\n")
         rep = scan(races, res)
+        if rep["payout_missing"] != ["r3"]:
+            errs.append(f"payout_missing 不正: {rep['payout_missing']}")
         if rep["result_missing"] != ["r2"]:
             errs.append(f"result_missing 不正: {rep['result_missing']}")
         if rep["review_missing"] != ["r3"]:

@@ -31,9 +31,9 @@ score_race.py — 着順エンジン v4.0（相変位再帰モデル）の決定
    "patterns":[{"id":"P1","prob":0.46,"pace_level":0.22,"contesters":[4]}],
    "params":{...任意上書き...}}
 """
-import sys, json, math, argparse, statistics
+import sys, json, math, argparse, statistics, itertools
 
-MODEL_VERSION = "4.3"
+MODEL_VERSION = "4.4"
 
 # === パラメータ早見表（6ノブ・scoring-model.md と一致させる） ===
 PARAMS = {
@@ -235,6 +235,81 @@ def harville_place3(p):
     return out
 
 
+def harville_pair(p):
+    """条件付き勝率 p(dict no->prob) から馬連ペア確率 {(i,j) i<j: P(top2={i,j})} を Harville 近似。
+
+    P = p_i·p_j/(1−p_i) + p_j·p_i/(1−p_j)。Σ全ペア≈1。
+    """
+    nos = sorted(p)
+    out = {}
+    for a in range(len(nos)):
+        for b in range(a + 1, len(nos)):
+            i, j = nos[a], nos[b]
+            s = 0.0
+            if 1 - p[i] > 1e-9:
+                s += p[i] * p[j] / (1 - p[i])
+            if 1 - p[j] > 1e-9:
+                s += p[j] * p[i] / (1 - p[j])
+            out[(i, j)] = s
+    return out
+
+
+def harville_trio(p):
+    """条件付き勝率から三連複トリオ確率 {(i,j,k) 昇順: P(top3={i,j,k})}（6順列和・Harville 近似）。
+
+    Harville の恒等式: Σ_{trio∋i} trio = place3[i]、Σ全トリオ≈1（self-check が検査）。
+    n=18 で C(18,3)=816 組×6順列＝計算量は問題にならない。
+    """
+    out = {}
+    for combo in itertools.combinations(sorted(p), 3):
+        s = 0.0
+        for a, b, c in itertools.permutations(combo):
+            d1 = 1 - p[a]
+            d2 = 1 - p[a] - p[b]
+            if d1 <= 1e-9 or d2 <= 1e-9:
+                continue
+            s += p[a] * p[b] / d1 * p[c] / d2
+        out[combo] = s
+    return out
+
+
+def sum_box(combo_probs, nos):
+    """組確率 dict {(組): prob} から、組の全馬番が nos に含まれるものの部分和＝箱の的中確率。"""
+    ns = set(nos)
+    return sum(v for k, v in combo_probs.items() if ns.issuperset(k))
+
+
+def compute_exotics(data):
+    """馬連ペア/三連複トリオ確率（パターン確率で加重合成・I1-E EVレイヤーの確率源）。
+
+    compute() と同じ手順でパターンごとの条件付き勝率 cw を作り、cw から harville_pair/trio を出して
+    パターン確率で加重する（★合成後の win から作らない＝同一パターン内の相関を保つ）。
+    返り値: {"race_id","model_version","pair":{"2-8":0.041,…},"trio":{"2-8-10":0.012,…}}
+    キーは馬番昇順ハイフン連結・値 0..1。report.json / predictions.jsonl には流さない
+    （消費者は tools/ev_board.py・tools/box_sim.py のみ＝I1-E の壁）。compute() 本体は無変更（I8）。
+    """
+    P = dict(PARAMS)
+    P.update(data.get("params", {}) or {})
+    horses = data["horses"]
+    ab = {h["no"]: phase_abilities(h) for h in horses}
+    inject_af(horses, ab)
+    patterns = data.get("patterns") or [{"id": "P0", "prob": 1.0, "pace_level": 0.5}]
+    pair_acc, trio_acc = {}, {}
+    for pat in patterns:
+        L = pat.get("pace_level", 0.5)
+        _, _, _, S = run_pattern(horses, ab, L, P, pat.get("leg_advantage"))
+        cw = softmax(S, P["T"])
+        w = pat.get("prob", 0.0)
+        for k, v in harville_pair(cw).items():
+            pair_acc[k] = pair_acc.get(k, 0.0) + w * v
+        for k, v in harville_trio(cw).items():
+            trio_acc[k] = trio_acc.get(k, 0.0) + w * v
+    key = lambda k: "-".join(map(str, k))
+    return {"race_id": data.get("race_id", ""), "model_version": MODEL_VERSION,
+            "pair": {key(k): round(v, 5) for k, v in pair_acc.items()},
+            "trio": {key(k): round(v, 5) for k, v in trio_acc.items()}}
+
+
 def derive_leg_advantage(horses, ab, S):
     """脚質群の平均S − 全体平均S を符号(-2..+2)に。展開検証の整合チェック用。"""
     groups = {"逃": [], "先": [], "差": [], "追": []}
@@ -372,6 +447,23 @@ def self_check(data, result):
         L = p.get("pace_level")
         if L is None or not (0.0 <= L <= 1.0):
             errs.append(f"pattern {p.get('id')} pace_level 不正: {L}")
+
+    # exotics（ペア/トリオ）の整合: Σpair≈1・Σtrio≈1・Harville恒等式 place[i]=Σ(trio∋i)
+    if len(data.get("horses") or []) >= 3 and abs(psum - 1.0) <= 0.02:
+        ex = compute_exotics(data)
+        sp = sum(ex["pair"].values())
+        st = sum(ex["trio"].values())
+        if abs(sp - 1.0) > 0.02:
+            errs.append(f"Σpair={sp:.3f}≠1")
+        if abs(st - 1.0) > 0.02:
+            errs.append(f"Σtrio={st:.3f}≠1")
+        place = {h["no"]: h["place_prob"] for h in result["horses"]}
+        for no in place:
+            s_i = sum(v for k, v in ex["trio"].items()
+                      if str(no) in k.split("-"))
+            if abs(s_i - place[no]) > 0.005:
+                errs.append(f"trio恒等式: no{no} Σtrio∋i={s_i:.4f} ≠ place={place[no]:.4f}")
+                break
     return errs
 
 
@@ -401,6 +493,8 @@ def main():
     ap.add_argument("--in", dest="infile", default=None)
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--self-check", action="store_true")
+    ap.add_argument("--exotics", nargs="?", const=20, type=int, default=None,
+                    metavar="N", help="馬連ペア/三連複トリオ確率の上位N表示（既定20。既定出力は不変）")
     args = ap.parse_args()
 
     raw = open(args.infile, encoding="utf-8").read() if args.infile else sys.stdin.read()
@@ -415,6 +509,19 @@ def main():
         print("SELF-CHECK OK  Σwin=%.3f  patterns=%d  horses=%d"
               % (sum(h["win_prob"] for h in result["horses"]),
                  len(result["patterns_derived"]), len(result["horses"])))
+        return
+
+    if args.exotics is not None:
+        ex = compute_exotics(data)
+        if args.json:
+            print(json.dumps(ex, ensure_ascii=False, indent=2))
+        else:
+            n = args.exotics
+            print(f"# {ex['race_id']}  exotics v{ex['model_version']}（上位{n}・値はパターン加重確率）")
+            for label, d in (("馬連ペア", ex["pair"]), ("三連複トリオ", ex["trio"])):
+                print(f"== {label} ==")
+                for k, v in sorted(d.items(), key=lambda kv: -kv[1])[:n]:
+                    print(f"  {k:<9} {v*100:5.2f}%")
         return
 
     if args.json:

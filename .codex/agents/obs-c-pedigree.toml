@@ -33,7 +33,7 @@ developer_instructions = '''
 - **seed の父母名が web/カタログと食い違えば**確信度を下げ、一次データを優先する。
 
 ## 推奨ソース
-血統カタログ（`pedigree-catalog.md`・正本）、スクレイパ seed（父母）、netkeiba 血統ページ、JBIS（カタログ外の補強）。
+血統カタログ（`pedigree-catalog.md`・正本）、スクレイパ seed（父母）、JBIS（カタログ外の補強）。血統ページ類は WebSearch スニペット経由。
 
 ## スコア指針
 -2..+2 の5段階（この観点単独の寄与）。実績薄い条件の「裏付けの強さ/弱さ」を素直に反映。

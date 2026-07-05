@@ -101,7 +101,8 @@ data/
     research-<観点>.json # 観点別サブエージェントの構造化調査結果（全文proseは廃止＝下流未読のため）
     report.json          # 構造化正本（§0-§4: pace 複数パターン+phase_flow / rank 全馬 印・単勝率/複勝率(win_prob/place_prob)・展開列・展開感度・好材料/懸念。散文%無し・率は数値Fのみ。閲覧は keiba-web=Astro がレンダリング。report.md は廃止＝手書きしない）
   predictions.jsonl      # 予測ログ（report.json からの自動投影 by tools/project_predictions.py。record:"pace" 展開パターン+phase_flow / record:"rank" mark・rank_order・win_prob・place_prob・pattern_fit・pros/cons。市場フィールド無し）
-  results.jsonl          # 実結果（着順・通過順・pace_actual+label_reconstructed / pace_review / miss_class）
+  results.jsonl          # 実結果（着順・通過順・pace_actual+label_reconstructed / pace_review / miss_class / record:"payout"=確定払戻の事実・I1-R）
+  ev/                    # EVレイヤー成果物（オッズ生値＋箱候補×EV表。I1-E 隔離＝予想成果物に流さない）
 ```
 
 `race-id` は `YYYYMMDD-開催-RR`（**レース番号は2桁0埋め**。例: `20260531-tokyo-01`）で**統一**。

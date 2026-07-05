@@ -7,7 +7,7 @@ metadata:
 
 WebFetch/WebSearch では出走表・脚質・血統が取れない（netkeiba=ログイン、競馬ラボ=WAF403、各サイト=JS後読み、小型モデルが捏造）。
 
-**正式ツール化済み**: `tools/fetch_racecard.py`（標準ライブラリのみ・実ブラウザUAでWAF正規通過）。**取得優先順位＝JRA公式 → 競馬ラボ**（ユーザー指定。netkeibaは完全CSR+ログインで不可＝web調査専用）。
+**正式ツール化済み**: `tools/fetch_racecard.py`（標準ライブラリのみ・取得は tools/_polite.py 経由＝robots尊重/1.5s間隔/UA一元。取得ポリシーは scraping.md）。**取得優先順位＝JRA公式 → 競馬ラボ**（ユーザー指定。netkeibaは完全CSR+ログインで不可＝web調査専用）。
 ```
 python3 tools/fetch_racecard.py race <race_id> --json   # JRA優先→競馬ラボ自動FB。source で判別
 python3 tools/fetch_racecard.py day  <YYYYMMDD> <場2桁>  # 当日全Rカード（§0-1参考R用・競馬ラボ）
