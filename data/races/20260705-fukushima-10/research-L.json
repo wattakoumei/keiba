@@ -1,0 +1,151 @@
+{
+  "point": "L",
+  "overall_confidence": "中",
+  "field_note": "seed recent[] の同場・同距離実績を中心に条件実績を評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "pros": [
+        "[L] 福島芝1800の1勝クラス勝ちがあり、舞台経験は強い"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "pros": [
+        "[L] 福島芝2000の勝ちがあり、福島小回りへの対応歴はある"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "pros": [
+        "[L] 五色沼特別で福島芝1800を先行して2着、同舞台リピーター性が最も明確"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "cons": [
+        "[L] 近走seed内に福島芝1800での明確な好走実績はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    }
+  ]
+}

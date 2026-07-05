@@ -1,0 +1,264 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "小倉ダ1700mは父・母父のダート中距離適性と、牝馬の4-6歳時点での成長型を重視。カタログ掲載血は正本を採用し、未掲載血はweb補強を低〜中確信度で扱う。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "プウスカンドゥール",
+      "pros": [
+        "シャンハイボビーは米2歳ダートGI型で、母父デヒアもDeputy Minister系の早期ダートスピードを補う"
+      ],
+      "cons": [
+        "父母父とも早めのスピード色が強く、牝6の上積みは血統面からは薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://en.wikipedia.org/wiki/Shanghai_Bobby",
+        "https://en.wikipedia.org/wiki/Dehere"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ホウショウマリス",
+      "pros": [
+        "父ドレフォンはダ1600-2000m向きで牝は晩成寄り、母父ゴールドアリュールでダート中距離の底力も足せる"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Gold_Allure"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ユウェンタース",
+      "pros": [
+        "父マインドユアビスケッツはダ1600m以上のスピード持続型で、4歳なら早熟型でもピーク内"
+      ],
+      "cons": [
+        "母父アイルハヴアナザーは中距離ダートの底力を補うが、BMSとしての国内サンプルは厚くない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/I%27ll_Have_Another"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "タマモジャスミン",
+      "pros": [
+        "母父ゴールドアリュールでダート中距離のパワーは補える"
+      ],
+      "cons": [
+        "父タワーオブロンドンは産駒実績が芝短距離〜マイル寄りで、ダ1700mの再現性はまだ低い"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://en.wikipedia.org/wiki/Panja_Tower",
+        "https://en.wikipedia.org/wiki/Gold_Allure"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ノボリクレバー",
+      "pros": [
+        "父デクラレーションオブウォーはWar Front系でスピード持続を持ち、母父クロフネがダート化とパワーを供給する"
+      ],
+      "cons": [
+        "父は芝中距離色も強く、牝6では成長面の上積みより維持評価に留まる"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Declaration_of_War_(horse)"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "メイショウリリー",
+      "pros": [
+        "父ゴールドシップは晩成のスタミナ・持続型で、牝5は成長型としてはピーク圏"
+      ],
+      "cons": [
+        "父は芝スタミナ色が強く、母父メイショウボーラーも短距離色が出やすいためダ1700m適性は実績による上書き待ち"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Meisho_Tabaru"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "フィドルファドル",
+      "pros": [
+        "母父フレンチデピュティは持続力とパワーを供給し、距離延長ショックの下支えになる"
+      ],
+      "cons": [
+        "父サトノアラジンはディープ系の芝マイル寄りで、ダ1400mからダ1700mへ延ばす裏付けは母父頼み"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Satono_Diamond"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ジャルディニエ",
+      "pros": [
+        "母父Wildcat Heirは米国型スピードを補うため、初ダート寄りの条件なら砂への入口はある"
+      ],
+      "cons": [
+        "父アドマイヤマーズは芝短距離〜マイルの早熟先行型で、ダ1700mでは距離と砂の両面に不確実性が残る"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "マジックローズ",
+      "pros": [
+        "父キズナは1600m以上と小回りの持続力が強く、母父キングカメハメハもダ1700m以上まで守備範囲"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ツーピース",
+      "pros": [
+        "父ホッコータルマエはダート中長距離のスタミナ持続型で、母父エンパイアメーカーもダ1300-2000mの底力を供給する"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ファミリーツリー",
+      "pros": [
+        "父ワンアンドオンリーと母父Street Cryで持続力・中距離要素はあり、牝5は晩成寄りならまだピーク圏"
+      ],
+      "cons": [
+        "父側は芝中長距離色が濃く、ダ1700mへの砂適性は母父Street Cry頼みで確信度が低い"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://en.wikipedia.org/wiki/One_and_Only_(horse)",
+        "https://en.wikipedia.org/wiki/Street_Cry"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "シュヴァルツリーベ",
+      "pros": [
+        "父ドレフォンはダ1600-2000m向きで、1200m近走からの距離延長は血統上はむしろ補える"
+      ],
+      "cons": [
+        "牝6でドレフォン牝馬の晩成傾向もピーク後半に入り、母父スパイキュールのBMS材料は薄い"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Gold_Allure"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ワイノナオミ",
+      "pros": [
+        "父ドレフォンの牝晩成・ダ1600-2000m適性に母父ゴールドアリュールのダート底力が重なり、ダ1700mへの延長は血統上プラス"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Gold_Allure"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "タマモナポリ",
+      "pros": [
+        "母父ワイルドラッシュは米国型ダートのパワーを補い、ダ1700m自体の砂適性は残す"
+      ],
+      "cons": [
+        "父カレンブラックヒルはダ1300m以下と短縮で上がる型のため、1700mへの延長は父側だけならやや長い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "フローラルセント",
+      "pros": [
+        "父キズナの1600m以上の持続力に、母父ハービンジャーの小回り向きパワー・晩成寄り要素が加わる"
+      ],
+      "cons": [
+        "母父ハービンジャーは芝色が濃く、ダ1700mでは血統適合だけで凡走の再現性までは消せない"
+      ],
+      "score": 1,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "カロローザ",
+      "pros": [
+        "父ナダルはダ1600m以上の先行持続型で、母父ドリームジャーニーも小倉向きのスタミナ持続を補う"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    }
+  ],
+  "note": "血統は一次フィルタで、近走の個体実績が上書きする。カタログ追記候補: シャンハイボビー=米国型早熟ダートスピード、タワーオブロンドン=芝短距離〜マイル色が強くダ1700mは低サンプル、デクラレーションオブウォー=War Front系の持続力で芝中距離寄りもダート対応余地、サトノアラジン=ディープ系芝マイル寄りでダートは母系依存、ワンアンドオンリー=ハーツ系芝中長距離・晩成持続。母父ではゴールドアリュール、デヒア、アイルハヴアナザー、メイショウボーラー、Wildcat Heir、Street Cry、スパイキュール、ワイルドラッシュを補強候補。"
+}

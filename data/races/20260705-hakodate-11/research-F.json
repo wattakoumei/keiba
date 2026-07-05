@@ -1,0 +1,222 @@
+{
+  "point": "F 調教・厩舎仕上げ",
+  "race_id": "20260705-hakodate-11",
+  "as_of": "2026-07-04",
+  "overall_confidence": "低",
+  "seed_used": true,
+  "seed_source": "data/races/20260705-hakodate-11/oikiri.json",
+  "seed_url": "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+  "note": "競馬ブック好時計ランキング(oikiri seed)に対象レース出走馬は不在。WebSearchでも分析時点で採用できる個別の最終追い切り時計・脚色・併せ結果は取得できなかったため、全頭とも調教実測は不明として扱う。不在は調教不良を意味しない。stable-intent-rubric のcatalogは実エントリなしで、今回webから厩舎別の仕上げ型/追い切り常態を型判定できる根拠も取れなかったため追記候補は作らない。",
+  "field_note": "最終追い切りの時計・動き・併せ結果が全頭未取得。F単独では大きく動かさず、長期休み明けで追い切り裏付けが無い馬だけ軽い懸念に留める。調教駆け/外厩仕上げの判定も不能。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "オウギノカナメ",
+      "trainer": "高木 登",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの実測を確認できず、前走比で上向きか平行線か判定できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ラタフォレスト",
+      "trainer": "加藤 征弘",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]前走勝ち後の維持状態を攻め時計で確認したいが、今回の時計・動き評価が不明"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "テーオードレフォン",
+      "trainer": "梅田 智之",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]1月25日以来の実戦で仕上げ確認が重要だが、最終追い・本数・外厩仕上げの裏付けを取得できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "プロミストジーン",
+      "trainer": "上原 佑紀",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]1月31日以来の休み明けで、昇級初戦の仕上がりを示す時計・併せ結果を確認できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ホールシバン",
+      "trainer": "高橋 義忠",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]8歳馬の状態維持を調教面から裏付けたいが、今回の時計・動きが不明"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レヴォントゥレット",
+      "trainer": "矢作 芳人",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。前走は6月20日で間隔は短い。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]短い間隔のため軽め調整でも割り引きにくい一方、最終追いの負荷と疲労残りを確認できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヒルノハンブルク",
+      "trainer": "武 英智",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]前走勝ち後の上積みまたは維持を示す攻め時計・併せ内容を確認できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アスクデビューモア",
+      "trainer": "福永 祐一",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]3月8日以来の休み明けで、立て直しを示す本数・強度・最終追いの裏付けが取れない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カナルビーグル",
+      "trainer": "佐藤 悠太",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]2025年5月3日以来の長期休み明けで、仕上がりを示す時計・本数・外厩情報を確認できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "コトホドサヨウニ",
+      "trainer": "奥村 豊",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]前走後の立て直し度合いを調教時計で確認したいが、今回の時計・脚色が不明"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ワイドブリザード",
+      "trainer": "佐藤 悠太",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[F]先行馬だけに最終追いの余力や終い1Fを確認したいが、実測を取得できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}

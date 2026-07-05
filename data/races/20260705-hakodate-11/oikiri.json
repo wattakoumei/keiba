@@ -1,0 +1,58 @@
+{
+  "source": "keibabook_bestcyokyo",
+  "n": 3,
+  "note": "週のベスト調教ランキング＝好時計馬の抜粋。全出走馬ではない（不在馬はFがweb補完）",
+  "horses": [
+    {
+      "name": "アスクザアメリカン",
+      "cond": "古馬１勝クラス",
+      "race": null,
+      "train_date": "7/1",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        62.6,
+        49.0,
+        36.4,
+        12.2
+      ],
+      "load": "馬なり余力",
+      "last_1f": 12.2
+    },
+    {
+      "name": "マリノムーンリーフ",
+      "cond": "３歳未勝利",
+      "race": "7/4 小倉 2R",
+      "train_date": "7/1",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        63.7,
+        51.1,
+        37.9,
+        12.3
+      ],
+      "load": "一杯",
+      "last_1f": 12.3
+    },
+    {
+      "name": "ブルボンクイーン",
+      "cond": "古馬２勝クラス",
+      "race": null,
+      "train_date": "7/1",
+      "course": "栗東ＣＷ",
+      "going": "良",
+      "laps": [
+        93.2,
+        77.4,
+        63.9,
+        51.0,
+        37.6,
+        12.3
+      ],
+      "load": "一杯",
+      "last_1f": 12.3
+    }
+  ],
+  "url": "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+}

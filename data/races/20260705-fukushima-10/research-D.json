@@ -1,0 +1,325 @@
+{
+  "point": "D",
+  "title": "コース/距離/馬場適性",
+  "race_id": "20260705-fukushima-10",
+  "as_of": "2026-07-04",
+  "overall_confidence": "中",
+  "field_note": "福島芝1800は右回り小回り、直線292m、初角まで約305m。恒常的には逃げ先行が残りやすく、追込は届きにくい。枠は内寄り、特に3-4枠の成績が良い傾向。第2回福島4日目予定でAコース使用、JRA馬場情報は7月3日正午時点で芝重、7月4日8時時点で3-4角内柵沿いに傷みが出始めた状態。含水率と実測クッション値はテキスト抽出で数値未確認、直近当日レースの決まり手集計も未取得のため確信度は中。",
+  "course_bias": {
+    "course_permanent": {
+      "summary": "小回り短直線、3-4角スパイラル、ゴール前170-50mに1.2m上り。脚質データは逃げ先行が上位で、追込は低調。枠順は内枠寄り、特に3-4枠が好成績とされる。",
+      "sources": [
+        ".claude/skills/analyze-race/references/course-geometry.md",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    "this_meeting": {
+      "summary": "2026年7月5日は第2回福島4日目。JRA公式の7月3日正午現在は天候雨、芝重、ダート不良。週間情報では7月2日25.0mm、7月3日13.0mmの雨量、7月4日0.0mm、7月5日は晴予報表示。Aコース使用で、3-4角内柵沿いに傷みが出始めたがその他は概ね良好。",
+      "sources": [
+        "https://www.jra.go.jp/keiba/baba/"
+      ]
+    },
+    "dg_channel": "weight.jsonではbody_weight_status=未取得で全馬D/G馬格タグなし。現時点の馬格×道悪パワー補正は保留。"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 2000mから1800mへの短縮で距離は少し楽になる",
+        "[D] 2025-12-14中山1800を経験済み"
+      ],
+      "cons": [
+        "[D] 追込/テン遅で、福島芝1800の小回り短直線では位置取りが足りない",
+        "[D] 近4走に福島実績なし、同距離中山1800も8着止まり"
+      ],
+      "detail": {
+        "dist_change": "2000→1800（-200m）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "中山1800で8着（2025-12-14）",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 2枠で距離ロスを抑えやすく、東京1800を近走で経験済み",
+        "[D] 1600中心から1800への延長は追走面では急がされにくい"
+      ],
+      "cons": [
+        "[D] 差し/テン遅で、福島芝1800の前残り傾向には噛み合いにくい",
+        "[D] seed近4走に福島実績なし"
+      ],
+      "detail": {
+        "dist_change": "1600→1800（+200m）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "東京1800で6着（2026-04-25）",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 先行/テン中で、福島芝1800の前残り構造に脚質が合う",
+        "[D] 3枠は福島芝1800の好成績ゾーンに入り、ロスなく好位を取りやすい"
+      ],
+      "cons": [
+        "[D] 直近の同距離京都1800は9着で、1800実績は強調し切れない",
+        "[D] seed近4走に福島実績なし"
+      ],
+      "detail": {
+        "dist_change": "1600→1800（+200m）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "京都1800で9着（2026-05-24）",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 中山1800で6着、同距離右回り小回り寄りの経験はある",
+        "[D] 4枠は福島芝1800の好成績ゾーンに近い"
+      ],
+      "cons": [
+        "[D] 追込/テン遅で、短直線292mでは末脚を余しやすい",
+        "[D] seed近4走に福島実績なし"
+      ],
+      "detail": {
+        "dist_change": "1600→1800（+200m）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "中山1800で6着（2026-03-21）",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 東京1800で1勝クラス勝ち、2勝クラス2着があり距離適性は高い",
+        "[D] 差しでもテン中で好位を取れるため、後方一手より福島への移植が利く"
+      ],
+      "cons": [
+        "[D] seed近4走は東京/新潟中心で福島小回りの直接実績なし",
+        "[D] 当日馬体重未取得のため、道悪寄り馬場での馬格補正は保留"
+      ],
+      "detail": {
+        "dist_change": "1800→1800（同距離）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "東京1800で1着、東京1800の2勝クラスで2着",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "[D] 5枠で極端な外ロスはない"
+      ],
+      "cons": [
+        "[D] seedに近走履歴、脚質、テン速、上がりが無く、芝1800適性の根拠が欠損",
+        "[D] 福島芝1800の位置取り適性を判定できないため確信度を下げる"
+      ],
+      "detail": {
+        "dist_change": "不明",
+        "same_venue_record": "不明",
+        "same_distance_record": "不明",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 先行/テン中の脚質だけは福島小回りに合う"
+      ],
+      "cons": [
+        "[D] 近走は1400-1600中心で、1800への延長かつ芝1800実績がseed内にない",
+        "[D] 近走時計と上がりがダート短距離寄りで、芝1800への条件替わりが大きい"
+      ],
+      "detail": {
+        "dist_change": "1400→1800（+400m）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "seed近4走に1800なし",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 差しでもテン中で、後方一手よりは小回りに合わせる余地がある",
+        "[D] 1600から1800への延長で追走は少し楽になる"
+      ],
+      "cons": [
+        "[D] seed近4走に福島および1800実績なし",
+        "[D] 6枠差しで外を回されると短直線でロスを取り戻しにくい"
+      ],
+      "detail": {
+        "dist_change": "1600→1800（+200m）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "seed近4走に1800なし",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 2025-11-08福島1800を8番手から1着で、同会場同距離の直接実績がある",
+        "[D] 近4走のうち1800を3走しており距離経験が豊富"
+      ],
+      "cons": [
+        "[D] 追込/テン遅で、福島芝1800の恒常的な前残りには逆らう形",
+        "[D] 福島勝ちは1勝クラスで、今回の2勝クラス適性は別観点で確認が必要"
+      ],
+      "detail": {
+        "dist_change": "1800→1800（同距離）",
+        "same_venue_record": "福島1800で1着（2025-11-08）",
+        "same_distance_record": "福島1800で1着、京都1800で7着、中山1800で11着",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 2025-07-12福島2000を後方から1着で、福島コースの勝ち実績がある",
+        "[D] 2000から1800への短縮で距離負荷は少し軽くなる"
+      ],
+      "cons": [
+        "[D] 追込/テン遅で、福島芝1800の前残り・短直線には合いにくい",
+        "[D] 福島実績は2000mで、当該1800mの直接実績はseed内にない"
+      ],
+      "detail": {
+        "dist_change": "2000→1800（-200m）",
+        "same_venue_record": "福島2000で1着（2025-07-12）",
+        "same_distance_record": "seed近4走に1800なし",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[D] 2025-11-24福島1800の五色沼特別で2番手から2着、同会場同距離かつ同級寄りの実績が鮮明",
+        "[D] 先行/テン中で、福島芝1800の前残り構造に最も素直に合う"
+      ],
+      "cons": [
+        "[D] 8枠で内寄り好枠ではなく、序盤に外を回されるリスクはある",
+        "[D] 2026年春の中山1800は6着/11着で近走の同距離成績は強くない"
+      ],
+      "detail": {
+        "dist_change": "1800→1800（同距離）",
+        "same_venue_record": "福島1800で2着（2025-11-24）",
+        "same_distance_record": "福島1800で2着、中山1800で6着/11着",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 1800自体は近走で複数回経験している"
+      ],
+      "cons": [
+        "[D] 追込/テン遅で、福島芝1800の前残り・短直線に合いにくい",
+        "[D] 近走の阪神1800は8着、中山1800は13着で同距離実績が弱い",
+        "[D] seed近4走に福島実績なし"
+      ],
+      "detail": {
+        "dist_change": "1800→1800（同距離）",
+        "same_venue_record": "seed近4走に福島なし",
+        "same_distance_record": "阪神1800で8着、中山1800で13着",
+        "dg_body_track": "weight.jsonは馬格タグなし"
+      },
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/weight.json",
+        "https://keiba-course.com/course/fukushima-turf-1800/"
+      ]
+    }
+  ],
+  "note": "コース物理形状はcourse-geometry.mdを正本として使用し、webで再調査していない。webから採ったのは福島芝1800の脚質/枠傾向とJRA公式の当該開催馬場情報のみ。馬場状態は7月3日正午時点の芝重で、レース当日の最終状態・含水率・クッション値・当日馬体重は未取得。リピーター深掘りは観点L、血統由来の道悪適性は観点Cに委譲。"
+}

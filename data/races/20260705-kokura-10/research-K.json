@@ -1,0 +1,479 @@
+{
+  "race_id": "20260705-kokura-10",
+  "observation_point": "K",
+  "point_name": "騎手・乗り替わり・コンビ相性",
+  "lens": "今走鞍上と前走からの乗り替わり方向、騎手の小倉ダ1700m適性、馬×騎手コンビ実績、減量利。騎手の出方はSTEP4a展開合成素材。",
+  "as_of": "2026-07-04",
+  "confidence_overall": "中",
+  "field_note": "前走騎手はJRA seedのrecent[0].jockeyで全16頭取得済み。継続は1プウスカンドゥール・14タマモナポリのみ。9マジックローズは西村淳也へ戻り、過去に同騎手で逃げ切り勝ちがあるためK最大の好材料。7フィドルファドルは松山弘平、6メイショウリリーはM.デムーロ、15フローラルセントは菱田裕二で強化寄り。10ツーピース、13ワイノナオミ、16カロローザは前走より弱化/初コンビの割引。小倉ダ1700mの騎手別数値は公開検索で安定取得できず、不明として扱う。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "プウスカンドゥール",
+      "jockey": "中井 裕二",
+      "prev_jockey": "中井 裕二",
+      "switch_class": "継続",
+      "combo": "中井裕二が前走・2走前・4走前で騎乗。4走前の小倉平尾台特別ダ1700で2着。",
+      "course_distance_stats": "不明",
+      "score": 1,
+      "confidence": "高",
+      "ride_intent": "控える(差/テン遅)",
+      "pros": [
+        "[K]中井裕二の継続騎乗で手の内に入っており、小倉ダ1700で2着した同コンビ実績がある"
+      ],
+      "cons": [
+        "[K]鞍上強化ではなく、差し・テン遅のため位置取り改善の上積みは大きくない"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ホウショウマリス",
+      "jockey": "幸 英明",
+      "prev_jockey": "武 豊",
+      "switch_class": "横移行/やや弱化",
+      "combo": "幸英明は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": 0,
+      "confidence": "中",
+      "ride_intent": "行く(先/テン中)",
+      "pros": [
+        "[K]幸英明はベテランで先行馬の好位運びを任せやすく、小回りの距離延長でも破綻しにくい"
+      ],
+      "cons": [
+        "[K]前走武豊からは格上げではなく、初コンビで先行リズムの把握は未知数"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ユウェンタース",
+      "jockey": "団野 大成",
+      "prev_jockey": "高杉 吏麒",
+      "switch_class": "強化/テン乗り",
+      "combo": "団野大成は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": 1,
+      "confidence": "中",
+      "ride_intent": "控える/好位も可(差/テン中、前走1角2番手)",
+      "pros": [
+        "[K]若手の高杉吏麒から重賞経験のある団野大成へ替わる点は強化で、前走の好位競馬を再現しやすい"
+      ],
+      "cons": [
+        "[K]前走2着の好走コンビを替えるため、仕掛けと位置取りの呼吸合わせは初手から確認が必要"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "タマモジャスミン",
+      "jockey": "田口 貫太",
+      "prev_jockey": "小沢 大仁",
+      "switch_class": "横移行/テン乗り",
+      "combo": "近4走はすべて小沢大仁で、田口貫太は近走騎乗履歴なし。",
+      "course_distance_stats": "不明",
+      "score": 0,
+      "confidence": "中",
+      "ride_intent": "行く(先/テン中)",
+      "pros": [
+        "[K]田口貫太は積極策を取りやすい若手で、先行脚質の方向性とは合う"
+      ],
+      "cons": [
+        "[K]1勝時を含む小沢大仁の継続ラインを切る初コンビで、昇級後の先行判断は未知数"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ノボリクレバー",
+      "jockey": "高杉 吏麒",
+      "prev_jockey": "吉村 誠之助",
+      "switch_class": "弱化寄り/テン乗り",
+      "combo": "吉村誠之助が近3走連続で騎乗し、京都2勝クラス2着・阪神2勝クラス3着がある。高杉吏麒は近走騎乗履歴なし。",
+      "course_distance_stats": "不明",
+      "score": -1,
+      "confidence": "中",
+      "ride_intent": "控える(差/テン中)",
+      "pros": [
+        "[K]高杉吏麒は若手で軽快に乗れるが、今回は定量で斤量利はない"
+      ],
+      "cons": [
+        "[K]連続好走を作った吉村誠之助から初コンビへ替わるため、差し馬の追走リズムを掴む面で割引"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "メイショウリリー",
+      "jockey": "M.デムーロ",
+      "prev_jockey": "丹内 祐次",
+      "switch_class": "強化/テン乗り",
+      "combo": "M.デムーロは近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": 1,
+      "confidence": "中",
+      "ride_intent": "控える(追/テン遅)",
+      "pros": [
+        "[K]M.デムーロはJRA通年免許の外国人騎手でGI実績豊富、終いを引き出す面では明確な強化"
+      ],
+      "cons": [
+        "[K]追込・テン遅の初コンビで、小倉ダ1700の前半位置取りをどこまで改善できるかは未知数"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://en.wikipedia.org/wiki/Mirco_Demuro"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "フィドルファドル",
+      "jockey": "松山 弘平",
+      "prev_jockey": "荻野 極",
+      "switch_class": "強化/テン乗り",
+      "combo": "松山弘平は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": 1,
+      "confidence": "中",
+      "ride_intent": "控える(差/テン中)",
+      "pros": [
+        "[K]荻野極からGI実績豊富な松山弘平へ替わるのは強化で、差し馬の進路取りと追い出しに上積みが見込める"
+      ],
+      "cons": [
+        "[K]近2走は荻野極・戸崎圭太で好走しており、初コンビで1400m型のリズムを1700mへ延ばす点は未知数"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://en.wikipedia.org/wiki/Kohei_Matsuyama"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ジャルディニエ",
+      "jockey": "吉村 誠之助",
+      "prev_jockey": "亀田 温心",
+      "switch_class": "横移行/テン乗り",
+      "combo": "吉村誠之助は近4走内に騎乗履歴なし。西村淳也・C.デムーロ・亀田温心からの流動起用。",
+      "course_distance_stats": "不明",
+      "score": 0,
+      "confidence": "中",
+      "ride_intent": "控える(差/テン中)",
+      "pros": [
+        "[K]亀田温心から吉村誠之助への替わりは若手同士の横移行で、極端な弱化ではない"
+      ],
+      "cons": [
+        "[K]芝中心の近走からダート替わりで初コンビ、騎手面の明確な上積みは取りにくい"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "マジックローズ",
+      "jockey": "西村 淳也",
+      "prev_jockey": "荻野 極",
+      "switch_class": "強化/戻し",
+      "combo": "西村淳也は2走前・3走前で騎乗し、3走前の中京1勝クラスを1角1番手から逃げ切り勝ち。",
+      "course_distance_stats": "不明",
+      "score": 2,
+      "confidence": "高",
+      "ride_intent": "行く(逃/テン速)",
+      "pros": [
+        "[K]西村淳也への戻しで過去の逃げ切り勝ちコンビに戻るため、ハナ主張とペース配分の信頼度が高い",
+        "[K]逃げ馬に手が合う既存コンビで、今回の展開合成では行く意思を最も読みやすい"
+      ],
+      "cons": [
+        "[K]2走前は同騎手で小倉山特別10着があり、距離・相手強化で完全な万能コンビとは言い切れない"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ツーピース",
+      "jockey": "川須 栄彦",
+      "prev_jockey": "M.デムーロ",
+      "switch_class": "弱化/テン乗り",
+      "combo": "川須栄彦は近3走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": -1,
+      "confidence": "中",
+      "ride_intent": "行く(先/テン中)",
+      "pros": [
+        "[K]川須栄彦は関西圏の中堅で、前に行く判断自体は取りやすい"
+      ],
+      "cons": [
+        "[K]前走M.デムーロからは弱化で、距離延長かつ先行争いがある初コンビは押し引きが難しい"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ファミリーツリー",
+      "jockey": "松若 風馬",
+      "prev_jockey": "佐々木 大輔",
+      "switch_class": "弱化寄り/テン乗り",
+      "combo": "松若風馬は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": -1,
+      "confidence": "中",
+      "ride_intent": "控える(追/テン遅)",
+      "pros": [
+        "[K]松若風馬は関西中堅で小回りの差し運び自体はこなせる"
+      ],
+      "cons": [
+        "[K]佐々木大輔・坂井瑠星らから松若風馬へ替わる流れで強化とは言いにくく、追込初コンビで展開待ちが強い"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "シュヴァルツリーベ",
+      "jockey": "藤懸 貴志",
+      "prev_jockey": "田山 旺佑",
+      "switch_class": "強化寄り/テン乗り",
+      "combo": "藤懸貴志は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": 0,
+      "confidence": "中",
+      "ride_intent": "控える(差/テン中)",
+      "pros": [
+        "[K]新人田山旺佑から経験ある藤懸貴志へ替わる点は強化寄り"
+      ],
+      "cons": [
+        "[K]近走は1200m中心で今回1700mへ大幅延長、初コンビの距離配分が難しいため評価は中立止まり"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ワイノナオミ",
+      "jockey": "国分 優作",
+      "prev_jockey": "北村 友一",
+      "switch_class": "弱化/テン乗り",
+      "combo": "国分優作は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": -1,
+      "confidence": "中",
+      "ride_intent": "控える(追/テン遅)",
+      "pros": [
+        "[K]国分優作は関西圏の経験ある騎手で、腹を括った後方待機は取りやすい"
+      ],
+      "cons": [
+        "[K]北村友一からは弱化で、追込・テン遅の初コンビは仕掛けどころの難度が高い"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "タマモナポリ",
+      "jockey": "酒井 学",
+      "prev_jockey": "酒井 学",
+      "switch_class": "継続",
+      "combo": "酒井学が前走から3走連続で騎乗。小倉平尾台特別のみ荻野琢真。",
+      "course_distance_stats": "不明",
+      "score": 1,
+      "confidence": "高",
+      "ride_intent": "行く(先/テン中)",
+      "pros": [
+        "[K]酒井学の継続騎乗で近走の先行リズムを把握済み、距離延長でも出方を読める"
+      ],
+      "cons": [
+        "[K]継続は好材料だが強化ではなく、近走1200〜1400mから1700mへ戻る点は騎手だけでは補えない"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "フローラルセント",
+      "jockey": "菱田 裕二",
+      "prev_jockey": "川端 海翼",
+      "switch_class": "強化/テン乗り",
+      "combo": "菱田裕二は近4走内に騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": 1,
+      "confidence": "中",
+      "ride_intent": "行く(先/テン中)",
+      "pros": [
+        "[K]川端海翼から菱田裕二へ替わる点は経験面で強化、先行馬の立て直し材料になる"
+      ],
+      "cons": [
+        "[K]初コンビで近走大敗後の先行馬を立て直す必要があり、外枠からの位置取りも簡単ではない"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "カロローザ",
+      "jockey": "亀田 温心",
+      "prev_jockey": "荻野 極",
+      "switch_class": "弱化寄り/テン乗り",
+      "combo": "亀田温心は近走騎乗履歴なし。初コンビ扱い。",
+      "course_distance_stats": "不明",
+      "score": -1,
+      "confidence": "中",
+      "ride_intent": "控える(差/テン中)",
+      "pros": [
+        "[K]亀田温心はローカル開催での騎乗経験があり、小倉の流れには対応しやすい"
+      ],
+      "cons": [
+        "[K]前走4着の荻野極から初コンビへ替わる点は弱化寄りで、外枠差しの進路取りも難しい"
+      ],
+      "sources": [
+        "data/races/20260705-kokura-10/seed.json",
+        "https://www.jra.go.jp/datafile/meikan/jockey.html"
+      ]
+    }
+  ],
+  "stable_intent_addendum_candidates": [
+    {
+      "stable": "坂口 智康",
+      "labels": {
+        "騎手起用": "主戦固定寄り"
+      },
+      "confidence": "中",
+      "basis": "プウスカンドゥールで中井裕二を近4走中3回起用し、今回も継続"
+    },
+    {
+      "stable": "井上 智史",
+      "labels": {
+        "騎手起用": "流動"
+      },
+      "confidence": "低",
+      "basis": "ホウショウマリスで鷲頭虎太・武豊・幸英明と近走の騎手が流動"
+    },
+    {
+      "stable": "宮 徹",
+      "labels": {
+        "騎手起用": "流動/選択的強化"
+      },
+      "confidence": "低",
+      "basis": "ユウェンタースで高杉吏麒・酒井学・西塚洸二から今回は団野大成へ替える"
+    },
+    {
+      "stable": "大橋 勇樹",
+      "labels": {
+        "騎手起用": "主戦固定からの変更"
+      },
+      "confidence": "低",
+      "basis": "タマモジャスミンは小沢大仁固定から今回は田口貫太へ替える"
+    },
+    {
+      "stable": "石橋 守",
+      "labels": {
+        "騎手起用": "主戦固定からの変更"
+      },
+      "confidence": "低",
+      "basis": "ノボリクレバーで吉村誠之助を3走連続起用後、今回は高杉吏麒へ替える"
+    },
+    {
+      "stable": "高橋 義忠",
+      "labels": {
+        "騎手起用": "流動/選択的強化"
+      },
+      "confidence": "低",
+      "basis": "メイショウリリーで丹内祐次・横山琉人・藤懸貴志・団野大成から今回はM.デムーロへ替える"
+    },
+    {
+      "stable": "矢作 芳人",
+      "labels": {
+        "騎手起用": "選択的強化"
+      },
+      "confidence": "中",
+      "basis": "フィドルファドルで戸崎圭太・横山武史・荻野極から今回は松山弘平へ替え、上位騎手を要所で起用"
+    },
+    {
+      "stable": "奥村 豊",
+      "labels": {
+        "騎手起用": "流動"
+      },
+      "confidence": "低",
+      "basis": "ジャルディニエで亀田温心・西村淳也・C.デムーロから今回は吉村誠之助へ替える"
+    },
+    {
+      "stable": "中内田 充正",
+      "labels": {
+        "騎手起用": "選択的強化/戻し"
+      },
+      "confidence": "中",
+      "basis": "マジックローズで過去勝利のある西村淳也へ戻す起用"
+    },
+    {
+      "stable": "河嶋 宏樹",
+      "labels": {
+        "騎手起用": "流動"
+      },
+      "confidence": "中",
+      "basis": "同厩舎3頭で川須栄彦・松若風馬・酒井学を使い分け、ツーピースとファミリーツリーは乗替"
+    },
+    {
+      "stable": "羽月 友彦",
+      "labels": {
+        "騎手起用": "流動"
+      },
+      "confidence": "低",
+      "basis": "シュヴァルツリーベで田山旺佑・伊藤工真から藤懸貴志へ替える"
+    },
+    {
+      "stable": "畑端 省吾",
+      "labels": {
+        "騎手起用": "流動"
+      },
+      "confidence": "低",
+      "basis": "ワイノナオミで北村友一・荻野極・浜中俊・永島まなみから国分優作へ替える"
+    },
+    {
+      "stable": "松下 武士",
+      "labels": {
+        "騎手起用": "選択的強化"
+      },
+      "confidence": "低",
+      "basis": "フローラルセントで川端海翼から菱田裕二へ替え、経験面を上げる起用"
+    },
+    {
+      "stable": "松永 幹夫",
+      "labels": {
+        "騎手起用": "流動"
+      },
+      "confidence": "低",
+      "basis": "カロローザで荻野極・鮫島克駿から亀田温心へ替える"
+    }
+  ],
+  "notes": "市場情報・支持順・群衆由来指標は参照していない。前走騎手はseedで確定し、web補完は使っていない。小倉ダ1700mの騎手別勝率/連対率は取得不能のため数値不明として扱い、スコアは乗替方向・seed内コンビ履歴・騎手格・脚質との噛み合わせだけで評価した。減量騎手記号は今回の出走表に無く、斤量利は評価しない。展開素材としては9マジックローズ西村淳也=行く意思が強い、14タマモナポリ酒井学=継続で先行、4タマモジャスミン田口貫太・10ツーピース川須栄彦・15フローラルセント菱田裕二=初コンビ先行で押し引き不確実。"
+}

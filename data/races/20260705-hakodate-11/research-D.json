@@ -1,0 +1,302 @@
+{
+  "point": "D",
+  "title": "コース/距離/馬場適性",
+  "race_id": "20260705-hakodate-11",
+  "as_of": "2026-07-04",
+  "overall_confidence": "中",
+  "field_note": "函館ダ1700は右回り、直線260.3m、発走はスタンド前右端で初角まで約329m。恒常的には短直線と3-4角スパイラル、終盤下りで逃げ先行が残りやすく、後方一気は苦しい。第1回函館8日目予定。JRA馬場情報は7月3日正午時点で芝・ダート良、7月4日にダート砂厚9.0cm調整。直近ダ1700の決まり手集計は未取得。",
+  "course_bias": {
+    "course_permanent": {
+      "summary": "函館ダ1700は芝スタートなし、直線260.3mの短直線。公式コース紹介でも逃げ・先行タイプの活躍が目立ち、後方一気は苦戦しやすいとされる。ローカル正本では終盤下りで前が止まりにくく、ダ1700は逃げ馬連対率高めの扱い。",
+      "sources": [
+        ".claude/skills/analyze-race/references/course-geometry.md",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/"
+      ]
+    },
+    "this_meeting": {
+      "summary": "2026年7月5日は第1回函館8日目。JRA公式の第7日向け馬場情報では、7月3日正午現在は天候曇、芝良、ダート良。週間情報は6月26日36.5mm、6月27日7.0mm以降の雨量0.0mmで、7月4日にダートのクッション砂を9.0cmへ調整。",
+      "sources": [
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    "dg_channel": "weight.jsonは空で決定論D/Gタグ未注入。seed近走馬体重では500kg以上がラタフォレスト、テーオードレフォン、ホールシバン、カナルビーグル、コトホドサヨウニ。ワイドブリザードは446-454kgでダートの馬格面は強調しにくい。当日馬体重と馬場悪化時は再評価。"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "オウギノカナメ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 先行/テン中で函館ダ1700の短直線・前残り構造には脚質が合う",
+        "[D] 前走東京1600から1700への延長で極端な距離替わりではない"
+      ],
+      "cons": [
+        "[D] seed近4走は東京1400-1600のみで、函館・ローカル小回り・1700の直接実績がない",
+        "[D] 馬体重484kg前後でダート良馬場の標準域、馬格パワーの加点は薄い"
+      ],
+      "detail": {
+        "dist_change": "1600→1700（+100m）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "seed近4走に1700なし",
+        "body_track": "484kgで安定"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ラタフォレスト",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 前走福島1700の吾妻小富士Sを1着で、同距離ローカル1700への適合実績が新しい",
+        "[D] 510kg前後の大型で、ダート1700のパワー要求には合う"
+      ],
+      "cons": [
+        "[D] 同じ1700でも小倉1700は9着で、ローカル1700なら常に崩れないという根拠まではない",
+        "[D] 差し/テン中で、函館ダ1700の短直線では位置が後ろすぎると取りこぼしやすい"
+      ],
+      "detail": {
+        "dist_change": "1700→1700（同距離）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "福島1700で1着、小倉1700で9着",
+        "body_track": "508-510kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "テーオードレフォン",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[D] 2025年函館1700のマリーンSで2着があり、当該コース・距離の実証適性が最も明確",
+        "[D] 先行/テン中かつ500kg前後で、短直線ダ1700の位置取りとパワー要求に合う"
+      ],
+      "cons": [
+        "[D] 近2走は京都1800、阪神1800で大敗しており、1700替わりで戻せるかは鮮度込みで確認が必要",
+        "[D] 函館実績は約1年前で、7歳馬の過去実績として満額評価にはしない"
+      ],
+      "detail": {
+        "dist_change": "1800→1700（-100m）",
+        "same_venue_record": "函館1700で2着（2025-07-19）",
+        "same_distance_record": "函館1700で2着、札幌1700で8着",
+        "body_track": "496-506kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "プロミストジーン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 前走京都1800を先行して1着で、ダート中距離の基礎適性は示している",
+        "[D] 1800から1700への短縮は、函館の短直線で先行力を使う方向には悪くない"
+      ],
+      "cons": [
+        "[D] seedは2走のみで函館・1700・ローカル小回りの直接実績がない",
+        "[D] 先行表記でもテン遅で、函館ダ1700の前有利構造に対して序盤位置取りの確証が薄い"
+      ],
+      "detail": {
+        "dist_change": "1800→1700（-100m）",
+        "same_venue_record": "seed近走に函館なし",
+        "same_distance_record": "seed近走に1700なし",
+        "body_track": "468-470kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ホールシバン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 福島1700、小倉1700を複数回使っており、ローカルダ1700の距離経験は豊富",
+        "[D] 524-532kgの大型で、ダート1700のパワー面は不足しにくい"
+      ],
+      "cons": [
+        "[D] 近走の1700実績は6着、8着、6着で勝ち切る適性証明まではない",
+        "[D] 差し/テン遅で、函館ダ1700の短直線では後方から届きにくい"
+      ],
+      "detail": {
+        "dist_change": "1700→1700（同距離）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "福島1700で6着・8着、小倉1700で6着",
+        "body_track": "524-532kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レヴォントゥレット",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 逃げ/テン速で、函館ダ1700の短直線・前残り構造には脚質が最も噛み合う",
+        "[D] 2100から1700への大幅短縮で、先行力をより短い距離に移せる"
+      ],
+      "cons": [
+        "[D] seed近4走に1700がなく、函館・ローカル1700への直接適性は未証明",
+        "[D] 前走2100からの短縮幅が大きく、道中の追走リズムが変わる点は不確定"
+      ],
+      "detail": {
+        "dist_change": "2100→1700（-400m）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "seed近4走に1700なし",
+        "body_track": "482-500kgで振れ幅あり"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヒルノハンブルク",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 前走京都1900を先行して1着で、右回りダート中距離の持続力は示している",
+        "[D] 先行/テン中で、函館ダ1700の前有利構造には脚質面で合わせやすい"
+      ],
+      "cons": [
+        "[D] 1900から1700への短縮で、前走より忙しい流れへの対応が課題",
+        "[D] seed近4走に函館・1700実績がなく、ローカル1700の直接根拠は薄い"
+      ],
+      "detail": {
+        "dist_change": "1900→1700（-200m）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "seed近4走に1700なし",
+        "body_track": "472-476kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アスクデビューモア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 1800から1700への短縮で距離負担は軽くなる",
+        "[D] 中山1800で勝ちがあり、右回りダート中距離そのものは守備範囲"
+      ],
+      "cons": [
+        "[D] 追込/テン遅で、函館ダ1700の短直線・前残り構造には最も合いにくい",
+        "[D] seed近4走に函館・1700実績がない"
+      ],
+      "detail": {
+        "dist_change": "1800→1700（-100m）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "seed近4走に1700なし",
+        "body_track": "462-466kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カナルビーグル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 京都1900のユニコーンSを1着で、右回りダート中距離の能力とパワーは高い",
+        "[D] 500kg前後の馬格で、ダート良馬場の力要る1700にも対応しやすい"
+      ],
+      "cons": [
+        "[D] 1900から1700への短縮、かつ初の1700で追走が忙しくなる可能性がある",
+        "[D] seed近走に函館・ローカル1700の直接実績がない"
+      ],
+      "detail": {
+        "dist_change": "1900→1700（-200m）",
+        "same_venue_record": "seed近走に函館なし",
+        "same_distance_record": "seed近走に1700なし",
+        "body_track": "490-500kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "コトホドサヨウニ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉1700の門司Sを1着で、同距離ローカル1700の勝ち実績が新しい",
+        "[D] 500-522kgの大型かつ先行/テン中で、ダート1700の位置取りとパワー要求に合う"
+      ],
+      "cons": [
+        "[D] 福島1700の吾妻小富士Sは8着で、同距離でも展開・コース替わりで安定し切れていない",
+        "[D] seed近4走に函館実績がない"
+      ],
+      "detail": {
+        "dist_change": "1700→1700（同距離）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "小倉1700で1着、福島1700で8着",
+        "body_track": "500-522kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ワイドブリザード",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 先行/テン速で、函館ダ1700の短直線・前残り構造には脚質面で合う",
+        "[D] 1800から1700への短縮で、スピードを生かす方向には寄る"
+      ],
+      "cons": [
+        "[D] seed近4走に函館・1700実績がなく、同条件は未証明",
+        "[D] 446-454kgの小柄寄りで、ダートのパワー要求を馬格で押すタイプではない"
+      ],
+      "detail": {
+        "dist_change": "1800→1700（-100m）",
+        "same_venue_record": "seed近4走に函館なし",
+        "same_distance_record": "seed近4走に1700なし",
+        "body_track": "446-454kg"
+      },
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        "https://www.jra.go.jp/facilities/race/hakodate/course/",
+        "https://www.jra.go.jp/keiba/baba/index3.html"
+      ]
+    }
+  ],
+  "notes": "近走・同距離実績・距離替わりはseed.jsonを起点にし、全頭の出走履歴web再取得は行っていない。JRA公式馬場ページは含水率の数値がテキスト抽出できず、直近開催日の函館ダ1700決まり手集計も取得できなかったため、当該開催の今は馬場状態・週間雨量・砂厚調整までに限定。weight.jsonは空のためD/G馬格タグはseed近走馬体重からの補助評価に留める。血統由来の道悪・パワー適性は観点Cに委譲。"
+}

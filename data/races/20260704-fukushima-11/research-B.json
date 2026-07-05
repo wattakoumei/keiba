@@ -1,0 +1,158 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "近走内容と3勝級通用度を評価。昇級馬は勝ち上がりを加点しつつ相手強化を懸念に残す。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ボディブロー",
+      "pros": [
+        "阪神2勝勝ち後、陽春S7着までなら3勝級で全く通用外ではない"
+      ],
+      "cons": [
+        "越後S13着で直近内容は弱い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゲキザル",
+      "pros": [
+        "アクアライン2着の履歴はある"
+      ],
+      "cons": [
+        "直近3走が9着・14着・8着で上昇材料に乏しい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ラストシャリナ",
+      "pros": [
+        "ブラッドストーンS4着で3勝級通用の形は見せた"
+      ],
+      "cons": [
+        "前走鎌倉S13着で崩れが大きい"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウコバト",
+      "pros": [
+        "フェアウェルS8着など末は使う"
+      ],
+      "cons": [
+        "近走は後方から掲示板外が続き勝ち切る材料が薄い"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ピックアップライン",
+      "pros": [
+        "春風S5着は今回比較で悪くない"
+      ],
+      "cons": [
+        "鎌倉S14着、御影S10着で近走の崩れが目立つ"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アイアムユウシュン",
+      "pros": [
+        "過去には橿原S6着がある"
+      ],
+      "cons": [
+        "卯月S11着・なにわS13着で下降基調"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テセラリアン",
+      "pros": [
+        "前走2勝級を逃げ切り、勝ち上がりの勢いがある"
+      ],
+      "cons": [
+        "3勝級初戦相当で相手強化が課題"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "イリフィ",
+      "pros": [
+        "橿原S4着・リボン賞4着と3勝級で安定して差している"
+      ],
+      "cons": [
+        "勝ち切るには展開の助けが必要"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ゲイルライダー",
+      "pros": [
+        "3勝級で高瀬川S3着・天満橋S4着と上位実績が明確"
+      ],
+      "cons": [
+        "1400寄りの好走もあり、1150で忙しくなる可能性"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カネショウレジェン",
+      "pros": [
+        "鎌ケ谷特別勝ちで昇級、東京1400でも大崩れは限定的"
+      ],
+      "cons": [
+        "3勝級では前走9着でまだ証明途上"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    }
+  ],
+  "note": "Codex fan-outが環境制約で中断したため、JRA seedと決定論タグから縮退生成。"
+}

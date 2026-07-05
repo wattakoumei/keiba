@@ -1,0 +1,244 @@
+{
+  "race_id": "20260705-kokura-11",
+  "observation_point": "A",
+  "point": "A: 能力指数・時計",
+  "lens": "能力指数・時計（スピード指数/走破時計/上がり3F/レースレベル）",
+  "as_of": "2026-07-04",
+  "overall_confidence": "中",
+  "field_note": "走破時計・上がり3Fはseed(JRA経路)を一次事実として採用。webでは高松宮記念が前半3F32.5・1:06.3のレコード級、オーシャンSは2026年勝ち時計1:07.0、シルクロードSはG3京都1200で2026年勝ち時計1:08.0、小倉北九州記念は近年1:06台〜1:07台の速い決着が多い点を確認。鞍馬SなどOP個別回顧は安定ソース不足のためseed内直接比較を主にした。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ランフォーヴァウ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 谷川岳Sを1400m 1:21.1で勝ち、東風S/ニューイヤーも1600m 1:32秒台で走れており、マイル寄りの基礎時計は悪くない"
+      ],
+      "cons": [
+        "[A] seed近4走に芝1200m時計がなく、今回の高速1200mへは時計変換が必要",
+        "[A] 上がり最速34.2は短距離重賞の32秒台決め手を持つ上位馬に見劣る"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://zh.wikipedia.org/wiki/%E8%B5%B7%E8%AA%93%E8%B7%91",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジェニファー",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[A] 近走の芝1200mで1:08.1/1:08.4を持ち、小倉宗像特別も1:08.4・上がり34.1で勝っている"
+      ],
+      "cons": [
+        "[A] 好時計は1勝〜条件級中心で、G3級の1:07前半〜1:06台決着との比較では一段足りない",
+        "[A] 上がり34秒台中心で、決め手の絶対値も重賞組の32〜33秒台に劣る"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen",
+        "https://en.wikipedia.org/wiki/Aoi_Stakes"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "プロトポロス",
+      "score": -2,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A] seed内の直近芝1200m相当時計は藤森Sの1:11.3・上がり36.2止まりで、今回の芝1200高速水準から大きく見劣る",
+        "[A] 近3走も1600/1400で大敗時計が続き、重賞芝スプリントに必要なスピード指数の裏付けが薄い"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アンクルクロス",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] 鞍馬Sで1200m 1:06.6・上がり32.7の2着があり、今回メンバーでも最上位級の走破時計と決め手を同時に持つ",
+        "[A] 淀短距離S2着、醍醐S勝ちも1200mで33秒台前半の上がりを使えており、時計の再現性が高い"
+      ],
+      "cons": [
+        "[A] 小倉テレQ杯は1:09.0・7着で、今回舞台での速い勝ち負け時計はまだseed内にない"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen",
+        "https://en.wikipedia.org/wiki/Silk_Road_Stakes"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "アブキールベイ",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 京阪杯1:08.0・6着、シルクロードS1:08.2・6着があり、G3級の1200m時計で崩れず走れている",
+        "[A] 鞍馬Sで上がり32.8、シルクロードSで33.1と短距離重賞水準の決め手を持つ"
+      ],
+      "cons": [
+        "[A] 鞍馬Sは1:07.4でも12着で、速い決着を上位着順に直結させた近走ではない"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Silk_Road_Stakes",
+        "https://en.wikipedia.org/wiki/Aoi_Stakes"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "オタルエバー",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[A] 鞍馬Sで1200m 1:07.0・上がり33.6があり、走破時計の絶対値だけなら重賞水準に触れている"
+      ],
+      "cons": [
+        "[A] シルクロードS/京阪杯/オーシャンSはいずれも着順が大きく、速い重賞決着で上位に踏みとどまる裏付けが弱い",
+        "[A] 7歳で近走ベストが着順に結びついておらず、全盛時時計の鮮度は割引"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Ocean_Stakes",
+        "https://en.wikipedia.org/wiki/Silk_Road_Stakes"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デアヴェローチェ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 葵ステークスで1200m 1:07.6・上がり33.6の勝ち時計を持ち、3歳G3水準のスピードは鮮度が高い",
+        "[A] 1勝クラスも1200m 1:08.4・上がり33.6で勝っており、短距離時計の連続性がある"
+      ],
+      "cons": [
+        "[A] 古馬G3級の1:07前半〜1:06台決着を上位で走った実績はまだなく、相手レベル分を一段割引"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Aoi_Stakes",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A] 1200mで先行して勝ち切る基礎スピードはseed上確認できる"
+      ],
+      "cons": [
+        "[A] 近走1200m時計は1:10.1〜1:11.0、上がりも35.8以上で、芝1200G3の高速時計とは明確に差がある",
+        "[A] seed近走は条件級中心で、今回の小倉G3高速決着に通用する時計根拠が薄い"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ヨシノイースター",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] オーシャンSで1200m 1:07.2・5着、高松宮記念でも1:07.4を記録しており、G3〜G1の高速決着を実際に走れている",
+        "[A] 安土城Sの上がり32.7を含め、終いの絶対値はメンバー最上位級"
+      ],
+      "cons": [
+        "[A] 8歳で鮮度割引は必要だが、近走に同水準の時計が残っているため大きな減点まではしない"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Ocean_Stakes",
+        "https://en.wikipedia.org/wiki/Satono_Reve"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "サウンドモリアーナ",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] モルガナイトSを1200m 1:07.5・上がり33.7、船橋Sを1:07.8・上がり34.1で連勝しており、近走の時計鮮度が高い",
+        "[A] 先行して1:07台を出せるため、純粋な巡航スピードは今回メンバーでも上位圏"
+      ],
+      "cons": [
+        "[A] 1:07台の好時計はOP/条件級文脈が中心で、G3以上の高速決着で同じ時計を上位に結びつけた実績はまだ薄い"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen",
+        "https://en.wikipedia.org/wiki/Ocean_Stakes"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ヤマニンアルリフラ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] シルクロードSで1200m 1:08.1・上がり33.1の3着、京阪杯でも1:08.1・7着があり、G3級の時計対応力は明確",
+        "[A] 高松宮記念のレコード級決着でも1:07.7を記録し、G1水準の高速流にも参加できている"
+      ],
+      "cons": [
+        "[A] 直近の高松宮記念は14着で、速すぎる決着では着順面の余裕を欠いた"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Silk_Road_Stakes",
+        "https://en.wikipedia.org/wiki/Satono_Reve",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "フリッカージャブ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] 鞍馬Sを1200m 1:06.4・上がり33.3で勝ち、今回メンバー最速の近走1200m時計を持つ",
+        "[A] オーシャンSも1:07.3・6着、北陸S1:08.0勝ち、小倉耶馬渓特別1:07.7勝ちと、速い1200m時計の再現性が高い"
+      ],
+      "cons": [
+        "[A] ベスト時計は京都鞍馬Sの高速馬場文脈で、同じ水準を小倉G3で再現できるかは馬場差の解釈が残る"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Ocean_Stakes",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "イツモニコニコ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[A] カウントダウンSを1200m 1:08.4・上がり33.2で勝ち、飯坂温泉特別も1:08.1で勝っており、条件級では速い時計を出せる",
+        "[A] 鞍馬Sで上がり33.1を使っており、終いの数字自体は水準以上"
+      ],
+      "cons": [
+        "[A] 鞍馬Sは1:07.5でも13着、モルガナイトSも1:08.2で12着と、OP以上の速い決着では着順が伴っていない",
+        "[A] G3水準の1:07前半〜1:06台決着に対する時計の余裕は上位馬ほどない"
+      ],
+      "sources": [
+        "seed:data/races/20260705-kokura-11/seed.json",
+        "https://en.wikipedia.org/wiki/Kitakyushu_Kinen",
+        "https://en.wikipedia.org/wiki/Silk_Road_Stakes"
+      ]
+    }
+  ],
+  "notes": "seedに全近走のtime/dist/agariがあるため生時計はwebで再取得していない。鞍馬S/モルガナイトS/谷川岳Sなど個別OPのレースレベル解釈は公開ソースが限定的で、seed内h2hと重賞ページの勝ち時計レンジからの推定を含む。"
+}

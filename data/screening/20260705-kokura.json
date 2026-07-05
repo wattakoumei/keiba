@@ -1,0 +1,800 @@
+{
+  "date": "20260705",
+  "venue": "kokura",
+  "place": "10",
+  "as_of": "2026-07-04T23:36:49",
+  "odds_available": true,
+  "races": [
+    {
+      "r": 1,
+      "race_id": "202607051001",
+      "post_time": "10:05",
+      "surface": "障",
+      "distance": 2860,
+      "headcount": 12,
+      "race_name": "障害3歳上未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "障害"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "上位ボックス",
+        "anchor": [
+          "8 タガノバルコス",
+          "12 ドラギニャン",
+          "5 ストラクチャー",
+          "4 モズナイスバディー"
+        ],
+        "style_counts": {
+          "差": 4,
+          "追": 7,
+          "先": 1
+        },
+        "reason": "8タガノバルコス / 12ドラギニャン / 5ストラクチャー",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 8,
+            "name": "タガノバルコス",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 4.26
+          },
+          {
+            "no": 12,
+            "name": "ドラギニャン",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 3.49
+          },
+          {
+            "no": 5,
+            "name": "ストラクチャー",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 3.42
+          },
+          {
+            "no": 4,
+            "name": "モズナイスバディー",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 2.02
+          }
+        ]
+      },
+      "quadrant": "穴ボックス",
+      "score": 2.3,
+      "error": null
+    },
+    {
+      "r": 2,
+      "race_id": "202607051002",
+      "post_time": "10:40",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "race_name": "サラ系2歳未勝利",
+      "cond_rage": "強",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "5 グレートキリシマ",
+          "1 ユイノジカンカセギ",
+          "9 ヘキレキ",
+          "10 リエーヴェ"
+        ],
+        "style_counts": {
+          "差": 6,
+          "追": 5,
+          "先": 5
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 5,
+            "name": "グレートキリシマ",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 3.15
+          },
+          {
+            "no": 1,
+            "name": "ユイノジカンカセギ",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 2.8
+          },
+          {
+            "no": 9,
+            "name": "ヘキレキ",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 2.8
+          },
+          {
+            "no": 10,
+            "name": "リエーヴェ",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 2.8
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -1.0,
+      "error": null
+    },
+    {
+      "r": 3,
+      "race_id": "202607051003",
+      "post_time": "11:10",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 18,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "小倉開催",
+        "フルゲート18頭"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "上位ボックス",
+        "anchor": [
+          "17 ティタノマキア",
+          "16 カトマンズゴールド",
+          "4 ウィスカーパッド",
+          "18 ノヴァレジーナ"
+        ],
+        "style_counts": {
+          "追": 9,
+          "逃": 2,
+          "先": 2,
+          "差": 5
+        },
+        "reason": "17ティタノマキア / 16カトマンズゴールド / 4ウィスカーパッド",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 17,
+            "name": "ティタノマキア",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 7.9
+          },
+          {
+            "no": 16,
+            "name": "カトマンズゴールド",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 6.99
+          },
+          {
+            "no": 4,
+            "name": "ウィスカーパッド",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 6.33
+          },
+          {
+            "no": 18,
+            "name": "ノヴァレジーナ",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 2.66
+          }
+        ]
+      },
+      "quadrant": "穴ボックス",
+      "score": 2.3,
+      "error": null
+    },
+    {
+      "r": 4,
+      "race_id": "202607051004",
+      "post_time": "11:40",
+      "surface": "ダ",
+      "distance": 1000,
+      "headcount": 14,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "小倉開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "上位ボックス",
+        "anchor": [
+          "8 サトノロザリー",
+          "4 モズタイシソウシ",
+          "5 メイワキラリ",
+          "11 ナツノオジョウサマ"
+        ],
+        "style_counts": {
+          "差": 4,
+          "追": 2,
+          "先": 7,
+          "逃": 1
+        },
+        "reason": "8サトノロザリー / 4モズタイシソウシ / 5メイワキラリ",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 8,
+            "name": "サトノロザリー",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 4.48
+          },
+          {
+            "no": 4,
+            "name": "モズタイシソウシ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 4.47
+          },
+          {
+            "no": 5,
+            "name": "メイワキラリ",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 4.4
+          },
+          {
+            "no": 11,
+            "name": "ナツノオジョウサマ",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 4.37
+          }
+        ]
+      },
+      "quadrant": "妙味なし",
+      "score": -2.5,
+      "error": null
+    },
+    {
+      "r": 5,
+      "race_id": "202607051005",
+      "post_time": "12:30",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 12,
+      "race_name": "サラ系2歳新馬",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "小倉開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 ポルトブルー",
+          "2 ヤマニンイハナ",
+          "3 アシャカブラーヴ",
+          "4 ロードフェルム"
+        ],
+        "style_counts": {
+          "不明": 12
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "ポルトブルー",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 2,
+            "name": "ヤマニンイハナ",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 3,
+            "name": "アシャカブラーヴ",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 4,
+            "name": "ロードフェルム",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -3.5,
+      "error": null
+    },
+    {
+      "r": 6,
+      "race_id": "202607051006",
+      "post_time": "13:00",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 11,
+      "race_name": "サラ系2歳新馬",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "小倉開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 タケルレジェンド",
+          "2 ヴェルヴィエ",
+          "3 エボニーウイング",
+          "4 アテンド"
+        ],
+        "style_counts": {
+          "不明": 11
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "タケルレジェンド",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 2,
+            "name": "ヴェルヴィエ",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 3,
+            "name": "エボニーウイング",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 4,
+            "name": "アテンド",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -3.5,
+      "error": null
+    },
+    {
+      "r": 7,
+      "race_id": "202607051007",
+      "post_time": "13:30",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "強",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数",
+        "芝短距離"
+      ],
+      "dango_tier": "割れ",
+      "dango_signals": [
+        "[割れ] 1番人気3.5倍≥3.0(割れ)"
+      ],
+      "x_axis": {
+        "confidence": "絞れる",
+        "anchor": [
+          "1 ドラムメジャー",
+          "14 パトローナス",
+          "9 ナムラオットー",
+          "5 ファーストアタック"
+        ],
+        "style_counts": {
+          "逃": 1,
+          "差": 5,
+          "不明": 2,
+          "追": 3,
+          "先": 5
+        },
+        "reason": "1ドラムメジャー / 14パトローナス / 9ナムラオットー",
+        "market_divergence": "ズレ大",
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "ドラムメジャー",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 5.07
+          },
+          {
+            "no": 14,
+            "name": "パトローナス",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 3.95
+          },
+          {
+            "no": 9,
+            "name": "ナムラオットー",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 3.18
+          },
+          {
+            "no": 5,
+            "name": "ファーストアタック",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 1.9
+          }
+        ]
+      },
+      "quadrant": "本命勝負",
+      "score": 9.0,
+      "error": null
+    },
+    {
+      "r": 8,
+      "race_id": "202607051008",
+      "post_time": "14:00",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 10,
+      "race_name": "サラ系3歳上1勝クラス",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "小倉開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 シンドリームシン",
+          "8 オモイヲノセテ",
+          "5 ワンダフルボンド",
+          "6 クラウディアイ"
+        ],
+        "style_counts": {
+          "追": 5,
+          "差": 4,
+          "先": 1
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "シンドリームシン",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 6.83
+          },
+          {
+            "no": 8,
+            "name": "オモイヲノセテ",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 5.7
+          },
+          {
+            "no": 5,
+            "name": "ワンダフルボンド",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 5.66
+          },
+          {
+            "no": 6,
+            "name": "クラウディアイ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 3.88
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -3.5,
+      "error": null
+    },
+    {
+      "r": 9,
+      "race_id": "202607051009",
+      "post_time": "14:35",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 8,
+      "race_name": "青島特別",
+      "cond_rage": "弱",
+      "cond_flags": [
+        "小倉開催",
+        "少頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "上位ボックス",
+        "anchor": [
+          "2 ダークマルス",
+          "6 ムスクレスト",
+          "5 アクロフェイズ",
+          "7 ウィテカービート"
+        ],
+        "style_counts": {
+          "追": 3,
+          "逃": 2,
+          "差": 3
+        },
+        "reason": "2ダークマルス / 6ムスクレスト / 5アクロフェイズ",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 2,
+            "name": "ダークマルス",
+            "style": "逃",
+            "ten_speed": "中",
+            "score": 5.94
+          },
+          {
+            "no": 6,
+            "name": "ムスクレスト",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 5.69
+          },
+          {
+            "no": 5,
+            "name": "アクロフェイズ",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 5.24
+          },
+          {
+            "no": 7,
+            "name": "ウィテカービート",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 3.57
+          }
+        ]
+      },
+      "quadrant": "妙味なし",
+      "score": -2.5,
+      "error": null
+    },
+    {
+      "r": 10,
+      "race_id": "202607051010",
+      "post_time": "15:10",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 16,
+      "race_name": "九州スポーツ杯",
+      "cond_rage": "強",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "上位ボックス",
+        "anchor": [
+          "9 マジックローズ",
+          "7 フィドルファドル",
+          "16 カロローザ",
+          "5 ノボリクレバー"
+        ],
+        "style_counts": {
+          "差": 7,
+          "先": 5,
+          "追": 3,
+          "逃": 1
+        },
+        "reason": "9マジックローズ / 7フィドルファドル / 16カロローザ",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 9,
+            "name": "マジックローズ",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 4.08
+          },
+          {
+            "no": 7,
+            "name": "フィドルファドル",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 3.82
+          },
+          {
+            "no": 16,
+            "name": "カロローザ",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 2.28
+          },
+          {
+            "no": 5,
+            "name": "ノボリクレバー",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 2.08
+          }
+        ]
+      },
+      "quadrant": "穴ボックス",
+      "score": 3.5,
+      "error": null
+    },
+    {
+      "r": 11,
+      "race_id": "202607051011",
+      "post_time": "15:45",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 13,
+      "race_name": "ＴＶ西日本北九州記念(ＧⅢ)",
+      "cond_rage": "強",
+      "cond_flags": [
+        "小倉開催",
+        "芝短距離",
+        "ローカルG3ハンデ重賞"
+      ],
+      "dango_tier": "割れ",
+      "dango_signals": [
+        "[割れ] 1番人気3.7倍≥3.0(割れ)",
+        "[割れ] 単勝30倍以下が11頭≥10(団子)",
+        "[割れ] 単勝平均18.4倍<20(団子)"
+      ],
+      "x_axis": {
+        "confidence": "上位ボックス",
+        "anchor": [
+          "10 サウンドモリアーナ",
+          "12 フリッカージャブ",
+          "2 ジェニファー",
+          "4 アンクルクロス"
+        ],
+        "style_counts": {
+          "先": 2,
+          "逃": 3,
+          "差": 6,
+          "追": 2
+        },
+        "reason": "10サウンドモリアーナ / 12フリッカージャブ / 2ジェニファー",
+        "market_divergence": "相手一致",
+        "top_scores": [
+          {
+            "no": 10,
+            "name": "サウンドモリアーナ",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 14.01
+          },
+          {
+            "no": 12,
+            "name": "フリッカージャブ",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 13.38
+          },
+          {
+            "no": 2,
+            "name": "ジェニファー",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 12.01
+          },
+          {
+            "no": 4,
+            "name": "アンクルクロス",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 10.98
+          }
+        ]
+      },
+      "quadrant": "穴ボックス",
+      "score": 5.5,
+      "error": null
+    },
+    {
+      "r": 12,
+      "race_id": "202607051012",
+      "post_time": "16:30",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 16,
+      "race_name": "サラ系3歳上1勝クラス",
+      "cond_rage": "強",
+      "cond_flags": [
+        "小倉開催",
+        "多頭数"
+      ],
+      "dango_tier": "収束",
+      "dango_signals": [
+        "[収束] 1-2人気差5.6≥3.5(断然)",
+        "[割れ] 単勝30倍以下が11頭≥10(団子)"
+      ],
+      "x_axis": {
+        "confidence": "絞れる",
+        "anchor": [
+          "10 システマソラー",
+          "15 ゲタリア",
+          "8 タイセイジェイド",
+          "1 ケンフィールド"
+        ],
+        "style_counts": {
+          "差": 5,
+          "先": 5,
+          "追": 4,
+          "逃": 2
+        },
+        "reason": "10システマソラー / 15ゲタリア / 8タイセイジェイド",
+        "market_divergence": "一致",
+        "top_scores": [
+          {
+            "no": 10,
+            "name": "システマソラー",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 7.88
+          },
+          {
+            "no": 15,
+            "name": "ゲタリア",
+            "style": "逃",
+            "ten_speed": "中",
+            "score": 6.4
+          },
+          {
+            "no": 8,
+            "name": "タイセイジェイド",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 4.95
+          },
+          {
+            "no": 1,
+            "name": "ケンフィールド",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 4.74
+          }
+        ]
+      },
+      "quadrant": "鉄板コツコツ",
+      "score": 2.5,
+      "error": null
+    }
+  ]
+}

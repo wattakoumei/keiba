@@ -1,0 +1,105 @@
+{
+  "race_id": "202607050302",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ハルカオル",
+      "tansho": 10.6
+    },
+    {
+      "no": 2,
+      "name": "ダイユウルミナス",
+      "tansho": 14.0
+    },
+    {
+      "no": 3,
+      "name": "ニシノタチアナ",
+      "tansho": 16.1
+    },
+    {
+      "no": 4,
+      "name": "セイウンプーパ",
+      "tansho": 8.4
+    },
+    {
+      "no": 5,
+      "name": "ホカミテダメ",
+      "tansho": 48.2
+    },
+    {
+      "no": 6,
+      "name": "ネオアンボウ",
+      "tansho": 35.8
+    },
+    {
+      "no": 7,
+      "name": "トウシンラヴ",
+      "tansho": 21.3
+    },
+    {
+      "no": 8,
+      "name": "ゴールドパレード",
+      "tansho": 10.4
+    },
+    {
+      "no": 9,
+      "name": "ブロークンハート",
+      "tansho": 3.9
+    },
+    {
+      "no": 10,
+      "name": "エンジェルサン",
+      "tansho": 26.7
+    },
+    {
+      "no": 11,
+      "name": "シルバーアックス",
+      "tansho": 4.5
+    },
+    {
+      "no": 12,
+      "name": "ケイベエ",
+      "tansho": 29.3
+    },
+    {
+      "no": 13,
+      "name": "ドリーマーズ",
+      "tansho": 28.6
+    },
+    {
+      "no": 14,
+      "name": "ハッピースーニャ",
+      "tansho": 13.3
+    },
+    {
+      "no": 15,
+      "name": "ローズバラード",
+      "tansho": 106.1
+    },
+    {
+      "no": 16,
+      "name": "メインテーマ",
+      "tansho": 19.7
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.9,
+    "second_odds": 4.5,
+    "fav_second_gap": 0.6,
+    "fav_second_ratio": 1.154,
+    "n_under_30": 13,
+    "n_under_10": 3,
+    "mean_odds": 24.8,
+    "n_valid": 16
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 3,
+  "dango_signals": [
+    "[割れ] 1番人気3.9倍≥3.0(割れ)",
+    "[割れ] 単勝30倍以下が13頭≥10(団子)"
+  ],
+  "fav_no": 9,
+  "fav_name": "ブロークンハート"
+}

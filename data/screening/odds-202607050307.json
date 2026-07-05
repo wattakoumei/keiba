@@ -1,0 +1,100 @@
+{
+  "race_id": "202607050307",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ニコ",
+      "tansho": 23.0
+    },
+    {
+      "no": 2,
+      "name": "コヴェナント",
+      "tansho": 55.2
+    },
+    {
+      "no": 3,
+      "name": "ケープウィッカム",
+      "tansho": 6.7
+    },
+    {
+      "no": 4,
+      "name": "フォンデネージュ",
+      "tansho": 34.7
+    },
+    {
+      "no": 5,
+      "name": "グランコネクシオン",
+      "tansho": 24.1
+    },
+    {
+      "no": 6,
+      "name": "ヴンダーバール",
+      "tansho": 5.0
+    },
+    {
+      "no": 7,
+      "name": "デルマアポロニア",
+      "tansho": 11.1
+    },
+    {
+      "no": 8,
+      "name": "エイミームーン",
+      "tansho": 44.1
+    },
+    {
+      "no": 9,
+      "name": "ランスノーブル",
+      "tansho": 18.0
+    },
+    {
+      "no": 10,
+      "name": "ベルフィーヌ",
+      "tansho": 27.7
+    },
+    {
+      "no": 11,
+      "name": "マタミカンサン",
+      "tansho": 12.4
+    },
+    {
+      "no": 12,
+      "name": "リポジノ",
+      "tansho": 14.9
+    },
+    {
+      "no": 13,
+      "name": "グランシャット",
+      "tansho": 71.9
+    },
+    {
+      "no": 14,
+      "name": "ブルーサーマル",
+      "tansho": 27.1
+    },
+    {
+      "no": 15,
+      "name": "アスコットヴェール",
+      "tansho": 2.6
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.6,
+    "second_odds": 5.0,
+    "fav_second_gap": 2.4,
+    "fav_second_ratio": 1.923,
+    "n_under_30": 11,
+    "n_under_10": 3,
+    "mean_odds": 25.2,
+    "n_valid": 15
+  },
+  "dango_tier": "中",
+  "dango_label": "中★★",
+  "dango_score": -1,
+  "dango_signals": [
+    "[収束] 1-2人気差2.4≥2.0(堅さ顕在)",
+    "[割れ] 単勝30倍以下が11頭≥10(団子)"
+  ],
+  "fav_no": 15,
+  "fav_name": "アスコットヴェール"
+}

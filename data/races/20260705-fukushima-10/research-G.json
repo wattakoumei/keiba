@@ -1,0 +1,182 @@
+{
+  "point": "G",
+  "overall_confidence": "中",
+  "field_note": "間隔と馬体重推移はseed recent[]を使用。馬体重は当日更新で最終確認。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない"
+      ],
+      "cons": [
+        "[G] 近走で馬体が減っており、当日の細化を確認したい"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない",
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない",
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない"
+      ],
+      "cons": [
+        "[G] 近走で馬体が減っており、当日の細化を確認したい"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "cons": [
+        "[G] 休み明けで、当日馬体重と気配の確認が必要",
+        "[G] 近走で馬体が増えており、当日の太め残りを確認したい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "cons": [
+        "[G] 近走履歴がseedに無く、間隔・馬体推移を判断しにくい"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない",
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない",
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "pros": [
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "cons": [
+        "[G] 休み明けで、当日馬体重と気配の確認が必要"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "pros": [
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "cons": [
+        "[G] 休み明けで、当日馬体重と気配の確認が必要"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない",
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "pros": [
+        "[G] 極端な長期休み明けではなく、ローテ面の大きな割引はない",
+        "[G] 近走馬体重の大きな乱れは目立たず、馬体維持は許容範囲"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json",
+        "data/races/20260705-fukushima-10/risk.json"
+      ]
+    }
+  ]
+}

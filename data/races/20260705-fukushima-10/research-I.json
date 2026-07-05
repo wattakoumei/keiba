@@ -1,0 +1,163 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.py の高齢・下降基調・休み明けを一次フラグとして使用。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "cons": [
+        "[I] 8歳=高齢（能力余力の低下リスク）"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "cons": [
+        "[I] 直近2走連続大敗（前走8/11・前々走9/10）＝下降基調"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "cons": [
+        "[I] 前走大敗（14/16）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "cons": [
+        "[I] 前走から145日＝休み明け"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "cons": [
+        "[I] 直近2走連続大敗（前走6/8・前々走12/18）＝下降基調"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "cons": [
+        "[I] 前走から140日＝休み明け"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "cons": [
+        "[I] 前走から280日＝休み明け"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "cons": [
+        "[I] 直近2走連続大敗（前走8/9・前々走11/11）＝下降基調"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/risk.json",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    }
+  ]
+}

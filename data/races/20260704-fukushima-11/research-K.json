@@ -1,0 +1,158 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "前走騎手との比較と今回の位置取り期待をseedから評価。騎手コース成績のweb深掘りは未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ボディブロー",
+      "pros": [
+        "荻野極への乗替で内枠からロスなく差しに構えられる"
+      ],
+      "cons": [
+        "前走から乗替で手の内の継続性はない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゲキザル",
+      "pros": [
+        "原優介への乗替で軽快に運べれば前進余地"
+      ],
+      "cons": [
+        "追込脚質の修正までは材料不足"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ラストシャリナ",
+      "pros": [
+        "石川裕紀人は過去に本馬で2勝級を勝っており手戻り感がある"
+      ],
+      "cons": [
+        "前走戸崎からの乗替で直近失速の修正が必要"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウコバト",
+      "pros": [
+        "石橋脩への乗替で中団まで押し上げる余地"
+      ],
+      "cons": [
+        "後方脚質を大きく変える根拠は薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ピックアップライン",
+      "pros": [
+        "木幡巧也継続で型は分かっている"
+      ],
+      "cons": [
+        "近走の崩れを騎手継続だけで覆す材料は弱い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アイアムユウシュン",
+      "pros": [
+        "小崎綾也で新味を出す可能性"
+      ],
+      "cons": [
+        "近走で結果を出した騎手から替わる形ではなく強調しづらい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テセラリアン",
+      "pros": [
+        "菊沢一樹は福島で積極策を取りやすく、逃げ番手の判断が噛めば良い"
+      ],
+      "cons": [
+        "前走逃げ切りの丹内祐次から乗替で再現性は少し下がる"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "イリフィ",
+      "pros": [
+        "坂井瑠星への乗替は位置を取りに行く意識を足せる材料"
+      ],
+      "cons": [
+        "差し脚質で後ろに置かれると騎手強化を活かしきれない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ゲイルライダー",
+      "pros": [
+        "戸崎圭太への乗替で外枠から好位を取りに行く期待が高い"
+      ],
+      "cons": [
+        "初の福島1150で出方は読み切れない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カネショウレジェン",
+      "pros": [
+        "大野拓弥で無理せず脚を溜める形は取れる"
+      ],
+      "cons": [
+        "ルメールからの乗替で勝ち切りの押し上げ材料は薄い"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    }
+  ],
+  "note": "Codex fan-outが環境制約で中断したため、JRA seedと決定論タグから縮退生成。"
+}

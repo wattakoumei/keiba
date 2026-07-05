@@ -1,0 +1,80 @@
+{
+  "race_id": "202607050211",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "オウギノカナメ",
+      "tansho": 18.3
+    },
+    {
+      "no": 2,
+      "name": "ラタフォレスト",
+      "tansho": 5.6
+    },
+    {
+      "no": 3,
+      "name": "テーオードレフォン",
+      "tansho": 32.9
+    },
+    {
+      "no": 4,
+      "name": "プロミストジーン",
+      "tansho": 5.0
+    },
+    {
+      "no": 5,
+      "name": "ホールシバン",
+      "tansho": 70.1
+    },
+    {
+      "no": 6,
+      "name": "レヴォントゥレット",
+      "tansho": 21.5
+    },
+    {
+      "no": 7,
+      "name": "ヒルノハンブルク",
+      "tansho": 3.3
+    },
+    {
+      "no": 8,
+      "name": "アスクデビューモア",
+      "tansho": 23.4
+    },
+    {
+      "no": 9,
+      "name": "カナルビーグル",
+      "tansho": 8.1
+    },
+    {
+      "no": 10,
+      "name": "コトホドサヨウニ",
+      "tansho": 6.2
+    },
+    {
+      "no": 11,
+      "name": "ワイドブリザード",
+      "tansho": 9.0
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.3,
+    "second_odds": 5.0,
+    "fav_second_gap": 1.7,
+    "fav_second_ratio": 1.515,
+    "n_under_30": 9,
+    "n_under_10": 6,
+    "mean_odds": 18.5,
+    "n_valid": 11
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 3,
+  "dango_signals": [
+    "[割れ] 1番人気3.3倍≥3.0(割れ)",
+    "[割れ] 単勝平均18.5倍<20(団子)"
+  ],
+  "fav_no": 7,
+  "fav_name": "ヒルノハンブルク"
+}

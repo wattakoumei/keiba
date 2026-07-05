@@ -1,0 +1,202 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "父母父はseedとpedigree-catalogを優先。カタログ外は強い加点を避けた。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "pros": [
+        "[C] 父マツリダゴッホは中山・福島寄りの機動力を伝える余地"
+      ],
+      "cons": [
+        "[C] 8歳で上積みより維持が課題"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "pros": [
+        "[C] 父ゴールドシップは芝1800以上・ローカル向きの持続力は条件に合う"
+      ],
+      "cons": [
+        "[C] 瞬発勝負だけだと切れ負けしやすい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "pros": [
+        "[C] 父シルバーステートは芝1800-2000と小回り適性が合う"
+      ],
+      "cons": [
+        "[C] 近走内容の下降を血統だけでは補えない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "pros": [
+        "[C] 父レイデオロは芝中距離型で1800自体は守備範囲"
+      ],
+      "cons": [
+        "[C] 瞬発一手で小回り追込になると届きにくい"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "pros": [
+        "[C] 父No Nay Neverは母父Galileoで芝中距離の持続力を補える",
+        "[C] 母父Galileoで芝中距離の持続力を補強できる"
+      ],
+      "cons": [
+        "[C] 父側は本質的にスピード寄りでタフな福島なら過信しない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "pros": [
+        "[C] 父ルヴァンスレーヴはダート寄りのパワー血統でタフ馬場なら下支え"
+      ],
+      "cons": [
+        "[C] 芝1800の高速決め手裏付けは薄い"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "pros": [
+        "[C] 父リアルスティールは芝1300-2000の万能持続型で1800は守備範囲",
+        "[C] 母父Galileoで芝中距離の持続力を補強できる"
+      ],
+      "cons": [
+        "[C] 決め手特化より位置と持続が欲しい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "pros": [
+        "[C] 父ダノンバラードはローカル芝での持続力を出しやすい配合"
+      ],
+      "cons": [
+        "[C] 近走の下降を血統だけでは補えない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "pros": [
+        "[C] 父ウインブライトは中山・福島型の小回り持続力に寄る",
+        "[C] 母父シンボリクリスエスで小回り中距離のパワーを補える"
+      ],
+      "cons": [
+        "[C] 追込一手だと血統適性を位置に変換しづらい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "pros": [
+        "[C] 父キズナは芝1600以上の持続力と小回り適性は合う"
+      ],
+      "cons": [
+        "[C] 長休明けで血統適性を発揮できる状態かは別問題"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "pros": [
+        "[C] 父リアルスティールは芝1300-2000の万能持続型で1800は守備範囲"
+      ],
+      "cons": [
+        "[C] 決め手特化より位置と持続が欲しい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "pros": [
+        "[C] 父リアルスティールは芝1300-2000の万能持続型で1800は守備範囲"
+      ],
+      "cons": [
+        "[C] 決め手特化より位置と持続が欲しい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        ".agents/skills/analyze-race/references/pedigree-catalog.md",
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    }
+  ]
+}

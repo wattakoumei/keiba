@@ -1,0 +1,273 @@
+{
+  "race_id": "20260705-hakodate-11",
+  "observation": "C",
+  "point": "C 血統",
+  "overall_confidence": "中",
+  "as_of": "2026-07-04",
+  "race_condition": "函館 ダ1700m リステッド",
+  "field_note": "函館ダ1700mなので父・母父のダート中距離適性、持続力、4歳以降の成長型を重視。カタログ掲載血は正本を採用し、Petionville/Hard Spun/Include/カリフォルニアクローム等はカタログ追記候補としてweb補強。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "オウギノカナメ",
+      "sire": "キタサンブラック",
+      "damsire": "Petionville",
+      "sire_catalog": "in",
+      "damsire_catalog": "out",
+      "growth_stage": "ピーク後半（キタサンブラック持続成長型×牡6）",
+      "pros": [
+        "[C] キタサンブラックは持続・スタミナ型で牡馬は1800m以上向き、1700mへの距離延長自体はこなせる下地がある",
+        "[C] 母父PetionvilleはSeeking the Gold系の米国型で、近親例からダート/中距離の底力を補う方向"
+      ],
+      "cons": [
+        "[C] 父は芝主軸のカタログ評価で、函館ダ1700mの砂適性は母父補完頼み",
+        "[C] 牡6は持続成長型でも上昇期ではなく、血統面の新味は限定的"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/McKinzie_(horse)",
+        "https://en.wikipedia.org/wiki/Gufo_(horse)"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ラタフォレスト",
+      "sire": "パイロ",
+      "damsire": "ゴールドアリュール",
+      "sire_catalog": "in",
+      "damsire_catalog": "out",
+      "growth_stage": "ピーク後半（パイロ2-4歳持続型×牡5）",
+      "pros": [
+        "[C] パイロはダ1000-1700mが守備範囲で、今回のダ1700mは父の上限レンジに合う",
+        "[C] 母父ゴールドアリュールは自身・産駒ともダート中距離の大レース実績が厚く、砂の底力を補える"
+      ],
+      "cons": [
+        "[C] パイロの成長型は2-4歳持続で、牡5は血統上の伸びしろより維持評価"
+      ],
+      "score": 1,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Gold_Allure"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "テーオードレフォン",
+      "sire": "ドレフォン",
+      "damsire": "ブライアンズタイム",
+      "sire_catalog": "in",
+      "damsire_catalog": "in",
+      "growth_stage": "下降期（ドレフォン牡早め×牡7）",
+      "pros": [
+        "[C] ドレフォンはダ1600-2000m向きで、函館ダ1700mの距離・砂条件には合う",
+        "[C] 母父ブライアンズタイムはスタミナ・パワー・頑健さを供給し、ダート中距離を補強する"
+      ],
+      "cons": [
+        "[C] ドレフォンは牡馬が早めに出る型で、牡7では成長型として明確にピークを過ぎた懸念",
+        "[C] 条件実績はあるが血統成長型とは矛盾し、再現性の確信度を下げる"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "プロミストジーン",
+      "sire": "ナダル",
+      "damsire": "ヘニーヒューズ",
+      "sire_catalog": "in",
+      "damsire_catalog": "in",
+      "growth_stage": "ピーク手前〜ピーク（ナダル中距離型×牝4）",
+      "pros": [
+        "[C] ナダルはダ1600m以上の中距離底力型で、好位から持続する質が函館ダ1700mに合う",
+        "[C] 母父ヘニーヒューズは短めの先行スピードを足し、父の中距離持続力との役割分担が明確",
+        "[C] 牝4は成長型としてまだピーク圏で、血統面の上積みを残す"
+      ],
+      "cons": [
+        "[C] ヘニーヒューズは本来1600m以下寄りで、母父側だけを見ると距離の下支えは強くない"
+      ],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ホールシバン",
+      "sire": "パイロ",
+      "damsire": "Hard Spun",
+      "sire_catalog": "in",
+      "damsire_catalog": "out",
+      "growth_stage": "下降期（パイロ2-4歳持続型×せん8）",
+      "pros": [
+        "[C] パイロはダ1700mまで対応し、稍重以上で末脚が冴える持続型",
+        "[C] 母父Hard SpunはDanzig系の米国ダート実績馬で、スピード持続とパワーを補う"
+      ],
+      "cons": [
+        "[C] せん8は父の成長型から大きくピーク後で、血統面の鮮度はかなり薄い",
+        "[C] 条件の血統適性はあるが、年齢面が適性の加点を相殺する"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Hard_Spun"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レヴォントゥレット",
+      "sire": "ロードカナロア",
+      "damsire": "マンハッタンカフェ",
+      "sire_catalog": "in",
+      "damsire_catalog": "in",
+      "growth_stage": "ピーク後半（ロードカナロア4歳完成型×牡5）",
+      "pros": [
+        "[C] ロードカナロアは母系の質を引き出す型で、母父マンハッタンカフェの延長スタミナがダ1700mを補う",
+        "[C] 母父マンハッタンカフェは晩成・スタミナ供給で、近走の中距離志向とは整合する"
+      ],
+      "cons": [
+        "[C] 父は芝短〜マイル主軸でダート中距離の直球血統ではなく、砂1700mは母系補完頼み",
+        "[C] 牡5はロードカナロア産駒として完成後で、成長面の加点は大きくない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヒルノハンブルク",
+      "sire": "ナダル",
+      "damsire": "ステイゴールド",
+      "sire_catalog": "in",
+      "damsire_catalog": "out",
+      "growth_stage": "上昇期〜ピーク（ナダル中距離型×牡4、母父ステイゴールド晩成持続）",
+      "pros": [
+        "[C] ナダルはダ1600m以上の中距離底力型で、1900mから1700mへの条件にも血統上の無理がない",
+        "[C] 母父ステイゴールドは持続・スタミナ・晩成色を足し、函館ダ1700mの息の長い脚を補強",
+        "[C] 牡4は中距離型血統の上昇期で、成長型の好材料が明確"
+      ],
+      "cons": [
+        "[C] 母父ステイゴールドはカタログ未掲載のBMS扱いで、ダート補完の確信度は中まで"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Stay_Gold_(horse)"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アスクデビューモア",
+      "sire": "マインドユアビスケッツ",
+      "damsire": "フレンチデピュティ",
+      "sire_catalog": "in",
+      "damsire_catalog": "in",
+      "growth_stage": "ピーク後半（マインドユアビスケッツ早熟型×牡5）",
+      "pros": [
+        "[C] マインドユアビスケッツはダ1600m以上のスピード持続型で、ダ1700mは守備範囲",
+        "[C] 母父フレンチデピュティは持続力とパワーを供給し、砂の中距離で下支えになる"
+      ],
+      "cons": [
+        "[C] 父は早熟型で、牡5では上昇期というより維持評価",
+        "[C] 追い込み脚質の馬に対して、血統は先行・持続寄りで個体の走りとややズレる"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カナルビーグル",
+      "sire": "リアルスティール",
+      "damsire": "Include",
+      "sire_catalog": "in",
+      "damsire_catalog": "out",
+      "growth_stage": "ピーク（リアルスティール標準型×牡4）",
+      "pros": [
+        "[C] リアルスティールは芝ダ兼用A級でダート全般をこなし、持続・万能型としてダ1700mに対応できる",
+        "[C] 母父Includeは米国G1級の中距離ダート実績と種牡馬実績があり、底力・持続力の補完として強い",
+        "[C] 牡4は標準成長型のピーク入りで、血統面のタイミングが良い"
+      ],
+      "cons": [
+        "[C] Includeはカタログ未掲載で国内BMSサンプルの厚みは不明"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/Include_(horse)"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "コトホドサヨウニ",
+      "sire": "シニスターミニスター",
+      "damsire": "ハーツクライ",
+      "sire_catalog": "in",
+      "damsire_catalog": "in",
+      "growth_stage": "ピーク（シニスターミニスター晩成型×牡5）",
+      "pros": [
+        "[C] シニスターミニスターはダ1200-2100mの道悪寄り・晩成型で、函館適性もカタログ特記がある",
+        "[C] 母父ハーツクライはスタミナ・パワー・持続を足し、ダ1700mの追走持続を補う",
+        "[C] 牡5は晩成型のピーク圏で、成長型の照合が良い"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ワイドブリザード",
+      "sire": "カリフォルニアクローム",
+      "damsire": "ディープインパクト",
+      "sire_catalog": "out",
+      "damsire_catalog": "in",
+      "growth_stage": "ピーク後半（米国ダート中距離型×せん5）",
+      "pros": [
+        "[C] カリフォルニアクロームは米国ダート中距離の大レース実績が厚く、父系はA.P.Indy色を含み函館ダ1700mの砂持続に向く",
+        "[C] せん5は父自身の古馬期活躍イメージと照らしてピーク後半に収まる"
+      ],
+      "cons": [
+        "[C] 母父ディープインパクトは瞬発供給だがダートや湿った砂では非力さが出る懸念があり、砂の補強としては強くない",
+        "[C] カリフォルニアクロームはカタログ未掲載で、国内産駒の条件別傾向は追記候補扱い"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-hakodate-11/seed.json",
+        ".claude/skills/analyze-race/references/pedigree-catalog.md",
+        "https://en.wikipedia.org/wiki/California_Chrome",
+        "https://en.wikipedia.org/wiki/Lucky_Pulpit"
+      ]
+    }
+  ],
+  "notes": [
+    "カタログ追記候補: Petionville、Hard Spun、Include、カリフォルニアクローム、BMSとしてのゴールドアリュール、BMSとしてのステイゴールド。",
+    "血統は一次フィルタであり、既に当該条件実績がある馬は実績側で上書きされうる。ここでは血統面の再現性と成長型だけを評価した。"
+  ]
+}

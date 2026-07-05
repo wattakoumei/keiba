@@ -1,0 +1,291 @@
+{
+  "point": "A: 能力指数・時計",
+  "overall_confidence": "中",
+  "field_note": "走破時計・上がり3Fはseed(JRA経路)を一次事実として採用。2026年の各特別戦個別の安定した公開回顧は検索で確認できず、webで取れたコース時計文脈とseed内の同級直接比較で解釈した。小倉ダ1700は1:45台で好走できる馬を標準以上、1:43台の早鞆特別は速い決着だが該当馬は着外のため満額加点しない。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "プウスカンドゥール",
+      "pros": [
+        "小倉ダ1700の平尾台特別で1:45.5・上がり37.1・2着があり、今回距離で同級好走時計を持つ",
+        "早鞆特別は1:43.6と速い決着を経験しており、時計対応力自体は示している"
+      ],
+      "cons": [
+        "早鞆特別の1:43.6は9着で、速い流れの中で上位に踏みとどまった時計ではない",
+        "近2走の1800mは1:53.3/1:54.5で上がりも37秒台後半寄り、決め手は上位ほど鋭くない"
+      ],
+      "score": 1,
+      "confidence": "高",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse",
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ホウショウマリス",
+      "pros": [
+        "福島ダ1700で1:45.4・上がり37.8・3着があり、ローカル1700mの同級水準時計は持つ",
+        "阪神/京都/東京の1400mでも1:24.4〜1:25.7の範囲で走れており、基礎スピードは安定"
+      ],
+      "cons": [
+        "今回距離に近い1700m好時計は1走だけで、上がり36秒台の決め手は短距離寄りの記録",
+        "前走東京1400mは1:25.7・6着で時計面の上積みは限定的"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tokyo_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ユウェンタース",
+      "pros": [
+        "直近の逆瀬川特別で阪神1800m 1:54.4・上がり36.8・2着と、同級で鮮度の高い好走時計がある",
+        "小倉1700mの平尾台特別でも1:45.8・6着で、今回距離への時計履歴は一応ある"
+      ],
+      "cons": [
+        "小倉1700mの持ち時計はプウスカンドゥールの平尾台特別1:45.5より見劣りする",
+        "1800mでは1:53.9を出した走りも6着で、速い時計を着順に直結させきれていない"
+      ],
+      "score": 1,
+      "confidence": "高",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "タマモジャスミン",
+      "pros": [
+        "早鞆特別で小倉1700m 1:44.2を経験しており、速い時計決着そのものには触れている",
+        "小倉1700mの1勝クラスを1:46.1で勝っており、同舞台の基本時計はある"
+      ],
+      "cons": [
+        "早鞆特別は1:44.2でも14着・上がり39.0で、同級の速い流れでは末脚が不足",
+        "上がり最速38.4は出走馬内で下位水準で、A_finish材料として弱い"
+      ],
+      "score": -1,
+      "confidence": "高",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ノボリクレバー",
+      "pros": [
+        "京都1900mで1:59.7・2着、阪神1800mで上がり37.0・3着があり、中距離ダートの同級時計は平均以上",
+        "京都1800m 1:51.1の速い時計経験もあり、全く時計が足りない馬ではない"
+      ],
+      "cons": [
+        "京都1800m 1:51.1は12着で、速い決着を上位で走った材料ではない",
+        "近走の弥富特別は中京1900m 2:00.7・10着で、最新時計はやや鈍い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kyoto_Racecourse",
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "メイショウリリー",
+      "pros": [
+        "直近2走で1800mを1:54.9/1:54.3、上がり36.8/37.0でまとめており、末脚は安定",
+        "咲花特別でメンバー内のフローラルセントとプウスカンドゥールに先着している"
+      ],
+      "cons": [
+        "小倉1700mの近走時計がなく、今回距離への時計変換は推定",
+        "1800mの走破時計自体は突出せず、上位評価には速い決着での裏付けが足りない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "フィドルファドル",
+      "pros": [
+        "東京1400mの甲州街道特別で1:22.8・上がり34.7・3着は、短距離寄りとはいえ今回メンバー随一級のスピード指数材料",
+        "直近3走で1400mを1:22.8/1:24.6/1:25.4かつ上がり34.7〜36.2で連続好走しており、時計の鮮度が高い"
+      ],
+      "cons": [
+        "近走は1400mに集中しており、1700mの走破時計はseed内にない",
+        "速い上がりは東京の長い直線で出したもので、小倉1700mへは距離延長分の解釈が必要"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tokyo_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ジャルディニエ",
+      "pros": [
+        "上がり34.2/34.9/35.1の記録があり、純粋な末脚の鋭さは数字上かなり目立つ",
+        "1800mで1:48.1を複数回走っており、速い時計を出す能力はある"
+      ],
+      "cons": [
+        "seedに近走surfaceが無く、1:48.1や34秒台上がりは芝寄りの時計体系と推定されるためダ1700評価には直結させにくい",
+        "近走はいずれも着外で、速い上がりを同級上位着順に結びつけていない"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "マジックローズ",
+      "pros": [
+        "東京1600mの牝2勝クラスで1:36.7・上がり35.6・2着は、同級での強いスピード/末脚材料",
+        "中京1400mの1勝クラスを1:24.5で勝っており、短めの距離でも時計能力を示している"
+      ],
+      "cons": [
+        "小倉1700mの走破時計はseed内に無く、今回距離への延長分は未確認",
+        "京都1400mの小倉山特別は1:25.5・10着で、時計が落ちた時の脆さはある"
+      ],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tokyo_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ツーピース",
+      "pros": [
+        "1200mでは1:13.1・上がり37.3の短距離時計を持つ"
+      ],
+      "cons": [
+        "小倉1700mで1:48.8・上がり40.9・9着、阪神1800mで1:55.4・上がり39.2・8着と中距離時計が明確に弱い",
+        "直近の安芸特別も1200mで13着で、時計面の上昇材料に乏しい"
+      ],
+      "score": -2,
+      "confidence": "高",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ファミリーツリー",
+      "pros": [
+        "函館1800mで1:47.4・上がり34.7、中山2000mで1:59.0と速い時計履歴はある"
+      ],
+      "cons": [
+        "seedに近走surfaceが無く、34秒台上がりは芝寄りの時計体系と推定されるためダ1700への直結度は低い",
+        "近4走は13着/12着/10着/3着で、速い時計を上位着順に結びつけた近走が少ない"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "シュヴァルツリーベ",
+      "pros": [
+        "新潟1200mで1:11.1、阪神1200mで1:12.7・上がり36.6と短距離ダートの基礎スピードはある",
+        "上がり最速36.6はダート短距離として一定水準"
+      ],
+      "cons": [
+        "1700m以上の近走時計がなく、今回の中距離戦では時計比較の信頼度が下がる",
+        "東京1400mは1:25.8・9着で、距離が延びた時の時計水準は平凡"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse",
+        "https://en.wikipedia.org/wiki/Tokyo_Racecourse"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ワイノナオミ",
+      "pros": [
+        "京都1200mで1:11.8・上がり35.2・6着、阪神1400mで1:24.0・上がり36.1と短距離の末脚時計は悪くない",
+        "上がり35秒台を複数回使えており、決め手の数字は出走馬中でも上位寄り"
+      ],
+      "cons": [
+        "1700mの近走時計がなく、今回距離で同じ脚を使える裏付けはない",
+        "東京1400mの牝2勝クラスは1:25.8・10着で、同級上位時計には届いていない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kyoto_Racecourse",
+        "https://en.wikipedia.org/wiki/Tokyo_Racecourse"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "タマモナポリ",
+      "pros": [
+        "阪神1400mで1:23.5・上がり36.6があり、短距離寄りのスピード時計は持つ",
+        "上がり最速36.3はダート短距離として水準内"
+      ],
+      "cons": [
+        "小倉1700mの平尾台特別は1:46.0・上がり38.4・10着で、今回距離の時計評価は低い",
+        "直近の安芸特別も1200mで1:12.7・10着と、同級で時計上位に食い込めていない"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "フローラルセント",
+      "pros": [
+        "京都1800mで1:50.7・上がり37.8の速い時計経験はある",
+        "先行して速い流れに乗った履歴があり、全盛時の走破時計だけなら軽視しきれない"
+      ],
+      "cons": [
+        "近3走は1:55.4/1:52.0/1:53.6で12着/16着/15着と大きく崩れており、最新の時計水準が低い",
+        "上がり最速37.8は出走馬内で下位寄りで、決め手の裏付けが弱い"
+      ],
+      "score": -1,
+      "confidence": "高",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kyoto_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "カロローザ",
+      "pros": [
+        "阪神1800mの牝2勝クラスで1:53.7・上がり37.5・4着があり、同級中距離で着順に結びついた時計を持つ",
+        "中京1800mの牝1勝クラスを1:53.8・上がり36.3で勝っており、近い距離での時計再現性がある"
+      ],
+      "cons": [
+        "小倉1700mの近走時計はなく、今回コースへの変換は必要",
+        "上がり35.2は札幌1200m由来で、今回のダ1700評価には直接使いにくい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanshin_Racecourse",
+        "https://en.wikipedia.org/wiki/Kokura_Racecourse"
+      ]
+    }
+  ],
+  "note": "市場情報・他人の他者印は不使用。時計と上がりはdata/races/20260705-kokura-10/seed.jsonを一次事実とし、web出典はコース時計文脈の補助に限定した。seedのrecentにはsurfaceが無いため、芝寄り時計体系と推定した馬は確信度を下げた。"
+}

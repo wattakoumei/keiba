@@ -1,0 +1,288 @@
+{
+  "point": "I リスク/割引要因",
+  "race_id": "20260705-hakodate-11",
+  "as_of": "2026-07-04",
+  "overall_confidence": "中",
+  "seed_used": true,
+  "seed_sources": [
+    "data/races/20260705-hakodate-11/risk.json",
+    "data/races/20260705-hakodate-11/seed.json",
+    "data/races/20260705-hakodate-11/出走表.md"
+  ],
+  "weight_channel": {
+    "source": "tools/weight_adjust.py の実効標準ロジックを seed 斤量に適用",
+    "status": "data/races/20260705-hakodate-11/weight.json は0バイトで注入値なし。実効標準58.0kgから全頭がIチャンネル閾値内のため斤量Iタグなし。",
+    "base_effective_kg": 58.0,
+    "i_tags": []
+  },
+  "web_checks": {
+    "queries": [
+      "オウギノカナメ 出遅れ 気性 脚部不安 故障 競走中止",
+      "ラタフォレスト 出遅れ 気性 脚部不安 故障 競走中止",
+      "テーオードレフォン 気性 脚部不安 故障 競走中止",
+      "プロミストジーン 出遅れ 気性 脚部不安 故障 競走中止",
+      "レヴォントゥレット 逃げ 失速 故障 競走中止",
+      "ヒルノハンブルク 出遅れ 気性 脚部不安 故障",
+      "カナルビーグル 長期休み明け 故障 脚部不安",
+      "ワイドブリザード 出遅れ 気性 脚部不安 故障"
+    ],
+    "usable_sources": [
+      "https://www.jra.go.jp/JRADB/accessD.html",
+      "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021103717/",
+      "https://s.keibabook.co.jp/db/uma/0918545/top"
+    ],
+    "note": "検索で出遅れ癖・気性難・脚部不安・競走中止歴を裏付ける採用可能な個別ソースはほぼ取れず。非決定論層は欠損として扱い、決定論risk seedを主証拠にした。"
+  },
+  "field_note": "決定論seedでは③が高齢・下降・休み明けで最大減点、⑤が8歳、⑨が約428日の長期休み明け。④⑧は軽い休み明け/前走大敗。斤量は全頭I閾値内。webで出遅れ・気性・脚部不安・中止歴の明確な個別証拠は取得できず、非決定論リスクは深追いしない。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "オウギノカナメ",
+      "deterministic_risk_flags": [],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論seedで高齢・下降・休み明け・斤量負担の一次フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ラタフォレスト",
+      "deterministic_risk_flags": [],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論seedで高齢・下降・休み明け・斤量負担の一次フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "テーオードレフォン",
+      "deterministic_risk_flags": [
+        {
+          "tag": "old",
+          "delta": -0.5,
+          "note": "7歳=やや高齢"
+        },
+        {
+          "tag": "decline",
+          "delta": -1.0,
+          "note": "直近2走連続大敗（前走14/16・前々走15/16）＝下降基調"
+        },
+        {
+          "tag": "layoff",
+          "delta": -0.5,
+          "note": "前走から161日＝休み明け"
+        }
+      ],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": -2,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I] 7歳で直近2走が14着・15着の連続大敗、かつ161日ぶりで下降と休み明けが重なる",
+        "[I] 斤量59.0kgは実効標準+1.0kgでI閾値未満だが、年齢・近走低調と同時に背負う点は余力面で軽く見にくい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "プロミストジーン",
+      "deterministic_risk_flags": [
+        {
+          "tag": "layoff",
+          "delta": -0.5,
+          "note": "前走から155日＝休み明け"
+        }
+      ],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 155日ぶりの休み明けで、リステッドの流れに即対応できない取りこぼしリスク",
+        "[I] seedは先行だがテン遅で、休み明け初戦に位置取りが後ろへ振れるとリスクが出る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ホールシバン",
+      "deterministic_risk_flags": [
+        {
+          "tag": "old",
+          "delta": -1.0,
+          "note": "8歳=高齢（能力余力の低下リスク）"
+        }
+      ],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I] 8歳の高齢フラグが明確で、終盤の余力低下や状態維持の取りこぼしリスク",
+        "[I] テン遅の差し寄りで、後方から届かない形になると高齢リスクが表に出やすい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レヴォントゥレット",
+      "deterministic_risk_flags": [],
+      "weight_i_tags": [],
+      "web_risk_facts": "過去調査では逃げ・先行で失速する負け筋は確認済み。出遅れ癖・脚部不安・競走中止歴の採用可能な新規証拠は未取得。",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 決定論seedの下降フラグはないが、近4走で逃げ・先行から6着、7着、12着、15着と終盤に甘くなる取りこぼし筋がある",
+        "[I] ハナ候補で先行争いの当事者になりやすく、競られると失速リスクが増える"
+      ],
+      "sources": [
+        "https://sports.smt.docomo.ne.jp/keiba/data/horse/2021103717/",
+        "https://s.keibabook.co.jp/db/uma/0918545/top",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヒルノハンブルク",
+      "deterministic_risk_flags": [],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論seedで高齢・下降・休み明け・斤量負担の一次フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アスクデビューモア",
+      "deterministic_risk_flags": [
+        {
+          "tag": "decline",
+          "delta": -0.5,
+          "note": "前走大敗（13/15）"
+        }
+      ],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 前走13着大敗の下降一次フラグがあり、追込脚質で展開待ちになる取りこぼしリスク",
+        "[I] 3月8日以来の実戦で、立て直しの実測裏付けが取れていない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カナルビーグル",
+      "deterministic_risk_flags": [
+        {
+          "tag": "layoff",
+          "delta": -1.0,
+          "note": "前走から約428日＝長期休み明け"
+        }
+      ],
+      "weight_i_tags": [],
+      "web_risk_facts": "長期休み明けの背景となる脚部不安・故障歴を裏付ける採用可能な個別証拠は未取得。",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 前走から約428日空く長期休み明けで、実戦勘と状態面の取りこぼしリスクが大きい",
+        "[I] 休養理由のweb裏付けが取れないため故障明けとは断定しないが、割引は必要"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "コトホドサヨウニ",
+      "deterministic_risk_flags": [],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論seedで高齢・下降・休み明け・斤量負担の一次フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ワイドブリザード",
+      "deterministic_risk_flags": [],
+      "weight_i_tags": [],
+      "web_risk_facts": "出遅れ癖・気性難・脚部不安・競走中止歴の採用可能な個別証拠は未取得。",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論seedで高齢・下降・休み明け・斤量負担の一次フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "data/races/20260705-hakodate-11/risk.json",
+        "data/races/20260705-hakodate-11/seed.json"
+      ]
+    }
+  ],
+  "notes": [
+    "観点Iは減点専用。scoreは0..-2で、プラス評価は付けない。",
+    "weight.jsonは空ファイルだったため、Iチャンネルはseed斤量とtools/weight_adjust.pyの閾値で確認した。全頭Iタグなし。",
+    "webで非決定論リスクの個別証拠が取れなかった馬は、欠損として確信度を上げすぎない。脚部不安・故障明け・競走中止歴は未確認であり、存在しないとは断定しない。"
+  ]
+}

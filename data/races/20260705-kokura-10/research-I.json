@@ -1,0 +1,226 @@
+{
+  "point": "I. リスク/割引要因",
+  "overall_confidence": "中",
+  "field_note": "決定論層はrisk.jsonとweight.jsonを採用。斤量は全馬56.0kgでIチャンネルの減点なし。外部検索では出遅れ癖・気性難・脚部不安・競走中止歴の有効な個別事実を確認できなかったため、非決定論層は欠損扱い。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "プウスカンドゥール",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ホウショウマリス",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ユウェンタース",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "タマモジャスミン",
+      "pros": [],
+      "cons": [
+        "決定論タグ: 前走14/16の大敗で下降基調、前走から127日で休み明け。斤量減点はなし。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ノボリクレバー",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "メイショウリリー",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "フィドルファドル",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ジャルディニエ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "マジックローズ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ツーピース",
+      "pros": [],
+      "cons": [
+        "決定論タグ: 直近2走が13/16、8/11で連続大敗の下降基調。斤量減点はなし。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ファミリーツリー",
+      "pros": [],
+      "cons": [
+        "決定論タグ: 直近2走が13/16、12/12で連続大敗の下降基調。斤量減点はなし。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "シュヴァルツリーベ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ワイノナオミ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "タマモナポリ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "フローラルセント",
+      "pros": [],
+      "cons": [
+        "決定論タグ: 直近2走が12/12、16/16で連続大敗の下降基調。斤量減点はなし。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "カロローザ",
+      "pros": [],
+      "cons": [
+        "決定論タグ: 前走から127日で休み明け。斤量減点はなし。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "data/races/20260705-kokura-10/risk.json",
+        "data/races/20260705-kokura-10/weight.json"
+      ]
+    }
+  ],
+  "note": "外部検索は馬名に出遅れ、気性、脚部不安、故障、競走中止を組み合わせて確認したが、有効な個別事実は取得できなかった。非決定論層の欠損により、リスク確信度は決定論タグ中心の中評価に留める。"
+}

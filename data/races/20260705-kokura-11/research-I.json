@@ -1,0 +1,211 @@
+{
+  "point": "I",
+  "observation": "I. リスク/割引",
+  "overall_confidence": "中",
+  "confidence": "中",
+  "field_note": "risk_flags.py の高齢・下降基調・休み明けと weight_adjust.py の斤量Iタグを一次採用。web検索では出遅れ癖・気性難・脚部不安・競走中止歴の明確な追加リスクは確認できず、追加減点は決定論タグがある馬に限定。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ランフォーヴァウ",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "cons": [
+        "[I非決定論] 公開検索では出遅れ癖・脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jbis.or.jp/horse/0001356237/",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジェニファー",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "cons": [
+        "[I非決定論] 公開検索では出遅れ癖・脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "プロトポロス",
+      "pros": [],
+      "cons": [
+        "[I決定論] decline-1.0: 直近2走連続大敗（前走15/15・前々走11/13）＝下降基調",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アンクルクロス",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "cons": [
+        "[I非決定論] 公開検索では出遅れ癖・脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "アブキールベイ",
+      "pros": [],
+      "cons": [
+        "[I決定論] decline-1.0: 直近2走連続大敗（前走12/16・前々走13/18）＝下降基調",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "オタルエバー",
+      "pros": [],
+      "cons": [
+        "[I決定論] old-0.5: 7歳=やや高齢",
+        "[I非決定論] 公開検索では出遅れ癖・脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デアヴェローチェ",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "cons": [
+        "[I非決定論] 公開検索では出遅れ癖・脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "pros": [],
+      "cons": [
+        "[I決定論] layoff-0.5: 前走から266日＝休み明け",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ヨシノイースター",
+      "pros": [],
+      "cons": [
+        "[I決定論] old-1.0: 8歳=高齢（能力余力の低下リスク）",
+        "[I決定論weight] 斤量58.0kg=実効標準+3.0kg・ハンデ加増",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -2.0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "tools/weight_adjust.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "サウンドモリアーナ",
+      "pros": [
+        "[I] 決定論リスクでは大きな割引材料なし"
+      ],
+      "cons": [
+        "[I非決定論] 公開検索では出遅れ癖・脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ヤマニンアルリフラ",
+      "pros": [],
+      "cons": [
+        "[I決定論] decline-0.5: 前走大敗（14/18）",
+        "[I決定論weight] 斤量57.5kg=実効標準+2.5kg・ハンデ加増",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "tools/weight_adjust.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "フリッカージャブ",
+      "pros": [],
+      "cons": [
+        "[I決定論weight] 斤量57.5kg=実効標準+2.5kg・ハンデ加増",
+        "[I補足] 先行脚質で重ハンデ先行は本馬のみ。単騎なら前残り余地はあるが、他の先行に競られると消耗リスク",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "tools/weight_adjust.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "イツモニコニコ",
+      "pros": [],
+      "cons": [
+        "[I決定論] decline-1.0: 直近2走連続大敗（前走13/16・前々走12/16）＝下降基調",
+        "[I非決定論] 公開検索では脚部不安・競走中止歴の明確な記録を確認できず"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260705-kokura-11/seed.json"
+      ]
+    }
+  ],
+  "notes": "web非決定論層は全頭で具体的な事件記録（故障/競走中止/明確な出遅れ癖/強い気性難）を確認できず。外部URLとして明確に取得できたのはランフォーヴァウのJBISページのみで、他馬はseedと決定論ツールを主ソースにした。斤量はハンデ戦として実斤量中央値55.0kgを基準に weight_adjust.py のIチャンネルを採用。最重リスクは⑨（8歳+58kg）、次点は⑪（前走大敗+57.5kg）。"
+}

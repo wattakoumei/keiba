@@ -1,0 +1,104 @@
+{
+  "race_id": "202607051007",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ドラムメジャー",
+      "tansho": 6.2
+    },
+    {
+      "no": 2,
+      "name": "タワーオブバベル",
+      "tansho": 5.9
+    },
+    {
+      "no": 3,
+      "name": "サウンドヴィヴァン",
+      "tansho": 37.5
+    },
+    {
+      "no": 4,
+      "name": "キャンディーズ",
+      "tansho": 26.6
+    },
+    {
+      "no": 5,
+      "name": "ファーストアタック",
+      "tansho": 21.6
+    },
+    {
+      "no": 6,
+      "name": "メイショウジーニー",
+      "tansho": 38.9
+    },
+    {
+      "no": 7,
+      "name": "トウカイジーク",
+      "tansho": 3.5
+    },
+    {
+      "no": 8,
+      "name": "ファイティンアスク",
+      "tansho": 12.2
+    },
+    {
+      "no": 9,
+      "name": "ナムラオットー",
+      "tansho": 44.6
+    },
+    {
+      "no": 10,
+      "name": "アッセクシー",
+      "tansho": 49.0
+    },
+    {
+      "no": 11,
+      "name": "ルルハート",
+      "tansho": 30.1
+    },
+    {
+      "no": 12,
+      "name": "ケイアイブラック",
+      "tansho": 18.6
+    },
+    {
+      "no": 13,
+      "name": "ホッコームジカ",
+      "tansho": 35.5
+    },
+    {
+      "no": 14,
+      "name": "パトローナス",
+      "tansho": 5.2
+    },
+    {
+      "no": 15,
+      "name": "グロリアスニケ",
+      "tansho": 41.4
+    },
+    {
+      "no": 16,
+      "name": "ベルフィーノ",
+      "tansho": 20.3
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.5,
+    "second_odds": 5.2,
+    "fav_second_gap": 1.7,
+    "fav_second_ratio": 1.486,
+    "n_under_30": 9,
+    "n_under_10": 4,
+    "mean_odds": 24.8,
+    "n_valid": 16
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 2,
+  "dango_signals": [
+    "[割れ] 1番人気3.5倍≥3.0(割れ)"
+  ],
+  "fav_no": 7,
+  "fav_name": "トウカイジーク"
+}

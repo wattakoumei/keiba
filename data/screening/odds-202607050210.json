@@ -1,0 +1,81 @@
+{
+  "race_id": "202607050210",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "アルマデオロ",
+      "tansho": 1.9
+    },
+    {
+      "no": 2,
+      "name": "アメジストブラック",
+      "tansho": 33.2
+    },
+    {
+      "no": 3,
+      "name": "リアルファインド",
+      "tansho": 38.8
+    },
+    {
+      "no": 4,
+      "name": "ゴールデンパゴーダ",
+      "tansho": 10.6
+    },
+    {
+      "no": 5,
+      "name": "リギーロ",
+      "tansho": 5.3
+    },
+    {
+      "no": 6,
+      "name": "ジュンツバメガエシ",
+      "tansho": 11.9
+    },
+    {
+      "no": 7,
+      "name": "アスクデッドヒート",
+      "tansho": 14.7
+    },
+    {
+      "no": 8,
+      "name": "ラーシャローム",
+      "tansho": 14.1
+    },
+    {
+      "no": 9,
+      "name": "ブリヤディアマンテ",
+      "tansho": 42.2
+    },
+    {
+      "no": 10,
+      "name": "ライフセービング",
+      "tansho": 27.6
+    },
+    {
+      "no": 11,
+      "name": "バースライト",
+      "tansho": 8.8
+    }
+  ],
+  "metrics": {
+    "fav_odds": 1.9,
+    "second_odds": 5.3,
+    "fav_second_gap": 3.4,
+    "fav_second_ratio": 2.789,
+    "n_under_30": 8,
+    "n_under_10": 3,
+    "mean_odds": 19.0,
+    "n_valid": 11
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -3,
+  "dango_signals": [
+    "[収束] 1番人気1.9倍≤1.9(抜けた本命)",
+    "[収束] 1-2人気差3.4≥2.0(堅さ顕在)",
+    "[割れ] 単勝平均19.0倍<20(団子)"
+  ],
+  "fav_no": 1,
+  "fav_name": "アルマデオロ"
+}

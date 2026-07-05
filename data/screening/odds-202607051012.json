@@ -1,0 +1,105 @@
+{
+  "race_id": "202607051012",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ケンフィールド",
+      "tansho": 14.8
+    },
+    {
+      "no": 2,
+      "name": "サイモンゼスト",
+      "tansho": 12.4
+    },
+    {
+      "no": 3,
+      "name": "トッレブランカ",
+      "tansho": 68.3
+    },
+    {
+      "no": 4,
+      "name": "リヒトミューレ",
+      "tansho": 10.5
+    },
+    {
+      "no": 5,
+      "name": "テイクイットオール",
+      "tansho": 53.7
+    },
+    {
+      "no": 6,
+      "name": "フェミナンジェンヌ",
+      "tansho": 30.2
+    },
+    {
+      "no": 7,
+      "name": "ゴールデンスラム",
+      "tansho": 21.6
+    },
+    {
+      "no": 8,
+      "name": "タイセイジェイド",
+      "tansho": 12.3
+    },
+    {
+      "no": 9,
+      "name": "ビズロード",
+      "tansho": 8.2
+    },
+    {
+      "no": 10,
+      "name": "システマソラー",
+      "tansho": 2.6
+    },
+    {
+      "no": 11,
+      "name": "ルペイドゥロール",
+      "tansho": 16.5
+    },
+    {
+      "no": 12,
+      "name": "バレンシア",
+      "tansho": 13.9
+    },
+    {
+      "no": 13,
+      "name": "アーブルラーブル",
+      "tansho": 73.6
+    },
+    {
+      "no": 14,
+      "name": "メイショウカスガイ",
+      "tansho": 16.1
+    },
+    {
+      "no": 15,
+      "name": "ゲタリア",
+      "tansho": 12.1
+    },
+    {
+      "no": 16,
+      "name": "ブラックドレス",
+      "tansho": 35.1
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.6,
+    "second_odds": 8.2,
+    "fav_second_gap": 5.6,
+    "fav_second_ratio": 3.154,
+    "n_under_30": 11,
+    "n_under_10": 2,
+    "mean_odds": 25.1,
+    "n_valid": 16
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -3,
+  "dango_signals": [
+    "[収束] 1-2人気差5.6≥3.5(断然)",
+    "[割れ] 単勝30倍以下が11頭≥10(団子)"
+  ],
+  "fav_no": 10,
+  "fav_name": "システマソラー"
+}

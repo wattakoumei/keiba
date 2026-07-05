@@ -1,0 +1,224 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "race_class_rank=3(2勝クラス)。seedのJRA近走通過順を主軸に、class_certain=falseの名前付き特別は2勝相当として仮置きし、内容評価へ反映。ヨシヒロはseedに近走が無く通用度不明。通過順はSTEP4a展開合成用に各馬へ残す。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "pros": [
+        "[B] 別府特別は後方11番手から2着まで差し込み、2勝級で届く脚は残している",
+        "[B] 前走信濃川特別も10番手から上がり33.7を使っており、展開が流れれば末脚は使える"
+      ],
+      "cons": [
+        "[B] 近4走で馬券圏級の内容は別府特別だけで、2勝クラス常駐として勝ち切る底上げ材料は薄い",
+        "[B] 近走は1角9番手以下が続き、後方依存で展開待ち"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "pros": [
+        "[B] 前走テレ玉杯は中団から上がり33.3を使っており、終いの脚自体は保っている"
+      ],
+      "cons": [
+        "[B] 2勝クラス近4走が7着・6着・9着・8着で勝ち負け圏に届かず、同級通用度は頭打ち気味",
+        "[B] 後方12番手になる走りもあり、位置取りが安定せず内容の上積みが乏しい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "pros": [
+        "[B] 中山2勝では1角3-4番手の先行形を作れており、前受けする競馬は可能"
+      ],
+      "cons": [
+        "[B] 近4走が8着・9着・6着・7着で、前に行っても差しても掲示板外が続く",
+        "[B] 先行して粘り切れない内容が多く、同級で底が見えつつある"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "pros": [
+        "[B] 館山特別は9番手から6着、東京2勝も7番手から6着で、差し脚が噛めば中位までは詰める",
+        "[B] 豊栄特別で上がり33.1を記録しており、決め手の瞬発力はある"
+      ],
+      "cons": [
+        "[B] 前走三峰山特別は15番手から14着の大敗で、近走内容の連続性がない",
+        "[B] 2勝クラスで6着止まりが続き、勝ち負けまで押し上げる材料は弱い"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "pros": [
+        "[B] 前走の牝馬限定2勝クラスで3番手から2着、昇級後すぐ同級通用を示した",
+        "[B] 1勝クラス勝ちを含め近4走が2着・1着・2着・2着で、内容の安定度が高い",
+        "[B] 先行寄りの中団で運べるため、展開待ち一辺倒ではない"
+      ],
+      "cons": [
+        "[B] 2勝クラスで勝ち切った実績はまだなく、前走から間隔が空く"
+      ],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "cons": [
+        "[B] seedに近走成績・通過順・class_moveが無く、2勝クラスでの通用度を判断する材料が不足",
+        "[B] 実脚質も不明で、展開合成に使える近走位置取り証拠が取れていない"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 出走表のみ・近走欠損)"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "pros": [
+        "[B] 1月京都2勝は3番手から4着で、同級で前受けして掲示板級の内容はある"
+      ],
+      "cons": [
+        "[B] 直近3走は9着・9着・6着で、同級で勝ち負けまで進んでいない",
+        "[B] 近走はダート短距離からマイル中心で、芝1800の近走内容証拠が乏しい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "pros": [
+        "[B] 逃げ・先行・最後方と位置取りの幅はあるが、好走には結び付いていない"
+      ],
+      "cons": [
+        "[B] 近4走が6着・12着・8着・13着で、2勝クラスで明確に苦戦",
+        "[B] 先行した皆生特別でも6着止まり、逃げたフォーチュンでも8着で、位置を取っても押し切れない"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "pros": [
+        "[B] 福島芝1800の1勝クラスを8番手から勝っており、同舞台で差し切る内容はある",
+        "[B] 春日特別は8番手から上がり34.4で7着まで詰めており、末脚は一定"
+      ],
+      "cons": [
+        "[B] 1勝勝ち上がり後の2勝級では11着・9着・7着で、通用にはもう一段必要",
+        "[B] 後方寄りの競馬が続き、2勝クラスでは位置取りの遅さが着順に直結している"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "pros": [
+        "[B] 福島1勝クラスを最後方14番手から勝ち切っており、福島で差し込む実戦内容がある",
+        "[B] 茨城新聞杯は最後方から上がり33.7で8着、同級初戦としては末脚を見せた"
+      ],
+      "cons": [
+        "[B] 2勝クラスで勝ち負け級の内容はまだなく、最後方依存で展開待ち",
+        "[B] 前走から長く間隔が空き、近走内容の鮮度が低い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "pros": [
+        "[B] 五色沼特別は福島芝1800で2番手から2着、今回条件に直結する好内容",
+        "[B] 近走でも中山2勝で2番手を取れており、前受けできる脚質は維持"
+      ],
+      "cons": [
+        "[B] 五色沼特別後は10着・11着・6着で、好内容が単発気味",
+        "[B] 館山特別は13番手から上がり33.9でも11着で、後手に回ると届かない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "cons": [
+        "[B] 2勝級近4走が8着・11着・9着・13着で、連続して大敗圏",
+        "[B] 前走は3番手を取っても8着、後方からでも11着以下で、位置取りを問わず内容が悪い",
+        "[B] 近走の時計・着順ともに同級通用の裏付けが乏しい"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html",
+        "https://www.keibalab.jp/db/race/202607050310/",
+        "scraper-seed(JRA経路 通過順・近走成績)"
+      ]
+    }
+  ]
+}

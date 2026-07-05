@@ -1,0 +1,105 @@
+{
+  "race_id": "202607050209",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "スイミーユニバンス",
+      "tansho": 25.8
+    },
+    {
+      "no": 2,
+      "name": "ハリウッドメモリー",
+      "tansho": 4.9
+    },
+    {
+      "no": 3,
+      "name": "マジカルフェアリー",
+      "tansho": 39.9
+    },
+    {
+      "no": 4,
+      "name": "マルプリ",
+      "tansho": 23.9
+    },
+    {
+      "no": 5,
+      "name": "ゴキゲンサン",
+      "tansho": 60.7
+    },
+    {
+      "no": 6,
+      "name": "マナボニート",
+      "tansho": 6.1
+    },
+    {
+      "no": 7,
+      "name": "リリーフィールド",
+      "tansho": 20.4
+    },
+    {
+      "no": 8,
+      "name": "ラスティングスノー",
+      "tansho": 26.0
+    },
+    {
+      "no": 9,
+      "name": "ミニョンマルーン",
+      "tansho": 30.2
+    },
+    {
+      "no": 10,
+      "name": "ベルビースタローン",
+      "tansho": 19.5
+    },
+    {
+      "no": 11,
+      "name": "ベビーズブレス",
+      "tansho": 6.2
+    },
+    {
+      "no": 12,
+      "name": "ヒラボクミニー",
+      "tansho": 24.0
+    },
+    {
+      "no": 13,
+      "name": "ショウナンカリス",
+      "tansho": 7.1
+    },
+    {
+      "no": 14,
+      "name": "セイプリーズ",
+      "tansho": 33.4
+    },
+    {
+      "no": 15,
+      "name": "モズアンタレス",
+      "tansho": 11.4
+    },
+    {
+      "no": 16,
+      "name": "サンタアニタ",
+      "tansho": 7.3
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.9,
+    "second_odds": 6.1,
+    "fav_second_gap": 1.2,
+    "fav_second_ratio": 1.245,
+    "n_under_30": 12,
+    "n_under_10": 5,
+    "mean_odds": 21.7,
+    "n_valid": 16
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 5,
+  "dango_signals": [
+    "[割れ] 1番人気4.9倍≥4.0(本命不在)",
+    "[割れ] 単勝30倍以下が12頭≥10(団子)"
+  ],
+  "fav_no": 2,
+  "fav_name": "ハリウッドメモリー"
+}

@@ -1,0 +1,91 @@
+{
+  "race_id": "202607051011",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ランフォーヴァウ",
+      "tansho": 18.9
+    },
+    {
+      "no": 2,
+      "name": "ジェニファー",
+      "tansho": 15.4
+    },
+    {
+      "no": 3,
+      "name": "プロトポロス",
+      "tansho": 59.4
+    },
+    {
+      "no": 4,
+      "name": "アンクルクロス",
+      "tansho": 7.3
+    },
+    {
+      "no": 5,
+      "name": "アブキールベイ",
+      "tansho": 16.3
+    },
+    {
+      "no": 6,
+      "name": "オタルエバー",
+      "tansho": 29.8
+    },
+    {
+      "no": 7,
+      "name": "デアヴェローチェ",
+      "tansho": 4.4
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "tansho": 12.0
+    },
+    {
+      "no": 9,
+      "name": "ヨシノイースター",
+      "tansho": 7.8
+    },
+    {
+      "no": 10,
+      "name": "サウンドモリアーナ",
+      "tansho": 12.9
+    },
+    {
+      "no": 11,
+      "name": "ヤマニンアルリフラ",
+      "tansho": 12.0
+    },
+    {
+      "no": 12,
+      "name": "フリッカージャブ",
+      "tansho": 3.7
+    },
+    {
+      "no": 13,
+      "name": "イツモニコニコ",
+      "tansho": 39.4
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.7,
+    "second_odds": 4.4,
+    "fav_second_gap": 0.7,
+    "fav_second_ratio": 1.189,
+    "n_under_30": 11,
+    "n_under_10": 4,
+    "mean_odds": 18.4,
+    "n_valid": 13
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 4,
+  "dango_signals": [
+    "[割れ] 1番人気3.7倍≥3.0(割れ)",
+    "[割れ] 単勝30倍以下が11頭≥10(団子)",
+    "[割れ] 単勝平均18.4倍<20(団子)"
+  ],
+  "fav_no": 12,
+  "fav_name": "フリッカージャブ"
+}

@@ -1,0 +1,151 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "前走騎手 recent[].jockey と今走騎手を比較。強弱は控えめに扱う。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "cons": [
+        "[K] 前走黛 弘人から菊沢 一樹へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "pros": [
+        "[K] 津村 明秀への乗替で、好位差しの判断を補強できる"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "cons": [
+        "[K] 前走杉原 誠人から丸山 元気へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "cons": [
+        "[K] 前走岩田 望来から木幡 巧也へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "pros": [
+        "[K] 戸崎 圭太への乗替で、好位差しの判断を補強できる"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "cons": [
+        "[K] 前走騎手がseedで不明、木幡 育也での出方を当日まで確認したい"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "cons": [
+        "[K] 前走M.デムーロから小崎 綾也へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "cons": [
+        "[K] 前走丹内 祐次から吉田 豊へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "cons": [
+        "[K] 前走国分 優作から野中 悠太郎へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "cons": [
+        "[K] 前走武 豊から嶋田 純次へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "cons": [
+        "[K] 前走騎手がseedで不明、荻野 極での出方を当日まで確認したい"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "cons": [
+        "[K] 前走森田 誠也から柴田 大知へ乗替で、出方の再現性はやや不確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260705-fukushima-10/seed.json"
+      ]
+    }
+  ]
+}

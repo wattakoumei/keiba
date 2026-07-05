@@ -1,0 +1,808 @@
+{
+  "date": "20260705",
+  "venue": "fukushima",
+  "place": "03",
+  "as_of": "2026-07-04T23:36:41",
+  "odds_available": true,
+  "races": [
+    {
+      "r": 1,
+      "race_id": "202607050301",
+      "post_time": "09:55",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "13 バーヴァンシー",
+          "2 ドナソラーレ",
+          "15 バイアブランカ",
+          "14 ミュージックレイン"
+        ],
+        "style_counts": {
+          "追": 6,
+          "差": 5,
+          "不明": 2,
+          "先": 2
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 13,
+            "name": "バーヴァンシー",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 2.51
+          },
+          {
+            "no": 2,
+            "name": "ドナソラーレ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 2.26
+          },
+          {
+            "no": 15,
+            "name": "バイアブランカ",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 2.26
+          },
+          {
+            "no": 14,
+            "name": "ミュージックレイン",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 0.92
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -2.2,
+      "error": null
+    },
+    {
+      "r": 2,
+      "race_id": "202607050302",
+      "post_time": "10:30",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数",
+        "芝短距離"
+      ],
+      "dango_tier": "割れ",
+      "dango_signals": [
+        "[割れ] 1番人気3.9倍≥3.0(割れ)",
+        "[割れ] 単勝30倍以下が13頭≥10(団子)"
+      ],
+      "x_axis": {
+        "confidence": "絞れる",
+        "anchor": [
+          "9 ブロークンハート",
+          "11 シルバーアックス",
+          "3 ニシノタチアナ",
+          "4 セイウンプーパ"
+        ],
+        "style_counts": {
+          "差": 5,
+          "追": 4,
+          "先": 4,
+          "逃": 3
+        },
+        "reason": "9ブロークンハート / 11シルバーアックス / 3ニシノタチアナ",
+        "market_divergence": "一致",
+        "top_scores": [
+          {
+            "no": 9,
+            "name": "ブロークンハート",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 5.33
+          },
+          {
+            "no": 11,
+            "name": "シルバーアックス",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 4.33
+          },
+          {
+            "no": 3,
+            "name": "ニシノタチアナ",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 4.22
+          },
+          {
+            "no": 4,
+            "name": "セイウンプーパ",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 3.72
+          }
+        ]
+      },
+      "quadrant": "本命勝負",
+      "score": 9.0,
+      "error": null
+    },
+    {
+      "r": 3,
+      "race_id": "202607050303",
+      "post_time": "11:00",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 16,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "11 ワインダークシー",
+          "14 ヤマメホープ",
+          "5 マーゴットドライ",
+          "3 ベルランコントル"
+        ],
+        "style_counts": {
+          "差": 5,
+          "追": 5,
+          "先": 4,
+          "不明": 2
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 11,
+            "name": "ワインダークシー",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 6.38
+          },
+          {
+            "no": 14,
+            "name": "ヤマメホープ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 5.32
+          },
+          {
+            "no": 5,
+            "name": "マーゴットドライ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 5.2
+          },
+          {
+            "no": 3,
+            "name": "ベルランコントル",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 3.54
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -2.2,
+      "error": null
+    },
+    {
+      "r": 4,
+      "race_id": "202607050304",
+      "post_time": "11:30",
+      "surface": "ダ",
+      "distance": 1150,
+      "headcount": 16,
+      "race_name": "サラ系3歳未勝利",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": "中",
+      "dango_signals": [
+        "[割れ] 1番人気3.4倍≥3.0(割れ)",
+        "[収束] 1-2人気差2.6≥2.0(堅さ顕在)",
+        "[割れ] 単勝30倍以下が11頭≥10(団子)"
+      ],
+      "x_axis": {
+        "confidence": "絞れる",
+        "anchor": [
+          "7 フェイスリフト",
+          "10 コウソクルリアン",
+          "4 エリースノー",
+          "13 セイウンヤオヨロズ"
+        ],
+        "style_counts": {
+          "差": 6,
+          "逃": 1,
+          "不明": 1,
+          "追": 4,
+          "先": 4
+        },
+        "reason": "7フェイスリフト / 10コウソクルリアン / 4エリースノー",
+        "market_divergence": "相手一致",
+        "top_scores": [
+          {
+            "no": 7,
+            "name": "フェイスリフト",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 7.14
+          },
+          {
+            "no": 10,
+            "name": "コウソクルリアン",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 6.09
+          },
+          {
+            "no": 4,
+            "name": "エリースノー",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 4.41
+          },
+          {
+            "no": 13,
+            "name": "セイウンヤオヨロズ",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 3.86
+          }
+        ]
+      },
+      "quadrant": "本命勝負",
+      "score": 6.5,
+      "error": null
+    },
+    {
+      "r": 5,
+      "race_id": "202607050305",
+      "post_time": "12:20",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 16,
+      "race_name": "サラ系2歳新馬",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 ノシェリー",
+          "2 ランドジャイアンツ",
+          "3 ブライトシーン",
+          "4 ミリオ"
+        ],
+        "style_counts": {
+          "不明": 16
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "ノシェリー",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 2,
+            "name": "ランドジャイアンツ",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 3,
+            "name": "ブライトシーン",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 4,
+            "name": "ミリオ",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -2.2,
+      "error": null
+    },
+    {
+      "r": 6,
+      "race_id": "202607050306",
+      "post_time": "12:50",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 13,
+      "race_name": "サラ系2歳新馬",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催",
+        "芝短距離"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 スターバーナー",
+          "2 ヴェットビルズ",
+          "3 エレスレイプニル",
+          "4 ダンシングアワー"
+        ],
+        "style_counts": {
+          "不明": 13
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "スターバーナー",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 2,
+            "name": "ヴェットビルズ",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 3,
+            "name": "エレスレイプニル",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          },
+          {
+            "no": 4,
+            "name": "ダンシングアワー",
+            "style": null,
+            "ten_speed": null,
+            "score": -2.0
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -2.2,
+      "error": null
+    },
+    {
+      "r": 7,
+      "race_id": "202607050307",
+      "post_time": "13:20",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "race_name": "サラ系3歳上1勝クラス",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": "中",
+      "dango_signals": [
+        "[収束] 1-2人気差2.4≥2.0(堅さ顕在)",
+        "[割れ] 単勝30倍以下が11頭≥10(団子)"
+      ],
+      "x_axis": {
+        "confidence": "絞れる",
+        "anchor": [
+          "7 デルマアポロニア",
+          "15 アスコットヴェール",
+          "11 マタミカンサン",
+          "6 ヴンダーバール"
+        ],
+        "style_counts": {
+          "差": 7,
+          "不明": 2,
+          "先": 2,
+          "逃": 2,
+          "追": 2
+        },
+        "reason": "7デルマアポロニア / 15アスコットヴェール / 11マタミカンサン",
+        "market_divergence": "相手一致",
+        "top_scores": [
+          {
+            "no": 7,
+            "name": "デルマアポロニア",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 10.05
+          },
+          {
+            "no": 15,
+            "name": "アスコットヴェール",
+            "style": "逃",
+            "ten_speed": "速",
+            "score": 8.75
+          },
+          {
+            "no": 11,
+            "name": "マタミカンサン",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 7.54
+          },
+          {
+            "no": 6,
+            "name": "ヴンダーバール",
+            "style": "逃",
+            "ten_speed": "中",
+            "score": 7.52
+          }
+        ]
+      },
+      "quadrant": "本命勝負",
+      "score": 7.7,
+      "error": null
+    },
+    {
+      "r": 8,
+      "race_id": "202607050308",
+      "post_time": "13:50",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 12,
+      "race_name": "サラ系3歳上1勝クラス",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 ミエノストロング",
+          "2 カリーン",
+          "6 オックスアイ",
+          "8 サンブライト"
+        ],
+        "style_counts": {
+          "先": 4,
+          "追": 4,
+          "差": 3,
+          "不明": 1
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "ミエノストロング",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 6.61
+          },
+          {
+            "no": 2,
+            "name": "カリーン",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 5.59
+          },
+          {
+            "no": 6,
+            "name": "オックスアイ",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 4.5
+          },
+          {
+            "no": 8,
+            "name": "サンブライト",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 4.42
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -2.2,
+      "error": null
+    },
+    {
+      "r": 9,
+      "race_id": "202607050309",
+      "post_time": "14:20",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "race_name": "郡山特別",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数",
+        "芝短距離"
+      ],
+      "dango_tier": "割れ",
+      "dango_signals": [
+        "[割れ] 1番人気3.2倍≥3.0(割れ)",
+        "[割れ] 単勝30倍以下が10頭≥10(団子)"
+      ],
+      "x_axis": {
+        "confidence": "絞れる",
+        "anchor": [
+          "14 マキシマムドライブ",
+          "13 カーヌスティ",
+          "3 ラパンチュール",
+          "5 セイウンデセオ"
+        ],
+        "style_counts": {
+          "差": 5,
+          "追": 1,
+          "先": 9,
+          "逃": 1
+        },
+        "reason": "14マキシマムドライブ / 13カーヌスティ / 3ラパンチュール",
+        "market_divergence": "ズレ大",
+        "top_scores": [
+          {
+            "no": 14,
+            "name": "マキシマムドライブ",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 12.15
+          },
+          {
+            "no": 13,
+            "name": "カーヌスティ",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 9.56
+          },
+          {
+            "no": 3,
+            "name": "ラパンチュール",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 7.96
+          },
+          {
+            "no": 5,
+            "name": "セイウンデセオ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 6.99
+          }
+        ]
+      },
+      "quadrant": "本命勝負",
+      "score": 9.0,
+      "error": null
+    },
+    {
+      "r": 10,
+      "race_id": "202607050310",
+      "post_time": "14:55",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 12,
+      "race_name": "白河特別",
+      "cond_rage": "中",
+      "cond_flags": [
+        "福島開催"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "5 ベストミーエヴァー",
+          "10 リアンベーレ",
+          "9 バセリーナ",
+          "11 グランカンタンテ"
+        ],
+        "style_counts": {
+          "追": 5,
+          "差": 3,
+          "先": 3,
+          "不明": 1
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 5,
+            "name": "ベストミーエヴァー",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 8.81
+          },
+          {
+            "no": 10,
+            "name": "リアンベーレ",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 4.08
+          },
+          {
+            "no": 9,
+            "name": "バセリーナ",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 3.61
+          },
+          {
+            "no": 11,
+            "name": "グランカンタンテ",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 3.52
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -2.2,
+      "error": null
+    },
+    {
+      "r": 11,
+      "race_id": "202607050311",
+      "post_time": "15:30",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "race_name": "ジュライステークス",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "1 メリークリスマス",
+          "10 ルージュアベリア",
+          "4 ベルウェザー",
+          "2 カンピオーネ"
+        ],
+        "style_counts": {
+          "差": 7,
+          "追": 6,
+          "先": 2
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 1,
+            "name": "メリークリスマス",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 8.68
+          },
+          {
+            "no": 10,
+            "name": "ルージュアベリア",
+            "style": "差",
+            "ten_speed": "中",
+            "score": 6.04
+          },
+          {
+            "no": 4,
+            "name": "ベルウェザー",
+            "style": "追",
+            "ten_speed": "遅",
+            "score": 5.7
+          },
+          {
+            "no": 2,
+            "name": "カンピオーネ",
+            "style": "差",
+            "ten_speed": "遅",
+            "score": 4.41
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -1.0,
+      "error": null
+    },
+    {
+      "r": 12,
+      "race_id": "202607050312",
+      "post_time": "16:15",
+      "surface": "ダ",
+      "distance": 1150,
+      "headcount": 15,
+      "race_name": "サラ系3歳上1勝クラス",
+      "cond_rage": "強",
+      "cond_flags": [
+        "福島開催",
+        "多頭数"
+      ],
+      "dango_tier": null,
+      "dango_signals": null,
+      "x_axis": {
+        "confidence": "切り",
+        "anchor": [
+          "5 トモジャオーリー",
+          "4 カンレイスター",
+          "1 ピコレッド",
+          "2 ヨドノティアラ"
+        ],
+        "style_counts": {
+          "先": 7,
+          "差": 6,
+          "追": 2
+        },
+        "reason": "逃げ不在",
+        "market_divergence": null,
+        "top_scores": [
+          {
+            "no": 5,
+            "name": "トモジャオーリー",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 6.78
+          },
+          {
+            "no": 4,
+            "name": "カンレイスター",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 6.33
+          },
+          {
+            "no": 1,
+            "name": "ピコレッド",
+            "style": "先",
+            "ten_speed": "中",
+            "score": 6.27
+          },
+          {
+            "no": 2,
+            "name": "ヨドノティアラ",
+            "style": "先",
+            "ten_speed": "速",
+            "score": 5.82
+          }
+        ]
+      },
+      "quadrant": "切り",
+      "score": -1.0,
+      "error": null
+    }
+  ]
+}

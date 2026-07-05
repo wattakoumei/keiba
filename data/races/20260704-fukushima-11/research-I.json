@@ -1,0 +1,148 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.pyの決定論リスクを一次材料に、近走下降・高齢を反映。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ボディブロー",
+      "pros": [],
+      "cons": [
+        "前走大敗（13/15）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゲキザル",
+      "pros": [],
+      "cons": [
+        "7歳=やや高齢"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ラストシャリナ",
+      "pros": [],
+      "cons": [
+        "前走大敗（13/15）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウコバト",
+      "pros": [
+        "大きな決定論リスクなし"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ピックアップライン",
+      "pros": [],
+      "cons": [
+        "前走大敗（14/15）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アイアムユウシュン",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗（前走11/13・前々走13/15）＝下降基調"
+      ],
+      "score": -1.0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テセラリアン",
+      "pros": [
+        "大きな決定論リスクなし"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "イリフィ",
+      "pros": [
+        "大きな決定論リスクなし"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ゲイルライダー",
+      "pros": [
+        "大きな決定論リスクなし"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カネショウレジェン",
+      "pros": [
+        "大きな決定論リスクなし"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "tools/risk_flags.py",
+        "data/races/20260704-fukushima-11/出走表.md"
+      ]
+    }
+  ],
+  "note": "Codex fan-outが環境制約で中断したため、JRA seedと決定論タグから縮退生成。"
+}

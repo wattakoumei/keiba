@@ -1,0 +1,105 @@
+{
+  "race_id": "202607050309",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "バシレイア",
+      "tansho": 12.4
+    },
+    {
+      "no": 2,
+      "name": "ジャガード",
+      "tansho": 56.9
+    },
+    {
+      "no": 3,
+      "name": "ラパンチュール",
+      "tansho": 4.8
+    },
+    {
+      "no": 4,
+      "name": "マンウォル",
+      "tansho": 43.4
+    },
+    {
+      "no": 5,
+      "name": "セイウンデセオ",
+      "tansho": 9.9
+    },
+    {
+      "no": 6,
+      "name": "ゼンダンタカ",
+      "tansho": 69.1
+    },
+    {
+      "no": 7,
+      "name": "フェデルミエール",
+      "tansho": 40.3
+    },
+    {
+      "no": 8,
+      "name": "エリカカリーナ",
+      "tansho": 20.5
+    },
+    {
+      "no": 9,
+      "name": "フェルミアーク",
+      "tansho": 3.2
+    },
+    {
+      "no": 10,
+      "name": "ライクアフラワー",
+      "tansho": 22.2
+    },
+    {
+      "no": 11,
+      "name": "イゾラフェリーチェ",
+      "tansho": 10.5
+    },
+    {
+      "no": 12,
+      "name": "ヴェナートル",
+      "tansho": 20.5
+    },
+    {
+      "no": 13,
+      "name": "カーヌスティ",
+      "tansho": 11.6
+    },
+    {
+      "no": 14,
+      "name": "マキシマムドライブ",
+      "tansho": 10.0
+    },
+    {
+      "no": 15,
+      "name": "ホウオウブースター",
+      "tansho": 34.7
+    },
+    {
+      "no": 16,
+      "name": "ジョウゲンノツキ",
+      "tansho": 41.8
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.2,
+    "second_odds": 4.8,
+    "fav_second_gap": 1.6,
+    "fav_second_ratio": 1.5,
+    "n_under_30": 10,
+    "n_under_10": 3,
+    "mean_odds": 25.7,
+    "n_valid": 16
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 3,
+  "dango_signals": [
+    "[割れ] 1番人気3.2倍≥3.0(割れ)",
+    "[割れ] 単勝30倍以下が10頭≥10(団子)"
+  ],
+  "fav_no": 9,
+  "fav_name": "フェルミアーク"
+}

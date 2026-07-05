@@ -1,0 +1,216 @@
+{
+  "point": "F 調教・厩舎仕上げ",
+  "race_id": "20260705-fukushima-10",
+  "as_of": "2026-07-04",
+  "overall_confidence": "低",
+  "seed_used": true,
+  "seed_source": "data/races/20260705-fukushima-10/oikiri.json",
+  "seed_url": "https://p.keibabook.co.jp/cyuou/bestcyokyo",
+  "note": "stable-intent-rubric のcatalogは実エントリなし。今回webで厩舎別の仕上げ型/追い切り常態を型判定できる根拠も取得できなかったため、暫定ラベルの追記候補は作らない。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワザモノ",
+      "trainer": "尾関知人",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]最終追い切りの実測と動き評価を確認できず、8歳馬の状態維持を調教面から裏付けられない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "マイネルフォルツァ",
+      "trainer": "金成貴史",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]最終追い切りの実測を確認できず、前走比で上向きか平行線か判定できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ロゼル",
+      "trainer": "大和田成",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]近走大敗後の立て直し局面だが、攻め時計や併せの変化を確認できず状態上昇の根拠がない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ペッレグリーニ",
+      "trainer": "手塚貴久",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明。手塚厩舎は同レース2頭出しだが、今回の本数・併せ相手・強度差は取得できず。",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]前走大敗からの巻き返しには仕上げ確認が欲しいが、今回の時計・動きが不明"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベストミーエヴァー",
+      "trainer": "森一誠",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]前走から145日で休み明けだが、外厩仕上げや最終追いの負荷を確認できず仕上がり判定は保留"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヨシヒロ",
+      "trainer": "松永康利",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。seedにも近走データが無く、調教面の文脈が薄い。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]近走・追い切りとも材料が乏しく、今回どの程度走れる状態か調教面から判定できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レッドダンルース",
+      "trainer": "福永祐一",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]ダート短距離から芝1800への条件替わりで状態面の裏付けが欲しいが、追い切り実測を確認できない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "シャイニースイフト",
+      "trainer": "菊川正達",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]近走下降気味の立て直しを調教時計で確認できず、状態上昇の根拠が取れない"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "バセリーナ",
+      "trainer": "松山将樹",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]前走から140日で休み明けだが、最終追いの強度・本数・外厩仕上げの有無を確認できず仕上がり判定は保留"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "リアンベーレ",
+      "trainer": "手塚貴久",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明。手塚厩舎の同レース2頭出しだが、この馬固有の負荷・併せ結果は取得できず。",
+      "oikiri_kake_risk": "判断不能",
+      "score": -1,
+      "confidence": "低",
+      "cons": [
+        "[F]前走から280日と長期休み明けで、最終追い・本数・外厩仕上げの裏付けが取れないため状態面は軽い懸念"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "グランカンタンテ",
+      "trainer": "鹿戸雄一",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]福島好走歴のある先行馬だが、今回の攻め時計・併せ結果を確認できず状態面の上積みは不明"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ビッグデイメイク",
+      "trainer": "和田雄二",
+      "workout_facts": "今回最終追い切りの時計・場所・脚色・併せ結果は取得不能。競馬ブック好時計ランキングにも不在。",
+      "delta_vs_prev": "不明",
+      "stable_intent": "不明",
+      "oikiri_kake_risk": "判断不能",
+      "score": 0,
+      "confidence": "低",
+      "cons": [
+        "[F]近走大敗続きからの反転材料として追い切り内容を確認したかったが、時計・動き評価が不明"
+      ],
+      "sources": [
+        "https://p.keibabook.co.jp/cyuou/bestcyokyo"
+      ]
+    }
+  ]
+}

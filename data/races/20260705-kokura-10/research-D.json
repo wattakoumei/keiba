@@ -1,0 +1,333 @@
+{
+  "observation": "D. コース/距離/馬場適性",
+  "race_id": "20260705-kokura-10",
+  "race_cond": "小倉ダート1700m 3歳上2勝クラス 牝馬限定 16頭 右回り小回り",
+  "as_of": "2026-07-04",
+  "confidence": "中",
+  "field_note": "【コース恒常・事実】小倉ダ1700mは右回り小回り、ダート発走、初角まで343m、直線291.3mで平坦。コース傾向は逃げ/先行が強く、脚質別は逃げ23.4/49.0、先行15.0/44.4、差し3.2/14.0、追込0.2/1.6。枠順は内外差がほとんどない。【当該開催の今・事実】JRA公式は第2回小倉第3日(2026-07-04)の馬場状態を7月3日正午時点で芝良・ダート稍重、天候晴と発表。7月5日は第2回小倉第4日=開催2週目。6月26日以降の降雨量が多く、29日から3日までダートのクッション砂を9.0cmに調整。含水率数値と7月4日当日のダート決まり手は未取得。馬体重タグはweight seedで当日未取得=保留。",
+  "bias": {
+    "course_const": "小倉ダ1700mは逃げ・先行優勢、追込は届きにくい。枠順の内外差は小さい。ダート発走で芝スタート由来の外枠利は無い。",
+    "this_meeting": "第2回小倉第3日(7月4日)時点で、JRA公式の7月3日正午発表はダート稍重。7月5日は第2回小倉第4日=開催2週目。ダートのクッション砂は29日から3日まで9.0cmに調整済み。",
+    "going": "稍重(7月3日正午時点、JRA公式)。7月5日当日の確定馬場・含水率は未取得。",
+    "draw_note": "コース傾向として枠順の内外差はほとんど無い。16頭立てで最内の差し/追込は包まれる余地があるが、符号付けは展開合成側。"
+  },
+  "course_facts": {
+    "constant": {
+      "shape": "右回り小回り・ダート1700m。初角まで343m、直線291.3m、直線平坦。2角付近が最高地点で3-4角は下りスパイラル。",
+      "leg_bias_fact": "脚質別成績は逃げ45-31-18-98(勝23.4/複49.0)、先行90-97-80-335(勝15.0/複44.4)、差し31-38-67-838(勝3.2/複14.0)、追込2-5-6-823(勝0.2/複1.6)。",
+      "draw_fact": "枠順別は1枠複20.3、2枠19.3、3枠21.6、4枠23.3、5枠17.2、6枠22.9、7枠17.7、8枠20.2で、内外差は小さい。",
+      "source": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "references/course-geometry.md"
+      ]
+    },
+    "this_meeting": {
+      "fact": "JRA公式の第2回小倉第3日(2026-07-04)馬場情報は、7月3日正午現在で天候晴、芝良、ダート稍重。週間情報では6月26日に89.5mm、7月1日に58.0mm、7月2日に25.0mmの雨量があり、29日から3日までダートのクッション砂を9.0cmに調整。",
+      "confidence": "中",
+      "source": [
+        "https://www.jra.go.jp/keiba/baba/index2.html"
+      ]
+    }
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "プウスカンドゥール",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[D] 2026-01-31小倉ダ1700平尾台特別で2着/16、同コース同距離の直接好走がある",
+        "[D] 2026-02-28小倉ダ1700早鞆特別も経験済みで、今回の1800mから1700mへの短縮は守備範囲"
+      ],
+      "cons": [
+        "[D] 差/遅で1角後方になりやすく、逃げ先行優勢の小倉ダ1700では位置取りが課題",
+        "[D] 早鞆特別は9着で、同条件の再現性は一枚割引"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ホウショウマリス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 2026-04-18福島ダ1700で3着/15、右回り小回りの1700mで好走実績がある",
+        "[D] 先/中で小倉ダ1700の逃げ先行優勢傾向に乗りやすく、前走1400mからの300m延長も同距離実績で補える"
+      ],
+      "cons": [
+        "[D] 小倉ダ1700の直接実績はseed内に無く、福島からのコース替わりは未検証",
+        "[D] 近走は1400m中心で、1700mの追走リズム再現は当日確認が必要"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ユウェンタース",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 2026-01-31小倉ダ1700平尾台特別で6着/16、同コース同距離の経験がある",
+        "[D] 前走阪神ダ1800で1角2番手から2着、1700mへの100m短縮と小回り先行型の流れに対応しやすい"
+      ],
+      "cons": [
+        "[D] seed上の脚質は差で、小倉ダ1700の前優勢に対して中団以降なら届きにくい",
+        "[D] 小倉の直接実績は掲示板外で、満額加点までは置けない"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "タマモジャスミン",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[D] 小倉ダ1700は2026-02-14牝1勝クラス1着、2026-02-01牝1勝クラス4着でコース経験が厚い",
+        "[D] 先/中で小倉ダ1700の前優勢傾向と脚質は合う"
+      ],
+      "cons": [
+        "[D] 2026-02-28小倉ダ1700早鞆特別は1角5番手から14着で、同級水準の同条件では崩れている",
+        "[D] 直近も同じ1700mからで距離替わりの新味は無い"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ノボリクレバー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 1800-1900mの右回りダート経験が多く、1700mへの200m短縮自体は極端ではない"
+      ],
+      "cons": [
+        "[D] seed内に小倉ダ1700実績が無く、近走は1900m中心で小回り1700mの忙しさが課題",
+        "[D] 差/中で前優勢の小倉ダ1700では自力で早めに動く必要がある"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "メイショウリリー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 直近2走はダ1800で上がり36秒台を使っており、1700mへの100m短縮は距離面だけなら大きな負荷ではない"
+      ],
+      "cons": [
+        "[D] 追/遅で小倉ダ1700の追込成績が低いコース傾向と合いにくい",
+        "[D] seed内に小倉ダ1700実績が無く、直線291.3mの短さで末脚を使う形は届きにくい"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "フィドルファドル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 東京ダ1400で近3走3-2-2着、ダート短距離の現状適性は安定している"
+      ],
+      "cons": [
+        "[D] 前走1400mから1700mへ300m延長で、seed内に1700mや小倉の実績が無い",
+        "[D] 差/中の東京型実績は、短直線で逃げ先行優勢の小倉ダ1700では質が変わる"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ジャルディニエ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 1800m前後の出走歴があり、前走1800mからの100m短縮は距離面では自然"
+      ],
+      "cons": [
+        "[D] seed内に小倉ダ1700の直接実績が無く、差/中で前優勢の小回りに合う証拠が薄い",
+        "[D] 近走の上がり型実績は、直線291.3mの小倉ダ1700では発揮場面が限定される"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "マジックローズ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 逃/速で小倉ダ1700の逃げ先行優勢傾向に最も噛み合う",
+        "[D] 前走東京ダ1600で1角1番手から2着、1700mへの100m延長なら距離替わりは小さい"
+      ],
+      "cons": [
+        "[D] seed内に小倉・右回り1700mの直接実績は無く、小回り4角の持続戦は未検証",
+        "[D] 直近好走は東京1600mで、コース替わりの質は広い直線から短直線へ変わる"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ツーピース",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 先/中でコース恒常の前優勢とは脚質面で合う",
+        "[D] 直近馬体重516kgでパワー寄りの素材はあるが、weight seed上は当日馬体未取得のためタグ保留"
+      ],
+      "cons": [
+        "[D] 2026-02-22小倉ダ1700は1角1番手から9着/14で、同コース同距離の直接実績が悪い",
+        "[D] 前走1200mから1700mへ500m延長で、距離替わり量が大きい"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ファミリーツリー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉2000mで2026-02-15太宰府特別3着があり、小倉コース自体の経験はある",
+        "[D] 前走1800mから1700mへの100m短縮で距離替わり量は小さい"
+      ],
+      "cons": [
+        "[D] seed内に小倉ダ1700の直接実績は無く、追/遅は小倉ダ1700の追込低成績と合いにくい",
+        "[D] 近走は1800-2000mで後方寄りが多く、1700m小回りで位置を取れる証拠が薄い"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "シュヴァルツリーベ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 1200-1400mで上がり36秒台の経験はあり、ダート適性そのものは保つ"
+      ],
+      "cons": [
+        "[D] 前走1200mから1700mへ500m延長で、距離替わり量が大きい",
+        "[D] seed内に1700m実績も小倉実績も無く、差/中で小倉ダ1700の前優勢傾向にも合いにくい"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ワイノナオミ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 1200-1400mで差し脚は使えており、ダート短距離の経験はある"
+      ],
+      "cons": [
+        "[D] 前走1200mから1700mへ500m延長で、距離替わり量が大きい",
+        "[D] 追/遅で小倉ダ1700の追込低成績と噛み合わず、seed内に1700mや小倉の直接実績も無い"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "タマモナポリ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 先/中で小倉ダ1700の前優勢傾向には脚質面で合う",
+        "[D] 2026-01-31小倉ダ1700平尾台特別を経験済み"
+      ],
+      "cons": [
+        "[D] 平尾台特別は1角4番手から10着/16で、同コース同距離の直接実績は弱い",
+        "[D] 前走1200mから1700mへ500m延長で、距離替わり量が大きい"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "フローラルセント",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 先/中で小倉ダ1700の前優勢傾向に脚質は合う",
+        "[D] 前走1800mから1700mへの100m短縮で距離替わり量は小さい"
+      ],
+      "cons": [
+        "[D] seed内に小倉ダ1700の直接実績は無く、2026-02-07小倉1800は1角2番手から16着で小倉の近い条件で崩れている",
+        "[D] 近走1800mで二桁着順が続き、1700m短縮だけでコース適性を強調しにくい"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "カロローザ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 阪神ダ1800で4着、中京ダ1800で1着があり、1700mへの100m短縮は距離面では許容範囲",
+        "[D] 差/中でも近走は1角6番手以内の経験があり、極端な後方専用ではない"
+      ],
+      "cons": [
+        "[D] seed内に小倉ダ1700の直接実績は無く、右回り小回り短直線の適性は未検証",
+        "[D] 外枠16番は枠差が小さいコースでも、差しで外々を回ると短直線ではロスを取り戻しにくい"
+      ],
+      "sources": [
+        "https://keiba-course.com/course/kokura-dirt-1700/",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "seed(fetch_racecard.py/JRA)"
+      ]
+    }
+  ],
+  "notes": "全頭をseed起点で評価。小倉ダ1700の物理形状はreferences/course-geometry.mdを正本として採用し、webでは恒常傾向とJRA公式の当該開催馬場情報のみ取得。個別馬の道悪適性は信頼できる追加URLが取れず不明として扱った。weight seedは馬体重未取得でD/Gタグ保留、全馬56.0kgで斤量差なし。7月5日の確定馬場・含水率・7月4日ダート決まり手は当日ボードで更新が望ましい。"
+}
