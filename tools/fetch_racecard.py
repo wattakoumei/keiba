@@ -27,14 +27,12 @@ race_id = YYYYMMDD + 場2桁 + R2桁（東京=05。例 安田11R=202606070511、
 import sys
 import re
 import json
-import time
 import html
 import unicodedata
-import urllib.request
-import urllib.error
+import http.client
 import urllib.parse
 
-from _polite import polite_get, polite_post, RefusedByRobots  # UA・レート制限・robots の正本
+from _polite import polite_get, polite_post, RefusedByRobots  # UA・レート制限・robots・リトライの正本
 RANK = {'◎': 4, '○': 3, '▲': 2, '△': 1, '': 0}   # dbrunstyle の傾向記号の強さ
 LEG = ['逃', '先', '差', '追']                       # dbrunstyle の li は左から[逃,先,差,追]
 
@@ -169,16 +167,8 @@ def class_move(last, top, race_rank):
 
 
 def fetch(url):
-    """_polite 経由で取得（robots 尊重・ホスト別レート制限）。一過性エラーは1回だけリトライ。"""
-    for attempt in (1, 2):
-        try:
-            return polite_get(url, timeout=TIMEOUT).decode("utf-8", "ignore")
-        except RefusedByRobots:
-            raise
-        except (urllib.error.URLError, TimeoutError):
-            if attempt == 2:
-                raise
-            time.sleep(1.5)
+    """_polite 経由で取得（robots 尊重・レート制限・一過性エラーのリトライは _polite が正本）。"""
+    return polite_get(url, timeout=TIMEOUT).decode("utf-8", "ignore")
 
 
 def _blood(block, cls):
@@ -249,15 +239,9 @@ def parse_day(h, place):
 # ---------------- JRA 通過順（--deep / jra サブコマンド） ----------------
 
 def jra_post(cname):
-    """JRA accessD に cname を POST して Shift_JIS ページを取る（間隔制御は _polite）。"""
+    """JRA accessD に cname を POST して Shift_JIS ページを取る（間隔制御・リトライは _polite）。"""
     data = urllib.parse.urlencode({"cname": cname}).encode()
-    for attempt in (1, 2):
-        try:
-            return polite_post(JRA_BASE, data, timeout=TIMEOUT).decode("shift_jis", "ignore")
-        except (urllib.error.URLError, TimeoutError):
-            if attempt == 2:
-                raise
-            time.sleep(1.5)
+    return polite_post(JRA_BASE, data, timeout=TIMEOUT).decode("shift_jis", "ignore")
 
 
 def jra_race_tokens(date, place):
@@ -559,7 +543,14 @@ def main():
         print(json.dumps({"error": str(e), "stage": "self-check"}, ensure_ascii=False), file=sys.stderr)
         sys.exit(1)
     except Exception as e:
-        stage = "fetch" if isinstance(e, (urllib.error.URLError, TimeoutError)) else "parse"
+        # robots 拒否は "robots"（別サイト/貼り付けへ）、ネットワーク系（URLError/Timeout/接続断/
+        # 不完全応答＝OSError/HTTPException）は "fetch"（再実行で直りうる）、それ以外は "parse"（構造変化の疑い）
+        if isinstance(e, RefusedByRobots):
+            stage = "robots"
+        elif isinstance(e, (OSError, http.client.HTTPException)):
+            stage = "fetch"
+        else:
+            stage = "parse"
         print(json.dumps({"error": str(e), "stage": stage}, ensure_ascii=False), file=sys.stderr)
         sys.exit(1)
 
