@@ -29,11 +29,14 @@ score_race.py — 着順エンジン v4.0（相変位再帰モデル）の決定
               "scores":{"A":0,"B":0,"C":0.5,"D":2,"F":0,"G":0,"H":0,"I":0,"K":0},
               "conf":{"A":"低"}, "draw_adj":0.05}],
    "patterns":[{"id":"P1","prob":0.46,"pace_level":0.22,"contesters":[4]}],
+   "profile":"debut",   # 任意。新馬戦(過去走ゼロ)＝A/B/D/G/L 欠損を中立0.5で流すと率が平坦化するため
+                        # A_class の base を C/M/F に組み替え・A_finish の素を血統(C)に差し替える（v4.6）
+                        # "nar"=地方競馬＝base に観点N(クラス格・転入換算)を第一級項として組み込む（v4.7）
    "params":{...任意上書き...}}
 """
 import sys, json, math, argparse, statistics, itertools
 
-MODEL_VERSION = "4.4"
+MODEL_VERSION = "4.7"
 
 # === パラメータ早見表（6ノブ・scoring-model.md と一致させる） ===
 PARAMS = {
@@ -42,7 +45,7 @@ PARAMS = {
     "g_fwd":   0.35,  # 前を取りに行く消耗結合
     "w_pos0":  0.8,   # 終端の位置重み(ハイ時 L=1)
     "w_pos1":  2.6,   # スロー化で増える位置重み(=前残りレバー, L=0で計3.4)
-    "T":       0.75,  # softmax 温度(S スケール 0..~2 上。v4.3: 0.55→0.75 較正第2段=26件で2手法一致)
+    "T":       0.60,  # softmax 温度(S スケール 0..~2 上。v4.5: 0.75→0.60 較正第3段=30件・Brier平坦域0.50-0.65でtop1的中と複勝Brierの最良点)
     "LEG_ADV_GAIN": 0.20,  # 合成器著作 leg_advantage の終端S変調ゲイン(v4.1)。pace_level では出ないコース固有の脚質有利不利(残差)を率に反映。0=従来(無効)
 }
 # 構造定数（非tunable・ノブ数を6に固定するため）
@@ -53,6 +56,16 @@ ENERGY_FLOOR = 0.05
 # A_class を [CLASS_FLOOR,1] の変調帯へ圧縮（地力を支配項でなく乗数に留め、位置が競えるように）。
 # これが無いと A_class(0..1) が全体に掛かり v3.0 と同じ「地力支配」へ戻る（加古川⑥の再現）。
 CLASS_FLOOR = 0.60
+# 新馬プロファイル（profile:"debut"・v4.6）の構造定数＝ノブにしない（新馬コーパスの較正が溜まるまで理論値）。
+# base を潜在能力の代理変数へ組み替え: C=血統(仕上がり早・兄弟) / M=厩舎新馬型・初戦準備度・出自 / F=調教(唯一の実測走力)。
+# cond から F を除外（base へ移動＝二重計上しない）し、H(気配)・K(起用)だけ残す。A_finish の素は血統の決め手(C)。
+DEBUT_BASE_W = {"C": 0.40, "M": 0.35, "F": 0.25}
+DEBUT_COND_W = {"H": 0.10, "K": 0.08}
+# NARプロファイル（profile:"nar"・v4.7）の構造定数＝ノブにしない（NARコーパスの較正が溜まるまで理論値）。
+# 地方はクラス階梯が場ごとに違い、混合戦・転入/移籍馬が常態＝観点N（クラス格・転入換算の共通ランク）を
+# base の第一級項に組み込む。A（時計）は場間・砂質間の互換が悪く通常より軽く、B（近走内容）と N（格）を主軸にする。
+# cond/apt/disc は通常と同じ（K の重みは騎手寡占の較正が溜まったら見直し候補）。
+NAR_BASE_W = {"N": 0.30, "B": 0.30, "A": 0.20, "C": 0.20}
 
 TEN_MAP = {"速": 1.0, "中": 0.5, "遅": 0.1}
 STY_MAP = {"逃": 1.0, "先": 0.75, "差": 0.3, "追": 0.1}
@@ -99,8 +112,10 @@ def _sty_key(style):
     return None
 
 
-def phase_abilities(h):
-    """1頭の観点スコア＋スクレイパ値から相別能力(early/cruise/finish/class)を算出。"""
+def phase_abilities(h, profile=None):
+    """1頭の観点スコア＋スクレイパ値から相別能力(early/cruise/finish/class)を算出。
+    profile="debut"（新馬戦）は base を C/M/F・cond を H/K に組み替え、A_finish の素を血統(C)にする（v4.6）。
+    profile="nar"（地方競馬）は base に N(クラス格・転入換算)を組み込み A を軽くする（v4.7・cond/apt/disc は通常同一）。"""
     sc = h.get("scores", {}) or {}
     cf = h.get("conf", {}) or {}
 
@@ -115,10 +130,21 @@ def phase_abilities(h):
     eI = sc.get("I", 0.0) or 0.0
 
     # --- A_class: 旧 ability0 を 0..1 に圧縮し、乗数へ降格 ---
-    base = 0.40 * nA + 0.40 * nB + 0.20 * nC
-    apt = 1.0 + 0.15 * (2 * nD - 1) + 0.05 * (2 * nL - 1)  # L(リピーター)=条件適性としてaptに加算
-    cond = (1.0 + 0.07 * (2 * nF - 1) + 0.05 * (2 * nG - 1)
-            + 0.05 * (2 * nH - 1) + 0.06 * (2 * nK - 1))
+    if profile == "debut":
+        nM = g("M")
+        base = DEBUT_BASE_W["C"] * nC + DEBUT_BASE_W["M"] * nM + DEBUT_BASE_W["F"] * nF
+        cond = 1.0 + DEBUT_COND_W["H"] * (2 * nH - 1) + DEBUT_COND_W["K"] * (2 * nK - 1)
+    elif profile == "nar":
+        nN = g("N")
+        base = (NAR_BASE_W["N"] * nN + NAR_BASE_W["B"] * nB
+                + NAR_BASE_W["A"] * nA + NAR_BASE_W["C"] * nC)
+        cond = (1.0 + 0.07 * (2 * nF - 1) + 0.05 * (2 * nG - 1)
+                + 0.05 * (2 * nH - 1) + 0.06 * (2 * nK - 1))
+    else:
+        base = 0.40 * nA + 0.40 * nB + 0.20 * nC
+        cond = (1.0 + 0.07 * (2 * nF - 1) + 0.05 * (2 * nG - 1)
+                + 0.05 * (2 * nH - 1) + 0.06 * (2 * nK - 1))
+    apt = 1.0 + 0.15 * (2 * nD - 1) + 0.05 * (2 * nL - 1)  # L(リピーター)=条件適性としてaptに加算。新馬はD/L欠損=中立1.0
     disc = 0.10 * (-eI)
     A_class_raw = clip(base * apt * cond - base * disc)
     A_class = CLASS_FLOOR + (1 - CLASS_FLOOR) * A_class_raw  # 変調帯 [CLASS_FLOOR,1]
@@ -143,12 +169,13 @@ def phase_abilities(h):
         stab = 0.5
     A_cruise = clip(0.50 * stab + 0.35 * nC + 0.15 * nB)
 
-    # --- A_finish: 上がり最速(相対) ＋ 決め手(B近走) ---
+    # --- A_finish: 上がり最速(相対) ＋ 決め手(新馬は血統C・通常はB近走) ---
+    fin_n = nC if profile == "debut" else nB   # 新馬: agari_best が全馬無い＝nB中立で全馬フラット化するため血統の決め手を素にする
     A_finish_af = h.get("_af", 0.5)  # field 相対は集計後に注入(下の compute で設定)
-    A_finish = clip(0.6 * A_finish_af + 0.4 * nB)
+    A_finish = clip(0.6 * A_finish_af + 0.4 * fin_n)
 
     return dict(A_early=A_early, A_cruise=A_cruise, A_finish=A_finish,
-                A_class=A_class, _nB=nB)
+                A_class=A_class, _fin_n=fin_n)
 
 
 def inject_af(horses, ab):
@@ -160,7 +187,7 @@ def inject_af(horses, ab):
             no = h["no"]
             a = h.get("agari_best")
             af = 0.5 if a is None else clip((amax - a) / (amax - amin))
-            ab[no]["A_finish"] = clip(0.6 * af + 0.4 * ab[no]["_nB"])
+            ab[no]["A_finish"] = clip(0.6 * af + 0.4 * ab[no]["_fin_n"])
     # 値が無ければ phase_abilities の af=0.5 のまま
 
 
@@ -291,7 +318,8 @@ def compute_exotics(data):
     P = dict(PARAMS)
     P.update(data.get("params", {}) or {})
     horses = data["horses"]
-    ab = {h["no"]: phase_abilities(h) for h in horses}
+    profile = data.get("profile")
+    ab = {h["no"]: phase_abilities(h, profile) for h in horses}
     inject_af(horses, ab)
     patterns = data.get("patterns") or [{"id": "P0", "prob": 1.0, "pace_level": 0.5}]
     pair_acc, trio_acc = {}, {}
@@ -347,7 +375,8 @@ def compute(data):
     names = {h["no"]: h.get("name", str(h["no"])) for h in horses}
 
     # 相別能力
-    ab = {h["no"]: phase_abilities(h) for h in horses}
+    profile = data.get("profile")
+    ab = {h["no"]: phase_abilities(h, profile) for h in horses}
     inject_af(horses, ab)
 
     patterns = data.get("patterns") or [{"id": "P0", "prob": 1.0, "pace_level": 0.5}]

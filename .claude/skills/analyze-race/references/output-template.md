@@ -62,7 +62,7 @@
 | `reference_races` | obj[] | `{label, when, course, match(★), watch}` 当日バイアス採取用の参考R |
 | `reference_note` | str | 参考R採取の優先順位メモ |
 | `observation_blanks` | str | 当日記入の観察項目（ペース層／内外バイアス／決まり手／伸び位置）|
-| `going` | obj[] | `{item, value(""), read}` 馬場状態・含水率等の当日確認項目と質の読み |
+| `going` | obj[] | `{item, value(""), read}` 馬場状態・含水率・風（向き・強さ）等の当日確認項目と質の読み |
 | `paddock_watch` | obj[] | `{mark, gate_no, horse, weight_note}` 注目馬のパドック観察枠 |
 | `other_unknowns` | str[] | 折り合い・当日乗替/取消など未確定事項 |
 

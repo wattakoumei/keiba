@@ -32,9 +32,12 @@ AGENTS_DIR = os.path.join(ROOT, ".codex", "agents")
 PROTOCOL = os.path.join(ROOT, ".claude", "skills", "analyze-race", "references", "research-protocol.md")
 
 # 観点ID → agent 定義 basename（SKILL.md の AGENT_OF と一致させる。正本はあちら）
+# M=新馬モード専用・N=NARモード専用（既定 fan-out には入らない＝--only で明示指定）
 AGENT_OF = {"A": "obs-a-index", "B": "obs-b-recent", "C": "obs-c-pedigree", "D": "obs-d-aptitude",
             "E": "obs-e-pace", "F": "obs-f-training", "G": "obs-g-rotation", "H": "obs-h-paddock",
-            "I": "obs-i-risk", "K": "obs-k-jockey", "L": "obs-l-repeater"}
+            "I": "obs-i-risk", "K": "obs-k-jockey", "L": "obs-l-repeater",
+            "M": "obs-m-debut", "N": "obs-n-class"}
+DEFAULT_OBS = "ABCDEFGHIKL"   # 既定 fan-out（通常レース11観点）。新馬/NAR はモード側が --only で選ぶ
 
 # codex 実行コマンドのテンプレート（env で上書き可）。{prompt_file} を読ませて非対話実行する想定。
 # インストール版に合わせて調整する1箇所（既定は `codex exec` にプロンプトを渡す形）。
@@ -123,7 +126,7 @@ def fanout(race_id, only, max_parallel, dry_run):
     race_dir = os.path.join(ROOT, "data", "races", race_id)
     if not os.path.isdir(race_dir):
         raise SystemExit(f"レースディレクトリが無い: {race_dir}")
-    obs_ids = [x.strip().upper() for x in only.split(",")] if only else list(AGENT_OF)
+    obs_ids = [x.strip().upper() for x in only.split(",")] if only else list(DEFAULT_OBS)
     for x in obs_ids:
         if x not in AGENT_OF:
             raise SystemExit(f"未知の観点: {x}（有効: {', '.join(AGENT_OF)}）")
@@ -140,8 +143,10 @@ def fanout(race_id, only, max_parallel, dry_run):
 
 def self_check():
     errs = []
-    if set(AGENT_OF) != set("ABCDEFGHIKL"):
-        errs.append("AGENT_OF の観点集合が11観点(A-I,K,L)と不一致")
+    if set(AGENT_OF) != set("ABCDEFGHIKLMN"):
+        errs.append("AGENT_OF の観点集合が13観点(A-I,K,L,M,N)と不一致")
+    if set(DEFAULT_OBS) != set("ABCDEFGHIKL"):
+        errs.append("DEFAULT_OBS（既定 fan-out）が通常11観点(A-I,K,L)と不一致")
     # 生成済み toml があれば prompt 組み立てを1観点で試す
     sample = os.path.join(AGENTS_DIR, "obs-e-pace.toml")
     if os.path.exists(sample):

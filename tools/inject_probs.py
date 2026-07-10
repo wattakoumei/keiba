@@ -94,6 +94,29 @@ def _compute_draw_adj(report, field_size):
     return adj
 
 
+def is_debut(report):
+    """新馬戦の判定: meta の debut:true 明示、またはレース名/条件に「新馬」「メイクデビュー」。
+    新馬はエンジンを debut プロファイル（A_class base=C/M/F・A_finish素=血統C）で回す（score_race v4.6）。"""
+    if report.get("debut") is True:
+        return True
+    blob = (report.get("race_name") or "") + (report.get("conditions") or "")
+    return ("新馬" in blob) or ("メイクデビュー" in blob)
+
+
+# 地方競馬（NAR）の場 romaji（race-id の開催トークン）。帯広=ばんえいは対象外。
+NAR_VENUES = {"monbetsu", "morioka", "mizusawa", "urawa", "funabashi", "ooi", "kawasaki",
+              "kanazawa", "kasamatsu", "nagoya", "sonoda", "himeji", "kochi", "saga"}
+
+
+def is_nar(report, race_id=""):
+    """地方競馬の判定: report の nar:true 明示、または race-id の開催トークンが NAR 場。
+    NAR はエンジンを nar プロファイル（A_class base に観点N=クラス格・転入換算を組込）で回す（score_race v4.7）。"""
+    if report.get("nar") is True:
+        return True
+    parts = (race_id or report.get("race_id") or "").split("-")
+    return len(parts) >= 2 and parts[1].lower() in NAR_VENUES
+
+
 def build_input(report, scores, conf, seed=None):
     """report.json + 集約済み scores から score_race の入力 JSON を組む。
     seed（fetch_racecard 出力）があれば各馬の ten_speed/agari_best/recent/style を score_race に渡す＝
@@ -125,7 +148,15 @@ def build_input(report, scores, conf, seed=None):
                  "pace_level": p.get("pace_level", 0.5), "contesters": p.get("contesters", []),
                  "leg_advantage": p.get("leg_advantage") or {}}   # v4.1: 展開項(脚質別有利不利)を率に効かせる
                 for p in (pace.get("patterns") or [])]
-    return {"race_id": report.get("race_id", ""), "horses": horses, "patterns": patterns}
+    data = {"race_id": report.get("race_id", ""), "horses": horses, "patterns": patterns}
+    has_N = any("N" in (s or {}) for s in scores.values())
+    if is_debut(report):
+        data["profile"] = "debut"   # NAR の認定新馬戦も debut 優先（過去走ゼロの構造欠損が先）
+    elif report.get("nar") is True or (is_nar(report) and has_N):
+        # venue 自動判定だけでは適用しない（旧ハーネスで分析した NAR レース＝research-N 無しの再注入で
+        # 率がドリフトするのを防ぐ）。明示 nar:true は N 欠落でも適用（欠落警告が別途出る）。
+        data["profile"] = "nar"
+    return data
 
 
 def main():
@@ -177,7 +208,11 @@ def main():
         else:
             missing.append(no)
 
-    print(f"# {args.race_id}  率注入（源=score_race v{result['model_version']}・並びは論理が主）")
+    debut = data.get("profile") == "debut"
+    nar = data.get("profile") == "nar"
+    print(f"# {args.race_id}  率注入（源=score_race v{result['model_version']}・並びは論理が主"
+          f"{'・新馬プロファイル=base C/M/F' if debut else ''}"
+          f"{'・NARプロファイル=base N/B/A/C' if nar else ''}）")
     for r in sorted(rank, key=lambda r: r.get("rank_order", 999)):
         no = r.get("no")
         w, pl = r.get("win_prob"), r.get("place_prob")
@@ -191,7 +226,9 @@ def main():
           f"（並びは論理が主＝率順に並べ替えない。engine_check の素）")
 
     # 欠落観点の検出 → header_notes に警告付記（D4: 速報モード等で観点が落ちると率の精度が劣化）
-    FULL_OBS = set("ABCDFGHIKL")
+    # 新馬は観点セット自体が別（A/B/D/G/L は過去走依存＝構造的に無い）＝期待セットを差し替えて誤警告しない。
+    # NAR は既定セット A,B,C,D,E,G,I,K,N（F/H/L は情報が薄く任意追加）＝スコア観点は ABCDGIKN を期待。
+    FULL_OBS = set("CFHIKM") if debut else (set("ABCDGIKN") if nar else set("ABCDFGHIKL"))
     used = set(report.get("used_observations", []))
     used_upper = {x.upper() for x in used}
     missing_obs = sorted(FULL_OBS - used_upper)
@@ -199,6 +236,20 @@ def main():
         warn = f"観点欠落({','.join(missing_obs)}): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
         notes = report.get("header_notes") or []
         if not any("観点欠落" in n for n in notes):
+            notes.append(warn)
+            report["header_notes"] = notes
+            print(f"⚠ {warn}")
+    if debut:
+        warn = "新馬プロファイル(v4.6): 率は C/M/F 組替の理論値で新馬コーパス較正ゼロ＝参考精度は通常より更に低い。"
+        notes = report.get("header_notes") or []
+        if not any("新馬プロファイル" in n for n in notes):
+            notes.append(warn)
+            report["header_notes"] = notes
+            print(f"⚠ {warn}")
+    if nar:
+        warn = "NARプロファイル(v4.7): 率は N(クラス格)組込の理論値でNARコーパス較正ゼロ＝参考精度は通常より更に低い。"
+        notes = report.get("header_notes") or []
+        if not any("NARプロファイル" in n for n in notes):
             notes.append(warn)
             report["header_notes"] = notes
             print(f"⚠ {warn}")

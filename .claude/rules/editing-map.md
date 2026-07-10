@@ -11,7 +11,10 @@
 | `.claude/rules/harness-invariants.md` | **不変則の正本**（市場ゼロ・%禁止・表中心・2成果物・展開列…）。 |
 | `.claude/rules/editing-map.md` | この編集マップ。 |
 | `.claude/skills/analyze-race/SKILL.md` | `/analyze-race` の**手順**（STEP1-6・Workflow 骨子＝観点 subagent の並列起動＋展開合成・観点モード決定・`AGENT_OF` マップ）。 |
-| `.claude/agents/obs-*.md` | **観点ごとの専属 subagent（11個・A〜I,K,L）**：各観点の persona・調査手順・クエリ・推奨ソース・スコア指針。**観点を1つ調整するならここ**。Workflow から `agentType` で並列起動。 |
+| `.claude/skills/analyze-race-nar/SKILL.md` | **`/analyze-race-nar`（地方競馬）の NAR 差分**（手順の正本は analyze-race＝複製しない）: データ経路（fetch_racecard 不可・keiba.go.jp/nankankeiba・手動 seed）・観点セット（N 必須の 9/6観点）・NAR spawn 注入・`"nar":true` フラグ・場トークン一覧（inject_probs `NAR_VENUES` とミラー）。 |
+| `.claude/skills/analyze-race-nar/references/nar-class-ladder.md` | **NAR クラス階梯カタログ（観点Nの正本）**: 場ごとの階梯・共通ランクR表・転入/移籍の換算原則。半静的＝レビューで換算外れ≥3再発なら較正追記（lazy）。 |
+| `.claude/skills/analyze-race-nar/references/nar-course-geometry.md` | **NAR コース形状カタログ**（D/E/展開合成の正本・JRA の course-geometry.md の NAR 版）。△暫定値は初回分析時に該当場だけ web 確認して確定に昇格（lazy）。 |
+| `.claude/agents/obs-*.md` | **観点ごとの専属 subagent（13個・A〜I,K,L＋新馬専用M＋NAR専用N）**：各観点の persona・調査手順・クエリ・推奨ソース・スコア指針。C/E/F/H/I/K は**「新馬戦モード」節**を内蔵（新馬フラグで発動）。**観点を1つ調整するならここ**。Workflow から `agentType` で並列起動。 |
 | `.claude/skills/analyze-race/references/observation-points.md` | **観点カタログの概念定義**（因子/相別マッピング 観点→A_early/cruise/finish/class・グルーピング 5/7/11）。手順は持たない（agent 側）。 |
 | `.claude/skills/analyze-race/references/research-protocol.md` | **全観点共通**の規律・推奨ソース・**出力スキーマ**（RESULT_SCHEMA／E は PACE_EVIDENCE_SCHEMA）。観点固有の手順は持たない（agent 側）。 |
 | `.claude/skills/analyze-race/references/pace-synthesis.md` | **展開合成 STEP4a**：複数パターン・phase_flow・`per_horse_fit`・当日可変・PACE_MODEL_SCHEMA。 |
@@ -20,6 +23,7 @@
 | `.claude/skills/analyze-race/references/course-geometry.md` | **コース物理形状の静的カタログ**（直線長・坂・初角特記。D/E/展開合成の正本）。コース改修・数値訂正はここだけ直す。 |
 | `.claude/skills/analyze-race/references/pedigree-catalog.md` | **血統カタログ**（種牡馬の父/母父傾向・決め手の質・巻頭原則。観点Cの正本）。半静的＝年1回＋新種牡馬デビュー時に追記、`as-of` 更新。 |
 | `.claude/skills/analyze-race/references/stable-intent-rubric.md` | **厩舎の勝負気配傾向**（3次元の型ラベル＝仕上げ型/追い切り常態/騎手起用）の定義＋lazy catalog。F/K に spawn 注入し `intent` の"普段の基準"に使う。半静的・有料DB不要・総合力とは独立。出会った厩舎を追記候補→human承認で追記。 |
+| `.claude/skills/analyze-race/references/debut-catalog.md` | **新馬カタログ（新馬モードの正本）**：①厩舎の新馬仕込み型（初戦仕上げ型/緩め出し型・lazy）②種牡馬の初戦適性（新馬型/未勝利型・lazy）③セリ/募集価格の読み方原則 ④新馬の一般読み筋。M/C に spawn 注入・カタログ外は追記候補→human承認。 |
 | `.claude/skills/analyze-race/references/scraping.md` | `tools/fetch_racecard.py`（出走表/当日カード）・`tools/fetch_oikiri.py`（追い切り好時計seed=観点F）の使い方・場コード・JRA/競馬ラボ/競馬ブック経路。 |
 | `.claude/skills/review-prediction/SKILL.md` | `/review-prediction`：**2スコアカード採点**・A/B/C 仕分け・修正先ルーティング・results.jsonl 形式。 |
 | `tools/score_race.py` | **単勝率/複勝率(win_prob/place_prob)の決定論生成器**＝毎回回して `rank[]` に注入(I8)＋並びの整合サニティ。率は数値Fのみ・**並びは論理が主**（食い違いは engine_check）。 |
@@ -34,7 +38,7 @@
 | `.claude/skills/screen-card/references/screening-model.md` | **選別モデルと出力契約の正本**（X×Yマトリクス・Y算出=条件荒れ度+団子度・軽量X・妙味判定・出力体裁・`data/screening/`スキーマ・二段運用）。 |
 | `.claude/skills/screen-card/references/upset-conditions.md` | **荒れ条件カタログ**（Y軸の**条件側**正本：ハンデ/福島/多頭数/芝道悪…の事前荒れフラグ＋堅い条件）。半静的＝年1更新。**🚧 選別専用＝予想本体(`/analyze-race`)には使わない**。 |
 | `tools/fetch_odds.py` | **P1 隔離オッズ→団子度**（Y軸の当日側）。単勝→①1-2人気差②1人気オッズ③30倍以下頭数④平均→団子度ティア（純ロジック＝`--self-check`）。JRA=発売中のみ／`paste`が確実経路。**団子度の数値閾値の正本**。出力は `data/screening/` のみ。 |
-| `tools/screen_conditions.py` | **条件荒れ度の機械算定**（STEP2の決定論実装・Y条件側）。場/頭数/距離/芝ダ/クラス/重賞名→`cond_rage`(強/中/弱)＋フラグ。`assess`=全R表示／`fill`=screening ファイルを**全R化**（未評価平場を『見送り・条件のみ』で補完）。源は upset-conditions・web不要。 |
+| `tools/screen_conditions.py` | **条件荒れ度の機械算定**（STEP2の決定論実装・Y条件側）。場/頭数/距離/芝ダ/クラス/重賞名→`cond_rage`(強/中/弱)＋フラグ。`assess`=全R表示／`fill`=screening ファイルを**全R化**（未評価平場を『見送り・条件のみ』で補完）。源は upset-conditions・web不要。**NAR は場トークン＋`--card` 手動カードJSONで自動分岐**（カタログは upset-conditions §5）。 |
 | `tools/calibrate_T.py` | **softmax温度Tの較正**（`/calibrate-T`）。report.json＋results.jsonl突合→T走査→Brier最小のTを提案。5件以上で判定。`--apply`でscore_race.pyに書き込み（scoring-model.mdミラーは手動）。 |
 | `tools/backtest.py` | **エンジン経路の一括再採点（バックテスト）**。research/report/seed＋results.jsonl を突合し、現行PARAMS（および `--set KEY=VALUE` 上書きとのA/B）で score_race を再生→Brier/対数損失/Spearman/的中率を集計。`--segment` で脚質/馬場/頭数/距離別の較正ギャップ（系統誤差の特定→ノブ昇格の判断材料）。論理の並び(rank_order・◎)は「記録時の参照値」として並記（再生不能＝前向きでしか測れない）。読み取り専用＝report.json/results.jsonl を書き換えない。 |
 | `tools/record_change.py` | **変更台帳**（`data/changes.jsonl`・追記のみ）。ノブ/読み筋/ツール変更を採用時バックテスト集計と一緒に記録し、`compare` で導入後レースの効果測定（knob=同一レース集合での旧値反実仮想A/B・rule等=粗比較）。最低N=10ゲート。「1変更=1記録・複数ノブ同時変更をしない」が運用規律。 |
@@ -50,7 +54,7 @@
 | **── Codex 移植（別エージェントで同ハーネスを回す・単一ソース）──** | |
 | `AGENTS.md` | **Codex のエントリ（薄いポインタ）**。CLAUDE.md＋`.claude/rules/` を正本として指すだけ＝複製しない。Claude↔Codex の対応表（symlink/生成物/共有ツール）とドリフト防止を持つ。 |
 | `.agents/skills/` | Codex 用スキル。`SKILL.md` と `references/` は **`.claude/` への symlink＝同一バイト**（単一ソース）。Codex 側で編集＝正本を編集。別物にしない。 |
-| `.codex/agents/*.toml` | Codex 用の観点定義（11体）。**生成物**＝手で編集しない。正本 `.claude/agents/obs-*.md` を直し `tools/gen_codex_agents.py` で再生成。 |
+| `.codex/agents/*.toml` | Codex 用の観点定義（13体）。**生成物**＝手で編集しない。正本 `.claude/agents/obs-*.md` を直し `tools/gen_codex_agents.py` で再生成。 |
 | `tools/gen_codex_agents.py` | **`.claude/agents/obs-*.md` → `.codex/agents/*.toml` ジェネレータ**（md↔toml は形式だけの差＝内容は正本一本）。`--check` でコミット前ゲート・`--self-check`。 |
 | `tools/codex_fanout.py` | **Codex の観点並列 fan-out driver**（Workflow 相当）。観点ごと `codex exec` を並列起動し research-`<X>`.json を書かせる。`--dry-run`/`--only`/`--self-check`。`codex` 実行コマンドは `CODEX_EXEC_TEMPLATE` env で版に合わせて上書き。 |
 
@@ -60,9 +64,14 @@
 |---|---|
 | レポートの**列・見た目・分量**（行を増減、列追加、書式） | `output-template.md`（必要なら CLAUDE.md データ配置の1行も） |
 | **単勝率/複勝率の2カラム**（率の算出・描画・注入） | `tools/score_race.py`（win_prob/place_prob の生成＝源）＋ `output-template.md`（rank スキーマ・web描画）＋ `analyze-race/SKILL.md`（race.json組立・注入）＋ I2/I8（`harness-invariants.md`）。**並びは論理が主・率は参考列** |
+| **画面（keiba-web）の見た目・箱組みガイド** | `keiba-web/src/components/RaceView.jsx`（レースページ描画・report.json のみを読む）＋ `keiba-web/src/styles/global.css`。**箱組みガイドのペア抽出条件（◎×複勝率床/cap）の正本は `tools/box_sim.py build_wide_pairfit_p15`**＝JSX は同値ミラー・変えたら両方直す。新レースは report.json を置けば自動で載る（テンプレート化済み・レース個別のweb作業なし） |
 | **不変則**（% / 市場 / mermaid / サマリ等の方針） | `harness-invariants.md` → 各文書のエコーを追従（下記手順） |
 | **観点の調査手順・クエリ・ソース・スコア指針**を1つ調整 | `.claude/agents/obs-<id>.md`（その観点の subagent だけ） |
 | **観点の追加/削除・相別マッピング・グルーピング**（着順の読み筋＝レビューA系の修正先） | `observation-points.md`（追加時は新 `.claude/agents/obs-*.md` ＋ SKILL の `AGENT_OF` も） |
+| **新馬モード**（観点セット・新馬の読み筋・エンジン重み） | 観点セット＝`analyze-race/SKILL.md` STEP2＋`observation-points.md`／読み筋＝各 agent の「新馬戦モード」節＋`debut-catalog.md`（カタログ）／展開＝`pace-synthesis.md` 新馬節／率＝`tools/score_race.py` `DEBUT_BASE_W`/`DEBUT_COND_W`（構造定数）＋`scoring-model.md` v4.6 ミラー。新馬判定は `tools/inject_probs.py is_debut` |
+| **地方競馬（NAR）**（手順差分・観点セット・場トークン） | `analyze-race-nar/SKILL.md`（NAR 差分の正本）＋`observation-points.md` NARモード。NAR判定は `tools/inject_probs.py is_nar`（`NAR_VENUES` は SKILL の場トークン一覧とミラー） |
+| **クラス格・転入換算のランク付け**（観点N・階梯/換算の較正） | `nar-class-ladder.md`（階梯・R表・換算原則の正本）＋`.claude/agents/obs-n-class.md`（調査手順）。率への効かせ方＝`tools/score_race.py` `NAR_BASE_W`（構造定数）＋`scoring-model.md` v4.7 ミラー |
+| **NAR のコース形状**（△暫定値の確定・場別詳細の追記） | `nar-course-geometry.md`（lazy 確定＝初回分析時に該当場だけ） |
 | **展開パターンの作り方**・phase_flow・展開列の源（展開の読み筋＝レビューB系の修正先） | `pace-synthesis.md` |
 | **斤量・馬格(馬体重)×馬場/芝ダの効かせ方**（閾値・共倒れ判定・チャンネル配分） | `tools/weight_adjust.py`（閾値の正本）＋ 消費先 `pace-synthesis.md`「先行勢の質」／`observation-points.md` 相別マッピング／agents obs-i,d,g。配線は `analyze-race/SKILL.md` STEP1/3/6 |
 | **観点Iの決定論リスクの閾値・追加フラグ**（高齢/下降基調/昇級/休み明け） | `tools/risk_flags.py`（閾値の正本）＋ 消費先 `agents/obs-i-risk.md`（非決定論層との統合）。配線は `analyze-race/SKILL.md` STEP1/3。前走騎手・距離を seed に足す系は `tools/fetch_racecard.py`(`recent[]`) |
@@ -79,7 +88,8 @@
 | 予測ログの**フィールド**（pace/rank レコード） | `output-template.md` 末尾（＋読む側の review-prediction/SKILL.md） |
 | **勝負レース選別の手順**（カード横断・どのレースを絞るか） | `screen-card/SKILL.md` |
 | **選別モデル**（X×Yマトリクス・妙味判定・出力体裁） | `screen-card/references/screening-model.md` |
-| **荒れ条件**（どんな番組が荒れるか＝Y条件側） | `screen-card/references/upset-conditions.md` |
+| **荒れ条件**（どんな番組が荒れるか＝Y条件側） | `screen-card/references/upset-conditions.md`（NAR は同ファイル §5＝暫定・較正はそこに追記） |
+| **地方競馬（NAR）の選別**（カード経路・NAR荒れ条件・場トークン） | `screen-card/SKILL.md` NAR差分節＋`upset-conditions.md` §5＋`tools/screen_conditions.py`（NAR分岐） |
 | **団子度の閾値**（オッズの割れ判定＝Y盤側） | `tools/fetch_odds.py`（FAV_SPLIT 等・ワンソース） |
 | **市場の隔離方針**（選別/配当/EVが市場をどこまで使うか） | `harness-invariants.md` I1-S／I1-R／I1-E（正本） |
 | **配当（払戻）の収集・スキーマ** | `tools/fetch_result.py`（payout/paste-payout・相互検証則）＋ `backfill-results/SKILL.md`（収集手順）＋ `tools/missing_results.py`（payout_missing 検知） |
