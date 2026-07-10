@@ -1,0 +1,483 @@
+{
+ "observation": "B",
+ "label": "近走内容・クラス通用度",
+ "race_id": "20260708-kawasaki-11",
+ "race": "第30回スパーキングレディーカップ(JpnIII)・川崎ダ1600m・牝3歳上",
+ "updated": "2026-07-08",
+ "horses": [
+  {
+   "no": 1,
+   "name": "レクランスリール",
+   "legstyle_note": "通過順が5-6-6/1-3-6/9-9-8/8-8-8/5-5-5と一定せず、先行・差しいずれも決め手不足。中団〜後方からの追走が多い",
+   "recent_form": [
+    {
+     "date": "2026-06-25",
+     "race": "花撫子特別(A2-1)",
+     "grade": "笠松特別",
+     "pos": 6,
+     "margin_sec": 1.8,
+     "passing": "5-6-6",
+     "dist": "ダ1400"
+    },
+    {
+     "date": "2026-06-10",
+     "race": "風待月特別(A4B2)",
+     "grade": "笠松特別",
+     "pos": 9,
+     "margin_sec": 2.0,
+     "passing": "1-3-6",
+     "dist": "ダ1400",
+     "note": "先行も失速"
+    },
+    {
+     "date": "2026-05-29",
+     "race": "キキョウ特別(A4)",
+     "grade": "笠松特別",
+     "pos": 6,
+     "margin_sec": 1.1,
+     "passing": "9-9-8",
+     "dist": "ダ1400"
+    },
+    {
+     "date": "2026-05-13",
+     "race": "エンプレス杯",
+     "grade": "JpnII",
+     "pos": 8,
+     "margin_sec": 5.7,
+     "passing": "8-8-8",
+     "dist": "ダ2100",
+     "note": "重賞で終始後方、大敗"
+    },
+    {
+     "date": "2026-05-01",
+     "race": "大杉特別(A4)",
+     "grade": "笠松特別",
+     "pos": 7,
+     "margin_sec": 0.9,
+     "passing": "5-5-5",
+     "dist": "ダ1400"
+    }
+   ],
+   "class_read": "主戦場は笠松A4特別クラス。唯一の重賞挑戦(エンプレス杯JpnII)は8着5.7秒差の大敗＝現級JpnIIIでも通用度に強い疑問。今回は大幅な格上挑戦。",
+   "pros": [
+    "[B] 大杉特別は0.9秒差の僅差負け＝地方特別クラスでは崩れ切っていない"
+   ],
+   "cons": [
+    "[B] エンプレス杯(JpnII)で5.7秒大敗＝重賞級での底の浅さが露呈",
+    "[B] 主戦場が笠松A4特別＝今回JpnIIIは大幅格上げで通用度に疑問"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "https://www.oddspark.com/keiba/HorseDetail.do?lineageNb=2020101129"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ツーシャドー",
+   "legstyle_note": "通過順4-5-6/2-2-1/4-5-4/1-3-3/1-1-1＝先行・好位差しタイプ。前走(しらさぎ賞)は2-2-1で押し切り勝ち",
+   "recent_form": [
+    {
+     "date": "2026-05-27",
+     "race": "プラチナカップ",
+     "grade": "浦和S3(4上牝馬OP)",
+     "pos": 7,
+     "margin_sec": 1.3,
+     "passing": "4-5-6",
+     "dist": "ダ1400"
+    },
+    {
+     "date": "2026-04-22",
+     "race": "しらさぎ賞",
+     "grade": "浦和S3(4上牝馬OP)",
+     "pos": 1,
+     "margin_sec": -0.1,
+     "passing": "2-2-1",
+     "dist": "ダ1400",
+     "note": "好位から押し切り勝ち。2着アンジュフィールドを0.1秒差凌ぐ"
+    },
+    {
+     "date": "2026-02-26",
+     "race": "梅花賞",
+     "grade": "浦和4上OP",
+     "pos": 6,
+     "margin_sec": 0.9,
+     "passing": "4-5-4",
+     "dist": "ダ1400"
+    },
+    {
+     "date": "2025-12-30",
+     "race": "東京シンデレラマイル",
+     "grade": "大井S3重賞",
+     "pos": 10,
+     "margin_sec": 1.6,
+     "passing": "1-3-3",
+     "dist": "ダ1600",
+     "note": "先行するも重賞相手に押し切られる"
+    },
+    {
+     "date": "2025-11-13",
+     "race": "ローズベール賞",
+     "grade": "大井準重賞",
+     "pos": 3,
+     "margin_sec": 0.8,
+     "passing": "1-1-1",
+     "dist": "ダ1600"
+    }
+   ],
+   "class_read": "浦和S3(地方上級条件・準重賞)レベルでは勝ち負け。大井の交流重賞(東京シンデレラマイル)は10着であり、JpnIII規模への格上げは初の本格挑戦。",
+   "pros": [
+    "[B] 前走しらさぎ賞を2-2-1の好位から押し切り勝ち＝現在の状態は良好",
+    "[B] 1600m実績あり(ローズベール賞3着)＝距離は合う"
+   ],
+   "cons": [
+    "[B] 唯一の交流重賞挑戦(東京シンデレラマイル)は10着＝JpnIII級での通用度は未証明"
+   ],
+   "score": 0,
+   "confidence": "中",
+   "sources": [
+    "https://www.oddspark.com/keiba/HorseDetail.do?lineageNb=2019102745",
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "タマモフリージア",
+   "legstyle_note": "seed通過順5-4-4-5＝先行押し(脚質タグ「先」)。今回距離短縮でこの型が生きやすい",
+   "recent_form": [
+    {
+     "date": "2026-06-17",
+     "race": "関東オークス",
+     "grade": "JpnII",
+     "pos": 4,
+     "margin_sec": null,
+     "passing": "5-4-4-5",
+     "agari": 40.4,
+     "dist": "ダ2100(川崎)",
+     "note": "seed情報。好位からも距離(2100m)で甘くなり伸び切れず。馬体+12kg"
+    }
+   ],
+   "career_highlights": [
+    "JBC2歳優駿(JpnIII)勝ち",
+    "全日本2歳優駿(川崎ダ1600m=本レースと同舞台)2着"
+   ],
+   "class_read": "3歳世代トップクラス。同一コース・同距離(川崎ダ1600m)の全日本2歳優駿で2着実績＝コース適性は極めて高い。前走4着は距離延長(2100m)による消耗が敗因＝距離短縮の今回はプラス材料。",
+   "pros": [
+    "[B] 全日本2歳優駿(川崎ダ1600m)2着＝本レースと同一コース・同距離での実績あり",
+    "[B] JBC2歳優駿(JpnIII)勝ちの実績＝世代重賞での地力は証明済み",
+    "[B] 前走4着は2100mへの距離延長で脚を使いすぎたことが敗因＝今回1600mへの短縮はプラス"
+   ],
+   "cons": [
+    "[B] 前走で馬体+12kgとの情報あり＝仕上げ途上の可能性(要当日確認)"
+   ],
+   "note_conflict": "前走関東オークスの着順についてseedは4着(信頼採用)。一部web要約は2着と記載しており出典間で不一致＝seed値を優先し確信度をやや下げた。",
+   "score": 2,
+   "confidence": "中",
+   "sources": [
+    "seed(fetch_racecard)",
+    "https://umasiru.com/archives/20571",
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "アピーリングルック",
+   "legstyle_note": "通過順の詳細データ取得できず(不明)。直線抜け出しの勝ち方＝好位差し傾向とみられる(推定)",
+   "recent_form": [
+    {
+     "date": "2026年直近",
+     "race": "エンプレス杯",
+     "grade": "JpnII",
+     "pos": 5,
+     "note": "牡馬混合の強豪相手に5着＝崩れず健闘"
+    },
+    {
+     "date": "2025年",
+     "race": "名古屋大賞典",
+     "grade": "JpnIII",
+     "pos": 1,
+     "note": "不良馬場の名古屋ダ2000m、牡馬混合戦を直線抜け出しで勝利(56kg加増の根拠)"
+    }
+   ],
+   "career_highlights": [
+    "マイル条件戦成績1-1-1-0(崩れなし)"
+   ],
+   "class_read": "牡馬混合のJpnIII(名古屋大賞典)勝ち抜けの実績馬＝現級通用度は高い。直近のJpnII(エンプレス杯)でも5着と崩れず、地力は本レースでも上位級。",
+   "pros": [
+    "[B] 牡馬混合JpnIII(名古屋大賞典)勝ち＝現級JpnIIIでの通用度は証明済み",
+    "[B] マイル条件戦は1-1-1-0で崩れなし＝今回の距離(1600m)は得意"
+   ],
+   "cons": [
+    "[B] 直近戦の通過順・展開詳細が未取得＝内容の裏取りがやや薄い"
+   ],
+   "score": 2,
+   "confidence": "中",
+   "sources": [
+    "https://umasiru.com/archives/20571",
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "プラウドフレール",
+   "legstyle_note": "マリーンカップ勝利時は1-1-1で逃げ切り＝ハナ・先行主体。直近4戦は通過順データの信頼性が低く記録は保留",
+   "recent_form": [
+    {
+     "date": "2026-05-27",
+     "race": "(重賞級)",
+     "grade": "不明(要精査)",
+     "pos": 9,
+     "note": "出典の表記に信頼性不安あり(garbled)。直近は掲示板外が続く"
+    },
+    {
+     "date": "2026-02-11",
+     "race": "(重賞級)",
+     "grade": "不明(要精査)",
+     "pos": 10,
+     "margin_sec": 3.9
+    },
+    {
+     "date": "2025-12-30",
+     "race": "(重賞級)",
+     "grade": "不明(要精査)",
+     "pos": 6,
+     "margin_sec": 1.0
+    },
+    {
+     "date": "2025-11-03",
+     "race": "(重賞級)",
+     "grade": "不明(要精査)",
+     "pos": 14,
+     "margin_sec": 5.1
+    },
+    {
+     "date": "2025-10-02",
+     "race": "マリーンカップ",
+     "grade": "JpnIII",
+     "pos": 1,
+     "margin_sec": -0.6,
+     "passing": "1-1-1",
+     "dist": "ダ1800(船橋)",
+     "note": "会心の逃げ切りでダートグレード競走初制覇・重賞4勝目"
+    }
+   ],
+   "class_read": "JpnIII(マリーンカップ)勝ちの実績はあるが、そこから直近4戦は「掲示板外が続く」(複数ソースで確認)＝明確な不利説明のない実質的な下降基調。56kg(重賞勝ち加増)を背負う点も割引材料。",
+   "pros": [
+    "[B] JpnIII(マリーンカップ)を逃げ切りで完勝した実績＝ハナを奪えれば崩れない資質"
+   ],
+   "cons": [
+    "[B] マリーンカップ勝利以降の直近4戦は掲示板外が続き明確な不利説明なし＝底を見せた可能性",
+    "[B] 個別レース名の出典表記に不整合があり直近内容の裏取りが弱い(確信度を下げた)"
+   ],
+   "score": -1,
+   "confidence": "低",
+   "sources": [
+    "https://www.nankankeiba.com/uma_info/2022102979.do",
+    "https://umasiru.com/archives/20571",
+    "https://news.netkeiba.com/?pid=news_view&no=309216"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "マーブルマカロン",
+   "legstyle_note": "通過順9-9-10/7-7-7/7-7-5/11-9-9/8-8-9＝一貫して中団〜後方からの差し・追込タイプ",
+   "recent_form": [
+    {
+     "date": "2026-04-22",
+     "race": "しらさぎ賞",
+     "grade": "浦和S3級",
+     "pos": 10,
+     "margin_sec": 1.1,
+     "passing": "9-9-10",
+     "dist": "ダ1400",
+     "note": "距離が短く(1400m)、持ち味の差し脚を生かせず"
+    },
+    {
+     "date": "2026-03-19",
+     "race": "地方特別",
+     "pos": 5,
+     "margin_sec": 0.8,
+     "passing": "7-7-7",
+     "dist": "ダ1400"
+    },
+    {
+     "date": "2026-02-20",
+     "race": "地方重賞級",
+     "pos": 1,
+     "margin_sec": -0.4,
+     "passing": "7-7-5",
+     "dist": "ダ1600"
+    },
+    {
+     "date": "2025-12-30",
+     "race": "地方重賞級",
+     "pos": 5,
+     "margin_sec": 0.9,
+     "passing": "11-9-9",
+     "dist": "ダ1600"
+    },
+    {
+     "date": "2025-11-13",
+     "race": "地方特別",
+     "pos": 6,
+     "margin_sec": 1.4,
+     "passing": "8-8-9",
+     "dist": "ダ1600"
+    }
+   ],
+   "career_highlights": [
+    "前年のスパーキングレディーカップ4着(本レース経験あり)",
+    "さきたま杯で強豪相手に6着"
+   ],
+   "class_read": "JpnIII級でも通用実績あり(前年本レース4着・さきたま杯6着)。直近のしらさぎ賞10着は1400mが短すぎたことが要因と分析され、1800m寄りが本来の適性＝今回1600mは短距離よりは合う。",
+   "pros": [
+    "[B] 前年のスパーキングレディーカップで4着＝本レースへの実績あり",
+    "[B] さきたま杯で強豪相手に6着＝格上相手でも大崩れしない",
+    "[B] 直近10着は1400mの距離不足が要因で地力の低下ではない＝1600mへの延長はプラス"
+   ],
+   "cons": [
+    "[B] 一貫して後方からの追込＝ハイペースでない限り届きにくい脚質リスク"
+   ],
+   "score": 1,
+   "confidence": "高",
+   "sources": [
+    "https://keiba-headline.com/sparking-lady-cup-forecast-2026-401327",
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/",
+    "https://www.nankankeiba.com/uma_info/2020100818.do"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "ホーリーグレイル",
+   "legstyle_note": "前走は外から動く形＝好位差しタイプ。川崎地元所属で当該コース経験豊富",
+   "recent_form": [
+    {
+     "date": "直近",
+     "race": "しらさぎ賞",
+     "grade": "浦和S3級",
+     "pos": 4,
+     "margin_sec": 0.4,
+     "note": "外から動く形となり0.4秒差。大きく崩れたわけではない"
+    }
+   ],
+   "career_highlights": [
+    "2025年ニューイヤーカップ勝ち",
+    "2025年楠賞勝ち"
+   ],
+   "class_read": "地元川崎所属で当地実績・経験が豊富。直近のしらさぎ賞4着も0.4秒差の僅差＝内容は着順ほど悪くない。JpnIII級への一変も期待される内容。",
+   "pros": [
+    "[B] 直近4着は0.4秒差の僅差＝崩れた内容ではない",
+    "[B] 地元川崎で2025年に重賞級(ニューイヤーカップ・楠賞)を連勝＝当地適性が高い"
+   ],
+   "cons": [
+    "[B] JpnIII級(南関東交流の頂点格)での実績はまだ無く、今回が試金石"
+   ],
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/",
+    "https://tospo-keiba.jp/forecast/73331"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "タガノミスト",
+   "legstyle_note": "「スタートからレースを作って行き」＝自ら先行・ハナを主張するタイプ。吾妻小富士Sでは2番手追走から2着＝先行・好位両方こなせる",
+   "recent_form": [
+    {
+     "date": "直近",
+     "race": "栗東ステークス",
+     "grade": "L(リステッド)",
+     "pos": 1,
+     "dist": "ダ1400(京都)",
+     "note": "牡馬混合・京都1400mの速い流れで自ら作って押し切り勝ち。評価を覆す実力上位を証明"
+    },
+    {
+     "date": "前走",
+     "race": "吾妻小富士ステークス",
+     "grade": "地方交流特別",
+     "pos": 2,
+     "dist": "ダ1700",
+     "note": "2番手追走から2着＝長め距離への適性も示す"
+    }
+   ],
+   "class_read": "L級(リステッド)で牡馬混合を撃破した内容は評価が高い。今回JpnIIIへは格上挑戦だが、1700m実績もあり距離延長(1600m)への不安は小さい。",
+   "pros": [
+    "[B] 栗東S(L)で牡馬混合・速い流れを自ら作って押し切り勝ち＝地力の高さを証明",
+    "[B] 吾妻小富士S(1700m)2着＝距離延長(1400→1600m)への適性懸念は小さい"
+   ],
+   "cons": [
+    "[B] 主戦場はL級・条件戦＝JpnIII級(交流重賞)は経験が浅い"
+   ],
+   "score": 2,
+   "confidence": "高",
+   "sources": [
+    "https://news.yahoo.co.jp/articles/18fce9cb70b8f0634ed6f134b73b7467cbe63ab2",
+    "https://umasiru.com/archives/20571",
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "アンジュフィールド",
+   "legstyle_note": "「直線では最後まで食い下がる」＝好位差し・追い比べに強いタイプ(推定)",
+   "recent_form": [
+    {
+     "date": "2026-04-22",
+     "race": "しらさぎ賞",
+     "grade": "浦和S3級",
+     "pos": 2,
+     "margin_sec": 0.1,
+     "note": "1着ツーシャドー(本レース同枠出走)にわずか0.1秒差＝互角の内容"
+    }
+   ],
+   "class_read": "直近2着のしらさぎ賞は同じ本レース出走馬ツーシャドーにハナ差級の0.1秒差＝現在の状態と地力は互角以上。JRA準オープンからの転入歴があり地力の裏付けもある。",
+   "pros": [
+    "[B] 前走2着は0.1秒差＝1着馬(本レース出走のツーシャドー)とほぼ互角の内容",
+    "[B] JRA準オープンからの転入実績＝地力の裏付けがある"
+   ],
+   "cons": [
+    "[B] JpnIII級(交流重賞)での実績はまだ無い"
+   ],
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "https://m-jockey.co.jp/keiba-navi/localrace/gradedrace/sparkingladycup/"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "カピリナ",
+   "legstyle_note": "芝競走が主体で通過順データ未取得(不明)。ダート実績は少数(通算1-3-0-1)で脚質詳細不明",
+   "recent_form": [
+    {
+     "date": "直近",
+     "race": "ヴィクトリアマイル",
+     "grade": "G1(芝)",
+     "pos": 17,
+     "note": "芝GIで大敗。ただし芝→ダートへの舞台替えで直接比較不可"
+    }
+   ],
+   "career_highlights": [
+    "2025年函館スプリントステークス(G3・芝)勝ち＝56kg加増の根拠",
+    "ダート通算1-3-0-1(着外は1回のみで4着)"
+   ],
+   "class_read": "本来は芝の短距離〜マイル実績馬(G3勝ち)で、ダートへの大きな舞台替え。ダート自体の成績は僅少ながら崩れておらず(1-3-0-1)悪くはないが、直近の芝GI大敗の状態面と初めてに近いダートJpnIII挑戦という二重の不確実性がある。",
+   "pros": [
+    "[B] 数少ないダート実績は1-3-0-1で着外なし(4着が最低)＝ダートへの適性自体は悪くない可能性"
+   ],
+   "cons": [
+    "[B] 直近のヴィクトリアマイル(芝G1)で17着大敗＝状態面に懸念(ただし芝→ダート替わりで直接の地力低下と断定はできない)",
+    "[B] ダートでのJpnIII級挑戦はほぼ初めて＝クラス通用度の実証データが薄い"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "https://topics.smt.docomo.ne.jp/article/netkeiba/sports/netkeiba-335925",
+    "https://umasiru.com/archives/20571"
+   ]
+  }
+ ],
+ "overall_confidence": "中",
+ "field_note": "NAR所属馬(1,2,5,6,7,9)はweb情報が薄く、一部ソース(nankankeiba WebFetch要約)にレース名の表記ゆれ・garbledな箇所があったため該当箇所は確信度を下げ複数ソースで裏取りした。JRA所属馬(3,4,8,10)は比較的情報が厚い。市場語(・)は一切採用していない。"
+}

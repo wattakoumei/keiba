@@ -1,0 +1,135 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "公式馬柱の持ち時計・直近同距離時計を重視。川崎1400の良馬場持時計と近3走の通過順を主材料にした。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "川崎1400で1:31.8、逃げ切り直後で時計水準は上位"
+      ],
+      "cons": [
+        "揉まれた時は1:32台後半まで落ちる"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "川崎1400良1:32.9で終いは拾える"
+      ],
+      "cons": [
+        "近走は後方続きで勝ち切る時計に届かない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "川崎1400で1:31.8、C1でも同時計を出している"
+      ],
+      "cons": [
+        "前走は少頭数で4着止まり"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "浦和不良1400の時計は速い"
+      ],
+      "cons": [
+        "川崎1600・船橋1600で大敗が続き互換性に疑問"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "川崎1400良1:31.6の勝ち時計がある"
+      ],
+      "cons": [
+        "前走C2一二で3着止まり"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "川崎1400で1:31.2、不良とはいえ当組で最上位の持時計"
+      ],
+      "cons": [
+        "前走はC1で5着まで"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "船橋・浦和1500で先行差しの形はある"
+      ],
+      "cons": [
+        "川崎1400の実績が薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "川崎1400良1:31.7、1500でも逃げ切り実績"
+      ],
+      "cons": [
+        "前走1600は後方から大敗"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "observation": "N",
+  "observation_name": "クラス格・転入換算",
+  "race_id": "20260709-kawasaki-12",
+  "field_size": 14,
+  "horses": [
+    {
+      "no": 1,
+      "name": "ディオスパーダ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[N] JRA2勝クラス在籍から南関C1へ入り、前走C1を勝利。格は上位"
+      ],
+      "cons": [
+        "[N] 南関C1勝ちは1回で、圧倒的な格差とまでは置かない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウインメラナイト",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[N] JRA未勝利から地方で長く使われた経験はある"
+      ],
+      "cons": [
+        "[N] 現C1で上位格を示せていない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "カガヤキファイター",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[N] C2を勝ってC1でも連続掲示板。現級通用"
+      ],
+      "cons": [
+        "[N] C1を勝ち切る格上感は薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ノッテストラータ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[N] B3を使われていた履歴があり、格だけなら足りる"
+      ],
+      "cons": [
+        "[N] 現状の実走が伴わず、格履歴だけでは押し切れない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ボルドーダゲール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[N] C1で続けて走っている"
+      ],
+      "cons": [
+        "[N] C1上位への格上げ材料は薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ビルドラポール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[N] C1で経験を積んでいる"
+      ],
+      "cons": [
+        "[N] 勝ち切り格より相手待ち"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テンダリー",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[N] C2勝ちからC1選定2000で即2着。現級上位に近い"
+      ],
+      "cons": [
+        "[N] C1勝ち切りはまだない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ハネダブライアン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[N] 2歳オープンで掲示板、認定戦勝ちの格はC1でも通用余地"
+      ],
+      "cons": [
+        "[N] 古馬混合の現級実証は初めて"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "コパノモンタナ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[N] C2の2000を勝ち上がり、同距離なら現級挑戦の下地はある"
+      ],
+      "cons": [
+        "[N] C1昇級初戦で一段相手が上がる"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "アンジュミストラル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[N] C1で先行経験はある"
+      ],
+      "cons": [
+        "[N] 現級2000で格負け気味"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクシュ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[N] C1選定2000で継続して上位争い。現級上位格"
+      ],
+      "cons": [
+        "[N] 勝ち切りまでは一歩足りない履歴"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "モトサン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[N] 過去にB3好走歴はある"
+      ],
+      "cons": [
+        "[N] 現状のC1では下降が先に立つ"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "セラード",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[N] B2B3の2000を使われており、C1なら格下げ材料"
+      ],
+      "cons": [
+        "[N] 近走内容が重く、格だけで上げ切れない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アマビリティ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[N] 3歳牝馬オープン2000で3着"
+      ],
+      "cons": [
+        "[N] 古馬C1との比較ではまだ下位換算"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    }
+  ],
+  "note": "南関C1を基準に、JRA転入・B級経験・C2昇級を換算。"
+}

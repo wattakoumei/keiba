@@ -1,0 +1,131 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "川崎1400の場距離実績・左回り実績・小回り適性を評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "川崎1400の場距離成績が安定し、内枠から小回りで主導権を取れる"
+      ],
+      "cons": [
+        "逃げられない時は割引"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "川崎所属でコース経験は豊富"
+      ],
+      "cons": [
+        "1400良馬場で速さ不足"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "川崎1400で勝ちがあり内枠好位が取れる"
+      ],
+      "cons": [
+        "C1では位置を取り切れず"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "浦和1400はこなす"
+      ],
+      "cons": [
+        "川崎で外々や後方になると急コーナーのロスが大きい"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "川崎1400で逃げ・番手の実績があり、小回り短直線に合う"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "川崎1400で3勝、差しでも好位でも運べる器用さ"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "左回り1500の経験はある"
+      ],
+      "cons": [
+        "川崎1400未実績で距離短縮が未知"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "川崎1400は連対圏、1500逃げ切りから距離短縮も対応可"
+      ],
+      "cons": [
+        "大外枠で序盤に外を回されるリスク"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

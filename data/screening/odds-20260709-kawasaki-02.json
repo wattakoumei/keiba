@@ -1,0 +1,84 @@
+{
+  "race_id": "20260709-kawasaki-02",
+  "source": "paste",
+  "odds": [
+    {
+      "no": 1,
+      "name": null,
+      "tansho": 47.5
+    },
+    {
+      "no": 2,
+      "name": null,
+      "tansho": 16.3
+    },
+    {
+      "no": 3,
+      "name": null,
+      "tansho": 16.6
+    },
+    {
+      "no": 4,
+      "name": null,
+      "tansho": 3.1
+    },
+    {
+      "no": 5,
+      "name": null,
+      "tansho": 48.6
+    },
+    {
+      "no": 6,
+      "name": null,
+      "tansho": 92.1
+    },
+    {
+      "no": 7,
+      "name": null,
+      "tansho": 58.9
+    },
+    {
+      "no": 8,
+      "name": null,
+      "tansho": 6.3
+    },
+    {
+      "no": 9,
+      "name": null,
+      "tansho": 7.4
+    },
+    {
+      "no": 10,
+      "name": null,
+      "tansho": 2.9
+    },
+    {
+      "no": 11,
+      "name": null,
+      "tansho": 100.0
+    },
+    {
+      "no": 12,
+      "name": null,
+      "tansho": 10.3
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.9,
+    "second_odds": 3.1,
+    "fav_second_gap": 0.2,
+    "fav_second_ratio": 1.069,
+    "n_under_30": 7,
+    "n_under_10": 4,
+    "mean_odds": 34.2,
+    "n_valid": 12
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 4,
+  "dango_signals": [
+    "[割れ] 1-2人気差0.2<0.3(拮抗)"
+  ],
+  "fav_no": 10,
+  "fav_name": null
+}

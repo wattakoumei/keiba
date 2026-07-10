@@ -1,0 +1,125 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "父系の地方ダート適性と1400向きの機動力を評価。カタログ外は一般的な産駒傾向として低めの確信度。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "ダイワメジャー×ロードカナロアで1400の先行持続に向く"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "リアルスティール×クロフネでダート中距離の持続力はある"
+      ],
+      "cons": [
+        "急加速より持続寄り"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "アニマルキングダム産駒でダート小回り対応は可"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "ダノンレジェンド産駒で地方短距離向き"
+      ],
+      "cons": [
+        "母父ハーツで切れより持続"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "ニシケンモノノフ×サウスヴィグラスで地方短距離先行型"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "バトルプラン産駒でダート持続型"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "ラニ産駒でタフな砂は合う"
+      ],
+      "cons": [
+        "1400の瞬発戦は忙しい可能性"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "インカンテーション産駒で地方ダートの持続力を評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "observation": "D",
+  "observation_name": "コース・馬場適性",
+  "race_id": "20260709-kawasaki-10",
+  "field_size": 11,
+  "horses": [
+    {"no": 1, "name": "トウマ", "score": 0, "confidence": "中", "pros": ["[D] 川崎1400の重め馬場で差して3着"], "cons": ["[D] 差し脚質で短直線では位置の不足が出やすい"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 2, "name": "リコーベレッタ", "score": 1, "confidence": "中", "pros": ["[D] 川崎1400の通算実績が厚く、内枠から好位を取りやすい"], "cons": ["[D] 先行しても決め手勝負では甘さが残る"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 3, "name": "ボニーマジェスティ", "score": -1, "confidence": "中", "pros": ["[D] 1400の距離自体は対応可能"], "cons": ["[D] 川崎近走で砂・急コーナーへの適合を示せていない"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 4, "name": "デーレーシトロン", "score": -1, "confidence": "中", "pros": ["[D] 3歳で斤量面の負担は軽い"], "cons": ["[D] 川崎1400の速い流れで上位に残る裏付けが薄い"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 5, "name": "エムティワイザー", "score": 1, "confidence": "中", "pros": ["[D] 同舞台で逃げて2着があり、川崎1400の前残り構造に合う"], "cons": ["[D] 外から10に被されると自分の形を作りづらい"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 6, "name": "ダンデライオン", "score": 2, "confidence": "高", "pros": ["[D] 川崎1400専用に近い成績。先行でも好位差しでも崩れない"], "cons": ["[D] 最内ではなく中枠なので、外の逃げ馬が速いと序盤に少し脚を使う"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 7, "name": "ラムテリオス", "score": 1, "confidence": "中", "pros": ["[D] 川崎1400と1500で差し込み実績があり、稍重もこなす"], "cons": ["[D] 短直線の差しで、前が止まる展開が必要"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 8, "name": "フィアマフルミネ", "score": 1, "confidence": "中", "pros": ["[D] 川崎1400で逃げ先行の型を持つ"], "cons": ["[D] 休み明けで急流になった時の追走持続は不明"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 9, "name": "サダージ", "score": -1, "confidence": "中", "pros": ["[D] 浦和1400の好走から距離短縮は悪くない"], "cons": ["[D] 川崎では1500中心で甘く、同場1400の裏付けが薄い"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 10, "name": "ナリノエンブレム", "score": 2, "confidence": "高", "pros": ["[D] 転入後のダ1400で全連対。川崎1400も逃げて勝ち負け済み"], "cons": ["[D] 8枠からハナを取り切るまでに脚を使う可能性"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 11, "name": "トンボ", "score": 1, "confidence": "中", "pros": ["[D] 川崎1400の通算実績は厚く、笹川翼で立て直し余地"], "cons": ["[D] 外枠から好位を取れないと短直線で届きにくい"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]}
+  ],
+  "note": "川崎1400は小回り短直線。先行・好位を厚く評価。"
+}

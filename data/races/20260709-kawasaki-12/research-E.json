@@ -1,0 +1,182 @@
+{
+  "observation": "E",
+  "observation_name": "展開証拠",
+  "race_id": "20260709-kawasaki-12",
+  "field_size": 14,
+  "legs": [
+    {
+      "no": 1,
+      "name": "ディオスパーダ",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウインメラナイト",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "カガヤキファイター",
+      "style": "逃げ〜先行",
+      "ten_speed": "速",
+      "expected_pos": "内2列目またはハナ争い",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ノッテストラータ",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ボルドーダゲール",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ビルドラポール",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団後ろ",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テンダリー",
+      "style": "差し〜好位",
+      "ten_speed": "中",
+      "expected_pos": "中団前",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ハネダブライアン",
+      "style": "差し〜好位",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "コパノモンタナ",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "アンジュミストラル",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "中団前",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクシュ",
+      "style": "先行〜好位",
+      "ten_speed": "中",
+      "expected_pos": "外好位",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceList?k_babaCode=21&k_raceDate=2026%2F07%2F09"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "モトサン",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団後ろ",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "セラード",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団後ろ",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アマビリティ",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 1,
+      "stance": "前走同条件を逃げ切り、今回もハナ主張の中心"
+    },
+    {
+      "no": 3,
+      "stance": "川崎2000で逃げ・先行の形があり、内から1を楽に行かせない"
+    },
+    {
+      "no": 11,
+      "stance": "外好位から早め進出。ハナではなく前を射程に置く形"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "最内から距離ロスなく主張できる"
+    },
+    {
+      "no": 3,
+      "note": "内枠で1の直後を取りやすい"
+    },
+    {
+      "no": 11,
+      "note": "7枠で外を回るリスクがあるが、砂を被らず動ける"
+    },
+    {
+      "no": 13,
+      "note": "8枠から後手だとコーナーロスが大きい"
+    }
+  ],
+  "field_note": "1と3が前、11が外好位。流れが落ち着けば前受け、1と3が譲らなければ7・9・13の差しが浮く。"
+}

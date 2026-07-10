@@ -1,0 +1,219 @@
+{
+  "observation": "I",
+  "observation_name": "リスク",
+  "race_id": "20260709-kawasaki-12",
+  "field_size": 14,
+  "horses": [
+    {
+      "no": 1,
+      "name": "ディオスパーダ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 前走から中3週で状態リズムは維持しやすい"
+      ],
+      "cons": [
+        "[I] 逃げて勝った直後で、再び自分の形を作れない時の反動リスク"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウインメラナイト",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[I] 使われている点は通常"
+      ],
+      "cons": [
+        "[I] 近走の負け幅が大きく下降基調"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "カガヤキファイター",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[I] 近走は安定している"
+      ],
+      "cons": [
+        "[I] 7歳で、強い先行負荷を受けると踏ん張り切れない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ノッテストラータ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[I] B3から条件が下がる"
+      ],
+      "cons": [
+        "[I] 近走の着順が重く、復調待ち"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ボルドーダゲール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[I] 大崩れまではしていない"
+      ],
+      "cons": [
+        "[I] 後方続きで自力浮上のきっかけが弱い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ビルドラポール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[I] 休みなく使えている"
+      ],
+      "cons": [
+        "[I] 近走の決め手が鈍く、上積みより現状維持"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テンダリー",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[I] 同距離で安定しており、大きな状態リスクは見えない"
+      ],
+      "cons": [
+        "[I] 鞍上変更で仕掛けのタイミングが変わる"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ハネダブライアン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[I] 3歳で成長余地はある"
+      ],
+      "cons": [
+        "[I] 約8か月ぶりで、古馬C1の2000を走り切る息持ちが不明"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "コパノモンタナ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[I] 同距離を続けて使って内容安定"
+      ],
+      "cons": [
+        "[I] 昇級初戦で相手強化の壁"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "アンジュミストラル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[I] 使われている点は通常"
+      ],
+      "cons": [
+        "[I] 近2走の負け方が悪く、2000では不安が大きい"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクシュ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 同条件で安定しており、状態の大きな悪材料は少ない"
+      ],
+      "cons": [
+        "[I] 当日騎手変更があり、乗り替わりの呼吸は確認対象"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "モトサン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[I] 馬格は維持している"
+      ],
+      "cons": [
+        "[I] 近走の大敗が続き、下降気配"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "セラード",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[I] C1なら相手は軽くなる"
+      ],
+      "cons": [
+        "[I] 前走大敗からの立て直しが必要"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アマビリティ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[I] 3歳軽量で消耗は抑えられる"
+      ],
+      "cons": [
+        "[I] 古馬混合で揉まれるリスク"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    }
+  ],
+  "note": "状態・ローテ・下降基調を公式近走から速報評価。"
+}

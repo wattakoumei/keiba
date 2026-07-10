@@ -1,0 +1,95 @@
+{
+  "race_id": "20260709-kawasaki-11",
+  "source": "paste",
+  "odds": [
+    {
+      "no": 1,
+      "name": null,
+      "tansho": 18.3
+    },
+    {
+      "no": 2,
+      "name": null,
+      "tansho": 104.6
+    },
+    {
+      "no": 3,
+      "name": null,
+      "tansho": 19.2
+    },
+    {
+      "no": 4,
+      "name": null,
+      "tansho": 31.9
+    },
+    {
+      "no": 5,
+      "name": null,
+      "tansho": 77.3
+    },
+    {
+      "no": 6,
+      "name": null,
+      "tansho": 6.7
+    },
+    {
+      "no": 7,
+      "name": null,
+      "tansho": 84.7
+    },
+    {
+      "no": 8,
+      "name": null,
+      "tansho": 71.1
+    },
+    {
+      "no": 9,
+      "name": null,
+      "tansho": 42.0
+    },
+    {
+      "no": 10,
+      "name": null,
+      "tansho": 19.2
+    },
+    {
+      "no": 11,
+      "name": null,
+      "tansho": 10.3
+    },
+    {
+      "no": 12,
+      "name": null,
+      "tansho": 39.5
+    },
+    {
+      "no": 13,
+      "name": null,
+      "tansho": 1.4
+    },
+    {
+      "no": 14,
+      "name": null,
+      "tansho": 34.8
+    }
+  ],
+  "metrics": {
+    "fav_odds": 1.4,
+    "second_odds": 6.7,
+    "fav_second_gap": 5.3,
+    "fav_second_ratio": 4.786,
+    "n_under_30": 6,
+    "n_under_10": 2,
+    "mean_odds": 40.1,
+    "n_valid": 14
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -8,
+  "dango_signals": [
+    "[収束] 1番人気1.4倍≤1.4(鉄板)",
+    "[収束] 1-2人気差5.3≥3.5(断然)"
+  ],
+  "fav_no": 13,
+  "fav_name": null
+}

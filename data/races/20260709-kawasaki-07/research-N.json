@@ -1,0 +1,131 @@
+{
+  "point": "N",
+  "overall_confidence": "中",
+  "field_note": "南関C2一二を中心に、C1実績・C2勝ち・C1からの相手緩和を共通ランクRで粗く正規化。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C2一二の中心格で、直近同級勝ち"
+      ],
+      "cons": [
+        "C1実績は薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C2中心格"
+      ],
+      "cons": [
+        "近走内容から格上評価までは不可"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "C1三を経験してC2へ戻る相手緩和"
+      ],
+      "cons": [
+        "C1では掲示板まで"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C2一組で同級"
+      ],
+      "cons": [
+        "浦和からの遠征で川崎格上ではない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C2一二で同級上位"
+      ],
+      "cons": [
+        "C2三四勝ちから一組でまだ証明途中"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "C1一二からC2へ下がる相手緩和、C2勝ち実績もある"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "C1四五からC2へ下がる相手緩和"
+      ],
+      "cons": [
+        "船橋/浦和中心で川崎実績は薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "C1選定馬を経験し、C2選定馬勝ちから格は上位"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

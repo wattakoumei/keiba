@@ -1,0 +1,30 @@
+{
+  "observation": "E",
+  "observation_name": "展開証拠",
+  "race_id": "20260709-kawasaki-10",
+  "field_size": 11,
+  "legs": [
+    {"no": 1, "name": "トウマ", "style": "差", "ten_speed": "中", "expected_pos": "中団後ろ", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 2, "name": "リコーベレッタ", "style": "先", "ten_speed": "中", "expected_pos": "内好位", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 3, "name": "ボニーマジェスティ", "style": "先?", "ten_speed": "中", "expected_pos": "中団前", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 4, "name": "デーレーシトロン", "style": "先?", "ten_speed": "中", "expected_pos": "中団前", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 5, "name": "エムティワイザー", "style": "逃げ", "ten_speed": "速", "expected_pos": "ハナ争いから番手", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 6, "name": "ダンデライオン", "style": "先行〜好位", "ten_speed": "中", "expected_pos": "5番手前後", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 7, "name": "ラムテリオス", "style": "差し", "ten_speed": "中", "expected_pos": "中団", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 8, "name": "フィアマフルミネ", "style": "逃げ〜先行", "ten_speed": "速", "expected_pos": "外2-3番手", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 9, "name": "サダージ", "style": "先行〜差し", "ten_speed": "中", "expected_pos": "中団前", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 10, "name": "ナリノエンブレム", "style": "逃げ", "ten_speed": "速", "expected_pos": "ハナ", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 11, "name": "トンボ", "style": "先行〜差し", "ten_speed": "中", "expected_pos": "外好位〜中団", "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]}
+  ],
+  "lead_contenders": [
+    {"no": 10, "stance": "近3走が1-1-1-1中心でハナ最有力"},
+    {"no": 5, "stance": "同舞台で1-1-1-1の2着歴。10に抵抗すると流れが速くなる"},
+    {"no": 8, "stance": "休み明けだが逃げ先行歴あり。外から主張すると先行列が厚くなる"}
+  ],
+  "draw": [
+    {"no": 2, "note": "内枠でロスなく好位を取れる"},
+    {"no": 10, "note": "8枠からハナを切るには序盤で脚を使う"},
+    {"no": 11, "note": "外枠で位置を取れないと差し寄りになる"}
+  ],
+  "field_note": "10が単騎なら前受け本線。5・8が絡むと6・1・7の差し込みが浮く。"
+}

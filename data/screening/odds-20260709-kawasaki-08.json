@@ -1,0 +1,75 @@
+{
+  "race_id": "20260709-kawasaki-08",
+  "source": "paste",
+  "odds": [
+    {
+      "no": 1,
+      "name": null,
+      "tansho": 2.0
+    },
+    {
+      "no": 2,
+      "name": null,
+      "tansho": 5.6
+    },
+    {
+      "no": 3,
+      "name": null,
+      "tansho": 42.0
+    },
+    {
+      "no": 4,
+      "name": null,
+      "tansho": 27.3
+    },
+    {
+      "no": 5,
+      "name": null,
+      "tansho": 44.6
+    },
+    {
+      "no": 6,
+      "name": null,
+      "tansho": 8.3
+    },
+    {
+      "no": 7,
+      "name": null,
+      "tansho": 7.2
+    },
+    {
+      "no": 8,
+      "name": null,
+      "tansho": 18.2
+    },
+    {
+      "no": 9,
+      "name": null,
+      "tansho": 19.5
+    },
+    {
+      "no": 10,
+      "name": null,
+      "tansho": 7.3
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.0,
+    "second_odds": 5.6,
+    "fav_second_gap": 3.6,
+    "fav_second_ratio": 2.8,
+    "n_under_30": 8,
+    "n_under_10": 5,
+    "mean_odds": 18.2,
+    "n_valid": 10
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -3,
+  "dango_signals": [
+    "[収束] 1-2人気差3.6≥3.5(断然)",
+    "[割れ] 単勝平均18.2倍<20(団子)"
+  ],
+  "fav_no": 1,
+  "fav_name": null
+}

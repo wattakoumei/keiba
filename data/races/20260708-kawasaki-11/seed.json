@@ -1,0 +1,132 @@
+{
+ "race_id": "20260708-kawasaki-11",
+ "source": "keiba.go.jp DebaTable (手動整形・NAR)",
+ "race": {
+  "name": "スパーキングレディーカップ",
+  "grade": "JpnIII",
+  "date": "2026-07-08",
+  "venue": "川崎",
+  "surface": "ダ",
+  "distance": 1600,
+  "direction": "左",
+  "field_size": 10,
+  "post_time": "20:10",
+  "condition": "3歳上牝馬・グレード別定"
+ },
+ "horses": [
+  {
+   "no": 1,
+   "waku": 1,
+   "name": "レクランスリール",
+   "sex_age": "牝6",
+   "weight": 55.0,
+   "jockey": "藤原幹生",
+   "trainer": "伊藤好",
+   "affiliation": "笠松"
+  },
+  {
+   "no": 2,
+   "waku": 2,
+   "name": "ツーシャドー",
+   "sex_age": "牝7",
+   "weight": 55.0,
+   "jockey": "和田譲治",
+   "trainer": "小澤宏",
+   "affiliation": "浦和"
+  },
+  {
+   "no": 3,
+   "waku": 3,
+   "name": "タマモフリージア",
+   "sex_age": "牝3",
+   "weight": 52.0,
+   "jockey": "田口貫太",
+   "trainer": "大橋勇",
+   "affiliation": "JRA",
+   "sire": "ルヴァンスレーヴ",
+   "damsire": "ゴールドアリュール",
+   "style": "先",
+   "recent": [
+    {
+     "date": "2026-06-17",
+     "venue": "川崎",
+     "race": "関東オークス JpnII ダ2100",
+     "pos": 4,
+     "field": 14,
+     "passing": "5-4-4-5",
+     "agari": 40.4
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "waku": 4,
+   "name": "アピーリングルック",
+   "sex_age": "牝5",
+   "weight": 56.0,
+   "jockey": "坂井瑠星",
+   "trainer": "辻哲英",
+   "affiliation": "JRA"
+  },
+  {
+   "no": 5,
+   "waku": 5,
+   "name": "プラウドフレール",
+   "sex_age": "牝4",
+   "weight": 56.0,
+   "jockey": "御神本訓史",
+   "trainer": "川島一",
+   "affiliation": "船橋"
+  },
+  {
+   "no": 6,
+   "waku": 6,
+   "name": "マーブルマカロン",
+   "sex_age": "牝6",
+   "weight": 55.0,
+   "jockey": "笹川翼",
+   "trainer": "藤田輝",
+   "affiliation": "大井"
+  },
+  {
+   "no": 7,
+   "waku": 7,
+   "name": "ホーリーグレイル",
+   "sex_age": "牝4",
+   "weight": 55.0,
+   "jockey": "矢野貴之",
+   "trainer": "内田勝",
+   "affiliation": "川崎"
+  },
+  {
+   "no": 8,
+   "waku": 7,
+   "name": "タガノミスト",
+   "sex_age": "牝5",
+   "weight": 55.0,
+   "jockey": "松山弘平",
+   "trainer": "渡邊薫",
+   "affiliation": "JRA"
+  },
+  {
+   "no": 9,
+   "waku": 8,
+   "name": "アンジュフィールド",
+   "sex_age": "牝6",
+   "weight": 55.0,
+   "jockey": "野畑凌大",
+   "trainer": "小久保智",
+   "affiliation": "浦和"
+  },
+  {
+   "no": 10,
+   "waku": 8,
+   "name": "カピリナ",
+   "sex_age": "牝5",
+   "weight": 56.0,
+   "jockey": "戸崎圭太",
+   "trainer": "田島俊",
+   "affiliation": "JRA"
+  }
+ ]
+}

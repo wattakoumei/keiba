@@ -1,0 +1,94 @@
+{
+  "race_id": "20260709-kawasaki-12",
+  "source": "paste",
+  "odds": [
+    {
+      "no": 1,
+      "name": null,
+      "tansho": 3.6
+    },
+    {
+      "no": 2,
+      "name": null,
+      "tansho": 57.6
+    },
+    {
+      "no": 3,
+      "name": null,
+      "tansho": 11.8
+    },
+    {
+      "no": 4,
+      "name": null,
+      "tansho": 38.4
+    },
+    {
+      "no": 5,
+      "name": null,
+      "tansho": 46.5
+    },
+    {
+      "no": 6,
+      "name": null,
+      "tansho": 29.4
+    },
+    {
+      "no": 7,
+      "name": null,
+      "tansho": 6.4
+    },
+    {
+      "no": 8,
+      "name": null,
+      "tansho": 4.2
+    },
+    {
+      "no": 9,
+      "name": null,
+      "tansho": 10.9
+    },
+    {
+      "no": 10,
+      "name": null,
+      "tansho": 29.4
+    },
+    {
+      "no": 11,
+      "name": null,
+      "tansho": 7.1
+    },
+    {
+      "no": 12,
+      "name": null,
+      "tansho": 40.1
+    },
+    {
+      "no": 13,
+      "name": null,
+      "tansho": 11.8
+    },
+    {
+      "no": 14,
+      "name": null,
+      "tansho": 38.4
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.6,
+    "second_odds": 4.2,
+    "fav_second_gap": 0.6,
+    "fav_second_ratio": 1.167,
+    "n_under_30": 9,
+    "n_under_10": 4,
+    "mean_odds": 24.0,
+    "n_valid": 14
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 2,
+  "dango_signals": [
+    "[割れ] 1番人気3.6倍≥3.0(割れ)"
+  ],
+  "fav_no": 1,
+  "fav_name": null
+}

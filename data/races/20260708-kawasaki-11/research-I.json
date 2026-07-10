@@ -1,0 +1,167 @@
+{
+ "point": "I",
+ "overall_confidence": "中(JRA/重賞所属馬は情報厚いがNAR地方馬の気性/故障一次情報は薄い)",
+ "note": "risk_flags.py未実行(NAR薄seed)につきwebでold/decline/layoffを代理判定。weight_adjust seedの斤量(56kg組=アピーリングルック/プラウドフレール/カピリナ)は「先行勢に明確な重ハンデなし」との判定のためIスコアには反映せず参考記載のみ。市場語・",
+ "field_note": "全10頭カバー完了。プラウドフレール・タガノミスト・カピリナの3頭が重い懸念(-2)。理由はそれぞれ①前走大敗+原因不明の気配不良、②明確な気性面の弱点(揉まれ・砂被り苦手)+初距離+初ナイター、③芝からのダート回帰(約2年ぶり)+古馬交流重賞初挑戦という質の異なるリスク。高齢(6-7歳)馬は近走良好なため軽微(-1)に留めた。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "レクランスリール",
+   "score": -1,
+   "pros": [],
+   "cons": [
+    "[I]近走2走(2026/4/22浦和12着、2026/5/13川崎8着)で不振・通算18戦1勝と地力面で見劣り",
+    "[I]牝6歳、地方交流重賞では中堅年齢=軽微な高齢傾向"
+   ],
+   "confidence": "低(NAR情報薄・気性/故障情報は未確認)",
+   "sources": [
+    "https://www.keiba.go.jp/KeibaWeb/DataRoom/HorseMarkInfo?k_lineageLoginCode=30003404076",
+    "https://www.keibalab.jp/db/horse/2020101129/"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "ツーシャドー",
+   "score": -1,
+   "pros": [
+    "[I]前走(2026/3/19)しらさぎ賞1着で近走は良好=下降基調は見られない"
+   ],
+   "cons": [
+    "[I]牝7歳=出走馬中最高齢、経年による衰えリスク(ただし直近成績には表れていない)"
+   ],
+   "confidence": "低〜中",
+   "sources": [
+    "https://www.keiba.go.jp/KeibaWeb/DataRoom/RaceHorseInfo?k_lineageLoginCode=30024400666&k_activeCode=1",
+    "https://www.jbis.or.jp/horse/0001311050/"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "タマモフリージア",
+   "score": -1,
+   "pros": [
+    "[I]今回は距離短縮(2100m→1600m)+斤量52kgの恩恵で前走の敗因は解消方向"
+   ],
+   "cons": [
+    "[I]牝3歳で古馬(4歳上)重賞への初挑戦=経験不足リスク",
+    "[I]前走関東オークス(2100m)は休み明けで臨み4着、距離が長すぎた面があったとの分析"
+   ],
+   "confidence": "中",
+   "sources": [
+    "https://www.jbis.or.jp/horse/0001372741/",
+    "(検索スニペット: 関東オークス4着・休み明け言及)"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "アピーリングルック",
+   "score": 0,
+   "pros": [
+    "[I]名古屋大賞典(重賞初制覇)勝利後6/12帰厩・6/17から併せ馬3本と仕上げ順調で目立つリスクなし(乗り替わりはK観点の懸念)"
+   ],
+   "cons": [],
+   "confidence": "中",
+   "sources": [
+    "https://news.yahoo.co.jp/articles/d1d93e14bdfb678925d7087a4aa4132e16ed4ef8",
+    "https://www.keibalab.jp/db/horse/2021104914/"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "プラウドフレール",
+   "score": -2,
+   "pros": [
+    "[I]前々走マリーンC(2025/10/2・JpnIII)は逃げ切り3馬身差の完勝=地力自体は健在で大敗が一過性の可能性もある"
+   ],
+   "cons": [
+    "[I]前走JBCレディスクラシック(2025/11/3)14着大敗、騎手が「今までにない感じ、おとなしかった。分からない」とコメント=原因不明の気配不良",
+    "[I]その後の出走情報が確認できず休養が長期化している可能性(推定・確信度低)"
+   ],
+   "confidence": "低〜中",
+   "sources": [
+    "https://tospo-keiba.jp/breaking_news/64637",
+    "https://news.netkeiba.com/?pid=news_view&no=309210"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "マーブルマカロン",
+   "score": -1,
+   "pros": [
+    "[I]近走不振の敗因は『距離が短かった』ためとの分析で1800m系適性→1600m延長は前進材料、地力低下ではないと解釈可"
+   ],
+   "cons": [
+    "[I]牝6歳+近2走(前年スパーキングレディーC4着、さきたま杯6着)は「期待を下回る」との評=下降基調に見える"
+   ],
+   "confidence": "中",
+   "sources": [
+    "https://keiba-headline.com/sparking-lady-cup-forecast-2026-401327"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "ホーリーグレイル",
+   "score": -1,
+   "pros": [],
+   "cons": [
+    "[I]前走しらさぎ賞4着、『交流重賞では直線で脚色が鈍る競馬が続いている』との分析=格上挑戦時の決め手不足傾向(能力限界寄りだが割引材料)"
+   ],
+   "confidence": "中",
+   "sources": [
+    "(検索スニペット: しらさぎ賞4着・交流重賞での脚色言及)",
+    "https://www.jbis.or.jp/horse/0001359025/"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "タガノミスト",
+   "score": -2,
+   "pros": [
+    "[I]今回10頭立ての少頭数=揉まれ弱さのリスクは多頭数条件に比べやや軽減される"
+   ],
+   "cons": [
+    "[I]前2走大敗(カペラS11着・大和S14着)の敗因が『砂をかぶったり馬混みでもまれたりすると力を出し切れない』という明確な気性面の弱点と地元紙が分析(揉まれ弱さ)",
+    "[I]7/1調教で行きたがる面を見せたとの報道=気性面の懸念",
+    "[I]1600mは初めての本格挑戦+初のナイター競馬=距離・環境とも未経験の重なり"
+   ],
+   "confidence": "中〜高",
+   "sources": [
+    "https://topics.smt.docomo.ne.jp/article/tospokeiba/sports/tospokeiba-128357",
+    "https://news.yahoo.co.jp/articles/18fce9cb70b8f0634ed6f134b73b7467cbe63ab2"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "アンジュフィールド",
+   "score": -1,
+   "pros": [
+    "[I]前走(2026/3/19)1着で近走は良好=下降基調は見られない"
+   ],
+   "cons": [
+    "[I]牝6歳、軽微な高齢傾向"
+   ],
+   "confidence": "低",
+   "sources": [
+    "https://www.jbis.or.jp/horse/0001328468/",
+    "https://www.keibalab.jp/db/horse/2020101582/"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "カピリナ",
+   "score": -2,
+   "pros": [
+    "[I]前回ダート参戦時の敗因は緩いペース×上がり勝負という展開面であり地力の問題ではないと説明可能"
+   ],
+   "cons": [
+    "[I]3歳夏に芝転向後、約2年ぶりのダート参戦=長期の路線転向明け",
+    "[I]古馬交流重賞ダートは初挑戦、『砂を被る競馬』『川崎小回り適性』ともに未知数という大きな環境変化"
+   ],
+   "confidence": "中",
+   "sources": [
+    "https://news.yahoo.co.jp/articles/1db8e5da07f04d8b93c4e35df1cdb235aa6e738e",
+    "https://news.yahoo.co.jp/articles/d1d93e14bdfb678925d7087a4aa4132e16ed4ef8"
+   ]
+  }
+ ]
+}

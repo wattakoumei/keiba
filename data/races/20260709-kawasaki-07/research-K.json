@@ -1,0 +1,127 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "騎手の地方実績と今回の乗替方向を評価。騎乗成績の数値は馬柱事実の範囲で扱う。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "本田正重継続で逃げの手順を把握"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "矢野貴之への強い手替わりで終いを引き出す余地"
+      ],
+      "cons": [
+        "脚質的に位置が後ろになりやすい"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "和田譲治で南関の標準以上"
+      ],
+      "cons": [
+        "前走から乗替で手探り"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "及川烈継続"
+      ],
+      "cons": [
+        "強化材料は薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "伊藤裕人継続で癖は把握"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "安藤洋一で前走から継続"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "小杉亮で船橋所属馬の継続性"
+      ],
+      "cons": [
+        "川崎1400での材料は薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "新原周馬継続で前走の反省を1400戻りに使える"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

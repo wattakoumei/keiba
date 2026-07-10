@@ -1,0 +1,119 @@
+{
+  "point": "E",
+  "overall_confidence": "中",
+  "field_note": "逃げ候補は1・5・8。川崎1400の急コーナーで外から競ると消耗するため、大外8の出方が分岐。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補最上位",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "内の好位",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "style": "先行",
+      "ten_speed": "速",
+      "expected_pos": "1の外の番手からハナも",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団外から早め進出",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団外",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "大外から好位、出ればハナ",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 1,
+      "stance": "内枠から主張"
+    },
+    {
+      "no": 5,
+      "stance": "番手またはハナ"
+    },
+    {
+      "no": 8,
+      "stance": "大外から好位、出脚次第で主張"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "最内でハナを取りやすい"
+    },
+    {
+      "no": 8,
+      "note": "大外で出して行くとロスも大きい"
+    }
+  ]
+}

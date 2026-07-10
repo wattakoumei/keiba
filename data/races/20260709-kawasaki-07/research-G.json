@@ -1,0 +1,129 @@
+{
+  "point": "G",
+  "overall_confidence": "中",
+  "field_note": "直近の間隔と馬体/ローテの安定度を評価。馬体重は公式出馬表時点で未確定のため中立。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "4月以降は月1走で馬体も増えながら使えている"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "5歳で使い込み気味だが間隔は通常"
+      ],
+      "cons": [
+        "成績面の下降が馬体面に出ている可能性"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "中3週で通常ローテ"
+      ],
+      "cons": [
+        "騎手変更もあり調整過程の確度は低い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "連闘気味ではない"
+      ],
+      "cons": [
+        "6月に連戦し大敗続きで立て直し途上"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "休み明け後に二戦して上向きの使われ方"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "月1走で安定、C1からC2へ自然なローテ"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "6月末から中1週強で出走"
+      ],
+      "cons": [
+        "取消歴があり順調度に疑問"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "前走から中3週で通常"
+      ],
+      "cons": [
+        "除外/取消歴があり実戦間隔の揺れがある"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

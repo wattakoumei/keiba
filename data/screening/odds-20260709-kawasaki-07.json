@@ -1,0 +1,65 @@
+{
+  "race_id": "20260709-kawasaki-07",
+  "source": "paste",
+  "odds": [
+    {
+      "no": 1,
+      "name": null,
+      "tansho": 6.4
+    },
+    {
+      "no": 2,
+      "name": null,
+      "tansho": 9.1
+    },
+    {
+      "no": 3,
+      "name": null,
+      "tansho": 4.5
+    },
+    {
+      "no": 4,
+      "name": null,
+      "tansho": 15.1
+    },
+    {
+      "no": 5,
+      "name": null,
+      "tansho": 6.6
+    },
+    {
+      "no": 6,
+      "name": null,
+      "tansho": 5.5
+    },
+    {
+      "no": 7,
+      "name": null,
+      "tansho": 5.0
+    },
+    {
+      "no": 8,
+      "name": null,
+      "tansho": 5.8
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.5,
+    "second_odds": 5.0,
+    "fav_second_gap": 0.5,
+    "fav_second_ratio": 1.111,
+    "n_under_30": 8,
+    "n_under_10": 7,
+    "mean_odds": 7.2,
+    "n_valid": 8
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 5,
+  "dango_signals": [
+    "[割れ] 1番人気4.5倍≥4.0(本命不在)",
+    "[割れ] 単勝平均7.2倍<20(団子)"
+  ],
+  "fav_no": 3,
+  "fav_name": null
+}

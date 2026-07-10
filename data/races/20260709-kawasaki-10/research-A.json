@@ -1,0 +1,20 @@
+{
+  "observation": "A",
+  "observation_name": "能力指数・時計",
+  "race_id": "20260709-kawasaki-10",
+  "field_size": 11,
+  "horses": [
+    {"no": 1, "name": "トウマ", "score": 1, "confidence": "中", "pros": ["[A] 前走川崎1400を1:30.7、0.2差3着。差し脚を同舞台で使えている"], "cons": ["[A] 勝ち切り型ではなく、位置取りが後ろになると届き切らない"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 2, "name": "リコーベレッタ", "score": 0, "confidence": "中", "pros": ["[A] 川崎1400で1:31.1-1:32.3の安定した内容が複数ある"], "cons": ["[A] 近走の勝ち切る時計は薄く、今回は約3か月ぶり"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 3, "name": "ボニーマジェスティ", "score": -2, "confidence": "中", "pros": ["[A] 大井1400で1:28.4の4着があり、過去能力はある"], "cons": ["[A] 直近の川崎900・1500で大きく崩れ、現状時計は見劣る"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 4, "name": "デーレーシトロン", "score": -2, "confidence": "中", "pros": ["[A] 3歳で斤量55kg、川崎1400の経験はある"], "cons": ["[A] 近2走の900・1200で離され、1400戻りでも時計面の裏付けが弱い"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 5, "name": "エムティワイザー", "score": 0, "confidence": "中", "pros": ["[A] 5月の川崎1400で1:29.9の2着。逃げれば時計上位に近い"], "cons": ["[A] 前走同舞台は1.1差5着で、楽に運べないと甘さが出る"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 6, "name": "ダンデライオン", "score": 2, "confidence": "高", "pros": ["[A] 川崎1400を7戦7勝。前走B3を5-5-6-2から勝ち、時計だけでなく運びの幅がある"], "cons": ["[A] 前走は4月で間隔が空き、当日気配の確認は必要"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 7, "name": "ラムテリオス", "score": 0, "confidence": "中", "pros": ["[A] 川崎1400で1:30.8の4着、1500でも差して0.3差2着があり末脚は使える"], "cons": ["[A] 勝ち切る時計は上位2頭に劣り、差し届き待ち"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 8, "name": "フィアマフルミネ", "score": -1, "confidence": "中", "pros": ["[A] 川崎1400で1:31.4の2着、逃げて粘る形の実績がある"], "cons": ["[A] 1月以来で時計鮮度が低く、直近の1600では伸び切れず"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 9, "name": "サダージ", "score": -1, "confidence": "中", "pros": ["[A] 浦和1400で0.2差5着があり、距離短縮なら前進材料はある"], "cons": ["[A] 川崎1500の近2走は離され、同場の時計信頼は下がる"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 10, "name": "ナリノエンブレム", "score": 1, "confidence": "高", "pros": ["[A] 転入後のダ1400で2勝2着1回。前走川崎1400は逃げて0.2差2着"], "cons": ["[A] 逃げて40秒台の上がりになっており、競られると終いの甘さが出る"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 11, "name": "トンボ", "score": 0, "confidence": "中", "pros": ["[A] 浦和1400で0.1差4着、川崎1400の通算実績も厚い"], "cons": ["[A] 直近は掲示板外寄りで、勝ち切る勢いは薄い"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]}
+  ],
+  "note": "公式出馬表の時計・通過順だけで速報評価。"
+}

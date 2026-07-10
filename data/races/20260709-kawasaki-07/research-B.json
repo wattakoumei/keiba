@@ -1,0 +1,135 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "直近3走の着順・クラス位置・内容を評価。C1からC2への相手緩和はNと重複しない範囲で扱う。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近C2一二を逃げ切り、同条件で上昇"
+      ],
+      "cons": [
+        "連続好走後で楽に行けないと甘さ"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "前走1500は差を詰めた"
+      ],
+      "cons": [
+        "1400・900・1600で着外が続く"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C2勝ち後にC1を経験し相手緩和"
+      ],
+      "cons": [
+        "直近C1二戦が4着・8着で勢いは強くない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "浦和1400は着順ほど時計差が大きくない"
+      ],
+      "cons": [
+        "1600二戦の大敗で下降基調"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "C2三四勝ちからC2一二3着で昇級即対応"
+      ],
+      "cons": [
+        "前走は勝ち馬から離された"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "C2勝ち二度、C1でも5着で内容は保つ"
+      ],
+      "cons": [
+        "前走は差し届かず"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "C1からC2へ相手緩和"
+      ],
+      "cons": [
+        "取消歴があり近走の連続性が弱い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "C2選定馬を逃げ切り、1400でも連対歴"
+      ],
+      "cons": [
+        "前走C1の1600大敗が残る"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

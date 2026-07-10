@@ -1,0 +1,135 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "近走下降・距離替わり・取消/除外歴・年齢などの割引を評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フィリグラン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "大きな故障・下降フラグは馬柱上薄い"
+      ],
+      "cons": [
+        "逃げ依存"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウロボロス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "5歳で年齢自体は問題ない"
+      ],
+      "cons": [
+        "近走大敗が続く下降基調"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アムリタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C1経験からの相手緩和"
+      ],
+      "cons": [
+        "前走8頭立て4着で詰めの甘さ"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ブレイブルイーズ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "距離短縮は救い"
+      ],
+      "cons": [
+        "近走の大敗連続が強い減点"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "オリコウパラダイス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "近走は勝ちと3着で安定"
+      ],
+      "cons": [
+        "先行争いに巻き込まれると消耗"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ヒソカ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "C1でも崩れ切らない"
+      ],
+      "cons": [
+        "差し脚質で前残り馬場なら届かない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヨルノチョウ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "相手緩和はある"
+      ],
+      "cons": [
+        "取消歴と川崎適性不明"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コルネットロッソ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "1400戻りは好材料"
+      ],
+      "cons": [
+        "前走1600後方大敗と除外歴"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+        "https://www.nankankeiba.com/race_info/2026070921040407.do"
+      ]
+    }
+  ]
+}

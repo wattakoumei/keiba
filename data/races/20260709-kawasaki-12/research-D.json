@@ -1,0 +1,219 @@
+{
+  "observation": "D",
+  "observation_name": "コース・距離適性",
+  "race_id": "20260709-kawasaki-12",
+  "field_size": 14,
+  "horses": [
+    {
+      "no": 1,
+      "name": "ディオスパーダ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[D] 川崎2000で勝ち切りがあり、急コーナーでもハナを取れる"
+      ],
+      "cons": [
+        "[D] 逃げ型なので内外から早めに来られると息を入れにくい"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウインメラナイト",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 長めの距離を経験している"
+      ],
+      "cons": [
+        "[D] 川崎2000でも後方のままになりやすく、短直線で届かない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "カガヤキファイター",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[D] 川崎2000で逃げ・先行して崩れにくく、コース取りが器用"
+      ],
+      "cons": [
+        "[D] 7歳で上積みは薄く、同型の圧に弱い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ノッテストラータ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 川崎コースの経験は豊富"
+      ],
+      "cons": [
+        "[D] 2000への距離延長で決め手持続の裏付けが薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ボルドーダゲール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 川崎2000と船橋2200を使い、距離はこなす"
+      ],
+      "cons": [
+        "[D] 後方から外を回すと川崎の急コーナーでロスが出る"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ビルドラポール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 2000で中団から動く形は経験済み"
+      ],
+      "cons": [
+        "[D] 差し一辺倒で、良馬場の前残りだと位置が足りない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テンダリー",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[D] 川崎2000で勝ち負け実績が厚く、好位から長く脚を使える"
+      ],
+      "cons": [
+        "[D] 前走のように動き出しが遅いと外を回される"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ハネダブライアン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] ホッコータルマエ産駒で距離延長の砂は守備範囲"
+      ],
+      "cons": [
+        "[D] 2000は初めてで、久々の分だけ器用さの再現に不安"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "コパノモンタナ",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[D] 川崎2000で安定して差し込み、同距離の形ができている"
+      ],
+      "cons": [
+        "[D] C2での実績が中心で、C1の前受け勢を捕まえ切れるかは課題"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "アンジュミストラル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 川崎1400では先行できる"
+      ],
+      "cons": [
+        "[D] 川崎2000で止まっており、距離適性は低く見る"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクシュ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[D] 川崎2000で4戦連続好走圏の内容があり、条件適性は最上位"
+      ],
+      "cons": [
+        "[D] 7枠から外々の2列目になるとコーナーロスが出る"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "モトサン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 馬格があり力の要る砂はこなす"
+      ],
+      "cons": [
+        "[D] 2000での近走が重く、良馬場の持続脚勝負に対応しきれていない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "セラード",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] B2B3の2000で0.9差があり、距離そのものは合う"
+      ],
+      "cons": [
+        "[D] 外枠から後手に回るとロスが大きい"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アマビリティ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 3歳牝馬の2000で上がりを使えている"
+      ],
+      "cons": [
+        "[D] 外枠で古馬相手、位置を取れないと届かない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    }
+  ],
+  "note": "川崎2000は急コーナーで早め位置取りが重要というNARコースカタログを反映。"
+}

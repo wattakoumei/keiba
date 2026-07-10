@@ -1,0 +1,229 @@
+{
+  "race_id": "20260709-kawasaki-10",
+  "source": "keiba.go.jp DebaTableSmall (市場列除外・NAR)",
+  "race": {
+    "name": "江戸切子特別",
+    "subtitle": "7月5日は江戸切子の日でした記念",
+    "date": "2026-07-09",
+    "venue": "川崎",
+    "surface": "ダ",
+    "distance": 1400,
+    "direction": "左",
+    "field_size": 11,
+    "post_time": "19:40",
+    "weather": "晴",
+    "going": "稍重",
+    "condition": "B3一 二 三"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "waku": 1,
+      "name": "トウマ",
+      "sex_age": "牡6",
+      "weight": 56.0,
+      "jockey": "鷹見陸",
+      "trainer": "久保秀",
+      "affiliation": "川崎",
+      "sire": "ビーチパトロール",
+      "damsire": "ディープインパクト",
+      "style": "差",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-06-18", "venue": "川崎", "race": "末摘花特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 3, "field": 12, "horse_no": 2, "body_weight": 459, "jockey": "鷹見陸", "time": "1:30.7", "margin": 0.2, "passing": "7-6-6-5", "agari": 39.5},
+        {"date": "2026-05-27", "venue": "浦和", "race": "菖蒲月特別 B3三", "surface": "ダ", "dist": 1500, "pos": 5, "field": 12, "horse_no": 6, "body_weight": 464, "jockey": "町田直希", "time": "1:37.0", "margin": 0.2, "passing": "9-9-9-9", "agari": 38.0},
+        {"date": "2026-05-14", "venue": "川崎", "race": "早苗月特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 6, "field": 12, "horse_no": 7, "body_weight": 463, "jockey": "佐野遥久", "time": "1:31.2", "margin": 1.6, "passing": "8-8-8-8", "agari": 40.1}
+      ]
+    },
+    {
+      "no": 2,
+      "waku": 2,
+      "name": "リコーベレッタ",
+      "sex_age": "牝6",
+      "weight": 54.0,
+      "jockey": "新原周馬",
+      "trainer": "久保秀",
+      "affiliation": "川崎",
+      "sire": "キンシャサノキセキ",
+      "damsire": "ジャングルポケット",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-04-09", "venue": "川崎", "race": "若草特別 B3二 三 四", "surface": "ダ", "dist": 1400, "pos": 4, "field": 12, "horse_no": 4, "body_weight": 458, "jockey": "佐野遥久", "time": "1:31.2", "margin": 0.4, "passing": "4-3-3-2", "agari": 40.4},
+        {"date": "2026-03-02", "venue": "川崎", "race": "啓蟄特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 3, "field": 12, "horse_no": 1, "body_weight": 461, "jockey": "佐野遥久", "time": "1:32.3", "margin": 0.4, "passing": "3-3-4-3", "agari": 40.1},
+        {"date": "2026-01-03", "venue": "川崎", "race": "宝船特別 B3二 三", "surface": "ダ", "dist": 1400, "pos": 2, "field": 13, "horse_no": 4, "body_weight": 462, "jockey": "佐野遥久", "time": "1:31.1", "margin": 0.8, "passing": "4-4-3-2", "agari": 40.0}
+      ]
+    },
+    {
+      "no": 3,
+      "waku": 3,
+      "name": "ボニーマジェスティ",
+      "sex_age": "牡7",
+      "weight": 56.0,
+      "jockey": "櫻井光輔",
+      "trainer": "平田正一",
+      "affiliation": "川崎",
+      "sire": "ディーマジェスティ",
+      "damsire": "Cat Thief",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-06-19", "venue": "川崎", "race": "千軍万馬賞 B2B3選定馬", "surface": "ダ", "dist": 900, "pos": 10, "field": 11, "horse_no": 5, "body_weight": 503, "jockey": "新原周馬", "time": "0:56.9", "margin": 2.7, "passing": "10-10-10", "agari": 37.4},
+        {"date": "2026-05-29", "venue": "浦和", "race": "橘月特別 B2二B3一", "surface": "ダ", "dist": 1500, "pos": 7, "field": 10, "horse_no": 9, "body_weight": 501, "jockey": "町田直希", "time": "1:37.4", "margin": 1.1, "passing": "3-2-2-5", "agari": 40.5},
+        {"date": "2026-05-11", "venue": "川崎", "race": "草笛特別 B2二", "surface": "ダ", "dist": 1500, "pos": 13, "field": 14, "horse_no": 12, "body_weight": 502, "jockey": "町田直希", "time": "1:37.5", "margin": 2.4, "passing": "7-8-11-14", "agari": 40.5}
+      ]
+    },
+    {
+      "no": 4,
+      "waku": 4,
+      "name": "デーレーシトロン",
+      "sex_age": "牡3",
+      "weight": 55.0,
+      "jockey": "田中涼",
+      "trainer": "鈴木義久",
+      "affiliation": "川崎",
+      "sire": "ウインブライト",
+      "damsire": "キングカメハメハ",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-06-18", "venue": "川崎", "race": "電光石火賞 B3選定馬", "surface": "ダ", "dist": 900, "pos": 10, "field": 11, "horse_no": 9, "body_weight": 428, "jockey": "新原周馬", "time": "0:57.1", "margin": 1.7, "passing": "5-5-10", "agari": 39.2},
+        {"date": "2026-06-04", "venue": "船橋", "race": "若潮スプリント 3歳オープン", "surface": "ダ", "dist": 1200, "pos": 9, "field": 12, "horse_no": 7, "body_weight": 423, "jockey": "佐野遥久", "time": "1:17.3", "margin": 2.7, "passing": "12-12-12", "agari": 40.1},
+        {"date": "2026-04-08", "venue": "川崎", "race": "鶯特別 3歳1", "surface": "ダ", "dist": 1400, "pos": 4, "field": 6, "horse_no": 4, "body_weight": 438, "jockey": "本橋孝太", "time": "1:32.2", "margin": 0.8, "passing": "3-3-3-4", "agari": 39.7}
+      ]
+    },
+    {
+      "no": 5,
+      "waku": 5,
+      "name": "エムティワイザー",
+      "sex_age": "牡4",
+      "weight": 56.0,
+      "jockey": "古岡勇樹",
+      "trainer": "山崎裕也",
+      "affiliation": "川崎",
+      "sire": "フリオーソ",
+      "damsire": "エムオーウイナー",
+      "style": "逃",
+      "ten_speed": "速",
+      "recent": [
+        {"date": "2026-06-18", "venue": "川崎", "race": "末摘花特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 5, "field": 12, "horse_no": 10, "body_weight": 433, "jockey": "古岡勇樹", "time": "1:31.6", "margin": 1.1, "passing": "2-3-3-4", "agari": 40.8},
+        {"date": "2026-05-14", "venue": "川崎", "race": "早苗月特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 2, "field": 12, "horse_no": 2, "body_weight": 431, "jockey": "古岡勇樹", "time": "1:29.9", "margin": 0.3, "passing": "1-1-1-1", "agari": 39.4},
+        {"date": "2026-04-10", "venue": "川崎", "race": "ファイナルアンサー賞 B3", "surface": "ダ", "dist": 1500, "pos": 3, "field": 11, "horse_no": 2, "body_weight": 429, "jockey": "古岡勇樹", "time": "1:37.6", "margin": 0.4, "passing": "9-9-10-7", "agari": 39.5}
+      ]
+    },
+    {
+      "no": 6,
+      "waku": 6,
+      "name": "ダンデライオン",
+      "sex_age": "牝5",
+      "weight": 54.0,
+      "jockey": "御神本訓史",
+      "trainer": "河津裕昭",
+      "affiliation": "川崎",
+      "sire": "キズナ",
+      "damsire": "Medaglia d'Oro",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-04-09", "venue": "川崎", "race": "若草特別 B3二 三 四", "surface": "ダ", "dist": 1400, "pos": 1, "field": 12, "horse_no": 3, "body_weight": 490, "jockey": "野畑凌", "time": "1:30.8", "margin": -0.2, "passing": "5-5-6-2", "agari": 39.5},
+        {"date": "2025-11-19", "venue": "川崎", "race": "スコッチ賞 C1一 二 三", "surface": "ダ", "dist": 1400, "pos": 1, "field": 12, "horse_no": 8, "body_weight": 484, "jockey": "御神本訓史", "time": "1:31.0", "margin": -0.2, "passing": "2-2-2-2", "agari": 40.3},
+        {"date": "2025-08-25", "venue": "川崎", "race": "C1三 四 五", "surface": "ダ", "dist": 1400, "pos": 1, "field": 7, "horse_no": 4, "body_weight": 485, "jockey": "御神本訓史", "time": "1:30.6", "margin": -1.0, "passing": "2-2-1-1", "agari": 39.2}
+      ]
+    },
+    {
+      "no": 7,
+      "waku": 6,
+      "name": "ラムテリオス",
+      "sex_age": "牝5",
+      "weight": 54.0,
+      "jockey": "佐野遥久",
+      "trainer": "鈴木義久",
+      "affiliation": "川崎",
+      "sire": "ハービンジャー",
+      "damsire": "ダイワメジャー",
+      "style": "差",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-06-17", "venue": "川崎", "race": "梅雨明かり特別 B2二", "surface": "ダ", "dist": 1600, "pos": 5, "field": 8, "horse_no": 3, "body_weight": 475, "jockey": "佐野遥久", "time": "1:44.6", "margin": 1.2, "passing": "8-7-8-5", "agari": 40.1},
+        {"date": "2026-05-14", "venue": "川崎", "race": "早苗月特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 4, "field": 12, "horse_no": 6, "body_weight": 471, "jockey": "新原周馬", "time": "1:30.8", "margin": 1.2, "passing": "7-5-7-4", "agari": 39.9},
+        {"date": "2026-04-06", "venue": "川崎", "race": "卯の花月特別 B3二 三 四", "surface": "ダ", "dist": 1500, "pos": 2, "field": 10, "horse_no": 1, "body_weight": 466, "jockey": "新原周馬", "time": "1:36.7", "margin": 0.3, "passing": "9-9-7-6", "agari": 38.9}
+      ]
+    },
+    {
+      "no": 8,
+      "waku": 7,
+      "name": "フィアマフルミネ",
+      "sex_age": "牝5",
+      "weight": 54.0,
+      "jockey": "矢野貴之",
+      "trainer": "酒井忍",
+      "affiliation": "川崎",
+      "sire": "サンダースノー",
+      "damsire": "カンパニー",
+      "style": "逃",
+      "ten_speed": "速",
+      "recent": [
+        {"date": "2026-01-02", "venue": "川崎", "race": "百人一首特別 B2二B3一", "surface": "ダ", "dist": 1600, "pos": 5, "field": 13, "horse_no": 7, "body_weight": 435, "jockey": "御神本訓史", "time": "1:47.0", "margin": 1.1, "passing": "8-8-8-7", "agari": 39.7},
+        {"date": "2025-12-17", "venue": "川崎", "race": "SPAT4ならポイント B3二 三", "surface": "ダ", "dist": 1400, "pos": 4, "field": 9, "horse_no": 3, "body_weight": 437, "jockey": "御神本訓史", "time": "1:32.5", "margin": 1.0, "passing": "3-3-3-3", "agari": 41.3},
+        {"date": "2025-11-20", "venue": "川崎", "race": "ご縁の国しまね特別 B3三", "surface": "ダ", "dist": 1400, "pos": 2, "field": 12, "horse_no": 10, "body_weight": 444, "jockey": "御神本訓史", "time": "1:31.4", "margin": 0.1, "passing": "1-1-1-1", "agari": 39.2}
+      ]
+    },
+    {
+      "no": 9,
+      "waku": 7,
+      "name": "サダージ",
+      "sex_age": "牝5",
+      "weight": 54.0,
+      "jockey": "藤本現暉",
+      "trainer": "山崎尋美",
+      "affiliation": "川崎",
+      "sire": "シュヴァルグラン",
+      "damsire": "Tamayuz",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-06-17", "venue": "川崎", "race": "手鞠花特別 B3一 二 三", "surface": "ダ", "dist": 1500, "pos": 9, "field": 14, "horse_no": 2, "body_weight": 467, "jockey": "本田正重", "time": "1:37.6", "margin": 1.4, "passing": "11-9-11-10", "agari": 40.5},
+        {"date": "2026-05-13", "venue": "川崎", "race": "新緑特別 B3一 二 三", "surface": "ダ", "dist": 1500, "pos": 11, "field": 13, "horse_no": 11, "body_weight": 466, "jockey": "本田正重", "time": "1:37.7", "margin": 2.5, "passing": "4-4-2-3", "agari": 41.5},
+        {"date": "2026-04-21", "venue": "浦和", "race": "まるまるひがしにほん賞 B3四", "surface": "ダ", "dist": 1400, "pos": 5, "field": 10, "horse_no": 8, "body_weight": 458, "jockey": "野畑凌", "time": "1:29.5", "margin": 0.2, "passing": "4-4-2-3", "agari": 37.9}
+      ]
+    },
+    {
+      "no": 10,
+      "waku": 8,
+      "name": "ナリノエンブレム",
+      "sex_age": "牝4",
+      "weight": 54.0,
+      "jockey": "町田直希",
+      "trainer": "内田勝義",
+      "affiliation": "川崎",
+      "sire": "パドトロワ",
+      "damsire": "ウォーエンブレム",
+      "style": "逃",
+      "ten_speed": "速",
+      "recent": [
+        {"date": "2026-06-18", "venue": "川崎", "race": "末摘花特別 B3一 二 三", "surface": "ダ", "dist": 1400, "pos": 2, "field": 12, "horse_no": 4, "body_weight": 476, "jockey": "池谷匠翔", "time": "1:30.7", "margin": 0.2, "passing": "1-1-1-1", "agari": 40.3},
+        {"date": "2026-05-25", "venue": "浦和", "race": "薫風特別 B3四C1一", "surface": "ダ", "dist": 1400, "pos": 1, "field": 12, "horse_no": 3, "body_weight": 479, "jockey": "町田直希", "time": "1:29.5", "margin": -0.1, "passing": "1-1-1-1", "agari": 40.0},
+        {"date": "2026-05-15", "venue": "川崎", "race": "花菱草賞 C1一 二", "surface": "ダ", "dist": 1400, "pos": 1, "field": 12, "horse_no": 2, "body_weight": 485, "jockey": "町田直希", "time": "1:31.7", "margin": -0.2, "passing": "1-1-1-1", "agari": 40.3}
+      ]
+    },
+    {
+      "no": 11,
+      "waku": 8,
+      "name": "トンボ",
+      "sex_age": "牡5",
+      "weight": 56.0,
+      "jockey": "笹川翼",
+      "trainer": "高月賢一",
+      "affiliation": "川崎",
+      "sire": "ドレフォン",
+      "damsire": "ディープインパクト",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {"date": "2026-06-17", "venue": "川崎", "race": "手鞠花特別 B3一 二 三", "surface": "ダ", "dist": 1500, "pos": 8, "field": 14, "horse_no": 5, "body_weight": 491, "jockey": "佐野遥久", "time": "1:37.0", "margin": 0.8, "passing": "4-4-6-7", "agari": 40.3},
+        {"date": "2026-05-29", "venue": "浦和", "race": "鈴蘭特別 B3二", "surface": "ダ", "dist": 1400, "pos": 6, "field": 13, "horse_no": 12, "body_weight": 493, "jockey": "佐野遥久", "time": "1:30.0", "margin": 1.4, "passing": "7-7-7-7", "agari": 39.1},
+        {"date": "2026-04-21", "venue": "浦和", "race": "まるまるひがしにほん賞 B3四", "surface": "ダ", "dist": 1400, "pos": 4, "field": 10, "horse_no": 7, "body_weight": 500, "jockey": "佐野遥久", "time": "1:29.4", "margin": 0.1, "passing": "3-3-2-3", "agari": 37.9}
+      ]
+    }
+  ]
+}

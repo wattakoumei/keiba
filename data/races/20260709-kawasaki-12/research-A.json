@@ -1,0 +1,219 @@
+{
+  "observation": "A",
+  "observation_name": "能力指数・時計",
+  "race_id": "20260709-kawasaki-12",
+  "field_size": 14,
+  "horses": [
+    {
+      "no": 1,
+      "name": "ディオスパーダ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] 前走川崎2000を2:16.3で逃げ切り、同条件で結果を出した"
+      ],
+      "cons": [
+        "[A] 5月の同条件では早め先頭から最後に甘くなった"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ウインメラナイト",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A] 川崎2000を使われている"
+      ],
+      "cons": [
+        "[A] 近3走の1600と2000で時計・着差とも見劣る"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "カガヤキファイター",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 5月川崎2000で2:14.8の僅差4着があり、今回の時計比較では上位"
+      ],
+      "cons": [
+        "[A] 先行して上がりがかかりやすく、同型に圧を受けると止まる"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ノッテストラータ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] B3の1600を使われた格の履歴はある"
+      ],
+      "cons": [
+        "[A] 直近の1600で差を詰め切れず、2000の裏付けが薄い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ボルドーダゲール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 1600で0.4差まで詰めた走りはある"
+      ],
+      "cons": [
+        "[A] 2000と2200の近走は中位止まりで勝ち負け時計に届かない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ビルドラポール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 川崎2000で掲示板歴はある"
+      ],
+      "cons": [
+        "[A] 直近2000は2:17台で、上位勢の2:14台からは足りない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "テンダリー",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] 5月川崎2000で2:14.8の僅差2着、C2では同距離勝ちもある"
+      ],
+      "cons": [
+        "[A] 前走は1.0差4着で、勝ち切るには早め進出が必要"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ハネダブライアン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 2歳時に南関オープン級で掲示板、素材の時計はある"
+      ],
+      "cons": [
+        "[A] 2000未経験かつ約8か月ぶりで、今回の時計再現性は低い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "コパノモンタナ",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 川崎2000のC2で1着・2着・3着と安定し、2:15.1の持ち時計がある"
+      ],
+      "cons": [
+        "[A] C1へ上がるぶん、時計をもう一段詰める必要がある"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "アンジュミストラル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A] 1400では先行して掲示板がある"
+      ],
+      "cons": [
+        "[A] 直近2000は2:18.1で、距離延長戦では明確に鈍い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクシュ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] 川崎2000で2:14.8僅差3着、2:16.5の3着もあり同条件の安定時計が最上位"
+      ],
+      "cons": [
+        "[A] 前走は2:16.6で5着と伸び切れず、外目から脚を使う形は課題"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "モトサン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A] 2000を使われている"
+      ],
+      "cons": [
+        "[A] 前走2000は3.1差で、近走の時計負荷が重い"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "セラード",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 5月B2B3の川崎2000で2:14.2、C1なら時計上位に入る"
+      ],
+      "cons": [
+        "[A] 前走B2B3は大きく崩れ、近走の波が大きい"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アマビリティ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 3歳牝馬の2000で3着があり、軽い負担重量で終いを使える"
+      ],
+      "cons": [
+        "[A] 古馬C1で必要な時計はまだ示していない"
+      ],
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=12"
+      ]
+    }
+  ],
+  "note": "公式出馬表の時計・通過順から速報評価。"
+}

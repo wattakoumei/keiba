@@ -1,0 +1,20 @@
+{
+  "observation": "I",
+  "observation_name": "リスク・減点",
+  "race_id": "20260709-kawasaki-10",
+  "field_size": 11,
+  "horses": [
+    {"no": 1, "name": "トウマ", "score": 0, "confidence": "中", "pros": ["[I] 近走で大崩れ少なく、状態面の大きな悪材料は見えない"], "cons": ["[I] 6歳で上積みより安定型"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 2, "name": "リコーベレッタ", "score": -1, "confidence": "中", "pros": ["[I] 川崎1400で型はある"], "cons": ["[I] 前走から約3か月空き、久々で反応が鈍るリスク"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 3, "name": "ボニーマジェスティ", "score": -2, "confidence": "中", "pros": ["[I] 先行歴はある"], "cons": ["[I] 7歳かつ直近3走の内容が悪く下降基調"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 4, "name": "デーレーシトロン", "score": -2, "confidence": "中", "pros": ["[I] 3歳で成長余地"], "cons": ["[I] 900・1200からの戻りでリズムが悪く、古馬B3相手の負荷が重い"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 5, "name": "エムティワイザー", "score": 0, "confidence": "中", "pros": ["[I] 使われながら同舞台で形を作れている"], "cons": ["[I] 先行争いに巻き込まれると前走の甘さが再発する"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 6, "name": "ダンデライオン", "score": 0, "confidence": "中", "pros": ["[I] 川崎1400では崩れた履歴がない"], "cons": ["[I] 休み明けで馬体・気配だけは確認対象"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 7, "name": "ラムテリオス", "score": 0, "confidence": "中", "pros": ["[I] 近走も大きく崩れず差し脚を維持"], "cons": ["[I] 展開依存が強く、自力でレースを作れない"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 8, "name": "フィアマフルミネ", "score": -2, "confidence": "中", "pros": ["[I] 矢野貴之への替わりで前進余地"], "cons": ["[I] 1月以来の休み明け。先行型だけに息持ちが鍵"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 9, "name": "サダージ", "score": -1, "confidence": "中", "pros": ["[I] 1400短縮で気分良く運べる余地"], "cons": ["[I] 川崎1500で連続して甘く、下降気配を否定しにくい"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 10, "name": "ナリノエンブレム", "score": 0, "confidence": "中", "pros": ["[I] 転入後3走の内容が良く、状態面は上向き"], "cons": ["[I] 逃げ一辺倒で、外枠から絡まれると崩れるリスク"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]},
+    {"no": 11, "name": "トンボ", "score": -1, "confidence": "中", "pros": ["[I] 川崎1400実績は豊富"], "cons": ["[I] 近走は勝ち切る勢いが薄く、外枠でロスも受けやすい"], "sources": ["https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTableSmall?k_babaCode=21&k_raceDate=2026%2F07%2F09&k_raceNo=10"]}
+  ],
+  "note": "非決定論リスクは公式近走から速報評価。"
+}

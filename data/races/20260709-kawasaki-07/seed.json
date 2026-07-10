@@ -1,0 +1,441 @@
+{
+  "race_id": "20260709-kawasaki-07",
+  "source": "keiba.go.jp DebaTable + nankankeiba race_info (手動整形・NAR)",
+  "race": {
+    "name": "C2一 二",
+    "date": "2026-07-09",
+    "venue": "川崎",
+    "surface": "ダ",
+    "distance": 1400,
+    "direction": "左",
+    "field_size": 8,
+    "post_time": "18:00",
+    "condition": "C2一 二・一般",
+    "going": "良"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "waku": 1,
+      "name": "フィリグラン",
+      "sex_age": "牝4",
+      "weight": 54.0,
+      "jockey": "本田正重",
+      "jockey_affiliation": "船橋",
+      "trainer": "佐々仁",
+      "affiliation": "川崎",
+      "sire": "ダイワメジャー",
+      "dam": "ファイナライズ",
+      "damsire": "ロードカナロア",
+      "style": "逃",
+      "ten_speed": "速",
+      "recent": [
+        {
+          "date": "2026-06-16",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "稍重",
+          "pos": 1,
+          "field": 12,
+          "passing": "1-1-1-1",
+          "time": "1:31.8"
+        },
+        {
+          "date": "2026-05-11",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "良",
+          "pos": 3,
+          "field": 10,
+          "passing": "2-2-3-2",
+          "time": "1:32.0"
+        },
+        {
+          "date": "2026-04-06",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "重",
+          "pos": 5,
+          "field": 12,
+          "passing": "6-6-6-5",
+          "time": "1:32.9"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "waku": 2,
+      "name": "ウロボロス",
+      "sex_age": "牡5",
+      "weight": 56.0,
+      "jockey": "矢野貴之",
+      "jockey_affiliation": "大井",
+      "trainer": "山崎尋",
+      "affiliation": "川崎",
+      "sire": "リアルスティール",
+      "dam": "ホワイトアルバム",
+      "damsire": "クロフネ",
+      "style": "追",
+      "ten_speed": "遅",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1500,
+          "going": "重",
+          "pos": 3,
+          "field": 13,
+          "passing": "12-12-10-8",
+          "time": "1:40.0"
+        },
+        {
+          "date": "2026-05-11",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "良",
+          "pos": 6,
+          "field": 10,
+          "passing": "10-10-10-9",
+          "time": "1:32.9"
+        },
+        {
+          "date": "2026-05-04",
+          "venue": "船橋",
+          "surface": "ダ",
+          "dist": 1600,
+          "going": "稍重",
+          "pos": 10,
+          "field": 12,
+          "passing": "6-7-11-11",
+          "time": "1:48.3"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "waku": 3,
+      "name": "アムリタ",
+      "sex_age": "牝4",
+      "weight": 54.0,
+      "jockey": "和田譲治",
+      "jockey_affiliation": "大井",
+      "trainer": "平田正",
+      "affiliation": "川崎",
+      "sire": "アニマルキングダム",
+      "dam": "フレグラントエリア",
+      "damsire": "ハーツクライ",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {
+          "date": "2026-06-17",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "稍重",
+          "pos": 4,
+          "field": 8,
+          "passing": "4-4-4-4",
+          "time": "1:31.8"
+        },
+        {
+          "date": "2026-05-13",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "良",
+          "pos": 8,
+          "field": 12,
+          "passing": "5-7-9-8",
+          "time": "1:32.6"
+        },
+        {
+          "date": "2026-03-02",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "稍重",
+          "pos": 1,
+          "field": 10,
+          "passing": "4-4-4-3",
+          "time": "1:31.9"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "waku": 4,
+      "name": "ブレイブルイーズ",
+      "sex_age": "セ4",
+      "weight": 56.0,
+      "jockey": "及川烈",
+      "jockey_affiliation": "浦和",
+      "trainer": "小澤宏",
+      "affiliation": "浦和",
+      "sire": "ダノンレジェンド",
+      "dam": "ウイングルイーズ",
+      "damsire": "ハーツクライ",
+      "style": "追",
+      "ten_speed": "遅",
+      "recent": [
+        {
+          "date": "2026-06-25",
+          "venue": "浦和",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "不良",
+          "pos": 7,
+          "field": 10,
+          "passing": "8-8-8-8",
+          "time": "1:29.5"
+        },
+        {
+          "date": "2026-06-15",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1600,
+          "going": "重",
+          "pos": 14,
+          "field": 14,
+          "passing": "14-14-14-14",
+          "time": "1:51.2"
+        },
+        {
+          "date": "2026-06-01",
+          "venue": "船橋",
+          "surface": "ダ",
+          "dist": 1600,
+          "going": "良",
+          "pos": 12,
+          "field": 14,
+          "passing": "12-13-12-14",
+          "time": "1:47.4"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "waku": 5,
+      "name": "オリコウパラダイス",
+      "sex_age": "牡4",
+      "weight": 56.0,
+      "jockey": "伊藤裕人",
+      "jockey_affiliation": "川崎",
+      "trainer": "安池成",
+      "affiliation": "川崎",
+      "sire": "ニシケンモノノフ",
+      "dam": "ドルフィン",
+      "damsire": "サウスヴィグラス",
+      "style": "先",
+      "ten_speed": "速",
+      "recent": [
+        {
+          "date": "2026-06-16",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "稍重",
+          "pos": 3,
+          "field": 12,
+          "passing": "5-4-5-3",
+          "time": "1:32.2"
+        },
+        {
+          "date": "2026-05-12",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "良",
+          "pos": 1,
+          "field": 12,
+          "passing": "1-1-1-1",
+          "time": "1:31.6"
+        },
+        {
+          "date": "2026-04-07",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "重",
+          "pos": 2,
+          "field": 12,
+          "passing": "2-2-2-2",
+          "time": "1:32.8"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "waku": 6,
+      "name": "ヒソカ",
+      "sex_age": "牡4",
+      "weight": 56.0,
+      "jockey": "安藤洋一",
+      "jockey_affiliation": "大井",
+      "trainer": "佐藤博",
+      "affiliation": "川崎",
+      "sire": "バトルプラン",
+      "dam": "マイネチリペッパー",
+      "damsire": "ネオユニヴァース",
+      "style": "差",
+      "ten_speed": "中",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "重",
+          "pos": 5,
+          "field": 12,
+          "passing": "7-7-10-8",
+          "time": "1:32.7"
+        },
+        {
+          "date": "2026-05-11",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "良",
+          "pos": 1,
+          "field": 10,
+          "passing": "4-4-4-3",
+          "time": "1:32.6"
+        },
+        {
+          "date": "2026-04-06",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "重",
+          "pos": 4,
+          "field": 12,
+          "passing": "4-1-1-3",
+          "time": "1:32.7"
+        },
+        {
+          "date": "2026-03-03",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "不良",
+          "pos": 1,
+          "field": 9,
+          "passing": "3-2-2-2",
+          "time": "1:31.2"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "waku": 7,
+      "name": "ヨルノチョウ",
+      "sex_age": "牝4",
+      "weight": 54.0,
+      "jockey": "小杉亮",
+      "jockey_affiliation": "船橋",
+      "trainer": "玉井昇",
+      "affiliation": "船橋",
+      "sire": "ラニ",
+      "dam": "ドリームノート",
+      "damsire": "ディープスカイ",
+      "style": "差",
+      "ten_speed": "中",
+      "recent": [
+        {
+          "date": "2026-06-28",
+          "venue": "船橋",
+          "surface": "ダ",
+          "dist": 1500,
+          "going": "不良",
+          "pos": 8,
+          "field": 10,
+          "passing": "6-4-4-4",
+          "time": "1:39.5"
+        },
+        {
+          "date": "2026-05-04",
+          "venue": "船橋",
+          "surface": "ダ",
+          "dist": 1500,
+          "going": "稍重",
+          "pos": 4,
+          "field": 12,
+          "passing": "9-9-9-8",
+          "time": "1:39.2"
+        },
+        {
+          "date": "2025-10-31",
+          "venue": "浦和",
+          "surface": "ダ",
+          "dist": 1500,
+          "going": "稍重",
+          "pos": 2,
+          "field": 8,
+          "passing": "6-6-4-4",
+          "time": "1:37.6"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "waku": 8,
+      "name": "コルネットロッソ",
+      "sex_age": "牡5",
+      "weight": 56.0,
+      "jockey": "新原周馬",
+      "jockey_affiliation": "川崎",
+      "trainer": "林隆之",
+      "affiliation": "川崎",
+      "sire": "インカンテーション",
+      "dam": "エグランティエ",
+      "damsire": "アドマイヤジャパン",
+      "style": "先",
+      "ten_speed": "中",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1600,
+          "going": "重",
+          "pos": 8,
+          "field": 12,
+          "passing": "12-12-12-11",
+          "time": "1:47.1"
+        },
+        {
+          "date": "2026-05-13",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1500,
+          "going": "良",
+          "pos": 1,
+          "field": 11,
+          "passing": "1-1-1-1",
+          "time": "1:36.4"
+        },
+        {
+          "date": "2025-07-08",
+          "venue": "川崎",
+          "surface": "ダ",
+          "dist": 1400,
+          "going": "良",
+          "pos": 2,
+          "field": 11,
+          "passing": "9-9-9-8",
+          "time": "1:31.7"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2f07%2f09&k_raceNo=7&k_babaCode=21",
+    "https://www.nankankeiba.com/race_info/2026070921040407.do"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "race_id": "20260709-kawasaki-10",
+  "source": "paste",
+  "odds": [
+    {
+      "no": 1,
+      "name": null,
+      "tansho": 8.5
+    },
+    {
+      "no": 2,
+      "name": null,
+      "tansho": 24.2
+    },
+    {
+      "no": 3,
+      "name": null,
+      "tansho": 28.2
+    },
+    {
+      "no": 4,
+      "name": null,
+      "tansho": 47.1
+    },
+    {
+      "no": 5,
+      "name": null,
+      "tansho": 12.6
+    },
+    {
+      "no": 6,
+      "name": null,
+      "tansho": 1.9
+    },
+    {
+      "no": 7,
+      "name": null,
+      "tansho": 10.1
+    },
+    {
+      "no": 8,
+      "name": null,
+      "tansho": 13.1
+    },
+    {
+      "no": 9,
+      "name": null,
+      "tansho": 32.0
+    },
+    {
+      "no": 10,
+      "name": null,
+      "tansho": 6.2
+    },
+    {
+      "no": 11,
+      "name": null,
+      "tansho": 12.6
+    }
+  ],
+  "metrics": {
+    "fav_odds": 1.9,
+    "second_odds": 6.2,
+    "fav_second_gap": 4.3,
+    "fav_second_ratio": 3.263,
+    "n_under_30": 9,
+    "n_under_10": 3,
+    "mean_odds": 17.9,
+    "n_valid": 11
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -5,
+  "dango_signals": [
+    "[収束] 1番人気1.9倍≤1.9(抜けた本命)",
+    "[収束] 1-2人気差4.3≥3.5(断然)",
+    "[割れ] 単勝平均17.9倍<20(団子)"
+  ],
+  "fav_no": 6,
+  "fav_name": null
+}
