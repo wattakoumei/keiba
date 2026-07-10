@@ -91,8 +91,8 @@ def _classify(metrics):
 
 def dango_metrics(odds):
     """odds = [{"no":int, "name":str|None, "tansho":float}] → 団子度メトリクス＋ティア。純ロジック。
-    取消等で tansho が None/<=1.0 の馬は除外して集計する。"""
-    valid = [o for o in odds if isinstance(o.get("tansho"), (int, float)) and o["tansho"] > 1.0]
+    取消等で tansho が None/<1.0 の馬は除外して集計する（1.0 は最低オッズの実馬＝除外しない）。"""
+    valid = [o for o in odds if isinstance(o.get("tansho"), (int, float)) and o["tansho"] >= 1.0]
     valid.sort(key=lambda o: o["tansho"])
     vals = [o["tansho"] for o in valid]
     n = len(vals)
