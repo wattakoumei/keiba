@@ -31,13 +31,16 @@ import sys, os, re, json, argparse, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import calibrate_T          # build_race_input（エンジン入力の組立て・研究スコア読み）
 import score_race           # compute_exotics（ペア/トリオ確率の源）
-from box_sim import STRATEGIES, K_OF_BET   # 箱候補の正本（ワンソース）
+from box_sim import STRATEGIES   # 箱候補の正本（ワンソース）
+
+# 券種→組の頭数（box_sim.K_OF_BET は「的中判定の着内k」＝wide は 3 なので流用しない）
+NUMS_OF_BET = {"umaren": 2, "sanrenpuku": 3, "wide": 2}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EV_DIR = os.path.join(ROOT, "data", "ev")
 
-BET_JP = {"umaren": "馬連", "sanrenpuku": "三連複"}
-JP_BET = {"馬連": "umaren", "三連複": "sanrenpuku", "3連複": "sanrenpuku"}
+BET_JP = {"umaren": "馬連", "sanrenpuku": "三連複", "wide": "ワイド"}
+JP_BET = {"馬連": "umaren", "三連複": "sanrenpuku", "3連複": "sanrenpuku", "ワイド": "wide", "ﾜｲﾄﾞ": "wide"}
 
 
 def guard_out(path):
@@ -85,7 +88,7 @@ def parse_odds(text, default_bet=None):
         if not m:
             continue
         nums = [int(x) for x in m.group(1).split("-")]
-        k = K_OF_BET[bet]
+        k = NUMS_OF_BET[bet]
         if len(nums) != k:
             continue
         out.setdefault(bet, {})[norm_key(nums)] = float(m.group(2).replace(",", ""))
@@ -100,6 +103,14 @@ def build_ev(race_dir, odds):
                          "（オッズより先に予想を確定させる）")
     ex = score_race.compute_exotics(data)
     probs = {"umaren": ex["pair"], "sanrenpuku": ex["trio"]}
+    # ワイド P(i,j 両方3着内) = 両頭を含む全トリオ確率の和（Harville 恒等式から厳密）
+    wide = {}
+    for tk, p in ex["trio"].items():
+        a, b, c = (int(x) for x in tk.split("-"))
+        for i, j in ((a, b), (a, c), (b, c)):
+            k = f"{i}-{j}"
+            wide[k] = wide.get(k, 0.0) + p
+    probs["wide"] = wide
 
     ev_rows = []      # 全組の {bet, comb, p, odds, ev}
     overround = {}
@@ -199,7 +210,7 @@ def self_check():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("race_id", nargs="?", help="dir-race-id（data/races/<id>/ に report.json 必須）")
-    ap.add_argument("--bet", choices=["umaren", "sanrenpuku"], default=None,
+    ap.add_argument("--bet", choices=["umaren", "sanrenpuku", "wide"], default=None,
                     help="プレフィクス無し行テキストの券種")
     ap.add_argument("--odds-file", default=None, help="保存済みオッズ JSON（data/ev/）")
     ap.add_argument("--top", type=int, default=20)

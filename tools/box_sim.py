@@ -89,14 +89,17 @@ def build_trio_box4(report):
     return sorted(tuple(sorted(c)) for c in itertools.combinations(nos, 3))
 
 
-def build_trio_boxrev(report, cap=20):
-    """三連複 本線 box_reverse の center 軸-inside 流し（inside から C(n,2)・20点cap）。"""
+def build_trio_boxrev(report, cap=20, floor=None):
+    """三連複 本線 box_reverse の center 軸-inside 流し（inside から C(n,2)・20点cap）。
+    floor 指定時は inside を place_prob≥floor で間引く（center は残す）。"""
     brs = (report.get("pace") or {}).get("box_reverse") or []
     br = next((b for b in brs if "本線" in str(b.get("tier", ""))), brs[0] if brs else None)
     if not br:
         return []
+    pp = {r.get("no"): (r.get("place_prob") or 0) for r in report.get("rank", [])}
     centers = [n for n in (br.get("center") or []) if n is not None]
-    inside = [n for n in (br.get("inside") or []) if n is not None]
+    inside = [n for n in (br.get("inside") or []) if n is not None
+              and (floor is None or pp.get(n, 0) >= floor)]
     if not centers or len(set(centers + inside)) < 3:
         return []
     outs = set()
@@ -105,6 +108,57 @@ def build_trio_boxrev(report, cap=20):
         for pair in itertools.combinations(sorted(set(pool)), 2):
             outs.add(tuple(sorted((c,) + pair)))
     return sorted(outs)[:cap]
+
+
+def build_trio_boxrev_p20(report):
+    """三連複 本線box_reverse流し＋inside place_prob≥20%（薄い相手を間引く）。
+    実測(2026-07-06・27R): 床なし173.5%(除最大67.3%)→床20%で343.8%(除最大126.4%)・的中5全維持。
+    keiba-web/src/components/RaceView.jsx「三連複の箱」が同値ミラー＝床/capを変えたら両方直す。"""
+    return build_trio_boxrev(report, floor=0.20)
+
+
+def build_wide_marks(report):
+    """ワイド ◎-印(◯/▲/△)全流し。"""
+    a = _no_by_mark(report["rank"], MARK_1)
+    if a is None:
+        return []
+    outs = []
+    for r in report["rank"]:
+        if r.get("mark") in ("◯", "○", "▲", "△") and r.get("no") not in (None, a):
+            outs.append(tuple(sorted((a, r["no"]))))
+    return sorted(set(outs))
+
+
+def build_wide_pairfit(report, cap=8):
+    """ワイド 同一パターン◎ペア（各パターンで展開列◎の馬同士・パターン横断で重複統合）。"""
+    pats = [p.get("id") for p in (report.get("pace") or {}).get("patterns", []) if p.get("id")]
+    outs = set()
+    for p in pats:
+        nos = sorted({r["no"] for r in report["rank"]
+                      if r.get("no") is not None and (r.get("pattern_fit") or {}).get(p) == "◎"})
+        for c in itertools.combinations(nos, 2):
+            outs.add(c)
+    return sorted(outs)[:cap]
+
+
+def build_wide_pairfit_p15(report, cap=8, floor=0.15):
+    """ワイド 同一パターン◎ペア＋両頭 place_prob≥floor（エンジン床で薄いペアを間引く）。
+    ここが抽出条件の正本。keiba-web/src/components/RaceView.jsx「箱組みガイド」が同値ミラー＝floor/cap を変えたら両方直す。"""
+    pats = [p.get("id") for p in (report.get("pace") or {}).get("patterns", []) if p.get("id")]
+    outs = set()
+    for p in pats:
+        nos = sorted({r["no"] for r in report["rank"]
+                      if r.get("no") is not None and (r.get("pattern_fit") or {}).get(p) == "◎"
+                      and (r.get("place_prob") or 0) >= floor})
+        for c in itertools.combinations(nos, 2):
+            outs.add(c)
+    return sorted(outs)[:cap]
+
+
+def build_wide_pairfit_p20(report):
+    """ワイド 同一パターン◎ペア＋両頭 place_prob≥20%（p15 の床強化版・追跡用）。
+    正本の床は p15（web ミラー対象）＝こちらは測定トラックのみ。床0.22 に崖あり（的中を落とす）。"""
+    return build_wide_pairfit_p15(report, floor=0.20)
 
 
 def build_trio_allfit(report):
@@ -130,9 +184,16 @@ STRATEGIES = {
     "trio_marks1":    {"bet": "sanrenpuku", "label": "三連複 ◎◯▲ 1点",              "build": build_trio_marks1},
     "trio_box4":      {"bet": "sanrenpuku", "label": "三連複 上位4頭BOX 4点",         "build": build_trio_box4},
     "trio_boxrev":    {"bet": "sanrenpuku", "label": "三連複 本線box_reverse 軸流し",  "build": build_trio_boxrev},
+    "trio_boxrev_p20": {"bet": "sanrenpuku", "label": "三連複 boxrev流し p≥20%",      "build": build_trio_boxrev_p20},
     "trio_allfit":    {"bet": "sanrenpuku", "label": "三連複 展開列オール圏内BOX",     "build": build_trio_allfit},
+    "wide_hon":       {"bet": "wide",       "label": "ワイド ◎-○ 1点",              "build": build_umaren_hon},
+    "wide_nagashi":   {"bet": "wide",       "label": "ワイド ◎-上位2..4位 流し3点",   "build": build_umaren_nagashi},
+    "wide_marks":     {"bet": "wide",       "label": "ワイド ◎-印(◯▲△)全流し",     "build": build_wide_marks},
+    "wide_pairfit":   {"bet": "wide",       "label": "ワイド 同一パターン◎ペア",      "build": build_wide_pairfit},
+    "wide_pairfit_p15": {"bet": "wide",     "label": "ワイド 同パターン◎ペア p≥15%",  "build": build_wide_pairfit_p15},
+    "wide_pairfit_p20": {"bet": "wide",     "label": "ワイド 同パターン◎ペア p≥20%",  "build": build_wide_pairfit_p20},
 }
-K_OF_BET = {"umaren": 2, "sanrenpuku": 3}
+K_OF_BET = {"umaren": 2, "sanrenpuku": 3, "wide": 3}  # wide の k=3 は的中判定（両頭が3着内）用
 
 
 # ---------------- コーパス突合 ----------------
@@ -263,11 +324,11 @@ def self_check():
     errs = []
     report = {
         "rank": [
-            {"no": 1, "mark": "◎", "rank_order": 1, "pattern_fit": {"α": "◎", "β": "○"}},
-            {"no": 2, "mark": "◯", "rank_order": 2, "pattern_fit": {"α": "○", "β": "◎"}},
-            {"no": 3, "mark": "▲", "rank_order": 3, "pattern_fit": {"α": "○", "β": "○"}},
-            {"no": 4, "mark": "△", "rank_order": 4, "pattern_fit": {"α": "△"}},
-            {"no": 5, "mark": "—", "rank_order": 5, "pattern_fit": {}},
+            {"no": 1, "mark": "◎", "rank_order": 1, "pattern_fit": {"α": "◎", "β": "○"}, "place_prob": 0.55},
+            {"no": 2, "mark": "◯", "rank_order": 2, "pattern_fit": {"α": "○", "β": "◎"}, "place_prob": 0.40},
+            {"no": 3, "mark": "▲", "rank_order": 3, "pattern_fit": {"α": "○", "β": "○"}, "place_prob": 0.30},
+            {"no": 4, "mark": "△", "rank_order": 4, "pattern_fit": {"α": "△"}, "place_prob": 0.15},
+            {"no": 5, "mark": "—", "rank_order": 5, "pattern_fit": {}, "place_prob": 0.05},
         ],
         "pace": {"patterns": [{"id": "α"}, {"id": "β"}],
                  "box_reverse": [{"pattern": "α", "tier": "本線★★★",
@@ -291,6 +352,20 @@ def self_check():
     # allfit: 全パターン◎/○ は {1,2,3} → BOX 1点的中
     if agg["trio_allfit"]["points_total"] != 1 or not agg["trio_allfit"]["hit_races"]:
         errs.append(f"trio_allfit 不一致: {agg['trio_allfit']}")
+    # boxrev p20 床: inside{2,3} は place 0.40/0.30 で残る＝床なしと同一の1点
+    if agg["trio_boxrev_p20"]["points_total"] != 1 or agg["trio_boxrev_p20"]["roi"] != 29.9:
+        errs.append(f"trio_boxrev_p20 不一致: {agg['trio_boxrev_p20']}")
+    # 床が実際に間引くこと: floor=0.35 で inside 3(0.30) が落ち {1,2} の2頭→箱不成立
+    if build_trio_boxrev(report, floor=0.35) != []:
+        errs.append(f"boxrev floor 間引き不発: {build_trio_boxrev(report, floor=0.35)}")
+    # wide p20 床: 同一パターン◎ 3頭のうち place 0.15 の1頭が床で消え、残る2頭の1ペアだけ
+    rep_w = {"rank": [
+        {"no": 1, "pattern_fit": {"α": "◎"}, "place_prob": 0.55},
+        {"no": 2, "pattern_fit": {"α": "◎"}, "place_prob": 0.40},
+        {"no": 4, "pattern_fit": {"α": "◎"}, "place_prob": 0.15},
+    ], "pace": {"patterns": [{"id": "α"}]}}
+    if build_wide_pairfit_p20(rep_w) != [(1, 2)]:
+        errs.append(f"wide_pairfit_p20 不一致: {build_wide_pairfit_p20(rep_w)}")
     # 外れ側: 着順を入れ替え payoff 0
     finish2 = {1: 5, 2: 2, 3: 3, 4: 1, 5: 4}
     payouts2 = {"umaren": [{"comb": [2, 4], "yen": 1200}],

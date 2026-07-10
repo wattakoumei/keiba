@@ -87,6 +87,14 @@ th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
 .box-line span { display: inline-block; margin-right: 12px; }
 .box-line .drop { color: var(--muted); }
 
+/* ---- 箱組みガイド（同時圏内ペア） ---- */
+.pair-table { width: 100%; border-collapse: collapse; }
+.pair-table th, .pair-table td { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: left; font-size: 0.9rem; }
+.pair-table .prow-pair.dim { opacity: 0.35; }
+.pair-h .pair-x { margin: 0 6px; color: var(--muted); }
+.pair-table .fit { cursor: pointer; }
+.pair-table .tier { margin-left: 2px; font-size: 0.7rem; }
+
 /* ---- controls ---- */
 .controls { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
 

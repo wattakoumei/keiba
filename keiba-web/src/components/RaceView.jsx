@@ -102,6 +102,62 @@ export default function RaceView({ race }) {
 
   const boxFor = (id) => (pace.box_reverse ?? []).find((b) => b.pattern === id) || null;
 
+  // 箱組みペア: 同一パターンで展開列◎×複勝率≥15% の2頭組。
+  // 抽出条件の正本は tools/box_sim.py build_wide_pairfit_p15（閾値0.15・cap8）＝同値ミラー。閾値を変えるときは両方直す。
+  // 並びだけ表示用（共通パターン数→合計複勝率。Python側の並びは馬番順＝集合は同一）。
+  const pairs = useMemo(() => {
+    const byKey = new Map();
+    for (const p of patterns) {
+      const nos = rank
+        .filter((r) => r.pattern_fit?.[p.id] === '◎' && (r.place_prob ?? 0) >= 0.15)
+        .map((r) => r.no)
+        .sort((a, b) => a - b);
+      for (let i = 0; i < nos.length; i++)
+        for (let j = i + 1; j < nos.length; j++) {
+          const key = `${nos[i]}-${nos[j]}`;
+          if (!byKey.has(key)) byKey.set(key, { a: nos[i], b: nos[j], pats: [] });
+          byKey.get(key).pats.push(p.id);
+        }
+    }
+    const horse = Object.fromEntries(rank.map((r) => [r.no, r]));
+    return [...byKey.values()]
+      .sort((x, y) => (x.a - y.a) || (x.b - y.b))
+      .slice(0, 8)
+      .map((x) => ({ ...x, ha: horse[x.a], hb: horse[x.b],
+        score: (horse[x.a]?.place_prob ?? 0) + (horse[x.b]?.place_prob ?? 0) }))
+      .sort((x, y) => y.pats.length - x.pats.length || y.score - x.score);
+  }, [patterns, rank]);
+
+  // 三連複の箱: 本線 box_reverse の center 軸-inside 流し＋inside 複勝率≥20%床。
+  // 抽出条件の正本は tools/box_sim.py build_trio_boxrev_p20（床0.20・cap20）＝同値ミラー。閾値を変えるときは両方直す。
+  const trioBox = useMemo(() => {
+    const brs = pace.box_reverse ?? [];
+    const br = brs.find((b) => String(b.tier ?? '').includes('本線')) || brs[0] || null;
+    if (!br) return null;
+    const pp = Object.fromEntries(rank.map((r) => [r.no, r.place_prob ?? 0]));
+    const centers = (br.center ?? []).filter((n) => n != null);
+    const insideAll = (br.inside ?? []).filter((n) => n != null);
+    const inside = insideAll.filter((n) => pp[n] >= 0.20);
+    if (!centers.length || new Set([...centers, ...inside]).size < 3) return null;
+    const seen = new Set();
+    const combos = [];
+    for (const c of centers) {
+      const pool = [...new Set([...centers, ...inside])].filter((n) => n !== c).sort((a, b) => a - b);
+      for (let i = 0; i < pool.length; i++)
+        for (let j = i + 1; j < pool.length; j++) {
+          const t = [c, pool[i], pool[j]].sort((a, b) => a - b);
+          const key = t.join('-');
+          if (!seen.has(key)) { seen.add(key); combos.push(t); }
+        }
+    }
+    combos.sort((x, y) => x[0] - y[0] || x[1] - y[1] || x[2] - y[2]);
+    return { pattern: br.pattern, centers, inside, dropped: insideAll.filter((n) => pp[n] < 0.20),
+             combos: combos.slice(0, 20) };
+  }, [pace, rank]);
+
+  const tierOf = (id) => (patterns.find((p) => p.id === id) || {}).tier;
+  const circ = (no) => (no >= 1 && no <= 20 ? String.fromCharCode(0x2460 + no - 1) : `${no}`);
+
   return (
     <div>
       {/* ===== §2 展開予想（パターン表・行が操作子）===== */}
@@ -181,6 +237,65 @@ export default function RaceView({ race }) {
           </tbody>
         </table>
       </div>
+
+      {/* ===== 箱組みガイド（同時圏内ペア＝展開列の転置ビュー。I7: 券種・金額・購入は人間判断）===== */}
+      <h2>箱組みガイド</h2>
+      <p class="sub">
+        同じ展開パターンで<strong>共に中心◎</strong>（かつ複勝率≥15%）になる2頭の組＝ワイド・連系の箱はここから組む。
+        印の上位同士で組むより、<strong>同じ展開で同時に浮く2頭</strong>で組むのが箱の考え方（券種・金額・購入は人間判断）。
+      </p>
+      {pairs.length > 0 ? (
+        <div class="scroll-x">
+          <table class="pair-table">
+            <thead>
+              <tr><th>ペア</th><th>成立パターン</th><th>複勝率（2頭）</th></tr>
+            </thead>
+            <tbody>
+              {pairs.map((x) => {
+                const dead = excluded.has(x.a) || excluded.has(x.b);
+                const dim = dead || (active && !x.pats.includes(active));
+                return (
+                  <tr class={`prow-pair ${dim ? 'dim' : ''}`}>
+                    <td class="pair-h nowrap">
+                      <span class={`mark ${MARK_CLASS[x.ha?.mark] || ''}`}>{x.ha?.mark}</span>{circ(x.a)}{x.ha?.horse}
+                      <span class="pair-x">×</span>
+                      <span class={`mark ${MARK_CLASS[x.hb?.mark] || ''}`}>{x.hb?.mark}</span>{circ(x.b)}{x.hb?.horse}
+                    </td>
+                    <td>
+                      <span class="fits">
+                        {x.pats.map((id) => (
+                          <span class={`fit fit-center ${active === id ? 'on' : ''}`} onClick={() => setActive(active === id ? null : id)}>
+                            {id}<span class={`tier ${TIER_CLASS[tierOf(id)] || ''}`}>{TIER_STAR[tierOf(id)] || ''}</span>
+                          </span>
+                        ))}
+                      </span>
+                    </td>
+                    <td class="prob nowrap">{pct(x.ha?.place_prob)} × {pct(x.hb?.place_prob)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <p class="sub">該当ペアなし（同一パターンで◎が2頭揃わないレース。§2の各パターンの「中心◎/圏内○」から人間判断で）。</p>
+      )}
+
+      {/* 三連複の箱（本線boxrev軸流し＋inside複勝率20%床。正本=box_sim build_trio_boxrev_p20 の同値ミラー） */}
+      {trioBox && (
+        <>
+          <h3>三連複の箱（本線{trioBox.pattern} 軸流し・相手は複勝率≥20%）</h3>
+          <p class="sub">
+            軸 {trioBox.centers.map(circ).join('・')} ×
+            相手 {trioBox.inside.map(circ).join('・')} から2頭＝全{trioBox.combos.length}点。
+            {trioBox.dropped.length > 0 && <span class="drop"> 床落ち {trioBox.dropped.map(circ).join('・')}（複勝率20%未満）</span>}
+          </p>
+          <details class="fold">
+            <summary>組み合わせ一覧（{trioBox.combos.length}点）</summary>
+            <p class="sub">{trioBox.combos.map((t) => t.map(circ).join('')).join(' ／ ')}</p>
+          </details>
+        </>
+      )}
 
       {/* ===== §3 着順予想（§2表の直下に配置＝行タップ→ハイライトを近づける）===== */}
       <h2>§3 着順予想（成果物2）</h2>
