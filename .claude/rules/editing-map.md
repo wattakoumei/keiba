@@ -56,7 +56,7 @@
 | `.agents/skills/` | Codex 用スキル。`SKILL.md` と `references/` は **`.claude/` への symlink＝同一バイト**（単一ソース）。Codex 側で編集＝正本を編集。別物にしない。 |
 | `.codex/agents/*.toml` | Codex 用の観点定義（13体）。**生成物**＝手で編集しない。正本 `.claude/agents/obs-*.md` を直し `tools/gen_codex_agents.py` で再生成。 |
 | `tools/gen_codex_agents.py` | **`.claude/agents/obs-*.md` → `.codex/agents/*.toml` ジェネレータ**（md↔toml は形式だけの差＝内容は正本一本）。`--check` でコミット前ゲート・`--self-check`。 |
-| `tools/codex_fanout.py` | **Codex の観点並列 fan-out driver**（Workflow 相当）。観点ごと `codex exec` を並列起動し research-`<X>`.json を書かせる。`--dry-run`/`--only`/`--self-check`。`codex` 実行コマンドは `CODEX_EXEC_TEMPLATE` env で版に合わせて上書き。 |
+| `tools/codex_fanout.py` | **Codex の観点並列 fan-out driver**（Workflow 相当）。観点ごと `codex exec` を並列起動し research-`<X>`.json を書かせる。**spawn 注入は SKILL STEP3 のミラー**（`_injections()`＝カタログ/weight/risk の対応表。STEP3 を変えたら追従）・観点セットは新馬/NAR を自動判定（`--debut`/`--nar` で強制）。`--dry-run`/`--only`/`--self-check`。`codex` 実行コマンドは `CODEX_EXEC_TEMPLATE` env で版に合わせて上書き。 |
 
 ## 「〜を変えたい」→ どこを直す
 

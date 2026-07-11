@@ -16,7 +16,7 @@
 |---|---|---|---|
 | エントリ／哲学 | `CLAUDE.md` | このファイル→ `CLAUDE.md` を読む | 正本は CLAUDE.md |
 | 強制ルール | `.claude/rules/*.md`（自動ロード） | 手動で読む（上記) | 正本は `.claude/rules/` |
-| 手順（analyze/review） | `.claude/skills/*/SKILL.md` | `.agents/skills/*/SKILL.md` | **symlink＝同一バイト** |
+| 手順（全スキル: analyze/analyze-nar/review/screen-card/ev-board/calibrate-T/backfill-results） | `.claude/skills/*/SKILL.md` | `.agents/skills/*/SKILL.md` | **symlink＝同一バイト**（スキル新設時はリンクも足す） |
 | リファレンス（scoring/pace 他） | `.claude/skills/analyze-race/references/` | `.agents/skills/analyze-race/references/` | **symlink＝同一バイト** |
 | 観点 subagent（13体） | `.claude/agents/obs-*.md`（`agentType`で並列） | `.codex/agents/obs-*.toml` | **生成物**（`tools/gen_codex_agents.py`） |
 | 観点の並列 fan-out | Workflow / Task ツール | `tools/codex_fanout.py`（並列 `codex exec`） | 観点ごと research-`<X>`.json |
@@ -26,7 +26,11 @@
 
 1. 出走表/seed を用意（`tools/fetch_racecard.py` は Claude 版と共通）。`data/races/<race-id>/` に `出走表.md`・`seed.json`。
 2. **観点調査を並列 fan-out**: `python3 tools/codex_fanout.py <race-id>`（`--only E,D,B` で限定・`--dry-run` で確認）。
-   各観点は `.codex/agents/obs-*.toml` の指示＋共通鉄則＋seed を受け、`research-<X>.json` を書く。
+   各観点は `.codex/agents/obs-*.toml` の指示＋共通鉄則＋seed に加え、**SKILL STEP3 と同じ spawn 注入**
+   （C=血統カタログ該当行／D・E=コース形状／F・K=厩舎 rubric／D・I・G=weight_adjust／I=risk_flags／
+   M=新馬カタログ／N=NAR クラス階梯）を受けて `research-<X>.json` を書く（I10 のワンソース供給は Codex でも成立）。
+   **モードは自動判定**: 新馬（出走表の「新馬/メイクデビュー」→ C,E,F,I,K,M）・NAR（場トークン → A,B,C,D,E,G,I,K,N・
+   NAR×新馬 → C,E,F,I,K,M,N）。強制は `--debut`/`--nar`。速報は `--only A,B,D,E,I`（NAR は +N）で明示する。
 3. 以降は Claude 版と同一手順（`.agents/skills/analyze-race/SKILL.md` の STEP4a 展開合成 → STEP4b 着順 → 率注入 `tools/inject_probs.py` → `tools/validate_report.py`）。SKILL 内の「Workflow で実行」は Claude 実装＝Codex では上記 fan-out に読み替える。
 4. **完了条件（ゲート・チャット出力だけで終わらせない）**: 予想は `data/races/<race-id>/report.json` を書き、`tools/validate_report.py` と `tools/project_predictions.py`（predictions.jsonl 投影）まで通して初めて完了。**チャット返信のみの予想・report.md の手書きは禁止**（レビュー不能＝改善ループに乗らない。2026-07-04/05 に速報10鞍がチャットのみで消えかけた反省）。
    - **速報/縮退モードでも同じ**: fan-out が環境要因（`~/.codex` DB権限・ネットワーク承認）で止まったら、観点を seed＋決定論ツールに縮退してよいが、**report.json の出力とゲート2本は省略しない**（`used_observations` に縮退の旨を残す）。時間が無いときは頭数の少ない骨格でよい＝チャット速報より「薄い report.json」を優先する。
@@ -34,7 +38,8 @@
 ## ドリフト防止（重要）
 
 - **`.codex/agents/*.toml` は生成物**＝手で編集しない。観点を直すなら正本 `.claude/agents/obs-*.md` を編集し `python3 tools/gen_codex_agents.py` で再生成。コミット前ゲート＝`python3 tools/gen_codex_agents.py --check`。
-- **references / SKILL は symlink**＝Codex 側で編集すると正本を書き換える（それが正しい＝単一ソース）。別物にしない。
+- **references / SKILL は symlink**＝Codex 側で編集すると正本を書き換える（それが正しい＝単一ソース）。別物にしない。**スキルを新設したら `.agents/skills/<name>/` にもリンクを足す**（忘れると Codex から到達不能＝2026-07-11 に4スキル欠落を検出した反省）。
+- **`tools/codex_fanout.py` の注入テーブルは `analyze-race/SKILL.md` STEP3 のミラー**＝STEP3 の spawn 注入（カタログ/決定論 seed の対応表）を変えたら `_injections()` も追従させる。観点セットの既定（通常/新馬/NAR）も SKILL STEP2・NAR SKILL 差分2 とミラー（`--self-check` が集合を検査）。
 - 市場ゼロ（I1）はじめ不変則は Claude 版と同一に守る。選別レイヤー `/screen-card` の市場隔離（I1-S）も同じ。
 
 ## 免責
