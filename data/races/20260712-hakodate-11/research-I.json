@@ -1,0 +1,191 @@
+{
+  "point": "I",
+  "lens": "リスク",
+  "race": "20260712-hakodate-11 巴賞",
+  "overall_confidence": "低",
+  "field_note": "並列CLI停止のため、JRA公式seed・静的コース形状・決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "pros": [],
+      "cons": [
+        "[I]直近2走連続大敗を一次リスクとして扱う。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "pros": [
+        "[I]seedの決定論一次フラグに強い減点なし。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "pros": [],
+      "cons": [
+        "[I]7歳を一次リスクとして扱う。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "pros": [
+        "[I]seedの決定論一次フラグに強い減点なし。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "pros": [
+        "[I]seedの決定論一次フラグに強い減点なし。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "pros": [
+        "[I]seedの決定論一次フラグに強い減点なし。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "pros": [],
+      "cons": [
+        "[I]直近2走連続大敗と59kgを一次リスクとして扱う。"
+      ],
+      "score": -2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "pros": [],
+      "cons": [
+        "[I]前走大敗を一次リスクとして扱う。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "pros": [],
+      "cons": [
+        "[I]休み明けを一次リスクとして扱う。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "pros": [],
+      "cons": [
+        "[I]直近2走連続大敗を一次リスクとして扱う。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "pros": [],
+      "cons": [
+        "[I]7歳かつ長期休養明けを一次リスクとして扱う。"
+      ],
+      "score": -2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "pros": [],
+      "cons": [
+        "[I]直近2走連続大敗かつ休み明けを一次リスクとして扱う。"
+      ],
+      "score": -2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "pros": [],
+      "cons": [
+        "[I]8歳かつ前走大敗を一次リスクとして扱う。"
+      ],
+      "score": -3,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "pros": [
+        "[I]seedの決定論一次フラグに強い減点なし。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    }
+  ]
+}

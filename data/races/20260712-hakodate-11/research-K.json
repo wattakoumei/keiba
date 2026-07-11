@@ -1,0 +1,193 @@
+{
+  "point": "K",
+  "lens": "騎手・乗替",
+  "race": "20260712-hakodate-11 巴賞",
+  "overall_confidence": "低",
+  "field_note": "並列CLI停止のため、JRA公式seed・静的コース形状・決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "pros": [
+        "[K]前走斎藤 新騎手から北村 友一騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "pros": [
+        "[K]前走田山 旺佑騎手から佐々木 大輔騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "pros": [
+        "[K]前走三浦 皇成騎手から横山 琉人騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "pros": [
+        "[K]丹内騎手は福島民報杯3着時にも騎乗。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "pros": [
+        "[K]前走田山 旺佑騎手から浜中 俊騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "pros": [
+        "[K]前走横山 琉人騎手から小沢 大仁騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "pros": [
+        "[K]前走杉原 誠人騎手から古川 吉洋騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "pros": [
+        "[K]横山武史騎手は同馬で逃げ切り歴があり、戦法を再現しやすい。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "pros": [
+        "[K]横山和生騎手への交代で前受けを維持する余地。"
+      ],
+      "cons": [
+        "[K]休養明けの初コンビ。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "pros": [
+        "[K]前走浜中 俊騎手から吉田 隼人騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "pros": [
+        "[K]前走T.ハマーハン騎手から斎藤 新騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "pros": [
+        "[K]前走団野 大成騎手から武 豊騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "pros": [
+        "[K]前走石神 深道騎手から黛 弘人騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "pros": [
+        "[K]前走田山 旺佑騎手から鮫島 克駿騎手へ交代。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    }
+  ]
+}

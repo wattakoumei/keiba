@@ -184,11 +184,11 @@
    "quadrant": "切り",
    "score": -1,
    "post_time": "14:35",
-   "x_conf": "逃げ0=自動切り",
    "surface": "芝",
    "distance": 2600,
    "headcount": 15,
-   "class": "上級条件想定"
+   "class": "上級条件想定",
+   "cut_reason": "逃げ0=自動切り"
   },
   {
    "r": 10,

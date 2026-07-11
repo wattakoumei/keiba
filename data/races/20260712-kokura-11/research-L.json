@@ -1,0 +1,173 @@
+{
+  "point": "L",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント停止のためJRA確定seedと決定論データで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "メルキオル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "夏のダート戦勝ち歴はある"
+      ],
+      "cons": [
+        "直近の再現実績がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゴッドブルービー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉1700mで1着、2着、4着の反復"
+      ],
+      "cons": [
+        "オープン昇級後の同条件実績は未確認"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジンセイ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "同季節の東京ダ1600mで好走"
+      ],
+      "cons": [
+        "小倉と盛夏の条件実績は未確認"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サンライズアリオン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "過去に春のオープン勝ち"
+      ],
+      "cons": [
+        "約1年前の実績で鮮度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スナークラファエロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小回り1700mで福島3着"
+      ],
+      "cons": [
+        "小倉では8着で強い反復信号ではない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レイナデアルシーラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "小回り1700mで福島4着"
+      ],
+      "cons": [
+        "小倉では逃げ12着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "モンブランミノル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "休養前に冬春のオープンで安定"
+      ],
+      "cons": [
+        "条件実績が古く長期休養で割引"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウズイウン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "右回り1800mの経験は豊富"
+      ],
+      "cons": [
+        "小倉の反復実績はない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "シュラザック",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "春の重賞で末脚を示した"
+      ],
+      "cons": [
+        "小倉1700mの反復実績はない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フェルヴェンテ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走のダ1400mで安定した末脚"
+      ],
+      "cons": [
+        "1700m条件実績が乏しい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "モックモック",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "春夏のオープンで連続好走"
+      ],
+      "cons": [
+        "小倉の反復実績はない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}

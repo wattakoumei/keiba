@@ -1,0 +1,207 @@
+{
+  "point": "L",
+  "lens": "季節戦・舞台再現性",
+  "race": "20260712-hakodate-11 巴賞",
+  "overall_confidence": "低",
+  "field_note": "並列CLI停止のため、JRA公式seed・静的コース形状・決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "pros": [],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "pros": [],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "pros": [],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "pros": [],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "pros": [
+        "[L]前年函館芝1800の出走歴がある。"
+      ],
+      "cons": [
+        "[L]長期休養で再現性は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "pros": [],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "pros": [],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "pros": [
+        "[L]小回り1800前後の実績をseed内に持つ。"
+      ],
+      "cons": [
+        "[L]外部の過去開催照合なし。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    }
+  ]
+}

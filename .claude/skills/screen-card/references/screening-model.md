@@ -96,6 +96,7 @@ shortlist（🟥系=Y高の荒れ候補 ＋ 🟦系=Y低だが軸が立ちそう
 }
 ```
 - `dango_*`・`market_divergence` は**選別専用**。**predictions.jsonl 等には絶対コピーしない**（I1-S 壁①②）。
+- **機械ゲート**: 保存直後に `python3 tools/validate_screening.py <file>` が 0 で終わること（x_axis は object|null＝文字列不可・quadrant に絵文字を埋めない・上記スキーマ外のキー禁止。keiba-web が build 時に直読みするため、型崩れは CI クラッシュになる）。
 
 ## §7. 二段運用（事前 → 当日）
 

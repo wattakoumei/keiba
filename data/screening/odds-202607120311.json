@@ -1,0 +1,105 @@
+{
+  "race_id": "202607120311",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ボーンディスウェイ",
+      "tansho": 52.8
+    },
+    {
+      "no": 2,
+      "name": "コントラポスト",
+      "tansho": 16.5
+    },
+    {
+      "no": 3,
+      "name": "ショウナンマグマ",
+      "tansho": 89.6
+    },
+    {
+      "no": 4,
+      "name": "カラマティアノス",
+      "tansho": 4.7
+    },
+    {
+      "no": 5,
+      "name": "オーロラエックス",
+      "tansho": 25.1
+    },
+    {
+      "no": 6,
+      "name": "マイネルモーント",
+      "tansho": 12.2
+    },
+    {
+      "no": 7,
+      "name": "メリオーレム",
+      "tansho": 20.8
+    },
+    {
+      "no": 8,
+      "name": "クリスマスパレード",
+      "tansho": 36.7
+    },
+    {
+      "no": 9,
+      "name": "オニャンコポン",
+      "tansho": 33.7
+    },
+    {
+      "no": 10,
+      "name": "センツブラッド",
+      "tansho": 19.5
+    },
+    {
+      "no": 11,
+      "name": "アスクナイスショー",
+      "tansho": 5.3
+    },
+    {
+      "no": 12,
+      "name": "リカンカブール",
+      "tansho": 26.6
+    },
+    {
+      "no": 13,
+      "name": "バトルボーン",
+      "tansho": 7.8
+    },
+    {
+      "no": 14,
+      "name": "オールナット",
+      "tansho": 38.8
+    },
+    {
+      "no": 15,
+      "name": "ヤマニンブークリエ",
+      "tansho": 8.3
+    },
+    {
+      "no": 16,
+      "name": "サヴォーナ",
+      "tansho": 5.7
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.7,
+    "second_odds": 5.3,
+    "fav_second_gap": 0.6,
+    "fav_second_ratio": 1.128,
+    "n_under_30": 11,
+    "n_under_10": 5,
+    "mean_odds": 25.3,
+    "n_valid": 16
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 5,
+  "dango_signals": [
+    "[割れ] 1番人気4.7倍≥4.0(本命不在)",
+    "[割れ] 単勝30倍以下が11頭≥10(団子)"
+  ],
+  "fav_no": 4,
+  "fav_name": "カラマティアノス"
+}

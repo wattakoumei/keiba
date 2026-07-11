@@ -1,0 +1,165 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "観点fan-outのCLI互換性エラーにより、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダノンカゼルタ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-21阪神2000mで4着、1角4番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ショウナンハウル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-03-07阪神2000mで8着、1角9番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 直近の着順推移から上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "プリズマジコ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-05-31東京2400mで10着、1角10番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 直近の着順推移から上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッピーダンチャン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-21阪神1800mで13着、1角2番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 直近の着順推移から上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "フォーチュンライド",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-12阪神2000mで13着、1角2番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 2勝級では初の比較で、前走大敗からの立て直しが必要"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アスクエピソード",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-25京都1600mで7着、1角8番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 直近の着順推移から上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レイピカケ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-28福島2000mで6着、1角9番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コリカンチャ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-19福島2600mで11着、1角13番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 直近の着順推移から上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "オデット",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-28福島2000mで12着、1角2番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [
+        "[B] 直近の着順推移から上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャスティンガルフ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-03-14中京2000mで6着、1角2番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "オウケンボルト",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-20東京2400mで3着、1角1番手＝直近の位置と結果を一次評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

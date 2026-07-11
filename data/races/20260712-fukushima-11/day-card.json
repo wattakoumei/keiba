@@ -1,0 +1,128 @@
+{
+  "date": "20260712",
+  "place": "03",
+  "place_name": "福島",
+  "races": [
+    {
+      "race_id": "202607120301",
+      "r": 1,
+      "post_time": "10:05",
+      "surface": "障",
+      "distance": 2770,
+      "headcount": 14,
+      "turn": null,
+      "race_name": "障害3歳上未勝利"
+    },
+    {
+      "race_id": "202607120302",
+      "r": 2,
+      "post_time": "10:40",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 15,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607120303",
+      "r": 3,
+      "post_time": "11:10",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607120304",
+      "r": 4,
+      "post_time": "11:40",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 10,
+      "turn": null,
+      "race_name": "サラ系2歳新馬"
+    },
+    {
+      "race_id": "202607120305",
+      "r": 5,
+      "post_time": "12:30",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系2歳新馬"
+    },
+    {
+      "race_id": "202607120306",
+      "r": 6,
+      "post_time": "13:00",
+      "surface": "ダ",
+      "distance": 1150,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607120307",
+      "r": 7,
+      "post_time": "13:30",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607120308",
+      "r": 8,
+      "post_time": "14:00",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 12,
+      "turn": null,
+      "race_name": "サラ系3歳上1勝クラス"
+    },
+    {
+      "race_id": "202607120309",
+      "r": 9,
+      "post_time": "14:35",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 14,
+      "turn": null,
+      "race_name": "織姫賞"
+    },
+    {
+      "race_id": "202607120310",
+      "r": 10,
+      "post_time": "15:10",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 11,
+      "turn": null,
+      "race_name": "天の川ステークス"
+    },
+    {
+      "race_id": "202607120311",
+      "r": 11,
+      "post_time": "15:45",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "七夕賞(ＧⅢ)"
+    },
+    {
+      "race_id": "202607120312",
+      "r": 12,
+      "post_time": "16:30",
+      "surface": "ダ",
+      "distance": 1150,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "彦星賞"
+    }
+  ]
+}
+

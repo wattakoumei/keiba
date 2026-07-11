@@ -1,0 +1,799 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260712-fukushima-11",
+ "race_name": "",
+ "edition": "",
+ "race_no": 11,
+ "grade": "",
+ "date": "2026-07-12",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 2000,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 16,
+ "model_version": "5.0",
+ "used_observations": [
+  "E"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "ボーンディスウェイ",
+    "jockey": "丸山 元気",
+    "trainer": "牧 光二",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "1",
+    "no": 2,
+    "horse": "コントラポスト",
+    "jockey": "菊沢 一樹",
+    "trainer": "菊沢 隆徳",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 3,
+    "horse": "ショウナンマグマ",
+    "jockey": "三浦 皇成",
+    "trainer": "尾関 知人",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 4,
+    "horse": "カラマティアノス",
+    "jockey": "岩田 康誠",
+    "trainer": "奥村 武",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 5,
+    "horse": "オーロラエックス",
+    "jockey": "坂井 瑠星",
+    "trainer": "杉山 晴紀",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 6,
+    "horse": "マイネルモーント",
+    "jockey": "石川 裕紀人",
+    "trainer": "高木 登",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 7,
+    "horse": "メリオーレム",
+    "jockey": "M.デムーロ",
+    "trainer": "友道 康夫",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 8,
+    "horse": "クリスマスパレード",
+    "jockey": "杉原 誠人",
+    "trainer": "加藤 士津八",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 9,
+    "horse": "オニャンコポン",
+    "jockey": "吉田 豊",
+    "trainer": "小島 茂之",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 10,
+    "horse": "センツブラッド",
+    "jockey": "原 優介",
+    "trainer": "斉藤 崇史",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 11,
+    "horse": "アスクナイスショー",
+    "jockey": "田辺 裕信",
+    "trainer": "中舘 英二",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 12,
+    "horse": "リカンカブール",
+    "jockey": "荻野 極",
+    "trainer": "田中 克典",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 13,
+    "horse": "バトルボーン",
+    "jockey": "戸崎 圭太",
+    "trainer": "林 徹",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 14,
+    "horse": "オールナット",
+    "jockey": "西村 淳也",
+    "trainer": "高野 友和",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 15,
+    "horse": "ヤマニンブークリエ",
+    "jockey": "横山 典弘",
+    "trainer": "松永 幹夫",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 16,
+    "horse": "サヴォーナ",
+    "jockey": "池添 謙一",
+    "trainer": "中竹 和也",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "多頭先行・好位持続",
+    "tier": "本線",
+    "prob": 0.44,
+    "trigger": "⑬が主張し⑪⑧⑮⑯が番手を求めるが、1角までに隊列が決まり中盤は息が入る",
+    "pace_level": 0.68,
+    "contesters": [
+     8,
+     11,
+     13,
+     15,
+     16
+    ],
+    "leg_advantage": {
+     "逃げ": 0,
+     "先行": 1,
+     "差し": 1,
+     "追込": 0
+    },
+    "formation_head": [
+     13,
+     11,
+     8
+    ],
+    "formation_last_corner": [
+     13,
+     11,
+     16,
+     15,
+     10,
+     4
+    ],
+    "bias": "好位と内で脚を温存した差しが優位。大外先行は位置取りの負荷が残る",
+    "phase_flow": {
+     "early": "⑬が外から主張し、内の⑧と中の⑪、外の⑮⑯が続いて長い先行列を作る",
+     "mid": "先頭が決まると一度息が入り、好位の⑩⑯と内で運ぶ②④が追走余力を残す",
+     "late": "短い直線で前が粘る一方、内の好位から④②、外へ出す⑥が決め手を伸ばす",
+     "result": "④を中心に⑩⑯②⑥が圏内を争い、序盤に脚を使った逃げ勢は粘り比べになる"
+    },
+    "risers": [
+     2,
+     4,
+     6,
+     10,
+     15,
+     16
+    ],
+    "sinkers": [
+     1,
+     3,
+     8,
+     9,
+     14
+    ]
+   },
+   {
+    "id": "β",
+    "name": "先行競合・差し反転",
+    "tier": "対抗",
+    "prob": 0.36,
+    "trigger": "⑧⑪⑬が互いに譲らず、⑮⑯も外から位置を取りに行って向正面まで緩まない",
+    "pace_level": 0.9,
+    "contesters": [
+     8,
+     11,
+     13,
+     15,
+     16
+    ],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": -1,
+     "差し": 2,
+     "追込": 2
+    },
+    "formation_head": [
+     8,
+     13,
+     11
+    ],
+    "formation_last_corner": [
+     13,
+     11,
+     15,
+     16,
+     10,
+     4,
+     2
+    ],
+    "bias": "追走余力を残した中団差しと追込が優位",
+    "phase_flow": {
+     "early": "⑧⑪⑬が先頭を巡って脚を使い、⑮⑯も大外から前へ入ろうとして序盤が締まる",
+     "mid": "先行勢が息を入れにくく、②④⑥⑤⑦は中団以降で追走余力を温存する",
+     "late": "3角から前の手応えが鈍り、④⑥の地力と決め手を軸に②⑤⑦が外から差を詰める",
+     "result": "④⑥が中心、②⑤⑦が圏内へ浮上し、⑧⑪⑬⑮⑯は消耗度合いで着順を落とす"
+    },
+    "risers": [
+     2,
+     4,
+     5,
+     6,
+     7,
+     10,
+     12,
+     14
+    ],
+    "sinkers": [
+     3,
+     8,
+     11,
+     13,
+     15,
+     16
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "単騎先導・前残り",
+    "tier": "伏線",
+    "prob": 0.2,
+    "trigger": "⑬か⑧のどちらかが明確に先頭を取り、他の先行馬が無理に競らず1角までに縦長になる",
+    "pace_level": 0.48,
+    "contesters": [
+     8,
+     13
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 1,
+     "差し": 0,
+     "追込": -2
+    },
+    "formation_head": [
+     13,
+     8,
+     11
+    ],
+    "formation_last_corner": [
+     13,
+     8,
+     11,
+     16,
+     15,
+     10
+    ],
+    "bias": "前と好位が優位で後方勢は短い直線だけでは届きにくい",
+    "phase_flow": {
+     "early": "⑬が主張して⑧が控える形を基本に、⑪⑮⑯が無理なく番手列へ収まる",
+     "mid": "先頭が緩めて前が余力を温存し、後方の追込勢は仕掛けを待たされる",
+     "late": "⑬⑪⑯が先に加速し、⑩⑮と内で位置を取る②④が追う",
+     "result": "⑬⑪⑯⑩の前列が残り、④②が地力で割って入る。後方勢は展開待ちになる"
+    },
+    "risers": [
+     2,
+     4,
+     8,
+     10,
+     11,
+     13,
+     15,
+     16
+    ],
+    "sinkers": [
+     1,
+     5,
+     6,
+     7,
+     9,
+     14
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "当日芝の同条件レースで差しが連続して届けばβを本線へ。⑬または⑧が単騎で落ち着き、前半の芝で前残りが続けばγを対抗以上へ。⑮⑯が1角まで外を回されるならαでも両馬を一段下げる。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線",
+    "center": [
+     4,
+     10,
+     16
+    ],
+    "inside": [
+     2,
+     6,
+     15
+    ],
+    "spot": [
+     5,
+     7,
+     11,
+     12,
+     13
+    ],
+    "drop": [
+     1,
+     3,
+     8,
+     9,
+     14
+    ]
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗",
+    "center": [
+     2,
+     4,
+     6
+    ],
+    "inside": [
+     5,
+     7,
+     10,
+     12,
+     14
+    ],
+    "spot": [
+     1,
+     9
+    ],
+    "drop": [
+     3,
+     8,
+     11,
+     13,
+     15,
+     16
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線",
+    "center": [
+     10,
+     11,
+     13,
+     16
+    ],
+    "inside": [
+     2,
+     4,
+     8,
+     15
+    ],
+    "spot": [
+     3,
+     12
+    ],
+    "drop": [
+     1,
+     5,
+     6,
+     7,
+     9,
+     14
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "ボーンディスウェイ",
+   "jockey": "丸山 元気",
+   "trainer": "牧 光二",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 2,
+   "gate": "1",
+   "horse": "コントラポスト",
+   "jockey": "菊沢 一樹",
+   "trainer": "菊沢 隆徳",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 3,
+   "gate": "2",
+   "horse": "ショウナンマグマ",
+   "jockey": "三浦 皇成",
+   "trainer": "尾関 知人",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 4,
+   "gate": "2",
+   "horse": "カラマティアノス",
+   "jockey": "岩田 康誠",
+   "trainer": "奥村 武",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 5,
+   "gate": "3",
+   "horse": "オーロラエックス",
+   "jockey": "坂井 瑠星",
+   "trainer": "杉山 晴紀",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 6,
+   "gate": "3",
+   "horse": "マイネルモーント",
+   "jockey": "石川 裕紀人",
+   "trainer": "高木 登",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 7,
+   "gate": "4",
+   "horse": "メリオーレム",
+   "jockey": "M.デムーロ",
+   "trainer": "友道 康夫",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 8,
+   "gate": "4",
+   "horse": "クリスマスパレード",
+   "jockey": "杉原 誠人",
+   "trainer": "加藤 士津八",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 9,
+   "gate": "5",
+   "horse": "オニャンコポン",
+   "jockey": "吉田 豊",
+   "trainer": "小島 茂之",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 10,
+   "gate": "5",
+   "horse": "センツブラッド",
+   "jockey": "原 優介",
+   "trainer": "斉藤 崇史",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 11,
+   "gate": "6",
+   "horse": "アスクナイスショー",
+   "jockey": "田辺 裕信",
+   "trainer": "中舘 英二",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 12,
+   "gate": "6",
+   "horse": "リカンカブール",
+   "jockey": "荻野 極",
+   "trainer": "田中 克典",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 12,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 13,
+   "gate": "7",
+   "horse": "バトルボーン",
+   "jockey": "戸崎 圭太",
+   "trainer": "林 徹",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 13,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 14,
+   "gate": "7",
+   "horse": "オールナット",
+   "jockey": "西村 淳也",
+   "trainer": "高野 友和",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 14,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 15,
+   "gate": "8",
+   "horse": "ヤマニンブークリエ",
+   "jockey": "横山 典弘",
+   "trainer": "松永 幹夫",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 15,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 16,
+   "gate": "8",
+   "horse": "サヴォーナ",
+   "jockey": "池添 謙一",
+   "trainer": "中竹 和也",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 16,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

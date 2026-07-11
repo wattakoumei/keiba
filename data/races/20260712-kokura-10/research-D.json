@@ -1,0 +1,154 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "観点fan-outのCLI互換性エラーにより、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダノンカゼルタ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ショウナンハウル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝2000mへの実走適性または距離適性の裏付けが弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "プリズマジコ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉実績2000m13着＝小回り適性を実走で確認"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッピーダンチャン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝2000mは2角から下り、直線293mのため前で持続力を使える脚質は形状に合う"
+      ],
+      "cons": [
+        "[D] 近走はダートで、芝2000mへの条件替わりが大きい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "フォーチュンライド",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉実績2000m1着＝小回り適性を実走で確認",
+        "[D] 小倉芝2000mは2角から下り、直線293mのため前で持続力を使える脚質は形状に合う"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アスクエピソード",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝2000mへの実走適性または距離適性の裏付けが弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レイピカケ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コリカンチャ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝2000mへの実走適性または距離適性の裏付けが弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "オデット",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉実績1800m11着＝小回り適性を実走で確認",
+        "[D] 小倉芝2000mは2角から下り、直線293mのため前で持続力を使える脚質は形状に合う"
+      ],
+      "cons": [
+        "[D] 小倉芝2000mへの実走適性または距離適性の裏付けが弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャスティンガルフ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉実績2000m1着＝小回り適性を実走で確認",
+        "[D] 小倉芝2000mは2角から下り、直線293mのため前で持続力を使える脚質は形状に合う"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "オウケンボルト",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝2000mは2角から下り、直線293mのため前で持続力を使える脚質は形状に合う"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

@@ -31,6 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      # ビルド前ゲート: web が直読みする screening JSON の型崩れ（スキーマドリフト）を
+      # Astro の実行時クラッシュ（暗号めいたエラー）になる前に明示エラーで止める。
+      # report.json は書込時に validate_report.py でゲート済み（旧レポートに I2 レガシー
+      # 違反が残るため CI では回さない）。
+      - name: Validate screening data
+        run: python3 tools/validate_screening.py --all
       - name: Build with Astro
         uses: withastro/action@v3
         with:

@@ -1,0 +1,161 @@
+{
+  "point": "L",
+  "overall_confidence": "中",
+  "field_note": "並列調査環境の互換性エラーによりJRA公式seed・決定論ツール・静的カタログから縮退作成。全頭を同一基準で比較。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダカラフェスティヴ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジェイエルマスター",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リフレックス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[L]夏場または福島・小回り条件の実績が再現性を補強。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッスルダンク",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[L]夏場または福島・小回り条件の実績が再現性を補強。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ゲキザル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サトミノエンジェル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ティンティンデオ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "オンザライン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "チギリ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[L]夏場または福島・小回り条件の実績が再現性を補強。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "スマートケープ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[L]夏場または福島・小回り条件の実績が再現性を補強。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ドバイブルース",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[L]夏場または福島・小回り条件の実績が再現性を補強。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ],
+  "note": "追加の外部証拠は未取得。"
+}

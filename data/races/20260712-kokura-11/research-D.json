@@ -1,0 +1,173 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント停止のためJRA確定seedと決定論データで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "メルキオル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "最内からハナへ行けば距離損を抑えられる"
+      ],
+      "cons": [
+        "小倉の下り持続戦で近走の失速癖が出る懸念"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゴッドブルービー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700mで直近1着、2着、4着"
+      ],
+      "cons": [
+        "昇級で同じ位置から運べるかは未確定"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジンセイ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1600〜1800mで対応し距離幅は十分"
+      ],
+      "cons": [
+        "東京の長い直線から291mの短直線へ替わる"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サンライズアリオン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "先行力があり短い直線は合う余地"
+      ],
+      "cons": [
+        "7歳かつ休み明けで小回り加速への反応が不明"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スナークラファエロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "福島1700m3着で小回り適性を示す"
+      ],
+      "cons": [
+        "小倉の門司S8着は強調しづらい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レイナデアルシーラ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "福島1700m4着と小倉逃げ経験"
+      ],
+      "cons": [
+        "門司S逃げ12着で同舞台の再現性に不安"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "モンブランミノル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "先行〜差しで立ち回れる持続型"
+      ],
+      "cons": [
+        "小倉実績がなく長期休養明け"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウズイウン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1800m中心で1700m短縮は対応可能"
+      ],
+      "cons": [
+        "差し遅れになりやすい脚質と短直線の組合せ"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "シュラザック",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1900m重賞からの短縮で追走負荷は下がる"
+      ],
+      "cons": [
+        "先行できなければ外寄りで距離損"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フェルヴェンテ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "右回りダ1400mで末脚を使う"
+      ],
+      "cons": [
+        "1400mから300m延長で追走力と持続の両立が必要"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "モックモック",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "右回り1800mで安定し1700m短縮も守備範囲"
+      ],
+      "cons": [
+        "58kgで外を回すと短直線までに余力を削る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}

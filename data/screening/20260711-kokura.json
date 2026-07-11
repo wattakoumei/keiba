@@ -470,7 +470,7 @@
    "x_axis": null,
    "quadrant": "切り",
    "score": -1,
-   "x_conf": "逃げ先行0=自動切り"
+   "cut_reason": "逃げ先行0=自動切り"
   }
  ]
 }

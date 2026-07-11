@@ -1,0 +1,173 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント停止のためJRA確定seedと決定論データで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "メルキオル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "直近2走連続大敗の下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゴッドブルービー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジンセイ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サンライズアリオン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "7歳、前走大敗、約203日ぶりが重なる"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スナークラファエロ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レイナデアルシーラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "モンブランミノル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "約477日ぶりの長期休養明け"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウズイウン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "シュラザック",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フェルヴェンテ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "モックモック",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論で重大な追加リスクがない範囲"
+      ],
+      "cons": [
+        "明確な決定論リスクなし"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}

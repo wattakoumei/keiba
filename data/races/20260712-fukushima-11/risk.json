@@ -1,0 +1,188 @@
+{
+  "race_date": "2026-07-12",
+  "race_dist": 2000,
+  "note": "決定論I（非重量・コース非依存）の一次フラグ。obs-iがwebの実測で文脈上書き可（敗因が距離/展開なら割引）。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ボーンディスウェイ",
+      "flags": [
+        {
+          "tag": "old",
+          "delta": -0.5,
+          "note": "7歳=やや高齢"
+        },
+        {
+          "tag": "decline",
+          "delta": -0.5,
+          "note": "前走大敗（11/14）"
+        }
+      ],
+      "risk_delta": -1
+    },
+    {
+      "no": 2,
+      "name": "コントラポスト",
+      "flags": [],
+      "risk_delta": 0
+    },
+    {
+      "no": 3,
+      "name": "ショウナンマグマ",
+      "flags": [
+        {
+          "tag": "old",
+          "delta": -0.5,
+          "note": "7歳=やや高齢"
+        },
+        {
+          "tag": "decline",
+          "delta": -1,
+          "note": "直近2走連続大敗（前走12/13・前々走12/13）＝下降基調"
+        }
+      ],
+      "risk_delta": -1.5
+    },
+    {
+      "no": 4,
+      "name": "カラマティアノス",
+      "flags": [],
+      "risk_delta": 0
+    },
+    {
+      "no": 5,
+      "name": "オーロラエックス",
+      "flags": [],
+      "risk_delta": 0
+    },
+    {
+      "no": 6,
+      "name": "マイネルモーント",
+      "flags": [
+        {
+          "tag": "decline",
+          "delta": -0.5,
+          "note": "前走大敗（12/17）"
+        }
+      ],
+      "risk_delta": -0.5
+    },
+    {
+      "no": 7,
+      "name": "メリオーレム",
+      "flags": [
+        {
+          "tag": "decline",
+          "delta": -0.5,
+          "note": "前走大敗（10/13）"
+        }
+      ],
+      "risk_delta": -0.5
+    },
+    {
+      "no": 8,
+      "name": "クリスマスパレード",
+      "flags": [
+        {
+          "tag": "decline",
+          "delta": -1,
+          "note": "直近2走連続大敗（前走15/15・前々走16/18）＝下降基調"
+        }
+      ],
+      "risk_delta": -1
+    },
+    {
+      "no": 9,
+      "name": "オニャンコポン",
+      "flags": [
+        {
+          "tag": "old",
+          "delta": -0.5,
+          "note": "7歳=やや高齢"
+        },
+        {
+          "tag": "decline",
+          "delta": -1,
+          "note": "直近2走連続大敗（前走12/15・前々走15/17）＝下降基調"
+        }
+      ],
+      "risk_delta": -1.5
+    },
+    {
+      "no": 10,
+      "name": "センツブラッド",
+      "flags": [],
+      "risk_delta": 0
+    },
+    {
+      "no": 11,
+      "name": "アスクナイスショー",
+      "flags": [
+        {
+          "tag": "decline",
+          "delta": -0.5,
+          "note": "前走大敗（10/15）"
+        }
+      ],
+      "risk_delta": -0.5
+    },
+    {
+      "no": 12,
+      "name": "リカンカブール",
+      "flags": [
+        {
+          "tag": "old",
+          "delta": -0.5,
+          "note": "7歳=やや高齢"
+        },
+        {
+          "tag": "layoff",
+          "delta": -0.5,
+          "note": "前走から140日＝休み明け"
+        }
+      ],
+      "risk_delta": -1
+    },
+    {
+      "no": 13,
+      "name": "バトルボーン",
+      "flags": [
+        {
+          "tag": "old",
+          "delta": -0.5,
+          "note": "7歳=やや高齢"
+        }
+      ],
+      "risk_delta": -0.5
+    },
+    {
+      "no": 14,
+      "name": "オールナット",
+      "flags": [
+        {
+          "tag": "decline",
+          "delta": -1,
+          "note": "直近2走連続大敗（前走13/13・前々走10/14）＝下降基調"
+        },
+        {
+          "tag": "layoff",
+          "delta": -0.5,
+          "note": "前走から175日＝休み明け"
+        }
+      ],
+      "risk_delta": -1.5
+    },
+    {
+      "no": 15,
+      "name": "ヤマニンブークリエ",
+      "flags": [],
+      "risk_delta": 0
+    },
+    {
+      "no": 16,
+      "name": "サヴォーナ",
+      "flags": [],
+      "risk_delta": 0
+    }
+  ]
+}

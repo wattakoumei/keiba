@@ -1,0 +1,191 @@
+{
+  "point": "G",
+  "lens": "ローテ・状態推移",
+  "race": "20260712-hakodate-11 巴賞",
+  "overall_confidence": "低",
+  "field_note": "並列CLI停止のため、JRA公式seed・静的コース形状・決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "pros": [
+        "[G]中4週で前走2着の状態を維持しやすい。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "pros": [
+        "[G]エプソムC 7着・1:45.7・上がり33.7を加点材料とする。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "pros": [
+        "[G]アハルテケS 9着・1:36.5・上がり37.8を加点材料とする。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "pros": [
+        "[G]エプソムC 16着・1:46.4・上がり34.7を加点材料とする。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "pros": [],
+      "cons": [
+        "[G]前走から162日で休み明け。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "pros": [],
+      "cons": [
+        "[G]前走から約323日の長期休養明け。"
+      ],
+      "score": -2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "pros": [],
+      "cons": [
+        "[G]中山牝馬S 16着・1:48.9・上がり36.8から割引。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "pros": [],
+      "cons": [
+        "[G]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    }
+  ]
+}

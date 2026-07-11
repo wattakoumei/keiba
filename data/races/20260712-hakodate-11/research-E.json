@@ -1,0 +1,225 @@
+{
+  "observation": "E. 展開証拠",
+  "race_id": "20260712-hakodate-11",
+  "race": "巴賞 函館芝1800m 14頭",
+  "overall_confidence": "中",
+  "course_note": "函館芝1800は小回り・短直線。内の前受けが位置損を抑えやすい。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "note": "近走1角 6/3/5/3。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "note": "近走1角 10/6/10/12。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "note": "近走1角 1/5/4/5。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "note": "近走1角 3/3/10/5。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "note": "近走1角 17/7/8/11。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "note": "近走1角 2/4/8/8。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "note": "近走1角 15/16/13。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "ハナ",
+      "note": "近走1角 1/1/2/2。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "note": "近走1角 3/4/8/12。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "note": "近走1角 4/4/11/8。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "note": "近走1角 6/3/11/11。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "note": "近走1角 8/10/2/2。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "note": "近走1角 2/4/2/8。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "note": "近走1角 12/5/5/2。JRA公式seedに基づく縮退判定。",
+      "confidence": "中"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 8,
+      "stance": "逃げ脚質・テン速で主導権の中心。"
+    },
+    {
+      "no": 3,
+      "stance": "前走逃げて2着で、内から競る可能性。"
+    },
+    {
+      "no": 4,
+      "stance": "内枠の先行馬で番手圧力。"
+    },
+    {
+      "no": 9,
+      "stance": "好位から早めに進出可能。"
+    },
+    {
+      "no": 10,
+      "stance": "芝戻りで前へ出ると先団圧力が増す。"
+    },
+    {
+      "no": 13,
+      "stance": "外から先行すると序盤負荷を上げる。"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "1枠。内で距離損を抑えやすい。"
+    },
+    {
+      "no": 2,
+      "note": "2枠。内で距離損を抑えやすい。"
+    },
+    {
+      "no": 3,
+      "note": "3枠。内で距離損を抑えやすい。"
+    },
+    {
+      "no": 4,
+      "note": "3枠。内で距離損を抑えやすい。"
+    },
+    {
+      "no": 5,
+      "note": "4枠。内で距離損を抑えやすい。"
+    },
+    {
+      "no": 6,
+      "note": "4枠。内で距離損を抑えやすい。"
+    },
+    {
+      "no": 7,
+      "note": "5枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 8,
+      "note": "5枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 9,
+      "note": "6枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 10,
+      "note": "6枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 11,
+      "note": "7枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 12,
+      "note": "7枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 13,
+      "note": "8枠。外寄りは初角までの進路取りが鍵。"
+    },
+    {
+      "no": 14,
+      "note": "8枠。外寄りは初角までの進路取りが鍵。"
+    }
+  ],
+  "h2h_facts": [],
+  "field_note": "⑧が主導。③④⑨が近く、⑩⑬まで前へ出ると差し台頭。⑧が楽なら前残り。",
+  "sources": [
+    "data/races/20260712-hakodate-11/seed.json",
+    ".claude/skills/analyze-race/references/course-geometry.md"
+  ]
+}

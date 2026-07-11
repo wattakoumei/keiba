@@ -1,0 +1,219 @@
+{
+  "point": "C",
+  "lens": "血統適性",
+  "race": "20260712-hakodate-11 巴賞",
+  "overall_confidence": "低",
+  "field_note": "並列CLI停止のため、JRA公式seed・静的コース形状・決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "pros": [
+        "[C]父Saxon Warrior、母父Siyouniの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "pros": [
+        "[C]父サトノクラウン、母父ディープインパクトの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "pros": [
+        "[C]父ブラックタイド、母父ブライアンズタイムの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "pros": [
+        "[C]父スクリーンヒーロー、母父Langfuhrの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "pros": [
+        "[C]父グレーターロンドン、母父ルーラーシップの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "pros": [
+        "[C]父サトノアラジン、母父アフリートの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "pros": [
+        "[C]父シルバーステート、母父ティンバーカントリーの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "pros": [
+        "[C]父ファインニードル、母父Diktatの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "pros": [
+        "[C]父スワーヴリチャード、母父Shamardalの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "pros": [
+        "[C]父サトノクラウン、母父マンハッタンカフェの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "pros": [
+        "[C]父バゴ、母父ディープインパクトの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "pros": [
+        "[C]父ジャスタウェイ、母父Coronado's Questの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "pros": [
+        "[C]父スクリーンヒーロー、母父ボストンハーバーの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "pros": [
+        "[C]父スクリーンヒーロー、母父アグネスデジタルの構成を芝1800の持続戦材料として評価。"
+      ],
+      "cons": [
+        "[C]外部血統調査なしのため確信度は低い。"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    }
+  ]
+}

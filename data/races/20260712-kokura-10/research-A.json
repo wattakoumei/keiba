@@ -1,0 +1,166 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "観点fan-outのCLI互換性エラーにより、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダノンカゼルタ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は1:58.9（京都、5着）で、走破時計と終盤を同時比較",
+        "[A] 近4走の最速上がり33.9秒＝終盤の決め手は上位"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ショウナンハウル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は2:01.0（阪神、6着）で、走破時計と終盤を同時比較"
+      ],
+      "cons": [
+        "[A] 今回と同距離の走破内容または終盤の数値が上位組に見劣る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "プリズマジコ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は1:59.4（中京、4着）で、走破時計と終盤を同時比較",
+        "[A] 近4走の最速上がり33.8秒＝終盤の決め手は上位"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッピーダンチャン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走に芝2000mの走破時計がなく、近距離実績からの推定"
+      ],
+      "cons": [
+        "[A] 今回と同距離の走破内容または終盤の数値が上位組に見劣る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "フォーチュンライド",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は1:59.8（小倉、1着）で、走破時計と終盤を同時比較"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アスクエピソード",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走に芝2000mの走破時計がなく、近距離実績からの推定",
+        "[A] 近4走の最速上がり33.6秒＝終盤の決め手は上位"
+      ],
+      "cons": [
+        "[A] 今回と同距離の走破内容または終盤の数値が上位組に見劣る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レイピカケ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は1:57.7（福島、6着）で、走破時計と終盤を同時比較"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コリカンチャ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走に芝2000mの走破時計がなく、近距離実績からの推定",
+        "[A] 近4走の最速上がり33.5秒＝終盤の決め手は上位"
+      ],
+      "cons": [
+        "[A] 今回と同距離の走破内容または終盤の数値が上位組に見劣る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "オデット",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は1:58.8（福島、12着）で、走破時計と終盤を同時比較"
+      ],
+      "cons": [
+        "[A] 今回と同距離の走破内容または終盤の数値が上位組に見劣る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャスティンガルフ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走の芝2000m最速は1:59.4（中京、6着）で、走破時計と終盤を同時比較",
+        "[A] 近4走の最速上がり34秒＝終盤の決め手は上位"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "オウケンボルト",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近4走に芝2000mの走破時計がなく、近距離実績からの推定"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

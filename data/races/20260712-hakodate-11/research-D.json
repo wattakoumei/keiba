@@ -1,0 +1,193 @@
+{
+  "point": "D",
+  "lens": "コース・距離適性",
+  "race": "20260712-hakodate-11 巴賞",
+  "overall_confidence": "低",
+  "field_note": "並列CLI停止のため、JRA公式seed・静的コース形状・決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "エラトー",
+      "pros": [
+        "[D]福島牝馬S 13着・1:46.9・上がり35.4を加点材料とする。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "パレハ",
+      "pros": [
+        "[D]福島牝馬S 9着・1:46.1・上がり34.5を加点材料とする。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "タシット",
+      "pros": [
+        "[D]3番の内枠と前受け可能な脚質で、小回りの位置損を抑えやすい。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "シルトホルン",
+      "pros": [
+        "[D]4番の内枠と前受け可能な脚質で、小回りの位置損を抑えやすい。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "キョウエイブリッサ",
+      "pros": [],
+      "cons": [
+        "[D]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レディントン",
+      "pros": [],
+      "cons": [
+        "[D]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "エエヤン",
+      "pros": [],
+      "cons": [
+        "[D]ダービーCT 12着・1:34.7・上がり35.6から割引。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ストレイトトーカー",
+      "pros": [
+        "[D]明確な逃げ脚質で短い直線を位置差に替えられる。"
+      ],
+      "cons": [
+        "[D]同型の前付けが多く、息を入れられない形は不利。"
+      ],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "レディネス",
+      "pros": [
+        "[D]白富士S 4着・1:57.5・上がり33.8を加点材料とする。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴーレヴー",
+      "pros": [],
+      "cons": [
+        "[D]seedだけでは強い加減点を置けない。"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "パトリックハンサム",
+      "pros": [],
+      "cons": [
+        "[D]11番の外寄り・後方想定で3角までの位置差が課題。"
+      ],
+      "score": -2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レディーヴァリュー",
+      "pros": [],
+      "cons": [
+        "[D]12番の外寄り・後方想定で3角までの位置差が課題。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウインシュクラン",
+      "pros": [],
+      "cons": [
+        "[D]福島民報杯 15着・2:40.2から割引。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "リラボニート",
+      "pros": [],
+      "cons": [
+        "[D]14番の外寄り・後方想定で3角までの位置差が課題。"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-hakodate-11/seed.json"
+      ]
+    }
+  ]
+}

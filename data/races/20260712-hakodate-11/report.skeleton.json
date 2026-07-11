@@ -1,0 +1,1017 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260712-hakodate-11",
+ "race_name": "",
+ "edition": "",
+ "race_no": 11,
+ "grade": "",
+ "date": "2026-07-12",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 1800,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 14,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "G",
+  "I",
+  "K",
+  "L"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "エラトー",
+    "jockey": "北村 友一",
+    "trainer": "上村 洋行",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "パレハ",
+    "jockey": "佐々木 大輔",
+    "trainer": "新谷 功一",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "タシット",
+    "jockey": "横山 琉人",
+    "trainer": "中川 公成",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 4,
+    "horse": "シルトホルン",
+    "jockey": "丹内 祐次",
+    "trainer": "新開 幸一",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 5,
+    "horse": "キョウエイブリッサ",
+    "jockey": "浜中 俊",
+    "trainer": "武市 康男",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 6,
+    "horse": "レディントン",
+    "jockey": "小沢 大仁",
+    "trainer": "杉山 晴紀",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 7,
+    "horse": "エエヤン",
+    "jockey": "古川 吉洋",
+    "trainer": "伊藤 大士",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 8,
+    "horse": "ストレイトトーカー",
+    "jockey": "横山 武史",
+    "trainer": "岩戸 孝樹",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 9,
+    "horse": "レディネス",
+    "jockey": "横山 和生",
+    "trainer": "昆 貢",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 10,
+    "horse": "ヴーレヴー",
+    "jockey": "吉田 隼人",
+    "trainer": "武 幸四郎",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 11,
+    "horse": "パトリックハンサム",
+    "jockey": "斎藤 新",
+    "trainer": "柄崎 将寿",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 12,
+    "horse": "レディーヴァリュー",
+    "jockey": "武 豊",
+    "trainer": "小林 真也",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 13,
+    "horse": "ウインシュクラン",
+    "jockey": "黛 弘人",
+    "trainer": "和田 正一郎",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 14,
+    "horse": "リラボニート",
+    "jockey": "鮫島 克駿",
+    "trainer": "須貝 尚介",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "好位持続",
+    "tier": "本線",
+    "prob": 0.43,
+    "trigger": "⑧が主導し、③④⑨が競らず好位で折り合う",
+    "pace_level": 0.52,
+    "contesters": [
+     8,
+     3,
+     4,
+     9
+    ],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 2,
+     "差し": 0,
+     "追込": -2
+    },
+    "formation_head": [
+     8,
+     3,
+     4,
+     9
+    ],
+    "formation_last_corner": [
+     8,
+     3,
+     4,
+     9,
+     10,
+     1
+    ],
+    "bias": "小回りの位置差を保ち、好位の地力上位が持続する。",
+    "phase_flow": {
+     "early": "⑧が先手を取り、③④⑨が直後で距離損を抑える。",
+     "mid": "⑧が極端には緩めず、好位勢が追走力で隊列を維持する。",
+     "late": "④⑨が早めに⑧へ並び、③が内で粘る。",
+     "result": "④⑨が中心で③⑧が続き、中団の①⑭は届く範囲が限られる。"
+    },
+    "risers": [
+     1,
+     3,
+     4,
+     8,
+     9,
+     10
+    ],
+    "sinkers": [
+     6,
+     7,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "id": "β",
+    "name": "先団消耗で差し浮上",
+    "tier": "対抗",
+    "prob": 0.35,
+    "trigger": "③が⑧に譲らず、④⑨⑩⑬も前へ寄せる",
+    "pace_level": 0.69,
+    "contesters": [
+     8,
+     3,
+     4,
+     9,
+     10,
+     13
+    ],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": -1,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     8,
+     3,
+     13,
+     4
+    ],
+    "formation_last_corner": [
+     8,
+     4,
+     9,
+     3,
+     14,
+     2,
+     5
+    ],
+    "bias": "先団の余力が削られ、内中団と早め差しが浮上する。",
+    "phase_flow": {
+     "early": "⑧に③⑬が寄せ、④⑨⑩も位置確保に脚を使う。",
+     "mid": "息が入り切らず、先団の追走負担が蓄積する。",
+     "late": "⑭②⑤が外と内から進出し、④⑨は地力で抵抗する。",
+     "result": "⑭②が浮上し、④⑨が残り目。⑤①も展開が向けば圏内へ入る。"
+    },
+    "risers": [
+     1,
+     2,
+     4,
+     5,
+     9,
+     11,
+     12,
+     14
+    ],
+    "sinkers": [
+     3,
+     8,
+     10,
+     13
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "⑧単騎スロー",
+    "tier": "伏線",
+    "prob": 0.22,
+    "trigger": "③が控え、④⑨も番手で折り合って⑧が単騎",
+    "pace_level": 0.36,
+    "contesters": [
+     8
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 2,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     8,
+     4,
+     9,
+     3
+    ],
+    "formation_last_corner": [
+     8,
+     4,
+     9,
+     3,
+     10
+    ],
+    "bias": "直線入口の位置差が残り、前受け勢が優位。",
+    "phase_flow": {
+     "early": "⑧が競られず先手を取り、④⑨③が直後で折り合う。",
+     "mid": "隊列が落ち着き、前受け勢が余力を温存する。",
+     "late": "⑧が先に加速し、④⑨が直後から追う。",
+     "result": "⑧④⑨が中心で③⑩が続き、後方勢は展開待ち。"
+    },
+    "risers": [
+     3,
+     4,
+     6,
+     8,
+     9,
+     10,
+     13
+    ],
+    "sinkers": [
+     2,
+     5,
+     7,
+     11,
+     12,
+     14
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "函館2R・5R・9Rで外差しが連続すればβを本線へ。内前が残り続ければγを対抗へ。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線",
+    "center": [
+     3,
+     4,
+     9
+    ],
+    "inside": [
+     1,
+     8,
+     10
+    ],
+    "spot": [
+     2,
+     5,
+     14
+    ],
+    "drop": [
+     6,
+     7,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗",
+    "center": [
+     2,
+     14
+    ],
+    "inside": [
+     1,
+     4,
+     5,
+     9,
+     11,
+     12
+    ],
+    "spot": [
+     6,
+     7
+    ],
+    "drop": [
+     3,
+     8,
+     10,
+     13
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線",
+    "center": [
+     4,
+     8,
+     9
+    ],
+    "inside": [
+     3,
+     6,
+     10,
+     13
+    ],
+    "spot": [
+     1
+    ],
+    "drop": [
+     2,
+     5,
+     7,
+     11,
+     12,
+     14
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 4,
+   "gate": "3",
+   "horse": "シルトホルン",
+   "jockey": "丹内 祐次",
+   "trainer": "新開 幸一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]重賞・オープンで1分45秒台を反復し、持続力が安定。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]福島民報杯3着、小倉大賞典5着、エプソムC7着で相手なりに安定。"
+    },
+    {
+     "tag": "C",
+     "note": "[C]父スクリーンヒーロー、母父Langfuhrの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]4番の内枠と前受け可能な脚質で、小回りの位置損を抑えやすい。"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "タシット",
+   "jockey": "横山 琉人",
+   "trainer": "中川 公成",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]前走東京1800で2着、上がり34秒2。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は逃げて2着まで粘り、近況が上向き。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]3番の内枠と前受け可能な脚質で、小回りの位置損を抑えやすい。"
+    },
+    {
+     "tag": "G",
+     "note": "[G]中4週で前走2着の状態を維持しやすい。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]7歳を一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "6",
+   "horse": "レディネス",
+   "jockey": "横山 和生",
+   "trainer": "昆 貢",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]元町Sを1分44秒7、上がり33秒1で勝っており速力上位。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]3勝級勝ち後、白富士S4着でオープン適応を示した。"
+    },
+    {
+     "tag": "C",
+     "note": "[C]父スワーヴリチャード、母父Shamardalの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]白富士S 4着・1:57.5・上がり33.8を加点材料とする。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "G",
+     "note": "[G]前走から162日で休み明け。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]休み明けを一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "gate": "5",
+   "horse": "ストレイトトーカー",
+   "jockey": "横山 武史",
+   "trainer": "岩戸 孝樹",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]エプソムC 16着・1:46.4・上がり34.7を加点材料とする。"
+    },
+    {
+     "tag": "C",
+     "note": "[C]父ファインニードル、母父Diktatの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]明確な逃げ脚質で短い直線を位置差に替えられる。"
+    },
+    {
+     "tag": "G",
+     "note": "[G]エプソムC 16着・1:46.4・上がり34.7を加点材料とする。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]前走大敗を一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "パレハ",
+   "jockey": "佐々木 大輔",
+   "trainer": "新谷 功一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]福島牝馬S 9着・1:46.1・上がり34.5を加点材料とする。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]福島牝馬S 9着・1:46.1・上がり34.5を加点材料とする。"
+    },
+    {
+     "tag": "C",
+     "note": "[C]父サトノクラウン、母父ディープインパクトの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]福島牝馬S 9着・1:46.1・上がり34.5を加点材料とする。"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 14,
+   "gate": "8",
+   "horse": "リラボニート",
+   "jockey": "鮫島 克駿",
+   "trainer": "須貝 尚介",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]近走で上がり33秒3を記録し、終盤の決め手がある。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]洛陽S3着、ターコイズS2着の実績。"
+    },
+    {
+     "tag": "C",
+     "note": "[C]父スクリーンヒーロー、母父アグネスデジタルの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "K",
+     "note": "[K]前走田山 旺佑騎手から鮫島 克駿騎手へ交代。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "D",
+     "note": "[D]14番の外寄り・後方想定で3角までの位置差が課題。"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "4",
+   "horse": "キョウエイブリッサ",
+   "jockey": "浜中 俊",
+   "trainer": "武市 康男",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]マイラーズC 10着・1:32.1・上がり32.8を加点材料とする。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]マイラーズC 10着・1:32.1・上がり32.8を加点材料とする。"
+    },
+    {
+     "tag": "C",
+     "note": "[C]父グレーターロンドン、母父ルーラーシップの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "K",
+     "note": "[K]前走田山 旺佑騎手から浜中 俊騎手へ交代。"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "エラトー",
+   "jockey": "北村 友一",
+   "trainer": "上村 洋行",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "○",
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C]父Saxon Warrior、母父Siyouniの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]福島牝馬S 13着・1:46.9・上がり35.4を加点材料とする。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B]福島牝馬S 13着・1:46.9・上がり35.4から割引。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]直近2走連続大敗を一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "gate": "6",
+   "horse": "ヴーレヴー",
+   "jockey": "吉田 隼人",
+   "trainer": "武 幸四郎",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C]父サトノクラウン、母父マンハッタンカフェの構成を芝1800の持続戦材料として評価。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B]ポラリスS 16着・1:25.4・上がり39.5から割引。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]直近2走連続大敗を一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "4",
+   "horse": "レディントン",
+   "jockey": "小沢 大仁",
+   "trainer": "杉山 晴紀",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "G",
+     "note": "[G]アハルテケS 9着・1:36.5・上がり37.8を加点材料とする。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]アハルテケS 9着・1:36.5・上がり37.8から割引。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]アハルテケS 9着・1:36.5・上がり37.8から割引。"
+    },
+    {
+     "tag": "L",
+     "note": "[L]外部の過去開催照合なし。"
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "gate": "7",
+   "horse": "レディーヴァリュー",
+   "jockey": "武 豊",
+   "trainer": "小林 真也",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "[C]父ジャスタウェイ、母父Coronado's Questの構成を芝1800の持続戦材料として評価。"
+    },
+    {
+     "tag": "K",
+     "note": "[K]前走団野 大成騎手から武 豊騎手へ交代。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]中山牝馬S 16着・1:48.9・上がり36.8から割引。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]中山牝馬S 16着・1:48.9・上がり36.8から割引。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]12番の外寄り・後方想定で3角までの位置差が課題。"
+    },
+    {
+     "tag": "G",
+     "note": "[G]中山牝馬S 16着・1:48.9・上がり36.8から割引。"
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "gate": "7",
+   "horse": "パトリックハンサム",
+   "jockey": "斎藤 新",
+   "trainer": "柄崎 将寿",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 12,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "L",
+     "note": "[L]前年函館芝1800の出走歴がある。"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]WASJ2 1着・2:02.1・上がり36.5から割引。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]11番の外寄り・後方想定で3角までの位置差が課題。"
+    },
+    {
+     "tag": "G",
+     "note": "[G]前走から約323日の長期休養明け。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]7歳かつ長期休養明けを一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "5",
+   "horse": "エエヤン",
+   "jockey": "古川 吉洋",
+   "trainer": "伊藤 大士",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 13,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]ダービーCT 12着・1:34.7・上がり35.6から割引。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]ダービーCT 12着・1:34.7・上がり35.6から割引。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]ダービーCT 12着・1:34.7・上がり35.6から割引。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]直近2走連続大敗と59kgを一次リスクとして扱う。"
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "gate": "8",
+   "horse": "ウインシュクラン",
+   "jockey": "黛 弘人",
+   "trainer": "和田 正一郎",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 14,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走の走破値はseed解析異常を含み、平地近況の信頼性が低い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]福島民報杯 15着・2:40.2から割引。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]福島民報杯 15着・2:40.2から割引。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]8歳かつ前走大敗を一次リスクとして扱う。"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

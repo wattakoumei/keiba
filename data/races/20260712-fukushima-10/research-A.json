@@ -1,0 +1,171 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "並列調査環境の互換性エラーによりJRA公式seed・決定論ツール・静的カタログから縮退作成。全頭を同一基準で比較。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダカラフェスティヴ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジェイエルマスター",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A]近走時計の比較では上位との差がある。2026-05-24 東京2100m 9着 / 2026-01-31 東京1600m 7着 / 2025-12-28 中山1800m 1着 / 2025-11-29 東京2100m 3着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リフレックス",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A]近走時計と末脚の比較で同組上位。2026-06-27 福島1700m 1着 / 2026-05-03 東京1400m 1着 / 2026-02-21 東京1400m 3着 / 2026-02-07 東京1400m 4着"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッスルダンク",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A]近走時計の比較では上位との差がある。2026-03-07 中山1800m 11着 / 2026-01-17 中山1800m 4着 / 2025-08-16 札幌1700m 5着 / 2025-04-19 中山1800m 9着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ゲキザル",
+      "score": -2,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A]近走時計の比較では上位との差がある。2026-07-04 福島1150m 8着 / 2026-05-03 京都1400m 9着 / 2026-02-28 中山1200m 14着 / 2026-01-12 中山1200m 8着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サトミノエンジェル",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A]近走時計と末脚の比較で同組上位。2026-04-18 中山1800m 8着 / 2026-02-21 阪神1800m 1着 / 2026-01-11 中山1800m 1着 / 2025-12-21 中山1800m 2着"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ティンティンデオ",
+      "score": -2,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A]近走時計の比較では上位との差がある。2026-06-21 阪神1800m 16着 / 2025-03-29 中京1800m 1着 / 2025-03-09 阪神1800m 8着 / 2025-01-06 中京1800m 1着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "オンザライン",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A]近走時計と末脚の比較で同組上位。2026-05-10 東京1600m 13着 / 2026-04-18 中山1800m 3着 / 2026-02-15 京都1800m 6着 / 2026-01-12 京都1800m 13着"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "チギリ",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A]近走時計と末脚の比較で同組上位。2026-06-14 函館1700m 1着 / 2026-05-16 東京1600m 1着 / 2026-04-25 福島1700m 4着 / 2026-04-12 福島1700m 3着"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "スマートケープ",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A]近走時計の比較では上位との差がある。2026-05-30 京都1800m 16着 / 2025-08-16 札幌1700m 11着 / 2025-08-02 札幌1700m 1着 / 2025-07-05 福島1700m 2着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ドバイブルース",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A]近走時計と末脚の比較で同組上位。2026-06-28 福島1700m 3着 / 2026-04-18 中山1800m 4着 / 2026-03-07 中山1800m 3着 / 2025-12-21 中山1800m 8着"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ],
+  "note": "追加の外部証拠は未取得。"
+}

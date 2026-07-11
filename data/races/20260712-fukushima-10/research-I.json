@@ -1,0 +1,163 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "並列調査環境の互換性エラーによりJRA公式seed・決定論ツール・静的カタログから縮退作成。全頭を同一基準で比較。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダカラフェスティヴ",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I]決定論リスクに下降・高齢・休み明けのいずれかが点灯し、上積みを慎重に評価。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジェイエルマスター",
+      "score": 0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リフレックス",
+      "score": 0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッスルダンク",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I]決定論リスクに下降・高齢・休み明けのいずれかが点灯し、上積みを慎重に評価。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ゲキザル",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I]決定論リスクに下降・高齢・休み明けのいずれかが点灯し、上積みを慎重に評価。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "サトミノエンジェル",
+      "score": 0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ティンティンデオ",
+      "score": -0.5,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I]決定論リスクに下降・高齢・休み明けのいずれかが点灯し、上積みを慎重に評価。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "オンザライン",
+      "score": -1.5,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I]決定論リスクに下降・高齢・休み明けのいずれかが点灯し、上積みを慎重に評価。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "チギリ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "スマートケープ",
+      "score": -1,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[I]決定論リスクに下降・高齢・休み明けのいずれかが点灯し、上積みを慎重に評価。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ドバイブルース",
+      "score": 0,
+      "confidence": "高",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ],
+  "note": "追加の外部証拠は未取得。"
+}

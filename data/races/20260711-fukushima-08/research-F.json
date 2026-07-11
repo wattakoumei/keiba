@@ -1,0 +1,117 @@
+{
+  "observation_point": "F",
+  "label": "調教・厩舎仕上げ",
+  "race_id": "20260711-fukushima-08",
+  "seed_used": false,
+  "seed_note": "fetch_oikiri.py seed は空配列（該当レース出走馬が今週の好時計ランキング上位に不掲載）。全頭 web 調査で代替。",
+  "stable_intent_catalog_used": false,
+  "stable_intent_note": "厩舎の勝負気配傾向カタログは該当厩舎なし（空）。intent は普段基準との差分でなく、今回1本の観測値のみで generic に評価＝確信度を下げて扱った。",
+  "generated_at": "2026-07-11",
+  "horses": [
+    {
+      "no": 1, "name": "ゼファーテソーロ", "score": 0, "confidence": "低",
+      "pros": [],
+      "cons": ["[F] netkeiba追い切り欄・yosounohone双方に掲載なし＝時計/評価未取得。判断材料なし"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 2, "name": "ハルノアラシ", "score": 0, "confidence": "中",
+      "pros": ["[F] 07/08美浦ウッド良、助手騎乗、4F84.2-65.9-50.6-36.3-11.8、内枠仕掛、ラスト1F11.8秒は絶対時計としては速い"],
+      "cons": ["[F] netkeiba評価は文字ランクなし・コメント「変わらず」＝媒体側も普段並みと判定（好時計だが調教駆けの疑いを割引）", "[F] 主戦騎手でなく助手騎乗＝ルーティン調教の域"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508&type=2&rf=shutuba_submenu"]
+    },
+    {
+      "no": 3, "name": "チェルシー", "score": 1, "confidence": "中",
+      "pros": ["[F] 07/08美浦坂路良、4F54.9(14.5-14.2-13.6-12.6)を馬なりで消化、ラスト1F12.6秒＝余力目安ちょうど、コメント「余力有り」"],
+      "cons": ["[F] 助手騎乗＝ルーティン調教、文字評価ランクなし（B/C等の格付け非掲載）"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508&type=2&rf=shutuba_submenu"]
+    },
+    {
+      "no": 4, "name": "イズルード", "score": 1, "confidence": "低",
+      "pros": ["[F] netkeibaコメント「遅れ上々」＝併せで後方に置かれた位置取りながら終いの動きは上々と評価"],
+      "cons": ["[F] 文字評価ランク非掲載・時計詳細は有料域で未取得"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 5, "name": "ダノンリュラ", "score": 1, "confidence": "中",
+      "pros": ["[F] netkeiba評価B、コメント「気配上々」＝仕上げの気配良好"],
+      "cons": ["[F] 時計詳細は有料域で未取得、単独評価のみ"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 6, "name": "ラエトゥス", "score": -1, "confidence": "中",
+      "pros": [],
+      "cons": ["[F] netkeiba評価C、コメント「目立たず」＝この週の追い切りでは平凡評価"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 7, "name": "フラッシュポイント", "score": 1, "confidence": "中",
+      "pros": ["[F] netkeiba評価B、コメント「伸び上々」＝終いの伸びを個別に評価（追込脚質に適う好材料）"],
+      "cons": ["[F] 時計詳細は有料域で未取得"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 8, "name": "アイファーリーベン", "score": -1, "confidence": "中",
+      "pros": [],
+      "cons": ["[F] netkeiba評価D（当該レース最低評価タイ）、コメント「いま一息」＝仕上げ不足の評価", "[F] 同厩舎(的場均)の13番エーティータキオンも同時にD評価＝当該週の厩舎の仕上げが総じて重くない可能性（下記「厩舎傾向の追記候補」参照）"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 9, "name": "グラティアム", "score": 1, "confidence": "高",
+      "pros": ["[F] netkeiba評価B、コメント「仕上上々」", "[F] yosounohone（競馬予想のホネ）も美浦坂路で★★（当レース掲載3頭の一角）＝2媒体一致で好評価"],
+      "cons": ["[F] 具体時計は両媒体とも非掲載"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508", "https://www.yosounohone.com/entry/fukushima-2026-7-11"]
+    },
+    {
+      "no": 10, "name": "ミッシオーネ", "score": 1, "confidence": "中",
+      "pros": ["[F] yosounohone美浦坂路★★＝当レース個別言及3頭の一角（16頭中で名指しされること自体が一定の注目材料）"],
+      "cons": ["[F] netkeiba評価はC「まずまず」＝媒体間でやや温度差（星評価と文字評価が完全一致せず、確信度を下げて中間評価に）"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508", "https://www.yosounohone.com/entry/fukushima-2026-7-11"]
+    },
+    {
+      "no": 11, "name": "ブーケドリス", "score": 1, "confidence": "中",
+      "pros": ["[F] netkeiba評価B、コメント「素軽い」＝軽快な動き。当レース唯一の逃げ想定馬でありハナ主張の実行力を裏付ける仕上がり"],
+      "cons": ["[F] 時計詳細は有料域で未取得"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 12, "name": "ライヴレッドアイ", "score": 1, "confidence": "低",
+      "pros": ["[F] netkeiba評価B、コメント「動き軽快」"],
+      "cons": ["[F] 「動き軽快」は12・14・15番で文言が同一＝定型コメントの疑いがあり差別化力が低い（好材料としての重みを割引）"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 13, "name": "エーティータキオン", "score": -1, "confidence": "中",
+      "pros": [],
+      "cons": ["[F] netkeiba評価D（当該レース最低評価タイ）、コメント「動き平凡」", "[F] 同厩舎(的場均)の8番アイファーリーベンも同時にD評価＝厩舎傾向の追記候補（下記参照）"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 14, "name": "ジェイエルキャリア", "score": 1, "confidence": "低",
+      "pros": ["[F] netkeiba評価B、コメント「動き軽快」"],
+      "cons": ["[F] 「動き軽快」は12・14・15番で文言が同一＝定型コメントの疑いがあり差別化力が低い"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 15, "name": "マサノピンクレディ", "score": 1, "confidence": "低",
+      "pros": ["[F] netkeiba評価B、コメント「動き軽快」"],
+      "cons": ["[F] 「動き軽快」は12・14・15番で文言が同一＝定型コメントの疑いがあり差別化力が低い"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508"]
+    },
+    {
+      "no": 16, "name": "アイムインディ", "score": 2, "confidence": "高",
+      "pros": ["[F] netkeiba評価B、コメント「元気一杯」", "[F] yosounohone美浦坂路★★★＝当レース掲載3頭中で唯一の最高評価、2媒体一致で最も強い調教評価", "[F] 主戦の戸崎圭太が引き続き騎乗（乗り替わりなし＝厩舎の主戦起用継続）"],
+      "cons": ["[F] 具体時計は両媒体とも非掲載"],
+      "sources": ["https://race.netkeiba.com/race/oikiri.html?race_id=202603020508", "https://www.yosounohone.com/entry/fukushima-2026-7-11"]
+    }
+  ],
+  "stable_pattern_candidates": [
+    {
+      "stable": "的場均厩舎",
+      "proposed_label": "暫定：追い切り常態＝標準〜やや緩め（推定）",
+      "confidence": "低",
+      "basis": "当レース出走の管理馬2頭（8番アイファーリーベン7歳・13番エーティータキオン6歳、ともに追込）が揃ってnetkeiba最低評価D＝1レースn=2の弱い根拠のみ、正式なcatalog追記には複数レースでの再確認が必要"
+    }
+  ],
+  "field_note": "seed（fetch_oikiri.py）が空だったため全頭web調査。一次情報はnetkeiba最終追い切り欄のA〜D評価＋一言コメント（無料開示分）と、競馬予想のホネ(yosounohone)の星評価（当レースは3頭のみ個別言及）。具体時計（コース/本数/ラスト1F秒数）が無料域で取得できたのは2番ハルノアラシ・3番チェルシーのみ（他は課金域）。厩舎の勝負気配カタログは該当なしのためintentは全頭generic（普段との差分でなく単発観測）。"
+}

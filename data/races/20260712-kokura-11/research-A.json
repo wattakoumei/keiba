@@ -1,0 +1,173 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント停止のためJRA確定seedと決定論データで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "メルキオル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "プラタナス賞ダ1600m勝ちの基礎速度"
+      ],
+      "cons": [
+        "前走ダ1800m1分59秒9の大敗で現状時計を信頼しにくい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゴッドブルービー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "前走の同舞台1分42秒9は組内最上位の直接時計"
+      ],
+      "cons": [
+        "前走は3勝クラスで今回は相手強化"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジンセイ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "前走東京ダ1600m1分35秒7でオープン2着"
+      ],
+      "cons": [
+        "小回り1700mでは東京1600mの時計をそのまま移せない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サンライズアリオン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "京都ダ1800mオープン勝ち時計がある"
+      ],
+      "cons": [
+        "好時計は約1年前で鮮度に欠ける"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スナークラファエロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "福島ダ1700m1分44秒1でオープン3着"
+      ],
+      "cons": [
+        "2100mからの短縮で序盤の速度対応が鍵"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レイナデアルシーラ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "福島ダ1700m1分44秒1でオープン4着"
+      ],
+      "cons": [
+        "同舞台の門司Sでは1分46秒2で12着"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "モンブランミノル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "ダ1800〜1900mでオープン連続2着歴"
+      ],
+      "cons": [
+        "能力根拠が約16か月前で鮮度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウズイウン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "阪神ダ1800mの上がり36秒6が比較材料"
+      ],
+      "cons": [
+        "近4走で上位争いに届いていない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "シュラザック",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "重賞で上がり35秒5を記録し末脚の上限は高い"
+      ],
+      "cons": [
+        "近走は勝ち切れておらず持続力の再現が鍵"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フェルヴェンテ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "ダ1400mで36秒前後の末脚を反復"
+      ],
+      "cons": [
+        "1700mへの延長で末脚を保てるか不明"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "モックモック",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "アンタレスS2着1分50秒5と三宮S3着で地力最上位級"
+      ],
+      "cons": [
+        "58kgと小回り替わりで位置を下げすぎる懸念"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}

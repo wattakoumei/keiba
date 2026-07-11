@@ -1,0 +1,173 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント停止のためJRA確定seedと決定論データで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "メルキオル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "内枠逃げで判断を単純化しやすい"
+      ],
+      "cons": [
+        "J.コレットは初コンビで逃げの力加減が未知"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゴッドブルービー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "角田大和が近4走継続し同舞台勝ちへ導いた"
+      ],
+      "cons": [
+        "昇級初戦も同じ差し位置を取れるか"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジンセイ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "前走から乗替で新しい位置取り選択肢"
+      ],
+      "cons": [
+        "西塚洸二は初コンビで小回りの仕掛けが未知"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サンライズアリオン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "松若風馬は先行型と噛み合う余地"
+      ],
+      "cons": [
+        "主戦からの乗替かつ長期休養明け"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スナークラファエロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "団野大成への乗替で好位運びを期待"
+      ],
+      "cons": [
+        "前走杉原から初コンビで折合い確認が必要"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レイナデアルシーラ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "田口貫太は福島1700m4着時の継続コンビ"
+      ],
+      "cons": [
+        "ハナへ行くか控えるかが展開分岐"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "モンブランミノル",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "松山弘平は休養前3戦で2勝2着2回の継続コンビ"
+      ],
+      "cons": [
+        "約477日ぶりでコンビ実績が古い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウズイウン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "太宰啓介は近走で継続し脚質を把握"
+      ],
+      "cons": [
+        "後方寄りの継続で短直線に間に合うか"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "シュラザック",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "幸英明の継続で出方を読みやすい"
+      ],
+      "cons": [
+        "先行か後方か近走の位置が揺れる"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フェルヴェンテ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "秋山稔樹の継続で差し運びを維持"
+      ],
+      "cons": [
+        "距離延長で仕掛け所の再構築が必要"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "モックモック",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "川田将雅への乗替で勝負所の位置取り改善余地"
+      ],
+      "cons": [
+        "武豊からの乗替で初コンビ"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}

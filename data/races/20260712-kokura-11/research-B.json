@@ -1,0 +1,173 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント停止のためJRA確定seedと決定論データで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "メルキオル",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "逃げ切り歴があり自分の形なら粘り込める"
+      ],
+      "cons": [
+        "直近2走は12着、16着で失速が続く"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ゴッドブルービー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉1700mで4着、2着、1着と内容が上向く"
+      ],
+      "cons": [
+        "昇級初戦でオープンの流れに直面"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ジンセイ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "前走オープン2着で5番手から伸びた"
+      ],
+      "cons": [
+        "1800mでは13着もあり距離適性に振れ幅"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "サンライズアリオン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "過去にオープン逃げ切り実績"
+      ],
+      "cons": [
+        "前走12着後の長期休養で状態不明"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スナークラファエロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "前走2100mで先行して5着、距離不問の持続力"
+      ],
+      "cons": [
+        "近2走は1600m14着と2100m5着で適距離の見極めが必要"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レイナデアルシーラ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "福島1700mで先行して4着"
+      ],
+      "cons": [
+        "門司Sは逃げて12着で競られると脆い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "モンブランミノル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "休養前はオープン連続2着"
+      ],
+      "cons": [
+        "約16か月ぶりで実戦勘が最大の課題"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウズイウン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "レグルスS6着の中団差しが最良内容"
+      ],
+      "cons": [
+        "近4走6着、13着、11着、9着と停滞"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "シュラザック",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "重賞で後方から8着まで詰めた"
+      ],
+      "cons": [
+        "先行と後方が混在し位置取りが安定しない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フェルヴェンテ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "ダ1400mオープンで4〜8着を反復"
+      ],
+      "cons": [
+        "近走は1400m専従で距離延長が課題"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "モックモック",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "重賞2着後もオープン3着で安定"
+      ],
+      "cons": [
+        "差し脚質で小回りの短い直線に取りこぼし余地"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260712%2FDB"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}

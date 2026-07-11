@@ -1,0 +1,152 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.pyの決定論一次フラグのみ。非決定論の故障・気性情報は未調査。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ダノンカゼルタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ショウナンハウル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走8/9・前々走7/8）＝下降基調",
+        "[I] 前走から127日＝休み明け"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "プリズマジコ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走10/14・前々走13/15）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ハッピーダンチャン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走13/13・前々走9/9）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "フォーチュンライド",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（13/14）"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アスクエピソード",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レイピカケ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "コリカンチャ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走11/13・前々走7/8）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "オデット",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走12/13・前々走10/11）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャスティンガルフ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "オウケンボルト",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 7歳=やや高齢"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+
