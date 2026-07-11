@@ -23,14 +23,17 @@
     "函館開催",
     "特別/OP"
    ],
-   "dango_tier": null,
+   "dango_tier": "割れ",
    "dango_signals": [],
-   "x_axis": "③ダンツファイター(逃/速・単騎濃厚)+①⑦",
-   "quadrant": "🟥本命勝負",
-   "score": 3,
-   "x_conf": "絞れる寄り",
-   "dango": "割れ(3シグナル)",
-   "gap": "③=2位5.0倍・団子で妙味残"
+   "x_axis": {
+    "anchor": [
+     "③ダンツファイター(逃/速・単騎濃厚)+①⑦"
+    ],
+    "confidence": "絞れる寄り",
+    "market_divergence": "③=2位5.0倍・団子で妙味残"
+   },
+   "quadrant": "本命勝負",
+   "score": 3
   },
   {
    "r": 3,
@@ -78,13 +81,17 @@
     "芝短距離",
     "特別/OP"
    ],
-   "dango_tier": null,
+   "dango_tier": "割れ",
    "dango_signals": [],
-   "x_axis": "④(単勝7位)=ズレ大だがムラ",
-   "quadrant": "🎯穴ボックス",
-   "score": 2,
-   "x_conf": "上位ボックス",
-   "dango": "割れ"
+   "x_axis": {
+    "anchor": [
+     "④(単勝7位)=ズレ大だがムラ"
+    ],
+    "confidence": "上位ボックス",
+    "market_divergence": null
+   },
+   "quadrant": "穴ボックス",
+   "score": 2
   },
   {
    "r": 12,
@@ -127,13 +134,17 @@
     "函館開催",
     "特別/OP"
    ],
-   "dango_tier": null,
+   "dango_tier": "収束",
    "dango_signals": [],
-   "x_axis": "断然人気馬と一致見込み",
-   "quadrant": "⬜妙味なし",
-   "score": 0,
-   "x_conf": "絞れるが市場一致",
-   "dango": "収束"
+   "x_axis": {
+    "anchor": [
+     "断然人気馬と一致見込み"
+    ],
+    "confidence": "絞れるが市場一致",
+    "market_divergence": null
+   },
+   "quadrant": "妙味なし",
+   "score": 0
   },
   {
    "r": 1,

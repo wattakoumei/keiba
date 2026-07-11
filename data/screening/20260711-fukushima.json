@@ -27,7 +27,11 @@
    },
    "quadrant": "本命勝負候補・事前",
    "score": 5,
-   "post_time": "11:40"
+   "post_time": "11:40",
+   "surface": "ダ",
+   "distance": 1700,
+   "headcount": 15,
+   "class": "未勝利"
   },
   {
    "r": 6,
@@ -52,7 +56,11 @@
    },
    "quadrant": "穴ボックス候補・事前",
    "score": 4,
-   "post_time": "13:00"
+   "post_time": "13:00",
+   "surface": "芝",
+   "distance": 1800,
+   "headcount": 16,
+   "class": "未勝利"
   },
   {
    "r": 8,
@@ -64,14 +72,21 @@
     "多頭数",
     "短距離"
    ],
-   "dango_tier": null,
-   "x_axis": "⑪ブーケドリス(逃/速・唯一の明確な逃げ)+⑯⑮",
-   "quadrant": "🟥本命勝負",
+   "dango_tier": "割れ",
+   "x_axis": {
+    "anchor": [
+     "⑪ブーケドリス(逃/速・唯一の明確な逃げ)+⑯⑮"
+    ],
+    "confidence": "絞れる寄り",
+    "market_divergence": "軸⑪=単勝4位=ズレあり"
+   },
+   "quadrant": "本命勝負",
    "score": 3,
    "post_time": "14:00",
-   "x_conf": "絞れる寄り",
-   "dango": "割れ",
-   "gap": "軸⑪=単勝4位=ズレあり"
+   "surface": "ダ",
+   "distance": 1150,
+   "headcount": 16,
+   "class": "1勝級想定"
   },
   {
    "r": 7,
@@ -93,7 +108,11 @@
    },
    "quadrant": "鉄板コツコツ候補・事前",
    "score": 3,
-   "post_time": "13:30"
+   "post_time": "13:30",
+   "surface": "芝",
+   "distance": 2000,
+   "headcount": 11,
+   "class": "1勝級想定"
   },
   {
    "r": 11,
@@ -105,13 +124,21 @@
     "芝短距離",
     "少頭数"
    ],
-   "dango_tier": null,
-   "x_axis": "⑥ムラ・逃げ明確不在",
-   "quadrant": "✖切り",
+   "dango_tier": "割れ",
+   "x_axis": {
+    "anchor": [
+     "⑥ムラ・逃げ明確不在"
+    ],
+    "confidence": "切り寄り",
+    "market_divergence": null
+   },
+   "quadrant": "切り",
    "score": -1,
    "post_time": "15:45",
-   "x_conf": "切り寄り",
-   "dango": "割れ"
+   "surface": "芝",
+   "distance": 1200,
+   "headcount": 9,
+   "class": "OP級想定"
   },
   {
    "r": 12,
@@ -136,7 +163,11 @@
    },
    "quadrant": "穴ボックス候補・事前",
    "score": 3,
-   "post_time": "16:30"
+   "post_time": "16:30",
+   "surface": "ダ",
+   "distance": 1700,
+   "headcount": 15,
+   "class": "1勝級想定"
   },
   {
    "r": 9,
@@ -148,13 +179,16 @@
     "多頭数",
     "芝長距離"
    ],
-   "dango_tier": null,
+   "dango_tier": "割れ",
    "x_axis": null,
-   "quadrant": "✖切り",
+   "quadrant": "切り",
    "score": -1,
    "post_time": "14:35",
    "x_conf": "逃げ0=自動切り",
-   "dango": "割れ"
+   "surface": "芝",
+   "distance": 2600,
+   "headcount": 15,
+   "class": "上級条件想定"
   },
   {
    "r": 10,
@@ -166,13 +200,21 @@
     "芝短距離",
     "少頭数"
    ],
-   "dango_tier": null,
-   "x_axis": "②⑧ムラ馬のみ",
-   "quadrant": "⬜見送り",
+   "dango_tier": "収束",
+   "x_axis": {
+    "anchor": [
+     "②⑧ムラ馬のみ"
+    ],
+    "confidence": "断然1人気に妙味なし",
+    "market_divergence": null
+   },
+   "quadrant": "見送り",
    "score": 0,
    "post_time": "15:10",
-   "x_conf": "断然1人気に妙味なし",
-   "dango": "収束"
+   "surface": "芝",
+   "distance": 1200,
+   "headcount": 9,
+   "class": "特別想定"
   },
   {
    "r": 3,
@@ -196,7 +238,11 @@
    },
    "quadrant": "妙味なし・見送り",
    "score": 0,
-   "post_time": "11:10"
+   "post_time": "11:10",
+   "surface": "芝",
+   "distance": 1800,
+   "headcount": 14,
+   "class": "2歳未勝利"
   },
   {
    "r": 1,
@@ -241,7 +287,11 @@
    },
    "quadrant": "切り",
    "score": -1,
-   "post_time": "10:40"
+   "post_time": "10:40",
+   "surface": "ダ",
+   "distance": 1700,
+   "headcount": 15,
+   "class": "牝未勝利"
   },
   {
    "r": 5,
@@ -261,7 +311,11 @@
    },
    "quadrant": "切り",
    "score": -2,
-   "post_time": "12:30"
+   "post_time": "12:30",
+   "surface": "芝",
+   "distance": 1200,
+   "headcount": 11,
+   "class": "新馬"
   }
  ]
 }

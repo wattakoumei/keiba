@@ -156,14 +156,17 @@
    "cond_flags": [
     "小倉開催"
    ],
-   "dango_tier": null,
+   "dango_tier": "中",
    "dango_signals": [],
-   "x_axis": "⑧⑪の2枚(逃5=共倒れ分岐濃)",
-   "quadrant": "🟦鉄板コツコツ",
-   "score": 2,
-   "x_conf": "上位ボックス",
-   "dango": "中",
-   "gap": "⑧⑪=1-2位=ズレ小"
+   "x_axis": {
+    "anchor": [
+     "⑧⑪の2枚(逃5=共倒れ分岐濃)"
+    ],
+    "confidence": "上位ボックス",
+    "market_divergence": "⑧⑪=1-2位=ズレ小"
+   },
+   "quadrant": "鉄板コツコツ",
+   "score": 2
   },
   {
    "r": 10,
@@ -181,14 +184,17 @@
     "フルゲート18頭",
     "芝短距離"
    ],
-   "dango_tier": null,
+   "dango_tier": "割れ",
    "dango_signals": [],
-   "x_axis": "⑰⑤⑯拮抗",
-   "quadrant": "🎯穴ボックス",
-   "score": 2,
-   "x_conf": "上位ボックス",
-   "dango": "割れ",
-   "gap": "軸⑰=1位=ズレ小"
+   "x_axis": {
+    "anchor": [
+     "⑰⑤⑯拮抗"
+    ],
+    "confidence": "上位ボックス",
+    "market_divergence": "軸⑰=1位=ズレ小"
+   },
+   "quadrant": "穴ボックス",
+   "score": 2
   },
   {
    "r": 4,
@@ -459,13 +465,12 @@
    "cond_flags": [
     "小倉開催"
    ],
-   "dango_tier": null,
+   "dango_tier": "割れ",
    "dango_signals": [],
    "x_axis": null,
-   "quadrant": "✖切り",
+   "quadrant": "切り",
    "score": -1,
-   "x_conf": "逃げ先行0=自動切り",
-   "dango": "割れ"
+   "x_conf": "逃げ先行0=自動切り"
   }
  ]
 }

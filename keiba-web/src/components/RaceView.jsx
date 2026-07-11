@@ -17,16 +17,17 @@ const LEG_COLOR = { '逃': 'leg-nige', '先': 'leg-senko', '差': 'leg-sashi', '
 const pct = (v) => (typeof v === 'number' ? (v * 100).toFixed(1) + '%' : '—');
 
 // 脚質文字列の 逃/先/差/追 だけ着色（"先〜好位""差・捲り" 等の他文字はそのまま）
-function LegType({ text = '' }) {
+function LegType({ text }) {
   return (
     <span class="legtype">
-      {[...text].map((ch) => (LEG_COLOR[ch] ? <span class={LEG_COLOR[ch]}>{ch}</span> : ch))}
+      {[...String(text ?? '')].map((ch) => (LEG_COLOR[ch] ? <span class={LEG_COLOR[ch]}>{ch}</span> : ch))}
     </span>
   );
 }
 
 // 脚質順: 逃<先<差<追（first-match 優先）
-function legRank(leg = '') {
+function legRank(leg) {
+  leg = String(leg ?? '');
   if (leg.includes('逃')) return 0;
   if (leg.includes('先')) return 1;
   if (leg.includes('差')) return 2;

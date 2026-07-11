@@ -66,7 +66,8 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
                 const q = quadMeta(x.quadrant);
                 const rid = reportId(entry.ymd, card.venue, x.r);
                 const linked = reportIds.has(rid);
-                const xa = x.x_axis || {};
+                const xa = (x.x_axis && typeof x.x_axis === 'object') ? x.x_axis : {};
+                const anchor = Array.isArray(xa.anchor) ? xa.anchor : (xa.anchor ? [String(xa.anchor)] : []);
                 return (
                   <tr class={`srow ${q.cls}${q.shobu ? ' shobu' : ''}`}>
                     <td class="nowrap rcell">
@@ -95,8 +96,8 @@ function venueName(card) { return PLACE[card.place] || card.venue || '?'; }
                     </td>
                     <td class="xcell">
                       {x.cut_reason && <div class="cut-reason">✖ 切り理由: {x.cut_reason}</div>}
-                      {xa.anchor?.length > 0
-                        ? <div class="anchor">主軸 <b>{xa.anchor.join('・')}</b>{xa.confidence ? `（${xa.confidence}）` : ''}</div>
+                      {anchor.length > 0
+                        ? <div class="anchor">主軸 <b>{anchor.join('・')}</b>{xa.confidence ? `（${xa.confidence}）` : ''}</div>
                         : <div class="muted">未読み</div>}
                       {xa.field_legs && <div class="legs-line muted">脚質 {xa.field_legs}</div>}
                       {xa.concern && <div class="concern">懸念: {xa.concern}</div>}
