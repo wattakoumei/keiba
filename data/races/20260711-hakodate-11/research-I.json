@@ -1,0 +1,221 @@
+{
+ "point": "Iはリスク/割引専用(減点のみ)。決定論層(risk_flags.py seed)を全馬転記し、非決定論層(出遅れ/気性/揉まれ/故障/中止歴)はwebで補強調査。webスニペットは大半の馬で具体的言及を取得できず(DB詳細非表示・netkeiba掲示板403多数)、唯一ウィープディライト(no.12)で「調教中の制御難・レース中に闘争心喪失→去勢」という気性面の実測裏付けを取得し決定論フラグに上乗せ。他12頭は決定論フラグのみを採用(割引方向の距離/展開起因説明も、上乗せ方向の実測も確認できず=現状維持)。斤量チャンネルは先行勢に重ハンデなしでティアに影響なし。",
+ "overall_confidence": "中(決定論層は確定=高、非決定論層は大半が未検出=証拠不十分ゆえ低。総合として中)",
+ "field_note": "全13頭カバー。web検索は各馬「気性/出遅れ/故障」中心に1バッチ、追加で決定論flags馬(decline/layoff/old持ち)の敗因説明・休養理由確認に1バッチ、WebFetch(netkeiba/keibalab個別ページ)1バッチを追加実施(重賞相当で+1バッチ許容)したが、WebFetchは大半403で失敗、WebSearchスニペットも大半「情報なし」。市場語(/)は不使用。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "カテリーナ",
+   "score": 0,
+   "pros": [
+    "[I決定論] risk_flags.py seedでold/decline/class_jump/layoffいずれも非該当(risk_delta 0)",
+    "[I] 斤量56.0kgは先行勢の標準域・weight_adjust seedでrel 0.0=斤量面の減点なし",
+    "[I非決定論] web検索(出遅れ/気性/故障)で具体的な裏付けとなる記述は確認できず=目立つリスクなし"
+   ],
+   "cons": [],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2021101485/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 2,
+   "name": "アイスグリーン",
+   "score": -0.5,
+   "pros": [
+    "[I] 6歳だが年齢面のoldフラグは非該当(閾値未満)",
+    "[I非決定論] web検索で気性難・故障歴・競走中止歴の具体的裏付けは確認できず"
+   ],
+   "cons": [
+    "[I決定論] 前走(2026-03-01小倉2000)から132日の休み明け=layoffフラグ-0.5(seed確定・採用)",
+    "[I非決定論] 休養理由(故障か通常ローテか)は取得できず=不明・確信度低のまま据え置き"
+   ],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2020103354/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 3,
+   "name": "ダンツファイター",
+   "score": 0,
+   "pros": [
+    "[I決定論] risk_flags.py seedで全フラグ非該当(risk_delta 0)",
+    "[I] 斤量58.0kgは中央値並(逃げ馬・rel 0.0)",
+    "[I非決定論] web検索で出遅れ癖・気性難・故障歴の具体的裏付けは確認できず"
+   ],
+   "cons": [],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2022102982/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 4,
+   "name": "ノーブルスカイ",
+   "score": -1,
+   "pros": [
+    "[I非決定論] web検索で追加の気性難・故障歴・競走中止歴の実測裏付けは確認できず(現状の決定論フラグ以上の上乗せなし)"
+   ],
+   "cons": [
+    "[I決定論] 直近2走連続大敗(前走2026-05-10東京1600 15/15・前々走12/14)=下降基調フラグ-1.0(seed確定・採用)",
+    "[I非決定論] 前走が短い1600m×追込脚質という距離不適の可能性を想定したが、具体的なレース回顧(距離短縮起因と明言する記述)は取得できず=割引の根拠なし・フラグそのまま据え置き"
+   ],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2021102256/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 5,
+   "name": "ミッキージュエリー",
+   "score": -1,
+   "pros": [
+    "[I非決定論] web検索で追加の気性難・故障歴・競走中止歴の実測裏付けは確認できず"
+   ],
+   "cons": [
+    "[I決定論] 直近2走連続大敗(前走2026-04-19阪神1600 10/10・前々走14/14)=下降基調フラグ-1.0(seed確定・採用)",
+    "[I非決定論] 先行脚質だが短距離戦での凡走が続いている理由(展開/距離/地力)の具体的裏付けは取得できず=割引せず据え置き"
+   ],
+   "sources": [
+    "https://uma-x.jp/uma_detail/2022103245",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 6,
+   "name": "ショウナンサムデイ",
+   "score": -0.5,
+   "pros": [
+    "[I非決定論] web検索で追加の気性難・故障歴・競走中止歴の実測裏付けは確認できず"
+   ],
+   "cons": [
+    "[I決定論] 前走(2026-04-19中山2200)13/18で大敗=下降基調フラグ-0.5(seed確定・採用)",
+    "[I非決定論] 差し脚質での長距離戦大敗につき折り合い面を想定したが具体的な回顧記述は取得できず=割引根拠なし"
+   ],
+   "sources": [
+    "https://www.jra.go.jp/JRADB/accessU.html?CNAME=pw01dud002022105801/7C",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 7,
+   "name": "インパクトシー",
+   "score": 0,
+   "pros": [
+    "[I決定論] risk_flags.py seedで全フラグ非該当(risk_delta 0)",
+    "[I] 斤量58.0kgは追込馬として標準域",
+    "[I非決定論] web検索(同名の有名馬ディープインパクトの情報が混在し本馬固有の情報は限定的だったが)気性難・故障歴の裏付けは確認できず"
+   ],
+   "cons": [],
+   "sources": [
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "低(本馬固有のweb情報が薄い)"
+  },
+  {
+   "no": 8,
+   "name": "インヴォーグ",
+   "score": 0,
+   "pros": [
+    "[I決定論] risk_flags.py seedで全フラグ非該当(risk_delta 0)",
+    "[I] 斤量56.0kgは差し馬として標準域",
+    "[I非決定論] ブリンカー着用歴等web検索したが具体的な気性/装具変更歴の裏付けは確認できず"
+   ],
+   "cons": [],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2022104145/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 9,
+   "name": "ドゥカート",
+   "score": -1,
+   "pros": [
+    "[I非決定論] web検索で追加の気性難・故障歴・競走中止歴の実測裏付けは確認できず"
+   ],
+   "cons": [
+    "[I決定論] 直近2走連続大敗(前走2026-04-05中山2000 11/16・前々走7/9)=下降基調フラグ-1.0(seed確定・採用)",
+    "[I非決定論] 差し脚質での折り合い面を想定したが具体的な回顧記述は取得できず=割引根拠なし・据え置き"
+   ],
+   "sources": [
+    "https://www.jbis.or.jp/horse/0001356521/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 10,
+   "name": "ウイントレメンデス",
+   "score": 0,
+   "pros": [
+    "[I決定論] risk_flags.py seedで全フラグ非該当(risk_delta 0)",
+    "[I] 斤量58.0kgは追込馬として標準域",
+    "[I非決定論] web検索で出遅れ癖・気性難・故障歴の具体的裏付けは確認できず"
+   ],
+   "cons": [],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2021106193/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 11,
+   "name": "ソリダリティ",
+   "score": -0.5,
+   "pros": [
+    "[I非決定論] web検索で追加の気性難・故障歴・競走中止歴の実測裏付けは確認できず"
+   ],
+   "cons": [
+    "[I決定論] 7歳=やや高齢でoldフラグ-0.5(seed確定・採用)"
+   ],
+   "sources": [
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  },
+  {
+   "no": 12,
+   "name": "ウィープディライト",
+   "score": -2,
+   "pros": [],
+   "cons": [
+    "[I決定論] 直近2走連続大敗(前走2026-02-01京都2200 6/8・前々走11/15)=下降基調フラグ-1.0(seed確定)",
+    "[I決定論] 前走から160日の休み明け=layoffフラグ-0.5(seed確定)",
+    "[I非決定論] 気性面で調教中の制御難・レース中に闘争心を失う傾向が報じられ、それを理由に去勢(せん馬化)されたという記事あり=気性リスクを実測確認。決定論フラグ(-1.5)に非決定論の気性リスクを上乗せし-2.0(重いリスク)へ引き上げ"
+   ],
+   "sources": [
+    "https://ameblo.jp/banusy-to-tomoni/entry-12851700852.html",
+    "https://x.com/kodooji_life/status/1888935645378478576",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中(去勢の経緯は複数ソースで一致・去勢後の改善度合いは未確認)"
+  },
+  {
+   "no": 13,
+   "name": "ピンクジン",
+   "score": -1,
+   "pros": [
+    "[I非決定論] web検索で追加の気性難・故障歴・競走中止歴の実測裏付けは確認できず"
+   ],
+   "cons": [
+    "[I決定論] 直近2走連続大敗(前走2026-04-19中山2200 14/18・前々走13/17)=下降基調フラグ-1.0(seed確定・採用)",
+    "[I非決定論] 先行脚質での長距離戦大敗につき出遅れ/折り合い面を想定したが具体的な回顧記述は取得できず=割引根拠なし・据え置き"
+   ],
+   "sources": [
+    "https://www.jbis.or.jp/horse/0001318915/",
+    "tools/risk_flags.py seed(spawn注入)"
+   ],
+   "confidence": "中"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+  "race_id": "202607110308",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ゼファーテソーロ",
+      "tansho": 10.2
+    },
+    {
+      "no": 2,
+      "name": "ハルノアラシ",
+      "tansho": 22.1
+    },
+    {
+      "no": 3,
+      "name": "チェルシー",
+      "tansho": 12.1
+    },
+    {
+      "no": 4,
+      "name": "イズルード",
+      "tansho": 51.5
+    },
+    {
+      "no": 5,
+      "name": "ダノンリュラ",
+      "tansho": 68.9
+    },
+    {
+      "no": 6,
+      "name": "ラエトゥス",
+      "tansho": 111.4
+    },
+    {
+      "no": 7,
+      "name": "フラッシュポイント",
+      "tansho": 30.1
+    },
+    {
+      "no": 8,
+      "name": "アイファーリーベン",
+      "tansho": 131.2
+    },
+    {
+      "no": 9,
+      "name": "グラティアム",
+      "tansho": 4.5
+    },
+    {
+      "no": 10,
+      "name": "ミッシオーネ",
+      "tansho": 31.5
+    },
+    {
+      "no": 11,
+      "name": "ブーケドリス",
+      "tansho": 7.7
+    },
+    {
+      "no": 12,
+      "name": "ライヴレッドアイ",
+      "tansho": 8.1
+    },
+    {
+      "no": 13,
+      "name": "エーティータキオン",
+      "tansho": 157.1
+    },
+    {
+      "no": 14,
+      "name": "ジェイエルキャリア",
+      "tansho": 7.0
+    },
+    {
+      "no": 15,
+      "name": "マサノピンクレディ",
+      "tansho": 12.0
+    },
+    {
+      "no": 16,
+      "name": "アイムインディ",
+      "tansho": 4.8
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.5,
+    "second_odds": 4.8,
+    "fav_second_gap": 0.3,
+    "fav_second_ratio": 1.067,
+    "n_under_30": 9,
+    "n_under_10": 5,
+    "mean_odds": 41.9,
+    "n_valid": 16
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 6,
+  "dango_signals": [
+    "[割れ] 1番人気4.5倍≥4.0(本命不在)",
+    "[割れ] 1-2人気差0.3<0.5(拮抗)"
+  ],
+  "fav_no": 9,
+  "fav_name": "グラティアム"
+}

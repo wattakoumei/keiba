@@ -1,0 +1,128 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "公式出馬表の近走欄を主材料にした速報縮退。時計比較は同一条件の着差と通過順を優先した。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブラックトルマリン",
+      "pros": [
+        "川崎1400と1500で連勝し、いずれも前を取って最後まで脚を保った"
+      ],
+      "cons": [
+        "前走から間隔が空き、初のC1古馬混合で時計の上限は未確認"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アトラスライズ",
+      "pros": [
+        "5月の川崎1400で先団から粘り込み、同条件の走破形はある"
+      ],
+      "cons": [
+        "前走は同条件で伸び切れず、勝ち切るだけの決め手は薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヴォラーレ",
+      "pros": [
+        "JRAダート戦を使われており、現級で地力の床は残る"
+      ],
+      "cons": [
+        "近走は後方のままになりやすく、川崎1400では位置取りが重い"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アオイハナミチ",
+      "pros": [
+        "前走の川崎1400を逃げ切り、今回の舞台で形がそのまま合う"
+      ],
+      "cons": [
+        "同型に絡まれると直線で甘くなる余地がある"
+      ],
+      "score": 1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ボルドーティラミス",
+      "pros": [
+        "近走でも序盤に前へ行く脚は見せている"
+      ],
+      "cons": [
+        "川崎1400で先行して失速する形が続き、終いの持続に課題が残る"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デーレーハンサム",
+      "pros": [
+        "川崎1400では勝ちと2着があり、距離短縮は前走よりよい"
+      ],
+      "cons": [
+        "前走1500は大きく崩れ、外から好位を取れないと脆さが出る"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アルティメット",
+      "pros": [
+        "川崎1400の持ち時計と着内歴があり、前が止まる形で浮上できる"
+      ],
+      "cons": [
+        "近走は大敗と中止を含み、安定して脚を使えるかは読みづらい"
+      ],
+      "score": 0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ソルテア",
+      "pros": [
+        "長めの距離を続けて使われ、スタミナ面の下支えはある"
+      ],
+      "cons": [
+        "近走は後方のまま差を詰め切れず、1400への短縮で追走負荷が上がる"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    }
+  ],
+  "note": "馬番5は取消のため対象外。"
+}

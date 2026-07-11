@@ -1,0 +1,205 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.py の決定論リスクを採用。⑫は休み明けと下降、⑨⑩⑬は下降基調を強く見る。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "pros": [],
+      "cons": [
+        "前走大敗（10/15）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "pros": [],
+      "cons": [
+        "前走大敗（10/12）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "pros": [],
+      "cons": [
+        "前走大敗（10/12）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗（前走6/9・前々走12/16）＝下降基調"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗（前走10/10・前々走13/15）＝下降基調"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "pros": [],
+      "cons": [
+        "前走から168日＝休み明け"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗（前走12/16・前々走15/16）＝下降基調",
+        "前走から210日＝休み明け"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗（前走7/9・前々走11/15）＝下降基調"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "pros": [],
+      "cons": [
+        "前走大敗（9/9）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "pros": [],
+      "cons": [
+        "前走大敗（14/16）"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    }
+  ],
+  "note": "縮退モード: JRA seed と決定論ツールから構造化。追加web深掘りは未実施。"
+}

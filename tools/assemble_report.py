@@ -31,8 +31,20 @@ RACES = "data/races"
 
 
 def parse_fit(s):
-    """per_horse_fit 文字列 '4:+2 6:+1 ... 7:-2' → {no:score}。フォーマット不定でも拾える範囲で。"""
+    """per_horse_fit → {no:score}。正規スキーマ [{no,fit},...]・dict {no:fit}・文字列 '4:+2 6:+1' のいずれでも受ける。"""
     out = {}
+    if isinstance(s, list):
+        for e in s:
+            if isinstance(e, dict) and e.get("no") is not None and e.get("fit") is not None:
+                out[int(e["no"])] = int(round(float(e["fit"])))
+        return out
+    if isinstance(s, dict):
+        for k, v in s.items():
+            try:
+                out[int(k)] = int(round(float(v)))
+            except (TypeError, ValueError):
+                pass
+        return out
     for m in re.finditer(r'(\d+)\s*:\s*([+-]?\d+)', s or ''):
         out[int(m.group(1))] = int(m.group(2))
     return out

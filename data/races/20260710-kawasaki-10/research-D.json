@@ -1,0 +1,128 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "川崎1400は急コーナーで器用さと前目の位置が効く前提。馬場は公式発表の良を採用した。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブラックトルマリン",
+      "pros": [
+        "川崎1400を勝っており、内枠から好位を取れる"
+      ],
+      "cons": [
+        "900から1500までの経験はあるが、古馬混合の速い入りは未経験"
+      ],
+      "score": 1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アトラスライズ",
+      "pros": [
+        "川崎1400で一度は好走し、内目でロスを抑えられる"
+      ],
+      "cons": [
+        "距離実績はあるが、勝ち切るだけのコース加点は小さい"
+      ],
+      "score": 0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヴォラーレ",
+      "pros": [
+        "川崎を一度使っており、初物ではない"
+      ],
+      "cons": [
+        "後方脚質で急コーナーの1400では進路を上げにくい"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アオイハナミチ",
+      "pros": [
+        "前走が川崎1400の逃げ切りで、コース適性は直接証明済み"
+      ],
+      "cons": [
+        "外から被されるより、自分のリズムで運びたいタイプ"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ボルドーティラミス",
+      "pros": [
+        "川崎1400で先手を取る形は多く、舞台経験は豊富"
+      ],
+      "cons": [
+        "同舞台で粘りを欠く近走が続き、適性は位置取りほど成績へつながっていない"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デーレーハンサム",
+      "pros": [
+        "川崎1400で勝ちと連対があり、1500より条件は軽くなる"
+      ],
+      "cons": [
+        "外寄りから前を取りに行くと脚を使わされる"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アルティメット",
+      "pros": [
+        "川崎1400の着内歴が多く、差し脚を使う条件としては合う"
+      ],
+      "cons": [
+        "外枠で後ろからになると、短い直線で届き切らない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ソルテア",
+      "pros": [
+        "左回りの経験量はある"
+      ],
+      "cons": [
+        "近走が2000中心で、川崎1400の急加速戦には追走面で不利"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    }
+  ],
+  "note": "川崎コース形状はローカル正本のNARコースカタログを参照。"
+}

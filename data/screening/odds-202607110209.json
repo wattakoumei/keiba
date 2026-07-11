@@ -1,0 +1,74 @@
+{
+  "race_id": "202607110209",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "クリスレジーナ",
+      "tansho": 2.0
+    },
+    {
+      "no": 2,
+      "name": "ゼアズノープレイス",
+      "tansho": 87.6
+    },
+    {
+      "no": 3,
+      "name": "エオアリイ",
+      "tansho": 29.3
+    },
+    {
+      "no": 4,
+      "name": "ハルフロンティア",
+      "tansho": 9.4
+    },
+    {
+      "no": 5,
+      "name": "メイショウソラリス",
+      "tansho": 20.0
+    },
+    {
+      "no": 6,
+      "name": "サイン",
+      "tansho": 6.1
+    },
+    {
+      "no": 7,
+      "name": "モルビド",
+      "tansho": 7.5
+    },
+    {
+      "no": 8,
+      "name": "デルシエロ",
+      "tansho": 20.3
+    },
+    {
+      "no": 9,
+      "name": "エトワールブーケ",
+      "tansho": 12.1
+    },
+    {
+      "no": 10,
+      "name": "ドルチェリターン",
+      "tansho": 7.5
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.0,
+    "second_odds": 6.1,
+    "fav_second_gap": 4.1,
+    "fav_second_ratio": 3.05,
+    "n_under_30": 9,
+    "n_under_10": 5,
+    "mean_odds": 20.2,
+    "n_valid": 10
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -4,
+  "dango_signals": [
+    "[収束] 1-2人気差4.1≥3.5(断然)"
+  ],
+  "fav_no": 1,
+  "fav_name": "クリスレジーナ"
+}

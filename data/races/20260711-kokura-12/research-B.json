@@ -1,0 +1,212 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "近走内容は⑥の前走2着を最重視。①は昇級でも同舞台勝ちの鮮度を採る。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "pros": [
+        "前走未勝利勝ち直後で鮮度があり、同舞台で勝ち切った内容を評価。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "pros": [],
+      "cons": [
+        "逃げて掲示板外の近走もあり、同型の圧を受けると甘くなる。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "pros": [],
+      "cons": [
+        "前走新潟で大きく崩れ、後方脚質で小倉短直線への移植に不安。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "pros": [
+        "前走小倉牝馬1勝で差して5着、同舞台で圏内歴も複数ある。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "pros": [],
+      "cons": [
+        "前走小倉で先行して10着、位置を取っても粘れなかった。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "pros": [
+        "前走同舞台2着で、先行して最後まで踏ん張る内容が現級上位。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "pros": [
+        "3歳条件の小倉1200で2着・4着があり、今回の差し相手なら拾える。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "pros": [],
+      "cons": [
+        "直近に大敗があり、今回条件で立て直す根拠が限定的。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "pros": [],
+      "cons": [
+        "直近に大敗があり、今回条件で立て直す根拠が限定的。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "pros": [],
+      "cons": [
+        "直近に大敗があり、今回条件で立て直す根拠が限定的。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "pros": [],
+      "cons": [
+        "直近に大敗があり、今回条件で立て直す根拠が限定的。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "pros": [
+        "牝馬1勝で6着・4着と、末脚型として大崩れは少ない。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "pros": [],
+      "cons": [
+        "直近に大敗があり、今回条件で立て直す根拠が限定的。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "pros": [],
+      "cons": [
+        "直近に大敗があり、今回条件で立て直す根拠が限定的。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    }
+  ],
+  "note": "縮退モード: JRA seed と決定論ツールから構造化。追加web深掘りは未実施。"
+}

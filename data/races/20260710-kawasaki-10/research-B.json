@@ -1,0 +1,128 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "近走の着順だけでなく、距離・通過順・今回条件への接続を評価した。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブラックトルマリン",
+      "pros": [
+        "デビューから川崎で連続好走し、1500から1400への対応も済んでいる"
+      ],
+      "cons": [
+        "古馬C1との力関係は今回が試金石"
+      ],
+      "score": 1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アトラスライズ",
+      "pros": [
+        "5月の同条件で一度は前を作る形に乗れている"
+      ],
+      "cons": [
+        "前走は同じC1一二で離され、反転材料は強くない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヴォラーレ",
+      "pros": [
+        "南関転入後2戦目で、初戦より追走慣れが見込める"
+      ],
+      "cons": [
+        "近5走は勝負所で前へ取り付けず、川崎の小回りでは届きにくい"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アオイハナミチ",
+      "pros": [
+        "転入初戦の川崎1400を先行押し切りでクリアした"
+      ],
+      "cons": [
+        "同じ逃げ切り再現には内外の同型を制する必要がある"
+      ],
+      "score": 1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ボルドーティラミス",
+      "pros": [
+        "先手を取りに行く形は明確で、展開の起点にはなる"
+      ],
+      "cons": [
+        "同条件で失速が続いており、粘り込みより展開を速くする役に寄る"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デーレーハンサム",
+      "pros": [
+        "1400では先手から勝ち切った履歴がある"
+      ],
+      "cons": [
+        "前走の崩れが大きく、C1での即反発には位置取りの改善が必要"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アルティメット",
+      "pros": [
+        "5月の同条件で差を詰めており、前が止まれば着順を上げられる"
+      ],
+      "cons": [
+        "前走は後方から流れ込むだけで、前残り本線では届きにくい"
+      ],
+      "score": 0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ソルテア",
+      "pros": [
+        "南関C1で使い込まれており、相手関係の把握はできている"
+      ],
+      "cons": [
+        "中距離でも後方から伸び切れず、距離短縮で序盤から置かれる懸念が大きい"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    }
+  ],
+  "note": "取消馬は評価対象から外した。"
+}

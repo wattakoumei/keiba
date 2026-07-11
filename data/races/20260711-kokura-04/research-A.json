@@ -1,0 +1,256 @@
+{
+  "point": "A: 能力指数・時計",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツール相当の縮退評価。web深掘りは未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワルトシュタイン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近阪神1800mで5着、通過位置1番手",
+        "先行して時計を詰める形なら上位に残る余地"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジョーカー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "福島1700mで続けて2着、小倉1700mでも2着があり同距離の時計比較で最上位",
+        "内枠から好位を取れるため小倉ダ1700の形に合う"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベラジオヴァレル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで7着、通過位置14番手"
+      ],
+      "cons": [
+        "同舞台の速い比較材料が薄く、時計面で上位へ強調しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ミニュイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで7着、通過位置10番手"
+      ],
+      "cons": [
+        "同舞台の速い比較材料が薄く、時計面で上位へ強調しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンライズハリー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "直近阪神1800mで12着、通過位置12番手"
+      ],
+      "cons": [
+        "同舞台の速い比較材料が薄く、時計面で上位へ強調しづらい",
+        "近走実測が少なく、能力比較の確信度が低い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "タガノランパート",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近阪神1800mで5着、通過位置8番手"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ゴールデンドラゴン",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "直近小倉ダ1700mで2着、同舞台の上がりと着順が強い",
+        "小倉ダ1700mを複数回経験しており比較軸が明確"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ラッキーダイヤ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近京都1900mで9着、通過位置10番手"
+      ],
+      "cons": [
+        "終いの数字はあるが、後方寄りで小倉ダ1700の位置取りに不安"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スナークホクサイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1400mで9着、通過位置7番手"
+      ],
+      "cons": [
+        "同舞台の速い比較材料が薄く、時計面で上位へ強調しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カフジミモレット",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで7着、通過位置2番手",
+        "先行して時計を詰める形なら上位に残る余地"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターコトノハ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近小倉2000mで14着、通過位置8番手"
+      ],
+      "cons": [
+        "同舞台の速い比較材料が薄く、時計面で上位へ強調しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンサクラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近阪神2000mで8着、通過位置7番手"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ショールミーズ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "近走実測がなく比較材料が薄い"
+      ],
+      "cons": [
+        "同舞台の速い比較材料が薄く、時計面で上位へ強調しづらい",
+        "近走実測が少なく、能力比較の確信度が低い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アンリミテッド",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1400mの先行経験があり、距離延長で位置を取れる材料",
+        "大型馬でダート替わりの持続戦はこなせる余地"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "セイウンダイフク",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "直近小倉ダ1700mで速い走破時計を記録し、距離延長後の内容が一変",
+        "軽い斤量で終いを使える余地がある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "メイショウマグナ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで6着、通過位置2番手"
+      ],
+      "cons": [
+        "終いの数字はあるが、後方寄りで小倉ダ1700の位置取りに不安"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ],
+  "note": "速報縮退"
+}

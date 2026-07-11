@@ -1,0 +1,94 @@
+{
+  "race_id": "202607110210",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "トウカイエルデ",
+      "tansho": 9.3
+    },
+    {
+      "no": 2,
+      "name": "ピコアーガイル",
+      "tansho": 4.1
+    },
+    {
+      "no": 3,
+      "name": "ライツユーアップ",
+      "tansho": 30.6
+    },
+    {
+      "no": 4,
+      "name": "キーガッツ",
+      "tansho": 12.7
+    },
+    {
+      "no": 5,
+      "name": "ジーベック",
+      "tansho": 11.8
+    },
+    {
+      "no": 6,
+      "name": "キープサインオン",
+      "tansho": 32.6
+    },
+    {
+      "no": 7,
+      "name": "アスクケンタッキー",
+      "tansho": 3.2
+    },
+    {
+      "no": 8,
+      "name": "フレッシュラン",
+      "tansho": 22.4
+    },
+    {
+      "no": 9,
+      "name": "レイユール",
+      "tansho": 12.2
+    },
+    {
+      "no": 10,
+      "name": "エルサトアナ",
+      "tansho": 35.7
+    },
+    {
+      "no": 11,
+      "name": "ラスティングスノー",
+      "tansho": 14.4
+    },
+    {
+      "no": 12,
+      "name": "ヴィヴァクラウン",
+      "tansho": 9.6
+    },
+    {
+      "no": 13,
+      "name": "モレポブラーノ",
+      "tansho": 42.9
+    },
+    {
+      "no": 14,
+      "name": "ムチャスグラシアス",
+      "tansho": 56.0
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.2,
+    "second_odds": 4.1,
+    "fav_second_gap": 0.9,
+    "fav_second_ratio": 1.281,
+    "n_under_30": 9,
+    "n_under_10": 4,
+    "mean_odds": 21.2,
+    "n_valid": 14
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 2,
+  "dango_signals": [
+    "[割れ] 1番人気3.2倍≥3.0(割れ)"
+  ],
+  "fav_no": 7,
+  "fav_name": "アスクケンタッキー"
+}

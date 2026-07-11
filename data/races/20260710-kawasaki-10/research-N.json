@@ -1,0 +1,128 @@
+{
+  "point": "N",
+  "overall_confidence": "中",
+  "field_note": "南関C1をR5基準にし、JRA1勝クラス経験馬と3歳上がり馬を補正した。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブラックトルマリン",
+      "pros": [
+        "R5＝3歳戦を連勝してC1へ届く上昇型。現級初戦でも格負けまでは見ない"
+      ],
+      "cons": [
+        "古馬C1での実走証拠はまだない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アトラスライズ",
+      "pros": [
+        "R5＝南関C1の現級馬。前走より組は下がり、相手緩和の形"
+      ],
+      "cons": [
+        "C1で勝ち切る証拠は薄く、相手圏止まり"
+      ],
+      "score": 0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヴォラーレ",
+      "pros": [
+        "R6相当＝JRA1勝クラスを使われた地力の床。南関C1では格の床を残す"
+      ],
+      "cons": [
+        "転入初戦の川崎C1で前に取り付けず、実走補正は必要"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アオイハナミチ",
+      "pros": [
+        "R5＝C1三を勝って同条件へ。格より勢いを優先できる"
+      ],
+      "cons": [
+        "大井C2から川崎C1へ上げてきた直後で、上位格との比較は今回確認"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ボルドーティラミス",
+      "pros": [
+        "R5＝南関C1の経験量は足りる"
+      ],
+      "cons": [
+        "現級で崩れが続き、格の床より近走内容を割り引く"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デーレーハンサム",
+      "pros": [
+        "R4からR5へ上がる3歳馬。1400の勝ち履歴で補正できる"
+      ],
+      "cons": [
+        "C1相手では前走の大敗が重く、格上げ初期の壁はある"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アルティメット",
+      "pros": [
+        "R5＝南関C1で同条件の着内歴があり、格は足りる"
+      ],
+      "cons": [
+        "近走の崩れで地力の出し切りに不安が残る"
+      ],
+      "score": 0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ソルテア",
+      "pros": [
+        "R5＝C1在籍で格だけなら大きく不足しない"
+      ],
+      "cons": [
+        "現級以下でも後方大敗が続き、格より下降を重く見る"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    }
+  ],
+  "note": "共通ランクRはローカル正本のNARクラス階梯カタログに基づく。"
+}

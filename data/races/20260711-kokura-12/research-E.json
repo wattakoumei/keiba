@@ -1,0 +1,160 @@
+{
+  "legs": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "1枠から先行列の内"
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "style": "逃げ",
+      "ten_speed": "中",
+      "expected_pos": "最内からハナ候補、ただし前走鞍上から替わる"
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方寄り"
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団差し"
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団差し"
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "style": "先行",
+      "ten_speed": "速",
+      "expected_pos": "3枠から好位、二の脚でハナまで視野"
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方寄り"
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団差し"
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団差し"
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団差し"
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "短縮で好位を取りたい先行候補"
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方寄り"
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方寄り"
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団差し"
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方寄り"
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "外枠から前付けを狙うがロスあり"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 6,
+      "stance": "前走同舞台2番手2着で、今回のハナ/番手筆頭"
+    },
+    {
+      "no": 2,
+      "stance": "最内の逃げ候補。ハナを切ればα、絡まれるとβ"
+    },
+    {
+      "no": 1,
+      "stance": "内から先行列に加わる昇級馬"
+    },
+    {
+      "no": 11,
+      "stance": "1400先行型で短縮して位置を取りに来る可能性"
+    },
+    {
+      "no": 16,
+      "stance": "外枠から押すと前半が速くなる"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "1枠で先行ロスを抑えやすい"
+    },
+    {
+      "no": 2,
+      "note": "1枠でハナを取り切れば最短距離"
+    },
+    {
+      "no": 6,
+      "note": "3枠で前を見ながら運べる"
+    },
+    {
+      "no": 15,
+      "note": "8枠追込で位置差が大きい"
+    },
+    {
+      "no": 16,
+      "note": "8枠先行で外々のロスが課題"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "小倉芝1200はスタート直後から下り、短い平坦直線。先行持続と同舞台実績を優先。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "pros": [
+        "小倉芝1200を先行して勝ち、内枠から再現しやすい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "pros": [
+        "芝1200の経験が今回条件に近い。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "pros": [
+        "同舞台で複数の好走歴があり、差しでも小倉の立ち回りを持つ。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "pros": [],
+      "cons": [
+        "今回条件への適性証拠が弱い。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "pros": [
+        "小倉芝1200で勝ちと現級2着があり、下り高速1200への適性が明確。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "pros": [
+        "芝1200の経験が今回条件に近い。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "pros": [
+        "小倉芝1200の条件戦で差して上位があり、舞台替わりの不安が小さい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "pros": [],
+      "cons": [
+        "同舞台近走で伸び切れず、舞台適性を上位評価しにくい。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "pros": [],
+      "cons": [
+        "近走が1400以上中心で、小倉芝1200の高速下りスタートに対応する裏付けが薄い。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "pros": [],
+      "cons": [
+        "1400先行型で、芝1200の序盤速度へ戻す点が課題。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "pros": [],
+      "cons": [
+        "近走が1400以上中心で、小倉芝1200の高速下りスタートに対応する裏付けが薄い。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "pros": [],
+      "cons": [
+        "同舞台近走で伸び切れず、舞台適性を上位評価しにくい。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "pros": [
+        "福島1200・中京1400で持続末脚を見せ、小回り短距離に寄せられる。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "pros": [],
+      "cons": [
+        "外枠の追込で、小倉芝1200の短直線では位置差を埋めにくい。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "pros": [
+        "小倉1200の時計実績があり、外から前を取れれば適性は足りる。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    }
+  ],
+  "note": "縮退モード: JRA seed と決定論ツールから構造化。追加web深掘りは未実施。"
+}

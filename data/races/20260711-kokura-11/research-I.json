@@ -1,0 +1,143 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツールに縮退",
+  "horses": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "直近2走の後退が続き、同型多数で反転材料が薄い"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走から間隔が空き、速い同型相手では初速の再現が鍵"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近の間隔と内容は標準的で、強い割引材料はない"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "連闘に近い間隔で再度速い流れを受ける点は懸念"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "直近の大敗後で間隔も短く、先行争いで消耗する懸念"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走大敗後で出走履歴も薄く、外から押し切るには不確実性が高い"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "大きな決定論リスクは少なく、前に行く形を取りやすい"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    }
+  ],
+  "note": "seedと決定論ツールに縮退"
+}

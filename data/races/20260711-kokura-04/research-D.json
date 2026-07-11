@@ -1,0 +1,254 @@
+{
+  "point": "D: 適性・条件",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツール相当の縮退評価。web深掘りは未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワルトシュタイン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "1枠の逃げ候補で小倉ダ1700の短直線を先に使える",
+        "55kgで序盤の負担が軽い"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジョーカー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉と福島のダ1700で好位好走があり、小回りダ1700への適性が高い",
+        "1枠からロスなく先行できる"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベラジオヴァレル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "小回りダ1700で前受けする材料が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ミニュイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "小回りダ1700で前受けする材料が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンライズハリー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "小回りダ1700で前受けする材料が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "タガノランパート",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ゴールデンドラゴン",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700で複数回の好走歴。差しでも5番手まで取れれば届く",
+        "同舞台経験の質が高い"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ラッキーダイヤ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "後方寄りで、短い直線では進路と位置が課題"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スナークホクサイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "小回りダ1700で前受けする材料が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カフジミモレット",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "先行脚質で小回りダートの位置取りに乗れる",
+        "ダート血統面の支えがある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターコトノハ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "小回りダ1700で前受けする材料が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンサクラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ショールミーズ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アンリミテッド",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "先行脚質で小回りダートの位置取りに乗れる",
+        "ダート血統面の支えがある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "セイウンダイフク",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700替わりで前進済み。外枠でも脚を使える",
+        "55kgで差し脚を残しやすい"
+      ],
+      "cons": [
+        "追込寄りの外枠で、前が止まらない形では届き切らない"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "メイショウマグナ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "条件替わりはseed内の近走から評価"
+      ],
+      "cons": [
+        "後方寄りで、短い直線では進路と位置が課題"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ],
+  "note": "速報縮退"
+}

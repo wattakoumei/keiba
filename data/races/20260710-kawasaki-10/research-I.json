@@ -1,0 +1,128 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "速報縮退のため、故障歴の深掘りはせず公式出馬表から取れる近走崩れ・間隔・中止を減点した。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブラックトルマリン",
+      "pros": [
+        "キャリアが浅く、近走で大きな崩れはない"
+      ],
+      "cons": [
+        "約3か月ぶりで古馬相手に上がる点は当日気配の確認が必要"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アトラスライズ",
+      "pros": [
+        "直近も川崎1400を使っており、条件替わりのリスクは小さい"
+      ],
+      "cons": [
+        "近走成績にムラがあり、勝負所での反応が安定しない"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヴォラーレ",
+      "pros": [
+        "転入2戦目で環境慣れの上積みは見込める"
+      ],
+      "cons": [
+        "JRA終盤から後方大敗が続き、序盤で置かれるリスクが残る"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "アオイハナミチ",
+      "pros": [
+        "前走勝ちからの臨戦で状態面の悪い兆候は見えにくい"
+      ],
+      "cons": [
+        "吉原寛人から新原周馬への乗替で、前走の再現性は少し落ちる"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ボルドーティラミス",
+      "pros": [
+        "使われながら前へ行く形は維持している"
+      ],
+      "cons": [
+        "近走は先行後に失速しており、下降基調の疑いが強い"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "デーレーハンサム",
+      "pros": [
+        "3歳で上積み余地は残る"
+      ],
+      "cons": [
+        "前走の大敗幅が大きく、気持ちの面か体調面の反動を確認したい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アルティメット",
+      "pros": [
+        "5月には同条件で走れており、適条件なら反発余地はある"
+      ],
+      "cons": [
+        "近走に中止と大敗があり、当日の踏み込み確認を重く見る"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ソルテア",
+      "pros": [
+        "連戦で大きく休まず使えている"
+      ],
+      "cons": [
+        "6歳で近走内容が上向かず、距離短縮で負荷が増す"
+      ],
+      "score": -1.5,
+      "confidence": "中",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=10"
+      ]
+    }
+  ],
+  "note": "パドックと馬体重は直前確認対象。"
+}

@@ -1,0 +1,200 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "騎手は継続の①⑥を評価。⑦⑩⑮は取得時点で鞍上未確定扱い。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "pros": [
+        "酒井学継続で前走勝ちの形をそのまま使える。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "pros": [],
+      "cons": [
+        "前走逃げた酒井学から幸英明へ替わり、ハナ主張の再現は読みにくい。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "pros": [],
+      "cons": [
+        "前走高杉吏麒から吉村誠之助へ替わり、差しの仕掛け所は未知。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "pros": [
+        "西村淳也継続で前走2着の先行リズムを再現しやすい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "pros": [],
+      "cons": [
+        "JRA seedで今走騎手が未取得のため、乗り替わり評価を保留する。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "pros": [
+        "M.デムーロへの替わりで、差し馬の進路選択に上積みを見込む。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "pros": [],
+      "cons": [
+        "JRA seedで今走騎手が未取得のため、乗り替わり評価を保留する。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "pros": [],
+      "cons": [
+        "JRA seedで今走騎手が未取得のため、乗り替わり評価を保留する。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    }
+  ],
+  "note": "縮退モード: JRA seed と決定論ツールから構造化。追加web深掘りは未実施。"
+}

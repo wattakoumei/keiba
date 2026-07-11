@@ -1,0 +1,141 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツールに縮退",
+  "horses": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "直近2走の走破内容が重く、同型先行が多い今回は粘り込みの裏付けが薄い"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "阪神ダ1200mで前受けから大きく崩れず、短縮で速力を使える"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近の小倉ダ1000mで57秒台、同舞台の速力は上位"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走は先手後退で、今回も外の速い馬に絡まれる形が懸念"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "差し脚の時計は安定し、流れが厳しくなれば終いを使える"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1000mで57秒台の実績があり、短距離の時計面を評価"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    }
+  ],
+  "note": "seedと決定論ツールに縮退"
+}

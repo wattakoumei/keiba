@@ -1,0 +1,99 @@
+{
+  "race_id": "202607110309",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "キングズトゥルー",
+      "tansho": 6.9
+    },
+    {
+      "no": 2,
+      "name": "ヒストリアイ",
+      "tansho": 107.9
+    },
+    {
+      "no": 3,
+      "name": "オルトパラティウム",
+      "tansho": 14.3
+    },
+    {
+      "no": 4,
+      "name": "サトノトルネード",
+      "tansho": 44.3
+    },
+    {
+      "no": 5,
+      "name": "キンググローリー",
+      "tansho": 5.0
+    },
+    {
+      "no": 6,
+      "name": "ハイラント",
+      "tansho": 19.8
+    },
+    {
+      "no": 7,
+      "name": "ビッグベルーガ",
+      "tansho": 39.5
+    },
+    {
+      "no": 8,
+      "name": "ヴァイザーバルコ",
+      "tansho": 45.5
+    },
+    {
+      "no": 9,
+      "name": "スズカミエール",
+      "tansho": 44.4
+    },
+    {
+      "no": 10,
+      "name": "ノクターン",
+      "tansho": 3.4
+    },
+    {
+      "no": 11,
+      "name": "ウインマイルート",
+      "tansho": 20.4
+    },
+    {
+      "no": 12,
+      "name": "クリフハンガー",
+      "tansho": 56.0
+    },
+    {
+      "no": 13,
+      "name": "サトノソティラス",
+      "tansho": 6.4
+    },
+    {
+      "no": 14,
+      "name": "モルトマエストーソ",
+      "tansho": 43.0
+    },
+    {
+      "no": 15,
+      "name": "アメティスタ",
+      "tansho": 6.5
+    }
+  ],
+  "metrics": {
+    "fav_odds": 3.4,
+    "second_odds": 5.0,
+    "fav_second_gap": 1.6,
+    "fav_second_ratio": 1.471,
+    "n_under_30": 8,
+    "n_under_10": 5,
+    "mean_odds": 30.9,
+    "n_valid": 15
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 2,
+  "dango_signals": [
+    "[割れ] 1番人気3.4倍≥3.0(割れ)"
+  ],
+  "fav_no": 10,
+  "fav_name": "ノクターン"
+}

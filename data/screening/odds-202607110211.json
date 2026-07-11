@@ -1,0 +1,91 @@
+{
+  "race_id": "202607110211",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "カテリーナ",
+      "tansho": 5.5
+    },
+    {
+      "no": 2,
+      "name": "アイスグリーン",
+      "tansho": 23.0
+    },
+    {
+      "no": 3,
+      "name": "ダンツファイター",
+      "tansho": 5.0
+    },
+    {
+      "no": 4,
+      "name": "ノーブルスカイ",
+      "tansho": 55.2
+    },
+    {
+      "no": 5,
+      "name": "ミッキージュエリー",
+      "tansho": 8.8
+    },
+    {
+      "no": 6,
+      "name": "ショウナンサムデイ",
+      "tansho": 16.3
+    },
+    {
+      "no": 7,
+      "name": "インパクトシー",
+      "tansho": 4.3
+    },
+    {
+      "no": 8,
+      "name": "インヴォーグ",
+      "tansho": 5.9
+    },
+    {
+      "no": 9,
+      "name": "ドゥカート",
+      "tansho": 36.7
+    },
+    {
+      "no": 10,
+      "name": "ウイントレメンデス",
+      "tansho": 10.1
+    },
+    {
+      "no": 11,
+      "name": "ソリダリティ",
+      "tansho": 30.8
+    },
+    {
+      "no": 12,
+      "name": "ウィープディライト",
+      "tansho": 24.6
+    },
+    {
+      "no": 13,
+      "name": "ピンクジン",
+      "tansho": 25.4
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.3,
+    "second_odds": 5.0,
+    "fav_second_gap": 0.7,
+    "fav_second_ratio": 1.163,
+    "n_under_30": 10,
+    "n_under_10": 5,
+    "mean_odds": 19.4,
+    "n_valid": 13
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 6,
+  "dango_signals": [
+    "[割れ] 1番人気4.3倍≥4.0(本命不在)",
+    "[割れ] 単勝30倍以下が10頭≥10(団子)",
+    "[割れ] 単勝平均19.4倍<20(団子)"
+  ],
+  "fav_no": 7,
+  "fav_name": "インパクトシー"
+}

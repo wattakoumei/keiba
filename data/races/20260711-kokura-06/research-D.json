@@ -1,0 +1,298 @@
+{
+  "point": "D: コース/距離/馬場適性",
+  "overall_confidence": "中",
+  "field_note": "小倉芝1200は最高部から下り、テンが速く短直線。位置取りとスピード持続を重視して縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ヒッグスボソン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉芝1200で2着が2回あり、同舞台の差し脚は明確",
+        "最内で脚をためられればロスなく直線へ向ける"
+      ],
+      "cons": [
+        "追込寄りでテンが遅く、包まれると進路待ちになりやすい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ビサイレント",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで小倉1800mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヒャクギマル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "連闘気味ながら直近小倉芝1200で3着、同舞台の鮮度が高い",
+        "中団より前を取れるため本線の速め持続にも対応"
+      ],
+      "cons": [
+        "前走上がりは目立たず、さらに速い決着では決め手で見劣る可能性"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "リメンバーシドニー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで新潟1800mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "リントゥラウル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "阪神1400で先行5着、距離短縮で行き脚を生かす余地",
+        "内めの3枠で好位を取りやすい"
+      ],
+      "cons": [
+        "芝1200の実績が薄く、短距離の終い勝負では決め手が足りない懸念"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "スターアスコット",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "近走seedで京都1400mを確認済み。今回条件への変換材料がある",
+        "時計・上がりのどちらかに未勝利上位へ届く材料がある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "メテオロイド",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで小倉1200mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディオレガーロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで小倉1200mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウトッド",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで京都1400mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フーガカンタービレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "近走seedで小倉1000mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ヴェネラブル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで小倉1200mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レジーナテンペスタ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近小倉芝1200で4着、後方から上がりを使って同舞台の適性を示した",
+        "斤量52kgで末脚を生かす形なら前崩れで浮上"
+      ],
+      "cons": [
+        "前走も後方寄りで、前が止まらない馬場だと位置取りが届かない"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウェイヨー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで阪神1600mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アクアホワイト",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで小倉1200mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ダイメイプリンス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "近走seedで阪神1600mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "リヴァイ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "京都芝1200で1:08.8、上がり33秒台の履歴もあり決め手は最上位",
+        "西村淳也の継続で中団から早めに動く形を取りやすい"
+      ],
+      "cons": [
+        "8枠で外々を回ると小倉芝1200の短い直線では届き切らない懸念"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "チュウワメロディー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉芝1200で2着、京都1400でも連続2・3着があり近走の安定度が最上位",
+        "先行も差しもでき、速い流れでも位置を失いにくい"
+      ],
+      "cons": [
+        "8枠から下げすぎると小回り短直線で差し遅れが出る"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 18,
+      "name": "オースミサイファー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "近走seedで京都1400mを確認済み。今回条件への変換材料がある"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ]
+}

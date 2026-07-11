@@ -1,0 +1,80 @@
+{
+  "race_id": "202607111009",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ダノンアンチュラス",
+      "tansho": 17.7
+    },
+    {
+      "no": 2,
+      "name": "ヴェストラン",
+      "tansho": 76.5
+    },
+    {
+      "no": 3,
+      "name": "ウインリュクス",
+      "tansho": 4.8
+    },
+    {
+      "no": 4,
+      "name": "カレンラップスター",
+      "tansho": 25.4
+    },
+    {
+      "no": 5,
+      "name": "バリオス",
+      "tansho": 6.2
+    },
+    {
+      "no": 6,
+      "name": "ジュンライデン",
+      "tansho": 12.5
+    },
+    {
+      "no": 7,
+      "name": "フリーガー",
+      "tansho": 10.1
+    },
+    {
+      "no": 8,
+      "name": "ミッドタウンナイト",
+      "tansho": 30.5
+    },
+    {
+      "no": 9,
+      "name": "ダノンテムズ",
+      "tansho": 4.0
+    },
+    {
+      "no": 10,
+      "name": "レッドヴァリアート",
+      "tansho": 7.2
+    },
+    {
+      "no": 11,
+      "name": "タガノアルトゥーラ",
+      "tansho": 5.6
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.0,
+    "second_odds": 4.8,
+    "fav_second_gap": 0.8,
+    "fav_second_ratio": 1.2,
+    "n_under_30": 9,
+    "n_under_10": 5,
+    "mean_odds": 18.2,
+    "n_valid": 11
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 5,
+  "dango_signals": [
+    "[割れ] 1番人気4.0倍≥4.0(本命不在)",
+    "[割れ] 単勝平均18.2倍<20(団子)"
+  ],
+  "fav_no": 9,
+  "fav_name": "ダノンテムズ"
+}

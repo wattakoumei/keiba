@@ -1,0 +1,175 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "6/19川崎12R『ファイナルアンサー賞(C2)』に④⑤⑥⑨⑩の5頭が直接対戦(今回はC3選定馬=格上経験)。1着からの着差は⑨1.3秒<⑤1.7秒≒④1.7秒<⑩2.3秒<⑥2.5秒の順で、⑨⑤④は僅差の混戦圏、⑥⑩はそこから離された内容。①②③⑧⑪はこのレース不出走で独立評価。地方競馬のためweb詳細情報が薄く、①②③⑪はseedの着順情報中心(確信度低)。通過順(脚質)はほぼ全馬で不明。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ラシャスバラード",
+      "pros": [
+        "1200-1400mの短距離~マイルで使われ続けており、今回1400への経験値はある"
+      ],
+      "cons": [
+        "近3走(6/17川崎7着[着順抽出に5/7の不一致有り→要検証]・6/5船橋8着・4/16大井9着)とも掲示板外で好走内容の裏付けが取れない",
+        "web検索でも6/17川崎のレース内容・通過順は特定できず、seed着順のみでの判定"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceList?k_raceDate=2026%2F06%2F17&k_babaCode=21",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "カサミラ",
+      "pros": [
+        "近走はすべて川崎1400mで経験を積んでおり、今回条件は経験済み"
+      ],
+      "cons": [
+        "直近3走(3/5,2/5,1/2川崎いずれも7-10着)は好走内容が確認できず、その後127日間出走が無い",
+        "web検索でも具体的な着差・通過順は特定できずseed情報のみ"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/DataRoom/RaceHorseInfo?k_lineageLoginCode=30072405396&k_activeCode=1",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "クインズカヤノヒメ",
+      "pros": [
+        "通算成績は6勝を数え(JBIS集計)、地力の土台自体は一定ある"
+      ],
+      "cons": [
+        "近3走(6/18川崎7着・6/2船橋8着・5/25浦和10着)は3場とも凡走で内容の裏付けが取れない",
+        "6歳で近走は1500-1600mが続き、今回1400への短縮初戦の反応は不明"
+      ],
+      "score": -0.5,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/horse/0001319482/record/",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "エムティラヴ",
+      "pros": [
+        "6/19川崎『ファイナルアンサー賞(C2)』に出走し格上級を経験、9着ながら1着から1.7秒差(8-9-10着は僅差の混戦)で大崩れはしなかった"
+      ],
+      "cons": [
+        "6/3船橋1200(11着)・5/15川崎1500(11着)はともに二桁大敗で内容は安定していない",
+        "格上戦とはいえ9着に終わっており通用度が証明された内容ではない"
+      ],
+      "score": 0.5,
+      "confidence": "中",
+      "sources": [
+        "https://nar.netkeiba.com/race/result.html?race_id=202645061912",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "コミックガール",
+      "pros": [
+        "6/19川崎『ファイナルアンサー賞(C2)』で8着、1着から1.7秒差の僅差集団に踏みとどまり格上級でも大きく崩れなかった",
+        "近3走とも川崎で使われ続けており今回の舞台に慣れている"
+      ],
+      "cons": [
+        "3走(6/19,5/15,4/8)とも掲示板外で、勝ち切る脚は近走で示せていない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://nar.netkeiba.com/race/result.html?race_id=202645061912",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "セイウンパイオニア",
+      "pros": [
+        "6/19川崎『ファイナルアンサー賞(C2)』の格上戦を経験している"
+      ],
+      "cons": [
+        "同レースで11着・1着から2.5秒差と直接対戦組(④⑤⑨⑩)の中で最も見劣る内容で、格上級では地力不足が露呈した",
+        "唯一の牡馬で56kgを背負い、2/5・1/2も9着続きで近走に上向きの材料がない"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://nar.netkeiba.com/race/result.html?race_id=202645061912",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "バーサズバラード",
+      "pros": [
+        "5/25浦和(9着)は他の2走(12着)より着順が浅く、崩れ幅はやや小さい"
+      ],
+      "cons": [
+        "近3走(6/15川崎12着・5/25浦和9着・5/11川崎12着)は入着が無く後方通過が続く傾向(個別成績ページの着差・通過順データは競走場表記に矛盾があり参考程度、着順自体はseedと一致)",
+        "6歳で近走に反発材料が乏しい"
+      ],
+      "score": -1.5,
+      "confidence": "低",
+      "sources": [
+        "https://www.nankankeiba.com/uma_info/2020104023.do",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カルストンオリビア",
+      "pros": [
+        "6/19川崎『ファイナルアンサー賞(C2)』で7着、1着から1.3秒差は直接対戦組(④⑤⑥⑩)の中で最良のタイム差=格上級で最も善戦した内容"
+      ],
+      "cons": [
+        "5/15川崎1500は13着、4/10川崎900は11着と近走に大敗も混在し内容に波がある"
+      ],
+      "score": 1.5,
+      "confidence": "中",
+      "sources": [
+        "https://nar.netkeiba.com/race/result.html?race_id=202645061912",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "キアラボヌール",
+      "pros": [
+        "5/29浦和1400は6着で入着に近く、平場条件では大崩れしていない"
+      ],
+      "cons": [
+        "6/19川崎『ファイナルアンサー賞(C2)』では12着・1着から2.3秒差と直接対戦組の中で下位の内容"
+      ],
+      "score": -0.5,
+      "confidence": "中",
+      "sources": [
+        "https://nar.netkeiba.com/race/result.html?race_id=202645061912",
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "オトメノネガイ",
+      "pros": [
+        "直近6/23浦和1500は6着で入着に近く、崩れていない"
+      ],
+      "cons": [
+        "5/26浦和1500(同条件)では11着と着順が乱高下しており安定感に欠ける",
+        "今回参戦組の主力(④⑤⑥⑨⑩)と6/19川崎で直接対戦しておらず相対力の裏付けが薄い。web検索でも詳細成績ページは特定できずseed情報中心"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_babaCode=21&k_raceDate=2026%2F07%2F10&k_raceNo=12"
+      ]
+    }
+  ],
+  "note": "最大の発見は6/19川崎12R『ファイナルアンサー賞(C2)』に④エムティラヴ⑤コミックガール⑥セイウンパイオニア⑨カルストンオリビア⑩キアラボヌールの5頭が揃って出走していたこと(今回7/10と同名だが一段上のC2級)。着差の実測値により⑨>⑤≒④>⑩>⑥の序列が裏取りできた。①②③⑧⑪はこのレースに不出走のため独立評価で、web検索でも詳細な成績ページ(着差・通過順)が特定できずseedの着順情報が中心(確信度低)。通過順(脚質)はNARの情報の薄さから⑧以外ほぼ全馬『不明』＝観点E側での展開合成では別途脚質推定が必要。"
+}

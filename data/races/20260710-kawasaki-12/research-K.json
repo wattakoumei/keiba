@@ -1,0 +1,269 @@
+{
+  "observation": "K",
+  "race_id": "20260710-kawasaki-12",
+  "lens": "騎手・乗り替わり・コンビ相性",
+  "header_note": "NAR手動seedはrecent[]がdate/venue/dist/posのみ(騎手フィールド欠落)。前走騎手のweb補完をWebSearch2バッチ+WebFetch2バッチで試行したが、川崎/浦和のレース結果ページ(netkeiba/nankankeiba/keiba.go.jp/umanity)は該当レースIDの特定に失敗(直リンク404・検索ヒットなし)。プロトコル『データ欠損時』に従い、全10頭とも乗り替わり方向(強化/弱化/継続/テン乗り)の判定は保留とし確信度を下げた。捏造なし。今回騎手の経験・実績・斤量利のみを事実ベースで評価。",
+  "stable_intent_catalog_hit": false,
+  "stable_intent_addendum_candidate": {
+    "trainer": "田島寿一",
+    "tentative_label": "流動(騎手起用が固定的でない)",
+    "confidence": "低",
+    "basis": "同厩から2頭(10番キアラボヌール・11番オトメノネガイ)が出走し、それぞれ加藤雄真(21歳3年目)・池谷匠翔(24歳7年目)という別々の若手騎手を起用。統一した主戦騎手が見えず、勝負度の強弱を読む基準にできる固定パターンが確認できない。"
+  },
+  "horses": [
+    {
+      "no": 1,
+      "name": "ラシャスバラード",
+      "today_jockey": "町田直希",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "22年目(38歳)",
+        "career_record": "1593勝/21341戦(通算勝率約7.5%)",
+        "note": "川崎所属のベテラン実力派。本レース構成馬中では経験・通算実績とも上位クラス。"
+      },
+      "weight_allowance": "なし(54.0kg=フィールド標準)",
+      "combo_record": "不明(web未取得・予算内で優先度低)",
+      "pros": [
+        "[K] 今回鞍上はキャリア22年目・通算1593勝のベテラン(川崎所属)＝場慣れと経験は厚い"
+      ],
+      "cons": [
+        "[K] 前走(6/17川崎1400・着順抽出割れ5/7着で要検証)の騎手が同定できず乗り替わり方向が不明＝継続/強化/弱化のいずれとも断定できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=031140",
+        "https://db.netkeiba.com/jockey/05455/"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "カサミラ",
+      "today_jockey": "神尾香澄",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "5年目(2021年4月19日初騎乗)",
+        "career_record": "71勝/1425戦(通算勝率約5.0%)",
+        "note": "川崎所属の女性騎手。経験はまだ浅い部類。"
+      },
+      "weight_allowance": "推定△2kg(52.0kg＝フィールド標準54kgより-2kg。通算71勝は50-100勝の減量ブラケットに合致する推定)",
+      "combo_record": "不明(127日休み明けだった前走からの継続性を含め未確認)",
+      "pros": [
+        "[K] 斤量面で2kg程度の減量利がある可能性(52kg騎乗＝推定)"
+      ],
+      "cons": [
+        "[K] 騎手通算勝率は約5.0%と本レース構成の中でも経験浅め",
+        "[K] 前走騎手不明で乗り替わり方向が判定できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=031308",
+        "https://www.nankankeiba.com/kis_info/031308.do"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "クインズカヤノヒメ",
+      "today_jockey": "藤江渉",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "28年目(44歳)",
+        "career_record": "826勝/13651戦(通算勝率約6.1%)",
+        "note": "川崎所属の実力派ベテラン。本レース構成馬の鞍上の中で経験・通算実績とも最上位クラス。"
+      },
+      "weight_allowance": "なし(54.0kg=標準)",
+      "combo_record": "不明(web未取得)",
+      "pros": [
+        "[K] 今回鞍上は28年目・通算826勝の実力派ベテランで、本レースの鞍上構成の中では相対的に質が高い"
+      ],
+      "cons": [
+        "[K] 前走(6/18川崎1500・7着)の騎手が同定できず乗り替わり方向は不明"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=030990",
+        "https://p.keibabook.co.jp/db/kisyu/%EF%BE%8C059"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "エムティラヴ",
+      "today_jockey": "中越琉世",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "11年目(28歳)",
+        "career_record": "111勝/2470戦(通算勝率約4.5%)",
+        "note": "川崎所属・中堅どころ。通算勝数は100超で減量対象外。"
+      },
+      "weight_allowance": "なし(54.0kg=標準。通算111勝は減量ブラケット超過と整合)",
+      "combo_record": "不明(6/19川崎1500に同日出走した4/5/6/9/10の直接対戦を含め、前走騎手情報が無く継続性は未検証)",
+      "pros": [],
+      "cons": [
+        "[K] 前走(6/19川崎1500・9着)の騎手不明で乗り替わり方向は判定不能",
+        "[K] 今回騎手の通算勝率は約4.5%と平均的で特筆すべき強みはない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=031262"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "コミックガール",
+      "today_jockey": "櫻井光輔",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "実働9年目相当(2017年デビュー。2023年12月-2024年2月に規律違反で騎乗停止、2024年3月に免許非更新で一旦引退、2025年3月に再免許取得し4月復帰)",
+        "career_record": "232勝/4054戦(通算勝率約5.7%)",
+        "note": "経歴に処分歴あり(携帯電話不正使用・虚偽証言)だが現役継続中。"
+      },
+      "weight_allowance": "なし(54.0kg=標準)",
+      "combo_record": "不明(web未取得)",
+      "pros": [
+        "[K] 通算勝率約5.7%は本レース構成内では中位"
+      ],
+      "cons": [
+        "[K] 前走(6/19川崎1500・8着)の騎手不明で乗り替わり方向は判定不能",
+        "[K] 2023-2024年に規律違反による長期騎乗停止・一時引退歴があり、ブランクからの再構築中(特記事項として記録)"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=031268"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "セイウンパイオニア",
+      "today_jockey": "山林堂信彦",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "30年目(48歳)",
+        "career_record": "269勝/5519戦(通算勝率約4.9%)",
+        "note": "神奈川県騎手会所属のベテラン。経験は長いが近年の勢いを示す情報は取得できず。"
+      },
+      "weight_allowance": "なし(56.0kg=牡馬標準)",
+      "combo_record": "不明(web未取得)",
+      "pros": [
+        "[K] キャリア30年のベテランで場慣れは十分"
+      ],
+      "cons": [
+        "[K] 前走(6/19川崎1500・11着)の騎手不明で乗り替わり方向は判定不能",
+        "[K] 通算勝率約4.9%と平均以下、直近の調子を裏付ける材料も未取得"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=030910",
+        "https://ja.wikipedia.org/wiki/%E5%B1%B1%E6%9E%97%E5%A0%82%E4%BF%A1%E5%BD%A6"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "バーサズバラード",
+      "today_jockey": "伊藤裕人",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "不明(川崎所属である点のみ確認)",
+        "career_record": "不明(通算成績ページの取得に至らず・予算内で深掘りせず)",
+        "note": "情報量最小。確信度は低いまま扱う。"
+      },
+      "weight_allowance": "なし(54.0kg=標準)",
+      "combo_record": "不明",
+      "pros": [],
+      "cons": [
+        "[K] 前走(6/15川崎1400・12着)の騎手不明で乗り替わり方向は判定不能",
+        "[K] 今回騎手の通算成績・調子とも未取得＝評価材料が最も薄い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.kawasakikeiba.com/01jockey_trainer/jockey/itoh_h.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "カルストンオリビア",
+      "today_jockey": "増田充宏",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "中堅どころ(推定)",
+        "career_record": "355勝/7079戦(通算勝率約5.0%)",
+        "note": "川崎所属の中堅騎手。"
+      },
+      "weight_allowance": "なし(54.0kg=標準)",
+      "combo_record": "不明(6/19川崎1500の同日対戦馬=4,5,6,10と直接対戦済みだが騎手継続性は未検証)",
+      "pros": [],
+      "cons": [
+        "[K] 前走(6/19川崎1500・7着)の騎手不明で乗り替わり方向は判定不能"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.nankankeiba.com/kis_info/031089.do"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "キアラボヌール",
+      "today_jockey": "加藤雄真",
+      "prev_jockey": "不明(web補完不可)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "3年目(21歳)",
+        "career_record": "32勝/989戦(通算勝率約3.2%)",
+        "note": "川崎所属の若手。減量資格△マークが直近レース結果に頻出。"
+      },
+      "weight_allowance": "推定△2kg(52.0kg＝フィールド標準54kgより-2kg。減量マーク△の頻出と整合)",
+      "combo_record": "不明(6/19川崎1500の同日対戦馬と直接対戦済みだが騎手継続性は未検証)",
+      "pros": [
+        "[K] 斤量面で2kg程度の減量利(52kg騎乗)"
+      ],
+      "cons": [
+        "[K] 今回騎手はキャリア3年目・通算勝率約3.2%と本レース構成の中で最も経験が浅い部類",
+        "[K] 前走(6/19川崎1500・12着)の騎手不明で乗り替わり方向は判定不能"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=031342",
+        "https://www.nankankeiba.com/kis_info/031342.do"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "オトメノネガイ",
+      "today_jockey": "池谷匠翔",
+      "prev_jockey": "不明(web補完不可・前走は浦和開催で川崎所属騎手データベースからの追跡も未達)",
+      "change_direction": "判定保留",
+      "jockey_profile": {
+        "career_years": "7年目(24歳)",
+        "career_record": "139勝/2557戦(通算勝率約5.4%)",
+        "note": "川崎所属。田島寿一厩舎からの起用で、同厩10番とは異なる若手騎手＝主戦固定でない起用パターン(暫定ラベル・低確信度)。"
+      },
+      "weight_allowance": "なし(54.0kg=標準。通算139勝は減量ブラケット超過と整合)",
+      "combo_record": "不明(web未取得)",
+      "pros": [],
+      "cons": [
+        "[K] 前走(6/23浦和1500・6着)の騎手不明で乗り替わり方向は判定不能"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://nar.umanity.jp/jockey_01.php?code=031296",
+        "https://ja.wikipedia.org/wiki/%E6%B1%A0%E8%B0%B7%E5%8C%A0%E7%BF%94"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "race_id": "20260710-kawasaki-10",
+  "date": "2026-07-10",
+  "post_time": "19:40",
+  "venue": "川崎",
+  "race_no": 10,
+  "race_name": "かながわ綾瀬のへそ祭り第一回完走記念Ｃ１三 四",
+  "course": {
+    "track": "川崎",
+    "surface": "ダート",
+    "distance": 1400,
+    "direction": "左"
+  },
+  "going": "良",
+  "weather": "晴",
+  "race_class": "C1三 四",
+  "nar": true,
+  "scratched": [
+    {
+      "no": 5,
+      "name": "モジモジ",
+      "reason": "疾病"
+    }
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "waku": 1,
+      "name": "ブラックトルマリン",
+      "sex_age": "牡3",
+      "weight": 55.0,
+      "jockey": "矢野貴之",
+      "trainer": "高月賢一",
+      "affiliation": "川崎",
+      "style": "先行",
+      "ten_speed": "速",
+      "sire": "シャンハイボビー",
+      "recent": [
+        {
+          "date": "2026-04-08",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1500,
+          "pos": 1,
+          "field": 9,
+          "first_corner": 2,
+          "body_weight": 457,
+          "jockey": "矢野貴之"
+        },
+        {
+          "date": "2026-03-02",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 1,
+          "field": 10,
+          "first_corner": 3,
+          "body_weight": 463,
+          "jockey": "矢野貴之"
+        },
+        {
+          "date": "2025-11-20",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 900,
+          "pos": 2,
+          "field": 10,
+          "first_corner": 6,
+          "body_weight": 464,
+          "jockey": "野畑凌"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "waku": 2,
+      "name": "アトラスライズ",
+      "sex_age": "牝5",
+      "weight": 54.0,
+      "jockey": "櫻井光輔",
+      "trainer": "久保勇",
+      "affiliation": "川崎",
+      "style": "差し",
+      "ten_speed": "中",
+      "sire": "モーニン",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 7,
+          "field": 12,
+          "first_corner": 5,
+          "body_weight": 451,
+          "jockey": "櫻井光輔"
+        },
+        {
+          "date": "2026-05-15",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 3,
+          "field": 12,
+          "first_corner": 8,
+          "body_weight": 449,
+          "jockey": "木間龍也"
+        },
+        {
+          "date": "2026-05-05",
+          "venue": "船橋",
+          "surface": "ダート",
+          "dist": 1200,
+          "pos": 11,
+          "field": 12,
+          "first_corner": 7,
+          "body_weight": 454,
+          "jockey": "櫻井光輔"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "waku": 3,
+      "name": "ヴォラーレ",
+      "sex_age": "牡4",
+      "weight": 56.0,
+      "jockey": "伊藤裕人",
+      "trainer": "村田順一",
+      "affiliation": "川崎",
+      "style": "追込",
+      "ten_speed": "遅",
+      "sire": "ハッピースプリント",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 6,
+          "field": 12,
+          "first_corner": 12,
+          "body_weight": 427,
+          "jockey": "伊藤裕人"
+        },
+        {
+          "date": "2026-05-16",
+          "venue": "東京",
+          "surface": "ダート",
+          "dist": 1600,
+          "pos": 16,
+          "field": 16,
+          "first_corner": 15,
+          "body_weight": 420,
+          "jockey": "佐藤翔馬"
+        },
+        {
+          "date": "2026-05-03",
+          "venue": "東京",
+          "surface": "ダート",
+          "dist": 1600,
+          "pos": 15,
+          "field": 15,
+          "first_corner": 14,
+          "body_weight": 418,
+          "jockey": "木幡育也"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "waku": 4,
+      "name": "アオイハナミチ",
+      "sex_age": "牝4",
+      "weight": 54.0,
+      "jockey": "新原周馬",
+      "trainer": "林隆之",
+      "affiliation": "川崎",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "sire": "フォーウィールドライブ",
+      "recent": [
+        {
+          "date": "2026-06-17",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 1,
+          "field": 8,
+          "first_corner": 1,
+          "body_weight": 430,
+          "jockey": "吉原寛人"
+        },
+        {
+          "date": "2026-02-20",
+          "venue": "大井",
+          "surface": "ダート",
+          "dist": 1200,
+          "pos": 4,
+          "field": 15,
+          "first_corner": 2,
+          "body_weight": 426,
+          "jockey": "鷹見陸"
+        },
+        {
+          "date": "2026-01-27",
+          "venue": "大井",
+          "surface": "ダート",
+          "dist": 1200,
+          "pos": 5,
+          "field": 15,
+          "first_corner": 8,
+          "body_weight": 429,
+          "jockey": "笹川翼"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "waku": 6,
+      "name": "ボルドーティラミス",
+      "sex_age": "牝4",
+      "weight": 54.0,
+      "jockey": "古岡勇樹",
+      "trainer": "田邊陽一",
+      "affiliation": "川崎",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "sire": "シュヴァルグラン",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 11,
+          "field": 12,
+          "first_corner": 4,
+          "body_weight": 461,
+          "jockey": "中山遥人"
+        },
+        {
+          "date": "2026-05-26",
+          "venue": "浦和",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 7,
+          "field": 13,
+          "first_corner": 1,
+          "body_weight": 456,
+          "jockey": "中山遥人"
+        },
+        {
+          "date": "2026-05-15",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 9,
+          "field": 12,
+          "first_corner": 1,
+          "body_weight": 463,
+          "jockey": "中山遥人"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "waku": 7,
+      "name": "デーレーハンサム",
+      "sex_age": "牡3",
+      "weight": 55.0,
+      "jockey": "鷹見陸",
+      "trainer": "鈴木義久",
+      "affiliation": "川崎",
+      "style": "先行",
+      "ten_speed": "中",
+      "sire": "ダノンスマッシュ",
+      "recent": [
+        {
+          "date": "2026-06-16",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1500,
+          "pos": 13,
+          "field": 13,
+          "first_corner": 8,
+          "body_weight": 485,
+          "jockey": "新原周馬"
+        },
+        {
+          "date": "2026-04-08",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1500,
+          "pos": 4,
+          "field": 13,
+          "first_corner": 5,
+          "body_weight": 483,
+          "jockey": "新原周馬"
+        },
+        {
+          "date": "2026-03-05",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1500,
+          "pos": 3,
+          "field": 9,
+          "first_corner": 9,
+          "body_weight": 486,
+          "jockey": "新原周馬"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "waku": 8,
+      "name": "アルティメット",
+      "sex_age": "牝5",
+      "weight": 54.0,
+      "jockey": "中越琉世",
+      "trainer": "武井和実",
+      "affiliation": "川崎",
+      "style": "差し",
+      "ten_speed": "中",
+      "sire": "ドレフォン",
+      "recent": [
+        {
+          "date": "2026-06-19",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 10,
+          "field": 12,
+          "first_corner": 11,
+          "body_weight": 417,
+          "jockey": "中越琉世"
+        },
+        {
+          "date": "2026-05-15",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": 4,
+          "field": 12,
+          "first_corner": 7,
+          "body_weight": 419,
+          "jockey": "中越琉世"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 1400,
+          "pos": null,
+          "field": 12,
+          "first_corner": 4,
+          "body_weight": 414,
+          "jockey": "中越琉世"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "waku": 8,
+      "name": "ソルテア",
+      "sex_age": "牡6",
+      "weight": 56.0,
+      "jockey": "室陽一朗",
+      "trainer": "水野貴史",
+      "affiliation": "浦和",
+      "style": "追込",
+      "ten_speed": "遅",
+      "sire": "エスケンデレヤ",
+      "recent": [
+        {
+          "date": "2026-06-22",
+          "venue": "浦和",
+          "surface": "ダート",
+          "dist": 2000,
+          "pos": 9,
+          "field": 12,
+          "first_corner": 11,
+          "body_weight": 475,
+          "jockey": "室陽一朗"
+        },
+        {
+          "date": "2026-06-18",
+          "venue": "川崎",
+          "surface": "ダート",
+          "dist": 2000,
+          "pos": 8,
+          "field": 10,
+          "first_corner": 10,
+          "body_weight": 478,
+          "jockey": "室陽一朗"
+        },
+        {
+          "date": "2026-06-03",
+          "venue": "船橋",
+          "surface": "ダート",
+          "dist": 1600,
+          "pos": 8,
+          "field": 12,
+          "first_corner": 11,
+          "body_weight": 470,
+          "jockey": "室陽一朗"
+        }
+      ]
+    }
+  ]
+}

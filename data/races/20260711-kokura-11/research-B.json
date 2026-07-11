@@ -1,0 +1,143 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツールに縮退",
+  "horses": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "直近2走は前に行って後退し、同型多数では楽ではない"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "前走は同型の中で踏ん張り、位置取りの安定感は残る"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "前走同舞台で先手を取り、着順以上に展開の核になる内容"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "直近は先手から大きく失速し、短い間隔での反動が懸念"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走はハナから後退し、距離短縮でも押し切りの根拠が不足"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "高瀬川Sで後方から差を詰め、前が苦しくなる流れなら浮上余地"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "近走は前に行って勝ち切る形があり、現級でも行き脚を武器にできる"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    }
+  ],
+  "note": "seedと決定論ツールに縮退"
+}

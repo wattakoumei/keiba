@@ -1,0 +1,247 @@
+{
+  "point": "I: 割引リスク",
+  "overall_confidence": "中〜低",
+  "field_note": "seedと決定論ツール相当の縮退評価。web深掘りは未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワルトシュタイン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジョーカー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "間隔が空いており、仕上がりの確認が必要"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベラジオヴァレル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "近走の着順推移から上昇を読み切りにくい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ミニュイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "近走の着順推移から上昇を読み切りにくい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンライズハリー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "近走の着順推移から上昇を読み切りにくい",
+        "前走内容と間隔の両面で割引が大きい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "タガノランパート",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ゴールデンドラゴン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ラッキーダイヤ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スナークホクサイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "近走の着順推移から上昇を読み切りにくい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カフジミモレット",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターコトノハ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "近走の着順推移から上昇を読み切りにくい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンサクラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ショールミーズ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "リスク要素はあるが、条件替わりで割引を一部緩和可能"
+      ],
+      "cons": [
+        "近走実測がなく、能力と脚質の不確実性が高い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アンリミテッド",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "セイウンダイフク",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "メイショウマグナ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクで大きな減点は限定的"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ],
+  "note": "速報縮退"
+}

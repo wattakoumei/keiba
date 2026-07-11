@@ -1,0 +1,109 @@
+{
+  "observation": "N_class_rank",
+  "race_id": "20260710-kawasaki-12",
+  "note": "全馬川崎所属のC3選定馬(ファイナルアンサー賞)＝転入・移籍混合なし。NAR web情報は薄く、組番(C3内の何組か)を全頭で確定できず。web確定できたのは バーサズバラード(8番・組番三/五/五六/七/七八/六=常時C3、B3以上在籍なし)、クインズカヤノヒメ(3番・過去C2在籍歴あり=本レース最高到達クラス保持)の2頭のみ。他8頭は出走表(核データ)の近3走とレース区分(全馬C3選定)から推定。",
+  "field_center_R": "R2〜R3（C3内。組番差の全頭確定はできず、近走内容で微差付け）",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ラシャスバラード",
+      "R": "R2〜R3(推定)＝C3相当。組番・過去在籍最高クラス未確認",
+      "pros": ["R2〜R3＝C3相当（生え抜き川崎所属・転入無し）。近3走(7,8,9着)はいずれもC3級内での結果とみられ大崩れではない"],
+      "cons": ["組番・過去在籍最高クラスをwebで確認できず（NAR情報薄）＝推定の域", "格上帰りを裏付ける材料なし"],
+      "score": 0,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md"]
+    },
+    {
+      "no": 2,
+      "name": "カサミラ",
+      "R": "R2〜R3(推定)＝C3相当。127日(約4か月)休み明け",
+      "pros": ["R2〜R3＝C3相当。近3走(8,10,7着)は全て川崎1400・同格C3内の結果=急な降級・崩れではない"],
+      "cons": ["nankankeiba該当ページ取得を試みたが抽出値が笠松/名古屋のレースを返すなど出走表の川崎1400実績と不整合＝別馬データ混入の疑いで不採用。組番・降級歴は未確認", "休み明け自体の評価は観点Iの領域＝Nは格のみ中立評価"],
+      "score": 0,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md", "https://www.nankankeiba.com/uma_info/2022100500.do(不採用・データ不整合)"]
+    },
+    {
+      "no": 3,
+      "name": "クインズカヤノヒメ",
+      "R": "R3〜R4(推定)＝現級はC3上位相当とみられるが、2024年後半にC2帯(C2八九・C2六等)への在籍実績あり＝本レース出走馬中もっとも高い到達クラスを持つ",
+      "pros": ["R3〜4＝C3上位〜C2経験。通算64戦6勝(勝率約9.4%)・2024年7月川崎C3三四で勝利、同年12月C2ジョッキーズカップファイナルでも勝利＝本レース10頭中もっとも高い到達クラス（換算原則7の格上帰り候補として地力上位の材料）"],
+      "cons": ["直近3走(6/18川崎1500 7着,6/2船橋1600 8着,5/25浦和1500 10着)は着外続き・いずれもC3級での結果とみられ、『崩れが今回より上のランクで起きた』(原則7の反転則の適用条件)を厳密には確認できず＝除外条件(b)現級以下でも崩れが続く、に近い可能性があり素点の押し上げは見送り", "牝6歳＝高齢による地力低下の可能性も併存（原則7除外条件(c)と紙一重）"],
+      "score": 0,
+      "confidence": "中",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md", "https://keiba.rakuten.co.jp/horse_detail/detail/HORSEID/2620220455"]
+    },
+    {
+      "no": 4,
+      "name": "エムティラヴ",
+      "R": "R2(推定)＝C3下位相当",
+      "pros": ["R2＝C3相当（生え抜き川崎所属・転入無し）"],
+      "cons": ["直近3走9,11,11着と一貫して大敗＝格上在籍歴の証跡なく純粋な下降基調", "組番等の詳細はweb未確認（推定の域）"],
+      "score": -1,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md"]
+    },
+    {
+      "no": 5,
+      "name": "コミックガール",
+      "R": "R2〜R3(推定)＝C3相当",
+      "pros": ["R2〜3＝C3相当。近3走(8,8,10着)は大崩れでなく同格内での結果"],
+      "cons": ["組番・過去在籍最高クラス未確認（推定の域）", "格上帰りを裏付ける材料なし"],
+      "score": 0,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md"]
+    },
+    {
+      "no": 6,
+      "name": "セイウンパイオニア",
+      "R": "R2〜R3(推定)＝C3相当。10頭中唯一の牡馬(56kg)",
+      "pros": ["R2〜3＝C3相当。通算26戦1-1-4(3着内6回)と粘り強さ自体は長期的にはある"],
+      "cons": ["直近3走11,9,9着と低迷継続・B3以上在籍の証跡は確認できず=格上帰りではない純粋な下降基調", "keiba.go.jp/keibalab双方とも個別レースのクラス表記詳細は取得できず推定にとどまる"],
+      "score": 0,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md", "https://www.keibalab.jp/db/horse/2021106996/", "https://www.oddspark.com/keiba/HorseDetail.do?lineageNb=2021106996&resultsTab=2"]
+    },
+    {
+      "no": 8,
+      "name": "バーサズバラード",
+      "R": "R2＝C3相当（組番三/五/五六/七/七八/六=概ね中位〜下位組を往来。web確認済）",
+      "pros": ["R2＝C3相当（確認済）。組番自体は三〜八と極端な最下位固定ではない"],
+      "cons": ["直近レース記録を確認したところ常にC3内(2025/12〜2026/6の全レースC3表記)で、B3以上在籍実績は確認できず＝格上帰りではない純粋な下降基調", "通算28戦1勝(勝率3.6%)・直近も9〜13着と大敗続きで組番に反して内容は最下位級"],
+      "score": -1,
+      "confidence": "中",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md", "https://www.keiba.go.jp/KeibaWeb/DataRoom/HorseMarkInfo?k_lineageLoginCode=30095408876"]
+    },
+    {
+      "no": 9,
+      "name": "カルストンオリビア",
+      "R": "R2(推定)＝C3下位相当",
+      "pros": ["R2＝C3相当。2025/11/20川崎900m(プファイル賞)で2着など好走歴も部分的にあり"],
+      "cons": ["通算30戦で好走(1-2-2)が少なく直近3走も7,13,11着＝格上在籍実績は確認できず下降基調", "個別レースのクラス表記は取得できず推定の域"],
+      "score": -1,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md", "https://www.keiba.go.jp/KeibaWeb/DataRoom/RaceHorseInfo?k_lineageLoginCode=30048402296&k_activeCode=1"]
+    },
+    {
+      "no": 10,
+      "name": "キアラボヌール",
+      "R": "R2〜R3(推定)＝C3相当",
+      "pros": ["R2〜3＝C3相当。近3走のうち5/29浦和1400 6着は相対的にましな結果"],
+      "cons": ["組番・過去在籍最高クラス未確認（推定の域）", "6/19川崎1500では12着と大敗もあり内容にムラ"],
+      "score": 0,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md"]
+    },
+    {
+      "no": 11,
+      "name": "オトメノネガイ",
+      "R": "R2〜R3(推定)＝C3相当",
+      "pros": ["R2〜3＝C3相当。6/23浦和1500 6着は近3走で最良"],
+      "cons": ["組番・過去在籍最高クラス未確認（推定の域）", "格上帰りを裏付ける材料なし"],
+      "score": 0,
+      "confidence": "低",
+      "sources": ["/Users/watasekoumei/development/keiba/data/races/20260710-kawasaki-12/出走表.md"]
+    }
+  ],
+  "summary": "全10頭が川崎所属のC3選定馬＝転入混合なしで地力はほぼ横並び(R2〜R3)。web(NAR)で組番/降級歴を確定できたのは2頭のみ：クインズカヤノヒメ(3番)は過去C2在籍歴ありでフィールド最高到達クラスだが直近3走はC3級とみられる着外続きで反転則の適用条件(崩れが上位ランクで発生)を厳密には満たさずスコアは中立0。バーサズバラード(8番)は組番自体は中位だが常時C3在籍・通算勝率3.6%で純粋な下降基調＝-1。他8頭は出走表の近走内容から推定(低confidence)。"
+}

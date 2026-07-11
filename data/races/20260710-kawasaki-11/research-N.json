@@ -1,0 +1,139 @@
+{
+ "point": "N",
+ "overall_confidence": "低〜中",
+ "field_note": "B1B2選定馬＝レース中心はR6〜R7帯（南関東4場内の交流ゆえ地区格差補正は不要）。地方競馬のweb情報量制約により現級を直接裏取りできた馬は限定的（タマモアルタイル・マイネルディレクト・マカゼ）。エコロネオはJRA籍からの転入が濃厚だが確定情報が薄く確信度は低め。取れなかった馬は不明+確信度低で確定し追加検索はしていない。",
+ "note": "共通ランクRはローカル正本のNARクラス階梯カタログ(nar-class-ladder.md)に基づく。南関東4場（大井・船橋・川崎・浦和）間の移動はすべて地区格差ゼロで換算。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "エルロイ",
+   "score": 0,
+   "confidence": "低",
+   "pros": [
+    "R6〜7(推定)＝B1B2選定馬への選出基準からみて現級は該当帯相当とみられる"
+   ],
+   "cons": [
+    "現級・組番のweb裏取りができず、格付けは選定基準からの推定に留まる（7歳・船橋所属で南関東内交流）"
+   ],
+   "sources": [
+    "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/DebaTable?k_raceDate=2026%2F07%2F10&k_raceNo=11&k_babaCode=21"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "タマモアルタイル",
+   "score": 1,
+   "confidence": "中",
+   "pros": [
+    "R6＝浦和「月光特別」B2B3クラスを1着で勝ち上がった実績あり。浦和→川崎は南関東内移動につき地区格差の割引は不要"
+   ],
+   "cons": [
+    "勝ち上がった具体的な開催日・組番までは裏取りできていない"
+   ],
+   "sources": [
+    "https://www.keiba.go.jp/KeibaWeb/DataRoom/RaceHorseInfo?k_lineageLoginCode=30033403486",
+    "https://www.jbis.or.jp/horse/0001333137/record/?sort=winsec&order=A"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "ツツウラウラ",
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [
+    "現級・組番のweb裏取りができず、格換算の根拠が薄い（NARの情報量制約）"
+   ],
+   "sources": [
+    "https://www.keiba.go.jp/KeibaWeb/DataRoom/HorseMarkInfo?k_lineageLoginCode=30093409026"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "マイネルディレクト",
+   "score": 1,
+   "confidence": "低〜中",
+   "pros": [
+    "R6＝大井「スピカ賞B2三」への出走歴の言及があり、現級はB2帯とみられる",
+    "直近(6/17)2着の断片情報あり（出典に文字化けがあり確信度は下げる）"
+   ],
+   "cons": [
+    "同ソースに5/1で15着の言及もあり内容の振れが大きい（下降基調自体はIの領域＝ここでは格の文脈のみで併記）"
+   ],
+   "sources": [
+    "https://www.nankankeiba.com/uma_info/2021106805.do"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "マカゼ",
+   "score": 0.5,
+   "confidence": "中",
+   "pros": [
+    "R6＝B2クラス在籍が確認でき、レース中心帯とほぼ同格",
+    "直近で2着（勝ち馬に次ぐ着順）の実績あり"
+   ],
+   "cons": [
+    "具体的な開催日・組番までの裏取りは未確認"
+   ],
+   "sources": [
+    "https://www.nankankeiba.com/result/2024051520030311.do"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "エコロネオ",
+   "score": 1,
+   "confidence": "低",
+   "pros": [
+    "R6〜7(推定)＝JRA在籍時14戦2勝(獲得賞金2222.8万円、栗東・森秀行厩舎)の実績を換算原則3で地方転換。1勝クラス相当の地力があれば南関B級以上に相当",
+    "地方転入後すでに複数戦（6月のB1B2選定馬）を消化している様子で、転入初戦の大幅割引は不要とみられる"
+   ],
+   "cons": [
+    "JRA籍からの転入確定情報は間接証拠（生年月日2021年・性別牡の一致からの推定）に留まり確信度は下げる",
+    "JRA成績が具体的にどのクラスで得たものか（未勝利〜1勝クラス）は未確認"
+   ],
+   "sources": [
+    "https://www.keibalab.jp/db/horse/2021110131/record.html",
+    "https://en.netkeiba.com/db/horse/2021110131/"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "ピンクタオルチャン",
+   "score": -0.5,
+   "confidence": "低",
+   "pros": [
+    "2024年7月川崎3R新馬勝ち上がりの素質はあり地力の土台はある"
+   ],
+   "cons": [
+    "R5〜6(推定)＝直近言及はB3クラスで、レース中心(B1B2帯)より1段格下の可能性。選定基準か直近昇級かは未確認で確信度は下げる"
+   ],
+   "sources": [
+    "https://www.nankankeiba.com/uma_info/2022102147.do"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "ポッドレオ",
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [
+    "現級・組番のweb裏取りができず、格換算の根拠が薄い"
+   ],
+   "sources": []
+  },
+  {
+   "no": 10,
+   "name": "クオレス",
+   "score": 0,
+   "confidence": "低",
+   "pros": [],
+   "cons": [
+    "現級・組番のweb裏取りができず、格換算の根拠が薄い"
+   ],
+   "sources": []
+  }
+ ]
+}

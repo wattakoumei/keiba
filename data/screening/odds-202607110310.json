@@ -1,0 +1,70 @@
+{
+  "race_id": "202607110310",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "tansho": 6.5
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "tansho": 7.1
+    },
+    {
+      "no": 3,
+      "name": "ショウナンラスボス",
+      "tansho": 23.3
+    },
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "tansho": 22.3
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "tansho": 11.9
+    },
+    {
+      "no": 6,
+      "name": "ロードマイライフ",
+      "tansho": 6.1
+    },
+    {
+      "no": 7,
+      "name": "ウナギノボリ",
+      "tansho": 10.5
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "tansho": 2.4
+    },
+    {
+      "no": 9,
+      "name": "モーデン",
+      "tansho": 7.9
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.4,
+    "second_odds": 6.1,
+    "fav_second_gap": 3.7,
+    "fav_second_ratio": 2.542,
+    "n_under_30": 9,
+    "n_under_10": 5,
+    "mean_odds": 10.9,
+    "n_valid": 9
+  },
+  "dango_tier": "収束",
+  "dango_label": "収束★",
+  "dango_score": -3,
+  "dango_signals": [
+    "[収束] 1-2人気差3.7≥3.5(断然)",
+    "[割れ] 単勝平均10.9倍<20(団子)"
+  ],
+  "fav_no": 8,
+  "fav_name": "メイショウヨゾラ"
+}

@@ -1,0 +1,275 @@
+{
+ "observation": "K",
+ "race_id": "20260711-hakodate-11",
+ "field_size": 13,
+ "notes": "前走騎手はseed recent[0].jockeyで機械判定（web往復なし）。乗り替わり方向=強化/弱化/継続/テン乗りの4分類。厩舎騎手起用型catalogは本セッション未提供のためgenericで読み確信度を下げ、追記候補のみ報告。",
+ "horses": [
+  {
+   "no": 1,
+   "name": "カテリーナ",
+   "jockey_today": "浜中 俊",
+   "jockey_last": "浜中 俊",
+   "change_type": "継続",
+   "combo_note": "seed recent 4走中2走(直近含む)で浜中俊騎乗、前走2026-06-13函館松前特別1着=直近好走。主戦格の継続。",
+   "pros": [
+    "[K]継続コンビで前走1着の再現性",
+    "[K]浜中俊は2026年函館開催で複数勝利報道あり(6/20時点で4戦4勝の情報)=当該開催で好調"
+   ],
+   "cons": [],
+   "score": 1.5,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibalab.jp/db/jockey/01115/history.html",
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "アイスグリーン",
+   "jockey_today": "小沢 大仁",
+   "jockey_last": "亀田 温心",
+   "change_type": "テン乗り",
+   "combo_note": "seed recent4走は亀田温心/C.デムーロ/吉村誠之助/本田正重と全て別人=主戦不在のフリー騎乗馬。今回小沢大仁も初コンビ。",
+   "pros": [],
+   "cons": [
+    "[K]初コンビ+主戦不在馬=乗り替わりの強化材料なし",
+    "[K]小沢大仁は2021年デビューの若手(関西)で経験値はこれから、函館コース実績の裏付け未確認"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%B2%A2%E5%A4%A7%E4%BB%81",
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "ダンツファイター",
+   "jockey_today": "武 豊",
+   "jockey_last": "佐々木 大輔",
+   "change_type": "強化",
+   "combo_note": "seed recent4走は全て佐々木大輔(前走むらさき賞3着含む主戦4連続)。今回は武豊への乗り替わり=大幅強化。武豊は2026-07-11(当日)函館で土曜5鞍騎乗が想定確定済み=遠征でなく現地参戦、力を入れた騎乗機会。",
+   "pros": [
+    "[K]主戦(佐々木大輔4連続騎乗)からトップジョッキー武豊への乗り替わり=明確な強化シグナル",
+    "[K]逃げ馬でペース判断が鍵になるレースにおいて経験豊富な武豊への手綱替えは有利材料",
+    "[K]武豊は当該開催(7/11函館)に現地参戦確定=一時的な単発騎乗でなく開催に腰を据えた状態"
+   ],
+   "cons": [
+    "[K]武豊にとっては初コンビ(テン乗り)=逃げ馬のクセ・折り合いの阿吽の呼吸は未知数"
+   ],
+   "score": 2,
+   "confidence": "高",
+   "sources": [
+    "https://keibasogomatome.com/archives/59932021.html",
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "ノーブルスカイ",
+   "jockey_today": "吉田 隼人",
+   "jockey_last": "西村 淳也",
+   "change_type": "テン乗り",
+   "combo_note": "seed recent4走は西村淳也/武豊/鮫島克駿/松若風馬と全てバラバラ=主戦不在のフリー騎乗馬。前走は15着大敗。",
+   "pros": [],
+   "cons": [
+    "[K]初コンビ+主戦不在+前走大敗という文脈=乗り替わりに浮上材料が乏しい",
+    "[K]吉田隼人の函館コース実績を裏付ける具体データ取得できず(不明)"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "seed recent[]",
+    "https://www.keibalab.jp/db/jockey/01095/history.html"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "ミッキージュエリー",
+   "jockey_today": "丹内 祐次",
+   "jockey_last": "角田 大和",
+   "change_type": "テン乗り",
+   "combo_note": "seed recent4走は角田大和/西村淳也/川田将雅(2回)と全てバラバラ。前走10着大敗。丹内祐次との過去コンビ実績はseedになく未確認。",
+   "pros": [
+    "[K]丹内祐次は美浦所属で中内田充正厩舎とは同系統(ノーザンファーム系)の起用歴があり得るが本セッションでは裏付け未確認=推定にとどめる"
+   ],
+   "cons": [
+    "[K]初コンビ+前走大敗という文脈で強化material乏しい",
+    "[K]丹内-中内田のコンビ実績はweb検索でも具体的な裏付けが取れず(不明)"
+   ],
+   "score": -0.5,
+   "confidence": "低",
+   "sources": [
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "ショウナンサムデイ",
+   "jockey_today": "池添 謙一",
+   "jockey_last": "松山 弘平",
+   "change_type": "継続(主戦復帰)",
+   "combo_note": "seed recent2-4走前は池添謙一(3連続)、前走のみ松山弘平に一時交代。今回池添謙一に戻り主戦継続とみなせる。",
+   "pros": [
+    "[K]主戦騎手(2-4走前3連続)への回帰=継続に近いコンビ関係"
+   ],
+   "cons": [
+    "[K]前走(松山弘平)は13着大敗=馬自体の不振が直近続いており騎手要因だけで上向く材料は薄い"
+   ],
+   "score": 0.5,
+   "confidence": "中",
+   "sources": [
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "インパクトシー",
+   "jockey_today": "横山 琉人",
+   "jockey_last": "横山 琉人",
+   "change_type": "継続",
+   "combo_note": "seed recent4走すべて横山琉人=完全な主戦継続。3走前1着・4走前3着など好走実績あり。",
+   "pros": [
+    "[K]4戦連続の完全継続コンビ=馬のクセを熟知、折り合い面の不安なし"
+   ],
+   "cons": [],
+   "score": 0.5,
+   "confidence": "高",
+   "sources": [
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "インヴォーグ",
+   "jockey_today": "北村 友一",
+   "jockey_last": "高杉 吏麒",
+   "change_type": "強化",
+   "combo_note": "seed recent: 前走(2026-05-17京都錦S)高杉吏麒8着、2走前(2026-04-19阪神立雲峡S)北村友一3着=コンビ実績あり。今回は北村友一への乗り替わり(復帰)。",
+   "pros": [
+    "[K]若手(高杉吏麒)から実績豊富な北村友一への乗り替わり=明確な強化",
+    "[K]2走前に北村友一騎乗で3着好走の実績があるコンビ=初めての手綱でない安心感",
+    "[K]福永祐一厩舎(福永祐一自身も元トップ騎手)が北村友一を起用=厩舎の信頼度を示唆(厩舎傾向の追記候補・確信度低)"
+   ],
+   "cons": [],
+   "score": 1.5,
+   "confidence": "中",
+   "sources": [
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "ドゥカート",
+   "jockey_today": "佐々木 大輔",
+   "jockey_last": "津村 明秀",
+   "change_type": "テン乗り",
+   "combo_note": "seed recent4走は津村明秀/菊沢一樹/菅原明良/津村明秀と全てバラバラ=主戦不在馬。佐々木大輔は今回3番ダンツファイターの主戦(4連続)だった騎手で、そちらは武豊に明け渡してこちらに乗り替え。当該開催(函館)に参戦中で6月時点である程度の勝ち星も確認。",
+   "pros": [
+    "[K]佐々木大輔は当該開催(函館)に参戦中で一定の稼働・勝ち星が確認できる中堅騎手"
+   ],
+   "cons": [
+    "[K]初コンビ=馬の折り合い・クセの把握はこれから",
+    "[K]騎手自身は直前まで別馬(ダンツファイター)の主戦だった=今回への集中度は不明"
+   ],
+   "score": -0.5,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibalab.jp/db/jockey/01197/history.html",
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "ウイントレメンデス",
+   "jockey_today": "横山 和生",
+   "jockey_last": "松山 弘平",
+   "change_type": "再乗り(テン乗りでない)",
+   "combo_note": "seed recent4走は松山弘平/横山和生/武豊(2回)とバラバラだが、2走前(2026-02-22東京ベストR記念)に横山和生騎乗8着の実績あり=完全初対面ではない。",
+   "pros": [
+    "[K]過去に一度騎乗経験あり=完全テン乗りではない"
+   ],
+   "cons": [
+    "[K]直近(2走前)は8着で明確な好走実績とは言えない",
+    "[K]横山和生の函館成績は中位水準の情報(6/20時点8戦1勝)で突出した強みは確認できず"
+   ],
+   "score": 0.5,
+   "confidence": "中",
+   "sources": [
+    "seed recent[]",
+    "https://www.keibalab.jp/db/jockey/01140/"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "ソリダリティ",
+   "jockey_today": "岩田 康誠",
+   "jockey_last": "幸 英明",
+   "change_type": "テン乗り",
+   "combo_note": "seed recent4走は幸英明/菅原明良/C.デムーロ/荻野極と全てバラバラ=7歳馬でフリー騎乗が定着。岩田康誠はベテランで実績十分だが初コンビ。",
+   "pros": [
+    "[K]岩田康誠は実績十分なベテラン騎手=技量面の不安は小さい"
+   ],
+   "cons": [
+    "[K]初コンビ+高齢馬でクセの把握に時間を要する可能性",
+    "[K]岩田康誠の当該開催(函館)における直近の稼働状況は具体的に確認できず(不明)"
+   ],
+   "score": 0.5,
+   "confidence": "低",
+   "sources": [
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "ウィープディライト",
+   "jockey_today": "斎藤 新",
+   "jockey_last": "斎藤 新",
+   "change_type": "継続",
+   "combo_note": "seed recent4走中3走(前走含む)で斎藤新騎乗=主戦継続。",
+   "pros": [
+    "[K]主戦継続でクセの把握は十分"
+   ],
+   "cons": [],
+   "score": 0,
+   "confidence": "高",
+   "sources": [
+    "seed recent[]"
+   ]
+  },
+  {
+   "no": 13,
+   "name": "ピンクジン",
+   "jockey_today": "古川 吉洋",
+   "jockey_last": "嶋田 純次",
+   "change_type": "弱化",
+   "combo_note": "seed recent4走中3走(前走含む)は嶋田純次=事実上の主戦だったが今回離脱、古川吉洋への乗り替わり。古川吉洋は当該開催(函館)で6月時点7戦0勝の情報=近況不振気味。",
+   "pros": [],
+   "cons": [
+    "[K]主戦(嶋田純次3連続)からの離脱=乗り替わりの積極材料が見当たらない",
+    "[K]乗り替わり後の古川吉洋も当該開催で目立った近況の勝ち星が確認できない(6月時点で7戦0勝の情報)",
+    "[K]初コンビ=折り合い面の不安も残る"
+   ],
+   "score": -1.5,
+   "confidence": "中",
+   "sources": [
+    "https://www.keibalab.jp/db/jockey/01015/history.html",
+    "seed recent[]"
+   ]
+  }
+ ],
+ "stable_intent_addendum_candidates": [
+  {
+   "trainer": "蛯名 正義",
+   "provisional_label": "選択的強化(推定)",
+   "evidence": "自厩舎の主戦格(佐々木大輔4連続)を差し置き外部トップ騎手武豊を招聘=特別な勝負気配の可能性",
+   "confidence": "低"
+  },
+  {
+   "trainer": "福永 祐一",
+   "provisional_label": "選択的強化(推定)",
+   "evidence": "若手(高杉吏麒)から北村友一(元同僚のベテラン)への乗り替わり",
+   "confidence": "低"
+  }
+ ]
+}

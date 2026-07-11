@@ -1,0 +1,139 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツールに縮退",
+  "horses": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "西村淳也騎手への乗替で、好位を取りに行く意識は上がる"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "酒井騎手が継続で、前受けの再現性は保てる"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "過去に好走時の鞍上へ戻り、外から主張する形を作りやすい"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走から鞍上替わりで、外の先行争いをどう収めるか不確実"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "藤懸騎手は継続で、差しに徹する判断がぶれにくい"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    }
+  ],
+  "note": "seedと決定論ツールに縮退"
+}

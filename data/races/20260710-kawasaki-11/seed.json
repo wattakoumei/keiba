@@ -1,0 +1,36 @@
+{
+  "race_id": "20260710-kawasaki-11",
+  "date": "2026-07-10",
+  "post_time": "20:15",
+  "venue": "川崎",
+  "race_no": 11,
+  "race_name": "うまさ鉄板！菜速あやせコーン杯Ｂ１Ｂ２選定馬",
+  "course": {
+    "track": "川崎",
+    "surface": "ダート",
+    "distance": 900,
+    "direction": "左"
+  },
+  "going": "良",
+  "weather": "晴",
+  "race_class": "B1B2選定馬",
+  "nar": true,
+  "scratched": [
+    {
+      "no": 4,
+      "name": "トニープリンス",
+      "reason": "除外"
+    }
+  ],
+  "horses": [
+    {"no": 1, "waku": 1, "name": "エルロイ", "sex_age": "牡7", "weight": 57.0, "jockey": "木間龍", "trainer": "", "affiliation": "船橋", "sire": "フレンチデピュティ"},
+    {"no": 2, "waku": 2, "name": "タマモアルタイル", "sex_age": "牡5", "weight": 57.0, "jockey": "高橋哲", "trainer": "", "affiliation": "浦和", "sire": "ボストンハーバー"},
+    {"no": 3, "waku": 3, "name": "ツツウラウラ", "sex_age": "牡4", "weight": 55.0, "jockey": "西啓太", "trainer": "", "affiliation": "大井", "sire": "Gold Legend"},
+    {"no": 5, "waku": 5, "name": "マイネルディレクト", "sex_age": "牡5", "weight": 55.0, "jockey": "岡村裕", "trainer": "", "affiliation": "川崎", "sire": "ダンスインザダーク"},
+    {"no": 6, "waku": 6, "name": "マカゼ", "sex_age": "牝6", "weight": 53.0, "jockey": "和田譲", "trainer": "", "affiliation": "大井", "sire": "ゴールドアリュール"},
+    {"no": 7, "waku": 7, "name": "エコロネオ", "sex_age": "牡5", "weight": 55.0, "jockey": "佐野遥", "trainer": "", "affiliation": "川崎", "sire": "Street Sense"},
+    {"no": 8, "waku": 8, "name": "ピンクタオルチャン", "sex_age": "牝4", "weight": 55.0, "jockey": "藤江渉", "trainer": "", "affiliation": "川崎", "sire": "クロフネ"},
+    {"no": 9, "waku": 9, "name": "ポッドレオ", "sex_age": "牡5", "weight": 55.0, "jockey": "古岡勇", "trainer": "", "affiliation": "川崎", "sire": "ゴールドアリュール"},
+    {"no": 10, "waku": 10, "name": "クオレス", "sex_age": "牝5", "weight": 55.0, "jockey": "池谷匠", "trainer": "", "affiliation": "川崎", "sire": "アグネスデジタル"}
+  ]
+}

@@ -1,0 +1,169 @@
+{
+ "point": "G",
+ "overall_confidence": "中",
+ "horses": [
+  {
+   "no": 1,
+   "name": "ラシャスバラード",
+   "pros": [
+    "前走(6/17)から中3週(23日)の妥当な間隔・距離1400→1400で連続(seed recent[])"
+   ],
+   "cons": [
+    "直近3走が7-8-9着と下降基調、上昇の兆しなし(seed recent[])",
+    "馬体重は当日未発表でトレンド不明"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 2,
+   "name": "カサミラ",
+   "pros": [],
+   "cons": [
+    "前走(3/5)から今回まで127日の大休養明け＝初動の仕上がり不透明(seed recent[])",
+    "過去3走(1400m)も7-8-10着で地力不足感",
+    "webで仕上げ談・輸送情報は取得できず（不明・確信度低）"
+   ],
+   "score": -2,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)",
+    "https://www.keiba.go.jp/KeibaWeb/DataRoom/RaceHorseInfo?k_lineageLoginCode=30072405396&k_activeCode=1"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "クインズカヤノヒメ",
+   "pros": [
+    "1500→1400の距離短縮はスピード面でプラス材料の可能性(seed recent[])"
+   ],
+   "cons": [
+    "5/25→6/2が中1週未満(8日)の詰めた使われ方で疲労蓄積懸念(seed recent[])",
+    "3走とも7-8-10着で地力の伸びなし、6歳と高齢"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "エムティラヴ",
+   "pros": [
+    "1500→1400の距離短縮はプラス材料"
+   ],
+   "cons": [
+    "直近3走が9-11-11着と大敗続きで下降基調(seed recent[])",
+    "中3週(21日)の妥当な間隔でも着順回復の兆候なし"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "コミックガール",
+   "pros": [
+    "1500→1400距離短縮、かつ4/8に1400経験あり(seed recent[])",
+    "前走間隔35-37日とゆったりで馬体回復の余地"
+   ],
+   "cons": [
+    "3走とも8-8-10着で着外定着、上昇要素薄い"
+   ],
+   "score": 0,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "セイウンパイオニア",
+   "pros": [
+    "前走(6/19)は134日の大休養明け緒戦＝叩き2走目にあたる今回は上積み期待できるローテパターン(seed recent[])",
+    "1500→1400距離短縮もプラス"
+   ],
+   "cons": [
+    "休み明け緒戦は11着大敗＝地力の低さも露呈(seed recent[])",
+    "webで仕上げ・輸送情報は取得できず(不明・確信度低)"
+   ],
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)",
+    "https://db.netkeiba.com/horse/2021106996/"
+   ]
+  },
+  {
+   "no": 8,
+   "name": "バーサズバラード",
+   "pros": [],
+   "cons": [
+    "直近3走が12-9-12着で下降基調著しい(seed recent[])",
+    "5/11→5/25(14日)・5/25→6/15(21日)と詰めた使われ方で疲労懸念",
+    "6歳で下降傾向定着"
+   ],
+   "score": -2,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 9,
+   "name": "カルストンオリビア",
+   "pros": [
+    "前走(6/19)7着と2走前(13着)より持ち直し傾向(seed recent[])",
+    "1500→1400短縮、間隔は35日→35日→21日とゆったりから妥当な間隔に移行"
+   ],
+   "cons": [
+    "前々走は900mへの距離短縮を挟むなど距離変化が大きく安定感に欠ける"
+   ],
+   "score": 1,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "キアラボヌール",
+   "pros": [
+    "5/29(1400m)6着の実績があり距離短縮はプラス材料(seed recent[])"
+   ],
+   "cons": [
+    "直近走(6/19,1500m)は12着に大敗しムラが大きい",
+    "5/13→5/29(16日)・5/29→6/19(21日)と詰めた間隔での連戦、疲労懸念"
+   ],
+   "score": -1,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  },
+  {
+   "no": 11,
+   "name": "オトメノネガイ",
+   "pros": [
+    "前走(6/23)6着とまずまずの結果(seed recent[])",
+    "距離1500→1400の短縮ローテ"
+   ],
+   "cons": [
+    "6/23→7/10は中2週(17日)とやや詰まった間隔で疲労懸念",
+    "馬体重トレンドは当日未発表で不明"
+   ],
+   "score": 0,
+   "confidence": "中",
+   "sources": [
+    "seed:recent[] (fetch_racecard.py 出走表)"
+   ]
+  }
+ ],
+ "note": "7番バイアルドは出走取消のため対象外(実質10頭)。全馬とも馬体重は当日未発表のためトレンド（増減）評価は保留＝confidence上限を中に抑える主因。休み明け2頭(②127日・⑥134日)はweb検索(カサミラ休み明け/セイウンパイオニア川崎6月19日)を実施したが、NAR下級条件馬のため仕上げ談・輸送情報は取得できず、seedの間隔・距離データのみで評価を確定した。"
+}

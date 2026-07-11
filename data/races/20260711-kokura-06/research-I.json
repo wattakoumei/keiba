@@ -1,0 +1,255 @@
+{
+  "point": "I: リスク/割引",
+  "overall_confidence": "中",
+  "field_note": "休み明け、近走大敗、距離替わり、後方一辺倒をseedから減点。脚部・気性のweb補強は未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ヒッグスボソン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "追込寄りでテンが遅く、包まれると進路待ちになりやすい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ビサイレント",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ヒャクギマル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走上がりは目立たず、さらに速い決着では決め手で見劣る可能性"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "リメンバーシドニー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "リントゥラウル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "芝1200の実績が薄く、短距離の終い勝負では決め手が足りない懸念"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "スターアスコット",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "メテオロイド",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ディオレガーロ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウトッド",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "フーガカンタービレ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ヴェネラブル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "レジーナテンペスタ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走も後方寄りで、前が止まらない馬場だと位置取りが届かない"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ウェイヨー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アクアホワイト",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ダイメイプリンス",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "近走時計と上がりが今回の芝1200で強調しにくい",
+        "近走の着順内容から、今回の速い芝1200で上位へ変わる根拠が薄い"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "リヴァイ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "8枠で外々を回ると小倉芝1200の短い直線では届き切らない懸念"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "チュウワメロディー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "8枠から下げすぎると小回り短直線で差し遅れが出る"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 18,
+      "name": "オースミサイファー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "point": "E",
+  "overall_confidence": "中",
+  "field_note": "seed脚質と近走通過順に縮退。小倉ダ1000mで先行密度が高い。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "recent_pos": "4;5;2"
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "先団",
+      "recent_pos": "2;2;2"
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先団",
+      "recent_pos": "5;2;1"
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補〜番手",
+      "recent_pos": "3;1;1"
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "先団",
+      "recent_pos": "3;4"
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補〜番手",
+      "recent_pos": "1;2;1"
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "先団",
+      "recent_pos": "2;2;1"
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補〜番手",
+      "recent_pos": "1;1;2"
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補〜番手",
+      "recent_pos": "1"
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方待機",
+      "recent_pos": "10;12;14"
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補〜番手",
+      "recent_pos": "1;1;5"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 6,
+      "stance": "主張候補"
+    },
+    {
+      "no": 8,
+      "stance": "主張候補"
+    },
+    {
+      "no": 11,
+      "stance": "主張候補"
+    },
+    {
+      "no": 9,
+      "stance": "主張候補"
+    },
+    {
+      "no": 4,
+      "stance": "主張候補"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "内で控える形ならロスが少ない"
+    },
+    {
+      "no": 11,
+      "note": "外から被されず主張できる"
+    },
+    {
+      "no": 8,
+      "note": "外から速力で被せる候補"
+    }
+  ]
+}

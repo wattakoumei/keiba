@@ -1,0 +1,96 @@
+{
+  "point": "E",
+  "overall_confidence": "中",
+  "field_note": "公式出馬表の通過順を基に脚質を分類。取消により先行圧は一段軽くなった。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "ブラックトルマリン",
+      "style": "先行",
+      "ten_speed": "速",
+      "expected_pos": "内の2-4番手"
+    },
+    {
+      "no": 2,
+      "name": "アトラスライズ",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団内"
+    },
+    {
+      "no": 3,
+      "name": "ヴォラーレ",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方内"
+    },
+    {
+      "no": 4,
+      "name": "アオイハナミチ",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補"
+    },
+    {
+      "no": 6,
+      "name": "ボルドーティラミス",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "expected_pos": "外の先行"
+    },
+    {
+      "no": 7,
+      "name": "デーレーハンサム",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "外の3-5番手"
+    },
+    {
+      "no": 8,
+      "name": "アルティメット",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団外"
+    },
+    {
+      "no": 9,
+      "name": "ソルテア",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方外"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 4,
+      "stance": "前走同様に主導権を取りたい"
+    },
+    {
+      "no": 6,
+      "stance": "行き脚はあるが粘りが課題"
+    },
+    {
+      "no": 1,
+      "stance": "無理に競らず内の好位を取れる"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "最内でロスなく好位を作りやすい"
+    },
+    {
+      "no": 4,
+      "note": "逃げるには十分な中枠"
+    },
+    {
+      "no": 8,
+      "note": "外枠差しで展開待ち"
+    },
+    {
+      "no": 9,
+      "note": "大外から後方になりやすい"
+    }
+  ],
+  "note": "5番取消で外から差す馬の頭数は減ったが、4と6の出方で前半の質が変わる。"
+}

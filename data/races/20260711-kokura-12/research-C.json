@@ -1,0 +1,206 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "血統は芝1200のスピード持続を重視。ミッキーアイル、ビッグアーサー、タワーオブロンドンを加点。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "pros": [
+        "フォーウィールドライブ産駒で短距離の行き脚を評価しやすい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "pros": [
+        "父系から芝短距離の末脚を支えやすい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "pros": [
+        "ミッキーアイル産駒で小倉芝1200のスピード持続と先行力に合う。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "pros": [
+        "ビッグアーサー産駒で1200適性が高く、母父ディープで差し脚も補える。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "pros": [],
+      "cons": [
+        "ダート色の強い父系で、芝1200の切れ比べでは強調しにくい。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "pros": [],
+      "cons": [
+        "中距離・ダート寄りの血統色が強く、芝1200への即応は割引。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "pros": [],
+      "cons": [
+        "中距離・ダート寄りの血統色が強く、芝1200への即応は割引。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "pros": [],
+      "cons": [
+        "直近の短距離実戦で血統適性を結果へ転換できていない。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "pros": [
+        "父系から芝短距離の末脚を支えやすい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "pros": [],
+      "cons": [
+        "直近の短距離実戦で血統適性を結果へ転換できていない。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "pros": [
+        "タワーオブロンドン産駒で芝1200のスピード持続に寄せやすい。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    }
+  ],
+  "note": "縮退モード: JRA seed と決定論ツールから構造化。追加web深掘りは未実施。"
+}

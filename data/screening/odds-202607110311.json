@@ -1,0 +1,70 @@
+{
+  "race_id": "202607110311",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "ショウナンハクラク",
+      "tansho": 8.1
+    },
+    {
+      "no": 2,
+      "name": "シークレットヴァウ",
+      "tansho": 16.6
+    },
+    {
+      "no": 3,
+      "name": "レッドアヴァンティ",
+      "tansho": 4.3
+    },
+    {
+      "no": 4,
+      "name": "ゾンニッヒ",
+      "tansho": 5.2
+    },
+    {
+      "no": 5,
+      "name": "マサノカナリア",
+      "tansho": 7.5
+    },
+    {
+      "no": 6,
+      "name": "クリエープキー",
+      "tansho": 4.8
+    },
+    {
+      "no": 7,
+      "name": "クムシラコ",
+      "tansho": 17.5
+    },
+    {
+      "no": 8,
+      "name": "マイネルジェロディ",
+      "tansho": 23.1
+    },
+    {
+      "no": 9,
+      "name": "カウンターセブン",
+      "tansho": 4.8
+    }
+  ],
+  "metrics": {
+    "fav_odds": 4.3,
+    "second_odds": 4.8,
+    "fav_second_gap": 0.5,
+    "fav_second_ratio": 1.116,
+    "n_under_30": 9,
+    "n_under_10": 6,
+    "mean_odds": 10.2,
+    "n_valid": 9
+  },
+  "dango_tier": "割れ",
+  "dango_label": "荒れ★★★",
+  "dango_score": 5,
+  "dango_signals": [
+    "[割れ] 1番人気4.3倍≥4.0(本命不在)",
+    "[割れ] 単勝平均10.2倍<20(団子)"
+  ],
+  "fav_no": 3,
+  "fav_name": "レッドアヴァンティ"
+}

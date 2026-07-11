@@ -1,0 +1,249 @@
+{
+  "point": "B: 近走内容",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツール相当の縮退評価。web深掘りは未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ワルトシュタイン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近で掲示板圏の内容があり、未勝利上位との差は大きくない"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジョーカー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "春の福島1700mで連続好走。休み明けでも地力材料は明確"
+      ],
+      "cons": [
+        "4月以来で当日の仕上がり確認が必要"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベラジオヴァレル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで7着、通過位置14番手"
+      ],
+      "cons": [
+        "直近内容だけで今回の上位浮上を説明しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ミニュイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで7着、通過位置10番手"
+      ],
+      "cons": [
+        "直近内容だけで今回の上位浮上を説明しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンライズハリー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "直近阪神1800mで12着、通過位置12番手"
+      ],
+      "cons": [
+        "直近内容だけで今回の上位浮上を説明しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "タガノランパート",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "直近で掲示板圏の内容があり、未勝利上位との差は大きくない"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ゴールデンドラゴン",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "直近で同舞台2着。今回の条件に直結する近走内容",
+        "前走から間隔も詰まり、状態面の読みが作りやすい"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ラッキーダイヤ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近京都1900mで9着、通過位置10番手"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スナークホクサイ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近京都1400mで9着、通過位置7番手"
+      ],
+      "cons": [
+        "直近内容だけで今回の上位浮上を説明しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カフジミモレット",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで7着、通過位置2番手"
+      ],
+      "cons": [
+        "先行しても近走は最後に甘く、押し切りにはもう一段必要"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターコトノハ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "直近小倉2000mで14着、通過位置8番手"
+      ],
+      "cons": [
+        "直近内容だけで今回の上位浮上を説明しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンサクラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近阪神2000mで8着、通過位置7番手"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ショールミーズ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [
+        "近走実測がなく比較材料が薄い"
+      ],
+      "cons": [
+        "直近内容だけで今回の上位浮上を説明しづらい"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アンリミテッド",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近阪神1400mで6着、通過位置4番手"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "セイウンダイフク",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "前走で小倉ダ1700へ替わって前進。距離適性の上積みが見える"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "メイショウマグナ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "直近京都1800mで6着、通過位置2番手"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ],
+  "note": "速報縮退"
+}

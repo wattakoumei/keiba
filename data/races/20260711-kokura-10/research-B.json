@@ -1,0 +1,278 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "再取得不能のため、seed・近走通過順・同舞台直接対戦から縮退作成。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "オオナミコナミ",
+      "score": -0.1,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ユメシバイ",
+      "score": 0.8,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ミキノバカラ",
+      "score": -0.2,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ニホンピロトッティ",
+      "score": -1.6,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "メローネ",
+      "score": 0.9,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ホーリーブラッサム",
+      "score": 1.0,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ルージュサウダージ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "フォティック",
+      "score": 0.1,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "サンライズプルート",
+      "score": -1.3,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヤマニンアンフィル",
+      "score": -0.6,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "スネーフリンガ",
+      "score": 1.1,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ライクアフラワー",
+      "score": -0.8,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ブルボンクイーン",
+      "score": 0.2,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "インブロリオ",
+      "score": 0.4,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "シュブロンレーヴル",
+      "score": 1.2,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "サディーク",
+      "score": 1.4,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "タナスーペルノーバ",
+      "score": 2.0,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    },
+    {
+      "no": 18,
+      "name": "ハルオーブ",
+      "score": 0.7,
+      "confidence": "中",
+      "pros": [
+        "直近の着順と通過順を重視。小倉芝1200で前目または同舞台好走なら加点。"
+      ],
+      "cons": [
+        "昇級初戦・近走大敗・位置取り不安は減点。"
+      ],
+      "sources": [
+        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+      ]
+    }
+  ],
+  "note": "全頭カバーを優先した縮退観点。"
+}

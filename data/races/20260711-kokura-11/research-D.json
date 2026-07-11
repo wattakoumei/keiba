@@ -1,0 +1,143 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "seedと決定論ツールに縮退",
+  "horses": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1000mの勝ち実績があり、内で脚をためる形が合う"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "1150mで勝ち切った後に同条件で崩れており、さらに短い1000mは忙しい"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "札幌ダ1000mで逃げ切り実績があり、ワンターン短距離は合う"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "同舞台で速い入りを経験しており、コース替わりの不安は小さい"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "1400mからの短縮で外から同型に挟まれやすい"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "追込型で小倉ダ1000mの短い直線では届く条件が限られる"
+      ],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1000mで逃げ切り実績があり、コース適性が明確"
+      ],
+      "cons": [],
+      "sources": [
+        "local://seed/202607111011"
+      ]
+    }
+  ],
+  "note": "seedと決定論ツールに縮退"
+}

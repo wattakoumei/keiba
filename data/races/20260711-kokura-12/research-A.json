@@ -1,0 +1,212 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "小倉芝1200の直接時計を重視。⑥が最上位、①④⑧⑭⑯が相手圏。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "タイガーロード",
+      "pros": [
+        "小倉芝1200未勝利を1:09.2で勝ち、昇級でも行き脚を使える。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダイアナクイーン",
+      "pros": [
+        "阪神1200mで6着で現級相手に大きく崩れていない。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ペルフェツィオーネ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ジャンヌローサ",
+      "pros": [
+        "小倉芝1200で2着・3着歴があり、上がり34秒台で続けて走れている。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミトノリン",
+      "pros": [],
+      "cons": [
+        "前走同舞台で先行して止まり、時計比較では上位との差が残る。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ムーンリットアイル",
+      "pros": [
+        "小倉芝1200で1:08.8勝ち、前走同舞台2着で時計と再現性が最上位。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "レインオンミー",
+      "pros": [
+        "小倉1200mで4着で現級相手に大きく崩れていない。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ネネキリマル",
+      "pros": [
+        "小倉芝1200の条件戦で2着・4着があり、同舞台の時計水準は足りる。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウハボマイ",
+      "pros": [],
+      "cons": [
+        "直近小倉芝1200で着順と時計が伸びず、上積みを示す材料が薄い。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "シヴァールバーニ",
+      "pros": [],
+      "cons": [
+        "近走の距離・馬場が今回と離れ、芝1200の時計裏付けが薄い。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ダノンプリマ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アスクザアメリカン",
+      "pros": [],
+      "cons": [
+        "近走の距離・馬場が今回と離れ、芝1200の時計裏付けが薄い。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーミリカン",
+      "pros": [],
+      "cons": [
+        "直近小倉芝1200で着順と時計が伸びず、上積みを示す材料が薄い。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "マーシーラン",
+      "pros": [
+        "福島芝1200で1:08.7の6着、中京芝1400で4着と短距離時計は水準。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "パレットフレイバー",
+      "pros": [],
+      "cons": [
+        "直近小倉芝1200で着順と時計が伸びず、上積みを示す材料が薄い。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "セクシーマージュ",
+      "pros": [
+        "小倉芝1200で1:08.0の6着があり、時計だけなら通用圏。"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260711-kokura-12/seed.json"
+      ]
+    }
+  ],
+  "note": "縮退モード: JRA seed と決定論ツールから構造化。追加web深掘りは未実施。"
+}

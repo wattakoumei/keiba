@@ -1,277 +1,267 @@
 {
-  "date": "20260711",
-  "venue": "fukushima",
-  "place": "03",
-  "as_of": "2026-07-10T14:42:54",
-  "odds_available": false,
-  "note": "事前選別。JRA単勝オッズは0頭抽出のため団子度・市場ズレは未取得。I1-S隔離のためオッズ由来情報は未混入。",
-  "races": [
-    {
-      "r": 1,
-      "race_id": "202607110301",
-      "condition": "障3380/11頭",
-      "cond_rage": "中",
-      "cond_flags": [
-        "福島",
-        "障害",
-        "11頭"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "切り",
-        "anchor": [
-          "6 シャンデルナゴル",
-          "3 トゥラッタッタ"
-        ],
-        "reason": "障害戦で通常選別Xの適用外寄り。上位は見えるが勝負対象から外す。"
-      },
-      "quadrant": "見送り",
-      "score": -1
-    },
-    {
-      "r": 2,
-      "race_id": "202607110302",
-      "condition": "ダ1700/15頭/牝未勝利",
-      "cond_rage": "強",
-      "cond_flags": [
-        "福島",
-        "多頭数",
-        "下級牝馬"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "切り",
-        "anchor": [
-          "2 ビレッジルイーザ"
-        ],
-        "reason": "先行1頭で形はあるが、近走8着からの巻き返し頼みで軸の質が足りない。"
-      },
-      "quadrant": "切り",
-      "score": -1
-    },
-    {
-      "r": 3,
-      "race_id": "202607110303",
-      "condition": "芝1800/14頭/2歳未勝利",
-      "cond_rage": "中",
-      "cond_flags": [
-        "福島",
-        "2歳未勝利",
-        "芝中距離"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "上位ボックス",
-        "anchor": [
-          "2 ペアスターロード",
-          "9 キャピタルストーン",
-          "6 タイセイアドーレ"
-        ],
-        "reason": "前走新馬好走組が複数で、1頭固定より上位比較型。"
-      },
-      "quadrant": "妙味なし・見送り",
-      "score": 0
-    },
-    {
-      "r": 4,
-      "race_id": "202607110304",
-      "condition": "ダ1700/15頭/未勝利",
-      "cond_rage": "強",
-      "cond_flags": [
-        "福島",
-        "多頭数",
-        "ダ1700"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "絞れる",
-        "anchor": [
-          "4 スティールヴォーグ",
-          "5 ゴールドプレイヤー"
-        ],
-        "reason": "4は先行速めで2・3着歴が厚く、5も中山1800で連続好走。15頭福島でも上位の根拠が明確。"
-      },
-      "quadrant": "本命勝負候補・事前",
-      "score": 5
-    },
-    {
-      "r": 5,
-      "race_id": "202607110305",
-      "condition": "芝1200/11頭/新馬",
-      "cond_rage": "弱",
-      "cond_flags": [
-        "福島",
-        "芝短距離",
-        "新馬"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "切り",
-        "anchor": [],
-        "reason": "全馬初出走でseed上の脚質が取れず、軽量Xで絞れない。"
-      },
-      "quadrant": "切り",
-      "score": -2
-    },
-    {
-      "r": 6,
-      "race_id": "202607110306",
-      "condition": "芝1800/16頭/未勝利",
-      "cond_rage": "強",
-      "cond_flags": [
-        "福島",
-        "多頭数",
-        "芝"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "上位ボックス",
-        "anchor": [
-          "1 ポポラヴィスタ",
-          "15 ムーングレイル",
-          "3 フクオトコ",
-          "9 ルンベーラ"
-        ],
-        "reason": "16頭で前目候補も複数。1頭抜けではなく上位4頭に絞るレース。"
-      },
-      "quadrant": "穴ボックス候補・事前",
-      "score": 4
-    },
-    {
-      "r": 7,
-      "race_id": "202607110307",
-      "condition": "芝2000/11頭/1勝級想定",
-      "cond_rage": "中",
-      "cond_flags": [
-        "福島",
-        "芝中距離",
-        "少頭数寄り"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "絞れる",
-        "anchor": [
-          "6 ドナルンバ"
-        ],
-        "reason": "スイートピー3着、ミモザ賞2着、1勝クラス2着で内在軸は最も立つ。荒れ度は高くない。"
-      },
-      "quadrant": "鉄板コツコツ候補・事前",
-      "score": 3
-    },
-    {
-      "r": 8,
-      "race_id": "202607110308",
-      "condition": "ダ1150/16頭/1勝級想定",
-      "cond_rage": "強",
-      "cond_flags": [
-        "福島",
-        "多頭数",
-        "短距離"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "上位ボックス",
-        "anchor": [
-          "16 アイムインディ",
-          "11 ブーケドリス",
-          "12 ライヴレッドアイ",
-          "15 マサノピンクレディ"
-        ],
-        "reason": "短距離多頭数で先行速い馬が複数。勝ち切り1頭固定より圏内候補を絞る型。"
-      },
-      "quadrant": "穴ボックス候補・事前",
-      "score": 4
-    },
-    {
-      "r": 9,
-      "race_id": "202607110309",
-      "condition": "芝2600/15頭/上級条件想定",
-      "cond_rage": "強",
-      "cond_flags": [
-        "福島",
-        "多頭数",
-        "芝長距離"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "上位ボックス",
-        "anchor": [
-          "15 アメティスタ",
-          "5 キンググローリー",
-          "14 モルトマエストーソ",
-          "10 ノクターン"
-        ],
-        "reason": "条件荒れは強いが上位候補が横並びで、長距離の位置取りも当日依存。"
-      },
-      "quadrant": "穴ボックス候補・薄め",
-      "score": 2
-    },
-    {
-      "r": 10,
-      "race_id": "202607110310",
-      "condition": "芝1200/9頭/特別想定",
-      "cond_rage": "中",
-      "cond_flags": [
-        "福島",
-        "芝短距離",
-        "少頭数"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "絞れる",
-        "anchor": [
-          "8 メイショウヨゾラ",
-          "2 アタリダイキチ"
-        ],
-        "reason": "少頭数で上位は比較的見えるが、荒れ増幅は弱い。"
-      },
-      "quadrant": "鉄板コツコツ候補・薄め",
-      "score": 2
-    },
-    {
-      "r": 11,
-      "race_id": "202607110311",
-      "condition": "芝1200/9頭/OP級想定",
-      "cond_rage": "中",
-      "cond_flags": [
-        "福島",
-        "芝短距離",
-        "少頭数"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "絞れる",
-        "anchor": [
-          "6 クリエープキー"
-        ],
-        "reason": "湯の川温泉・かささぎ賞連勝で軸が立つ。少頭数で荒れ増幅は限定。"
-      },
-      "quadrant": "鉄板コツコツ候補・事前",
-      "score": 3
-    },
-    {
-      "r": 12,
-      "race_id": "202607110312",
-      "condition": "ダ1700/15頭/1勝級想定",
-      "cond_rage": "強",
-      "cond_flags": [
-        "福島",
-        "多頭数",
-        "ダ1700"
-      ],
-      "dango_tier": null,
-      "x_axis": {
-        "confidence": "上位ボックス",
-        "anchor": [
-          "1 スカイレックス",
-          "15 アトミックブレス",
-          "2 ブレゲアン",
-          "13 エコロガノン"
-        ],
-        "reason": "先行勢が多く、1頭固定より前受け勢の残り方を読むレース。"
-      },
-      "quadrant": "穴ボックス候補・事前",
-      "score": 3
-    }
-  ]
+ "date": "20260711",
+ "venue": "fukushima",
+ "place": "03",
+ "as_of": "2026-07-10T14:42:54",
+ "odds_available": false,
+ "note": "事前選別。JRA単勝オッズは0頭抽出のため団子度・市場ズレは未取得。I1-S隔離のためオッズ由来情報は未混入。",
+ "races": [
+  {
+   "r": 4,
+   "race_id": "202607110304",
+   "condition": "ダ1700/15頭/未勝利",
+   "cond_rage": "強",
+   "cond_flags": [
+    "福島",
+    "多頭数",
+    "ダ1700"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "絞れる",
+    "anchor": [
+     "4 スティールヴォーグ",
+     "5 ゴールドプレイヤー"
+    ],
+    "reason": "4は先行速めで2・3着歴が厚く、5も中山1800で連続好走。15頭福島でも上位の根拠が明確。"
+   },
+   "quadrant": "本命勝負候補・事前",
+   "score": 5,
+   "post_time": "11:40"
+  },
+  {
+   "r": 6,
+   "race_id": "202607110306",
+   "condition": "芝1800/16頭/未勝利",
+   "cond_rage": "強",
+   "cond_flags": [
+    "福島",
+    "多頭数",
+    "芝"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "上位ボックス",
+    "anchor": [
+     "1 ポポラヴィスタ",
+     "15 ムーングレイル",
+     "3 フクオトコ",
+     "9 ルンベーラ"
+    ],
+    "reason": "16頭で前目候補も複数。1頭抜けではなく上位4頭に絞るレース。"
+   },
+   "quadrant": "穴ボックス候補・事前",
+   "score": 4,
+   "post_time": "13:00"
+  },
+  {
+   "r": 8,
+   "race_id": "202607110308",
+   "condition": "ダ1150/16頭/1勝級想定",
+   "cond_rage": "強",
+   "cond_flags": [
+    "福島",
+    "多頭数",
+    "短距離"
+   ],
+   "dango_tier": null,
+   "x_axis": "⑪ブーケドリス(逃/速・唯一の明確な逃げ)+⑯⑮",
+   "quadrant": "🟥本命勝負",
+   "score": 3,
+   "post_time": "14:00",
+   "x_conf": "絞れる寄り",
+   "dango": "割れ",
+   "gap": "軸⑪=単勝4位=ズレあり"
+  },
+  {
+   "r": 7,
+   "race_id": "202607110307",
+   "condition": "芝2000/11頭/1勝級想定",
+   "cond_rage": "中",
+   "cond_flags": [
+    "福島",
+    "芝中距離",
+    "少頭数寄り"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "絞れる",
+    "anchor": [
+     "6 ドナルンバ"
+    ],
+    "reason": "スイートピー3着、ミモザ賞2着、1勝クラス2着で内在軸は最も立つ。荒れ度は高くない。"
+   },
+   "quadrant": "鉄板コツコツ候補・事前",
+   "score": 3,
+   "post_time": "13:30"
+  },
+  {
+   "r": 11,
+   "race_id": "202607110311",
+   "condition": "芝1200/9頭/OP級想定",
+   "cond_rage": "中",
+   "cond_flags": [
+    "福島",
+    "芝短距離",
+    "少頭数"
+   ],
+   "dango_tier": null,
+   "x_axis": "⑥ムラ・逃げ明確不在",
+   "quadrant": "✖切り",
+   "score": -1,
+   "post_time": "15:45",
+   "x_conf": "切り寄り",
+   "dango": "割れ"
+  },
+  {
+   "r": 12,
+   "race_id": "202607110312",
+   "condition": "ダ1700/15頭/1勝級想定",
+   "cond_rage": "強",
+   "cond_flags": [
+    "福島",
+    "多頭数",
+    "ダ1700"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "上位ボックス",
+    "anchor": [
+     "1 スカイレックス",
+     "15 アトミックブレス",
+     "2 ブレゲアン",
+     "13 エコロガノン"
+    ],
+    "reason": "先行勢が多く、1頭固定より前受け勢の残り方を読むレース。"
+   },
+   "quadrant": "穴ボックス候補・事前",
+   "score": 3,
+   "post_time": "16:30"
+  },
+  {
+   "r": 9,
+   "race_id": "202607110309",
+   "condition": "芝2600/15頭/上級条件想定",
+   "cond_rage": "強",
+   "cond_flags": [
+    "福島",
+    "多頭数",
+    "芝長距離"
+   ],
+   "dango_tier": null,
+   "x_axis": null,
+   "quadrant": "✖切り",
+   "score": -1,
+   "post_time": "14:35",
+   "x_conf": "逃げ0=自動切り",
+   "dango": "割れ"
+  },
+  {
+   "r": 10,
+   "race_id": "202607110310",
+   "condition": "芝1200/9頭/特別想定",
+   "cond_rage": "中",
+   "cond_flags": [
+    "福島",
+    "芝短距離",
+    "少頭数"
+   ],
+   "dango_tier": null,
+   "x_axis": "②⑧ムラ馬のみ",
+   "quadrant": "⬜見送り",
+   "score": 0,
+   "post_time": "15:10",
+   "x_conf": "断然1人気に妙味なし",
+   "dango": "収束"
+  },
+  {
+   "r": 3,
+   "race_id": "202607110303",
+   "condition": "芝1800/14頭/2歳未勝利",
+   "cond_rage": "中",
+   "cond_flags": [
+    "福島",
+    "2歳未勝利",
+    "芝中距離"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "上位ボックス",
+    "anchor": [
+     "2 ペアスターロード",
+     "9 キャピタルストーン",
+     "6 タイセイアドーレ"
+    ],
+    "reason": "前走新馬好走組が複数で、1頭固定より上位比較型。"
+   },
+   "quadrant": "妙味なし・見送り",
+   "score": 0,
+   "post_time": "11:10"
+  },
+  {
+   "r": 1,
+   "race_id": "202607110301",
+   "condition": "障3380/11頭",
+   "cond_rage": "中",
+   "cond_flags": [
+    "福島",
+    "障害",
+    "11頭"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "切り",
+    "anchor": [
+     "6 シャンデルナゴル",
+     "3 トゥラッタッタ"
+    ],
+    "reason": "障害戦で通常選別Xの適用外寄り。上位は見えるが勝負対象から外す。"
+   },
+   "quadrant": "見送り",
+   "score": -1,
+   "post_time": "10:05"
+  },
+  {
+   "r": 2,
+   "race_id": "202607110302",
+   "condition": "ダ1700/15頭/牝未勝利",
+   "cond_rage": "強",
+   "cond_flags": [
+    "福島",
+    "多頭数",
+    "下級牝馬"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "切り",
+    "anchor": [
+     "2 ビレッジルイーザ"
+    ],
+    "reason": "先行1頭で形はあるが、近走8着からの巻き返し頼みで軸の質が足りない。"
+   },
+   "quadrant": "切り",
+   "score": -1,
+   "post_time": "10:40"
+  },
+  {
+   "r": 5,
+   "race_id": "202607110305",
+   "condition": "芝1200/11頭/新馬",
+   "cond_rage": "弱",
+   "cond_flags": [
+    "福島",
+    "芝短距離",
+    "新馬"
+   ],
+   "dango_tier": null,
+   "x_axis": {
+    "confidence": "切り",
+    "anchor": [],
+    "reason": "全馬初出走でseed上の脚質が取れず、軽量Xで絞れない。"
+   },
+   "quadrant": "切り",
+   "score": -2,
+   "post_time": "12:30"
+  }
+ ]
 }

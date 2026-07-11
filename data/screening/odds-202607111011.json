@@ -1,0 +1,79 @@
+{
+  "race_id": "202607111011",
+  "source": "jra",
+  "odds": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "tansho": 18.4
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "tansho": 23.8
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "tansho": 15.0
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "tansho": 15.6
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "tansho": 6.7
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "tansho": 37.3
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "tansho": 9.0
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "tansho": 3.7
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "tansho": 37.3
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "tansho": 30.1
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "tansho": 2.4
+    }
+  ],
+  "metrics": {
+    "fav_odds": 2.4,
+    "second_odds": 3.7,
+    "fav_second_gap": 1.3,
+    "fav_second_ratio": 1.542,
+    "n_under_30": 8,
+    "n_under_10": 4,
+    "mean_odds": 18.1,
+    "n_valid": 11
+  },
+  "dango_tier": "中",
+  "dango_label": "中★★",
+  "dango_score": 1,
+  "dango_signals": [
+    "[割れ] 単勝平均18.1倍<20(団子)"
+  ],
+  "fav_no": 11,
+  "fav_name": "ハヤテノツバサ"
+}

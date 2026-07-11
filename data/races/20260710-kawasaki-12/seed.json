@@ -1,0 +1,80 @@
+{
+  "race_id": "20260710-kawasaki-12",
+  "source": "manual-nar (keiba.go.jp DebaTable x3照合 + nar.netkeiba shutuba)",
+  "nar": true,
+  "race": {
+    "name": "ファイナルアンサー賞 C3選定馬",
+    "date": "2026-07-10",
+    "venue": "川崎",
+    "race_no": 12,
+    "post_time": "20:50",
+    "course": "ダート左1400m",
+    "going": "良",
+    "weather": "晴",
+    "field_size": 10,
+    "race_class": "C3"
+  },
+  "scratched": [{"no": 7, "name": "バイアルド", "reason": "出走取消"}],
+  "horses": [
+    {"no": 1, "waku": 1, "name": "ラシャスバラード", "sexage": "牝4", "weight": 54.0, "jockey": "町田直希", "trainer": "甲田悟史", "affiliation": "川崎", "sire": "ゴールドアリュール",
+     "recent": [
+       {"date": "2026-06-17", "venue": "川崎", "dist": 1400, "pos": 7, "note": "着順抽出割れ(5/7)→7採用・要B検証"},
+       {"date": "2026-06-05", "venue": "船橋", "dist": 1200, "pos": 8},
+       {"date": "2026-04-16", "venue": "大井", "dist": 1200, "pos": 9}
+     ]},
+    {"no": 2, "waku": 2, "name": "カサミラ", "sexage": "牝4", "weight": 52.0, "jockey": "神尾香澄", "trainer": "山田質", "affiliation": "川崎", "sire": "クロフネ",
+     "recent": [
+       {"date": "2026-03-05", "venue": "川崎", "dist": 1400, "pos": 8},
+       {"date": "2026-02-05", "venue": "川崎", "dist": 1400, "pos": 10},
+       {"date": "2026-01-02", "venue": "川崎", "dist": 1400, "pos": 7}
+     ]},
+    {"no": 3, "waku": 3, "name": "クインズカヤノヒメ", "sexage": "牝6", "weight": 54.0, "jockey": "藤江渉", "trainer": "武井和実", "affiliation": "川崎", "sire": "トワイニング",
+     "recent": [
+       {"date": "2026-06-18", "venue": "川崎", "dist": 1500, "pos": 7},
+       {"date": "2026-06-02", "venue": "船橋", "dist": 1600, "pos": 8},
+       {"date": "2026-05-25", "venue": "浦和", "dist": 1500, "pos": 10}
+     ]},
+    {"no": 4, "waku": 4, "name": "エムティラヴ", "sexage": "牝4", "weight": 54.0, "jockey": "中越琉世", "trainer": "古澤悟", "affiliation": "川崎", "sire": "チチカステナンゴ",
+     "recent": [
+       {"date": "2026-06-19", "venue": "川崎", "dist": 1500, "pos": 9},
+       {"date": "2026-06-03", "venue": "船橋", "dist": 1200, "pos": 11},
+       {"date": "2026-05-15", "venue": "川崎", "dist": 1500, "pos": 11}
+     ]},
+    {"no": 5, "waku": 5, "name": "コミックガール", "sexage": "牝5", "weight": 54.0, "jockey": "櫻井光輔", "trainer": "吉橋淳一", "affiliation": "川崎", "sire": "タイキシャトル",
+     "recent": [
+       {"date": "2026-06-19", "venue": "川崎", "dist": 1500, "pos": 8},
+       {"date": "2026-05-15", "venue": "川崎", "dist": 1500, "pos": 8},
+       {"date": "2026-04-08", "venue": "川崎", "dist": 1400, "pos": 10}
+     ]},
+    {"no": 6, "waku": 6, "name": "セイウンパイオニア", "sexage": "牡5", "weight": 56.0, "jockey": "山林堂信", "trainer": "田辺陽一", "affiliation": "川崎", "sire": "リーチザクラウン",
+     "recent": [
+       {"date": "2026-06-19", "venue": "川崎", "dist": 1500, "pos": 11},
+       {"date": "2026-02-05", "venue": "川崎", "dist": 1500, "pos": 9},
+       {"date": "2026-01-02", "venue": "川崎", "dist": 1500, "pos": 9}
+     ]},
+    {"no": 8, "waku": 7, "name": "バーサズバラード", "sexage": "牝6", "weight": 54.0, "jockey": "伊藤裕人", "trainer": "平田正一", "affiliation": "川崎", "sire": "プリサイスエンド",
+     "recent": [
+       {"date": "2026-06-15", "venue": "川崎", "dist": 1400, "pos": 12},
+       {"date": "2026-05-25", "venue": "浦和", "dist": 1300, "pos": 9},
+       {"date": "2026-05-11", "venue": "川崎", "dist": 1400, "pos": 12}
+     ]},
+    {"no": 9, "waku": 7, "name": "カルストンオリビア", "sexage": "牝4", "weight": 54.0, "jockey": "増田充宏", "trainer": "八木正喜", "affiliation": "川崎", "sire": "スキャン",
+     "recent": [
+       {"date": "2026-06-19", "venue": "川崎", "dist": 1500, "pos": 7},
+       {"date": "2026-05-15", "venue": "川崎", "dist": 1500, "pos": 13},
+       {"date": "2026-04-10", "venue": "川崎", "dist": 900, "pos": 11}
+     ]},
+    {"no": 10, "waku": 8, "name": "キアラボヌール", "sexage": "牝5", "weight": 52.0, "jockey": "加藤雄真", "trainer": "田島寿一", "affiliation": "川崎", "sire": "エアエミネム",
+     "recent": [
+       {"date": "2026-06-19", "venue": "川崎", "dist": 1500, "pos": 12},
+       {"date": "2026-05-29", "venue": "浦和", "dist": 1400, "pos": 6},
+       {"date": "2026-05-13", "venue": "川崎", "dist": 1400, "pos": 8}
+     ]},
+    {"no": 11, "waku": 8, "name": "オトメノネガイ", "sexage": "牝5", "weight": 54.0, "jockey": "池谷匠翔", "trainer": "田島寿一", "affiliation": "川崎", "sire": "ファスリエフ",
+     "recent": [
+       {"date": "2026-06-23", "venue": "浦和", "dist": 1500, "pos": 6},
+       {"date": "2026-05-26", "venue": "浦和", "dist": 1500, "pos": 11},
+       {"date": "2026-05-15", "venue": "川崎", "dist": 900, "pos": 9}
+     ]}
+  ]
+}

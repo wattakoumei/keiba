@@ -1,0 +1,216 @@
+{
+  "point": "E: 展開証拠",
+  "overall_confidence": "中",
+  "field_note": "小倉ダ1700はダート発走。1角まで約343mで、内の逃げと好位勢の位置取りが鍵。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "ワルトシュタイン",
+      "style": "逃",
+      "ten_speed": "中",
+      "expected_pos": "ハナ",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ジョーカー",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "好位",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ベラジオヴァレル",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ミニュイ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンライズハリー",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "タガノランパート",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ゴールデンドラゴン",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ラッキーダイヤ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "スナークホクサイ",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "カフジミモレット",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "好位",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターコトノハ",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "アメリカンサクラ",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "好位",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ショールミーズ",
+      "style": "先",
+      "ten_speed": "不明",
+      "expected_pos": "好位",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アンリミテッド",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "好位",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "セイウンダイフク",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "メイショウマグナ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "好位",
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "references:course-geometry.md"
+      ]
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 1,
+      "stance": "内枠からハナ候補"
+    },
+    {
+      "no": 2,
+      "stance": "好位で安定"
+    },
+    {
+      "no": 10,
+      "stance": "先行歴あり"
+    },
+    {
+      "no": 14,
+      "stance": "外から好位候補"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "最内で先手を取りやすい"
+    },
+    {
+      "no": 2,
+      "note": "内でロスなく運べる"
+    },
+    {
+      "no": 15,
+      "note": "外枠の追込で距離ロスと届き遅れに注意"
+    }
+  ],
+  "note": "速報縮退"
+}
