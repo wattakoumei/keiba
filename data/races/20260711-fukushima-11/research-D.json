@@ -1,0 +1,11 @@
+{"point":"D","overall_confidence":"中","field_note":"福島芝1200の直接実績を最優先。③①を高評価、⑨は短距離速度、⑥は52kg先行を加点。②は直近がダートのみ、④⑤は距離短縮を割引。","note":"当日芝バイアスとクッション値は未取得。","horses":[
+{"no":1,"name":"ショウナンハクラク","score":2,"confidence":"高","pros":["[D]福島芝1200で3着・5着があり小回り適性が明確"],"cons":["[D]最内から後方に下げると包まれる恐れ"],"sources":["JRA公式seed","course-geometry.md"]},
+{"no":2,"name":"シークレットヴァウ","score":-2,"confidence":"低","pros":[],"cons":["[D]直近3走はダートで芝1200適性の裏付けがseedにない"],"sources":["JRA公式seed"]},
+{"no":3,"name":"レッドアヴァンティ","score":2,"confidence":"高","pros":["[D]4月の同舞台2着でコース適性が最も鮮明"],"cons":["[D]小回りで後方待機すると直線だけでは届かない分岐がある"],"sources":["JRA公式seed","course-geometry.md"]},
+{"no":4,"name":"ゾンニッヒ","score":-1,"confidence":"低","pros":["[D]中距離寄りの追走力が持続戦なら生きる"],"cons":["[D]1600mから1200mへの大幅短縮と59kgが追走負荷になる"],"sources":["JRA公式seed"]},
+{"no":5,"name":"マサノカナリア","score":0,"confidence":"中","pros":["[D]1400mで速い上がりを使え、差しが届く芝なら浮上"],"cons":["[D]1200mで序盤が忙しくなる可能性"],"sources":["JRA公式seed"]},
+{"no":6,"name":"クリエープキー","score":1,"confidence":"中","pros":["[D]1200mで2勝し52kgの軽さは小回り先行に合う"],"cons":["[D]福島芝の直接実績は未確認"],"sources":["JRA公式seed"]},
+{"no":7,"name":"クムシラコ","score":0,"confidence":"中","pros":["[D]同舞台経験があり末脚を使える"],"cons":["[D]近走の同舞台14着で適性だけでは補えない"],"sources":["JRA公式seed"]},
+{"no":8,"name":"マイネルジェロディ","score":0,"confidence":"中","pros":["[D]先行歴があり小回りの位置取りは可能"],"cons":["[D]近走で先行力の再現が不安定"],"sources":["JRA公式seed"]},
+{"no":9,"name":"カウンターセブン","score":1,"confidence":"中","pros":["[D]1200mで速い行き脚を持ち外枠から揉まれず先導可能"],"cons":["[D]福島芝の直接実績は未確認"],"sources":["JRA公式seed","course-geometry.md"]}
+]}

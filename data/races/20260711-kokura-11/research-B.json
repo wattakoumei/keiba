@@ -1,30 +1,36 @@
 {
   "point": "B",
   "overall_confidence": "中",
-  "field_note": "seedと決定論ツールに縮退",
+  "field_note": "専用エージェント起動不能のためJRA公式seedと決定論タグで縮退評価",
   "horses": [
     {
       "no": 1,
       "name": "スノーサイレンス",
-      "score": 0,
+      "score": 1,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "同舞台2勝クラス勝ちがあり条件替わりで反発余地"
+      ],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 2,
       "name": "クーデール",
-      "score": -1,
+      "score": -2,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "近走内容はクラス比較で中立"
+      ],
       "cons": [
-        "直近2走は前に行って後退し、同型多数では楽ではない"
+        "3勝クラスで連続二桁着順となり立て直しが必要"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -32,47 +38,59 @@
       "name": "イマージョン",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "近走内容はクラス比較で中立"
+      ],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 4,
       "name": "メイショウキルギス",
-      "score": -0.5,
+      "score": -1,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "近走内容はクラス比較で中立"
+      ],
+      "cons": [
+        "前走大敗後かつ長期休養明け"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 5,
       "name": "ベルギューン",
-      "score": 0.5,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "前走は同型の中で踏ん張り、位置取りの安定感は残る"
+        "3勝クラスの1200mで先行して6着、短縮で粘り増し余地"
       ],
-      "cons": [],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 6,
       "name": "ペイシャヴァルツー",
-      "score": 1,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "前走同舞台で先手を取り、着順以上に展開の核になる内容"
+        "近走内容はクラス比較で中立"
       ],
-      "cons": [],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -80,10 +98,14 @@
       "name": "ヴェロクオーレ",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "近走内容はクラス比較で中立"
+      ],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -91,38 +113,44 @@
       "name": "アメリカンビキニ",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "近走内容はクラス比較で中立"
+      ],
       "cons": [
-        "直近は先手から大きく失速し、短い間隔での反動が懸念"
+        "前走は芝重賞で大敗し中5日の連闘"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 9,
       "name": "ポッドソル",
-      "score": -1,
+      "score": -2,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "近走内容はクラス比較で中立"
+      ],
       "cons": [
-        "前走はハナから後退し、距離短縮でも押し切りの根拠が不足"
+        "昇級初戦の1400mで大敗しクラス通用が未確認"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 10,
       "name": "ジャーヴィス",
-      "score": 0.5,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "高瀬川Sで後方から差を詰め、前が苦しくなる流れなら浮上余地"
+        "3勝クラスで2着歴があり、前崩れなら通用内容"
       ],
-      "cons": [],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -131,13 +159,14 @@
       "score": 2,
       "confidence": "中",
       "pros": [
-        "近走は前に行って勝ち切る形があり、現級でも行き脚を武器にできる"
+        "1勝クラスと2勝クラスを連勝し、底を見せず昇級"
       ],
-      "cons": [],
+      "cons": [
+        "近走だけでは1000m適性を十分に判定できない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     }
-  ],
-  "note": "seedと決定論ツールに縮退"
+  ]
 }

@@ -1,0 +1,179 @@
+{
+  "point": "I: リスク",
+  "overall_confidence": "中",
+  "field_note": "JRA seed・決定論ツール中心の縮退評価。並列web深掘りはローカルCodexのバージョン不整合により未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ハレアカラフラ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [
+        "軽量3歳勢に対して古馬の斤量負担"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トラストエムシー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗（前走7/10・前々走13/15）＝下降基調",
+        "軽量3歳勢に対して古馬の斤量負担"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "トップオブザライン",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走大敗（12/12）"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "カラペルソナ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "エイシンビーコン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カレントゥルーシー",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走から125日＝休み明け"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "トモジャプレジール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ルートサーティーン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウアボット",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走大敗（13/18）",
+        "軽量3歳勢に対して古馬の斤量負担"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ウインラウダ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サントルドパリ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ゼットエイト",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論リスクに大きな減点なし"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    }
+  ]
+}

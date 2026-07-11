@@ -27,7 +27,8 @@
     "win_prob/place_prob は score_race.py の決定論出力。較正先を持たない内在率で偽の精度。並びは論理(rank_order)が主、率は参考列。",
     "速報縮退: A/B/D/E/Iをseed中心で作成。F調教・G馬体ローテ・H当日気配・K騎手深掘り・L条件実績は未取得。",
     "確定材料先取り(I6): 枠順・斤量・騎手欄は取得時点の出走表に基づき脚質分類と展開に織り込み済み。",
-    "観点欠落(C,F,G,H,K,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
+    "観点欠落(C,F,G,H,K,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。",
+    "当日更新: 小倉1R芝1200は良、速い流れでも2番手・逃げ・好位が上位。1鞍だけなのでβは維持し、前残りγを対抗へ引き上げた。"
   ],
   "pivot": "⑰チュウワメロディーが大外から好位を取れるか。取れればα/γ、前が競るか⑰が遅れれば⑯⑫①の差し台頭へ振れる。",
   "day_board": {
@@ -54,13 +55,13 @@
         "watch": "同条件だが対象後のため事後検証用。"
       }
     ],
-    "reference_note": "予想前に使える同条件は1Rのみ。1鞍だけで既存パターンを下げず、差し届きならβを上げる材料に留める。",
-    "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+    "reference_note": "小倉1R芝1200は良。速い流れでも2番手・逃げ・好位で上位を占め、位置優位を確認。1鞍だけなのでβは消さず、γを対抗へ引き上げる材料とした。",
+    "observation_blanks": "馬体重 / パドック / 風 / 直前取消・乗替",
     "going": [
       {
         "item": "馬場状態",
-        "value": "",
-        "read": "良想定で作成。内前が残るならγ、差しが届くならβを上げる。"
+        "value": "良",
+        "read": "同条件1Rは速い流れでも前受け優勢。αを本線維持し、γを対抗へ引き上げる。"
       },
       {
         "item": "風",
@@ -95,7 +96,6 @@
       }
     ],
     "other_unknowns": [
-      "当日馬場",
       "馬体重",
       "パドック・返し馬",
       "取消・直前乗替"
@@ -112,12 +112,12 @@
       {
         "factor": "枠の効き",
         "reads": "①はためるには良いが包まれ注意。⑰⑯⑱は進路を作れる一方、外々のロスがある。⑰は位置を取れれば外枠を相殺。",
-        "day_check": "小倉1Rの内外の伸び"
+        "day_check": "1Rは外枠の先行馬も残り、内外より位置取り優位"
       },
       {
         "factor": "コース形状",
         "reads": "小倉芝1200は最高部から下り、テンが速くなりやすい。直線は293mで平坦のため、位置と持続力が主役。",
-        "day_check": "小倉1Rの決まり手と伸び位置"
+        "day_check": "1Rは逃げ・好位勢が上位を占めた"
       },
       {
         "factor": "例年傾向（過去開催）",
@@ -126,8 +126,8 @@
       },
       {
         "factor": "当日で動く点",
-        "reads": "1Rで差しが届くならβを本線へ上げる。内前が止まらないならγを対抗へ上げ、①⑯の評価は少し下げる。",
-        "day_check": "1R芝1200・馬場・風"
+        "reads": "1Rは良馬場で前受け優勢。γを対抗へ引き上げたが、6Rは先行候補が多いためβも対抗として残す。",
+        "day_check": "馬体重・パドック・風"
       }
     ],
     "leg_table": [
@@ -373,7 +373,7 @@
       {
         "id": "β",
         "name": "先行過多・差し台頭",
-        "prob": 0.36,
+        "prob": 0.28,
         "trigger": "⑦⑰に⑤②⑬⑩が絡み、下りで息が入りにくい",
         "pace_level": 0.82,
         "contesters": [
@@ -433,7 +433,7 @@
       {
         "id": "γ",
         "name": "前残り・内好位固定",
-        "prob": 0.2,
+        "prob": 0.28,
         "trigger": "⑦が楽に先手、⑰⑤が無理なく番手で折り合い、内が伸びる馬場",
         "pace_level": 0.48,
         "contesters": [
@@ -464,7 +464,7 @@
           "late": "平坦短直線で前のリードが残り、外から差す馬は脚を使っても届きにくい。",
           "result": "⑰⑤⑦が浮上し、③⑫は相手まで。⑯①の後方差しは割引。"
         },
-        "tier": "伏線",
+        "tier": "対抗",
         "risers": [
           3,
           5,
@@ -486,9 +486,9 @@
     ],
     "shape_note": "本線は前だけの残りではなく、速めに流れて好位から中団の持続脚が届く形。差し決着への振れ幅も大きい。",
     "formation_note": "本線序盤は⑦-⑰-⑤/②。4角は⑦⑰⑤の後ろに③⑫⑯が接近する想定。",
-    "bias_note": "良想定では内外フラットからやや位置有利。小倉1Rで外差しが届くならβへ寄せる。",
-    "counter_conditions": "前半参考Rで芝1200が差し届きならβを本線へ上げる。内前が止まらないならγを対抗以上へ上げる。⑰が出遅れればαの中心を⑯⑫へ移す。",
-    "transmission": "αなら◎⑰が位置と持続力で中心、βなら◯⑯と▲⑫、△①が上昇。γなら×⑤と⑦の残り目を引き上げる。",
+    "bias_note": "良馬場。同条件1Rは速い流れでも前受け優勢で、内外より位置取りの利が目立った。",
+    "counter_conditions": "6Rで先行争いが激化するか、直線向かい風が強ければβを本線へ上げる。⑦が楽に行ければγを本線候補へ、⑰が出遅れればαの中心を⑯⑫へ移す。",
+    "transmission": "αなら◎⑰が位置と持続力で中心。γも対抗へ上げ、×⑤と⑦の残り目を警戒。先行争いが激化するβなら◯⑯と▲⑫、△①が上昇。",
     "box_reverse": [
       {
         "pattern": "α",
@@ -552,7 +552,7 @@
       },
       {
         "pattern": "γ",
-        "tier": "伏線",
+        "tier": "対抗",
         "center": [
           5,
           17
@@ -594,8 +594,8 @@
       "intent": "↑",
       "mark": "◎",
       "rank_order": 1,
-      "win_prob": 0.158,
-      "place_prob": 0.412,
+      "win_prob": 0.173,
+      "place_prob": 0.4433,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
@@ -630,8 +630,8 @@
       "intent": "↑",
       "mark": "◯",
       "rank_order": 2,
-      "win_prob": 0.1007,
-      "place_prob": 0.2935,
+      "win_prob": 0.0979,
+      "place_prob": 0.2873,
       "leg_type": "差",
       "pattern_fit": {
         "α": "○",
@@ -666,8 +666,8 @@
       "intent": "↑",
       "mark": "▲",
       "rank_order": 3,
-      "win_prob": 0.0806,
-      "place_prob": 0.2408,
+      "win_prob": 0.0778,
+      "place_prob": 0.2342,
       "leg_type": "差",
       "pattern_fit": {
         "α": "○",
@@ -702,8 +702,8 @@
       "intent": "→",
       "mark": "△",
       "rank_order": 4,
-      "win_prob": 0.0526,
-      "place_prob": 0.162,
+      "win_prob": 0.0499,
+      "place_prob": 0.1547,
       "leg_type": "追",
       "pattern_fit": {
         "α": "△",
@@ -737,8 +737,8 @@
       "intent": "↑",
       "mark": "△",
       "rank_order": 5,
-      "win_prob": 0.0578,
-      "place_prob": 0.1776,
+      "win_prob": 0.0558,
+      "place_prob": 0.1726,
       "leg_type": "差",
       "pattern_fit": {
         "α": "○",
@@ -773,8 +773,8 @@
       "intent": "↑",
       "mark": "×",
       "rank_order": 6,
-      "win_prob": 0.0735,
-      "place_prob": 0.2225,
+      "win_prob": 0.0779,
+      "place_prob": 0.2358,
       "leg_type": "先",
       "pattern_fit": {
         "α": "○",
@@ -808,8 +808,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 7,
-      "win_prob": 0.0515,
-      "place_prob": 0.1587,
+      "win_prob": 0.0488,
+      "place_prob": 0.1516,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -842,8 +842,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 8,
-      "win_prob": 0.0487,
-      "place_prob": 0.1511,
+      "win_prob": 0.0469,
+      "place_prob": 0.1467,
       "leg_type": "差",
       "pattern_fit": {
         "α": "△",
@@ -874,8 +874,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 9,
-      "win_prob": 0.0575,
-      "place_prob": 0.1766,
+      "win_prob": 0.0554,
+      "place_prob": 0.1713,
       "leg_type": "差",
       "pattern_fit": {
         "β": "○"
@@ -904,8 +904,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 10,
-      "win_prob": 0.0517,
-      "place_prob": 0.1611,
+      "win_prob": 0.0534,
+      "place_prob": 0.167,
       "leg_type": "逃",
       "pattern_fit": {
         "α": "△",
@@ -935,8 +935,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 11,
-      "win_prob": 0.0568,
-      "place_prob": 0.1744,
+      "win_prob": 0.0544,
+      "place_prob": 0.1681,
       "leg_type": "差",
       "pattern_fit": {
         "β": "△"
@@ -965,8 +965,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 12,
-      "win_prob": 0.0334,
-      "place_prob": 0.1063,
+      "win_prob": 0.0341,
+      "place_prob": 0.1089,
       "leg_type": "先",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -997,8 +997,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 13,
-      "win_prob": 0.0336,
-      "place_prob": 0.1068,
+      "win_prob": 0.0343,
+      "place_prob": 0.1097,
       "leg_type": "先",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -1029,8 +1029,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 14,
-      "win_prob": 0.0322,
-      "place_prob": 0.1017,
+      "win_prob": 0.0306,
+      "place_prob": 0.0972,
       "leg_type": "追",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -1057,8 +1057,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 15,
-      "win_prob": 0.0261,
-      "place_prob": 0.0829,
+      "win_prob": 0.0248,
+      "place_prob": 0.0793,
       "leg_type": "追",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -1089,8 +1089,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 16,
-      "win_prob": 0.0264,
-      "place_prob": 0.0844,
+      "win_prob": 0.0266,
+      "place_prob": 0.0855,
       "leg_type": "先",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -1121,8 +1121,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 17,
-      "win_prob": 0.0325,
-      "place_prob": 0.1033,
+      "win_prob": 0.033,
+      "place_prob": 0.1055,
       "leg_type": "先",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -1153,8 +1153,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 18,
-      "win_prob": 0.0264,
-      "place_prob": 0.0841,
+      "win_prob": 0.0254,
+      "place_prob": 0.0812,
       "leg_type": "差",
       "pattern_fit": {},
       "pace_sensitivity": "展開待ち。βの差し浮上かγの前残りなど、条件が噛み合う時だけ圏内候補。",
@@ -1179,7 +1179,7 @@
   "data_confidence": [
     "racecardは取得済み出走表stdoutから再構成。直後の再取得はrobots取得不能で停止したため、seed中心の縮退分析。",
     "F/G/H/K/Lは未取得。騎手欄が未定の馬は出走表取得時点の欠損として扱う。",
-    "調教・馬体重・当日馬場は未反映。"
+    "調教・馬体重は未反映。当日馬場と小倉1Rの脚質傾向を反映。"
   ],
   "reinforcement_requests": [
     "小倉1R芝1200の決まり手と伸び位置でα/β/γを再ティア。",

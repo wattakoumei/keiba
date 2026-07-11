@@ -1,0 +1,153 @@
+{
+  "race_id": "20260711-fukushima-10",
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "Codex観点fan-outが利用上限で停止したため、JRA由来seed・静的コースカタログ・決定論ツールから縮退再構成。全頭カバーを維持。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[D]最内枠と先行脚質は福島の短直線で位置を守りやすい"
+      ],
+      "cons": [
+        "[D]芝1200mでは後方に置かれた実績があり、距離適性は両面"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[D]福島芝1200m経験と内枠先行。小回りでロスを抑えやすい"
+      ],
+      "cons": [
+        "[D]同舞台の前走は7着で、コース実績は決め手になり切らない"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ショウナンラスボス",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[D]内枠で距離損は小さい"
+      ],
+      "cons": [
+        "[D]差し脚質と近走の決め手不足は短い直線で不利"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D]軽斤量の逃げでコース形状の恩恵を受ける可能性"
+      ],
+      "cons": [
+        "[D]近走がダート中心で芝1200m適性の裏付けがない"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D]先行型で短直線向き。1400mからの短縮で位置を取りやすい"
+      ],
+      "cons": [
+        "[D]芝1200mの近走実績が薄く、序盤速度は推定"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ロードマイライフ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[D]芝1200mの時計と末脚は足りる"
+      ],
+      "cons": [
+        "[D]追込で直線292mでは届く展開が限定される"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ウナギノボリ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[D]現級芝1200m2着の適性実績"
+      ],
+      "cons": [
+        "[D]差し脚質で福島の短い直線は位置取りの壁がある"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[D]芝1200mの好時計と先行力は小回り向き"
+      ],
+      "cons": [
+        "[D]外枠から前へ出す際の消耗が課題"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モーデン",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[D]芝1200mの好走実績が複数ある"
+      ],
+      "cons": [
+        "[D]外枠の差しで4角までに射程へ入る必要がある"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ]
+}
+

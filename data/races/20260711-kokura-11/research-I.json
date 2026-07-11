@@ -1,17 +1,21 @@
 {
   "point": "I",
   "overall_confidence": "中",
-  "field_note": "seedと決定論ツールに縮退",
+  "field_note": "専用エージェント起動不能のためJRA公式seedと決定論タグで縮退評価",
   "horses": [
     {
       "no": 1,
       "name": "スノーサイレンス",
-      "score": -0.5,
+      "score": -1,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
+      "cons": [
+        "前走大敗からの反発待ち"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -19,23 +23,29 @@
       "name": "クーデール",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
       "cons": [
-        "直近2走の後退が続き、同型多数で反転材料が薄い"
+        "直近2走連続大敗で下降基調"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 3,
       "name": "イマージョン",
-      "score": -0.5,
+      "score": -1,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
+      "cons": [
+        "前走大敗からの反発待ち"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -43,12 +53,14 @@
       "name": "メイショウキルギス",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
       "cons": [
-        "前走から間隔が空き、速い同型相手では初速の再現が鍵"
+        "前走大敗に加え238日ぶりの休み明け"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -57,24 +69,28 @@
       "score": 0,
       "confidence": "中",
       "pros": [
-        "直近の間隔と内容は標準的で、強い割引材料はない"
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
       ],
-      "cons": [],
+      "cons": [
+        "決定論リスクは目立たない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 6,
       "name": "ペイシャヴァルツー",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
       "cons": [
-        "連闘に近い間隔で再度速い流れを受ける点は懸念"
+        "決定論リスクは目立たない"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -82,10 +98,14 @@
       "name": "ヴェロクオーレ",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
+      "cons": [
+        "決定論リスクは目立たない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -93,12 +113,14 @@
       "name": "アメリカンビキニ",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
       "cons": [
-        "直近の大敗後で間隔も短く、先行争いで消耗する懸念"
+        "芝重賞から中5日の連闘で状態反発が必要"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -106,23 +128,29 @@
       "name": "ポッドソル",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
       "cons": [
-        "前走大敗後で出走履歴も薄く、外から押し切るには不確実性が高い"
+        "前走最下位からの距離短縮で出脚不発リスク"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 10,
       "name": "ジャーヴィス",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
+      ],
+      "cons": [
+        "決定論リスクは目立たない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -131,13 +159,14 @@
       "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな決定論リスクは少なく、前に行く形を取りやすい"
+        "斤量は性別中立化後の実効標準内で明確な負担差なし"
       ],
-      "cons": [],
+      "cons": [
+        "決定論リスクは目立たない"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     }
-  ],
-  "note": "seedと決定論ツールに縮退"
+  ]
 }

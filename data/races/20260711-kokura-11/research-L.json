@@ -1,0 +1,172 @@
+{
+  "point": "L",
+  "overall_confidence": "中",
+  "field_note": "専用エージェント起動不能のためJRA公式seedと決定論タグで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "スノーサイレンス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1000mの勝利歴があり同条件回帰"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "クーデール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "イマージョン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "メイショウキルギス",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "夏の札幌ダ1000m逃げ切り歴があり夏場短距離に実績"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ベルギューン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ペイシャヴァルツー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "同舞台は勝ち時計を持つ一方、過去に大敗もあり再現性が不安定"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ヴェロクオーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "アメリカンビキニ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ポッドソル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジャーヴィス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "季節・同舞台の反復実績は十分でない"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハヤテノツバサ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "冬の小倉ダ1000m勝ちと直近連勝が重なり条件再現性が高い"
+      ],
+      "cons": [
+        "夏場適性は反復データ不足で確信度が低い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
+      ]
+    }
+  ]
+}

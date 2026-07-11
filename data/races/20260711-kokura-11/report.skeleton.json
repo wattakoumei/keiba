@@ -1,0 +1,781 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260711-kokura-11",
+ "race_name": "",
+ "edition": "",
+ "race_no": 11,
+ "grade": "",
+ "date": "2026-07-11",
+ "course": {
+  "track": "",
+  "surface": "ダ",
+  "distance": 1000,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 11,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "D",
+  "E",
+  "I",
+  "K",
+  "L"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "スノーサイレンス",
+    "jockey": "吉村 誠之助",
+    "trainer": "小栗 実",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "クーデール",
+    "jockey": "西塚 洸二",
+    "trainer": "坂口 智康",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "イマージョン",
+    "jockey": "西村 淳也",
+    "trainer": "高野 友和",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 4,
+    "horse": "メイショウキルギス",
+    "jockey": "松若 風馬",
+    "trainer": "高橋 亮",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 5,
+    "horse": "ベルギューン",
+    "jockey": "菱田 裕二",
+    "trainer": "牧浦 充徳",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 6,
+    "horse": "ペイシャヴァルツー",
+    "jockey": "秋山 稔樹",
+    "trainer": "吉田 直弘",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 7,
+    "horse": "ヴェロクオーレ",
+    "jockey": "酒井 学",
+    "trainer": "石坂 公一",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 8,
+    "horse": "アメリカンビキニ",
+    "jockey": "団野 大成",
+    "trainer": "斉藤 崇史",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 9,
+    "horse": "ポッドソル",
+    "jockey": "川須 栄彦",
+    "trainer": "手塚 貴徳",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 10,
+    "horse": "ジャーヴィス",
+    "jockey": "藤懸 貴志",
+    "trainer": "千田 輝彦",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 11,
+    "horse": "ハヤテノツバサ",
+    "jockey": "幸 英明",
+    "trainer": "杉山 佳明",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "β",
+    "name": "多頭ハナ争い・差し台頭",
+    "tier": "本線★★★",
+    "prob": 0.45,
+    "trigger": "④⑥⑧⑨⑪のうち3頭以上が最初の300mで引かず、隊列確定まで併走",
+    "pace_level": 0.9,
+    "contesters": [
+     4,
+     6,
+     8,
+     9,
+     11
+    ],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": 1,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     6,
+     8,
+     11
+    ],
+    "formation_last_corner": [
+     11,
+     5,
+     1,
+     7
+    ],
+    "bias": "先行勢の消耗が大きく、競りに加わらない好位と追込が浮上",
+    "phase_flow": {
+     "early": "外の⑧⑨⑪と内の④⑥が一斉に加速し、短い助走区間で行き脚を使い合う",
+     "mid": "下りでも前の併走が解けず、逃げ勢は追走力を消耗。①⑤⑦は好位で前を見ながら温存し、⑩は後方で脚を溜める",
+     "late": "直線291mは短いが、競った前が鈍れば内で立ち回る①と持続する⑤、末脚上位の⑩が差を詰める。⑪は地力で残存を図る",
+     "result": "競りの当事者は後退し、①⑪⑩⑤が上位候補。⑩は前が止まり切ることが条件"
+    },
+    "risers": [
+     1,
+     5,
+     7,
+     10,
+     11
+    ],
+    "sinkers": [
+     2,
+     4,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "id": "α",
+    "name": "⑪先手奪取・外の速度で押し切り",
+    "tier": "対抗★★",
+    "prob": 0.35,
+    "trigger": "⑪が最初の二の脚で外から前を切り、④⑥⑧⑨が早めに番手へ収まる",
+    "pace_level": 0.67,
+    "contesters": [
+     11,
+     8,
+     6
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 1,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     11,
+     8,
+     6
+    ],
+    "formation_last_corner": [
+     11,
+     8,
+     5,
+     1
+    ],
+    "bias": "小倉の下り加速と短い直線で前・好位優位",
+    "phase_flow": {
+     "early": "⑪が外から速度差で前を切り、⑧⑥が番手、①⑤が内外の好位へ収まって隊列が早く決まる",
+     "mid": "先頭⑪が下りを利用して一定速度を保ち、競りが解けた前群は追走力を温存する",
+     "late": "短い直線では位置差が縮まらず、同舞台57秒1の⑪が押し切り態勢。①⑤が番手勢の後ろから食い込む",
+     "result": "⑪中心の前残りで①⑤⑧が圏内、後方の⑩は届かない"
+    },
+    "risers": [
+     1,
+     5,
+     8,
+     11
+    ],
+    "sinkers": [
+     9,
+     10
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "④内から主導・好位残存",
+    "tier": "伏線★",
+    "prob": 0.2,
+    "trigger": "④が内の利で先手を取り、⑥⑧⑨⑪が無理に競りかけず縦長になる",
+    "pace_level": 0.52,
+    "contesters": [
+     4,
+     6
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 1,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     4,
+     6,
+     11
+    ],
+    "formation_last_corner": [
+     4,
+     11,
+     1,
+     5
+    ],
+    "bias": "内前有利",
+    "phase_flow": {
+     "early": "④が内から先手を取り、⑥⑪が番手へ収まる。外の⑧⑨が控えて早めに隊列が縦長になる",
+     "mid": "休み明けの④が息を入れ、前の各馬は下りで無理なく速度を維持する",
+     "late": "平坦で短い直線は前群の位置優位を支え、④⑪①⑤の順に粘り込む",
+     "result": "④の復調が条件の前残りで⑪①⑤が同時に圏内"
+    },
+    "risers": [
+     1,
+     4,
+     5,
+     11
+    ],
+    "sinkers": [
+     9,
+     10
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "前半参考Rでダート短距離の逃げ残りが複数続き、かつ⑪が落ち着いて先行できるならαを本線へ。内前優位が明確で④の気配が良ければγを引き上げる。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "β",
+    "tier": "本線★★★",
+    "center": [
+     1
+    ],
+    "inside": [
+     5,
+     7,
+     10,
+     11
+    ],
+    "spot": [
+     3
+    ],
+    "drop": [
+     2,
+     4,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "pattern": "α",
+    "tier": "対抗★★",
+    "center": [
+     11
+    ],
+    "inside": [
+     1,
+     5,
+     8
+    ],
+    "spot": [
+     2,
+     3,
+     4,
+     6,
+     7
+    ],
+    "drop": [
+     9,
+     10
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線★",
+    "center": [
+     4
+    ],
+    "inside": [
+     1,
+     5,
+     11
+    ],
+    "spot": [
+     2,
+     3,
+     6,
+     7,
+     8
+    ],
+    "drop": [
+     9,
+     10
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 11,
+   "gate": "8",
+   "horse": "ハヤテノツバサ",
+   "jockey": "幸 英明",
+   "trainer": "杉山 佳明",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "β": "○",
+    "α": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "小倉ダ1000mを57秒1で勝ち切り、同距離の速度水準が最上位"
+    },
+    {
+     "tag": "B",
+     "note": "1勝クラスと2勝クラスを連勝し、底を見せず昇級"
+    },
+    {
+     "tag": "D",
+     "note": "小倉ダ1000m57秒1勝ちで下り加速と短い直線に適合"
+    },
+    {
+     "tag": "L",
+     "note": "冬の小倉ダ1000m勝ちと直近連勝が重なり条件再現性が高い"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "決定論リスクは目立たない"
+    }
+   ]
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "スノーサイレンス",
+   "jockey": "吉村 誠之助",
+   "trainer": "小栗 実",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "β": "◎",
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "小倉ダ1000m59秒2勝ちの実績"
+    },
+    {
+     "tag": "B",
+     "note": "同舞台2勝クラス勝ちがあり条件替わりで反発余地"
+    },
+    {
+     "tag": "D",
+     "note": "同舞台を差し切っており先行激化への耐性も示す"
+    },
+    {
+     "tag": "L",
+     "note": "小倉ダ1000mの勝利歴があり同条件回帰"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "前走大敗からの反発待ち"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "6",
+   "horse": "ペイシャヴァルツー",
+   "jockey": "秋山 稔樹",
+   "trainer": "吉田 直弘",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "1週前の同舞台で57秒1、序盤速度は最上位級"
+    },
+    {
+     "tag": "D",
+     "note": "直近の同舞台で先手を取り57秒1"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "決定論リスクは目立たない"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "gate": "8",
+   "horse": "ジャーヴィス",
+   "jockey": "藤懸 貴志",
+   "trainer": "千田 輝彦",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "1200mで終い34秒台を持ち、前崩れ時の末脚は最上位"
+    },
+    {
+     "tag": "B",
+     "note": "3勝クラスで2着歴があり、前崩れなら通用内容"
+    },
+    {
+     "tag": "K",
+     "note": "継続騎乗で脚質と出方の共有がある"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "D",
+     "note": "追込型で直線291mの小倉ダ1000mは位置取りの壁が大きい"
+    },
+    {
+     "tag": "I",
+     "note": "決定論リスクは目立たない"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "gate": "4",
+   "horse": "メイショウキルギス",
+   "jockey": "松若 風馬",
+   "trainer": "高橋 亮",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "札幌ダ1000m58秒6勝ちで短距離速度が明確"
+    },
+    {
+     "tag": "D",
+     "note": "ダ1000m逃げ切り実績があり小回り持続戦向き"
+    },
+    {
+     "tag": "L",
+     "note": "夏の札幌ダ1000m逃げ切り歴があり夏場短距離に実績"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "前走大敗後かつ長期休養明け"
+    },
+    {
+     "tag": "I",
+     "note": "前走大敗に加え238日ぶりの休み明け"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "5",
+   "horse": "ベルギューン",
+   "jockey": "菱田 裕二",
+   "trainer": "牧浦 充徳",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "β": "○",
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "B",
+     "note": "3勝クラスの1200mで先行して6着、短縮で粘り増し余地"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "決定論リスクは目立たない"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "6",
+   "horse": "ヴェロクオーレ",
+   "jockey": "酒井 学",
+   "trainer": "石坂 公一",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "K",
+     "note": "継続騎乗で脚質と出方の共有がある"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "決定論リスクは目立たない"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "イマージョン",
+   "jockey": "西村 淳也",
+   "trainer": "高野 友和",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "K",
+     "note": "西村淳也への乗替で短距離先行の位置取り強化を見込む"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "前走大敗からの反発待ち"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "gate": "7",
+   "horse": "アメリカンビキニ",
+   "jockey": "団野 大成",
+   "trainer": "斉藤 崇史",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "K",
+     "note": "2勝クラス勝ち時の団野大成へ戻り、戦法再現性がある"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "前走は芝重賞で大敗し中5日の連闘"
+    },
+    {
+     "tag": "I",
+     "note": "芝重賞から中5日の連闘で状態反発が必要"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "クーデール",
+   "jockey": "西塚 洸二",
+   "trainer": "坂口 智康",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容が崩れており時計面の裏付けが弱い"
+    },
+    {
+     "tag": "B",
+     "note": "3勝クラスで連続二桁着順となり立て直しが必要"
+    },
+    {
+     "tag": "I",
+     "note": "直近2走連続大敗で下降基調"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "7",
+   "horse": "ポッドソル",
+   "jockey": "川須 栄彦",
+   "trainer": "手塚 貴徳",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容が崩れており時計面の裏付けが弱い"
+    },
+    {
+     "tag": "B",
+     "note": "昇級初戦の1400mで大敗しクラス通用が未確認"
+    },
+    {
+     "tag": "I",
+     "note": "前走最下位からの距離短縮で出脚不発リスク"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

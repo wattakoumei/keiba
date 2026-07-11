@@ -1,0 +1,13 @@
+{"point":"C","overall_confidence":"中","field_note":"新馬用静的カタログ中心の縮退評価。初年度種牡馬は確信度を下げた。","horses":[
+{"no":1,"name":"フランソワーズ","pros":["半兄セルバーグは芝マイル重賞勝ちで母系の速力は明確","父エフフォーリアは芝中距離寄りの初年度種牡馬"],"cons":["父産駒はまだサンプルが小さい"],"score":2,"confidence":"中","sources":["https://news.netkeiba.com/?no=336479&pid=news_view"]},
+{"no":2,"name":"ジーティーマローネ","pros":["母父タニノギムレットの芝中距離の底力"],"cons":["父ルヴァンスレーヴはダート実績型で良芝1800mの切れは未知"],"score":-1,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":3,"name":"ヴォルテックス","pros":["母父ディープインパクトの芝の切れ","父レイデオロの中距離持続力"],"cons":["レイデオロは牡馬での信頼が相対的に下がる傾向"],"score":0,"confidence":"中","sources":["https://race.netkeiba.com/race/shutuba_past_9.html?race_id=202610020505"]},
+{"no":4,"name":"ティエルニート","pros":["サートゥルナーリア×母父ディープは良芝の加速力に合う","全兄ジャスティンビスタは2歳芝中距離重賞勝ち"],"cons":[],"score":2,"confidence":"高","sources":["https://news.netkeiba.com/?no=336471&pid=news_view"]},
+{"no":5,"name":"イテルム","pros":["父サリオスと母父Siyouniの芝マイルから中距離の速力配合"],"cons":["父は初年度で産駒傾向が未確定"],"score":1,"confidence":"低","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":6,"name":"ハルカカナタ","pros":["母父ハービンジャーが芝1800mの持続力を補う"],"cons":["父ドレフォンはダート主体で芝は良限定の振れ幅型"],"score":0,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":7,"name":"ルクスグレイス","pros":["サトノダイヤモンド×ハービンジャーは小回り芝中距離の持続力向き"],"cons":["両系統とも瞬間的な仕上がりの早さは中立"],"score":1,"confidence":"中","sources":["https://umanity.jp/sp/racedata/db/horse_top.php?code=2024106324"]},
+{"no":8,"name":"ダヌラーサナ","pros":["母父Shacklefordの米国型先行力"],"cons":["レイデオロ産駒の牡馬傾向と母父ダート色から良芝の切れは懸念"],"score":-1,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":9,"name":"アイオリスパルス","pros":["父アドマイヤマーズの2歳戦向きの先行力","母父スクリーンヒーローが1800mの持続力を補う"],"cons":["父の本質はより短い距離"],"score":1,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":10,"name":"クラリスバローズ","pros":["母父ブライアンズタイムがタフさと持続力を供給","近親に重賞勝ち馬がいる母系"],"cons":["父ヘンリーバローズは産駒数が少なく傾向が読みにくい"],"score":1,"confidence":"中","sources":["https://news.netkeiba.com/?no=336483&pid=news_view"]},
+{"no":11,"name":"ココフルール","pros":["父サリオスの芝マイルから中距離の底力"],"cons":["初年度種牡馬で個体完成度を血統だけで読めない"],"score":0,"confidence":"低","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":12,"name":"フラッシングルビー","pros":["アドマイヤマーズの早い完成度と先行力","母父エイシンフラッシュが1800m適性を補う"],"cons":[],"score":1,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]}],"note":"fan-out失敗のため静的カタログと公開血統事実で縮退。"}

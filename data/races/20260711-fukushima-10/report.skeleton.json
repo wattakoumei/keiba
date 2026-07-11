@@ -1,0 +1,667 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260711-fukushima-10",
+ "race_name": "",
+ "edition": "",
+ "race_no": 10,
+ "grade": "",
+ "date": "2026-07-11",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 1200,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 9,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "D",
+  "E",
+  "I"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "フォルテム",
+    "jockey": "木幡 巧也",
+    "trainer": "千葉 直人",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "アタリダイキチ",
+    "jockey": "杉原 誠人",
+    "trainer": "西田 雄一郎",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "ショウナンラスボス",
+    "jockey": "江田 照男",
+    "trainer": "奥村 武",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 4,
+    "horse": "ズバットマサムネ",
+    "jockey": "小崎 綾也",
+    "trainer": "杉山 佳明",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 5,
+    "horse": "スマイルアップ",
+    "jockey": "松岡 正海",
+    "trainer": "萱野 浩二",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 6,
+    "horse": "ロードマイライフ",
+    "jockey": "原 優介",
+    "trainer": "佐藤 悠太",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 7,
+    "horse": "ウナギノボリ",
+    "jockey": "菊沢 一樹",
+    "trainer": "本間 忍",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 8,
+    "horse": "メイショウヨゾラ",
+    "jockey": "三浦 皇成",
+    "trainer": "高柳 瑞樹",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 9,
+    "horse": "モーデン",
+    "jockey": "丸山 元気",
+    "trainer": "加藤 公太",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "④先導・好位持続",
+    "tier": "本線★★★",
+    "prob": 0.44,
+    "trigger": "④がハナを取り、②⑤⑧が競り切らず2〜5番手で隊列が早めに決まる",
+    "pace_level": 0.58,
+    "contesters": [
+     4,
+     2,
+     8
+    ],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 2,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     4,
+     2,
+     5
+    ],
+    "formation_last_corner": [
+     4,
+     2,
+     5,
+     8
+    ],
+    "bias": "前・好位有利。内で脚を使わない組が優位",
+    "phase_flow": {
+     "early": "52kgの④がハナ、内の②と中の⑤が番手圏、外の⑧が好位へ。向正面の上りで序盤は速いが、競り切らなければ隊列は早めに固まる",
+     "mid": "前4頭が互いに折り合い、追走力を大きく削らず3角へ。①は最内で距離を稼ぎ、後方の⑦⑨は位置差を抱える",
+     "late": "残り400mからの下りで前が再加速し、直線292mでは好位勢の位置リードが効く。最後の小さな上りで④だけ甘くなり、⑤②⑧が抜け出す",
+     "result": "好位持続＝⑤②⑧が中心、最内の①と軽量逃げ④が残存候補。⑦⑨は届いて連下まで"
+    },
+    "risers": [
+     1,
+     2,
+     5,
+     8
+    ],
+    "sinkers": []
+   },
+   {
+    "id": "β",
+    "name": "②⑧圧力・前傾差し台頭",
+    "tier": "対抗★★",
+    "prob": 0.34,
+    "trigger": "②か⑧が④へ強く並び、⑤も好位維持のため脚を使って3頭以上の前争いが長引く",
+    "pace_level": 0.78,
+    "contesters": [
+     4,
+     2,
+     8,
+     5
+    ],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": -1,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     4,
+     2,
+     8
+    ],
+    "formation_last_corner": [
+     2,
+     5,
+     8,
+     1
+    ],
+    "bias": "差し寄り。ただし短直線のため4角で中団までが条件",
+    "phase_flow": {
+     "early": "④に②⑧が並び、⑤も好位を取り切るため序盤から行き脚を使う。向正面の上りが先行勢の負荷を増やす",
+     "mid": "前4頭の追走余力が削られ、内で我慢する①と中団の⑦⑨に脚が残る。少頭数で差し勢も外へ持ち出しやすい",
+     "late": "残り400mの下りで⑦⑨が射程へ入り、最後の上りで競った④②⑧が鈍る。現級短距離で末脚を示した⑦が最も浮く",
+     "result": "差し台頭＝⑦⑨が浮上、先行勢では競りに深く加わらない⑤と内の①が残る。④は失速"
+    },
+    "risers": [
+     1,
+     5,
+     7,
+     9
+    ],
+    "sinkers": []
+   },
+   {
+    "id": "γ",
+    "name": "④不発・②主導の前残り",
+    "tier": "伏線★",
+    "prob": 0.22,
+    "trigger": "芝の序盤速度で④が行き切れず、内の②が無理なくハナか外並びの先頭を取る",
+    "pace_level": 0.46,
+    "contesters": [
+     2,
+     4
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 2,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     2,
+     5,
+     8
+    ],
+    "formation_last_corner": [
+     2,
+     5,
+     8,
+     1
+    ],
+    "bias": "前有利。②を中心に好位勢が隊列固定",
+    "phase_flow": {
+     "early": "④が芝の加速で遅れ、前走1200mを2番手から勝った②が内から主導。⑤⑧が続き、隊列がすぐ固定する",
+     "mid": "②⑤⑧は追走力を温存し、①も内の4番手で脚を溜める。差し勢はペースが上がらず位置差を詰められない",
+     "late": "下りから前4頭が一斉に加速し、短い直線で後続を待たない。前走の決め手を持つ②⑧と現級地力の⑤が競る",
+     "result": "前残り＝②⑤⑧が中心、①が連下。⑦⑨は上がりを使っても位置差が残る"
+    },
+    "risers": [
+     1,
+     2,
+     5,
+     8
+    ],
+    "sinkers": []
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "④が楽にハナを取ればαを維持。②⑧が並び続ければβを本線へ。④が芝の行き脚で遅れ②が先頭ならγへ。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線★★★",
+    "center": [
+     2,
+     5
+    ],
+    "inside": [
+     1,
+     8
+    ],
+    "spot": [
+     4
+    ],
+    "drop": []
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗★★",
+    "center": [
+     7,
+     9
+    ],
+    "inside": [
+     1,
+     5
+    ],
+    "spot": [
+     6
+    ],
+    "drop": []
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線★",
+    "center": [
+     2,
+     5
+    ],
+    "inside": [
+     1,
+     8
+    ],
+    "spot": [],
+    "drop": []
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 8,
+   "gate": "8",
+   "horse": "メイショウヨゾラ",
+   "jockey": "三浦 皇成",
+   "trainer": "高柳 瑞樹",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]中山芝1200mを1分07秒1、先行して上がり33秒4で勝利"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走2勝クラスの芝1200mを好位から勝利"
+    },
+    {
+     "tag": "D",
+     "note": "[D]芝1200mの好時計と先行力は小回り向き"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]昇級初戦で揉まれた際の耐久力は未知"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "アタリダイキチ",
+   "jockey": "杉原 誠人",
+   "trainer": "西田 雄一郎",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]京都芝1200mを1分07秒8、先行して上がり33秒7で勝利"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走2勝クラスを先行押し切り。福島1200mも経験済み"
+    },
+    {
+     "tag": "D",
+     "note": "[D]福島芝1200m経験と内枠先行。小回りでロスを抑えやすい"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]昇級初戦で現級の圧力は未知"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "5",
+   "horse": "スマイルアップ",
+   "jockey": "松岡 正海",
+   "trainer": "萱野 浩二",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]現級の東京芝1400mで3着、先行して上がり34秒0"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走現級3着で、先行して最後まで脚を保った"
+    },
+    {
+     "tag": "D",
+     "note": "[D]先行型で短直線向き。1400mからの短縮で位置を取りやすい"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]7歳で反動と上積みの幅に注意"
+    }
+   ]
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "フォルテム",
+   "jockey": "木幡 巧也",
+   "trainer": "千葉 直人",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○",
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]東京芝1400mで1分20秒6・上がり33秒4。短縮対応が鍵だが基礎速度は上位圏"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走現級5着で好位から崩れず、1400m短縮前の内容は安定"
+    },
+    {
+     "tag": "D",
+     "note": "[D]最内枠と先行脚質は福島の短直線で位置を守りやすい"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]1200mで後方に置かれる可能性"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "7",
+   "horse": "ウナギノボリ",
+   "jockey": "菊沢 一樹",
+   "trainer": "本間 忍",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]阪神芝1200mの現級戦で1分08秒1・2着、上がり33秒3"
+    },
+    {
+     "tag": "B",
+     "note": "[B]3月の淀屋橋Sで現級2着の実績"
+    },
+    {
+     "tag": "D",
+     "note": "[D]現級芝1200m2着の適性実績"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]7歳かつ直近2走連続大敗で下降フラグ"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "8",
+   "horse": "モーデン",
+   "jockey": "丸山 元気",
+   "trainer": "加藤 公太",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]芝1200mを1分08秒4で勝ち、現級でも1分08秒5・6着"
+    },
+    {
+     "tag": "B",
+     "note": "[B]2勝クラスの芝1200m勝ちと現級6着がある"
+    },
+    {
+     "tag": "D",
+     "note": "[D]芝1200mの好走実績が複数ある"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I]8歳かつ前走大敗で下降フラグ"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "6",
+   "horse": "ロードマイライフ",
+   "jockey": "原 優介",
+   "trainer": "佐藤 悠太",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B]中1週で函館から転戦、現級の近4走は9着以下"
+    },
+    {
+     "tag": "D",
+     "note": "[D]追込で直線292mでは届く展開が限定される"
+    },
+    {
+     "tag": "I",
+     "note": "[I]近2走連続大敗に加え中1週の連戦"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "ショウナンラスボス",
+   "jockey": "江田 照男",
+   "trainer": "奥村 武",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]近3走すべて二桁着順で末脚も見劣る"
+    },
+    {
+     "tag": "B",
+     "note": "[B]8歳かつ近2走連続大敗で上向きの根拠が乏しい"
+    },
+    {
+     "tag": "D",
+     "note": "[D]差し脚質と近走の決め手不足は短い直線で不利"
+    },
+    {
+     "tag": "I",
+     "note": "[I]8歳かつ近2走連続大敗で下降基調"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "gate": "4",
+   "horse": "ズバットマサムネ",
+   "jockey": "小崎 綾也",
+   "trainer": "杉山 佳明",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]近走はダート中心で大敗が続き、芝1200mの時計裏付けがない"
+    },
+    {
+     "tag": "B",
+     "note": "[B]近4走すべて8着以下で、直近2走は12着・14着"
+    },
+    {
+     "tag": "D",
+     "note": "[D]近走がダート中心で芝1200m適性の裏付けがない"
+    },
+    {
+     "tag": "I",
+     "note": "[I]近2走連続大敗。芝替わりも未確認要素"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

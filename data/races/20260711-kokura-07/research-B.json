@@ -1,0 +1,171 @@
+{
+  "point": "B: 近走内容",
+  "overall_confidence": "中",
+  "field_note": "JRA seed・決定論ツール中心の縮退評価。並列web深掘りはローカルCodexのバージョン不整合により未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ハレアカラフラ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走青島特別の内容を今回条件で評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トラストエムシー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走7着からの反転材料が限られる"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "トップオブザライン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走12着からの反転材料が限られる"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "カラペルソナ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "近走忘れな草賞の内容を今回条件で評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "エイシンビーコン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走未勝利の内容を今回条件で評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カレントゥルーシー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走アルメリア賞の内容を今回条件で評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "トモジャプレジール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ルートサーティーン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "近走1勝クラスの内容を今回条件で評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウアボット",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走13着からの反転材料が限られる"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ウインラウダ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "近走1勝クラスの内容を今回条件で評価"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サントルドパリ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ゼットエイト",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "前走10着からの反転材料が限られる"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    }
+  ]
+}

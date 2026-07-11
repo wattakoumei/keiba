@@ -1,278 +1,244 @@
 {
   "point": "I",
   "overall_confidence": "中",
-  "field_note": "再取得不能のため、seed・近走通過順・同舞台直接対戦から縮退作成。",
+  "field_note": "risk_flags.pyの決定論一次フラグのみ。非決定論の故障・気性情報は未調査。",
   "horses": [
     {
       "no": 1,
       "name": "オオナミコナミ",
-      "score": -0.6,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 2,
       "name": "ユメシバイ",
-      "score": -0.2,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 3,
       "name": "ミキノバカラ",
-      "score": -0.6,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 4,
       "name": "ニホンピロトッティ",
-      "score": -1.5,
+      "score": -1,
       "confidence": "中",
-      "pros": [
-        "大きな減点がない馬は中立。"
-      ],
+      "pros": [],
       "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
+        "[I] 前走大敗（14/16）",
+        "[I] 前走から132日＝休み明け"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 5,
       "name": "メローネ",
-      "score": -0.2,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 6,
       "name": "ホーリーブラッサム",
-      "score": -0.2,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 7,
       "name": "ルージュサウダージ",
-      "score": -0.6,
+      "score": -1,
       "confidence": "中",
-      "pros": [
-        "大きな減点がない馬は中立。"
-      ],
+      "pros": [],
       "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
+        "[I] 直近2走連続大敗（前走12/13・前々走15/16）＝下降基調"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 8,
       "name": "フォティック",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 9,
       "name": "サンライズプルート",
-      "score": -1.4,
+      "score": -1,
       "confidence": "中",
-      "pros": [
-        "大きな減点がない馬は中立。"
-      ],
+      "pros": [],
       "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
+        "[I] 直近2走連続大敗（前走16/16・前々走9/11）＝下降基調"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 10,
-      "name": "ヤマニンアンフィル",
-      "score": -0.8,
+      "name": "ファイツオン",
+      "score": 0,
       "confidence": "中",
-      "pros": [
-        "大きな減点がない馬は中立。"
-      ],
+      "pros": [],
       "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
+        "[I] 現級比2段の昇級＝相手強化"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 11,
       "name": "スネーフリンガ",
-      "score": 0.0,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 12,
       "name": "ライクアフラワー",
-      "score": -1.0,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 13,
       "name": "ブルボンクイーン",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [
-        "大きな減点がない馬は中立。"
-      ],
+      "pros": [],
       "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
+        "[I] 前走大敗（11/16）"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 14,
       "name": "インブロリオ",
-      "score": -0.3,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 15,
       "name": "シュブロンレーヴル",
-      "score": 0.0,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 16,
       "name": "サディーク",
-      "score": 0.0,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 17,
       "name": "タナスーペルノーバ",
-      "score": 0.0,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 18,
       "name": "ハルオーブ",
-      "score": -0.3,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "大きな減点がない馬は中立。"
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
       ],
-      "cons": [
-        "近走大敗、使い詰め、後方一手、昇級負荷を減点。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     }
   ],
-  "note": "全頭カバーを優先した縮退観点。"
+  "note": "速報縮退"
 }
+

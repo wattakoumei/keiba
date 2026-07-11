@@ -1,0 +1,798 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260711-kokura-07",
+ "race_name": "",
+ "edition": "",
+ "race_no": 7,
+ "grade": "",
+ "date": "2026-07-11",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 1800,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 12,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "D",
+  "E",
+  "I"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "ハレアカラフラ",
+    "jockey": "松若 風馬",
+    "trainer": "吉田 直弘",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "トラストエムシー",
+    "jockey": "亀田 温心",
+    "trainer": "北出 成人",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "トップオブザライン",
+    "jockey": "富田 暁",
+    "trainer": "友道 康夫",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 4,
+    "horse": "カラペルソナ",
+    "jockey": "団野 大成",
+    "trainer": "斉藤 崇史",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 5,
+    "horse": "エイシンビーコン",
+    "jockey": "M.デムーロ",
+    "trainer": "吉村 圭司",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 6,
+    "horse": "カレントゥルーシー",
+    "jockey": "松山 弘平",
+    "trainer": "鈴木 孝志",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 7,
+    "horse": "トモジャプレジール",
+    "jockey": "幸 英明",
+    "trainer": "大根田 裕之",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 8,
+    "horse": "ルートサーティーン",
+    "jockey": "吉村 誠之助",
+    "trainer": "辻野 泰之",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 9,
+    "horse": "メイショウアボット",
+    "jockey": "菱田 裕二",
+    "trainer": "武 幸四郎",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 10,
+    "horse": "ウインラウダ",
+    "jockey": null,
+    "trainer": "梅田 智之",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 11,
+    "horse": "サントルドパリ",
+    "jockey": "角田 大和",
+    "trainer": "小林 真也",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 12,
+    "horse": "ゼットエイト",
+    "jockey": null,
+    "trainer": "宮地 貴稔",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "⑥主導・好位持続",
+    "tier": "本線",
+    "prob": 0.46,
+    "trigger": "⑥が先手を取り⑧が競らず好位、①も控えて隊列が早めに固まる",
+    "pace_level": 0.53,
+    "contesters": [
+     6,
+     8,
+     1
+    ],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 1,
+     "差し": 0,
+     "追込": -1
+    },
+    "formation_head": [
+     6,
+     8,
+     1
+    ],
+    "formation_last_corner": [
+     6,
+     8,
+     10,
+     1,
+     4,
+     5
+    ],
+    "bias": "小回り短直線で前受けが有利。ただし地力上位④と好位まで動ける⑩は届く。",
+    "phase_flow": {
+     "early": "⑥が先手、⑧が番手、①が内で続き隊列が早めに決まる。",
+     "mid": "向正面から3角で急激に緩まず、前の追走力と後方勢の早め進出が問われる。",
+     "late": "⑥⑧が粘るところへ⑩④が射程に入り、⑤が外から差を詰める。",
+     "result": "地力上位④と距離適性の高い⑩が中心。⑥⑧の前残りを警戒。"
+    },
+    "risers": [
+     1,
+     4,
+     5,
+     6,
+     8,
+     10
+    ],
+    "sinkers": [
+     2,
+     3,
+     7,
+     12
+    ]
+   },
+   {
+    "id": "β",
+    "name": "先行接触・差し浮上",
+    "tier": "対抗",
+    "prob": 0.34,
+    "trigger": "①が内から出して⑥⑧と前半で接触し、息の入りにくい流れ",
+    "pace_level": 0.72,
+    "contesters": [
+     1,
+     6,
+     8
+    ],
+    "leg_advantage": {
+     "逃げ": -1,
+     "先行": 0,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     6,
+     8,
+     1
+    ],
+    "formation_last_corner": [
+     6,
+     8,
+     10,
+     4,
+     5,
+     9
+    ],
+    "bias": "前の余力が削られ、中団から長く脚を使える馬が浮く。",
+    "phase_flow": {
+     "early": "①⑥⑧が位置を求めて前半から脚を使う。",
+     "mid": "3角まで緩みにくく、先行勢の余力が削られる。",
+     "late": "④⑩⑤⑨が前を射程に入れ、決め手の差が出る。",
+     "result": "④⑩が中心、⑤⑨が浮上。⑥⑧は粘り込みまで。"
+    },
+    "risers": [
+     4,
+     5,
+     9,
+     10,
+     11
+    ],
+    "sinkers": [
+     2,
+     7
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "⑥単騎・前残り",
+    "tier": "伏線",
+    "prob": 0.2,
+    "trigger": "⑥が楽に先手を取り⑧が完全に折り合い、内前優勢の馬場",
+    "pace_level": 0.43,
+    "contesters": [
+     6
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 1,
+     "差し": -1,
+     "追込": -2
+    },
+    "formation_head": [
+     6,
+     8,
+     1
+    ],
+    "formation_last_corner": [
+     6,
+     8,
+     1,
+     10,
+     4
+    ],
+    "bias": "直線の短さが効き、後方勢は届きにくい。",
+    "phase_flow": {
+     "early": "⑥が無理なく先手、⑧①が続いて縦長になる。",
+     "mid": "先頭が息を入れ、後方勢は早めに動かされる。",
+     "late": "⑥が粘り⑧⑩が続く。④は地力で迫るが位置差が壁。",
+     "result": "⑥が中心、⑧⑩が圏内。④は相手まで。"
+    },
+    "risers": [
+     1,
+     4,
+     6,
+     8,
+     10
+    ],
+    "sinkers": [
+     2,
+     3,
+     7,
+     11,
+     12
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "小倉5R芝1800で差しが外から連続して届けばβを本線へ。内前が止まらなければγを対抗へ上げる。⑥が出遅れれば⑧が主導する形へ組み替える。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線",
+    "center": [
+     4,
+     10
+    ],
+    "inside": [
+     1,
+     5,
+     6,
+     8
+    ],
+    "spot": [
+     9,
+     11
+    ],
+    "drop": [
+     2,
+     3,
+     7,
+     12
+    ]
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗",
+    "center": [
+     4,
+     10
+    ],
+    "inside": [
+     5,
+     9,
+     11
+    ],
+    "spot": [
+     1,
+     3,
+     6,
+     8,
+     12
+    ],
+    "drop": [
+     2,
+     7
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線",
+    "center": [
+     6,
+     8
+    ],
+    "inside": [
+     1,
+     4,
+     10
+    ],
+    "spot": [
+     5,
+     9
+    ],
+    "drop": [
+     2,
+     3,
+     7,
+     11,
+     12
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 10,
+   "gate": "7",
+   "horse": "ウインラウダ",
+   "jockey": null,
+   "trainer": "梅田 智之",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容と末脚に同級圏の裏付け（最良上がり33.4）"
+    },
+    {
+     "tag": "B",
+     "note": "近走1勝クラスの内容を今回条件で評価"
+    },
+    {
+     "tag": "D",
+     "note": "近走芝1800で2着、距離適性を確認"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 4,
+   "gate": "4",
+   "horse": "カラペルソナ",
+   "jockey": "団野 大成",
+   "trainer": "斉藤 崇史",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容と末脚に同級圏の裏付け（最良上がり33.1）"
+    },
+    {
+     "tag": "B",
+     "note": "近走忘れな草賞の内容を今回条件で評価"
+    },
+    {
+     "tag": "D",
+     "note": "芝1800への適性を近走内容・血統から見込む"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "ハレアカラフラ",
+   "jockey": "松若 風馬",
+   "trainer": "吉田 直弘",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容と末脚に同級圏の裏付け（最良上がり35.7）"
+    },
+    {
+     "tag": "B",
+     "note": "近走青島特別の内容を今回条件で評価"
+    },
+    {
+     "tag": "D",
+     "note": "小倉芝1800の好走歴があり舞台経験は明確"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "軽量3歳勢に対して古馬の斤量負担"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "5",
+   "horse": "カレントゥルーシー",
+   "jockey": "松山 弘平",
+   "trainer": "鈴木 孝志",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容と末脚に同級圏の裏付け（最良上がり34.5）"
+    },
+    {
+     "tag": "B",
+     "note": "近走アルメリア賞の内容を今回条件で評価"
+    },
+    {
+     "tag": "D",
+     "note": "小回り芝1800で先手を取れる脚質が噛み合う"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "前走から125日＝休み明け"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "5",
+   "horse": "エイシンビーコン",
+   "jockey": "M.デムーロ",
+   "trainer": "吉村 圭司",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "α": "○",
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容と末脚に同級圏の裏付け（最良上がり33.5）"
+    },
+    {
+     "tag": "B",
+     "note": "近走未勝利の内容を今回条件で評価"
+    },
+    {
+     "tag": "D",
+     "note": "芝1800への適性を近走内容・血統から見込む"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 8,
+   "gate": "6",
+   "horse": "ルートサーティーン",
+   "jockey": "吉村 誠之助",
+   "trainer": "辻野 泰之",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "近走の走破内容と末脚に同級圏の裏付け（最良上がり33.7）"
+    },
+    {
+     "tag": "B",
+     "note": "近走1勝クラスの内容を今回条件で評価"
+    },
+    {
+     "tag": "D",
+     "note": "芝1800への適性を近走内容・血統から見込む"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 11,
+   "gate": "8",
+   "horse": "サントルドパリ",
+   "jockey": "角田 大和",
+   "trainer": "小林 真也",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 7,
+   "gate": "6",
+   "horse": "トモジャプレジール",
+   "jockey": "幸 英明",
+   "trainer": "大根田 裕之",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "D",
+     "note": "小倉芝1800への条件適性に不確定要素"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "7",
+   "horse": "メイショウアボット",
+   "jockey": "菱田 裕二",
+   "trainer": "武 幸四郎",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "前走13着からの反転材料が限られる"
+    },
+    {
+     "tag": "I",
+     "note": "前走大敗（13/18）"
+    },
+    {
+     "tag": "I",
+     "note": "軽量3歳勢に対して古馬の斤量負担"
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "gate": "8",
+   "horse": "ゼットエイト",
+   "jockey": null,
+   "trainer": "宮地 貴稔",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "直近時計・末脚だけでは今回の上位比較で強調しにくい"
+    },
+    {
+     "tag": "B",
+     "note": "前走10着からの反転材料が限られる"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "トップオブザライン",
+   "jockey": "富田 暁",
+   "trainer": "友道 康夫",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "直近時計・末脚だけでは今回の上位比較で強調しにくい"
+    },
+    {
+     "tag": "B",
+     "note": "前走12着からの反転材料が限られる"
+    },
+    {
+     "tag": "D",
+     "note": "小倉芝1800への条件適性に不確定要素"
+    },
+    {
+     "tag": "I",
+     "note": "前走大敗（12/12）"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "トラストエムシー",
+   "jockey": "亀田 温心",
+   "trainer": "北出 成人",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 12,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "直近時計・末脚だけでは今回の上位比較で強調しにくい"
+    },
+    {
+     "tag": "B",
+     "note": "前走7着からの反転材料が限られる"
+    },
+    {
+     "tag": "D",
+     "note": "小倉芝1800への条件適性に不確定要素"
+    },
+    {
+     "tag": "I",
+     "note": "直近2走連続大敗（前走7/10・前々走13/15）＝下降基調"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

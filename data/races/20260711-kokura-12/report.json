@@ -28,7 +28,7 @@
     "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
     "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
     "2026-07-11前日作成。JRA seed取得後、外部fan-outは縮退し、A/B/C/D/E/I/Kを seed・決定論ツール中心で構築。",
-    "枠順は確定済みとして展開と印に先取り。⑦⑩⑮の騎手は取得時点で未取得扱い。",
+    "枠順・騎手はJRA確定出馬表で確認し、展開と印に先取り。",
     "観点欠落(F,G,H,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。",
     "engine_check: 複勝率順は⑭①⑯を高めに見るが、論理順は本線αと対抗βの同時圏を優先して⑥⑧①④⑭の順で維持。"
   ],
@@ -62,8 +62,8 @@
     "going": [
       {
         "item": "芝馬場状態",
-        "value": "",
-        "read": "良ならα維持。時計がかかり外差しならβへ寄せる"
+        "value": "良（11:56時点・JRA）",
+        "read": "良発表のためαを維持。時計がかかり外差しへ動けばβへ寄せる"
       },
       {
         "item": "風",
@@ -97,7 +97,7 @@
       }
     ],
     "other_unknowns": [
-      "⑦⑩⑮の騎手は取得時点で未取得。確定時はK評価を更新。",
+      "風・馬体重・パドックは未取得。",
       "当日芝1200の内外バイアス。"
     ]
   },
@@ -567,8 +567,8 @@
       "intent": "↑",
       "mark": "◎",
       "rank_order": 1,
-      "win_prob": 0.2169,
-      "place_prob": 0.537,
+      "win_prob": 0.2182,
+      "place_prob": 0.539,
       "leg_type": "先行",
       "pattern_fit": {
         "α": "◎",
@@ -607,8 +607,8 @@
       "intent": "↑",
       "mark": "◯",
       "rank_order": 2,
-      "win_prob": 0.074,
-      "place_prob": 0.23,
+      "win_prob": 0.0751,
+      "place_prob": 0.2332,
       "leg_type": "差し",
       "pattern_fit": {
         "α": "○",
@@ -647,8 +647,8 @@
       "intent": "↑",
       "mark": "▲",
       "rank_order": 3,
-      "win_prob": 0.101,
-      "place_prob": 0.3074,
+      "win_prob": 0.1024,
+      "place_prob": 0.3113,
       "leg_type": "先行",
       "pattern_fit": {
         "α": "○",
@@ -686,8 +686,8 @@
       "intent": "→",
       "mark": "△",
       "rank_order": 4,
-      "win_prob": 0.0726,
-      "place_prob": 0.2259,
+      "win_prob": 0.075,
+      "place_prob": 0.2326,
       "leg_type": "差し",
       "pattern_fit": {
         "β": "○",
@@ -721,8 +721,8 @@
       "intent": "→",
       "mark": "△",
       "rank_order": 5,
-      "win_prob": 0.1103,
-      "place_prob": 0.3259,
+      "win_prob": 0.1069,
+      "place_prob": 0.3177,
       "leg_type": "差し",
       "pattern_fit": {
         "β": "○",
@@ -756,8 +756,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 6,
-      "win_prob": 0.0701,
-      "place_prob": 0.2222,
+      "win_prob": 0.0617,
+      "place_prob": 0.1978,
       "leg_type": "逃げ",
       "pattern_fit": {
         "α": "○",
@@ -791,8 +791,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 7,
-      "win_prob": 0.0795,
-      "place_prob": 0.2498,
+      "win_prob": 0.0808,
+      "place_prob": 0.2532,
       "leg_type": "先行",
       "pattern_fit": {
         "α": "○",
@@ -826,8 +826,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 8,
-      "win_prob": 0.0398,
-      "place_prob": 0.1294,
+      "win_prob": 0.0417,
+      "place_prob": 0.1354,
       "leg_type": "差し",
       "pattern_fit": {
         "β": "○"
@@ -860,13 +860,13 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 9,
-      "win_prob": 0.0366,
-      "place_prob": 0.1194,
+      "win_prob": 0.0367,
+      "place_prob": 0.1198,
       "leg_type": "追込",
       "pattern_fit": {
         "β": "○"
       },
-      "pace_sensitivity": "βで中団差しが届く時だけ浮上。騎手未取得で評価を保留。",
+      "pace_sensitivity": "βで中団差しが届く時だけ浮上。田山旺佑継続で前走同舞台の運びは再現しやすい。",
       "pros": [
         {
           "tag": "A/B",
@@ -876,7 +876,7 @@
       "cons": [
         {
           "tag": "K",
-          "note": "騎手未取得で、追走位置を上げられるか保留。"
+          "note": "後方に置かれると短い直線では届かない。継続騎乗でも位置取りを上げられるかが鍵。"
         }
       ]
     },
@@ -890,8 +890,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 10,
-      "win_prob": 0.0306,
-      "place_prob": 0.1005,
+      "win_prob": 0.0307,
+      "place_prob": 0.1007,
       "leg_type": "追込",
       "pattern_fit": {},
       "pace_sensitivity": "βでも後方すぎると届かない。展開待ちの末脚型。",
@@ -918,8 +918,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 11,
-      "win_prob": 0.0644,
-      "place_prob": 0.2061,
+      "win_prob": 0.066,
+      "place_prob": 0.211,
       "leg_type": "先行",
       "pattern_fit": {
         "γ": "○"
@@ -948,8 +948,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 12,
-      "win_prob": 0.0219,
-      "place_prob": 0.0728,
+      "win_prob": 0.0221,
+      "place_prob": 0.0732,
       "leg_type": "追込",
       "pattern_fit": {},
       "pace_sensitivity": "後方からでα/γは苦しい。βでも近走下降を覆す材料が薄い。",
@@ -976,8 +976,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 13,
-      "win_prob": 0.0267,
-      "place_prob": 0.0883,
+      "win_prob": 0.026,
+      "place_prob": 0.0861,
       "leg_type": "差し",
       "pattern_fit": {},
       "pace_sensitivity": "差し脚より近走下降が先に立つ。βでも上げ切れない。",
@@ -1004,8 +1004,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 14,
-      "win_prob": 0.0168,
-      "place_prob": 0.056,
+      "win_prob": 0.0171,
+      "place_prob": 0.0571,
       "leg_type": "追込",
       "pattern_fit": {},
       "pace_sensitivity": "軽斤量はあるが外枠追込で位置差が大きい。",
@@ -1032,8 +1032,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 15,
-      "win_prob": 0.0202,
-      "place_prob": 0.0673,
+      "win_prob": 0.0206,
+      "place_prob": 0.0686,
       "leg_type": "差し",
       "pattern_fit": {},
       "pace_sensitivity": "距離短縮で忙しく、近走内容からも強調しにくい。",
@@ -1055,8 +1055,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 16,
-      "win_prob": 0.0186,
-      "place_prob": 0.0618,
+      "win_prob": 0.0189,
+      "place_prob": 0.0631,
       "leg_type": "追込",
       "pattern_fit": {},
       "pace_sensitivity": "休み明けで後方寄り。高速芝1200への戻りは厳しい。",
@@ -1072,13 +1072,13 @@
   "data_confidence": [
     "A/B/C/D/E/I/Kの7観点で作成。F調教・G馬体ローテ・H当日気配・L条件実績は未取得。",
     "JRA seed と risk_flags.py、weight_adjust.py による縮退構築。外部fan-outの追加web深掘りは未実施。",
-    "⑦⑩⑮の騎手は取得時点で未取得のため、K評価とintentは保留。",
-    "馬場状態・風・馬体重・パドックは当日更新対象。"
+    "⑦田山旺佑・⑩柴田裕一郎・⑮森田誠也をJRA確定出馬表で補完。",
+    "芝は良発表。風・馬体重・パドックは当日更新対象。"
   ],
   "reinforcement_requests": [
     "小倉10R芝1200の隊列と伸び位置でα/β/γのティアを更新する。",
     "⑥⑧①の馬体重とパドックを確認する。",
-    "⑦⑩⑮の騎手確定情報を補強できればK評価を更新する。",
+    "10R後に芝1200の内外バイアスを更新する。",
     "調教(F)が取れればintentと下位馬の一変余地を補強する。"
   ]
 }

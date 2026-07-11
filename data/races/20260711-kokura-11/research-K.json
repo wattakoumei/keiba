@@ -1,17 +1,21 @@
 {
   "point": "K",
   "overall_confidence": "中",
-  "field_note": "seedと決定論ツールに縮退",
+  "field_note": "専用エージェント起動不能のためJRA公式seedと決定論タグで縮退評価",
   "horses": [
     {
       "no": 1,
       "name": "スノーサイレンス",
-      "score": 0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -19,23 +23,29 @@
       "name": "クーデール",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 3,
       "name": "イマージョン",
-      "score": 0.5,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "西村淳也騎手への乗替で、好位を取りに行く意識は上がる"
+        "西村淳也への乗替で短距離先行の位置取り強化を見込む"
       ],
-      "cons": [],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -43,10 +53,14 @@
       "name": "メイショウキルギス",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -54,34 +68,44 @@
       "name": "ベルギューン",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 6,
       "name": "ペイシャヴァルツー",
-      "score": 0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
+      "cons": [
+        "同舞台中1週で騎手も替わり、ハナ主張の再現性が読みにくい"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 7,
       "name": "ヴェロクオーレ",
-      "score": 0.5,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "酒井騎手が継続で、前受けの再現性は保てる"
+        "継続騎乗で脚質と出方の共有がある"
       ],
-      "cons": [],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -90,37 +114,43 @@
       "score": 1,
       "confidence": "中",
       "pros": [
-        "過去に好走時の鞍上へ戻り、外から主張する形を作りやすい"
+        "2勝クラス勝ち時の団野大成へ戻り、戦法再現性がある"
       ],
-      "cons": [],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 9,
       "name": "ポッドソル",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
       "cons": [
-        "前走から鞍上替わりで、外の先行争いをどう収めるか不確実"
+        "当該コースでの詳細な騎手比較は未取得"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 10,
       "name": "ジャーヴィス",
-      "score": 0.5,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "藤懸騎手は継続で、差しに徹する判断がぶれにくい"
+        "継続騎乗で脚質と出方の共有がある"
       ],
-      "cons": [],
+      "cons": [
+        "当該コースでの詳細な騎手比較は未取得"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -128,12 +158,15 @@
       "name": "ハヤテノツバサ",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "乗替はあるが明確な強弱材料までは取れない"
+      ],
+      "cons": [
+        "連勝時から乗替で昇級初戦の出方は未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     }
-  ],
-  "note": "seedと決定論ツールに縮退"
+  ]
 }

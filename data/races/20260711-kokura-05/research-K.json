@@ -1,0 +1,13 @@
+{"point":"K","overall_confidence":"中","field_note":"全馬初出走のため継続騎乗比較は無し。起用の格と調教騎乗を重視。","horses":[
+{"no":1,"name":"フランソワーズ","pros":["松山弘平が1週前追い切りから騎乗し反応を把握"],"cons":[],"score":2,"confidence":"高","sources":["https://news.netkeiba.com/?no=336479&pid=news_view"]},
+{"no":2,"name":"ジーティーマローネ","pros":["小倉で積極的な運びを選びやすい松若風馬"],"cons":[],"score":0,"confidence":"中","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":3,"name":"ヴォルテックス","pros":["西村淳也起用で小回りの位置取りに期待"],"cons":[],"score":1,"confidence":"中","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":4,"name":"ティエルニート","pros":["酒井学で積極的な先行選択の余地"],"cons":[],"score":0,"confidence":"中","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":5,"name":"イテルム","pros":["J.コレット起用で期待を感じるが、小倉の実戦資料は薄い"],"cons":["初騎乗で初角までの位置取りが未知"],"score":1,"confidence":"低","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":6,"name":"ハルカカナタ","pros":["幸英明は小倉の立ち回り経験が豊富"],"cons":[],"score":0,"confidence":"中","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":7,"name":"ルクスグレイス","pros":["M.デムーロ起用で長く脚を使わせる選択肢"],"cons":["スタートが遅いと小回りで位置を落とす"],"score":1,"confidence":"中","sources":["https://umanity.jp/sp/racedata/db/horse_top.php?code=2024106324"]},
+{"no":8,"name":"ダヌラーサナ","pros":["田山旺佑の減量で53kg"],"cons":["若手騎手で新馬の出方対応に不確実性"],"score":0,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]},
+{"no":9,"name":"アイオリスパルス","pros":["吉村誠之助が当日小倉で複数騎乗し騎乗感覚を掴める"],"cons":[],"score":1,"confidence":"中","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":10,"name":"クラリスバローズ","pros":["団野大成起用で好位を取る選択肢"],"cons":[],"score":1,"confidence":"中","sources":["https://news.netkeiba.com/?no=336483&pid=news_view"]},
+{"no":11,"name":"ココフルール","pros":[],"cons":["起用背景の公開事実を十分に確認できず"],"score":0,"confidence":"低","sources":["https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0110202602050520260711%2FEA"]},
+{"no":12,"name":"フラッシングルビー","pros":["高杉吏麒は小倉の先行判断を期待できる"],"cons":["大外から前付けすると初角までのロス"],"score":0,"confidence":"中","sources":["https://www.jbis.or.jp/race/20260711/110/05/"]}],"note":"新馬のためコンビ実績は無し。"}

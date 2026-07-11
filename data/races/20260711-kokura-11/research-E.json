@@ -1,131 +1,151 @@
 {
-  "point": "E",
-  "overall_confidence": "中",
-  "field_note": "seed脚質と近走通過順に縮退。小倉ダ1000mで先行密度が高い。",
   "legs": [
     {
       "no": 1,
       "name": "スノーサイレンス",
-      "style": "先",
+      "style": "先行",
       "ten_speed": "中",
-      "expected_pos": "先団",
-      "recent_pos": "4;5;2"
+      "expected_pos": "好位"
     },
     {
       "no": 2,
       "name": "クーデール",
-      "style": "先",
+      "style": "先行",
       "ten_speed": "速",
-      "expected_pos": "先団",
-      "recent_pos": "2;2;2"
+      "expected_pos": "好位"
     },
     {
       "no": 3,
       "name": "イマージョン",
-      "style": "先",
+      "style": "先行",
       "ten_speed": "中",
-      "expected_pos": "先団",
-      "recent_pos": "5;2;1"
+      "expected_pos": "好位"
     },
     {
       "no": 4,
       "name": "メイショウキルギス",
-      "style": "逃",
+      "style": "逃げ",
       "ten_speed": "速",
-      "expected_pos": "ハナ候補〜番手",
-      "recent_pos": "3;1;1"
+      "expected_pos": "ハナ候補"
     },
     {
       "no": 5,
       "name": "ベルギューン",
-      "style": "先",
+      "style": "先行",
       "ten_speed": "速",
-      "expected_pos": "先団",
-      "recent_pos": "3;4"
+      "expected_pos": "好位"
     },
     {
       "no": 6,
       "name": "ペイシャヴァルツー",
-      "style": "逃",
+      "style": "逃げ",
       "ten_speed": "速",
-      "expected_pos": "ハナ候補〜番手",
-      "recent_pos": "1;2;1"
+      "expected_pos": "ハナ候補"
     },
     {
       "no": 7,
       "name": "ヴェロクオーレ",
-      "style": "先",
+      "style": "先行",
       "ten_speed": "速",
-      "expected_pos": "先団",
-      "recent_pos": "2;2;1"
+      "expected_pos": "好位"
     },
     {
       "no": 8,
       "name": "アメリカンビキニ",
-      "style": "逃",
+      "style": "逃げ",
       "ten_speed": "速",
-      "expected_pos": "ハナ候補〜番手",
-      "recent_pos": "1;1;2"
+      "expected_pos": "ハナ候補"
     },
     {
       "no": 9,
       "name": "ポッドソル",
-      "style": "逃",
+      "style": "逃げ",
       "ten_speed": "速",
-      "expected_pos": "ハナ候補〜番手",
-      "recent_pos": "1"
+      "expected_pos": "ハナ候補"
     },
     {
       "no": 10,
       "name": "ジャーヴィス",
-      "style": "追",
+      "style": "追込",
       "ten_speed": "遅",
-      "expected_pos": "後方待機",
-      "recent_pos": "10;12;14"
+      "expected_pos": "後方"
     },
     {
       "no": 11,
       "name": "ハヤテノツバサ",
-      "style": "逃",
+      "style": "逃げ",
       "ten_speed": "速",
-      "expected_pos": "ハナ候補〜番手",
-      "recent_pos": "1;1;5"
+      "expected_pos": "ハナ候補"
     }
   ],
   "lead_contenders": [
     {
+      "no": 4,
+      "stance": "ダ1000m逃げ切り歴があり内目から主張"
+    },
+    {
       "no": 6,
-      "stance": "主張候補"
+      "stance": "前週同舞台で1角先頭、連闘でもハナ候補"
     },
     {
       "no": 8,
-      "stance": "主張候補"
-    },
-    {
-      "no": 11,
-      "stance": "主張候補"
+      "stance": "近走で逃げを継続、外から主張しうる"
     },
     {
       "no": 9,
-      "stance": "主張候補"
+      "stance": "前走1400mで1角先頭、距離短縮で主張"
     },
     {
-      "no": 4,
-      "stance": "主張候補"
+      "no": 11,
+      "stance": "近2勝とも1角先頭、外枠から速い"
     }
   ],
   "draw": [
     {
       "no": 1,
-      "note": "内で控える形ならロスが少ない"
+      "note": "最内の先行馬で包まれリスク"
     },
     {
-      "no": 11,
-      "note": "外から被されず主張できる"
+      "no": 2,
+      "note": "枠の影響は先行争い次第"
+    },
+    {
+      "no": 3,
+      "note": "枠の影響は先行争い次第"
+    },
+    {
+      "no": 4,
+      "note": "枠の影響は先行争い次第"
+    },
+    {
+      "no": 5,
+      "note": "枠の影響は先行争い次第"
+    },
+    {
+      "no": 6,
+      "note": "枠の影響は先行争い次第"
+    },
+    {
+      "no": 7,
+      "note": "枠の影響は先行争い次第"
     },
     {
       "no": 8,
-      "note": "外から速力で被せる候補"
+      "note": "外枠の逃げ候補で内へ切り込む際に競りが起きやすい"
+    },
+    {
+      "no": 9,
+      "note": "外枠の逃げ候補で内へ切り込む際に競りが起きやすい"
+    },
+    {
+      "no": 10,
+      "note": "外枠の追込で砂を被りにくいが距離損"
+    },
+    {
+      "no": 11,
+      "note": "外枠の逃げ候補で内へ切り込む際に競りが起きやすい"
     }
-  ]
+  ],
+  "field_note": "逃げ5頭・先行5頭・追込1頭。小倉ダ1000mの前有利形状より、ハナ争いの激化が優先して展開を分ける",
+  "overall_confidence": "高"
 }

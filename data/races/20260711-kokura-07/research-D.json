@@ -1,0 +1,169 @@
+{
+  "point": "D: コース・距離適性",
+  "overall_confidence": "中",
+  "field_note": "JRA seed・決定論ツール中心の縮退評価。並列web深掘りはローカルCodexのバージョン不整合により未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ハレアカラフラ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小倉芝1800の好走歴があり舞台経験は明確"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トラストエムシー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "小倉芝1800への条件適性に不確定要素"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "トップオブザライン",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "小倉芝1800への条件適性に不確定要素"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "カラペルソナ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "芝1800への適性を近走内容・血統から見込む"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "エイシンビーコン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "芝1800への適性を近走内容・血統から見込む"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カレントゥルーシー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "小回り芝1800で先手を取れる脚質が噛み合う"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "トモジャプレジール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "小倉芝1800への条件適性に不確定要素"
+      ],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ルートサーティーン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "芝1800への適性を近走内容・血統から見込む"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "メイショウアボット",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ウインラウダ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "近走芝1800で2着、距離適性を確認"
+      ],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サントルドパリ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ゼットエイト",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "seed:JRA出馬表取得済みデータ",
+        "tool:weight_adjust.py/risk_flags.py"
+      ]
+    }
+  ]
+}

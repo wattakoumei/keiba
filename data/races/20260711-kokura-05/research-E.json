@@ -1,0 +1,16 @@
+{"point":"E","overall_confidence":"低","field_note":"全馬初出走で脚質は血統・調教・内枠からの推定。単騎逃げは認定しない。","legs":[
+{"no":1,"name":"フランソワーズ","style":"先行推定","ten_speed":"中〜速推定","expected_pos":"内の好位","note":"気性が素直で調教の反応も良い。最内から位置を取る想定。"},
+{"no":2,"name":"ジーティーマローネ","style":"先行推定","ten_speed":"中推定","expected_pos":"先団内","note":"内枠とダート型の先行力から前寄りを想定。"},
+{"no":3,"name":"ヴォルテックス","style":"好位差し推定","ten_speed":"中推定","expected_pos":"中団前","note":"レイデオロ×ディープで番手より折り合い重視と推定。"},
+{"no":4,"name":"ティエルニート","style":"先行推定","ten_speed":"速推定","expected_pos":"ハナ候補群","note":"追い切り良好と血統の加速力から先行候補。"},
+{"no":5,"name":"イテルム","style":"好位差し推定","ten_speed":"中推定","expected_pos":"中団前","note":"中距離の折り合い重視の位置想定。"},
+{"no":6,"name":"ハルカカナタ","style":"先行推定","ten_speed":"中推定","expected_pos":"先団","note":"ドレフォンのスピード持続を前付け予想に反映。"},
+{"no":7,"name":"ルクスグレイス","style":"差し推定","ten_speed":"中〜遅推定","expected_pos":"中団","note":"持続力配合で序盤より後半重視と推定。"},
+{"no":8,"name":"ダヌラーサナ","style":"先行推定","ten_speed":"中推定","expected_pos":"先団外","note":"母父の先行力と53kgを前付けに反映。"},
+{"no":9,"name":"アイオリスパルス","style":"先行推定","ten_speed":"速推定","expected_pos":"ハナ候補群","note":"アドマイヤマーズ産駒の早い完成度と先行力から。"},
+{"no":10,"name":"クラリスバローズ","style":"先行推定","ten_speed":"速推定","expected_pos":"ハナ候補群","note":"前向きな気性と坂路動作から先団予想。"},
+{"no":11,"name":"ココフルール","style":"好位差し推定","ten_speed":"中推定","expected_pos":"中団外","note":"初年度種牡馬産駒で出方は不確実。"},
+{"no":12,"name":"フラッシングルビー","style":"先行推定","ten_speed":"速推定","expected_pos":"先団外","note":"父の先行力はあるが、8枠から初角までのロスが分岐。"}],
+"lead_contenders":[{"no":4,"stance":"追い切り良好で先行候補"},{"no":9,"stance":"血統上のダッシュ候補"},{"no":10,"stance":"前向きな気性から先行候補"},{"no":1,"stance":"最内から好位を取る候補"}],
+"draw":[{"no":1,"note":"初角まで272mの最内でロスを抑えやすい"},{"no":2,"note":"内で好位を取れるが、出遅れると包まれる"},{"no":3,"note":"内寄りで立ち回りやすい"},{"no":4,"note":"先行候補に無理のない中内枠"},{"no":5,"note":"中枠で出たなりに運べる"},{"no":6,"note":"中枠で出たなりに運べる"},{"no":7,"note":"中外でスタート後の選択肢はある"},{"no":8,"note":"中外で先行時は若干外を回る"},{"no":9,"note":"外寄りから先行すると初角までに脚を使う"},{"no":10,"note":"外寄りの先行候補で初角までの位置取りが鍵"},{"no":11,"note":"8枠で好位を取ると外々のロス"},{"no":12,"note":"大外から前に行くと初角までの距離ロスが大きい"}],
+"note":"fan-out停止のため新馬の脚質はすべて推定。","sources":["https://news.netkeiba.com/?no=336479&pid=news_view","https://news.netkeiba.com/?no=336483&pid=news_view","https://news.netkeiba.com/?no=336471&pid=news_view"]}

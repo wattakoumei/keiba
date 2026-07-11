@@ -1,0 +1,882 @@
+{
+  "schema_version": "1.0",
+  "race_id": "20260711-kokura-05",
+  "race_name": "メイクデビュー小倉 2歳新馬",
+  "edition": "2回小倉5日",
+  "race_no": 5,
+  "grade": "新馬",
+  "date": "2026-07-11",
+  "course": {
+    "track": "小倉",
+    "surface": "芝",
+    "distance": 1800,
+    "direction": "右"
+  },
+  "conditions": "2歳牡馬馬齢、芝1800m",
+  "debut": true,
+  "field_size": 12,
+  "model_version": "5.0",
+  "used_observations": [
+    "C",
+    "E",
+    "F",
+    "I",
+    "K",
+    "M"
+  ],
+  "header_notes": [
+    "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+    "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
+    "fan-outがローカルCodexのモデル不整合で停止したため、JRA核データ・静的カタログ・限定的な追い切り事実で縮退構築。",
+    "観点欠落(H): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。",
+    "新馬プロファイル(v4.6): 率は C/M/F 組替の理論値で新馬コーパス較正ゼロ＝参考精度は通常より更に低い。",
+    "論理の並びとエンジン複勝率順は3頭で食い違い。α本線の位置取りを重視し、並びは論理側を維持。"
+  ],
+  "pivot": "新馬で脚質は全頭推定：①④⑨⑩のスタート直後の出脚で本線と対抗が入れ替わる。",
+  "day_board": {
+    "reference_races": [
+      {
+        "label": "小倉1R",
+        "when": "09:55",
+        "course": "芝1200m",
+        "match": "★",
+        "watch": "内外の伸び位置"
+      },
+      {
+        "label": "小倉3R",
+        "when": "11:00",
+        "course": "芝2000m",
+        "match": "★★",
+        "watch": "前後の有利不利と直線の伸び位置"
+      }
+    ],
+    "reference_note": "締切優先のため参考Rの実況観察は未反映。馬場とパドックで最終判断。",
+    "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+    "going": [
+      {
+        "item": "馬場状態",
+        "value": "未反映",
+        "read": "良想定。渋れば①④の加速力と⑦の持続力を再比較"
+      }
+    ],
+    "paddock_watch": [
+      {
+        "mark": "◎",
+        "gate_no": "1-1",
+        "horse": "フランソワーズ",
+        "weight_note": "落ち着きと歩様の柔らかさ"
+      },
+      {
+        "mark": "○",
+        "gate_no": "4-4",
+        "horse": "ティエルニート",
+        "weight_note": "太め感とテンション"
+      },
+      {
+        "mark": "▲",
+        "gate_no": "7-10",
+        "horse": "クラリスバローズ",
+        "weight_note": "前向きさが掛かりに出ないか"
+      }
+    ],
+    "other_unknowns": [
+      "全馬初出走のゲートと折り合い",
+      "当日馬体重と気配"
+    ]
+  },
+  "pace": {
+    "verification_contract": "先団の構成、最終コーナーの位置、好位と差しの有利不利を固定し、レース後に展開精度を独立採点する。",
+    "pace_factors": [
+      {
+        "factor": "先行勢の数と質",
+        "reads": "①④⑨⑩が候補だが実戦脚質は未確定。五分の出ならα、複数が掛かればγ寄り。",
+        "day_check": "スタート直後の出脚と折り合い"
+      },
+      {
+        "factor": "枠の効き",
+        "reads": "初角までが短く①④の内枠はロスを抑えやすい。⑨⑩⑫は前付け時の外ロスが分岐。",
+        "day_check": "①が包まれず位置を取れるか"
+      },
+      {
+        "factor": "コース形状",
+        "reads": "小倉芝1800mは初角まで272m、下り加速、直線293m。好位の持続力がαを後押し。",
+        "day_check": "—"
+      },
+      {
+        "factor": "過去開催の傾向",
+        "reads": "同条件の決定論履歴を今回は未取得。形状のみで前残りに固定しない。",
+        "day_check": "—"
+      },
+      {
+        "factor": "当日で動く点",
+        "reads": "前半芝の内外とパドックの折り合い。差しが連続するならγを上げる。",
+        "day_check": "小倉1R・3Rの伸び位置と上位馬の通過位置"
+      }
+    ],
+    "leg_table": [
+      {
+        "gate": "1",
+        "no": 1,
+        "horse": "フランソワーズ",
+        "jockey": "松山 弘平",
+        "trainer": "前川 恭子",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "2",
+        "no": 2,
+        "horse": "ジーティーマローネ",
+        "jockey": "松若 風馬",
+        "trainer": "井上 智史",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "3",
+        "no": 3,
+        "horse": "ヴォルテックス",
+        "jockey": "西村 淳也",
+        "trainer": "奥村 豊",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "4",
+        "no": 4,
+        "horse": "ティエルニート",
+        "jockey": "酒井 学",
+        "trainer": "高橋 康之",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "5",
+        "no": 5,
+        "horse": "イテルム",
+        "jockey": "J.コレット",
+        "trainer": "田中 克典",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "5",
+        "no": 6,
+        "horse": "ハルカカナタ",
+        "jockey": "幸 英明",
+        "trainer": "秋山 真一郎",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "6",
+        "no": 7,
+        "horse": "ルクスグレイス",
+        "jockey": "M.デムーロ",
+        "trainer": "平田 修",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "6",
+        "no": 8,
+        "horse": "ダヌラーサナ",
+        "jockey": "田山 旺佑",
+        "trainer": "新谷 功一",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "7",
+        "no": 9,
+        "horse": "アイオリスパルス",
+        "jockey": "吉村 誠之助",
+        "trainer": "長谷川 浩大",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "7",
+        "no": 10,
+        "horse": "クラリスバローズ",
+        "jockey": "団野 大成",
+        "trainer": "渡辺 薫彦",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "8",
+        "no": 11,
+        "horse": "ココフルール",
+        "jockey": "角田 大和",
+        "trainer": "東田 明士",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "8",
+        "no": 12,
+        "horse": "フラッシングルビー",
+        "jockey": "高杉 吏麒",
+        "trainer": "辻野 泰之",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      }
+    ],
+    "patterns": [
+      {
+        "id": "α",
+        "name": "好位群が下りで加速・持続力勝負",
+        "tier": "本線★★★",
+        "prob": 0.4,
+        "trigger": "①④⑨⑩のいずれかが五分に出て、1角までに無理なく隊列が決まる",
+        "pace_level": 0.5,
+        "contesters": [
+          1,
+          4,
+          9,
+          10
+        ],
+        "leg_advantage": {
+          "逃げ": 1,
+          "先行": 2,
+          "差し": 0,
+          "追込": -1
+        },
+        "formation_head": [
+          4,
+          10,
+          1,
+          9
+        ],
+        "formation_last_corner": [
+          4,
+          10,
+          1,
+          9,
+          3
+        ],
+        "bias": "好位・内寄りの持続力が生きる",
+        "phase_flow": {
+          "early": "初角まで272mのため①④⑩の内寄りがロスを抑えて好位、⑨は外から先団に収まる",
+          "mid": "2角以降の下りでペースが緩まず、好位勢の追走力と折り合いが勝負を分ける",
+          "late": "3、4角の下り加速から直線293mへ入り、位置と決め手を兼ねる①④⑩が先に抜け出す",
+          "result": "①④⑩が中心、中団から内を回れる③⑨が相手圏"
+        },
+        "risers": [
+          1,
+          3,
+          4,
+          9,
+          10
+        ],
+        "sinkers": [
+          11,
+          12
+        ]
+      },
+      {
+        "id": "β",
+        "name": "スタート不揃い・スロー瞬発戦",
+        "tier": "対抗★★",
+        "prob": 0.35,
+        "trigger": "先行推定群が揃って慎重に入り、向正面まで動きがない",
+        "pace_level": 0.3,
+        "contesters": [
+          1,
+          4,
+          9,
+          10
+        ],
+        "leg_advantage": {
+          "逃げ": 1,
+          "先行": 1,
+          "差し": 1,
+          "追込": -1
+        },
+        "formation_head": [
+          1,
+          4,
+          10
+        ],
+        "formation_last_corner": [
+          1,
+          4,
+          10,
+          3,
+          5
+        ],
+        "bias": "ロスの少ない好位と短い助走で加速できる馬",
+        "phase_flow": {
+          "early": "全馬が初出走で互いに様子を見、①④⑩が内寄りの位置を無理なく取る",
+          "mid": "向正面で流れが落ち着き、③⑤⑦は中団で脚を溜めて下りの動き出しを待つ",
+          "late": "下りを使った加速勝負で、調教反応の良い①④と母父ディープの③が切れを発揮",
+          "result": "④①③が中心、⑤⑦はスムーズな加速なら圏内"
+        },
+        "risers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          10
+        ],
+        "sinkers": [
+          2
+        ]
+      },
+      {
+        "id": "γ",
+        "name": "ダッシュ候補が競り・差し台頭",
+        "tier": "伏線★",
+        "prob": 0.25,
+        "trigger": "④⑨⑩が引かず、大外⑫も位置を取りに行く",
+        "pace_level": 0.68,
+        "contesters": [
+          4,
+          9,
+          10,
+          12
+        ],
+        "leg_advantage": {
+          "逃げ": -1,
+          "先行": 0,
+          "差し": 2,
+          "追込": 1
+        },
+        "formation_head": [
+          4,
+          9,
+          10,
+          12
+        ],
+        "formation_last_corner": [
+          4,
+          10,
+          1,
+          3,
+          7
+        ],
+        "bias": "好位の後ろで余力を残す差し型",
+        "phase_flow": {
+          "early": "外の⑨⑩⑫と内の④が位置を取り合い、初角までに先団が脚を使う",
+          "mid": "下り区間でも流れが緩まず、③⑤⑦は中団で追走ロスを抑える",
+          "late": "直線は短いが先団の余力が削れ、③⑦の持続力と①の内立ち回りが生きる",
+          "result": "③⑦が浮上、競りに加わらない①④⑤が残り目"
+        },
+        "risers": [
+          1,
+          3,
+          5,
+          7,
+          11
+        ],
+        "sinkers": [
+          2,
+          9,
+          10,
+          12
+        ]
+      }
+    ],
+    "shape_note": "新馬で隊列の確信度は低く、本線と対抗の差は小さい。",
+    "formation_note": "本線は④⑩①⑨の先団候補、最終コーナーで③が射程に入る形。",
+    "bias_note": "良想定で内・好位寄り。当日の伸び位置は未反映。",
+    "counter_conditions": "新馬のためスタート直後の出脚が最大の反証条件。①が出遅れればαを下げ、④⑩がスムーズならα寄り、複数が掛かればγ寄り。",
+    "transmission": "αなら①は最内好位と調教反応を同時に生かせる。出遅れてγに寄ると③⑦が相対浮上。",
+    "box_reverse": [
+      {
+        "pattern": "α",
+        "tier": "本線★★★",
+        "center": [
+          1,
+          4,
+          10
+        ],
+        "inside": [
+          3,
+          9
+        ],
+        "spot": [
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        "drop": [
+          11,
+          12
+        ]
+      },
+      {
+        "pattern": "β",
+        "tier": "対抗★★",
+        "center": [
+          1,
+          3,
+          4
+        ],
+        "inside": [
+          5,
+          7,
+          10
+        ],
+        "spot": [
+          6,
+          8,
+          9,
+          11,
+          12
+        ],
+        "drop": [
+          2
+        ]
+      },
+      {
+        "pattern": "γ",
+        "tier": "伏線★",
+        "center": [
+          3,
+          7
+        ],
+        "inside": [
+          1,
+          5,
+          11
+        ],
+        "spot": [
+          4,
+          6,
+          8
+        ],
+        "drop": [
+          2,
+          9,
+          10,
+          12
+        ]
+      }
+    ]
+  },
+  "rank_verification_contract": "印と行順、展開列、展開感度、好材料・懸念点を固定し、レース後に並びと実現パターンを独立採点する。",
+  "rank": [
+    {
+      "no": 1,
+      "gate": "1",
+      "horse": "フランソワーズ",
+      "jockey": "松山 弘平",
+      "trainer": "前川 恭子",
+      "jockey_change": "乗替",
+      "intent": "↑↑",
+      "mark": "◎",
+      "rank_order": 1,
+      "win_prob": 0.1434,
+      "place_prob": 0.4031,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "◎",
+        "β": "◎",
+        "γ": "○"
+      },
+      "pace_sensitivity": "α・βの両方で中心。最内から五分に出れば好位で調教の反応を生かせる。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "半兄セルバーグは芝マイル重賞勝ちで母系の速力は明確"
+        },
+        {
+          "tag": "C",
+          "note": "父エフフォーリアは芝中距離寄りの初年度種牡馬"
+        },
+        {
+          "tag": "F",
+          "note": "CW6F84.6、終い11.3で併せ馬に先着"
+        },
+        {
+          "tag": "F",
+          "note": "最終も馬なりで終い11.5、順調に負荷を積んだ"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 4,
+      "gate": "4",
+      "horse": "ティエルニート",
+      "jockey": "酒井 学",
+      "trainer": "高橋 康之",
+      "jockey_change": "乗替",
+      "intent": "↑",
+      "mark": "◯",
+      "rank_order": 2,
+      "win_prob": 0.1364,
+      "place_prob": 0.3873,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "◎",
+        "β": "◎"
+      },
+      "pace_sensitivity": "αでは好位の持続力、βでは加速力が生きる。ゲートだけが大きな未知。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "サートゥルナーリア×母父ディープは良芝の加速力に合う"
+        },
+        {
+          "tag": "C",
+          "note": "全兄ジャスティンビスタは2歳芝中距離重賞勝ち"
+        },
+        {
+          "tag": "F",
+          "note": "順調に乗り込まれ追い切りで良い動きと報じられた"
+        },
+        {
+          "tag": "M",
+          "note": "全兄は2歳芝中距離重賞勝ち"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 10,
+      "gate": "7",
+      "horse": "クラリスバローズ",
+      "jockey": "団野 大成",
+      "trainer": "渡辺 薫彦",
+      "jockey_change": "乗替",
+      "intent": "↑↑",
+      "mark": "▲",
+      "rank_order": 3,
+      "win_prob": 0.1118,
+      "place_prob": 0.3284,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○"
+      },
+      "pace_sensitivity": "αの好位抜け出しが最適。④⑨と競り合うγでは終いの余力が減る。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "母父ブライアンズタイムがタフさと持続力を供給"
+        },
+        {
+          "tag": "C",
+          "note": "近親に重賞勝ち馬がいる母系"
+        },
+        {
+          "tag": "F",
+          "note": "栗東坂路52.4、終い12.5で仕上がり良好"
+        },
+        {
+          "tag": "F",
+          "note": "調教師が前向きさと十分な調教量を言及"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 7,
+      "gate": "6",
+      "horse": "ルクスグレイス",
+      "jockey": "M.デムーロ",
+      "trainer": "平田 修",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 6,
+      "win_prob": 0.0887,
+      "place_prob": 0.2684,
+      "leg_type": null,
+      "pattern_fit": {
+        "β": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "γで先団が消耗すると持続力で浮上。αで後ろのままだと直線の短さが壁。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "サトノダイヤモンド×ハービンジャーは小回り芝中距離の持続力向き"
+        },
+        {
+          "tag": "K",
+          "note": "M.デムーロ起用で長く脚を使わせる選択肢"
+        },
+        {
+          "tag": "M",
+          "note": "6月上旬までにゲート合格し準備期間を確保"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 9,
+      "gate": "7",
+      "horse": "アイオリスパルス",
+      "jockey": "吉村 誠之助",
+      "trainer": "長谷川 浩大",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 5,
+      "win_prob": 0.0862,
+      "place_prob": 0.2616,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "○"
+      },
+      "pace_sensitivity": "αで無理なく先団に入れば圏内。外から競るγでは1800mの終いが課題。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "父アドマイヤマーズの2歳戦向きの先行力"
+        },
+        {
+          "tag": "C",
+          "note": "母父スクリーンヒーローが1800mの持続力を補う"
+        },
+        {
+          "tag": "K",
+          "note": "吉村誠之助が当日小倉で複数騎乗し騎乗感覚を掴める"
+        },
+        {
+          "tag": "M",
+          "note": "シルク所有と白老ファーム生産の育成背景"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "父の適距離より長めで、掛かると終いが甘くなる余地"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "gate": "5",
+      "horse": "イテルム",
+      "jockey": "J.コレット",
+      "trainer": "田中 克典",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 7,
+      "win_prob": 0.0742,
+      "place_prob": 0.2284,
+      "leg_type": null,
+      "pattern_fit": {
+        "β": "○",
+        "γ": "○"
+      },
+      "pace_sensitivity": "βの加速戦かγの差し台頭で圏内候補。追い切り詳細の欠損で強くは押しにくい。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "父サリオスと母父Siyouniの芝マイルから中距離の速力配合"
+        },
+        {
+          "tag": "K",
+          "note": "J.コレット起用で期待を感じるが、小倉の実戦資料は薄い"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "初年度種牡馬産駒で実戦の気性が未知"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "gate": "3",
+      "horse": "ヴォルテックス",
+      "jockey": "西村 淳也",
+      "trainer": "奥村 豊",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.0641,
+      "place_prob": 0.1998,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "○",
+        "β": "◎",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "β・γで中団から加速できれば中心候補。αで位置を下げると取りこぼす。",
+      "pros": [
+        {
+          "tag": "K",
+          "note": "西村淳也起用で小回りの位置取りに期待"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 12,
+      "gate": "8",
+      "horse": "フラッシングルビー",
+      "jockey": "高杉 吏麒",
+      "trainer": "辻野 泰之",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 8,
+      "win_prob": 0.0786,
+      "place_prob": 0.2406,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "αで外から好位を取れば一発だが、初角までの距離ロスで割引。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "アドマイヤマーズの早い完成度と先行力"
+        },
+        {
+          "tag": "C",
+          "note": "母父エイシンフラッシュが1800m適性を補う"
+        },
+        {
+          "tag": "M",
+          "note": "セレクトセール当歳2310万円の取引事実"
+        },
+        {
+          "tag": "M",
+          "note": "白老ファーム生産"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "8枠から初角までに位置を取ると外々の距離ロス"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "gate": "8",
+      "horse": "ココフルール",
+      "jockey": "角田 大和",
+      "trainer": "東田 明士",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 9,
+      "win_prob": 0.0617,
+      "place_prob": 0.1928,
+      "leg_type": null,
+      "pattern_fit": {
+        "γ": "○"
+      },
+      "pace_sensitivity": "γの差し台頭でのみ圏内余地。仕上がり情報が薄く強調できない。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "初年度種牡馬産駒で実戦の気性が未知"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "gate": "5",
+      "horse": "ハルカカナタ",
+      "jockey": "幸 英明",
+      "trainer": "秋山 真一郎",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 10,
+      "win_prob": 0.0588,
+      "place_prob": 0.1843,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "αで先団を取れるなら残り目。良芝の瞬発戦に寄るβでは切れ比べが課題。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "良芝での切れは父系の得意条件から外れる可能性"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "gate": "2",
+      "horse": "ジーティーマローネ",
+      "jockey": "松若 風馬",
+      "trainer": "井上 智史",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 11,
+      "win_prob": 0.0481,
+      "place_prob": 0.1527,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "αで内の先団を取れればロスは少ない。β・γで芝の切れが要ると割引。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "C",
+          "note": "父ルヴァンスレーヴはダート実績型で良芝1800mの切れは未知"
+        },
+        {
+          "tag": "I",
+          "note": "芝1800mでは父のダート色が切れ負けにつながる余地"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "gate": "6",
+      "horse": "ダヌラーサナ",
+      "jockey": "田山 旺佑",
+      "trainer": "新谷 功一",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 12,
+      "win_prob": 0.0481,
+      "place_prob": 0.1527,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "53kgを生かして先団に入ればαで残り目。差しに回ると良芝の切れが未知。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "C",
+          "note": "レイデオロ産駒の牡馬傾向と母父ダート色から良芝の切れは懸念"
+        },
+        {
+          "tag": "I",
+          "note": "レイデオロ産駒の牡馬で良芝の終いの切れに不確実性"
+        }
+      ]
+    }
+  ],
+  "data_confidence": [
+    "C・F・Mの確認事実は①④⑩が相対的に厚い。",
+    "Eは全馬初出走のため脚質・テン速がすべて推定。",
+    "fan-out停止による縮退構築で、①④⑩以外の追い切り詳細は低確度。"
+  ],
+  "reinforcement_requests": [
+    "発走前のパドックで①④⑩の折り合いと歩様を確認。",
+    "小倉1R・3Rの伸び位置が内外どちらかを最終反映。",
+    "③⑦がパドックで活気十分ならγを一段上げる。"
+  ]
+}

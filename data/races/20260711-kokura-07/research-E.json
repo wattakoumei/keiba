@@ -1,0 +1,155 @@
+{
+  "point": "E: 展開証拠",
+  "overall_confidence": "中",
+  "field_note": "⑥が主導し⑧が好位。①も過去に先手歴があり、⑥の単騎度が分岐。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "ハレアカラフラ",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "内から好位も可能"
+    },
+    {
+      "no": 2,
+      "name": "トラストエムシー",
+      "style": "追",
+      "ten_speed": "中",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 3,
+      "name": "トップオブザライン",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 4,
+      "name": "カラペルソナ",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団"
+    },
+    {
+      "no": 5,
+      "name": "エイシンビーコン",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 6,
+      "name": "カレントゥルーシー",
+      "style": "逃",
+      "ten_speed": "中",
+      "expected_pos": "ハナ候補"
+    },
+    {
+      "no": 7,
+      "name": "トモジャプレジール",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 8,
+      "name": "ルートサーティーン",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "好位"
+    },
+    {
+      "no": 9,
+      "name": "メイショウアボット",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団"
+    },
+    {
+      "no": 10,
+      "name": "ウインラウダ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 11,
+      "name": "サントルドパリ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 12,
+      "name": "ゼットエイト",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 6,
+      "stance": "主導権候補"
+    },
+    {
+      "no": 8,
+      "stance": "好位追走"
+    },
+    {
+      "no": 1,
+      "stance": "内から前へ出る余地"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "内でロスを抑えやすい"
+    },
+    {
+      "no": 2,
+      "note": "内でロスを抑えやすい"
+    },
+    {
+      "no": 3,
+      "note": "中枠で隊列に合わせやすい"
+    },
+    {
+      "no": 4,
+      "note": "中枠で隊列に合わせやすい"
+    },
+    {
+      "no": 5,
+      "note": "中枠で隊列に合わせやすい"
+    },
+    {
+      "no": 6,
+      "note": "中枠で隊列に合わせやすい"
+    },
+    {
+      "no": 7,
+      "note": "中枠で隊列に合わせやすい"
+    },
+    {
+      "no": 8,
+      "note": "中枠で隊列に合わせやすい"
+    },
+    {
+      "no": 9,
+      "note": "外を回す距離損に注意"
+    },
+    {
+      "no": 10,
+      "note": "外を回す距離損に注意"
+    },
+    {
+      "no": 11,
+      "note": "外を回す距離損に注意"
+    },
+    {
+      "no": 12,
+      "note": "外を回す距離損に注意"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "race_id": "20260711-fukushima-10",
+  "observation": "E_pace_evidence",
+  "field_size": 9,
+  "legs": [
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "好位2〜5番手",
+      "confidence": "中"
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "好位2〜5番手",
+      "confidence": "中"
+    },
+    {
+      "no": 3,
+      "name": "ショウナンラスボス",
+      "style": "差し",
+      "ten_speed": "中",
+      "expected_pos": "中団5〜8番手",
+      "confidence": "中"
+    },
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "style": "逃げ",
+      "ten_speed": "中",
+      "expected_pos": "ハナ候補",
+      "confidence": "中"
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "好位2〜5番手",
+      "confidence": "中"
+    },
+    {
+      "no": 6,
+      "name": "ロードマイライフ",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "confidence": "中"
+    },
+    {
+      "no": 7,
+      "name": "ウナギノボリ",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団5〜8番手",
+      "confidence": "中"
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "好位2〜5番手",
+      "confidence": "中"
+    },
+    {
+      "no": 9,
+      "name": "モーデン",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団5〜8番手",
+      "confidence": "中"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "stance": "唯一の逃げラベルで52kg。直近はダート1700mで1角先頭、まずハナ候補"
+    },
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "stance": "最内の先行馬。距離短縮で前が空けば内から位置を取る"
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "stance": "直近芝1200mを2番手から勝利。④へ圧を掛ける番手候補"
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "stance": "前走1400mを4番手から現級3着。短縮でも好位参加"
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "stance": "前走芝1200mを3番手から勝利。外から先行参加"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "内枠で位置を取りやすい"
+    },
+    {
+      "no": 2,
+      "note": "内枠で位置を取りやすい"
+    },
+    {
+      "no": 3,
+      "note": "内枠で位置を取りやすい"
+    },
+    {
+      "no": 4,
+      "note": "中枠"
+    },
+    {
+      "no": 5,
+      "note": "中枠"
+    },
+    {
+      "no": 6,
+      "note": "中枠"
+    },
+    {
+      "no": 7,
+      "note": "中枠"
+    },
+    {
+      "no": 8,
+      "note": "外枠で先行には初動負荷、差しは外を回す距離損"
+    },
+    {
+      "no": 9,
+      "note": "外枠で先行には初動負荷、差しは外を回す距離損"
+    }
+  ],
+  "note": "④が主導。②⑧が強く出るか、①⑤が番手で収まるかが分岐。福島芝1200mは初角まで412mだが向正面上りでテンが速くなりやすく、短直線292mは前の位置利を支える。縮退再構成。"
+}
+

@@ -1,219 +1,187 @@
 {
- "point": "D",
- "overall_confidence": "中(コース恒常・当該コース実績はseed起点で確度高いが、当日馬場は雨予報で未確定＝発走直前発表待ち。個別馬の道悪実績はweb検索でも一覧DBのみで抽出できず「不明」)",
- "note": "馬格(体重)は「body_weight_status: 未取得＝当日更新」のため馬格×馬場のパワータグは保留(D/Gチャンネル未確定)。参考までrecentのbody_weightからは大型=ダンツファイター(556-566kg)・ソリダリティ(514-516kg)・インパクトシー(528-538kg)。雨で稍重化した場合これらパワー型に追い風の可能性あるが未確定材料として展開合成側で扱うべき。血統由来の道悪適性は観点Cの担当で重複回避。",
- "field_note": "web予算: WebSearch4バッチ+WebFetch2回(うち1回証明書エラーで失敗)使用。個別馬の重馬場実績詳細(netkeiba/keibalab)はDB一覧ページのみでレース別馬場状態の本文抽出に至らず「不明・確信度低」で保留(捏造回避)。",
- "horses": [
-  {
-   "no": 1,
-   "name": "カテリーナ",
-   "score": 2,
-   "confidence": "高",
-   "pros": [
-    "[D]前走が函館芝1800m(松前特別)で1着=今回と完全同条件・直近1ヶ月以内で鮮度高",
-    "[D]北海道ローカル実績が豊富(札幌1800m7着・札幌2000m2着)=洋芝への適応実証済み"
-   ],
-   "cons": [
-    "[D]函館前走は前有利馬場での前残りだった可能性=次走も同傾向継続が前提(当日馬場が悪化方向なら未知数)"
-   ],
-   "sources": [
-    "https://umanity.jp/racedata/race_newsdet.php?nid=11849574",
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 2,
-   "name": "アイスグリーン",
-   "score": 0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]2025-08札幌2000m4着(WASJ2)=北海道洋芝実績あり"
-   ],
-   "cons": [
-    "[D]函館直接経験なし・札幌実績も11ヶ月前で鮮度低め(割引対象)",
-    "[D]距離2000→1800は直近4走に1800m実績なく未知数"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 3,
-   "name": "ダンツファイター",
-   "score": 0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]1800m自体は巧者(前走むらさき賞3着・霞ヶ浦特別2着)=距離適性は明確"
-   ],
-   "cons": [
-    "[D]函館・北海道洋芝は初経験=時計のかかる洋芝への適応は未知数",
-    "[D]初角まで約275mの短さは逃げ馬にとりハナ争いが忙しくなりうる構造(展開合成側でも要検討)"
-   ],
-   "sources": [
-    "skills/analyze-race course-geometry(spawn注入)"
-   ]
-  },
-  {
-   "no": 4,
-   "name": "ノーブルスカイ",
-   "score": 0,
-   "confidence": "中",
-   "pros": [
-    "[D]過去1800m実績あり(2025-12元町S5着)=距離自体は経験済み"
-   ],
-   "cons": [
-    "[D]函館・北海道は初経験",
-    "[D]直近2走で1600m→大敗(15着)からの距離戻し=近走の1800m実績自体が2025年12月までさかのぼり鮮度やや低下"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 5,
-   "name": "ミッキージュエリー",
-   "score": -0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]マイル(1600m)では善戦実績複数(2着×2)=地力自体は示せている"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]直近4走すべて1600mで1800m実績が直近になく距離延長は未知数"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 6,
-   "name": "ショウナンサムデイ",
-   "score": -0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]1800m実績あり(2025-11ユートピアS9着)=距離未経験ではない"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]同1800m実績が9着とやや平凡＋直近は2200m路線が中心で今回は距離短縮"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 7,
-   "name": "インパクトシー",
-   "score": 0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]1800m実績良好(2026-02高千穂特別1着・1勝クラス3着)=距離適性は明確にプラス"
-   ],
-   "cons": [
-    "[D]函館・北海道洋芝は初経験=時計がかかる馬場への対応は未知数"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 8,
-   "name": "インヴォーグ",
-   "score": 0,
-   "confidence": "中",
-   "pros": [
-    "[D]1800m実績まずまず(2025-11ユートピアS4着)"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]直近4走は1600m中心で距離延長"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 9,
-   "name": "ドゥカート",
-   "score": 1,
-   "confidence": "中",
-   "pros": [
-    "[D]1800m巧者(2026-01東雲賞1着)=距離適性明確にプラス",
-    "[D]距離2000→1800は近走消耗した2000m路線からの短縮=負荷軽減方向"
-   ],
-   "cons": [
-    "[D]函館・北海道洋芝は初経験"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 10,
-   "name": "ウイントレメンデス",
-   "score": -0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]距離短縮(2000→1800)自体は消耗軽減方向"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]直近4走すべて2000m以上で1800m実績が直近になし",
-    "[D]追込・テン遅で直線262.1m(JRA最短)+初角まで約275mの構造は届きにくい可能性(展開合成側でも要検討)"
-   ],
-   "sources": [
-    "skills/analyze-race course-geometry(spawn注入)"
-   ]
-  },
-  {
-   "no": 11,
-   "name": "ソリダリティ",
-   "score": -0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]大型馬体(514-516kg)で稍重化した場合はパワー面で下支えの可能性(未確定)"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]直近4走すべて2000mで1800m実績が直近になく距離短縮は未知数",
-    "[D]7歳と高齢=函館以前の1800m実績も鮮度が古い可能性(要割引)"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 12,
-   "name": "ウィープディライト",
-   "score": 0,
-   "confidence": "中",
-   "pros": [
-    "[D]1800m実績あり(2025-11ドンカスター4着)"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]距離2200→1800の短縮自体は妥当だが休み明け(5ヶ月)は観点I側の論点"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  },
-  {
-   "no": 13,
-   "name": "ピンクジン",
-   "score": -0.5,
-   "confidence": "中",
-   "pros": [
-    "[D]距離短縮(2200→1800)は消耗軽減方向"
-   ],
-   "cons": [
-    "[D]函館・北海道初経験",
-    "[D]直近4走すべて2000-2200mで1800m実績が直近になし",
-    "[D]6歳でここ数走大敗続き=1800m適性データ自体が乏しい"
-   ],
-   "sources": [
-    "https://www.jra.go.jp/keiba/calendar/jul.html"
-   ]
-  }
- ]
+  "point": "D",
+  "lens": "函館芝1800適性",
+  "race": "20260711-hakodate-11 五稜郭ステークス",
+  "overall_confidence": "低",
+  "field_note": "Codex利用上限のため外部調査を行わず、JRA公式seedと決定論データだけで縮退評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "カテリーナ",
+      "pros": [
+        "[D]函館芝1800の直近勝ちで適性確認済みため加点"
+      ],
+      "cons": [
+        "[D]最内で詰まる余地"
+      ],
+      "score": 2,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アイスグリーン",
+      "pros": [],
+      "cons": [
+        "[D]2000中心から1800へ"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ダンツファイター",
+      "pros": [
+        "[D]内枠先行と小回りが噛み合うため加点"
+      ],
+      "cons": [
+        "[D]大型馬でコーナー加速が鍵"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ノーブルスカイ",
+      "pros": [],
+      "cons": [
+        "[D]追込で短い直線が課題"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ミッキージュエリー",
+      "pros": [],
+      "cons": [
+        "[D]1800の近走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ショウナンサムデイ",
+      "pros": [],
+      "cons": [
+        "[D]小柄で消耗戦は割引ため割引"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "インパクトシー",
+      "pros": [
+        "[D]小倉1800で連続好走ため加点"
+      ],
+      "cons": [
+        "[D]後方型で函館の短直線が課題"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "インヴォーグ",
+      "pros": [
+        "[D]先行歴もあり位置を取れるため加点"
+      ],
+      "cons": [
+        "[D]マイル中心からの延長"
+      ],
+      "score": 1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ドゥカート",
+      "pros": [],
+      "cons": [
+        "[D]外寄りで好位確保に脚を使う"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ウイントレメンデス",
+      "pros": [],
+      "cons": [
+        "[D]距離短縮と後方脚質が噛み合いにくいため割引"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ソリダリティ",
+      "pros": [],
+      "cons": [
+        "[D]7歳で上積み限定"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ウィープディライト",
+      "pros": [],
+      "cons": [
+        "[D]外枠後方で距離損ため割引"
+      ],
+      "score": -1,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "ピンクジン",
+      "pros": [],
+      "cons": [
+        "[D]大外から前へ行く負担"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260711-hakodate-11/seed.json"
+      ]
+    }
+  ]
 }
+

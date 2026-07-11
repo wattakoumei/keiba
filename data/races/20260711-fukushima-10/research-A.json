@@ -1,0 +1,153 @@
+{
+  "race_id": "20260711-fukushima-10",
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "Codex観点fan-outが利用上限で停止したため、JRA由来seed・静的コースカタログ・決定論ツールから縮退再構成。全頭カバーを維持。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A]東京芝1400mで1分20秒6・上がり33秒4。短縮対応が鍵だが基礎速度は上位圏"
+      ],
+      "cons": [
+        "[A]小倉芝1200mでは後方13着で、短距離の位置取りに再現性を欠く"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[A]京都芝1200mを1分07秒8、先行して上がり33秒7で勝利"
+      ],
+      "cons": [
+        "[A]昇級初戦で同じ位置と末脚を保てるかは未証明"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ショウナンラスボス",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [
+        "[A]芝1200mの近走は1分09秒0まで"
+      ],
+      "cons": [
+        "[A]近3走すべて二桁着順で末脚も見劣る"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[A]52kgと逃げの形は時計短縮の余地"
+      ],
+      "cons": [
+        "[A]近走はダート中心で大敗が続き、芝1200mの時計裏付けがない"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A]現級の東京芝1400mで3着、先行して上がり34秒0"
+      ],
+      "cons": [
+        "[A]芝1200mの直近時計が核データになく短縮時の絶対速度は未確認"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ロードマイライフ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A]前走函館芝1200mは1分08秒3・上がり33秒5"
+      ],
+      "cons": [
+        "[A]後方13着で、時計を着順へ結びつける行き脚が不足"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ウナギノボリ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[A]阪神芝1200mの現級戦で1分08秒1・2着、上がり33秒3"
+      ],
+      "cons": [
+        "[A]直近2走の芝1400mは後方のまま二桁着順"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A]中山芝1200mを1分07秒1、先行して上がり33秒4で勝利"
+      ],
+      "cons": [
+        "[A]昇級初戦で現級の流れは未経験"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モーデン",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A]芝1200mを1分08秒4で勝ち、現級でも1分08秒5・6着"
+      ],
+      "cons": [
+        "[A]8歳で前走13着、直近の上向きは弱い"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ]
+}
+

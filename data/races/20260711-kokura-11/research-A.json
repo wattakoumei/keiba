@@ -1,17 +1,21 @@
 {
   "point": "A",
   "overall_confidence": "中",
-  "field_note": "seedと決定論ツールに縮退",
+  "field_note": "専用エージェント起動不能のためJRA公式seedと決定論タグで縮退評価",
   "horses": [
     {
       "no": 1,
       "name": "スノーサイレンス",
-      "score": 0.5,
+      "score": 1,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "小倉ダ1000m59秒2勝ちの実績"
+      ],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -19,12 +23,14 @@
       "name": "クーデール",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "近走時計は今回の比較材料として中位"
+      ],
       "cons": [
-        "直近2走の走破内容が重く、同型先行が多い今回は粘り込みの裏付けが薄い"
+        "近走の走破内容が崩れており時計面の裏付けが弱い"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -32,69 +38,89 @@
       "name": "イマージョン",
       "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "近走時計は今回の比較材料として中位"
+      ],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 4,
       "name": "メイショウキルギス",
-      "score": 0,
+      "score": 1,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "札幌ダ1000m58秒6勝ちで短距離速度が明確"
+      ],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 5,
       "name": "ベルギューン",
-      "score": 1,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "阪神ダ1200mで前受けから大きく崩れず、短縮で速力を使える"
+        "近走時計は今回の比較材料として中位"
       ],
-      "cons": [],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 6,
       "name": "ペイシャヴァルツー",
-      "score": 1,
+      "score": 2,
       "confidence": "中",
       "pros": [
-        "直近の小倉ダ1000mで57秒台、同舞台の速力は上位"
+        "1週前の同舞台で57秒1、序盤速度は最上位級"
       ],
-      "cons": [],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 7,
       "name": "ヴェロクオーレ",
-      "score": 0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "近走時計は今回の比較材料として中位"
+      ],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 8,
       "name": "アメリカンビキニ",
-      "score": 1,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "近走時計は今回の比較材料として中位"
+      ],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -102,12 +128,14 @@
       "name": "ポッドソル",
       "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "近走時計は今回の比較材料として中位"
+      ],
       "cons": [
-        "前走は先手後退で、今回も外の速い馬に絡まれる形が懸念"
+        "近走の走破内容が崩れており時計面の裏付けが弱い"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -116,11 +144,13 @@
       "score": 1,
       "confidence": "中",
       "pros": [
-        "差し脚の時計は安定し、流れが厳しくなれば終いを使える"
+        "1200mで終い34秒台を持ち、前崩れ時の末脚は最上位"
       ],
-      "cons": [],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -129,13 +159,14 @@
       "score": 2,
       "confidence": "中",
       "pros": [
-        "小倉ダ1000mで57秒台の実績があり、短距離の時計面を評価"
+        "小倉ダ1000mを57秒1で勝ち切り、同距離の速度水準が最上位"
       ],
-      "cons": [],
+      "cons": [
+        "条件・流れの違いが大きく単純時計比較には限界"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     }
-  ],
-  "note": "seedと決定論ツールに縮退"
+  ]
 }

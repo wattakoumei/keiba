@@ -1,0 +1,27 @@
+{
+  "race_id": "202607111005",
+  "source": "jra",
+  "n": 12,
+  "surface": "芝",
+  "distance": 1800,
+  "headcount": 12,
+  "draw_fixed": true,
+  "race_class": "2歳新馬",
+  "race_class_rank": 1,
+  "race_class_label": "新馬",
+  "horses": [
+    {"no":1,"waku":1,"name":"フランソワーズ","sex_age":"牝2/鹿","weight":"55.0","jockey":"松山 弘平","trainer":"前川 恭子","sire":"エフフォーリア","damsire":"キンシャサノキセキ","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":2,"waku":2,"name":"ジーティーマローネ","sex_age":"牝2/栗","weight":"55.0","jockey":"松若 風馬","trainer":"井上 智史","sire":"ルヴァンスレーヴ","damsire":"タニノギムレット","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":3,"waku":3,"name":"ヴォルテックス","sex_age":"牝2/鹿","weight":"55.0","jockey":"西村 淳也","trainer":"奥村 豊","sire":"レイデオロ","damsire":"ディープインパクト","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":4,"waku":4,"name":"ティエルニート","sex_age":"牝2/鹿","weight":"55.0","jockey":"酒井 学","trainer":"高橋 康之","sire":"サートゥルナーリア","damsire":"ディープインパクト","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":5,"waku":5,"name":"イテルム","sex_age":"牝2/鹿","weight":"55.0","jockey":"J.コレット","trainer":"田中 克典","sire":"サリオス","damsire":"Siyouni","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":6,"waku":5,"name":"ハルカカナタ","sex_age":"牝2/鹿","weight":"55.0","jockey":"幸 英明","trainer":"秋山 真一郎","sire":"ドレフォン","damsire":"ハービンジャー","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":7,"waku":6,"name":"ルクスグレイス","sex_age":"牝2/鹿","weight":"55.0","jockey":"M.デムーロ","trainer":"平田 修","sire":"サトノダイヤモンド","damsire":"ハービンジャー","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":8,"waku":6,"name":"ダヌラーサナ","sex_age":"牝2/鹿","weight":"53.0","jockey":"田山 旺佑","trainer":"新谷 功一","sire":"レイデオロ","damsire":"Shackleford","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":9,"waku":7,"name":"アイオリスパルス","sex_age":"牝2/栗","weight":"55.0","jockey":"吉村 誠之助","trainer":"長谷川 浩大","sire":"アドマイヤマーズ","damsire":"スクリーンヒーロー","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":10,"waku":7,"name":"クラリスバローズ","sex_age":"牝2/青鹿","weight":"55.0","jockey":"団野 大成","trainer":"渡辺 薫彦","sire":"ヘンリーバローズ","damsire":"ブライアンズタイム","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":11,"waku":8,"name":"ココフルール","sex_age":"牝2/青鹿","weight":"55.0","jockey":"角田 大和","trainer":"東田 明士","sire":"サリオス","damsire":"モンテロッソ","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}},
+    {"no":12,"waku":8,"name":"フラッシングルビー","sex_age":"牝2/黒鹿","weight":"55.0","jockey":"高杉 吏麒","trainer":"辻野 泰之","sire":"アドマイヤマーズ","damsire":"エイシンフラッシュ","style":null,"ten_speed":null,"agari_best":null,"recent":[],"class_move":{"last":null,"top":null,"vs_current":null,"delta":null}}
+  ],
+  "h2h": []
+}

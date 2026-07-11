@@ -1,6 +1,6 @@
 {
   "race_id": "202607111011",
-  "source": "jra-log-reconstructed",
+  "source": "jra",
   "n": 11,
   "surface": "ダ",
   "distance": 1000,
@@ -32,6 +32,9 @@
           "dist": 1200,
           "time": "1:12.0",
           "body_weight": 464,
+          "class_rank": null,
+          "class_label": "高瀬川S",
+          "class_certain": false,
           "pos": 10
         },
         {
@@ -45,7 +48,14 @@
           "dist": 1000,
           "time": "59.2",
           "body_weight": 458,
-          "pos": 1
+          "class_rank": null,
+          "class_label": "有田特別",
+          "class_certain": false,
+          "pos": 1,
+          "class_band": [
+            2,
+            5
+          ]
         },
         {
           "first_corner": 2,
@@ -59,14 +69,16 @@
           "time": "1:11.8",
           "body_weight": 464,
           "class_rank": 3,
+          "class_label": "2勝クラス",
+          "class_certain": true,
           "pos": 4
         }
       ],
       "class_move": {
-        "last": 4,
+        "last": null,
         "top": 3,
-        "vs_current": "同級",
-        "delta": 0
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -89,11 +101,14 @@
           "agari": 39.4,
           "date": "2026-03-28",
           "venue": "中山",
-          "race": "ブラッドストーンS",
+          "race": "ブラッドスト",
           "jockey": "横山 琉人",
           "dist": 1200,
           "time": "1:13.6",
           "body_weight": 444,
+          "class_rank": null,
+          "class_label": "ブラッドスト",
+          "class_certain": false,
           "pos": 16
         },
         {
@@ -107,6 +122,9 @@
           "dist": 1200,
           "time": "1:12.7",
           "body_weight": 448,
+          "class_rank": null,
+          "class_label": "初春S",
+          "class_certain": false,
           "pos": 13
         },
         {
@@ -121,14 +139,16 @@
           "time": "1:11.1",
           "body_weight": 454,
           "class_rank": 3,
+          "class_label": "2勝クラス",
+          "class_certain": true,
           "pos": 1
         }
       ],
       "class_move": {
-        "last": 4,
+        "last": null,
         "top": 3,
-        "vs_current": "同級",
-        "delta": 0
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -151,11 +171,14 @@
           "agari": 37.9,
           "date": "2026-04-25",
           "venue": "福島",
-          "race": "福島中央テレビ杯",
+          "race": "福島中央TV",
           "jockey": "丸山 元気",
           "dist": 1150,
           "time": "1:09.2",
           "body_weight": 512,
+          "class_rank": null,
+          "class_label": "福島中央TV",
+          "class_certain": false,
           "pos": 9
         },
         {
@@ -169,7 +192,14 @@
           "dist": 1150,
           "time": "1:08.7",
           "body_weight": 512,
-          "pos": 1
+          "class_rank": null,
+          "class_label": "喜多方特別",
+          "class_certain": false,
+          "pos": 1,
+          "class_band": [
+            2,
+            5
+          ]
         },
         {
           "first_corner": 1,
@@ -182,14 +212,37 @@
           "dist": 1200,
           "time": "1:12.0",
           "body_weight": 512,
-          "pos": 5
+          "class_rank": null,
+          "class_label": "鎌ケ谷特別",
+          "class_certain": false,
+          "pos": 5,
+          "class_band": [
+            2,
+            5
+          ]
+        },
+        {
+          "first_corner": 4,
+          "field": 15,
+          "agari": 37.2,
+          "date": "2026-01-24",
+          "venue": "京都",
+          "race": "2勝クラス",
+          "jockey": "横山 武史",
+          "dist": 1200,
+          "time": "1:13.3",
+          "body_weight": 522,
+          "class_rank": 3,
+          "class_label": "2勝クラス",
+          "class_certain": true,
+          "pos": 9
         }
       ],
       "class_move": {
-        "last": 3,
+        "last": null,
         "top": 3,
-        "vs_current": "昇級",
-        "delta": 1
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -212,11 +265,14 @@
           "agari": 37.7,
           "date": "2025-11-15",
           "venue": "福島",
-          "race": "フルーツラインC",
+          "race": "フルーツライ",
           "jockey": "長岡 禎仁",
           "dist": 1150,
           "time": "1:09.6",
           "body_weight": 504,
+          "class_rank": null,
+          "class_label": "フルーツライ",
+          "class_certain": false,
           "pos": 12
         },
         {
@@ -231,6 +287,8 @@
           "time": "58.6",
           "body_weight": 492,
           "class_rank": 3,
+          "class_label": "2勝クラス",
+          "class_certain": true,
           "pos": 1
         },
         {
@@ -245,14 +303,16 @@
           "time": "1:13.3",
           "body_weight": 492,
           "class_rank": 3,
+          "class_label": "2勝クラス",
+          "class_certain": true,
           "pos": 16
         }
       ],
       "class_move": {
-        "last": 4,
+        "last": null,
         "top": 3,
-        "vs_current": "同級",
-        "delta": 0
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -280,6 +340,9 @@
           "dist": 1200,
           "time": "1:11.2",
           "body_weight": 494,
+          "class_rank": null,
+          "class_label": "リボン賞",
+          "class_certain": false,
           "pos": 6
         },
         {
@@ -293,14 +356,49 @@
           "dist": 1400,
           "time": "1:24.1",
           "body_weight": 478,
+          "class_rank": null,
+          "class_label": "豊明S",
+          "class_certain": false,
           "pos": 7
+        },
+        {
+          "first_corner": 1,
+          "field": 15,
+          "agari": 38.9,
+          "date": "2025-12-21",
+          "venue": "中山",
+          "race": "北総S",
+          "jockey": "T.マーカンド",
+          "dist": 1800,
+          "time": "1:53.1",
+          "body_weight": 482,
+          "class_rank": null,
+          "class_label": "北総S",
+          "class_certain": false,
+          "pos": 12
+        },
+        {
+          "first_corner": 4,
+          "field": 15,
+          "agari": 38.3,
+          "date": "2025-11-24",
+          "venue": "福島",
+          "race": "奥羽S",
+          "jockey": "高杉 吏麒",
+          "dist": 1700,
+          "time": "1:48.0",
+          "body_weight": 482,
+          "class_rank": null,
+          "class_label": "奥羽S",
+          "class_certain": false,
+          "pos": 14
         }
       ],
       "class_move": {
-        "last": 4,
-        "top": 4,
-        "vs_current": "同級",
-        "delta": 0
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -328,7 +426,14 @@
           "dist": 1000,
           "time": "57.1",
           "body_weight": 436,
-          "pos": 5
+          "class_rank": null,
+          "class_label": "雲仙特別",
+          "class_certain": false,
+          "pos": 5,
+          "class_band": [
+            2,
+            5
+          ]
         },
         {
           "first_corner": 2,
@@ -342,6 +447,8 @@
           "time": "1:14.7",
           "body_weight": 436,
           "class_rank": 3,
+          "class_label": "2勝クラス",
+          "class_certain": true,
           "pos": 15
         },
         {
@@ -355,14 +462,21 @@
           "dist": 1000,
           "time": "1:00.5",
           "body_weight": 434,
-          "pos": 14
+          "class_rank": null,
+          "class_label": "有田特別",
+          "class_certain": false,
+          "pos": 14,
+          "class_band": [
+            2,
+            5
+          ]
         }
       ],
       "class_move": {
-        "last": 3,
+        "last": null,
         "top": 3,
-        "vs_current": "昇級",
-        "delta": 1
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -390,6 +504,9 @@
           "dist": 1200,
           "time": "1:11.4",
           "body_weight": 478,
+          "class_rank": null,
+          "class_label": "リボン賞",
+          "class_certain": false,
           "pos": 8
         },
         {
@@ -403,6 +520,9 @@
           "dist": 1400,
           "time": "1:24.7",
           "body_weight": 476,
+          "class_rank": null,
+          "class_label": "鳴門S",
+          "class_certain": false,
           "pos": 10
         },
         {
@@ -416,14 +536,33 @@
           "dist": 1400,
           "time": "1:25.0",
           "body_weight": 480,
+          "class_rank": null,
+          "class_label": "羅生門S",
+          "class_certain": false,
           "pos": 6
+        },
+        {
+          "first_corner": 2,
+          "field": 16,
+          "agari": 36.6,
+          "date": "2025-11-23",
+          "venue": "京都",
+          "race": "Lトレーナー",
+          "jockey": "高杉 吏麒",
+          "dist": 1400,
+          "time": "1:23.8",
+          "body_weight": 476,
+          "class_rank": null,
+          "class_label": "Lトレーナー",
+          "class_certain": false,
+          "pos": 3
         }
       ],
       "class_move": {
-        "last": 4,
-        "top": 4,
-        "vs_current": "同級",
-        "delta": 0
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -451,6 +590,9 @@
           "dist": 1200,
           "time": "1:13.2",
           "body_weight": 512,
+          "class_rank": null,
+          "class_label": "北九州記念",
+          "class_certain": false,
           "pos": 13
         },
         {
@@ -464,7 +606,14 @@
           "dist": 1200,
           "time": "1:10.1",
           "body_weight": 518,
-          "pos": 1
+          "class_rank": null,
+          "class_label": "円山特別",
+          "class_certain": false,
+          "pos": 1,
+          "class_band": [
+            2,
+            5
+          ]
         },
         {
           "first_corner": 2,
@@ -477,14 +626,41 @@
           "dist": 1200,
           "time": "1:11.0",
           "body_weight": 510,
-          "pos": 2
+          "class_rank": null,
+          "class_label": "清洲特別",
+          "class_certain": false,
+          "pos": 2,
+          "class_band": [
+            2,
+            5
+          ]
+        },
+        {
+          "first_corner": 1,
+          "field": 15,
+          "agari": 37.1,
+          "date": "2025-06-15",
+          "venue": "阪神",
+          "race": "武庫川特別",
+          "jockey": "戸崎 圭太",
+          "dist": 1200,
+          "time": "1:10.6",
+          "body_weight": 496,
+          "class_rank": null,
+          "class_label": "武庫川特別",
+          "class_certain": false,
+          "pos": 8,
+          "class_band": [
+            2,
+            5
+          ]
         }
       ],
       "class_move": {
-        "last": 4,
-        "top": 3,
-        "vs_current": "同級",
-        "delta": 0
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -507,19 +683,22 @@
           "agari": 37.9,
           "date": "2026-05-17",
           "venue": "東京",
-          "race": "BSイレブン賞",
+          "race": "BSイレブン",
           "jockey": "丹内 祐次",
           "dist": 1400,
           "time": "1:26.4",
           "body_weight": 438,
+          "class_rank": null,
+          "class_label": "BSイレブン",
+          "class_certain": false,
           "pos": 16
         }
       ],
       "class_move": {
-        "last": 4,
-        "top": 4,
-        "vs_current": "同級",
-        "delta": 0
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -547,6 +726,9 @@
           "dist": 1200,
           "time": "1:11.2",
           "body_weight": 492,
+          "class_rank": null,
+          "class_label": "高瀬川S",
+          "class_certain": false,
           "pos": 7
         },
         {
@@ -560,6 +742,9 @@
           "dist": 1200,
           "time": "1:11.0",
           "body_weight": 484,
+          "class_rank": null,
+          "class_label": "卯月S",
+          "class_certain": false,
           "pos": 7
         },
         {
@@ -573,6 +758,9 @@
           "dist": 1400,
           "time": "1:24.9",
           "body_weight": 496,
+          "class_rank": null,
+          "class_label": "鳴門S",
+          "class_certain": false,
           "pos": 14
         },
         {
@@ -586,14 +774,17 @@
           "dist": 1400,
           "time": "1:24.6",
           "body_weight": 494,
+          "class_rank": null,
+          "class_label": "羅生門S",
+          "class_certain": false,
           "pos": 2
         }
       ],
       "class_move": {
-        "last": 4,
-        "top": 4,
-        "vs_current": "同級",
-        "delta": 0
+        "last": null,
+        "top": null,
+        "vs_current": null,
+        "delta": null
       }
     },
     {
@@ -621,7 +812,14 @@
           "dist": 1200,
           "time": "1:10.8",
           "body_weight": 518,
-          "pos": 1
+          "class_rank": null,
+          "class_label": "葛飾特別",
+          "class_certain": false,
+          "pos": 1,
+          "class_band": [
+            2,
+            5
+          ]
         },
         {
           "first_corner": 1,
@@ -635,6 +833,8 @@
           "time": "57.1",
           "body_weight": 518,
           "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
           "pos": 1
         },
         {
@@ -649,14 +849,32 @@
           "time": "1:12.6",
           "body_weight": 510,
           "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
           "pos": 4
+        },
+        {
+          "first_corner": 4,
+          "field": 16,
+          "agari": 37.5,
+          "date": "2025-11-24",
+          "venue": "福島",
+          "race": "1勝クラス",
+          "jockey": "鮫島 克駿",
+          "dist": 1150,
+          "time": "1:09.7",
+          "body_weight": 508,
+          "class_rank": 2,
+          "class_label": "1勝クラス",
+          "class_certain": true,
+          "pos": 8
         }
       ],
       "class_move": {
-        "last": 3,
-        "top": 3,
-        "vs_current": "昇級",
-        "delta": 1
+        "last": null,
+        "top": 2,
+        "vs_current": null,
+        "delta": null
       }
     }
   ],
@@ -700,6 +918,25 @@
       ]
     },
     {
+      "date": "2026-02-21",
+      "venue": "阪神",
+      "race": "鳴門S",
+      "horses": [
+        {
+          "no": 7,
+          "name": "ヴェロクオーレ",
+          "first_corner": 2,
+          "pos": 10
+        },
+        {
+          "no": 10,
+          "name": "ジャーヴィス",
+          "first_corner": 14,
+          "pos": 14
+        }
+      ]
+    },
+    {
       "date": "2026-01-31",
       "venue": "小倉",
       "race": "有田特別",
@@ -717,9 +954,28 @@
           "pos": 1
         }
       ]
+    },
+    {
+      "date": "2026-01-17",
+      "venue": "京都",
+      "race": "羅生門S",
+      "horses": [
+        {
+          "no": 7,
+          "name": "ヴェロクオーレ",
+          "first_corner": 1,
+          "pos": 6
+        },
+        {
+          "no": 10,
+          "name": "ジャーヴィス",
+          "first_corner": 13,
+          "pos": 2
+        }
+      ]
     }
   ],
-  "race_class": "3勝クラス",
+  "race_class": "3歳上3勝クラス",
   "race_class_rank": 4,
   "race_class_label": "3勝クラス"
 }

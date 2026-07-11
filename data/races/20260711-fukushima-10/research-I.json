@@ -1,0 +1,153 @@
+{
+  "race_id": "20260711-fukushima-10",
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "Codex観点fan-outが利用上限で停止したため、JRA由来seed・静的コースカタログ・決定論ツールから縮退再構成。全頭カバーを維持。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I]決定論リスクは非該当"
+      ],
+      "cons": [
+        "[I]1200mで後方に置かれる可能性"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[I]4歳で年齢・下降フラグなし"
+      ],
+      "cons": [
+        "[I]昇級初戦で現級の圧力は未知"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ショウナンラスボス",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[I]軽斤量は負担を和らげる"
+      ],
+      "cons": [
+        "[I]8歳かつ近2走連続大敗で下降基調"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [
+        "[I]52kgは逃げの負担を抑える"
+      ],
+      "cons": [
+        "[I]近2走連続大敗。芝替わりも未確認要素"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[I]前走現級3着で下降基調ではない"
+      ],
+      "cons": [
+        "[I]7歳で反動と上積みの幅に注意"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ロードマイライフ",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [
+        "[I]末脚自体は維持"
+      ],
+      "cons": [
+        "[I]近2走連続大敗に加え中1週の連戦"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ウナギノボリ",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [
+        "[I]3月の現級2着は能力劣化を一部反証"
+      ],
+      "cons": [
+        "[I]7歳かつ直近2走連続大敗で下降フラグ"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "score": -0.5,
+      "confidence": "中",
+      "pros": [
+        "[I]年齢・下降フラグなし"
+      ],
+      "cons": [
+        "[I]昇級初戦で揉まれた際の耐久力は未知"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モーデン",
+      "score": -1.5,
+      "confidence": "中",
+      "pros": [
+        "[I]芝1200m勝ちの近走がある"
+      ],
+      "cons": [
+        "[I]8歳かつ前走大敗で下降フラグ"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,11 @@
+{"point":"I","overall_confidence":"中","field_note":"risk_flags.pyの決定論フラグを採用。②⑦⑧の下降基調、④⑦⑧の高齢、④の59kgを主な割引とする。","note":"脚部・気性の非決定論リスクは未調査。","horses":[
+{"no":1,"name":"ショウナンハクラク","score":-1,"confidence":"高","pros":[],"cons":["[I]7歳でやや高齢、後方脚質ゆえ進路リスクもある"],"sources":["risk_flags.py"]},
+{"no":2,"name":"シークレットヴァウ","score":-1,"confidence":"高","pros":[],"cons":["[I]直近2走連続大敗の下降基調フラグ"],"sources":["risk_flags.py"]},
+{"no":3,"name":"レッドアヴァンティ","score":-1,"confidence":"高","pros":[],"cons":["[I]7歳でやや高齢、追込不発の振れ幅"],"sources":["risk_flags.py"]},
+{"no":4,"name":"ゾンニッヒ","score":-2,"confidence":"高","pros":[],"cons":["[I]8歳の高齢リスクと59kgの負担が重なる"],"sources":["risk_flags.py","weight_adjust.py"]},
+{"no":5,"name":"マサノカナリア","score":0,"confidence":"高","pros":["[I]決定論リスクなし"],"cons":[],"sources":["risk_flags.py"]},
+{"no":6,"name":"クリエープキー","score":0,"confidence":"高","pros":["[I]決定論リスクなし、52kgで負担が軽い"],"cons":[],"sources":["risk_flags.py","weight_adjust.py"]},
+{"no":7,"name":"クムシラコ","score":-2,"confidence":"高","pros":[],"cons":["[I]8歳かつ直近2走連続大敗で下降基調が強い"],"sources":["risk_flags.py"]},
+{"no":8,"name":"マイネルジェロディ","score":-2,"confidence":"高","pros":[],"cons":["[I]8歳かつ前走大敗、近走の低迷も長い"],"sources":["risk_flags.py"]},
+{"no":9,"name":"カウンターセブン","score":0,"confidence":"高","pros":["[I]決定論リスクなし"],"cons":["[I]格上挑戦による地力差は別観点の懸念"],"sources":["risk_flags.py"]}
+]}

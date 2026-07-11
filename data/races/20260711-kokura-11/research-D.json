@@ -1,7 +1,7 @@
 {
   "point": "D",
   "overall_confidence": "中",
-  "field_note": "seedと決定論ツールに縮退",
+  "field_note": "専用エージェント起動不能のためJRA公式seedと決定論タグで縮退評価",
   "horses": [
     {
       "no": 1,
@@ -9,35 +9,43 @@
       "score": 1,
       "confidence": "中",
       "pros": [
-        "小倉ダ1000mの勝ち実績があり、内で脚をためる形が合う"
+        "同舞台を差し切っており先行激化への耐性も示す"
       ],
-      "cons": [],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 2,
       "name": "クーデール",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 3,
       "name": "イマージョン",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
       "cons": [
-        "1150mで勝ち切った後に同条件で崩れており、さらに短い1000mは忙しい"
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -46,22 +54,28 @@
       "score": 1,
       "confidence": "中",
       "pros": [
-        "札幌ダ1000mで逃げ切り実績があり、ワンターン短距離は合う"
+        "ダ1000m逃げ切り実績があり小回り持続戦向き"
       ],
-      "cons": [],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 5,
       "name": "ベルギューン",
-      "score": 0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -70,59 +84,73 @@
       "score": 1,
       "confidence": "中",
       "pros": [
-        "同舞台で速い入りを経験しており、コース替わりの不安は小さい"
+        "直近の同舞台で先手を取り57秒1"
       ],
-      "cons": [],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 7,
       "name": "ヴェロクオーレ",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 8,
       "name": "アメリカンビキニ",
-      "score": 0.5,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
-      "cons": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 9,
       "name": "ポッドソル",
-      "score": -1,
+      "score": 0,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
       "cons": [
-        "1400mからの短縮で外から同型に挟まれやすい"
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
       "no": 10,
       "name": "ジャーヴィス",
-      "score": -0.5,
+      "score": -1,
       "confidence": "中",
-      "pros": [],
+      "pros": [
+        "ダート短距離の先行経験はある"
+      ],
       "cons": [
-        "追込型で小倉ダ1000mの短い直線では届く条件が限られる"
+        "追込型で直線291mの小倉ダ1000mは位置取りの壁が大きい"
       ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     },
     {
@@ -131,13 +159,14 @@
       "score": 2,
       "confidence": "中",
       "pros": [
-        "小倉ダ1000mで逃げ切り実績があり、コース適性が明確"
+        "小倉ダ1000m57秒1勝ちで下り加速と短い直線に適合"
       ],
-      "cons": [],
+      "cons": [
+        "同舞台の確証が薄い馬は下り加速への対応が未知"
+      ],
       "sources": [
-        "local://seed/202607111011"
+        "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0110202602051120260711%2FDB"
       ]
     }
-  ],
-  "note": "seedと決定論ツールに縮退"
+  ]
 }

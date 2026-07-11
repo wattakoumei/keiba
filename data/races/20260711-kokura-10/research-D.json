@@ -1,278 +1,255 @@
 {
   "point": "D",
   "overall_confidence": "中",
-  "field_note": "再取得不能のため、seed・近走通過順・同舞台直接対戦から縮退作成。",
+  "field_note": "Codex利用上限のためJRA出馬表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
   "horses": [
     {
       "no": 1,
       "name": "オオナミコナミ",
-      "score": -0.5,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m7着・1800m4着＝小回り適性を実走で確認"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 下り発進の高速短距離で後方からになりやすく、直線293mでは位置の借金が大きい"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 2,
       "name": "ユメシバイ",
-      "score": 0.1,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m1着＝小回り適性を実走で確認"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 下り発進の高速短距離で後方からになりやすく、直線293mでは位置の借金が大きい"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 3,
       "name": "ミキノバカラ",
-      "score": -0.4,
+      "score": -1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m8着・1000m1着＝小回り適性を実走で確認"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 小倉芝1200mへの実走適性の裏付けが弱い"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 4,
       "name": "ニホンピロトッティ",
-      "score": -1.2,
+      "score": -1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉芝1200mは下り発進・直線293mで行き脚と持続力が効き、脚質は形状に合う"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 小倉芝1200mへの実走適性の裏付けが弱い"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 5,
       "name": "メローネ",
-      "score": 0.6,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m1着・1200m3着＝小回り適性を実走で確認"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 6,
       "name": "ホーリーブラッサム",
-      "score": 1.4,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m4着＝小回り適性を実走で確認",
+        "[D] 小倉芝1200mは下り発進・直線293mで行き脚と持続力が効き、脚質は形状に合う"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 7,
       "name": "ルージュサウダージ",
-      "score": -0.2,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m12着・1200m1着＝小回り適性を実走で確認"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 下り発進の高速短距離で後方からになりやすく、直線293mでは位置の借金が大きい"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 8,
       "name": "フォティック",
-      "score": -0.1,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m5着・1200m1着＝小回り適性を実走で確認"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 9,
       "name": "サンライズプルート",
-      "score": -1.0,
+      "score": -2,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1700m16着＝小回り適性を実走で確認"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 小倉芝1200mへの実走適性の裏付けが弱い"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 10,
-      "name": "ヤマニンアンフィル",
-      "score": -0.6,
+      "name": "ファイツオン",
+      "score": -2,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績2860m9着＝小回り適性を実走で確認"
       ],
       "cons": [
-        "後方一手や外々差し依存は割引。"
+        "[D] 小倉芝1200mへの実走適性の裏付けが弱い"
       ],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 11,
       "name": "スネーフリンガ",
-      "score": 1.2,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m3着・1200m1着＝小回り適性を実走で確認"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 12,
       "name": "ライクアフラワー",
-      "score": -0.7,
+      "score": 0,
       "confidence": "中",
-      "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
-      ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "pros": [],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 13,
       "name": "ブルボンクイーン",
-      "score": 1.0,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉芝1200mは下り発進・直線293mで行き脚と持続力が効き、脚質は形状に合う"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 14,
       "name": "インブロリオ",
-      "score": 0.4,
+      "score": 0,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m9着＝小回り適性を実走で確認"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 15,
       "name": "シュブロンレーヴル",
-      "score": 0.7,
+      "score": 2,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m5着・1200m2着・1200m4着＝小回り適性を実走で確認"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 16,
       "name": "サディーク",
-      "score": 0.8,
+      "score": 1,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m6着＝小回り適性を実走で確認"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 17,
       "name": "タナスーペルノーバ",
-      "score": 1.5,
+      "score": 2,
       "confidence": "中",
       "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
+        "[D] 小倉実績1200m1着・1000m5着＝小回り適性を実走で確認",
+        "[D] 小倉芝1200mは下り発進・直線293mで行き脚と持続力が効き、脚質は形状に合う"
       ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     },
     {
       "no": 18,
       "name": "ハルオーブ",
-      "score": 0.0,
+      "score": 0,
       "confidence": "中",
-      "pros": [
-        "小倉芝1200は2角寄り最高部から下る小回りで、前受けと持続速度を加点。"
-      ],
-      "cons": [
-        "後方一手や外々差し依存は割引。"
-      ],
+      "pros": [],
+      "cons": [],
       "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
+        "https://www.jra.go.jp/JRADB/accessD.html"
       ]
     }
   ],
-  "note": "全頭カバーを優先した縮退観点。"
+  "note": "速報縮退"
 }
+

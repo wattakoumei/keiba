@@ -1,0 +1,128 @@
+{
+  "date": "20260711",
+  "place": "10",
+  "place_name": "小倉",
+  "races": [
+    {
+      "race_id": "202607111001",
+      "r": 1,
+      "post_time": "09:55",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 12,
+      "turn": null,
+      "race_name": "サラ系2歳未勝利"
+    },
+    {
+      "race_id": "202607111002",
+      "r": 2,
+      "post_time": "10:30",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607111003",
+      "r": 3,
+      "post_time": "11:00",
+      "surface": "芝",
+      "distance": 2000,
+      "headcount": 18,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607111004",
+      "r": 4,
+      "post_time": "11:30",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607111005",
+      "r": 5,
+      "post_time": "12:20",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 12,
+      "turn": null,
+      "race_name": "サラ系2歳新馬"
+    },
+    {
+      "race_id": "202607111006",
+      "r": 6,
+      "post_time": "12:50",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 18,
+      "turn": null,
+      "race_name": "サラ系3歳未勝利"
+    },
+    {
+      "race_id": "202607111007",
+      "r": 7,
+      "post_time": "13:20",
+      "surface": "芝",
+      "distance": 1800,
+      "headcount": 12,
+      "turn": null,
+      "race_name": "サラ系3歳上1勝クラス"
+    },
+    {
+      "race_id": "202607111008",
+      "r": 8,
+      "post_time": "13:50",
+      "surface": "ダ",
+      "distance": 1700,
+      "headcount": 11,
+      "turn": null,
+      "race_name": "サラ系3歳上1勝クラス"
+    },
+    {
+      "race_id": "202607111009",
+      "r": 9,
+      "post_time": "14:20",
+      "surface": "芝",
+      "distance": 2600,
+      "headcount": 11,
+      "turn": null,
+      "race_name": "英彦山特別"
+    },
+    {
+      "race_id": "202607111010",
+      "r": 10,
+      "post_time": "14:55",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 18,
+      "turn": null,
+      "race_name": "耶馬渓特別"
+    },
+    {
+      "race_id": "202607111011",
+      "r": 11,
+      "post_time": "15:30",
+      "surface": "ダ",
+      "distance": 1000,
+      "headcount": 11,
+      "turn": null,
+      "race_name": "釜山ステークス"
+    },
+    {
+      "race_id": "202607111012",
+      "r": 12,
+      "post_time": "16:15",
+      "surface": "芝",
+      "distance": 1200,
+      "headcount": 16,
+      "turn": null,
+      "race_name": "サラ系3歳上1勝クラス"
+    }
+  ]
+}
+

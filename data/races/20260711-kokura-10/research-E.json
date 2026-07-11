@@ -1,592 +1,286 @@
 {
-  "point": "E",
-  "overall_confidence": "中",
-  "field_note": "逃げ候補は6・13・17、番手候補は11。短距離多頭数で先行争いの分岐を残す。",
-  "horses": [
-    {
-      "no": 1,
-      "name": "オオナミコナミ",
-      "score": -0.8,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 2,
-      "name": "ユメシバイ",
-      "score": 0.0,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 3,
-      "name": "ミキノバカラ",
-      "score": -0.8,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 4,
-      "name": "ニホンピロトッティ",
-      "score": -1.0,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 5,
-      "name": "メローネ",
-      "score": 0.3,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 6,
-      "name": "ホーリーブラッサム",
-      "score": 1.5,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 7,
-      "name": "ルージュサウダージ",
-      "score": -0.7,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 8,
-      "name": "フォティック",
-      "score": -0.4,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 9,
-      "name": "サンライズプルート",
-      "score": -1.0,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 10,
-      "name": "ヤマニンアンフィル",
-      "score": -0.9,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 11,
-      "name": "スネーフリンガ",
-      "score": 1.2,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 12,
-      "name": "ライクアフラワー",
-      "score": -1.0,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 13,
-      "name": "ブルボンクイーン",
-      "score": 0.8,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 14,
-      "name": "インブロリオ",
-      "score": 0.2,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 15,
-      "name": "シュブロンレーヴル",
-      "score": 0.5,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 16,
-      "name": "サディーク",
-      "score": 0.6,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 17,
-      "name": "タナスーペルノーバ",
-      "score": 1.8,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    },
-    {
-      "no": 18,
-      "name": "ハルオーブ",
-      "score": -0.2,
-      "confidence": "中",
-      "pros": [
-        "小倉芝1200は下り発進で位置取りの価値が高い。前付けできる馬を加点。"
-      ],
-      "cons": [
-        "後方一手は展開待ち。先行争いが強まった時だけ差し浮上。"
-      ],
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
-    }
-  ],
+  "race_id": "20260711-kokura-10",
+  "observation": "E_pace_evidence",
+  "field_size": 18,
   "legs": [
     {
       "no": 1,
       "name": "オオナミコナミ",
-      "style": "追込",
+      "style": "追",
       "ten_speed": "遅",
       "expected_pos": "後方",
-      "score": -0.8,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "basis": "近4走の平均1角位置7.5番手、テン遅",
+      "confidence": "高"
     },
     {
       "no": 2,
       "name": "ユメシバイ",
-      "style": "追込",
+      "style": "追",
       "ten_speed": "遅",
       "expected_pos": "後方",
-      "score": 0.0,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "basis": "近4走の平均1角位置13.3番手、テン遅",
+      "confidence": "高"
     },
     {
       "no": 3,
       "name": "ミキノバカラ",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "遅",
-      "expected_pos": "後方",
-      "score": -0.8,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "中団",
+      "basis": "近4走の平均1角位置9.0番手、テン遅",
+      "confidence": "高"
     },
     {
       "no": 4,
       "name": "ニホンピロトッティ",
-      "style": "先行",
+      "style": "先",
       "ten_speed": "速",
-      "expected_pos": "好位",
-      "score": -1.0,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "先行",
+      "basis": "近4走の平均1角位置2.3番手、テン速",
+      "confidence": "高"
     },
     {
       "no": 5,
       "name": "メローネ",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "中",
       "expected_pos": "中団",
-      "score": 0.3,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "basis": "近4走の平均1角位置5.3番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 6,
       "name": "ホーリーブラッサム",
-      "style": "逃げ",
+      "style": "逃",
       "ten_speed": "速",
-      "expected_pos": "前列",
-      "score": 1.5,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "ハナ候補",
+      "basis": "近4走の平均1角位置1.5番手、テン速",
+      "confidence": "高"
     },
     {
       "no": 7,
       "name": "ルージュサウダージ",
-      "style": "追込",
+      "style": "追",
       "ten_speed": "遅",
       "expected_pos": "後方",
-      "score": -0.7,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "basis": "近4走の平均1角位置13.3番手、テン遅",
+      "confidence": "高"
     },
     {
       "no": 8,
       "name": "フォティック",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "遅",
-      "expected_pos": "後方",
-      "score": -0.4,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "中団",
+      "basis": "近4走の平均1角位置10.8番手、テン遅",
+      "confidence": "高"
     },
     {
       "no": 9,
       "name": "サンライズプルート",
-      "style": "先行",
+      "style": "先",
       "ten_speed": "中",
-      "expected_pos": "好位",
-      "score": -1.0,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "先行",
+      "basis": "近4走の平均1角位置3.3番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 10,
-      "name": "ヤマニンアンフィル",
-      "style": "差し",
+      "name": "ファイツオン",
+      "style": "先",
       "ten_speed": "中",
-      "expected_pos": "後方",
-      "score": -0.9,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "先行",
+      "basis": "近4走の平均1角位置4.8番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 11,
       "name": "スネーフリンガ",
-      "style": "先行",
+      "style": "差",
       "ten_speed": "中",
-      "expected_pos": "好位",
-      "score": 1.2,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "中団",
+      "basis": "近4走の平均1角位置4.8番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 12,
       "name": "ライクアフラワー",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "遅",
-      "expected_pos": "後方",
-      "score": -1.0,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "中団",
+      "basis": "近4走の平均1角位置8.5番手、テン遅",
+      "confidence": "高"
     },
     {
       "no": 13,
       "name": "ブルボンクイーン",
-      "style": "逃げ",
+      "style": "逃",
       "ten_speed": "速",
-      "expected_pos": "前列",
-      "score": 0.8,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "ハナ候補",
+      "basis": "近4走の平均1角位置2.0番手、テン速",
+      "confidence": "高"
     },
     {
       "no": 14,
       "name": "インブロリオ",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "中",
-      "expected_pos": "好位",
-      "score": 0.2,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "中団",
+      "basis": "近4走の平均1角位置8.3番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 15,
       "name": "シュブロンレーヴル",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "中",
       "expected_pos": "中団",
-      "score": 0.5,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "basis": "近4走の平均1角位置6.0番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 16,
       "name": "サディーク",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "中",
       "expected_pos": "中団",
-      "score": 0.6,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "basis": "近4走の平均1角位置6.0番手、テン中",
+      "confidence": "高"
     },
     {
       "no": 17,
       "name": "タナスーペルノーバ",
-      "style": "先行",
+      "style": "先",
       "ten_speed": "速",
-      "expected_pos": "前列",
-      "score": 1.8,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "先行",
+      "basis": "近4走の平均1角位置2.3番手、テン速",
+      "confidence": "高"
     },
     {
       "no": 18,
       "name": "ハルオーブ",
-      "style": "差し",
+      "style": "差",
       "ten_speed": "遅",
-      "expected_pos": "後方",
-      "score": -0.2,
-      "confidence": "中",
-      "sources": [
-        "tools/fetch_racecard.py race 202607111010 と data/cache の近走結果"
-      ]
+      "expected_pos": "中団",
+      "basis": "近4走の平均1角位置10.8番手、テン遅",
+      "confidence": "高"
     }
   ],
   "lead_contenders": [
     {
+      "no": 4,
+      "name": "ニホンピロトッティ",
+      "stance": "先行参加候補",
+      "basis": "脚質先・テン速"
+    },
+    {
       "no": 6,
       "name": "ホーリーブラッサム",
-      "stance": "前走宗像特別で1角1番手。内寄りから主張しやすい。"
+      "stance": "ハナ主張候補",
+      "basis": "脚質逃・テン速"
+    },
+    {
+      "no": 9,
+      "name": "サンライズプルート",
+      "stance": "先行参加候補",
+      "basis": "脚質先・テン中"
+    },
+    {
+      "no": 10,
+      "name": "ファイツオン",
+      "stance": "先行参加候補",
+      "basis": "脚質先・テン中"
     },
     {
       "no": 13,
       "name": "ブルボンクイーン",
-      "stance": "逃げ歴が複数。外枠でも出して行けば先頭候補。"
+      "stance": "ハナ主張候補",
+      "basis": "脚質逃・テン速"
     },
     {
       "no": 17,
       "name": "タナスーペルノーバ",
-      "stance": "直近1勝クラスを1角1番手から勝利。外枠でも前付け濃厚。"
-    },
-    {
-      "no": 11,
-      "name": "スネーフリンガ",
-      "stance": "宗像特別で好位から3着。番手の圏内。"
+      "stance": "先行参加候補",
+      "basis": "脚質先・テン速"
     }
   ],
   "draw": [
     {
       "no": 1,
-      "note": "内でロス小"
+      "note": "枠1。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 2,
-      "note": "内でロス小"
+      "note": "枠1。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 3,
-      "note": "内でロス小"
+      "note": "枠2。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 4,
-      "note": "内でロス小"
+      "note": "枠2。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 5,
-      "note": "内でロス小"
+      "note": "枠3。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 6,
-      "note": "内でロス小"
+      "note": "枠3。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 7,
-      "note": "中枠"
+      "note": "枠4。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 8,
-      "note": "中枠"
+      "note": "枠4。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 9,
-      "note": "中枠"
+      "note": "枠5。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 10,
-      "note": "中枠"
+      "note": "枠5。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 11,
-      "note": "中枠"
+      "note": "枠6。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 12,
-      "note": "中枠"
+      "note": "枠6。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 13,
-      "note": "外から位置を取りに行く必要"
+      "note": "枠7。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 14,
-      "note": "外から位置を取りに行く必要"
+      "note": "枠7。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 15,
-      "note": "外から位置を取りに行く必要"
+      "note": "枠7。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 16,
-      "note": "外から位置を取りに行く必要"
+      "note": "枠8。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 17,
-      "note": "外から位置を取りに行く必要"
+      "note": "枠8。芝1200mは初角まで479mで外も主張可能"
     },
     {
       "no": 18,
-      "note": "外から位置を取りに行く必要"
+      "note": "枠8。芝1200mは初角まで479mで外も主張可能"
     }
   ],
-  "note": "全頭カバーを優先した縮退観点。"
+  "sources": [
+    "https://www.jra.go.jp/JRADB/accessD.html"
+  ],
+  "note": "JRA seedからの縮退"
 }
+

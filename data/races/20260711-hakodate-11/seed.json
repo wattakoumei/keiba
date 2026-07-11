@@ -1,11 +1,11 @@
 {
-  "race_id": "202607110211",
+  "date": "20260711",
+  "place": "02",
+  "r": 11,
   "source": "jra",
-  "n": 13,
   "surface": "芝",
   "distance": 1800,
-  "headcount": 13,
-  "draw_fixed": true,
+  "n": 13,
   "horses": [
     {
       "no": 1,
@@ -256,7 +256,7 @@
         {
           "first_corner": 1,
           "field": 12,
-          "agari": 36.0,
+          "agari": 36,
           "date": "2025-12-14",
           "venue": "中山",
           "race": "霞ヶ浦特別",
@@ -732,7 +732,7 @@
         {
           "first_corner": 9,
           "field": 16,
-          "agari": 35.0,
+          "agari": 35,
           "date": "2026-04-05",
           "venue": "中山",
           "race": "美浦S",
@@ -818,7 +818,7 @@
         {
           "first_corner": 12,
           "field": 15,
-          "agari": 34.0,
+          "agari": 34,
           "date": "2026-04-12",
           "venue": "阪神",
           "race": "京橋S",
@@ -1146,161 +1146,11 @@
       }
     }
   ],
-  "h2h": [
-    {
-      "date": "2026-04-19",
-      "venue": "阪神",
-      "race": "立雲峡S",
-      "horses": [
-        {
-          "no": 5,
-          "name": "ミッキージュエリー",
-          "first_corner": 2,
-          "pos": 10
-        },
-        {
-          "no": 8,
-          "name": "インヴォーグ",
-          "first_corner": 4,
-          "pos": 3
-        }
-      ]
-    },
-    {
-      "date": "2026-04-19",
-      "venue": "中山",
-      "race": "サンシャイン",
-      "horses": [
-        {
-          "no": 13,
-          "name": "ピンクジン",
-          "first_corner": 5,
-          "pos": 14
-        },
-        {
-          "no": 6,
-          "name": "ショウナンサムデイ",
-          "first_corner": 8,
-          "pos": 13
-        }
-      ]
-    },
-    {
-      "date": "2026-04-12",
-      "venue": "阪神",
-      "race": "京橋S",
-      "horses": [
-        {
-          "no": 11,
-          "name": "ソリダリティ",
-          "first_corner": 3,
-          "pos": 6
-        },
-        {
-          "no": 10,
-          "name": "ウイントレメンデス",
-          "first_corner": 12,
-          "pos": 9
-        }
-      ]
-    },
-    {
-      "date": "2026-04-05",
-      "venue": "中山",
-      "race": "美浦S",
-      "horses": [
-        {
-          "no": 3,
-          "name": "ダンツファイター",
-          "first_corner": 1,
-          "pos": 5
-        },
-        {
-          "no": 9,
-          "name": "ドゥカート",
-          "first_corner": 9,
-          "pos": 11
-        }
-      ]
-    },
-    {
-      "date": "2026-03-01",
-      "venue": "小倉",
-      "race": "関門橋S",
-      "horses": [
-        {
-          "no": 13,
-          "name": "ピンクジン",
-          "first_corner": 3,
-          "pos": 13
-        },
-        {
-          "no": 2,
-          "name": "アイスグリーン",
-          "first_corner": 5,
-          "pos": 7
-        }
-      ]
-    },
-    {
-      "date": "2026-01-11",
-      "venue": "京都",
-      "race": "新春S",
-      "horses": [
-        {
-          "no": 5,
-          "name": "ミッキージュエリー",
-          "first_corner": 2,
-          "pos": 2
-        },
-        {
-          "no": 12,
-          "name": "ウィープディライト",
-          "first_corner": 8,
-          "pos": 11
-        }
-      ]
-    },
-    {
-      "date": "2026-01-05",
-      "venue": "中山",
-      "race": "初日の出賞",
-      "horses": [
-        {
-          "no": 3,
-          "name": "ダンツファイター",
-          "first_corner": 1,
-          "pos": 1
-        },
-        {
-          "no": 9,
-          "name": "ドゥカート",
-          "first_corner": 5,
-          "pos": 6
-        }
-      ]
-    },
-    {
-      "date": "2025-11-16",
-      "venue": "東京",
-      "race": "ユートピアS",
-      "horses": [
-        {
-          "no": 8,
-          "name": "インヴォーグ",
-          "first_corner": 1,
-          "pos": 4
-        },
-        {
-          "no": 6,
-          "name": "ショウナンサムデイ",
-          "first_corner": 5,
-          "pos": 9
-        }
-      ]
-    }
-  ],
-  "race_class": null,
-  "race_class_rank": null,
-  "race_class_label": null
+  "title": "五稜郭ステークス",
+  "headcount": 13,
+  "draw_fixed": true,
+  "race_class": "3勝クラス",
+  "race_class_rank": 4,
+  "race_class_label": "3勝クラス"
 }
+

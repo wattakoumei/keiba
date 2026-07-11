@@ -1,0 +1,153 @@
+{
+  "race_id": "20260711-fukushima-10",
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "Codex観点fan-outが利用上限で停止したため、JRA由来seed・静的コースカタログ・決定論ツールから縮退再構成。全頭カバーを維持。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "フォルテム",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[B]前走現級5着で好位から崩れず、1400m短縮前の内容は安定"
+      ],
+      "cons": [
+        "[B]1200mの下関Sでは最後方から13着で、短距離の流れに乗れなかった"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "アタリダイキチ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[B]前走2勝クラスを先行押し切り。福島1200mも経験済み"
+      ],
+      "cons": [
+        "[B]昇級で相手強化、福島の前走は7着に留まる"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "ショウナンラスボス",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B]近3走すべて二桁着順"
+      ],
+      "cons": [
+        "[B]8歳かつ近2走連続大敗で上向きの根拠が乏しい"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ズバットマサムネ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B]逃げれば別の形を作れる"
+      ],
+      "cons": [
+        "[B]近4走すべて8着以下で、直近2走は12着・14着"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "スマイルアップ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[B]前走現級3着で、先行して最後まで脚を保った"
+      ],
+      "cons": [
+        "[B]1400mから1200mへの短縮で序盤が忙しくなる可能性"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ロードマイライフ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B]芝1200mでは33秒台の末脚を使える"
+      ],
+      "cons": [
+        "[B]中1週で函館から転戦、現級の近4走は9着以下"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ウナギノボリ",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[B]3月の淀屋橋Sで現級2着の実績"
+      ],
+      "cons": [
+        "[B]その後は14着、15着と後方のまま伸び切れない"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "メイショウヨゾラ",
+      "score": 1.5,
+      "confidence": "中",
+      "pros": [
+        "[B]前走2勝クラスの芝1200mを好位から勝利"
+      ],
+      "cons": [
+        "[B]昇級初戦で現級相手の耐久力は未確認"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "モーデン",
+      "score": 0.5,
+      "confidence": "中",
+      "pros": [
+        "[B]2勝クラスの芝1200m勝ちと現級6着がある"
+      ],
+      "cons": [
+        "[B]前走は東京1400mで13着、8歳で反発力に不安"
+      ],
+      "sources": [
+        "seed.json",
+        "course-geometry.md"
+      ]
+    }
+  ]
+}
+
