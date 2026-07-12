@@ -161,6 +161,54 @@ def build_wide_pairfit_p20(report):
     return build_wide_pairfit_p15(report, floor=0.20)
 
 
+def build_trio_box4_prob(report, floor=0.20):
+    """三連複 エンジン複勝率(place_prob)上位4頭 BOX（4点・全頭 place_prob≥floor）。
+    選定は rank_order（論理の印）でなく place_prob 降順＝エンジン単独の箱。ユーザー目標形「三連複=4頭BOX」の正本。
+    実測(2026-07-12・47R): ROI245.9%・除最大117.3%・的中6/47。印上位4頭BOX(trio_box4)の23.9%を大きく上回る。
+    床0.22に崖（ROI78%へ急落）＝床は0.20固定。keiba-web RaceView.jsx「三連複の箱」が同値ミラー＝床を変えたら両方直す。"""
+    rows = [r for r in report.get("rank", []) if r.get("no") is not None
+            and (r.get("place_prob") or 0) >= floor]
+    rows.sort(key=lambda r: -(r.get("place_prob") or 0))
+    if len(rows) < 4:
+        return []
+    sel = [r["no"] for r in rows[:4]]
+    return sorted(tuple(sorted(c)) for c in itertools.combinations(sel, 3))
+
+
+def build_wide_box3_tri(report, floor=0.15):
+    """ワイド 3頭BOX（pairfit三角形）: wide_pairfit_p15 のペア集合に三角形（3頭の全3ペアが候補）が
+    ある時だけ、place_prob 合計最大の3頭BOX（3点）。ユーザー目標形「ワイド=3頭BOX」の追跡トラック。
+    実測(2026-07-12・17R): ROI107.8%・除最大61.3%＝黒字だが頑健性未達→監視のみ（買い形の実績正本は依然ペア=pairfit_p15）。"""
+    pairs = set(build_wide_pairfit_p15(report, cap=999, floor=floor))
+    if not pairs:
+        return []
+    nos = sorted({n for p in pairs for n in p})
+    pp = {r.get("no"): (r.get("place_prob") or 0) for r in report.get("rank", [])}
+    best, best_s = None, -1.0
+    for tri in itertools.combinations(nos, 3):
+        need = {tuple(sorted(c)) for c in itertools.combinations(tri, 2)}
+        if need <= pairs:
+            s = sum(pp.get(n, 0) for n in tri)
+            if s > best_s:
+                best, best_s = tri, s
+    if not best:
+        return []
+    return sorted(tuple(sorted(c)) for c in itertools.combinations(best, 2))
+
+
+def build_wide_box3_prob(report, floor=0.15):
+    """ワイド 3頭BOX（エンジン複勝率上位3頭・全頭 place_prob≥floor・3点）＝EVゲート用の普遍形。
+    盲買いは実測(2026-07-12・48R) ROI86.5%＝赤字。馬連と同じ扱い＝買うのは /ev-board で EV>1 の時だけ
+    （ユーザー目標形「ワイド=3頭BOX」を全レースで買える形にする経路。ev_board が STRATEGIES 経由で自動列挙）。"""
+    rows = [r for r in report.get("rank", []) if r.get("no") is not None
+            and (r.get("place_prob") or 0) >= floor]
+    rows.sort(key=lambda r: -(r.get("place_prob") or 0))
+    if len(rows) < 3:
+        return []
+    sel = [r["no"] for r in rows[:3]]
+    return sorted(tuple(sorted(c)) for c in itertools.combinations(sel, 2))
+
+
 def build_trio_allfit(report):
     """三連複 展開列が全パターン◎/○（△無し・欠落無し）の馬 BOX（3〜6頭時のみ）。"""
     pats = [p.get("id") for p in (report.get("pace") or {}).get("patterns", []) if p.get("id")]
@@ -185,6 +233,7 @@ STRATEGIES = {
     "trio_box4":      {"bet": "sanrenpuku", "label": "三連複 上位4頭BOX 4点",         "build": build_trio_box4},
     "trio_boxrev":    {"bet": "sanrenpuku", "label": "三連複 本線box_reverse 軸流し",  "build": build_trio_boxrev},
     "trio_boxrev_p20": {"bet": "sanrenpuku", "label": "三連複 boxrev流し p≥20%",      "build": build_trio_boxrev_p20},
+    "trio_box4_p20":  {"bet": "sanrenpuku", "label": "三連複 複勝率上位4頭BOX p≥20%",  "build": build_trio_box4_prob},
     "trio_allfit":    {"bet": "sanrenpuku", "label": "三連複 展開列オール圏内BOX",     "build": build_trio_allfit},
     "wide_hon":       {"bet": "wide",       "label": "ワイド ◎-○ 1点",              "build": build_umaren_hon},
     "wide_nagashi":   {"bet": "wide",       "label": "ワイド ◎-上位2..4位 流し3点",   "build": build_umaren_nagashi},
@@ -192,6 +241,8 @@ STRATEGIES = {
     "wide_pairfit":   {"bet": "wide",       "label": "ワイド 同一パターン◎ペア",      "build": build_wide_pairfit},
     "wide_pairfit_p15": {"bet": "wide",     "label": "ワイド 同パターン◎ペア p≥15%",  "build": build_wide_pairfit_p15},
     "wide_pairfit_p20": {"bet": "wide",     "label": "ワイド 同パターン◎ペア p≥20%",  "build": build_wide_pairfit_p20},
+    "wide_box3_tri":  {"bet": "wide",       "label": "ワイド pairfit三角形3頭BOX",    "build": build_wide_box3_tri},
+    "wide_box3_prob": {"bet": "wide",       "label": "ワイド 複勝率上位3頭BOX(EVゲート用)", "build": build_wide_box3_prob},
 }
 K_OF_BET = {"umaren": 2, "sanrenpuku": 3, "wide": 3}  # wide の k=3 は的中判定（両頭が3着内）用
 
@@ -366,6 +417,24 @@ def self_check():
     ], "pace": {"patterns": [{"id": "α"}]}}
     if build_wide_pairfit_p20(rep_w) != [(1, 2)]:
         errs.append(f"wide_pairfit_p20 不一致: {build_wide_pairfit_p20(rep_w)}")
+    # trio_box4_prob: 床0.20 だと place≥0.20 は {1,2,3} の3頭＝4頭に届かず箱不成立
+    if build_trio_box4_prob(report) != []:
+        errs.append(f"trio_box4_prob 床の効き不発: {build_trio_box4_prob(report)}")
+    # 床0.10 なら {1,2,3,4} の4頭BOX＝C(4,3)=4点（{1,2,3} を含む）
+    t4 = build_trio_box4_prob(report, floor=0.10)
+    if len(t4) != 4 or (1, 2, 3) not in t4:
+        errs.append(f"trio_box4_prob 不一致: {t4}")
+    # wide_box3_tri: fixture 本体はパターン毎の◎が1頭ずつ＝ペア無し→三角形不成立
+    if build_wide_box3_tri(report) != []:
+        errs.append(f"wide_box3_tri 不成立検定NG: {build_wide_box3_tri(report)}")
+    # rep_w は α◎3頭（全員 place≥0.15）＝三角形 {1,2,4} → 3ペアBOX
+    w3 = build_wide_box3_tri(rep_w)
+    if w3 != [(1, 2), (1, 4), (2, 4)]:
+        errs.append(f"wide_box3_tri 不一致: {w3}")
+    # wide_box3_prob: place 上位3頭 {1,2,3} の3ペアBOX（床0.15 で no.4/5 は圏外）
+    w3p = build_wide_box3_prob(report)
+    if w3p != [(1, 2), (1, 3), (2, 3)]:
+        errs.append(f"wide_box3_prob 不一致: {w3p}")
     # 外れ側: 着順を入れ替え payoff 0
     finish2 = {1: 5, 2: 2, 3: 3, 4: 1, 5: 4}
     payouts2 = {"umaren": [{"comb": [2, 4], "yen": 1200}],

@@ -225,6 +225,30 @@ def main():
     print(f"# 論理の並び vs エンジン複勝率順: 食い違い {disagree}頭"
           f"（並びは論理が主＝率順に並べ替えない。engine_check の素）")
 
+    # ◎とエンジン単勝1位の乖離 → 点検シグナルを report に自動記録（I8: 並びは論理が主＝並べ替えない）。
+    # 根拠: コーパス48Rで乖離レースの◎勝率12% vs 一致レース22%（2026-07-12）＝乖離は◎の読み直しの合図。
+    AUTO_SIG = "エンジン点検: 率の単勝1位は◎でなく"
+    notes = report.get("header_notes") or []
+    if logic_order and win:
+        top_no = logic_order[0]
+        eng_top = max(win, key=lambda n: win[n])
+        if top_no is not None and eng_top != top_no:
+            name = next((str(r.get("horse", "")) for r in rank if r.get("no") == eng_top), "")
+            sig = (f"{AUTO_SIG}{eng_top}番{name}。乖離時は◎の勝ち切りが落ちる傾向＝"
+                   f"印確定前に◎の好材料/懸念と展開適合を再検算（並びは論理が主・率で並べ替えはしない）。")
+            if not report.get("engine_check"):
+                report["engine_check"] = sig
+            notes = [n for n in notes if AUTO_SIG not in n] + [sig]
+            report["header_notes"] = notes
+            print(f"⚠ {sig}")
+        else:
+            # 再実行で乖離が解消したら自動シグナルだけ掃除（人手の engine_check は触らない）
+            if isinstance(report.get("engine_check"), str) and report["engine_check"].startswith(AUTO_SIG):
+                report["engine_check"] = None
+            cleaned = [n for n in notes if AUTO_SIG not in n]
+            if cleaned != notes:
+                report["header_notes"] = cleaned
+
     # 欠落観点の検出 → header_notes に警告付記（D4: 速報モード等で観点が落ちると率の精度が劣化）
     # 新馬は観点セット自体が別（A/B/D/G/L は過去走依存＝構造的に無い）＝期待セットを差し替えて誤警告しない。
     # NAR は既定セット A,B,C,D,E,G,I,K,N（F/H/L は情報が薄く任意追加）＝スコア観点は ABCDGIKN を期待。

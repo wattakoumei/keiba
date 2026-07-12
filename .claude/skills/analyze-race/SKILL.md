@@ -337,7 +337,7 @@ return { research: researchResults, paceModel }
 - 出力は **§2 `pace`（複数パターン＋`phase_flow`＋ティア）と §3 `rank`（全馬・印・単勝率/複勝率・`pattern_fit`・展開感度・好材料/懸念）の2本柱。散文%は出さない**（率は数値F・web が×100表示・並びは論理順。`prob`/`pace_level` はログ専用。mermaid・サマリ・観点別ハイライトは持たない）。
 
 骨格を埋めて `report.json` を確定したら**必須4コマンド**（順に。エラーが出たら直してから次へ）:
-1. `python3 tools/inject_probs.py <race-id>` — **単勝率/複勝率を rank[] に注入（I8）**＝score_race を決定論で回し `win_prob`/`place_prob` を全馬に書き戻す。**並びは論理が主＝率順に並べ替えない**。出力の食い違い数を engine_check の素として確認（大きくズレる馬は header_notes に一言）。
+1. `python3 tools/inject_probs.py <race-id>` — **単勝率/複勝率を rank[] に注入（I8）**＝score_race を決定論で回し `win_prob`/`place_prob` を全馬に書き戻す。**並びは論理が主＝率順に並べ替えない**。出力の食い違い数を engine_check の素として確認（大きくズレる馬は header_notes に一言）。**◎とエンジン単勝1位の乖離は自動で `engine_check`/`header_notes` に点検シグナルが入る**（根拠: 乖離レースは◎勝率が落ちる傾向＝48Rで12% vs 一致22%）→ シグナルが出たら書き戻し前に◎の好材料/懸念と展開適合を再検算し、据え置くなら理由を一言添える（並べ替えはしない）。
 2. `python3 tools/validate_report.py <race-id>` — スキーマ＋**I2(%/％)＋I1(市場・予想語=人気/オッズ/配当/払戻/予想印/専門紙/odds/market)**＋**I5 複数パターン必須**＋**全頭カバー（rank=leg_table=field_size・馬番集合一致・int）＋率2カラム(win_prob/place_prob が 0..1・全頭)**のゲート。
 3. `python3 tools/validate_research_bundle.py <race-id>` — **`used_observations` と実 `research-<観点>.json` の対応ゲート（P6＝欠落無検知の塞ぎ）**。観点が使われたのに artifact が無ければエラー＝合成が返り値で通っても欠落を検出する。エラーなら欠落観点を再取得 or 保存し直す。
 4. `python3 tools/project_predictions.py <race-id>` — report.json から `predictions.jsonl` へ pace/rank を**自動投影**（rank レコードに `win_prob`/`place_prob` も載る。review-prediction はこの jsonl を読む。源は report.json 一本＝drift 無し）。

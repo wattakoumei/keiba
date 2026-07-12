@@ -65,7 +65,7 @@
 |---|---|
 | レポートの**列・見た目・分量**（行を増減、列追加、書式） | `output-template.md`（必要なら CLAUDE.md データ配置の1行も） |
 | **単勝率/複勝率の2カラム**（率の算出・描画・注入） | `tools/score_race.py`（win_prob/place_prob の生成＝源）＋ `output-template.md`（rank スキーマ・web描画）＋ `analyze-race/SKILL.md`（race.json組立・注入）＋ I2/I8（`harness-invariants.md`）。**並びは論理が主・率は参考列** |
-| **画面（keiba-web）の見た目・箱組みガイド** | `keiba-web/src/components/RaceView.jsx`（レースページ描画・report.json のみを読む）＋ `keiba-web/src/styles/global.css`。**箱組みガイドのペア抽出条件（◎×複勝率床/cap）の正本は `tools/box_sim.py build_wide_pairfit_p15`**＝JSX は同値ミラー・変えたら両方直す。新レースは report.json を置けば自動で載る（テンプレート化済み・レース個別のweb作業なし） |
+| **画面（keiba-web）の見た目・箱組みガイド** | `keiba-web/src/components/RaceView.jsx`（レースページ描画・report.json のみを読む）＋ `keiba-web/src/styles/global.css`。**箱組みガイドの抽出条件の正本は `tools/box_sim.py`：ワイドペア＝`build_wide_pairfit_p15`（◎×複勝率床0.15/cap8）・三連複＝`build_trio_box4_prob`（複勝率上位4頭BOX・床0.20）**＝JSX は同値ミラー・変えたら両方直す。新レースは report.json を置けば自動で載る（テンプレート化済み・レース個別のweb作業なし） |
 | **不変則**（% / 市場 / mermaid / サマリ等の方針） | `harness-invariants.md` → 各文書のエコーを追従（下記手順） |
 | **観点の調査手順・クエリ・ソース・スコア指針**を1つ調整 | `.claude/agents/obs-<id>.md`（その観点の subagent だけ） |
 | **観点の追加/削除・相別マッピング・グルーピング**（着順の読み筋＝レビューA系の修正先） | `observation-points.md`（追加時は新 `.claude/agents/obs-*.md` ＋ SKILL の `AGENT_OF` も） |

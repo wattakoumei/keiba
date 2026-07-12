@@ -129,32 +129,50 @@ export default function RaceView({ race }) {
       .sort((x, y) => y.pats.length - x.pats.length || y.score - x.score);
   }, [patterns, rank]);
 
-  // 三連複の箱: 本線 box_reverse の center 軸-inside 流し＋inside 複勝率≥20%床。
-  // 抽出条件の正本は tools/box_sim.py build_trio_boxrev_p20（床0.20・cap20）＝同値ミラー。閾値を変えるときは両方直す。
-  const trioBox = useMemo(() => {
-    const brs = pace.box_reverse ?? [];
-    const br = brs.find((b) => String(b.tier ?? '').includes('本線')) || brs[0] || null;
-    if (!br) return null;
-    const pp = Object.fromEntries(rank.map((r) => [r.no, r.place_prob ?? 0]));
-    const centers = (br.center ?? []).filter((n) => n != null);
-    const insideAll = (br.inside ?? []).filter((n) => n != null);
-    const inside = insideAll.filter((n) => pp[n] >= 0.20);
-    if (!centers.length || new Set([...centers, ...inside]).size < 3) return null;
-    const seen = new Set();
-    const combos = [];
-    for (const c of centers) {
-      const pool = [...new Set([...centers, ...inside])].filter((n) => n !== c).sort((a, b) => a - b);
-      for (let i = 0; i < pool.length; i++)
-        for (let j = i + 1; j < pool.length; j++) {
-          const t = [c, pool[i], pool[j]].sort((a, b) => a - b);
-          const key = t.join('-');
-          if (!seen.has(key)) { seen.add(key); combos.push(t); }
-        }
+  // ワイド3頭BOX（pairfit三角形）: ペア候補に三角形（3頭の全3ペアが候補）が成立する時だけ place_prob 合計最大の3頭。
+  // 抽出条件の正本は tools/box_sim.py build_wide_box3_tri（床0.15）＝同値ミラー。監視トラック（頑健性未達）＝表示は参考。
+  const wideTri = useMemo(() => {
+    const pairSet = new Set();
+    for (const p of patterns) {
+      const nos = rank
+        .filter((r) => r.pattern_fit?.[p.id] === '◎' && (r.place_prob ?? 0) >= 0.15)
+        .map((r) => r.no)
+        .sort((a, b) => a - b);
+      for (let i = 0; i < nos.length; i++)
+        for (let j = i + 1; j < nos.length; j++) pairSet.add(`${nos[i]}-${nos[j]}`);
     }
+    const nos = [...new Set([...pairSet].flatMap((k) => k.split('-').map(Number)))].sort((a, b) => a - b);
+    const pp = Object.fromEntries(rank.map((r) => [r.no, r.place_prob ?? 0]));
+    let best = null, bestS = -1;
+    for (let i = 0; i < nos.length; i++)
+      for (let j = i + 1; j < nos.length; j++)
+        for (let k = j + 1; k < nos.length; k++) {
+          const [a, b, c] = [nos[i], nos[j], nos[k]];
+          if (pairSet.has(`${a}-${b}`) && pairSet.has(`${a}-${c}`) && pairSet.has(`${b}-${c}`)) {
+            const s = pp[a] + pp[b] + pp[c];
+            if (s > bestS) { bestS = s; best = [a, b, c]; }
+          }
+        }
+    return best;
+  }, [patterns, rank]);
+
+  // 三連複の箱: エンジン複勝率(place_prob)上位4頭BOX（4点・全頭 複勝率≥20%床）。
+  // 抽出条件の正本は tools/box_sim.py build_trio_box4_prob（床0.20）＝同値ミラー。閾値を変えるときは両方直す。
+  const trioBox = useMemo(() => {
+    const rows = rank
+      .filter((r) => r.no != null && (r.place_prob ?? 0) >= 0.20)
+      .sort((a, b) => (b.place_prob ?? 0) - (a.place_prob ?? 0));
+    if (rows.length < 4) return null;
+    const sel = rows.slice(0, 4);
+    const nos = sel.map((r) => r.no);
+    const combos = [];
+    for (let i = 0; i < 4; i++)
+      for (let j = i + 1; j < 4; j++)
+        for (let k = j + 1; k < 4; k++)
+          combos.push([nos[i], nos[j], nos[k]].sort((a, b) => a - b));
     combos.sort((x, y) => x[0] - y[0] || x[1] - y[1] || x[2] - y[2]);
-    return { pattern: br.pattern, centers, inside, dropped: insideAll.filter((n) => pp[n] < 0.20),
-             combos: combos.slice(0, 20) };
-  }, [pace, rank]);
+    return { sel, combos };
+  }, [rank]);
 
   const tierOf = (id) => (patterns.find((p) => p.id === id) || {}).tier;
   const circ = (no) => (no >= 1 && no <= 20 ? String.fromCharCode(0x2460 + no - 1) : `${no}`);
@@ -282,14 +300,25 @@ export default function RaceView({ race }) {
         <p class="sub">該当ペアなし（同一パターンで◎が2頭揃わないレース。§2の各パターンの「中心◎/圏内○」から人間判断で）。</p>
       )}
 
-      {/* 三連複の箱（本線boxrev軸流し＋inside複勝率20%床。正本=box_sim build_trio_boxrev_p20 の同値ミラー） */}
+      {/* ワイド3頭BOX（三角形成立時のみ。正本=box_sim build_wide_box3_tri の同値ミラー・監視トラック） */}
+      {wideTri && (
+        <p class="sub">
+          ワイド3頭BOX成立: <strong>{wideTri.map(circ).join('・')}</strong>（3頭の全ペアが同時圏内候補＝3点BOXで買える形。実測蓄積中の参考）
+        </p>
+      )}
+
+      {/* 三連複の箱（複勝率上位4頭BOX・全頭20%床。正本=box_sim build_trio_box4_prob の同値ミラー） */}
       {trioBox && (
         <>
-          <h3>三連複の箱（本線{trioBox.pattern} 軸流し・相手は複勝率≥20%）</h3>
+          <h3>三連複の箱（複勝率上位4頭BOX・全頭複勝率≥20%）</h3>
           <p class="sub">
-            軸 {trioBox.centers.map(circ).join('・')} ×
-            相手 {trioBox.inside.map(circ).join('・')} から2頭＝全{trioBox.combos.length}点。
-            {trioBox.dropped.length > 0 && <span class="drop"> 床落ち {trioBox.dropped.map(circ).join('・')}（複勝率20%未満）</span>}
+            {trioBox.sel.map((r, i) => (
+              <span class="nowrap">
+                {i > 0 && ' ・ '}
+                <span class={`mark ${MARK_CLASS[r.mark] || ''}`}>{r.mark}</span>{circ(r.no)}{r.horse}（{pct(r.place_prob)}）
+              </span>
+            ))}
+            の4頭BOX＝4点。
           </p>
           <details class="fold">
             <summary>組み合わせ一覧（{trioBox.combos.length}点）</summary>
