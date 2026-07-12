@@ -30,7 +30,8 @@
     "枠順・騎手・斤量は確定済み。馬場・馬体重・パドックは当日更新対象。",
     "観点並列はローカルCLIの互換性問題で停止。JRA公式seed、静的カタログ、決定論ツールで縮退合成。",
     "win_prob/place_prob は決定論エンジンの参考列。並びは印と行順を主に見る。",
-    "観点欠落(F,H): 調教と当日気配は未反映。"
+    "観点欠落(F,H): 調教と当日気配は未反映。",
+    "当日更新(7/12 13:55): 芝重・クッション値6.2（軟化継続）・当日芝は前残り連発＝前有利。β(先団消耗差し)を対抗→伏線、γ(⑧単騎スロー)を伏線→対抗に付け替え。⑧を注→△(4位)へ、β依存の②⑤を△→注へ。出走取消・騎手変更なし。"
   ],
   "pivot": "⑧が単騎で息を入れられるか、前走逃げた③と④⑨⑩⑬の前付けで先団が消耗するか。",
   "day_board": {
@@ -62,8 +63,8 @@
     "going": [
       {
         "item": "馬場状態",
-        "value": "",
-        "read": "内前が残ればα・γ、差しが続けばβを上げる"
+        "value": "雨・重（クッション値6.2＝金7.7→土7.0→日6.2と軟化継続）。当日芝2/4/5/6Rは逃げ先行の押し切りが続き前有利",
+        "read": "内前が残る当日傾向を確認済み→α・γを上げβを下げた（反映済み）"
       },
       {
         "item": "馬体重",
@@ -329,7 +330,7 @@
       {
         "id": "β",
         "name": "先団消耗で差し浮上",
-        "tier": "対抗",
+        "tier": "伏線",
         "prob": 0.35,
         "trigger": "③が⑧に譲らず、④⑨⑩⑬も前へ寄せる",
         "pace_level": 0.69,
@@ -389,7 +390,7 @@
       {
         "id": "γ",
         "name": "⑧単騎スロー",
-        "tier": "伏線",
+        "tier": "対抗",
         "prob": 0.22,
         "trigger": "③が控え、④⑨も番手で折り合って⑧が単騎",
         "pace_level": 0.36,
@@ -539,8 +540,8 @@
       "intent": "↑",
       "mark": "◎",
       "rank_order": 1,
-      "win_prob": 0.1628,
-      "place_prob": 0.4428,
+      "win_prob": 0.1839,
+      "place_prob": 0.4848,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
@@ -579,8 +580,8 @@
       "intent": "→",
       "mark": "◯",
       "rank_order": 2,
-      "win_prob": 0.1514,
-      "place_prob": 0.4211,
+      "win_prob": 0.1689,
+      "place_prob": 0.4613,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
@@ -619,8 +620,8 @@
       "intent": "↑",
       "mark": "▲",
       "rank_order": 3,
-      "win_prob": 0.0904,
-      "place_prob": 0.2737,
+      "win_prob": 0.0871,
+      "place_prob": 0.2647,
       "leg_type": "差",
       "pattern_fit": {
         "α": "◎",
@@ -649,6 +650,41 @@
       ]
     },
     {
+      "no": 8,
+      "gate": "5",
+      "horse": "ストレイトトーカー",
+      "jockey": "横山 武史",
+      "trainer": "岩戸 孝樹",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.1036,
+      "place_prob": 0.3164,
+      "leg_type": "逃",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "γ昇格の当日馬場で逃げ残り筆頭格。αでも残り目、βのみ被害馬。",
+      "pros": [
+        {
+          "tag": "E",
+          "note": "唯一の明確な逃げ脚質で展開の主導権を握る。"
+        },
+        {
+          "tag": "K",
+          "note": "横山武史騎手との組み合わせで逃げ切り歴。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "前走エプソムCは逃げて16着。③らに絡まれるβでは余力を失う。"
+        }
+      ]
+    },
+    {
       "no": 14,
       "gate": "8",
       "horse": "リラボニート",
@@ -657,9 +693,9 @@
       "jockey_change": "乗替",
       "intent": "↑",
       "mark": "△",
-      "rank_order": 4,
-      "win_prob": 0.0968,
-      "place_prob": 0.2901,
+      "rank_order": 5,
+      "win_prob": 0.0937,
+      "place_prob": 0.2812,
       "leg_type": "差",
       "pattern_fit": {
         "β": "◎"
@@ -694,10 +730,10 @@
       "trainer": "新谷 功一",
       "jockey_change": "乗替",
       "intent": "→",
-      "mark": "△",
-      "rank_order": 5,
-      "win_prob": 0.0683,
-      "place_prob": 0.2127,
+      "mark": "注",
+      "rank_order": 6,
+      "win_prob": 0.0651,
+      "place_prob": 0.2053,
       "leg_type": "差",
       "pattern_fit": {
         "β": "◎"
@@ -721,41 +757,6 @@
       ]
     },
     {
-      "no": 8,
-      "gate": "5",
-      "horse": "ストレイトトーカー",
-      "jockey": "横山 武史",
-      "trainer": "岩戸 孝樹",
-      "jockey_change": "乗替",
-      "intent": "→",
-      "mark": "注",
-      "rank_order": 6,
-      "win_prob": 0.1055,
-      "place_prob": 0.3137,
-      "leg_type": "逃",
-      "pattern_fit": {
-        "α": "○",
-        "γ": "◎"
-      },
-      "pace_sensitivity": "γなら逃げ残り中心、αでも残り目。βでは先団消耗の主な被害馬。",
-      "pros": [
-        {
-          "tag": "E",
-          "note": "唯一の明確な逃げ脚質で展開の主導権を握る。"
-        },
-        {
-          "tag": "K",
-          "note": "横山武史騎手との組み合わせで逃げ切り歴。"
-        }
-      ],
-      "cons": [
-        {
-          "tag": "B",
-          "note": "前走エプソムCは逃げて16着。③らに絡まれるβでは余力を失う。"
-        }
-      ]
-    },
-    {
       "no": 5,
       "gate": "4",
       "horse": "キョウエイブリッサ",
@@ -763,10 +764,10 @@
       "trainer": "武市 康男",
       "jockey_change": "乗替",
       "intent": "→",
-      "mark": "△",
+      "mark": "注",
       "rank_order": 7,
-      "win_prob": 0.0747,
-      "place_prob": 0.2305,
+      "win_prob": 0.0718,
+      "place_prob": 0.2235,
       "leg_type": "差",
       "pattern_fit": {
         "β": "○"
@@ -802,8 +803,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 8,
-      "win_prob": 0.0511,
-      "place_prob": 0.163,
+      "win_prob": 0.0473,
+      "place_prob": 0.1542,
       "leg_type": "差",
       "pattern_fit": {
         "α": "○",
@@ -841,8 +842,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 9,
-      "win_prob": 0.0486,
-      "place_prob": 0.1578,
+      "win_prob": 0.0468,
+      "place_prob": 0.1592,
       "leg_type": "先",
       "pattern_fit": {
         "α": "○",
@@ -876,8 +877,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 10,
-      "win_prob": 0.0356,
-      "place_prob": 0.1159,
+      "win_prob": 0.0321,
+      "place_prob": 0.1073,
       "leg_type": "差",
       "pattern_fit": {
         "β": "○"
@@ -922,8 +923,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 11,
-      "win_prob": 0.0333,
-      "place_prob": 0.1101,
+      "win_prob": 0.0308,
+      "place_prob": 0.1067,
       "leg_type": "先",
       "pattern_fit": {
         "γ": "○"
@@ -964,8 +965,8 @@
       "intent": "↓",
       "mark": "×",
       "rank_order": 12,
-      "win_prob": 0.0257,
-      "place_prob": 0.0843,
+      "win_prob": 0.0204,
+      "place_prob": 0.0689,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -1010,8 +1011,8 @@
       "intent": "↓",
       "mark": "×",
       "rank_order": 13,
-      "win_prob": 0.0238,
-      "place_prob": 0.0784,
+      "win_prob": 0.019,
+      "place_prob": 0.0643,
       "leg_type": "追",
       "pattern_fit": {},
       "pace_sensitivity": "βでも近走下降と59kgを覆す材料が薄い。",
@@ -1045,8 +1046,8 @@
       "intent": "↓",
       "mark": "×",
       "rank_order": 14,
-      "win_prob": 0.032,
-      "place_prob": 0.106,
+      "win_prob": 0.0295,
+      "place_prob": 0.1022,
       "leg_type": "先",
       "pattern_fit": {
         "γ": "○"

@@ -1,0 +1,990 @@
+/* ------------------------------------------------------------
+
+	馬場情報
+
+------------------------------------------------------------ */
+$(function(){
+	(function(){
+        
+        /* - A・B・C場の取得
+        -------------------------------------------------------------------------------- */
+        var _curRC = 'rcA';//--- 場ID
+        var _jo = 'A';//--- 場
+        
+        function checkRC(){
+            if($('#baba').data('current-course')){
+                _jo = $('#baba').data('current-course');
+                _curRC = 'rc' + $('#baba').data('current-course');
+            }
+        }
+        
+        checkRC();
+        
+        
+        /* - 馬場状態の取得
+        -------------------------------------------------------------------------------- */
+        var _c_flag = ($('#course_condition').data('loading') == 'on')? true : false;//--- 読み込みフラグ
+        
+        var _json = '';
+        
+        function check_json(){
+            
+            var _j = '/JRADB/accessJ.html';
+            
+            $.ajaxSetup({ cache: false });
+            
+            $.ajax({
+                url: _j,
+                type: 'POST',
+                dataType: 'json',
+                data:{CNAME:'pw01iwtS3/CD'},
+                beforeSend: function(data){ data.overrideMimeType("text/html;charset=Shift_JIS"); },
+                timeout: 10000
+            }).done(function(data, status, xhr){
+                if(data['kaisai_info'].length > 0){
+                    _json = data['kaisai_info'];
+                    set_course_condition();
+                } else {
+                    if($('#course_condition').length>0){ $('#course_condition').remove(); }
+                }
+            }).fail(function(xhr, status, error){
+                //console.log('--- error ---');
+                //console.log('xhr : ', xhr);
+                //console.log('status : ', status);
+                //console.log('error : ', error);
+                if($('#course_condition').length>0){ $('#course_condition').remove(); }
+            });
+        }
+        
+        
+        if(_c_flag){
+            check_json();
+            set_reload_btn();
+        } else {
+            $('#course_condition > .grid').addClass('on');
+        }
+        
+        //--- 馬場状態の設定
+        function set_course_condition(){
+            
+            if(is_sort_data(_jo)){//--- 指定場のjsonデータがある場合
+                
+                var _j = get_sort_data(_jo)[0];//--- json内の指定場のデータを取得
+                
+                //--- 月日
+                var _ymd = _j['kaisai_ymd'];
+                var _y = Number(_ymd.substr(0,4));
+                var _m = Number(_ymd.substr(4,2));
+                var _d = Number(_ymd.substr(6,2));
+                var _ymd_str = '（' + _y + '年' + _m + '月' + _d + '日）';
+                
+                $('#course_condition > .block_header > .content > .main .time').text(_ymd_str);
+                
+                //--- 天候
+                var _w = _j['weather'];
+                var _w_html = '';
+                
+                if(_w != ''){
+                    _w_html = '<div class="weather ' + get_weather_class(_w) + '"><div class="inner"><div class="cell img"><img src="/keiba/baba/_img/weather/' + get_weather_img(_w) + '" alt=""></div><div class="cell txt">天候：<strong>' + _w + '</strong></div></div></div>';
+                    
+                    $('#course_condition > .grid > .cell.weather').contents().remove();
+                    $('#course_condition > .grid > .cell.weather').append($(_w_html));
+                    
+                } else {//--- 天候がnullの時
+                    $('#course_condition > .grid > .cell.weather .weather > .inner > .cell.txt').text('-');
+                }
+                
+                //--- 馬場情報
+                $('#course_condition > .grid > .cell.turf > ul.data_line_list > li > div.data_list_unit > .content > p').text(_j['ba_s']);
+                $('#course_condition > .grid > .cell.dirt > ul.data_line_list > li > div.data_list_unit > .content > p').text(_j['ba_d']);
+                
+            } else {//--- 指定場のjsonデータがない場合（非表示にする）
+                if($('#course_condition').length>0){ $('#course_condition').remove(); }
+            }
+            
+            $('#course_condition > .grid').addClass('on');
+        }
+        
+        //--- json連想配列内の「sort」プロパティチェック（返り値：true｜false）
+        function is_sort_data(x){
+            var is_in = function(el, index, array){
+                return (el.sort && el.sort === x);
+            };
+            //console.log(_json.some(is_in));
+            return _json.some(is_in);
+        }
+        
+        //--- 指定場のjsonを抜き出し
+        function get_sort_data(x){
+            var filtered = $.grep(_json, function(ele, index){
+                return (ele.sort == x);
+            });
+            return filtered;
+        }
+        
+        //--- 更新ボタンの設定
+        function set_reload_btn(){
+            
+            var _btn = '<span class="btn_reload"><a href="#" class="btn-def btn-sm btn-narrow blue"><i class="fa fa-repeat" aria-hidden="true"></i>更新</a></span>';
+            
+            $('#course_condition > .block_header > .content > .main h3').append($(_btn));
+            
+            $('#course_condition > .block_header > .content > div.main > h3 > .btn_reload > a').on('click', function(){
+                condition_info_init();
+                return false;
+            });
+        }
+        
+        //--- 馬場状態表示のリセット
+        function condition_info_init(){
+            $('#course_condition > .grid').removeClass('on');
+            $('#course_condition > .grid > .cell.weather').contents().remove();
+            $('#course_condition > .grid > .cell.turf > ul.data_line_list > li > div.data_list_unit > .content > p').text('');
+            $('#course_condition > .grid > .cell.dirt > ul.data_line_list > li > div.data_list_unit > .content > p').text('');
+            
+            check_json();
+        }
+        
+        
+        //--- 天候データから画像名の取得
+        function get_weather_img(w){
+            switch(w){
+                case '晴': return 'icon_weather_sunny.png'; break;
+                case '曇': return 'icon_weather_cloudy.png'; break;
+                case '小雨': return 'icon_weather_light_rain.png'; break;
+                case '雨': return 'icon_weather_rain.png'; break;
+                case '雪': return 'icon_weather_snow.png'; break;
+                case '小雪': return 'icon_weather_light_snow.png'; break;
+            }
+        }
+        
+        //--- 天候データからクラス名の取得
+        function get_weather_class(w){
+            switch(w){
+                case '晴': return 'sunny'; break;
+                case '曇': return 'cloudy'; break;
+                case '小雨': return 'light_rain'; break;
+                case '雨': return 'rain'; break;
+                case '雪': return 'snow'; break;
+                case '小雪': return 'light_snow'; break;
+            }
+        }
+        
+        
+		/* - 芝コースの様子
+        -------------------------------------------------------------------------------- */
+        var _btn_slide_prev = '<img src="/keiba/baba/_img/pic_slider_pager.png" alt="前の画像に戻る" /><div aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>';
+        var _btn_slide_next = '<img src="/keiba/baba/_img/pic_slider_pager.png" alt="次の画像に進む" /><div aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>';
+        
+        function init_main_slide(){
+            
+            var _slide_parent = $('#turf_slide');
+            var _slide = _slide_parent.find('.slider');
+            var _auto_flag = true;
+            
+            _slide.on('init', function(e, slick){
+                
+                var _slides = slick['$slides'];
+                
+                if(_slides.length < 2){//--- 1枚のときはカウンターを非表示
+                    $('#slider_control > .content > .cell.counter').remove();
+                    _auto_flag = false;
+                }
+                
+                for(var i=0;i<_slides.length;i++){
+                    //--- context-limit（右クリック禁止）
+                    if($(_slides[i]).data('context-limit') == 'on'){
+                        $(_slides[i]).find('a').on('contextmenu drag', function(e){ return false; });
+                        
+                        $(_slides[i]).find('img').on('contextmenu drag', function(e){ return false; }).attr('draggable', false);
+                        
+                        $(_slides[i]).find('img').css({
+                            'pointer-events':'none',//iphone
+                            '-webkit-touch-callout':'none',
+                            '-webkit-user-select':'none',
+                            '-moz-touch-callout':'none',
+                            '-moz-user-select':'none',
+                            'touch-callout':'none',
+                            'user-select':'none'
+                        });
+                    }
+                }
+                
+                //--- カウンター
+                var _counter = $('#slider_control > .content > .cell.counter');
+                var _c_current = _counter.find('.current');
+                var _c_total = _counter.find('.total');
+                
+                _c_current.text(slick.currentSlide + 1);
+                _c_total.text(slick.slideCount);
+
+                if(_auto_flag){
+                    //--- 再生・停止ボタン
+                    $('#turf_slide > .inner').prepend('<div class="btn"><a href="#"><span class="play"><i class="fa fa-play" title="再生"></i></span><span class="stop"><i class="fa fa-pause" title="停止"></i></span></a></div>');
+
+                    var _auto_btn = $('#turf_slide > .inner > .btn');
+
+                    _auto_btn.find('a').on('click', function(){
+                        
+                        if(_auto_flag){
+                            slick.slickPause();
+                            _auto_flag = false;
+                            _auto_btn.addClass('on');
+                        } else {
+                            slick.slickPlay();
+                            _auto_flag = true;
+                            _auto_btn.removeClass('on');
+                        }
+                        
+                        return false;
+                    });
+                }
+                
+                
+                _slide.on('afterChange', function(e, slick){
+                    
+                });
+                
+                _slide.on('beforeChange', function(e, slick, currentSlide, nextSlide){
+                    $(slick.$slides[slick.currentSlide]).find('img').addClass('on');
+                    $(slick.$slides[slick.currentSlide]).siblings().find('img').removeClass('on');
+                    
+                    var _cap = $(_slides[nextSlide]).find('img').attr('alt');
+                    $('#slider_control > .content > .cell.caps').text(_cap);
+                    _c_current.text((nextSlide + 1));
+                });
+                
+                var _img_cap = $(_slides[0]).find('img').attr('alt');
+                $('#slider_control > .content > .cell.caps').text(_img_cap);
+                $('#slider_control > .content > .cell.arrow.next').append($('#slider_control > .content > .cell.arrow.prev > .arrow.next'));
+                
+            }).slick({
+                accessibility: false,
+                autoplay: _auto_flag,
+                dots: false,
+                arrows: true,
+                appendArrows: $('#slider_control > .content > .cell.arrow.prev'),
+                prevArrow: '<div class="arrow prev"><a href="#" tabindex="0" class="slick-prev" onclick="return false;"><img src="/keiba/baba/_img/pic_slider_pager.png" alt="前の画像に戻る" /><span><i class="fa fa-chevron-left" aria-hidden="true"></i></span></a></div>',
+                nextArrow: '<div class="arrow next"><a href="#" tabindex="0" class="slick-next" onclick="return false;"><img src="/keiba/baba/_img/pic_slider_pager.png" alt="次の画像に進む" /><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></div>',
+                focusOnSelect: true,
+                speed: 1000,
+                autoplaySpeed: 6400,
+                fade: true,
+                //respondTo: 'slider',
+                responsive: 'none'
+            });
+            
+        }
+        
+        init_main_slide();
+        
+        
+        /* - 含水率
+        -------------------------------------------------------------------------------- */
+        function get_moist_data(){
+            
+            $.ajaxSetup({ cache: false });
+            
+            $.ajax({
+				url: '_data_moist.html',
+				dataType: 'html',
+				cache : false,
+                beforeSend: function(data){ data.overrideMimeType("text/html;charset=Shift_JIS"); }
+			}).done(function(data) {
+				
+				if($(data).length > 0){//--- _moist_data.htmlのデータがあれば
+					
+                    _moist_data = new Array();
+                    
+                    var _id = '#' + _curRC;
+                    var _m_list = $(data).find(_id).children('.unit');
+
+					var name	= $(data).find(_id).attr('title');
+                    if(_m_list.length>0){
+
+                        _m_list.each(function(){
+                            
+                            var _self		= $(this);
+                            var _time		= _self.children('.time').text();
+
+                            var _turf 		= _self.children('.turf');
+                            var _turf_g 	= _turf.children('.mg').text();
+                            var _turf_4c 	= _turf.children('.m4c').text();
+                            var _turf_g_c 	= _turf.children('.mg').data("condition");
+                            var _turf_4c_c 	= _turf.children('.m4c').data("condition");
+
+                            var _turf_img 	= _turf.children('.img').contents();
+                            var _t 			= [{ "g": _turf_g, "4c": _turf_4c, "img": _turf_img ,"g_m":_turf_g_c,"4c_m":_turf_4c_c}];
+                            
+                            var _dirt 		= _self.children('.dirt');
+                            var _dirt_g 	= _dirt.children('.mg').text();
+                            var _dirt_4c 	= _dirt.children('.m4c').text();
+                            var _dirt_img 	= _dirt.children('.img').contents();
+                            var _dirt_g_c 	= _dirt.children('.mg').data("condition");
+                            var _dirt_4c_c 	= _dirt.children('.m4c').data("condition");
+                            var _d 			= [{ "g": _dirt_g, "4c": _dirt_4c, "img": _dirt_img ,"g_m":_dirt_g_c,"4c_m":_dirt_4c_c}];
+
+							var caution		= "";
+							if(_self.children('.moist_caution').prop('outerHTML')){
+							var caution		= _self.children('.moist_caution').prop('outerHTML');
+							}
+                            var _o			= { "time": _time, "turf": _t, "dirt": _d ,"name" : name ,"caution" : caution};
+                            
+                            _moist_data.push(_o);
+                        });
+                        
+                        set_moist_data();
+                        
+                    } else {
+                        $('#moist_data').remove();
+                    }
+                    
+				} else {
+                    $('#moist_data').remove();
+                }
+                
+			}).fail(function(data) {
+				//console.log('error : ', data);
+			});
+            
+        }
+        
+        get_moist_data();
+        
+        //--- 含水率のリセット
+        function reset_moist_data(){
+            //$('#moist_rain').contents().remove();
+            $('#turf_line > td.gm').contents().remove();
+            $('#turf_line > td.c4').contents().remove();
+            $('#dirt_line > td.gm').contents().remove();
+            $('#dirt_line > td.c4').contents().remove();
+            
+            $('#moist_graph .img_line_list').removeClass('on');
+            $('#moist_graph .img_line_list > .item .img').contents().remove();
+
+        }
+        
+        //--- 含水率 測定時刻の変更ボタンの設定
+        function init_moist_btn(){
+            
+            $('#btn_moist').on('click', function(){
+                
+                reset_moist_data();
+
+                var _num = $('#moist_list').val();
+                var _m = _moist_data[_num];
+
+				set_moist_graph(_num);
+
+                //--- 芝
+                var _turf_g 	= _m['turf'][0]['g'];
+                var _turf_4c 	= _m['turf'][0]['4c'];
+                
+                $('#turf_line > td.gm').text(_turf_g + '%');
+                $('#turf_line > td.c4').text(_turf_4c + '%');
+
+                $('#moist_graph .img_line_list > .item.turf .img').append(_m['turf'][0]['img']);
+                
+                //--- ダート
+                var _dirt_g 	= _m['dirt'][0]['g'];
+                var _dirt_4c 	= _m['dirt'][0]['4c'];
+                
+                $('#dirt_line > td.gm').text(_dirt_g + '%');
+                $('#dirt_line > td.c4').text(_dirt_4c + '%');
+
+                $('#moist_graph .img_line_list > .item.dirt .img').append(_m['dirt'][0]['img']);
+                
+                $('#moist_graph .img_line_list').addClass('on');
+                mark_animation();
+                return false;
+
+            });
+            
+            //$('#btn_moist').click();
+            $('#btn_moist').trigger('click');
+        }
+        
+        //--- 含水率の測定時刻リストメニューの設定
+        function set_moist_data(){
+            
+            $('#moist_list').find('option').remove();
+            
+            var _opt_html = '';
+            
+            for(var i=0;i<_moist_data.length;i++){
+                var _time = _moist_data[i]['time'];
+                var _time_str = (i==0)? '<option value="' + i + '" selected="selected">' + _time + '</option>\n' : '<option value="' + i + '">' + _time + '</option>\n';
+                _opt_html += _time_str;
+            }
+
+            $('#moist_list').append($(_opt_html));
+            
+            init_moist_btn();
+        }
+        
+         /* - 含水率表
+        -------------------------------------------------------------------------------- */
+		function set_moist_graph(_num){
+
+			var _m			= _moist_data[_num];
+
+			//---表共通部分
+			var _time		= _m['time'];
+			var _g_time_pre = _time.match(/(\d{1,})(時)(\d{2})(分)$/i);
+			$('#moist_graph .time span').text(_g_time_pre[0]);
+			$("#moist_graph .content .moist_caution").remove();
+			$("#moist_graph .content").append(_m['caution']);
+
+			var _name		= _m['name'];
+
+			//--- 芝
+			var _turf_g		= _m['turf'][0]['g'];
+			var _turf_4c 	= _m['turf'][0]['4c'];
+			
+
+			//--- ダート
+			var _dirt_g		= _m['dirt'][0]['g'];
+			var _dirt_4c	= _m['dirt'][0]['4c'];
+
+
+			//--- グラフ目盛	rowspan使用のため、最初と最後以外は-1
+			var _g_sc	= [];
+			_g_sc[1] = [6,7,9,11,13,15];
+			_g_sc[2] = [6,8,11,14,18];
+			_g_sc[3] = [7,8,11,14,17,19];
+			_g_sc[4] = [8,11,14,17,20];
+			_g_sc[5] = [9,11,14,17,21];
+			_g_sc[6] = [10,11,14,17,20,23];
+			_g_sc[7] = [0,4,9,14,20];
+
+			var _g_g	= new Array() ;
+			_g_g['札幌'] = 5;
+			_g_g['函館'] = 5;
+			_g_g['福島'] = 4;
+			_g_g['新潟'] = 5;
+			_g_g['中山'] = 3;
+			_g_g['東京'] = 6;
+			_g_g['中京'] = 4;
+			_g_g['京都'] = 2;
+			_g_g['阪神'] = 4;
+			_g_g['小倉'] = 1;
+			_g_g['dirt'] = 7;
+
+			var _g_ac	= [];
+			//--- 良,稍重,重,不良
+			//--- 15以下,14から18,17から21,20以上
+			_g_ac['札幌'] = ['15','14-18','17-21','20'];
+			_g_ac['函館'] = ['15','14-18','17-21','20'];
+			_g_ac['福島'] = ['15','13-17','15-19','17'];
+			_g_ac['新潟'] = ['15','13-17','15-19','17'];
+			_g_ac['中山'] = ['13','11-15','14-18','17'];
+			_g_ac['東京'] = ['19','17-21','18-23','20'];
+			_g_ac['中京'] = ['14','12-16','14-17','16'];
+			_g_ac['京都'] = ['13','11-14','13-16','14'];
+			_g_ac['阪神'] = ['14','12-16','14-18','16'];
+			_g_ac['小倉']	= ['10','8-12','10-14','12'];
+			_g_ac['dirt'] = ['9','7-13','11-16','14'];
+
+			//---表示内容設定
+			var target_graph_data										= [_name,"dirt"];
+			var target_maker_key										= ["gm","c4"];
+			var target_maker_key_jp										= {"gm":"ゴール前","c4":"4コーナー"};
+
+			//	芝・ダート別のマーカ表示場所
+			var t_gm = _m['turf'][0]['g_m'];
+			var t_c4 = _m['turf'][0]['4c_m'];
+			var d_gm = _m['dirt'][0]['g_m'];
+			var d_c4 = _m['dirt'][0]['4c_m'];
+
+			var target_maker											= {
+				'_gm'			: [t_gm,_turf_g.split('.')[0],_turf_g.split('.')[1] ],
+				'_c4'			: [t_c4,_turf_4c.split('.')[0],_turf_4c.split('.')[1]],
+				'dirt_gm'		: [d_gm,_dirt_g.split('.')[0],_dirt_g.split('.')[1]],
+				'dirt_c4'		: [d_c4,_dirt_4c.split('.')[0],_dirt_4c.split('.')[1]]
+			};
+
+
+				var class_base_jp		= [];
+				class_base_jp['hard']	= "良";
+				class_base_jp['wet']	= "稍重";
+				class_base_jp['soft']	= "重";
+				class_base_jp['heavy']	= "不良";
+
+
+
+			for (const g_name of target_graph_data) {
+
+				//--- 表
+				if(_g_g[g_name]){
+					
+					var tm	= _g_g[g_name];
+					
+					//	目盛の取得
+					var start_num	= _g_sc[tm][0];
+					var last_num	= _g_sc[tm].slice(-1)[0];
+					var total_num	= last_num - start_num + 1;
+
+
+					//	競馬場別馬場状態と含水率の取得
+					var tm_list			= _g_ac[g_name];
+	
+					var class_base		= [];
+					class_base['hard']	= [start_num,(_g_ac[g_name][0]-1)];
+					class_base['wet']	= [_g_ac[g_name][1].split('-')[0],(_g_ac[g_name][1].split('-')[1] - 1)];
+					class_base['soft']	= [_g_ac[g_name][2].split('-')[0],(_g_ac[g_name][2].split('-')[1] - 1)];
+					class_base['heavy']	= [_g_ac[g_name][3], last_num];
+	
+
+					var g_turf	= "";
+					var counter	= 0;
+					var darker_switch	= "";
+					darker_switch	= Math.round(_g_sc[tm].length / 2)
+					for(var i = start_num; i <= last_num; i++){
+						
+						var row_s	= 0;
+						var s_num	= "";
+						
+						//	目盛
+						if(_g_sc[tm].indexOf(i) != -1){
+						
+							if(g_name != 'dirt' && ( i === start_num || i === last_num)){
+							//	最初
+								s_num	= "乾燥";
+								if(i === last_num){
+								//	最後
+								s_num	= "湿潤";
+								}
+
+								row_s	= 3;
+
+							}else if(g_name == 'dirt' && i === start_num ){
+								s_num	= "乾燥";
+								row_s	= 4;
+							}else{
+							//	その他
+								row_s	= 2;
+								s_num	= i+1;
+							}
+							counter++;
+						}
+
+						//	ダートのメモリ調整のために
+						if(g_name == 'dirt' &&  (i+1) === last_num){
+							s_num	= "湿潤";
+							row_s	= 4;
+						}else if( g_name == 'dirt' && i === last_num){
+							row_s	= 5;
+						}
+
+						var add_tr_class	= '';
+						if( i> (_g_sc[tm][darker_switch-1] -1)){
+							add_tr_class	= ' class="title_middle"';
+						}						
+						if( i> (_g_sc[tm][darker_switch] -1)){
+							add_tr_class	= ' class="title_dark"';
+						}
+						g_turf	+= '<tr data="'+i+'"'+ add_tr_class +'>';
+	
+						//	THの切り替え
+						if(row_s	=== 2 ){
+
+							g_turf	+= '<th rowspan="2">'+s_num+'%</th>';
+
+						}else if(row_s	=== 4){
+	
+							g_turf	+= '<th rowspan="2">'+s_num+'</th>';
+	
+						}else if(row_s	=== 5){
+							g_turf	+= '';
+						}else{
+	
+							var border_num = (_g_sc[tm][counter - 1] +1);
+	
+							if(border_num != i || (g_name != 'dirt' && (start_num + 1) == i)){
+								g_turf	+= '<th>'+s_num+'</th>';
+							}
+	
+						}
+
+						//	tdにふるクラス作成
+						var cl		= [];
+						var marker		= [];
+
+						Object.keys(class_base).forEach(function (key) {
+							if( i >= class_base[key][0] && class_base[key][1] >= i){
+								cl[key]	= "contain";
+		
+								if(class_base[key][0] == i){
+									cl[key] += ' start';
+								}else if(class_base[key][1] == i){
+									cl[key] += ' end';
+								}
+							}
+
+						marker[key]	= "";
+
+						for (const pin_key of target_maker_key) {
+							
+							var s_pin	= "_" + pin_key;
+							if(g_name == "dirt"){
+								s_pin	= g_name +"_" + pin_key;
+							}
+								
+							if(target_maker[s_pin] && target_maker[s_pin][0] == key && target_maker[s_pin][1] == i){
+
+								var set_top	= ((300 /total_num) / 10) * target_maker[s_pin][2];
+
+								marker[key]	+= '<span class="mark '+ pin_key +'" style="top:'+ set_top +'px;"></span>';
+							}
+
+						}
+
+						if(!cl[key]){
+							cl[key]	= "";
+						}
+
+						g_turf	+= '<td class="'+ key +' '+ cl[key] +'" >'+ marker[key] +'</td>';
+			
+						});
+	
+						g_turf	+= '</tr>';
+	
+					}
+
+					//	対象表種類の指定
+					var target_tbody	= $('#moist_graph .turf .moist_graph_info tbody');
+					if(g_name == "dirt"){ 
+						target_tbody	= $('#moist_graph .dirt .moist_graph_info tbody');
+					}
+
+					target_tbody.contents().remove();
+					target_tbody.append(g_turf);
+
+					for (var i = 0; i < total_num; i++) {
+						target_tbody.children("tr")[i].style.height = 'calc(300px / '+ total_num +')';
+					}
+
+					//	マーカー微調整
+					var set_marker	= target_tbody.children().children().children('.mark');
+
+					for (var i = 0; i < set_marker.length; i++) {
+						var m_height	= (set_marker.eq(i).innerHeight() / 2);
+						var m_top		= parseInt(set_marker[i].style.top);
+						set_marker[i].style.top	= (m_top - m_height) +'px';
+					}
+					//	小倉芝のみ目盛を3
+					var sc_class = "";
+					if(g_name == "小倉"){ sc_class ="sc_3"; }else if(g_name != "dirt"){ sc_class ="sc_4";}
+
+					target_tbody.parents("table").addClass(sc_class);
+
+
+				}
+			}
+
+			
+		}
+
+
+		/*	-含水量表示時にアニメーションをスタート
+        -------------------------------------------------------------------------------- */
+		$(window).on('scroll', function() {
+			mark_animation();
+		});
+
+		function mark_animation(){
+			$('span.mark').each(function() { // .js-scrollというクラスが付いている要素に対して
+				var elemPosition = $(this).offset().top,
+					windowHeight = $(window).height(),
+					scroll = $(window).scrollTop();
+				
+				//if (scroll > elemPosition - windowHeight + windowHeight / 5) {
+					if (scroll > elemPosition - windowHeight){
+					$(this).addClass('is-animated'); 
+				}else{
+					$(this).removeClass('is-animated'); 
+				}
+			});
+		}
+
+        /* - 芝のクッション値
+        -------------------------------------------------------------------------------- */
+        var _cushion_data = new Array();
+        
+        function get_cushion_data(){
+            
+            $.ajaxSetup({ cache: false });
+            
+            $.ajax({
+				url: '_data_cushion.html',
+				dataType: 'html',
+				cache : false,
+                beforeSend: function(data){ data.overrideMimeType("text/html;charset=Shift_JIS"); }
+			}).done(function(data) {
+				
+				if($(data).length > 0){//--- _data_cushion.htmlのデータがあれば
+					
+                    _cushion_data = new Array();
+                    
+                    var _id = '#' + _curRC;
+                    var _c_list = $(data).find(_id).children('.unit');
+                    
+                    if(_c_list.length>0){
+                        _c_list.each(function(){
+                            
+                            var _self = $(this);
+                            var _time = _self.children('.time').text();
+                            //var _rain = _self.children('.rain').text();
+                            var _cushion = _self.children('.cushion').text();
+                            
+                            //var _o = { "time": _time, "rain": _rain, "cushion": _cushion };
+                            var _o = { "time": _time, "cushion": _cushion };
+                            
+                            _cushion_data.push(_o);
+                            
+                        });
+                        
+                        set_cushion_data();
+                        
+                    } else {
+                        $('#cushion_data').remove();
+                    }
+                    
+				} else {
+                    $('#cushion_data').remove();
+                }
+                
+			}).fail(function(data) {
+				//console.log('error : ', data);
+			});
+            
+        }
+        
+        get_cushion_data();
+        
+        //--- 芝のクッション値のリセット
+        function reset_cushion_data(){
+            //$('#cushion_rain').contents().remove();
+            $('#cushion_num > p > strong').text('');
+        }
+        
+        //--- 芝のクッション値 測定時刻の変更ボタンの設定
+        function init_cushion_btn(){
+            
+            $('#btn_cushion').on('click', function(){
+                
+                reset_cushion_data();
+                
+                var _num = $('#cushion_list').val();
+                var _m = _cushion_data[_num];
+                
+                /*var _rain = _m['rain'];
+                var _rain_str = '<p><strong>' + _rain + '</strong><span class="unit">ミリメートル</span></p>';
+                $('#cushion_rain').append($(_rain_str));*/
+                
+                var _c = _m['cushion'];
+                $('#cushion_num > p > strong').text(_c);
+                $('#cushion_data .cushion_unit .graph > .point').text(_c);
+                
+                var _c_pos = 0;
+                
+                _c_pos = (Number(_c)<8)? (6 - _c) * 20 + 100 : (14 - _c) * 10;
+                
+                if(Number(_c)<6){ _c_pos = 100; }
+                if(Number(_c)>=14){ _c_pos = 0; }
+                
+                $('#cushion_data .cushion_unit > .graph > .point').css({'left': _c_pos + '%'});
+                
+                return false;
+            });
+            
+            //$('#btn_cushion').click();
+            $('#btn_cushion').trigger('click');
+        }
+        
+        //--- 芝のクッション値 測定時刻リストメニューの設定
+        function set_cushion_data(){
+            
+            $('#cushion_list').children('option').remove();
+            
+            var _opt_html = '';
+            
+            for(var i=0;i<_cushion_data.length;i++){
+                
+                var _time = _cushion_data[i]['time'];
+                var _time_str = (i == 0)? '<option value="' + i + '" selected="selected">' + _time + '</option>\n' : '<option value="' + i + '">' + _time + '</option>\n';
+                
+                _opt_html += _time_str;
+            }
+            
+            $('#cushion_list').append($(_opt_html));
+            
+            init_cushion_btn();
+        }
+        
+        
+        /* - 週間情報
+        -------------------------------------------------------------------------------- */
+        var _w_flag = ($('#week_info').data('loading') == 'on')? true : false;//--- 読み込みフラグ
+        
+        //--- 週間情報の天候画像jsonの読み込み
+        var _w_img = '';
+        
+        function check_week_json(){
+            
+            var _j = '/keiba/baba/_data_week_weather.json';
+            
+            $.ajaxSetup({ cache: false });
+            
+            $.ajax({
+                url: _j,
+                type: 'GET',
+                dataType: 'json',
+                data:{CNAME:'pw01iwtS3/CD'},
+                beforeSend: function(data){ data.overrideMimeType("text/html;charset=Shift_JIS"); },
+                timeout: 10000
+            }).done(function(data, status, xhr){
+                
+                if(data['week_weather'].length > 0){
+                    _w_img = data['week_weather'][0];
+                    load_week_data();//--- 週間情報データの読み込み
+                }
+                
+            }).fail(function(xhr, status, error){
+                //console.log('--- error ---');
+                //console.log('xhr : ', xhr);
+                //console.log('status : ', status);
+                //console.log('error : ', error);
+            });
+        }
+        
+        
+        //--- 週間情報データの読み込み
+        var _w_list = new Array();
+        
+        function load_week_data(){
+            $.ajaxSetup({ cache: false });
+            
+            $.ajax({
+				url: '_data_week.html',
+				dataType: 'html',
+				cache : false,
+                beforeSend: function(data){ data.overrideMimeType("text/html;charset=Shift_JIS"); }
+			}).done(function(data) {
+				
+				if($(data).length > 0){//--- _data_week.htmlのデータがあれば
+					
+                    var _targetID = '#' + _curRC;//--- A・B・C場
+                    
+                    $(data).find(_targetID).find('ul > li').each(function(){
+                        _w_list.push($(this).text());
+                    });
+                    
+                    set_week_data();
+				}
+                
+			}).fail(function(data) {
+				//console.log('error : ', data);
+			});
+        }
+        
+        //--- 週間情報の書き出し
+        function set_week_data(){
+            
+            var _tr = $('#week_info tr.weather');
+            
+            _tr.children('td').contents().remove();
+            
+            for(var i=0;i<_w_list.length;i++){
+                
+                var _td = _tr.children('td').eq(i);
+                
+                var _w_txt = _w_list[i];
+                var _img = '/keiba/baba/_img/week_weather/blank.png';
+                var _w_td = '<img src="' + _img + '" alt="" />';
+                
+                if(_w_txt != '-'){
+                    var _txt = '<span>' + _w_txt + '</span>';
+                    _img = '<img src="' + _w_img[_w_txt] + '" alt="' + _w_txt + '" />';
+                    _w_td = _img + _txt;
+                }
+                
+                _td.append($(_w_td));
+            }
+            
+            check_week_scroll();
+        }
+        
+        if(_w_flag){ check_week_json(); }
+        
+        //--- 週間情報スクロール設定
+        function check_week_scroll(){
+            var _w = $('#week_info .scr-lg');
+            var _dW = _w.innerWidth();
+            var _tW = _w.find('table.basic').width();
+            if(_tW > _dW){ _w.scrollLeft(_tW - _dW); }
+
+            //--- スクロールヒント調整
+            if($('#week_info .scroll-hint-icon-wrap').length>0){
+                $('#week_info .scroll-hint-icon-wrap').remove();
+            }
+            new ScrollHint('#week_info .js-scrollable', {
+                i18n: { scrollable : 'スクロールできます' }
+            });
+
+            //$('#week_info .scroll-hint-icon-wrap').addClass('reverse');
+            $('#week_info .scroll-hint-icon-wrap').css({ width: _tW + 'px' });
+
+            var _left = (_tW - _dW) + _dW/2;
+            var _hintW = $('#week_info .scroll-hint-icon').outerWidth();
+            //console.log('_hintW : ', _hintW);
+            _left -= _hintW/2;
+            $('#week_info .scroll-hint-icon').css({ left: _left + 'px' });
+
+        }
+        
+        check_week_scroll();
+        
+        //--- 週間情報作業コメント
+        function init_week_memo(){
+            
+            var _m = $('#week_info .memo');
+            
+            if(_m.find('.content > ul > li').length>2){
+                
+                if(!_m.hasClass('on')){
+                    _m.find('.content > ul > li').each(function(i){
+                        if(i>1){ $(this).addClass('off'); }
+                    });
+                }
+                
+                var _all = $('#week_info .memo .btn_block > .btn.all a');
+                var _close = $('#week_info .memo .btn_block > .btn.close a')
+                
+                _all.on('click', function(){
+                    _m.addClass('on');
+                    _m.find('.content > ul > li').removeClass('off');
+                    return false;
+                });
+                
+                _close.on('click', function(){
+                    _m.removeClass('on');
+                    _m.find('.content > ul > li').each(function(i){
+                        if(i>1){ $(this).addClass('off'); }
+                    });
+                    return false;
+                });
+                
+            } else {
+                $('#week_info .memo .btn_block').addClass('off');
+            }
+            
+            
+            
+            
+        }
+        
+        init_week_memo();
+        
+	})();
+});

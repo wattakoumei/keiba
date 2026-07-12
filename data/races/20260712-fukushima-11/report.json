@@ -25,7 +25,8 @@
     "観点Eの外部収集のみ成功。A/B/D/G/K/Iはseedの近走、枠、斤量、騎手、決定論リスクから縮退合成し、C/F/H/Lは未取得。",
     "枠順・斤量・騎手は確定情報として先取り。当日馬場・馬体重・気配は発走前更新対象。",
     "観点欠落(B,C,D,F,G,H,I,K,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。",
-    "エンジン複勝率順との食い違いは14頭。欠落観点を中立値で代替した率の参考精度が低いため、展開因果による論理順位を維持。"
+    "エンジン複勝率順との食い違いは14頭。欠落観点を中立値で代替した率の参考精度が低いため、展開因果による論理順位を維持。",
+    "当日更新(7/12 14:05): 芝稍重・クッション値8.6（軟化）・当日芝中距離2鞍（3R/5R）とも差し決着＝差し優勢。β(先行競合・差し反転)を対抗→本線、α(好位持続)を本線→対抗に付け替え。②を△→▲、⑯を▲→△、⑤を注→△、⑮を△→注へ再評価。出走取消・騎手変更なし。"
   ],
   "pivot": "⑧⑪⑬の先頭争いに大外⑮⑯が加わって向正面まで緩まないか。",
   "day_board": {
@@ -57,8 +58,8 @@
     "going": [
       {
         "item": "馬場状態",
-        "value": "",
-        "read": "良で前が止まらなければα・γ寄り。悪化して外差しが伸びればβ寄り"
+        "value": "稍重（クッション値8.6＝前日9.4から軟化・断続小雨）。当日芝中距離は3R芝2000・5R芝1800とも中団〜後方からの差し決着",
+        "read": "差し優勢方向が複数続いた→β(差し反転)を本線へ、α(好位持続)を対抗へ付け替え済み"
       },
       {
         "item": "風",
@@ -293,7 +294,7 @@
       {
         "id": "α",
         "name": "多頭先行・好位持続",
-        "tier": "本線",
+        "tier": "対抗",
         "prob": 0.44,
         "trigger": "⑬が主張し⑪⑧⑮⑯が番手を求めるが、1角までに隊列が決まり中盤は息が入る",
         "pace_level": 0.68,
@@ -349,7 +350,7 @@
       {
         "id": "β",
         "name": "先行競合・差し反転",
-        "tier": "対抗",
+        "tier": "本線",
         "prob": 0.36,
         "trigger": "⑧⑪⑬が互いに譲らず、⑮⑯も外から位置を取りに行って向正面まで緩まない",
         "pace_level": 0.9,
@@ -567,8 +568,8 @@
       "intent": "→",
       "mark": "◎",
       "rank_order": 1,
-      "win_prob": 0.0861,
-      "place_prob": 0.2528,
+      "win_prob": 0.0908,
+      "place_prob": 0.2659,
       "leg_type": "差",
       "pattern_fit": {
         "α": "◎",
@@ -607,8 +608,8 @@
       "intent": "→",
       "mark": "◯",
       "rank_order": 2,
-      "win_prob": 0.0759,
-      "place_prob": 0.2243,
+      "win_prob": 0.0742,
+      "place_prob": 0.2193,
       "leg_type": "追",
       "pattern_fit": {
         "α": "○",
@@ -637,6 +638,46 @@
       ]
     },
     {
+      "no": 2,
+      "gate": "1",
+      "horse": "コントラポスト",
+      "jockey": "菊沢 一樹",
+      "trainer": "菊沢 隆徳",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "▲",
+      "rank_order": 3,
+      "win_prob": 0.0868,
+      "place_prob": 0.2555,
+      "leg_type": "差",
+      "pattern_fit": {
+        "α": "○",
+        "β": "◎",
+        "γ": "○"
+      },
+      "pace_sensitivity": "本線βで脚を温存する差しとして中心格に浮上。αでも内の中団前で圏内。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "巴賞2着が近4走の最上位で地力の根拠"
+        },
+        {
+          "tag": "E",
+          "note": "中団内(5〜8番手)を想定し、枠と脚質から展開適合を評価"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "近走内容だけでは重賞での余裕を断定できない"
+        },
+        {
+          "tag": "E",
+          "note": "短い直線で仕掛けと進路が遅れる懸念"
+        }
+      ]
+    },
+    {
       "no": 16,
       "gate": "8",
       "horse": "サヴォーナ",
@@ -644,16 +685,16 @@
       "trainer": "中竹 和也",
       "jockey_change": "乗替",
       "intent": "→",
-      "mark": "▲",
-      "rank_order": 3,
-      "win_prob": 0.0553,
-      "place_prob": 0.1682,
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.0544,
+      "place_prob": 0.1664,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
         "γ": "◎"
       },
-      "pace_sensitivity": "α・γは同舞台の先行力で中心。βでは58kgと大外が重なる。",
+      "pace_sensitivity": "α・γは同舞台の先行力で中心だが、本線βでは58kg・大外・先行負荷が重なり割引。",
       "pros": [
         {
           "tag": "B",
@@ -684,9 +725,9 @@
       "jockey_change": "乗替",
       "intent": "→",
       "mark": "△",
-      "rank_order": 4,
-      "win_prob": 0.0648,
-      "place_prob": 0.1948,
+      "rank_order": 5,
+      "win_prob": 0.0642,
+      "place_prob": 0.194,
       "leg_type": "先",
       "pattern_fit": {
         "α": "◎",
@@ -716,85 +757,6 @@
       ]
     },
     {
-      "no": 2,
-      "gate": "1",
-      "horse": "コントラポスト",
-      "jockey": "菊沢 一樹",
-      "trainer": "菊沢 隆徳",
-      "jockey_change": "乗替",
-      "intent": "→",
-      "mark": "△",
-      "rank_order": 5,
-      "win_prob": 0.0826,
-      "place_prob": 0.2434,
-      "leg_type": "差",
-      "pattern_fit": {
-        "α": "○",
-        "β": "◎",
-        "γ": "○"
-      },
-      "pace_sensitivity": "αは内の中団前、βは脚を温存する差しとして浮上。",
-      "pros": [
-        {
-          "tag": "B",
-          "note": "巴賞2着が近4走の最上位で地力の根拠"
-        },
-        {
-          "tag": "E",
-          "note": "中団内(5〜8番手)を想定し、枠と脚質から展開適合を評価"
-        }
-      ],
-      "cons": [
-        {
-          "tag": "I",
-          "note": "近走内容だけでは重賞での余裕を断定できない"
-        },
-        {
-          "tag": "E",
-          "note": "短い直線で仕掛けと進路が遅れる懸念"
-        }
-      ]
-    },
-    {
-      "no": 15,
-      "gate": "8",
-      "horse": "ヤマニンブークリエ",
-      "jockey": "横山 典弘",
-      "trainer": "松永 幹夫",
-      "jockey_change": "継続",
-      "intent": "→",
-      "mark": "△",
-      "rank_order": 6,
-      "win_prob": 0.0705,
-      "place_prob": 0.2101,
-      "leg_type": "先",
-      "pattern_fit": {
-        "α": "○",
-        "γ": "○"
-      },
-      "pace_sensitivity": "α・γで好位へ入れれば圏内。βでは序盤負荷で沈む。",
-      "pros": [
-        {
-          "tag": "B",
-          "note": "新潟大賞典5着が近4走の最上位で地力の根拠"
-        },
-        {
-          "tag": "E",
-          "note": "外から先団(2〜5番手)を想定し、枠と脚質から展開適合を評価"
-        }
-      ],
-      "cons": [
-        {
-          "tag": "I",
-          "note": "近走内容だけでは重賞での余裕を断定できない"
-        },
-        {
-          "tag": "E",
-          "note": "大外から前へ行くため1角までの距離損が懸念"
-        }
-      ]
-    },
-    {
       "no": 5,
       "gate": "3",
       "horse": "オーロラエックス",
@@ -802,10 +764,10 @@
       "trainer": "杉山 晴紀",
       "jockey_change": "乗替",
       "intent": "→",
-      "mark": "注",
-      "rank_order": 7,
-      "win_prob": 0.0582,
-      "place_prob": 0.1758,
+      "mark": "△",
+      "rank_order": 6,
+      "win_prob": 0.0563,
+      "place_prob": 0.1705,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -833,6 +795,45 @@
       ]
     },
     {
+      "no": 15,
+      "gate": "8",
+      "horse": "ヤマニンブークリエ",
+      "jockey": "横山 典弘",
+      "trainer": "松永 幹夫",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 7,
+      "win_prob": 0.0706,
+      "place_prob": 0.211,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "○"
+      },
+      "pace_sensitivity": "好位に入れるα・γなら圏内だが、本線βでは序盤負荷で沈む。差し優勢の当日馬場で割引。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "新潟大賞典5着が近4走の最上位で地力の根拠"
+        },
+        {
+          "tag": "E",
+          "note": "外から先団(2〜5番手)を想定し、枠と脚質から展開適合を評価"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "近走内容だけでは重賞での余裕を断定できない"
+        },
+        {
+          "tag": "E",
+          "note": "大外から前へ行くため1角までの距離損が懸念"
+        }
+      ]
+    },
+    {
       "no": 13,
       "gate": "7",
       "horse": "バトルボーン",
@@ -842,8 +843,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 8,
-      "win_prob": 0.0776,
-      "place_prob": 0.2264,
+      "win_prob": 0.0793,
+      "place_prob": 0.2266,
       "leg_type": "逃",
       "pattern_fit": {
         "γ": "◎"
@@ -880,8 +881,8 @@
       "intent": "↓",
       "mark": "×",
       "rank_order": 9,
-      "win_prob": 0.0549,
-      "place_prob": 0.1671,
+      "win_prob": 0.0559,
+      "place_prob": 0.1708,
       "leg_type": "差",
       "pattern_fit": {
         "β": "○"
@@ -918,8 +919,8 @@
       "intent": "→",
       "mark": "×",
       "rank_order": 10,
-      "win_prob": 0.0671,
-      "place_prob": 0.2005,
+      "win_prob": 0.0655,
+      "place_prob": 0.1958,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -956,8 +957,8 @@
       "intent": "→",
       "mark": "注",
       "rank_order": 11,
-      "win_prob": 0.0616,
-      "place_prob": 0.1859,
+      "win_prob": 0.0611,
+      "place_prob": 0.1852,
       "leg_type": "先",
       "pattern_fit": {
         "γ": "◎"
@@ -994,8 +995,8 @@
       "intent": "↓",
       "mark": "×",
       "rank_order": 12,
-      "win_prob": 0.041,
-      "place_prob": 0.1266,
+      "win_prob": 0.0389,
+      "place_prob": 0.1207,
       "leg_type": "追",
       "pattern_fit": {
         "β": "○"
@@ -1032,8 +1033,8 @@
       "intent": "→",
       "mark": "—",
       "rank_order": 13,
-      "win_prob": 0.0641,
-      "place_prob": 0.1929,
+      "win_prob": 0.0663,
+      "place_prob": 0.1999,
       "leg_type": "差",
       "pattern_fit": {},
       "pace_sensitivity": "βでも進路確保が必要。α・γでは位置不足。",
@@ -1068,8 +1069,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 14,
-      "win_prob": 0.0444,
-      "place_prob": 0.1368,
+      "win_prob": 0.0426,
+      "place_prob": 0.132,
       "leg_type": "逃",
       "pattern_fit": {
         "γ": "○"
@@ -1106,8 +1107,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 15,
-      "win_prob": 0.0525,
-      "place_prob": 0.1604,
+      "win_prob": 0.0515,
+      "place_prob": 0.1581,
       "leg_type": "先",
       "pattern_fit": {},
       "pace_sensitivity": "γで内の番手を取れた時だけ残り目。α・βでは先行消耗。",
@@ -1142,8 +1143,8 @@
       "intent": "↓",
       "mark": "—",
       "rank_order": 16,
-      "win_prob": 0.0435,
-      "place_prob": 0.1339,
+      "win_prob": 0.0415,
+      "place_prob": 0.1283,
       "leg_type": "追",
       "pattern_fit": {},
       "pace_sensitivity": "βで前が総崩れでも上積みが必要。α・γでは届かない。",

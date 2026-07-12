@@ -1,0 +1,518 @@
+<div id="moist_data_list">
+
+
+<div id="rcA" title="福島">
+
+<div class="unit">
+<div class="time">7月12日（日曜）6時00分</div>
+<div class="turf">
+<span class="mg" data-condition="wet">14.1</span>
+<span class="m4c" data-condition="wet">12.8</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">6.5</span>
+<span class="m4c" data-condition="wet">6.9</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は0.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月11日（土曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">12.0</span>
+<span class="m4c" data-condition="hard">10.7</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">1.4</span>
+<span class="m4c" data-condition="hard">1.0</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月10日（金曜）10時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">13.7</span>
+<span class="m4c" data-condition="hard">10.6</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">1.2</span>
+<span class="m4c" data-condition="hard">2.9</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月5日（日曜）6時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">12.3</span>
+<span class="m4c" data-condition="hard">13.7</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">7.4</span>
+<span class="m4c" data-condition="hard">6.8</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月4日（土曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="wet">13.8</span>
+<span class="m4c" data-condition="wet">14.5</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="soft">13.3</span>
+<span class="m4c" data-condition="soft">13.8</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月3日（金曜）10時00分</div>
+<div class="turf">
+<span class="mg" data-condition="soft">13.8</span>
+<span class="m4c" data-condition="soft">16.8</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="heavy">16.7</span>
+<span class="m4c" data-condition="heavy">17.3</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は11.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月28日（日曜）6時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">10.3</span>
+<span class="m4c" data-condition="hard">12.9</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">7.0</span>
+<span class="m4c" data-condition="hard">6.2</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月27日（土曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="wet">13.1</span>
+<span class="m4c" data-condition="wet">14.7</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">9.4</span>
+<span class="m4c" data-condition="wet">10.5</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月26日（金曜）10時00分</div>
+<div class="turf">
+<span class="mg" data-condition="wet">14.8</span>
+<span class="m4c" data-condition="wet">15.0</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">11.6</span>
+<span class="m4c" data-condition="wet">12.2</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は9.0ミリメートルでした</li>
+</ul>
+</div>
+
+</div><!-- /[#rcA] -->
+
+
+
+
+<div id="rcB" title="小倉">
+
+<div class="unit">
+<div class="time">7月12日（日曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">9.1</span>
+<span class="m4c" data-condition="hard">9.1</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">1.7</span>
+<span class="m4c" data-condition="hard">2.5</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月11日（土曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">9.7</span>
+<span class="m4c" data-condition="hard">9.1</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">1.8</span>
+<span class="m4c" data-condition="hard">2.9</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月10日（金曜）8時30分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">9.6</span>
+<span class="m4c" data-condition="hard">9.5</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">2.0</span>
+<span class="m4c" data-condition="hard">3.5</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月5日（日曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="wet">10.5</span>
+<span class="m4c" data-condition="wet">10.5</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="soft">13.3</span>
+<span class="m4c" data-condition="soft">15.1</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は0.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月4日（土曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">9.5</span>
+<span class="m4c" data-condition="hard">9.4</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">8.0</span>
+<span class="m4c" data-condition="wet">11.1</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は2.5ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月3日（金曜）8時30分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">9.9</span>
+<span class="m4c" data-condition="hard">10.3</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">11.3</span>
+<span class="m4c" data-condition="wet">13.4</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月28日（日曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">10.0</span>
+<span class="m4c" data-condition="hard">10.6</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">10.3</span>
+<span class="m4c" data-condition="wet">13.6</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月27日（土曜）5時00分</div>
+<div class="turf">
+<span class="mg" data-condition="soft">13.5</span>
+<span class="m4c" data-condition="soft">13.2</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="heavy">20.6</span>
+<span class="m4c" data-condition="heavy">19.9</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は1.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月26日（金曜）8時30分</div>
+<div class="turf">
+<span class="mg" data-condition="soft">13.6</span>
+<span class="m4c" data-condition="soft">13.0</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="heavy">19.8</span>
+<span class="m4c" data-condition="heavy">19.4</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は19.5ミリメートルでした</li>
+</ul>
+</div>
+
+</div><!-- /[#rcB] -->
+
+
+
+
+<div id="rcC" title="函館">
+
+<div class="unit">
+<div class="time">7月12日（日曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="soft">16.2</span>
+<span class="m4c" data-condition="soft">17.2</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="heavy">13.7</span>
+<span class="m4c" data-condition="heavy">16.7</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は7.5ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月11日（土曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="wet">15.3</span>
+<span class="m4c" data-condition="wet">15.0</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">8.3</span>
+<span class="m4c" data-condition="wet">8.3</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は0.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月10日（金曜）9時20分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">13.0</span>
+<span class="m4c" data-condition="hard">12.9</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">3.0</span>
+<span class="m4c" data-condition="hard">3.0</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は0.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月5日（日曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.5</span>
+<span class="m4c" data-condition="hard">16.4</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">2.1</span>
+<span class="m4c" data-condition="hard">2.9</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月4日（土曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.3</span>
+<span class="m4c" data-condition="hard">14.5</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">3.5</span>
+<span class="m4c" data-condition="hard">4.7</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">7月3日（金曜）9時20分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.6</span>
+<span class="m4c" data-condition="hard">15.3</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">4.6</span>
+<span class="m4c" data-condition="hard">5.1</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月28日（日曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">15.6</span>
+<span class="m4c" data-condition="hard">17.3</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="wet">9.1</span>
+<span class="m4c" data-condition="wet">11.5</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月27日（土曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="soft">16.8</span>
+<span class="m4c" data-condition="soft">18.5</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="heavy">17.3</span>
+<span class="m4c" data-condition="heavy">16.3</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：測定時刻までの当日雨量は7.0ミリメートルでした</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月26日（金曜）9時20分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.6</span>
+<span class="m4c" data-condition="hard">16.0</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">6.1</span>
+<span class="m4c" data-condition="hard">6.9</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月21日（日曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">15.0</span>
+<span class="m4c" data-condition="hard">16.4</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">3.2</span>
+<span class="m4c" data-condition="hard">3.2</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月20日（土曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">15.0</span>
+<span class="m4c" data-condition="hard">16.6</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">2.9</span>
+<span class="m4c" data-condition="hard">5.5</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月19日（金曜）9時20分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.3</span>
+<span class="m4c" data-condition="hard">15.5</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">3.4</span>
+<span class="m4c" data-condition="hard">4.7</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月14日（日曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">15.6</span>
+<span class="m4c" data-condition="hard">17.0</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">8.4</span>
+<span class="m4c" data-condition="hard">9.4</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月13日（土曜）5時40分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.4</span>
+<span class="m4c" data-condition="hard">17.9</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">5.0</span>
+<span class="m4c" data-condition="hard">5.8</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="time">6月12日（金曜）9時20分</div>
+<div class="turf">
+<span class="mg" data-condition="hard">14.0</span>
+<span class="m4c" data-condition="hard">18.1</span>
+</div>
+<div class="dirt">
+<span class="mg" data-condition="hard">6.5</span>
+<span class="m4c" data-condition="hard">6.6</span>
+</div>
+<ul class="note_list narrow mt10 moist_caution">
+<li>注記：特になし</li>
+</ul>
+</div>
+
+</div><!-- /[#rcC] -->
+
+
+</div><!-- /[#moist_data_list] -->
