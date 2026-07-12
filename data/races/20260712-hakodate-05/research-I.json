@@ -1,0 +1,171 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "並列観点起動不能のため、JRA出走表・静的カタログ・公開調教記事から縮退構築。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジオ",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トルネードサンダー",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]牝馬55kgは重馬場で負担が相対的に重い"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リラカリス",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "デアグランツ",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "イッペイ",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://news.netkeiba.com/?no=336473&pid=news_view",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アオイノリプー",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "アルデシンザン",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260708s00004192401000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ニーナラルゴ",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]牝馬55kgは重馬場で負担が相対的に重い"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "トムクリオーザ",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260707s00004048019000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ブラッグス",
+      "pros": [
+        "[I]新馬のため近走由来の決定論リスクなし"
+      ],
+      "cons": [
+        "[I]ゲートと重馬場適応は実戦未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    }
+  ],
+  "note": "全頭カバー。取得できない項目は低確信度で固定。"
+}

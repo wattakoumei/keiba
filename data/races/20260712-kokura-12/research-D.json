@@ -1,0 +1,310 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "コース恒常: 小倉芝1200は下り発走から平坦短直線で、JRAコース紹介も芝は逃げ・先行優勢、極端な追込は決まりにくいとしている。当該開催: 第2回小倉6日、芝良、Aコース、芝含水率はゴール前9.7・4角9.1、向正面から4角の内柵沿いに傷みあり。クッション値の実数は本文取得できず。",
+  "field_sources": [
+    "https://jra.jp/facilities/race/kokura/course/index.html",
+    "https://www.jra.go.jp/keiba/baba/index2.html",
+    "data/races/20260712-kokura-12/seed.json",
+    "data/races/20260712-kokura-12/weight.json"
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "pros": [
+        "2026年に小倉芝1200で2着と3着があり、同舞台の再現性が高い。",
+        "50kgの軽量で、追走負荷の高い小倉1200でも終いを温存しやすい。"
+      ],
+      "cons": [
+        "追込寄りで、前が止まりにくい小倉芝1200では位置差を残すリスクがある。"
+      ],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "pros": [
+        "小倉ダ1000から芝1200へ戻り、距離だけなら1200経験に戻る。"
+      ],
+      "cons": [
+        "直近の小倉芝1200で11番手から10着、同舞台の短直線で差し届いていない。",
+        "テン遅の追込型で、コース恒常の前残り傾向とは噛み合いにくい。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "pros": [
+        "前走の小倉芝1200未勝利を14番手から上がり34.5で勝っており、同舞台の末脚実績がある。",
+        "496kg前後の馬格で、芝良でも内柵沿いが傷み始めた馬場に対するパワー面の不安は小さい。"
+      ],
+      "cons": [
+        "追込寄りで、昇級して同じ後方差しが届くかは展開待ち。"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://www.jra.go.jp/keiba/baba/index2.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "pros": [
+        "福島芝1200を1:08.7で勝ち、京都芝1200でも1:08.4と短距離時計への対応はある。"
+      ],
+      "cons": [
+        "小倉の近走は芝1800で7着のみで、芝1200の下り高速戦は未確認。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "pros": [
+        "先行力とテン速があり、小倉芝1200の前残り構造とは脚質が合う。",
+        "福島芝1200で2番手から2着があり、小回り短距離の立ち回り材料がある。"
+      ],
+      "cons": [
+        "直近の中京芝1200は2番手から15着で、同じ1200でも持続面の裏付けが薄い。",
+        "58kgで先行争いが厳しくなると、小倉の下りで脚を使い切る懸念がある。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "pros": [
+        "小倉芝1200を1:08.6で走った経験はあり、距離そのものはこなしている。"
+      ],
+      "cons": [
+        "同舞台は7番手から9着止まりで、追込寄りの脚質は短い直線で差し遅れやすい。",
+        "近走は1600・1400中心からの短縮で、小倉1200の序盤速度に戻す課題がある。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "pros": [
+        "京都芝1200で上がり33.3の脚があり、芝1200の末脚性能は確認済み。"
+      ],
+      "cons": [
+        "直近の小倉芝1200は11番手から8着で、テン遅の追込質は同舞台で位置差を埋めにくい。",
+        "古馬牝馬56kgで、軽量3歳勢と比べると高速1200の負荷は相対的に重い。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "pros": [
+        "新潟芝1200で2着、小倉芝1200でも7番手から1:08.4の経験があり、1200適性は足りる。",
+        "差しでも中団を取れるため、極端な追込より小倉の短直線に対応しやすい。"
+      ],
+      "cons": [
+        "小倉芝1200の着順は7着で、同舞台で上位まで詰め切った実績は未確認。"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "pros": [
+        "阪神芝1200で6番手から1:09.2の経験があり、短距離への対応材料はある。",
+        "482kg前後の馬格で、内柵沿いが傷んだ良馬場に対する馬格面の不足は小さい。"
+      ],
+      "cons": [
+        "小倉実績がなく、1400寄りの近走から下り高速1200への適性は未確認。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://www.jra.go.jp/keiba/baba/index2.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "pros": [
+        "前走小倉芝1200で5番手から7着と、長めの距離中心から短距離へ条件を戻して一定の前進はある。"
+      ],
+      "cons": [
+        "同舞台でも上がり36.0で伸び切れず、芝1200のスピード持続適性を強調しづらい。",
+        "近走が2000・1800・1600中心で、小倉1200の序盤速度への慣れは薄い。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "pros": [
+        "小倉芝1200未勝利を逃げ切り、同舞台の下り高速戦を先手で勝った実績がある。",
+        "53kgの軽量逃げで、前残り構造の小倉芝1200に対する条件適合が高い。"
+      ],
+      "cons": [
+        "その後の福島芝1200、阪神芝1200は8着・9着で、現級寄りの相手では持続の裏付けがまだ薄い。"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "pros": [
+        "小倉芝1200で逃げ・先行経験が複数あり、下りスタートの流れ自体は経験済み。",
+        "テン速の逃げ型で、小倉芝1200の前残り構造とは脚質が合う。"
+      ],
+      "cons": [
+        "同舞台は5着・7着・18着で、先手を取っても踏ん張り切れない結果が続く。",
+        "3月の小倉芝1200は上がり38.5で大敗しており、速くなり過ぎる馬場では失速リスクがある。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "pros": [
+        "阪神1600で上がり33.2があり、末脚自体は持っている。"
+      ],
+      "cons": [
+        "近走は1600・1400中心で芝1200経験がなく、小倉1200の高速追走は未知。",
+        "テン遅の差し型かつ58kgで、短い直線だけで位置差を詰める条件では厳しい。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "pros": [
+        "先行脚質で、位置を取れれば小倉芝1200の短直線には形だけ合う。"
+      ],
+      "cons": [
+        "近走seedに芝1200実績がなく、1600・1800で大敗しており今回条件への裏付けが乏しい。",
+        "56kgの先行勢で、下り発走の先行争いが厳しくなると消耗しやすい。"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "pros": [
+        "小倉芝1200で2着と3着、さらに福島芝1200で2着・新潟芝1200で3着と短距離小回り実績が厚い。",
+        "先行して好走できるため、小倉芝1200の前残り構造を最も素直に使える。"
+      ],
+      "cons": [
+        "8枠から外を回すと距離損が出やすく、56kgで先行争いが激化すると最後の踏ん張りを削られる。"
+      ],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "data/races/20260712-kokura-12/weight.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "pros": [
+        "小倉芝1200未勝利で16番手から4着、同舞台で末脚を使った経験がある。",
+        "京都芝1200でも上がり33.5があり、直線で脚を使う能力は確認済み。"
+      ],
+      "cons": [
+        "追込一手に近く、8枠から小倉の短直線だけで差し切るには展開依存が強い。",
+        "未勝利実績中心で、現級の芝1200適性はまだ確認不足。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "pros": [
+        "福島芝1200で14番手から4着があり、短距離の差し脚は一度示している。",
+        "内柵沿いに傷みがある現馬場なら、外寄りの進路を取りやすい枠は悪くない。"
+      ],
+      "cons": [
+        "小倉芝1200は3番手から15着と大敗しており、同舞台の強調材料に欠ける。",
+        "追込寄りで、コース恒常の前残り傾向とは基本的に逆向き。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://www.jra.go.jp/keiba/baba/index2.html",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    }
+  ],
+  "note": "馬別の同コース・同距離実績と距離替わりはseedを主ソースにした。馬場の当日側はJRA公式馬場情報の本文取得範囲で確認し、馬体重は未発表のため馬格タグは近走体重ベースの保留評価に留めた。"
+}

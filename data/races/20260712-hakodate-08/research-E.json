@@ -1,0 +1,152 @@
+{
+  "overall_confidence": "高",
+  "field_note": "③が内から主導候補。②は最内寄りの速い先行、⑧は軽斤量で外から前へ、⑥も好位候補。2400mで序盤後に緩む本線と、向正面から⑨⑩が動く持続戦を分岐。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "ブレイクザアイス",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "後方内"
+    },
+    {
+      "no": 2,
+      "name": "シャローファースト",
+      "style": "先行",
+      "ten_speed": "速",
+      "expected_pos": "好位内"
+    },
+    {
+      "no": 3,
+      "name": "シドニーホバート",
+      "style": "逃げ",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補"
+    },
+    {
+      "no": 4,
+      "name": "ディースプレマシー",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 5,
+      "name": "シーリュウシー",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方"
+    },
+    {
+      "no": 6,
+      "name": "カージオイド",
+      "style": "先行",
+      "ten_speed": "中",
+      "expected_pos": "好位"
+    },
+    {
+      "no": 7,
+      "name": "ステイアンビシャス",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "最後方寄り"
+    },
+    {
+      "no": 8,
+      "name": "ミスターエメラルド",
+      "style": "逃げ",
+      "ten_speed": "中",
+      "expected_pos": "外から番手候補"
+    },
+    {
+      "no": 9,
+      "name": "ダイシンレアレア",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団後ろ・向正面進出"
+    },
+    {
+      "no": 10,
+      "name": "ハイドパーク",
+      "style": "差し",
+      "ten_speed": "遅",
+      "expected_pos": "中団外・早め進出"
+    },
+    {
+      "no": 11,
+      "name": "サトノリアン",
+      "style": "追込",
+      "ten_speed": "遅",
+      "expected_pos": "後方外"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 3,
+      "stance": "近4走すべて1角先頭、内枠からハナ候補"
+    },
+    {
+      "no": 2,
+      "stance": "テン速く内枠で③の直後を確保しやすい"
+    },
+    {
+      "no": 8,
+      "stance": "近3走中2走で1角先頭、55kgで外から主張可能"
+    },
+    {
+      "no": 6,
+      "stance": "近走は1角2〜5番手、騎手未確定で出方不確実"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "内で距離損を抑えやすい"
+    },
+    {
+      "no": 2,
+      "note": "内で距離損を抑えやすい"
+    },
+    {
+      "no": 3,
+      "note": "内で距離損を抑えやすい"
+    },
+    {
+      "no": 4,
+      "note": "中枠で大きな枠差なし"
+    },
+    {
+      "no": 5,
+      "note": "中枠で大きな枠差なし"
+    },
+    {
+      "no": 6,
+      "note": "中枠で大きな枠差なし"
+    },
+    {
+      "no": 7,
+      "note": "中枠で大きな枠差なし"
+    },
+    {
+      "no": 8,
+      "note": "中枠で大きな枠差なし"
+    },
+    {
+      "no": 9,
+      "note": "中枠で大きな枠差なし"
+    },
+    {
+      "no": 10,
+      "note": "外で序盤の進路取りが鍵"
+    },
+    {
+      "no": 11,
+      "note": "外で序盤の進路取りが鍵"
+    }
+  ],
+  "sources": [
+    "data/races/20260712-hakodate-08/seed.json",
+    ".agents/skills/analyze-race/references/course-geometry.md"
+  ],
+  "note": "JRA公式seedの近走1角位置を使用。"
+}

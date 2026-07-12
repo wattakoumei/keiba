@@ -1,0 +1,9 @@
+{"point":"C","overall_confidence":"中","field_note":"JRA公式seedと静的血統カタログによる縮退評価。新種牡馬とカタログ外血統は確信度を下げた。","horses":[
+{"no":1,"name":"サイモンレガシー","pros":["父エフフォーリアの想定適性が芝1800〜2200mで当条件に合う","母父オルフェーヴルがスタミナと長く脚を使う質を補う"],"cons":["父は初年度で産駒傾向の確度が低い"],"score":1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":2,"name":"シュガーハウス","pros":["父は2歳から動くスピード持続型で芝2000mも守備範囲","母父ハーツクライが中距離の持続力を補う"],"cons":["父の主戦場はダート中距離で良芝の加速は未知"],"score":1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":3,"name":"シュプレヒコール","pros":["母父キズナの持続力と小回り適性"],"cons":["父ジャンダルムはスピード色が強く、2000mで折り合えるかが課題"],"score":-1,"confidence":"低","sources":["https://www.jra.go.jp/"]},
+{"no":4,"name":"ロクメイカン","pros":["父ブリックスアンドモルタルの芝中距離の持続力を期待"],"cons":["母父Sir Prancealotの短距離色が強く、2000mは血統だけで断定できない"],"score":0,"confidence":"低","sources":["https://www.jra.go.jp/"]},
+{"no":5,"name":"フェーエンハフト","pros":["父ダノンバラードの芝中距離の持続力と小回り対応を期待"],"cons":["母父Gleneaglesを含む詳細傾向はカタログ外で確信度が低い"],"score":1,"confidence":"低","sources":["https://www.jra.go.jp/"]},
+{"no":6,"name":"シックパラソル","pros":["父エピファネイアは2歳から動き、芝2000〜2400mのスピード持続が強み","母父エイシンフラッシュで中距離のバランスが取れる"],"cons":["実戦の折り合いと位置取りは未知"],"score":2,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":7,"name":"エルドボルグ","pros":["父キタサンブラックは牡馬の芝1800m以上で持続力とスタミナを供給","母父Dubawiとの配合は中距離の底力を期待できる"],"cons":["初戦完成度は血統だけでは判定できない"],"score":2,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":8,"name":"パーセンタイル","pros":["父レイデオロは牡馬の芝2000m以上と先行持続が適性域"],"cons":["父は晩成傾向で夏の初戦完成度は割引が必要","母父Easing Alongはカタログ外"],"score":1,"confidence":"中","sources":["https://www.jra.go.jp/"]}],"note":"並列調査失敗のため静的カタログで縮退。"}

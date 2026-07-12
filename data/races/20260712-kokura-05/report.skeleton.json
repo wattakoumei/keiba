@@ -1,0 +1,590 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260712-kokura-05",
+ "race_name": "",
+ "edition": "",
+ "race_no": 5,
+ "grade": "",
+ "date": "2026-07-12",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 2000,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 8,
+ "model_version": "5.0",
+ "used_observations": [
+  "C",
+  "E",
+  "F",
+  "I",
+  "K",
+  "M"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "サイモンレガシー",
+    "jockey": "松若 風馬",
+    "trainer": "石坂 公一",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "シュガーハウス",
+    "jockey": "幸 英明",
+    "trainer": "野中 賢二",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "シュプレヒコール",
+    "jockey": "吉村 誠之助",
+    "trainer": "清水 久詞",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 4,
+    "horse": "ロクメイカン",
+    "jockey": "菱田 裕二",
+    "trainer": "小崎 憲",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 5,
+    "horse": "フェーエンハフト",
+    "jockey": "田口 貫太",
+    "trainer": "緒方 努",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 6,
+    "horse": "シックパラソル",
+    "jockey": "松山 弘平",
+    "trainer": "松永 幹夫",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 7,
+    "horse": "エルドボルグ",
+    "jockey": "団野 大成",
+    "trainer": "斉藤 崇史",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 8,
+    "horse": "パーセンタイル",
+    "jockey": null,
+    "trainer": "前川 恭子",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "候補群が無理なく並ぶ・好位持続",
+    "tier": "本線★★★",
+    "prob": 0.4,
+    "trigger": "②③⑤のいずれかが五分に出て、1角までに隊列が落ち着く",
+    "pace_level": 0.48,
+    "contesters": [
+     2,
+     3,
+     5
+    ],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 2,
+     "差し": 0,
+     "追込": -1
+    },
+    "formation_head": [
+     3,
+     5,
+     2
+    ],
+    "formation_last_corner": [
+     3,
+     5,
+     2,
+     7,
+     6
+    ],
+    "bias": "好位の持続力と下りで動ける馬",
+    "phase_flow": {
+     "early": "初角まで472mあり②③⑤のダッシュ候補群が無理なく先団を作る",
+     "mid": "2角の高い地点から下りが続き、好位の追走力と折り合いが問われる",
+     "late": "3、4角の下り加速から直線293mへ入り、好位⑦⑥の持続力が先団を捕らえる",
+     "result": "⑦⑥が中心、ロスを抑える①②と軽量⑧が相手圏"
+    },
+    "risers": [
+     1,
+     2,
+     5,
+     6,
+     7,
+     8
+    ],
+    "sinkers": []
+   },
+   {
+    "id": "β",
+    "name": "慎重に入る・スロー後半勝負",
+    "tier": "対抗★★",
+    "prob": 0.35,
+    "trigger": "初出走同士で互いに控え、向正面まで動きが少ない",
+    "pace_level": 0.3,
+    "contesters": [
+     2,
+     3,
+     5
+    ],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 1,
+     "差し": 2,
+     "追込": 0
+    },
+    "formation_head": [
+     2,
+     3,
+     5
+    ],
+    "formation_last_corner": [
+     2,
+     3,
+     5,
+     7,
+     6,
+     1
+    ],
+    "bias": "下りから短い助走で加速できる中距離型",
+    "phase_flow": {
+     "early": "全馬の出方が慎重で②③⑤が無理なく前へ、⑦⑥①は中団で折り合う",
+     "mid": "向正面まで息が入り、中距離血統群が余力を温存する",
+     "late": "下りで一斉に動き、⑦⑥①の持続的な決め手と⑧の軽量が効く",
+     "result": "⑦⑥①が中心、⑧と前の②が条件付きで残る"
+    },
+    "risers": [
+     1,
+     2,
+     6,
+     7,
+     8
+    ],
+    "sinkers": [
+     3
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "スタート不揃い・行きたがりで差し台頭",
+    "tier": "伏線★",
+    "prob": 0.25,
+    "trigger": "スタート直後に複数が行きたがるか、上位候補が出遅れて想定隊列が崩れる",
+    "pace_level": 0.66,
+    "contesters": [
+     2,
+     3,
+     5,
+     8
+    ],
+    "leg_advantage": {
+     "逃げ": -1,
+     "先行": 0,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     3,
+     5,
+     2,
+     8
+    ],
+    "formation_last_corner": [
+     3,
+     5,
+     2,
+     6,
+     7,
+     1
+    ],
+    "bias": "先団の後ろで折り合う持続差し",
+    "phase_flow": {
+     "early": "②③⑤⑧の出脚が重なり、1角までに先団が脚を使う",
+     "mid": "下り区間でも緩まず、⑥⑦①が後ろで追走ロスを抑える",
+     "late": "直線は短いが先団の余力が削れ、⑥⑦①の中距離持続力が浮上する",
+     "result": "⑥⑦①が浮上、競りに加わらない④が残り目"
+    },
+    "risers": [
+     1,
+     4,
+     6,
+     7
+    ],
+    "sinkers": [
+     2,
+     3,
+     5
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "全馬初出走のためスタート直後の出脚が最大の反証条件。②③⑤がすんなりならα、全馬が控えればβ、複数が掛かればγ寄り。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線★★★",
+    "center": [
+     6,
+     7
+    ],
+    "inside": [
+     1,
+     2,
+     5,
+     8
+    ],
+    "spot": [
+     3,
+     4
+    ],
+    "drop": []
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗★★",
+    "center": [
+     1,
+     6,
+     7
+    ],
+    "inside": [
+     2,
+     8
+    ],
+    "spot": [
+     4,
+     5
+    ],
+    "drop": [
+     3
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線★",
+    "center": [
+     1,
+     6,
+     7
+    ],
+    "inside": [
+     4
+    ],
+    "spot": [
+     8
+    ],
+    "drop": [
+     2,
+     3,
+     5
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 6,
+   "gate": "6",
+   "horse": "シックパラソル",
+   "jockey": "松山 弘平",
+   "trainer": "松永 幹夫",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "α": "◎",
+    "β": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "父エピファネイアは2歳から動き、芝2000〜2400mのスピード持続が強み"
+    },
+    {
+     "tag": "C",
+     "note": "母父エイシンフラッシュで中距離のバランスが取れる"
+    },
+    {
+     "tag": "K",
+     "note": "松山弘平起用で折り合いと位置取りを期待"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 7,
+   "gate": "7",
+   "horse": "エルドボルグ",
+   "jockey": "団野 大成",
+   "trainer": "斉藤 崇史",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "α": "◎",
+    "β": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "父キタサンブラックは牡馬の芝1800m以上で持続力とスタミナを供給"
+    },
+    {
+     "tag": "C",
+     "note": "母父Dubawiとの配合は中距離の底力を期待できる"
+    },
+    {
+     "tag": "K",
+     "note": "団野大成起用で好位から長く脚を使わせる選択肢"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "サイモンレガシー",
+   "jockey": "松若 風馬",
+   "trainer": "石坂 公一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "父エフフォーリアの想定適性が芝1800〜2200mで当条件に合う"
+    },
+    {
+     "tag": "C",
+     "note": "母父オルフェーヴルがスタミナと長く脚を使う質を補う"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "シュガーハウス",
+   "jockey": "幸 英明",
+   "trainer": "野中 賢二",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "α": "○",
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "父は2歳から動くスピード持続型で芝2000mも守備範囲"
+    },
+    {
+     "tag": "C",
+     "note": "母父ハーツクライが中距離の持続力を補う"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 5,
+   "gate": "5",
+   "horse": "フェーエンハフト",
+   "jockey": "田口 貫太",
+   "trainer": "緒方 努",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "α": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "父ダノンバラードの芝中距離の持続力と小回り対応を期待"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 4,
+   "gate": "4",
+   "horse": "ロクメイカン",
+   "jockey": "菱田 裕二",
+   "trainer": "小崎 憲",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 8,
+   "gate": "8",
+   "horse": "パーセンタイル",
+   "jockey": null,
+   "trainer": "前川 恭子",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {
+    "α": "○",
+    "β": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "C",
+     "note": "父レイデオロは牡馬の芝2000m以上と先行持続が適性域"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "大外から好位を取ると序盤のロスが増える"
+    },
+    {
+     "tag": "K",
+     "note": "騎手名と起用背景が欠損"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "シュプレヒコール",
+   "jockey": "吉村 誠之助",
+   "trainer": "清水 久詞",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "C",
+     "note": "父ジャンダルムはスピード色が強く、2000mで折り合えるかが課題"
+    },
+    {
+     "tag": "I",
+     "note": "2000mで行きたがると終いが甘くなる余地"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

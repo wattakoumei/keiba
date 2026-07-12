@@ -1,0 +1,239 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "決定論risk_flagsとweight_adjustによる縮退補完。利用上限により非決定論の脚部・気性調査は未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走10/12・前々走8/10）＝下降基調"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（6/9）"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（15/18）",
+        "[I] 斤量58=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（13/16）"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（8/12）",
+        "[I] 斤量56=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "pros": [],
+      "cons": [
+        "[I] 斤量56=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "pros": [],
+      "cons": [
+        "[I] 斤量56=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（12/14）",
+        "[I] 斤量58=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走13/13・前々走15/16）＝下降基調",
+        "[I] 斤量56=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "pros": [],
+      "cons": [
+        "[I] 斤量56=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "pros": [],
+      "cons": [],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（14/15）",
+        "[I] 斤量56=実効標準+2kg・軽量3歳勢に対し古馬の斤量負担"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/risk.json",
+        "data/races/20260712-kokura-12/weight.json"
+      ]
+    }
+  ]
+}
+

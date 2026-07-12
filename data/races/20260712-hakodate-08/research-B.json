@@ -1,0 +1,173 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "近走内容は⑤の差し2着、⑨の長距離安定、②の格上戦善戦が中心。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブレイクザアイス",
+      "pros": [
+        "1勝クラスで4着、6着を確保"
+      ],
+      "cons": [
+        "近3走は差して6着、6着、8着で勝ち切れない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "シャローファースト",
+      "pros": [
+        "重賞で先行して5着、1勝クラスでも先行可能"
+      ],
+      "cons": [
+        "前走は7着で直線の粘りを欠いた"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シドニーホバート",
+      "pros": [
+        "小倉ダ2400mで逃げて3着"
+      ],
+      "cons": [
+        "直近2走は逃げて11着、8着と下降"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ディースプレマシー",
+      "pros": [
+        "函館ダ1700mで4着、7着と当地で大崩れしていない"
+      ],
+      "cons": [
+        "追込で距離延長時の位置取りが難しい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "シーリュウシー",
+      "pros": [
+        "前走は後方から上がり36秒8で2着"
+      ],
+      "cons": [
+        "前々走10着で位置取り依存の幅がある"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カージオイド",
+      "pros": [
+        "先行位置は取れる"
+      ],
+      "cons": [
+        "直近3走すべて7着以下で終盤の持続が課題"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ステイアンビシャス",
+      "pros": [
+        "ダ2400m、2500mで3着、4着"
+      ],
+      "cons": [
+        "前走は最後方から10着で展開待ち"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ミスターエメラルド",
+      "pros": [
+        "未勝利を逃げ切る先行力"
+      ],
+      "cons": [
+        "昇級初戦は2番手から15着でクラスの壁を示した"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ダイシンレアレア",
+      "pros": [
+        "ダ2400mで2着、3着と現級長距離で安定"
+      ],
+      "cons": [
+        "自力で前を捕まえるには早め進出が必要"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ハイドパーク",
+      "pros": [
+        "初の函館ダ2400mで早めに動いて勝利"
+      ],
+      "cons": [
+        "昇級初戦で相手強化"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サトノリアン",
+      "pros": [
+        "障害帰りの前走で後方から5着"
+      ],
+      "cons": [
+        "長距離ダートで上位実績が乏しい"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    }
+  ],
+  "note": "観点並列は実行環境の互換性で停止。JRA公式seedと静的カタログから縮退評価。"
+}

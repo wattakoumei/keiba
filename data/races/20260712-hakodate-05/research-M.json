@@ -1,0 +1,171 @@
+{
+  "point": "M",
+  "overall_confidence": "中",
+  "field_note": "並列観点起動不能のため、JRA出走表・静的カタログ・公開調教記事から縮退構築。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジオ",
+      "pros": [
+        "[M]追うごとに良化し初戦へ態勢"
+      ],
+      "cons": [
+        "[M]厩舎の新馬型カタログは未蓄積"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トルネードサンダー",
+      "pros": [
+        "[M]当週に動きが鋭化"
+      ],
+      "cons": [
+        "[M]厩舎型と入厩時期は不明"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リラカリス",
+      "pros": [
+        "[M]小柄でも乗り込みは確保"
+      ],
+      "cons": [
+        "[M]初戦完成度の裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "デアグランツ",
+      "pros": [
+        "[M]ノーザンファーム生産の中距離血統"
+      ],
+      "cons": [
+        "[M]準備過程の公開情報が薄い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "イッペイ",
+      "pros": [
+        "[M]1週前から当週にかけ上昇"
+      ],
+      "cons": [
+        "[M]5月生まれで完成度は当日確認"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://news.netkeiba.com/?no=336473&pid=news_view",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アオイノリプー",
+      "pros": [
+        "[M]3頭併せで実戦負荷を経験"
+      ],
+      "cons": [
+        "[M]準備度の独立裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "アルデシンザン",
+      "pros": [
+        "[M]高い出自評価に加え当週の動きも伴う"
+      ],
+      "cons": [
+        "[M]大型で緩さが残る"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260708s00004192401000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ニーナラルゴ",
+      "pros": [
+        "[M]函館で段階的に乗り込み"
+      ],
+      "cons": [
+        "[M]父の国内初戦型データが薄い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "トムクリオーザ",
+      "pros": [
+        "[M]栗東から十分に乗り込み函館入り"
+      ],
+      "cons": [
+        "[M]幼さとワンペース面"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260707s00004048019000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ブラッグス",
+      "pros": [
+        "[M]早期から段階的に負荷を強め折り合い良好"
+      ],
+      "cons": [
+        "[M]公開時計の裏付けが薄い"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    }
+  ],
+  "note": "全頭カバー。取得できない項目は低確信度で固定。"
+}

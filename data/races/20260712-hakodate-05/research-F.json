@@ -1,0 +1,171 @@
+{
+  "point": "F",
+  "overall_confidence": "中",
+  "field_note": "並列観点起動不能のため、JRA出走表・静的カタログ・公開調教記事から縮退構築。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジオ",
+      "pros": [
+        "[F]函館Wで併入し終いに伸び"
+      ],
+      "cons": [
+        "[F]気ムラは残る"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トルネードサンダー",
+      "pros": [
+        "[F]函館芝で終い11秒2、併せ馬に大きく先着"
+      ],
+      "cons": [
+        "[F]時計評価は良馬場調教"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リラカリス",
+      "pros": [
+        "[F]乗り込み量は確保"
+      ],
+      "cons": [
+        "[F]最終追いの終い反応が目立たない"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "デアグランツ",
+      "pros": [
+        "[F]函館で調整継続"
+      ],
+      "cons": [
+        "[F]公開された最終時計を確認できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "イッペイ",
+      "pros": [
+        "[F]1週前に3頭併せ最先着、当週も併入"
+      ],
+      "cons": [
+        "[F]ワンペースとの騎手所感"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://news.netkeiba.com/?no=336473&pid=news_view",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アオイノリプー",
+      "pros": [
+        "[F]アルデシンザンとの3頭併せで負荷"
+      ],
+      "cons": [
+        "[F]同馬に先着を許した"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "アルデシンザン",
+      "pros": [
+        "[F]函館芝4F52秒7、終い11秒8で馬なり先着"
+      ],
+      "cons": [
+        "[F]頭の高さと緩さは残る"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260708s00004192401000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ニーナラルゴ",
+      "pros": [
+        "[F]函館Wで併せ馬の乗り込み"
+      ],
+      "cons": [
+        "[F]当週の詳細時計は確認できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "トムクリオーザ",
+      "pros": [
+        "[F]函館芝4F50秒0、終い11秒3で古馬に先着"
+      ],
+      "cons": [
+        "[F]切れ味より持続型との陣営所感"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260707s00004048019000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ブラッグス",
+      "pros": [
+        "[F]折り合いを保って併せ馬を消化"
+      ],
+      "cons": [
+        "[F]当週の詳細時計は確認できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    }
+  ],
+  "note": "全頭カバー。取得できない項目は低確信度で固定。"
+}

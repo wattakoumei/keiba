@@ -1,0 +1,294 @@
+{
+  "point": "A 能力指数・時計（スピード/タイム指数・走破時計・上がり3F・レースレベル）",
+  "overall_confidence": "中",
+  "field_note": "時計はseedを一次事実として採用。小倉芝1200はJRA公式のコース紹介で直線293m・平坦小回り、芝1200はスピードの絶対値が問われる条件。近い小倉1勝クラス芝1200では良馬場で1:08前半の高速決着・ハイペース例があり、1:08台を1勝クラスで出せる再現性と上がりの質を重視した。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-06-27小倉1勝クラス芝1200を1:09.0で2着、同条件で直近に通用時計を出している",
+        "[A] 近4走の1200mで上がり34.2〜34.8にまとまり、時計の再現性は平均以上"
+      ],
+      "cons": [
+        "[A] ベスト時計は1:09.0で、1勝クラスの高速決着上位と比べると絶対値は一段足りない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-06-13阪神1勝クラス芝1200で上がり34.1を記録し、末脚単体の素材はある"
+      ],
+      "cons": [
+        "[A] 直近小倉芝1200は1:10.7・上がり36.4で大きく時計を落としており、現状のスピード指数は低い",
+        "[A] 1:09.1の時計も11着時で、勝ち負けに直結した時計ではない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-06-28小倉芝1200未勝利を1:09.0・上がり34.5で勝ち、同舞台の最低限の時計はある"
+      ],
+      "cons": [
+        "[A] 好時計は未勝利戦でのものなので、1勝クラス基準ではレースレベルを割り引く"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-05-24京都1勝クラス芝1200で1:08.4・上がり34.0を記録し、組内上位の絶対時計を持つ",
+        "[A] 福島未勝利勝ちも1:08.7で、1200mの時計対応は連続している"
+      ],
+      "cons": [
+        "[A] 1:08.4は6着時で、上位争いに直結した時計ではない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 2025-04-26福島・雪うさぎ賞で1:08.8・上がり34.4の好時計2着があり、1200mの上限は足りる"
+      ],
+      "cons": [
+        "[A] 直近の中京1勝クラス芝1200は1:09.5・上がり36.0で15着、近走時計の鮮度と再現性に不安がある"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 2026-02-21小倉1勝クラス芝1200はハイペースの1:08.1決着で、自身も1:08.6まで詰めており同舞台の時計適性はある",
+        "[A] 中京芝1400で上がり33.8を記録し、末脚の上限は高い"
+      ],
+      "cons": [
+        "[A] その小倉1:08.6は9着で、近2走は1600m・1400mで大きく崩れており近走の時計信頼度は下がる"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://www.keibalab.jp/db/race/202602211012/",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-05-10京都1勝クラス芝1200で1:08.4・上がり33.3を記録し、決め手は組内上位",
+        "[A] 直近小倉芝1200でも上がり34.2を使えており、末脚の鮮度は残る"
+      ],
+      "cons": [
+        "[A] 直近小倉は1:09.5の8着で、同舞台の絶対時計は強調しきれない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-02-14小倉1勝クラス芝1200で1:08.4を記録し、同舞台の絶対時計は上位",
+        "[A] 2025-12-20中京芝1400の1:20.8・3着もあり、短距離寄りの基礎スピードを示す"
+      ],
+      "cons": [
+        "[A] 小倉1:08.4は7着時で上がり35.1、勝ち負けに必要な切れ味はやや不足"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] ファルコンSで芝1400m1:21.0・上がり34.3を記録しており、上位クラス経験による地力上限はある",
+        "[A] 1勝クラス芝1200でも1:09.2・上がり34.6と大崩れしない時計"
+      ],
+      "cons": [
+        "[A] ファルコンSは14着、芝1200の1:09.2も7着で、時計が着順に結びついていない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[A] 直近小倉芝1200で1:09.8と距離短縮には一応対応した"
+      ],
+      "cons": [
+        "[A] 上がり最良が35.7止まりで、1200m組の決め手比較では明確に見劣る",
+        "[A] 近走の好走時計がなく、1勝クラス短距離の高速決着に対する裏付けが薄い"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "score": 0,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-04-25福島・雪うさぎ賞で1:08.6を記録し、1200mの絶対スピードは水準以上",
+        "[A] 小倉芝1200未勝利勝ちも1:08.9で、同舞台の時計経験はある"
+      ],
+      "cons": [
+        "[A] 1:08.6は8着、マーガレットでも1:09.2の9着で、上位クラス相手の時計レベルはまだ中位"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-04-26福島1勝クラス芝1200で1:09.0・上がり34.9と水準時計はある"
+      ],
+      "cons": [
+        "[A] 近3走の小倉芝1200は1:09.5、1:11.5、1:09.5で、同舞台の高速決着対応が弱い",
+        "[A] 逃げて上がり36秒台に落ちる近走があり、時計の持続力に不安"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 阪神芝1600で上がり33.2、芝1400で1:20.8の実績があり、末脚と基礎スピードは持つ"
+      ],
+      "cons": [
+        "[A] 近走に芝1200の時計がなく、小倉1200の絶対スピード勝負へ直接つながる裏付けは不足"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "score": -2,
+      "confidence": "高",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200の時計がなく、直近1600mは1:40.1・上がり40.5で能力時計として大きく不足",
+        "[A] seed内の近2走はいずれも大敗時計で、短距離スピードの根拠が取れない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "score": 2,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-02-22小倉牝1勝クラス芝1200はハイペースの1:07.8決着で、自身も1:08.1・3着と高水準",
+        "[A] 2026-04-18福島1勝クラス芝1200でも1:08.1・2着、1勝クラスの高速時計を複数回再現している"
+      ],
+      "cons": [
+        "[A] 上がりは34.7〜35.1中心で、純粋な末脚勝負では最速級ではない"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://www.keibalab.jp/db/race/202602221012/",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "score": -1,
+      "confidence": "高",
+      "pros": [
+        "[A] 小倉未勝利芝1200で1:08.8、京都未勝利で上がり33.5があり、末脚の素材はある"
+      ],
+      "cons": [
+        "[A] 好時計はいずれも未勝利戦で、直近京都芝1200は1:09.0ながら10着と着順面の裏付けが弱い",
+        "[A] 1勝クラス相手の時計レベルには未到達"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "score": 1,
+      "confidence": "高",
+      "pros": [
+        "[A] 2026-04-11福島牝1勝クラス芝1200で1:08.6・上がり33.6の4着、1勝クラスで時計と末脚を両立",
+        "[A] 上がり33秒台の決め手は組内上位"
+      ],
+      "cons": [
+        "[A] 次走福島1勝クラスは1:09.6の14着、小倉でも1:10.2と崩れており再現性はやや低い"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json",
+        "https://jra.jp/facilities/race/kokura/course/index.html"
+      ]
+    }
+  ],
+  "note": "seedのrecent[].time/dist/agari/agari_bestを一次事実として全頭評価。web取得はJRA公式の小倉コース特性と、競馬ラボの小倉芝1200・1勝クラス高速決着例の時計文脈に限定した。検索で拾えない個別過去走は捏造せずseed依存とし、該当馬は確信度を中に下げた。市場情報・他人の印・予想は不使用。"
+}

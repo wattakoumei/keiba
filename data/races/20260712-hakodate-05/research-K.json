@@ -1,0 +1,171 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "並列観点起動不能のため、JRA出走表・静的カタログ・公開調教記事から縮退構築。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジオ",
+      "pros": [
+        "[K]丹内騎手が最終追いにも騎乗"
+      ],
+      "cons": [
+        "[K]新馬で実戦折り合いは未知"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トルネードサンダー",
+      "pros": [
+        "[K]吉田隼騎手が最終追いで好感触"
+      ],
+      "cons": [
+        "[K]初実戦の位置取りは未知"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リラカリス",
+      "pros": [
+        "[K]和田陽騎手で52kg"
+      ],
+      "cons": [
+        "[K]経験の浅い鞍上"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "デアグランツ",
+      "pros": [
+        "[K]浜中騎手を確保"
+      ],
+      "cons": [
+        "[K]調教での直接所感を確認できず"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "イッペイ",
+      "pros": [
+        "[K]武豊騎手が1週前追いで特徴を把握"
+      ],
+      "cons": [
+        "[K]ワンペースとの所感"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://news.netkeiba.com/?no=336473&pid=news_view",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アオイノリプー",
+      "pros": [
+        "[K]舟山騎手で54kg"
+      ],
+      "cons": [
+        "[K]経験の浅い鞍上"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "アルデシンザン",
+      "pros": [
+        "[K]佐々木騎手が調教から高評価"
+      ],
+      "cons": [
+        "[K]重馬場で大きなストライドを生かせるか"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260708s00004192401000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ニーナラルゴ",
+      "pros": [
+        "[K]原田騎手が操作性を評価"
+      ],
+      "cons": [
+        "[K]重馬場と距離は初経験"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "トムクリオーザ",
+      "pros": [
+        "[K]横山武騎手が1週前追いで乗りやすさを確認"
+      ],
+      "cons": [
+        "[K]外枠から初角まで短い"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260707s00004048019000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ブラッグス",
+      "pros": [
+        "[K]北村友騎手が調教で感触を得ている"
+      ],
+      "cons": [
+        "[K]具体的な戦法宣言は未取得"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    }
+  ],
+  "note": "全頭カバー。取得できない項目は低確信度で固定。"
+}

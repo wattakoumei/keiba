@@ -1,0 +1,165 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "決定論リスクは①高齢、③下降、⑥⑧前走大敗。⑥⑩は騎手未確定も割引。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブレイクザアイス",
+      "pros": [],
+      "cons": [
+        "7歳でやや高齢、上積みを大きく見込みにくい"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "シャローファースト",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "初のダ2400mで折り合いと持久力は未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シドニーホバート",
+      "pros": [],
+      "cons": [
+        "直近2走連続大敗の下降基調"
+      ],
+      "score": -2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ディースプレマシー",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "距離大幅延長で追走と持久力の両立が未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "シーリュウシー",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "初のダ2400m"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カージオイド",
+      "pros": [],
+      "cons": [
+        "前走大敗に加え騎手未確定"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ステイアンビシャス",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "後方一辺倒で展開依存"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ミスターエメラルド",
+      "pros": [],
+      "cons": [
+        "前走15着の大敗から距離延長"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ダイシンレアレア",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "差し遅れの展開リスク"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ハイドパーク",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "昇級初戦かつ騎手未確定"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サトノリアン",
+      "pros": [
+        "決定論リスクなし"
+      ],
+      "cons": [
+        "障害を挟んだローテで長距離ダートの反応が未知"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    }
+  ],
+  "note": "観点並列は実行環境の互換性で停止。JRA公式seedと静的カタログから縮退評価。"
+}

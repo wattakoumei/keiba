@@ -1,0 +1,171 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "並列観点起動不能のため、JRA出走表・静的カタログ・公開調教記事から縮退構築。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジオ",
+      "pros": [
+        "[C]シスキン×母父ディープで芝対応余地"
+      ],
+      "cons": [
+        "[C]父の重い洋芝適性は資料不足"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "トルネードサンダー",
+      "pros": [
+        "[C]母父キングカメハメハで機動力と底力"
+      ],
+      "cons": [
+        "[C]父ヘンリーバローズの初戦傾向は資料不足"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "リラカリス",
+      "pros": [
+        "[C]レイデオロ×ステイゴールドで中距離持続型"
+      ],
+      "cons": [
+        "[C]レイデオロ産駒は晩成寄り"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "デアグランツ",
+      "pros": [
+        "[C]サトノダイヤモンドは小回りと渋った芝が加点"
+      ],
+      "cons": [
+        "[C]4月生まれで完成度は当日確認"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "イッペイ",
+      "pros": [
+        "[C]エフフォーリア産駒で芝中距離の持続力"
+      ],
+      "cons": [
+        "[C]新種牡馬で蓄積が薄い"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://news.netkeiba.com/?no=336473&pid=news_view",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "アオイノリプー",
+      "pros": [
+        "[C]サートゥルナーリア×母父ディープで芝中距離"
+      ],
+      "cons": [
+        "[C]父系は良馬場の加速型で重馬場は未知"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "アルデシンザン",
+      "pros": [
+        "[C]レイデオロ牡馬で中距離持続型"
+      ],
+      "cons": [
+        "[C]晩成寄りで初戦完成度が鍵"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260708s00004192401000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ニーナラルゴ",
+      "pros": [
+        "[C]米国型父から前向きさを見込む"
+      ],
+      "cons": [
+        "[C]父Cornicheと母父の洋芝適性は資料不足"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "トムクリオーザ",
+      "pros": [
+        "[C]エピファネイアで2歳から動く持続型"
+      ],
+      "cons": [
+        "[C]重馬場は個体差が大きい"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://keiba.sponichi.co.jp/news/20260707s00004048019000c",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ブラッグス",
+      "pros": [
+        "[C]母父ハーツクライで渋った芝の持続力"
+      ],
+      "cons": [
+        "[C]父の初戦適性は資料不足"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+        "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005"
+      ]
+    }
+  ],
+  "note": "全頭カバー。取得できない項目は低確信度で固定。"
+}

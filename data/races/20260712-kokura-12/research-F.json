@@ -1,0 +1,232 @@
+{
+  "point": "F",
+  "observation": "F. 調教・厩舎仕上げ",
+  "race_id": "20260712-kokura-12",
+  "overall_confidence": "低",
+  "field_note": "Web検索では対象馬の最終追い切り時計・併せ結果を確認できず、競馬ブック好時計seedも未注入。全馬を中立0・低確信度とし、調教不良ではなく情報欠損として扱う。",
+  "stable_intent_add_candidates": [],
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、前走比の状態差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、中1週での仕上げ内容は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、未勝利勝ち後の仕上げ差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、休養明け気味の中間内容は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、立て直し後の仕上がりは不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、前走大敗後の状態差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、中1週での仕上げ内容は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、前走比の状態差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、休み明けの仕上がりは不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、中1週での仕上げ内容は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、休み明けの仕上がりは不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、前走逃げ後の状態差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、休み明けの仕上がりは不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、立て直し後の仕上がりは不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、前走好走後の状態維持は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、未勝利勝ち上がり前後の状態差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "pros": [],
+      "cons": [
+        "[F]最終追い切りの時計・脚色・併せ結果を確認できず、前走比の状態差分は不明"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "https://www.jbis.or.jp/race/20260712/110/12/"
+      ]
+    }
+  ],
+  "note": "個別馬名＋追い切り/調教/評価、レース固有語＋追い切りで検索したが、対象レースの公開調教時計・併せ結果は確認できなかった。出典URLは出走確認用であり、調教時計の根拠ではない。厩舎rubric catalogは空で、根拠不足のため暫定ラベル追記候補は作成しない。"
+}

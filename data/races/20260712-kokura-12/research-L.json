@@ -1,0 +1,229 @@
+{
+  "point": "L",
+  "overall_confidence": "中",
+  "field_note": "利用上限による縮退補完。seedの小倉芝1200m実績だけを条件一致として評価し、季節適性の全履歴調査は未実施。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "pros": [
+        "[L] 小倉芝1200mで2着・3着の条件一致実績があり、舞台再現性を確認できる"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は10着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "pros": [
+        "[L] 小倉芝1200mで1着の条件一致実績があり、舞台再現性を確認できる"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "pros": [],
+      "cons": [
+        "[L] seed内に小倉芝1200mの実走がなく、条件再現性は未確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "pros": [],
+      "cons": [
+        "[L] seed内に小倉芝1200mの実走がなく、条件再現性は未確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は9着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は8着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は7着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "pros": [],
+      "cons": [
+        "[L] seed内に小倉芝1200mの実走がなく、条件再現性は未確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は7着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "pros": [
+        "[L] 小倉芝1200mで1着の条件一致実績があり、舞台再現性を確認できる"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は5着・18着・7着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "pros": [],
+      "cons": [
+        "[L] seed内に小倉芝1200mの実走がなく、条件再現性は未確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "pros": [],
+      "cons": [
+        "[L] seed内に小倉芝1200mの実走がなく、条件再現性は未確認"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "pros": [
+        "[L] 小倉芝1200mで3着・2着の条件一致実績があり、舞台再現性を確認できる"
+      ],
+      "cons": [],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は4着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "pros": [],
+      "cons": [
+        "[L] 小倉芝1200mの近走は15着で、条件一致の好走裏付けが薄い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    }
+  ]
+}
+

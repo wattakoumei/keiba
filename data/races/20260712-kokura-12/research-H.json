@@ -1,0 +1,380 @@
+{
+  "race_id": "20260712-kokura-12",
+  "observation_point": "H",
+  "observation_point_label": "当日気配・パドック・直前情報",
+  "as_of": "2026-07-12",
+  "race_class_expectation": "3歳以上1勝クラスの平場。G1/重賞のような共同会見・追い切り後コメントの記事化は期待しづらく、今走向けの陣営コメント・パドック寸評は空欄が正常。WebSearchは軽探索で切り上げ。",
+  "overall_confidence": "低",
+  "summary": "WebSearchでレース名・小倉12R・主要馬名とパドック/返し馬/コメントを確認したが、今走向けの陣営コメント、騎手の出方コメント、パドック評価、返し馬、発汗、媒体パドック点数は取得できなかった。全馬H寄与は中立、確信度は低。発走前の確定馬体重・パドック実見のユーザー補強が必要。",
+  "field_note": "平場条件戦のためH観点の公開材料は薄い。JRA由来のseedで出走馬スパインのみ確認し、H固有の当日気配は未取得。逃げ/先行候補のウォーターデライト、ベネメレンティ、ウインマスカレード、アットザラヴアスク、ベルファストについても『行く/控える』の今走コメントは取得できず、STEP4a展開合成では脚質seedを主素材にする。",
+  "data_gaps": [
+    "全頭のパドック寸評・媒体パドック点数は未取得。",
+    "全頭の返し馬・発汗・イレ込み・気配は未取得。",
+    "全頭の確定馬体重と増減は分析時点で未取得。",
+    "今走に向けた関係者/騎手コメントは未取得。前走後回顧と区別できるコメントも確認できず。",
+    "出方コメント(行く/控える/控える競馬を試す等)は未取得。展開トリガー素材なし。"
+  ],
+  "supplement_request": "ユーザー補強推奨: 確定馬体重と増減、パドック気配/発汗/イレ込み、返し馬の反応、関係者コメントの貼り付け。特に11ウォーターデライト、12ベネメレンティ、15ベルファストの出方コメントが入ると展開合成の精度が上がる。",
+  "sources_global": [
+    {
+      "url": "https://www.jra.go.jp/JRADB/accessD.html",
+      "note": "出走馬スパインは注入seedのsource=jra。H固有のパドック/コメントはWebSearchで取得不能。"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "2026年7月12日 小倉12R 3歳以上1勝クラス パドック コメント",
+      "result": "H観点に使える今走コメント/パドック寸評なし"
+    },
+    {
+      "query": "2026 小倉12R 7月12日 3歳以上1勝クラス パドック 返し馬",
+      "result": "H観点に使える返し馬/発汗/媒体点なし"
+    },
+    {
+      "query": "主要馬名 + コメント/返し馬/追い切り後 コメント",
+      "result": "今走向けと確認できる3点セット付きコメントなし"
+    }
+  ],
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。平場条件戦で記事化期待値が低く、H寄与は中立扱い。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。連闘気味だが状態面の直前情報は取れず、中立扱い。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。昇級初戦の状態確認はパドック補強待ち。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。前走同級後の上積み/疲れはH観点では判断不能。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]先行脚質だが出方コメントは未取得。休み明け後の気配・発汗・馬体重確認が必要。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。近走馬体の増減があるため確定馬体重補強待ち。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。連闘に近い間隔のため気配確認が必要だが、情報は取れず。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。状態面の加減点材料なし。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。休み明け気配はパドック補強待ち。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。連闘気味だが疲労/上積みを裏付ける直前情報なし。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]逃げ候補だが今走のハナ主張/控えるコメントは未取得。昇級初戦の気配・返し馬はユーザー補強待ち。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]逃げ/テン速候補だが出方コメントは未取得。近走で馬体重が増えており、確定馬体重と発汗の補強が重要。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。休み明け気配は判断不能。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]先行候補だが出方コメントは未取得。前走大敗後の気配・馬体維持はパドック補強待ち。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]先行/テン速候補だが今走の位置取りコメントは未取得。大型馬で確定馬体重と返し馬の反応を補強したい。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。昇級初戦の落ち着き/返し馬反応は補強待ち。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "paddock_note": null,
+      "warmup_note": null,
+      "sweat_condition": null,
+      "body_weight_confirmed": null,
+      "media_paddock_score": null,
+      "connections_comment": null,
+      "comment_type": null,
+      "intent_signal": null,
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "note_h": "[H]当日気配・馬体重・今走コメントは未取得。状態面の加減点材料なし。",
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}

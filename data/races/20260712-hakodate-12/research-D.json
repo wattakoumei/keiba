@@ -1,0 +1,112 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "Codex利用枠上限で観点fan-outを実行できず、JRA公式出走表seed・近走・直接対戦・重馬場・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ナンナンプー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 函館芝1200mを直近2走経験、最内で距離損を抑えられる"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダブルチャレンジ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 函館芝1200mで逃げて5着、内枠と53kgで形状に沿う"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シャルトル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 芝1200mで1:08.5・上がり33.6秒、距離短縮にも対応実績"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ココソラーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 函館芝1200mで上がり34.2秒、51kgで道悪の負担を抑えられる"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンポーニャ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 稍重の札幌芝1200mで3着＝洋芝の力要る馬場を実走で確認"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "マインセーラ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 近2走はダート1000mで、芝1200mへの条件替わりが大きい"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ハッピーラッキー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 重馬場の中山芝1200mで2着＝道悪適性を実走で確認"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ペイシャアーサー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 芝1200m実績はあるが近走は先行して失速が続く"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

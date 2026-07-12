@@ -1,0 +1,624 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260712-hakodate-12",
+ "race_name": "",
+ "edition": "",
+ "race_no": 12,
+ "grade": "",
+ "date": "2026-07-12",
+ "course": {
+  "track": "",
+  "surface": "芝",
+  "distance": 1200,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 8,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "D",
+  "E",
+  "I"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "ナンナンプー",
+    "jockey": "舟山 瑠泉",
+    "trainer": "水野 貴広",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "ダブルチャレンジ",
+    "jockey": "吉田 隼人",
+    "trainer": "深山 雅史",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 3,
+    "horse": "シャルトル",
+    "jockey": "北村 友一",
+    "trainer": "栗田 徹",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 4,
+    "horse": "ココソラーレ",
+    "jockey": "古川 奈穂",
+    "trainer": "天間 昭一",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 5,
+    "horse": "サンポーニャ",
+    "jockey": "鷲頭 虎太",
+    "trainer": "池江 泰寿",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 6,
+    "horse": "マインセーラ",
+    "jockey": "的場 勇人",
+    "trainer": "的場 均",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 7,
+    "horse": "ハッピーラッキー",
+    "jockey": "横山 和生",
+    "trainer": "武市 康男",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 8,
+    "horse": "ペイシャアーサー",
+    "jockey": "遠藤 汰月",
+    "trainer": "本間 忍",
+    "leg_type": "逃",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "②先導・⑤⑧追走の道悪持続戦",
+    "tier": "本線★★★",
+    "prob": 0.44,
+    "trigger": "内の②が先手を取り、⑤⑧が競り切らず外2列目で追走する",
+    "pace_level": 0.66,
+    "contesters": [
+     2,
+     5,
+     8
+    ],
+    "leg_advantage": {
+     "逃げ": 0,
+     "先行": 0,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     2,
+     5,
+     8,
+     1
+    ],
+    "formation_last_corner": [
+     2,
+     5,
+     7,
+     3,
+     8
+    ],
+    "bias": "道悪の持続力と中団差し",
+    "phase_flow": {
+     "early": "②が内から先導し、⑤⑧が外で並びかける。重い芝で先行3頭は序盤から脚を使う",
+     "mid": "向正面から3角の上りで前の余力が削られ、⑦③は小頭数の中団後ろで末脚を温存する",
+     "late": "4角の下りで⑦が外から進出し、③も決め手を使う。②は53kgと内の距離利で粘る",
+     "result": "⑦③が中心、②が残り目。⑤は道悪実績で圏内、①④は前の失速待ち"
+    },
+    "risers": [
+     2,
+     3,
+     4,
+     5,
+     7
+    ],
+    "sinkers": [
+     6,
+     8
+    ]
+   },
+   {
+    "id": "β",
+    "name": "②単騎・内前固定",
+    "tier": "対抗★★",
+    "prob": 0.31,
+    "trigger": "⑤が控え、⑧も外から無理に競らず②が単騎で運ぶ",
+    "pace_level": 0.52,
+    "contesters": [
+     2
+    ],
+    "leg_advantage": {
+     "逃げ": 2,
+     "先行": 1,
+     "差し": 0,
+     "追込": -2
+    },
+    "formation_head": [
+     2,
+     5,
+     8,
+     1
+    ],
+    "formation_last_corner": [
+     2,
+     5,
+     1,
+     8,
+     7
+    ],
+    "bias": "内前の位置と道悪持続力",
+    "phase_flow": {
+     "early": "②が最内寄りから楽に先手を取り、⑤⑧は番手へ控えて隊列が早く決まる",
+     "mid": "前が追走力を温存し、後方の③④⑥⑦は重い芝で位置差を詰めにくい",
+     "late": "3角から下りへ入って②⑤が速度を保ち、①が内から差を詰める",
+     "result": "②中心の前残り。⑤①が圏内、⑦は地力で届く範囲、③は位置次第"
+    },
+    "risers": [
+     1,
+     2,
+     5,
+     7
+    ],
+    "sinkers": [
+     4,
+     6
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "⑤⑧の競り込み・先行総崩れ",
+    "tier": "伏線★",
+    "prob": 0.25,
+    "trigger": "外の⑧がハナを譲らず⑤も主張し、②を含む3頭が重馬場で競る",
+    "pace_level": 0.82,
+    "contesters": [
+     2,
+     5,
+     8
+    ],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": -1,
+     "差し": 2,
+     "追込": 2
+    },
+    "formation_head": [
+     2,
+     5,
+     8,
+     1
+    ],
+    "formation_last_corner": [
+     2,
+     7,
+     3,
+     4,
+     5
+    ],
+    "bias": "前崩れと道悪差し",
+    "phase_flow": {
+     "early": "②⑤⑧が初角までに互いを意識し、重い芝で速い入りを刻む",
+     "mid": "3角の上りで先行3頭の余力が薄れ、⑦③④が小頭数の利を使って射程へ入る",
+     "late": "4角の下りで⑦が早めに先団へ取り付き、③④が外から末脚を重ねる",
+     "result": "⑦中心、③④が浮上。②は軽斤量で残る余地、⑤⑧は競りの反動が大きい"
+    },
+    "risers": [
+     1,
+     3,
+     4,
+     7
+    ],
+    "sinkers": [
+     5,
+     6,
+     8
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "②が単騎ならβ。②⑤⑧が並びながらも競り切らなければα。3頭が互いに譲らなければγへ。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線★★★",
+    "center": [
+     3,
+     7
+    ],
+    "inside": [
+     2,
+     4,
+     5
+    ],
+    "spot": [
+     1
+    ],
+    "drop": [
+     6,
+     8
+    ]
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗★★",
+    "center": [
+     2,
+     5
+    ],
+    "inside": [
+     1,
+     7
+    ],
+    "spot": [
+     3,
+     8
+    ],
+    "drop": [
+     4,
+     6
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線★",
+    "center": [
+     3,
+     4,
+     7
+    ],
+    "inside": [
+     1
+    ],
+    "spot": [
+     2
+    ],
+    "drop": [
+     5,
+     6,
+     8
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 7,
+   "gate": "7",
+   "horse": "ハッピーラッキー",
+   "jockey": "横山 和生",
+   "trainer": "武市 康男",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 近走1200mの最速は1:07.8（中山、4着）、最速上がり34.2秒"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走2026-06-13東京1400mで5着、序盤8番手＝直近内容を一次評価"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 1勝クラスで近4走すべて5着以内、相手なりの安定感"
+    },
+    {
+     "tag": "D",
+     "note": "[D] 重馬場の中山芝1200mで2着＝道悪適性を実走で確認"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 3,
+   "gate": "3",
+   "horse": "シャルトル",
+   "jockey": "北村 友一",
+   "trainer": "栗田 徹",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 近走1200mの最速は1:08.5（中山、4着）、最速上がり33.3秒"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走2026-05-02東京1400mで5着、序盤8番手＝直近内容を一次評価"
+    },
+    {
+     "tag": "D",
+     "note": "[D] 芝1200mで1:08.5・上がり33.6秒、距離短縮にも対応実績"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "ダブルチャレンジ",
+   "jockey": "吉田 隼人",
+   "trainer": "深山 雅史",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "B",
+     "note": "[B] 前走2026-06-21函館1200mで5着、序盤1番手＝直近内容を一次評価"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 前走函館1200mで逃げて5着、同条件の先行力を確認"
+    },
+    {
+     "tag": "D",
+     "note": "[D] 函館芝1200mで逃げて5着、内枠と53kgで形状に沿う"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "ナンナンプー",
+   "jockey": "舟山 瑠泉",
+   "trainer": "水野 貴広",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 近走1200mの最速は1:08.6（福島、11着）、最速上がり34.4秒"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B] 直近内容から明確な上向き根拠が弱い"
+    },
+    {
+     "tag": "I",
+     "note": "[I] 前走大敗（9/9）"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "5",
+   "horse": "サンポーニャ",
+   "jockey": "鷲頭 虎太",
+   "trainer": "池江 泰寿",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A] 近走1200mの最速は1:08.8（札幌、2着）、最速上がり35.2秒"
+    },
+    {
+     "tag": "D",
+     "note": "[D] 稍重の札幌芝1200mで3着＝洋芝の力要る馬場を実走で確認"
+    }
+   ],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B] 直近内容から明確な上向き根拠が弱い"
+    },
+    {
+     "tag": "I",
+     "note": "[I] 直近2走連続大敗（前走16/16・前々走16/16）＝下降基調"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "gate": "4",
+   "horse": "ココソラーレ",
+   "jockey": "古川 奈穂",
+   "trainer": "天間 昭一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "α": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "I",
+     "note": "[I] 直近2走連続大敗（前走7/10・前々走16/16）＝下降基調"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "gate": "8",
+   "horse": "ペイシャアーサー",
+   "jockey": "遠藤 汰月",
+   "trainer": "本間 忍",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "逃",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B] 直近内容から明確な上向き根拠が弱い"
+    },
+    {
+     "tag": "D",
+     "note": "[D] 芝1200m実績はあるが近走は先行して失速が続く"
+    },
+    {
+     "tag": "I",
+     "note": "[I] 直近2走連続大敗（前走14/16・前々走14/18）＝下降基調"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "gate": "6",
+   "horse": "マインセーラ",
+   "jockey": "的場 勇人",
+   "trainer": "的場 均",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A] 近走に芝1200mの比較材料が乏しい"
+    },
+    {
+     "tag": "A",
+     "note": "[A] 今回条件での走破内容と終盤の数値が上位組に見劣る"
+    },
+    {
+     "tag": "B",
+     "note": "[B] 直近内容から明確な上向き根拠が弱い"
+    },
+    {
+     "tag": "D",
+     "note": "[D] 近2走はダート1000mで、芝1200mへの条件替わりが大きい"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": []
+}

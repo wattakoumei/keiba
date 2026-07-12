@@ -1,0 +1,173 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "同条件実績では⑨、近走末脚では⑤、同コース勝ちの⑩を上位評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブレイクザアイス",
+      "pros": [
+        "中山ダ2400mで4着があり長距離を完走できる"
+      ],
+      "cons": [
+        "同距離の近2走はいずれも6着で決め手に欠ける"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "シャローファースト",
+      "pros": [
+        "ユニコーンSで5着、ダ1900m1分58秒5は地力の裏付け"
+      ],
+      "cons": [
+        "ダ2400mの時計比較は未経験"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シドニーホバート",
+      "pros": [
+        "小倉ダ2400mで3着実績"
+      ],
+      "cons": [
+        "直近2走は終盤失速が続く"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ディースプレマシー",
+      "pros": [
+        "函館ダ1700mで上がり37秒1を記録"
+      ],
+      "cons": [
+        "2400mの比較時計がない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "シーリュウシー",
+      "pros": [
+        "前走京都ダ1800mで上がり36秒8、2着"
+      ],
+      "cons": [
+        "2400mでは芝の大敗しか比較がない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カージオイド",
+      "pros": [
+        "東京ダ2100mで先行経験"
+      ],
+      "cons": [
+        "近3走は7着、9着、9着で時計上の上積みが必要"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ステイアンビシャス",
+      "pros": [
+        "中山ダ2400mで3着、ダ2500mで4着"
+      ],
+      "cons": [
+        "上がり40秒台で勝ち切る決め手は弱い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ミスターエメラルド",
+      "pros": [
+        "未勝利ダ2000mを逃げ切り"
+      ],
+      "cons": [
+        "前走ダ1900mは15着で終盤大きく失速"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ダイシンレアレア",
+      "pros": [
+        "小倉ダ2400m2分33秒7で2着、中山同距離でも3着"
+      ],
+      "cons": [
+        "差し脚質で函館の短い直線は位置取りが鍵"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ハイドパーク",
+      "pros": [
+        "前走の函館ダ2400mを2分36秒7で勝利"
+      ],
+      "cons": [
+        "未勝利からの昇級で時計の比較水準は上がる"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サトノリアン",
+      "pros": [
+        "中山ダ2400mの完走経験"
+      ],
+      "cons": [
+        "同距離7着、8着で上位時計に届かない"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    }
+  ],
+  "note": "観点並列は実行環境の互換性で停止。JRA公式seedと静的カタログから縮退評価。"
+}

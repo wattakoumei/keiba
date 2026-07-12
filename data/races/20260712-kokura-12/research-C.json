@@ -1,0 +1,332 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "小倉芝1200m。父が短距離芝に寄るセレブトーチ、ウォーターデライト、ジューンオアシスを血統面で上位評価。カタログ外はweb補強したが、新種牡馬・海外血統は日本芝1200mのサンプルが薄いものがあり確信度を抑えた。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "pros": [
+        "[C]母父Gone WestはMr.Prospector系のスピードと芝ダ兼用性を供給し、小倉芝1200mの後押しになる。",
+        "[C]3歳牝馬で成長面はまだ上昇期寄り。"
+      ],
+      "cons": [
+        "[C]父タリスマニックは自身が芝中長距離型で、純スプリント血統ではないため再現性は個体実績頼み。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Talismanic",
+        "https://en.wikipedia.org/wiki/Gone_West_(horse)",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "pros": [
+        "[C]父マテラスカイはSpeightstown直仔で米国短距離スピードが強く、1200mへの距離適性自体はある。",
+        "[C]3歳牡馬で完成途上。"
+      ],
+      "cons": [
+        "[C]父はダート短距離実績型、母父スペシャルウィークは延長・スタミナ供給で、軽い芝1200mの切れは強調しにくい。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%B3%B0%E9%A0%98%E7%A9%BA",
+        "https://en.wikipedia.org/wiki/Speightstown_(horse)",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "pros": [
+        "[C]父ダノンスマッシュは芝1400m以下想定の新種牡馬で、当該芝1200mへの血統裏付けが強い。",
+        "[C]母父Sea The Starsは欧州芝クラシック級の底力を供給し、短距離でも終いの持続を補える。"
+      ],
+      "cons": [
+        "[C]Sea The Starsは本質的には中長距離寄りで、短距離の速い流れへの適性は父側依存。"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Sea_the_Stars",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "pros": [
+        "[C]母父キングヘイローは短距離G1勝ちと多様な産駒実績があり、芝1200mのスピード補強になる。",
+        "[C]3歳牝馬で成長面は上昇期。"
+      ],
+      "cons": [
+        "[C]父ノーブルミッションはGalileo系の中長距離・持続色が濃く、小倉芝1200mでは母父側の補助が必要。"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Noble_Mission",
+        "https://en.wikipedia.org/wiki/King_Halo",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "pros": [
+        "[C]父ウインブライトはステイゴールド系で持続力と小回り適性を供給し、4歳はまだ完成途上寄り。",
+        "[C]母父ロージズインメイは日本で芝短距離重賞馬も出しており、一定のスピード補強はある。"
+      ],
+      "cons": [
+        "[C]父の本領は芝中距離で、芝1200mの純スピード適性は強調材料までは届かない。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Win_Bright",
+        "https://en.wikipedia.org/wiki/Roses_In_May",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "pros": [
+        "[C]父ヘニーヒューズと母父フレンチデピュティはいずれも短縮・持続力の供給があり、距離短縮自体は悪くない。"
+      ],
+      "cons": [
+        "[C]両血統ともダート・パワー色が強く、軽い芝1200mの瞬発力には血統不適合寄り。",
+        "[C]父ヘニーヒューズは早熟傾向で、4歳牝馬は大きな上積みを血統からは見込みにくい。"
+      ],
+      "score": -1,
+      "confidence": "高",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "pros": [
+        "[C]父アドマイヤムーンはFine NeedleやSeiun Koseiなど芝スプリントG1級を出しており、小倉芝1200mの血統適性は明確。",
+        "[C]母父オースはDerby系の底力を補い、差し脚の持続に振れやすい。"
+      ],
+      "cons": [
+        "[C]5歳牝馬で血統面の上昇余地は限定的。"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Admire_Moon",
+        "https://en.wikipedia.org/wiki/Oath_(horse)",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "pros": [
+        "[C]母父ディープインパクトは高速芝の瞬発力を供給し、芝1200mでの末脚補強になる。",
+        "[C]4歳牝馬でピーク圏に入りつつある。"
+      ],
+      "cons": [
+        "[C]父カリフォルニアクロームは米国ダート中距離・パワー色が強く、芝スプリント血統としては中立以下。"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/California_Chrome",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "pros": [
+        "[C]父フォーウィールドライブは2歳芝短距離G1級で、芝1200mへのスピード裏付けが強い。",
+        "[C]母父ダンスインザダークが持続力を足し、短距離で急がされても終いの下支えになる。"
+      ],
+      "cons": [
+        "[C]父は日本産駒のサンプルが薄く、適性評価は追記候補扱いで確信度を上げにくい。"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Breeders%27_Cup_Juvenile_Turf_Sprint",
+        "https://en.wikipedia.org/wiki/2019_Breeders%27_Cup",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "pros": [
+        "[C]父キズナは小回り芝と持続力に強く、ローカル適性は補える。",
+        "[C]4歳牝馬で古馬持続型の父からピーク圏。"
+      ],
+      "cons": [
+        "[C]キズナは基本1600m以上、母父TeofiloもGalileo系の中距離・長距離寄りで、芝1200mへの短縮は血統的には忙しい。"
+      ],
+      "score": -1,
+      "confidence": "高",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Teofilo_(horse)",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "pros": [
+        "[C]父ロードカナロアは芝短距離からマイルが本領で、小倉芝1200mへの適性が高い。",
+        "[C]母父マンハッタンカフェがスタミナと晩成要素を補い、3歳牡馬の上昇余地もある。"
+      ],
+      "cons": [],
+      "score": 2,
+      "confidence": "高",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "pros": [
+        "[C]父ニューイヤーズデイは2歳G1勝ちの早い完成度と米国型スピードを持つ。"
+      ],
+      "cons": [
+        "[C]父はダート中距離色が強く、母父ダンスインザダークも延長・スタミナ供給で、芝1200mの速い決着には血統面で割引。",
+        "[C]5歳牝馬で成長型からの上積みは限定的。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/New_Year%27s_Day_(horse)",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "pros": [
+        "[C]母父Smart Strikeは芝ダ双方に底力を供給し、日本でも母父として芝G1級を出す汎用性がある。",
+        "[C]4歳せん馬でピーク圏。"
+      ],
+      "cons": [
+        "[C]父エピファネイアは芝2000m以上寄りの持続血統で、芝1200mでは距離適性が短すぎる。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Smart_Strike",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "pros": [
+        "[C]母父デヒアはDeputy Minister系の早熟スピードを供給し、短距離側の補助はある。",
+        "[C]父オルフェーヴルは完全晩成で4歳時点はまだ成長余地がある。"
+      ],
+      "cons": [
+        "[C]父オルフェーヴルは芝1800m以上・道悪・スタミナ寄りで、短距離新馬割引の系統でもあり芝1200mの適性は低い。"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Dehere",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "pros": [
+        "[C]父ダイワメジャーは芝1200mからマイルの先行・スピード持続型で、当該条件に合う。",
+        "[C]母父ShiroccoはMonsun系の持続力を補い、前受けから粘る形に血統の下支えがある。"
+      ],
+      "cons": [
+        "[C]父は早熟傾向で、5歳牝馬は成長上積みより維持の評価。"
+      ],
+      "score": 1,
+      "confidence": "高",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Shirocco",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "pros": [
+        "[C]父ミッキーアイルは芝1200mから1600mの早熟スピード型で、当該条件への適性が高い。",
+        "[C]母父クロフネは短縮・パワー・スピードを供給し、3歳牡馬の短距離戦に合う。"
+      ],
+      "cons": [
+        "[C]近走は血統適性を結果に変え切れておらず、血統は合うが個体面の確認は他観点待ち。"
+      ],
+      "score": 1,
+      "confidence": "高",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "pros": [
+        "[C]父キタサンブラックは牝馬なら1600m以下寄りで、持続成長型のため4歳牝馬は上昇期からピーク入り。",
+        "[C]母父Congratsは米国型パワーを供給し、母父として日本の大物も出す活力がある。"
+      ],
+      "cons": [
+        "[C]キタサンブラック全体では中距離以上の持続色が強く、芝1200mでは短距離専用血統ほどの即効性はない。"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "https://www.jra.go.jp/",
+        "https://en.wikipedia.org/wiki/Congrats_(horse)",
+        "pedigree-catalog.md",
+        "seed.json"
+      ]
+    }
+  ],
+  "note": "カタログ追記候補: タリスマニック=芝中長距離持続型で短距離は母系補助が必要、マテラスカイ=Speightstown系ダート短距離スピード型で芝は要サンプル、ノーブルミッション=Galileo系中長距離だが産駒に芝短距離G1馬もあり幅あり、ウインブライト=小回り芝中距離・持続型、カリフォルニアクローム=米国ダート中距離・パワー型、フォーウィールドライブ=2歳芝短距離型、ニューイヤーズデイ=米国2歳ダート中距離型、アドマイヤムーン=芝スプリント供給、キングヘイロー=短距離から中長距離まで幅広いBMS、Congrats=米国型パワーBMS、Roses in May=ダート中距離主軸だが日本で芝短距離重賞馬も輩出。"
+}

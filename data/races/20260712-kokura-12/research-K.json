@@ -1,0 +1,229 @@
+{
+  "point": "K",
+  "overall_confidence": "低",
+  "field_note": "利用上限による縮退補完。今走騎手とseedの前走騎手のみで継続・乗替を確認し、騎手のコース実績は未調査。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ドルチェミスト",
+      "pros": [],
+      "cons": [
+        "[K] 騎手情報または前走騎手が取得不明で、乗替方向を評価できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "リアルアルバ",
+      "pros": [
+        "[K] 西塚 洸二が前走から継続騎乗で、馬の癖を把握したまま臨める"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "セレブトーチ",
+      "pros": [],
+      "cons": [
+        "[K] 騎手情報または前走騎手が取得不明で、乗替方向を評価できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "フィラーエ",
+      "pros": [
+        "[K] 国分 恭介が前走から継続騎乗で、馬の癖を把握したまま臨める"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインマスカレード",
+      "pros": [],
+      "cons": [
+        "[K] 加藤 祥太から松山 弘平へ乗替。方向評価は未調査のため中立扱い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "ジュエルハウス",
+      "pros": [],
+      "cons": [
+        "[K] 騎手情報または前走騎手が取得不明で、乗替方向を評価できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ラブカムーン",
+      "pros": [
+        "[K] 藤懸 貴志が前走から継続騎乗で、馬の癖を把握したまま臨める"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ノボリリア",
+      "pros": [],
+      "cons": [
+        "[K] 太宰 啓介から高杉 吏麒へ乗替。方向評価は未調査のため中立扱い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テルヴィセクス",
+      "pros": [
+        "[K] 団野 大成が前走から継続騎乗で、馬の癖を把握したまま臨める"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ギザキズラヴ",
+      "pros": [
+        "[K] 田口 貫太が前走から継続騎乗で、馬の癖を把握したまま臨める"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ウォーターデライト",
+      "pros": [],
+      "cons": [
+        "[K] 騎手情報または前走騎手が取得不明で、乗替方向を評価できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ベネメレンティ",
+      "pros": [],
+      "cons": [
+        "[K] 騎手情報または前走騎手が取得不明で、乗替方向を評価できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "シャインベック",
+      "pros": [
+        "[K] 秋山 稔樹が前走から継続騎乗で、馬の癖を把握したまま臨める"
+      ],
+      "cons": [],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "アットザラヴアスク",
+      "pros": [],
+      "cons": [
+        "[K] 富田 暁から吉村 誠之助へ乗替。方向評価は未調査のため中立扱い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルファスト",
+      "pros": [],
+      "cons": [
+        "[K] 騎手情報または前走騎手が取得不明で、乗替方向を評価できない"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ジューンオアシス",
+      "pros": [],
+      "cons": [
+        "[K] 菱田 裕二から富田 暁へ乗替。方向評価は未調査のため中立扱い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "モルティフレーバー",
+      "pros": [],
+      "cons": [
+        "[K] 亀田 温心からJ.コレットへ乗替。方向評価は未調査のため中立扱い"
+      ],
+      "score": 0,
+      "confidence": "低",
+      "sources": [
+        "data/races/20260712-kokura-12/seed.json"
+      ]
+    }
+  ]
+}
+

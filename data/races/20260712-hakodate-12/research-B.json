@@ -1,0 +1,122 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "Codex利用枠上限で観点fan-outを実行できず、JRA公式出走表seed・近走・直接対戦・重馬場・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ナンナンプー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-27函館1200mで9着、序盤3番手＝直近内容を一次評価"
+      ],
+      "cons": [
+        "[B] 直近内容から明確な上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダブルチャレンジ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-21函館1200mで5着、序盤1番手＝直近内容を一次評価",
+        "[B] 前走函館1200mで逃げて5着、同条件の先行力を確認"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シャルトル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-05-02東京1400mで5着、序盤8番手＝直近内容を一次評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ココソラーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-07-04函館1200mで7着、序盤10番手＝直近内容を一次評価"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンポーニャ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-11福島1200mで16着、序盤1番手＝直近内容を一次評価"
+      ],
+      "cons": [
+        "[B] 直近内容から明確な上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "マインセーラ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-07-05函館1000mで8着、序盤9番手＝直近内容を一次評価"
+      ],
+      "cons": [
+        "[B] 直近内容から明確な上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ハッピーラッキー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-13東京1400mで5着、序盤8番手＝直近内容を一次評価",
+        "[B] 1勝クラスで近4走すべて5着以内、相手なりの安定感"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ペイシャアーサー",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-05中山1200mで14着、序盤1番手＝直近内容を一次評価"
+      ],
+      "cons": [
+        "[B] 直近内容から明確な上向き根拠が弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

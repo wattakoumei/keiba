@@ -1,0 +1,144 @@
+{
+  "point": "E",
+  "overall_confidence": "低",
+  "field_note": "新馬で実脚質は全馬未確定。調教所感・血統・枠から位置を推定し、出遅れ分岐を残す。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "ジオ",
+      "style": "先行推定",
+      "ten_speed": "中",
+      "expected_pos": "内の3-5番手"
+    },
+    {
+      "no": 2,
+      "name": "トルネードサンダー",
+      "style": "先行推定",
+      "ten_speed": "速",
+      "expected_pos": "内の2-4番手"
+    },
+    {
+      "no": 3,
+      "name": "リラカリス",
+      "style": "先行推定",
+      "ten_speed": "中",
+      "expected_pos": "内の4-6番手"
+    },
+    {
+      "no": 4,
+      "name": "デアグランツ",
+      "style": "先行推定",
+      "ten_speed": "中",
+      "expected_pos": "3-5番手"
+    },
+    {
+      "no": 5,
+      "name": "イッペイ",
+      "style": "先行推定",
+      "ten_speed": "中",
+      "expected_pos": "ハナ候補〜2番手"
+    },
+    {
+      "no": 6,
+      "name": "アオイノリプー",
+      "style": "差し推定",
+      "ten_speed": "中",
+      "expected_pos": "中団"
+    },
+    {
+      "no": 7,
+      "name": "アルデシンザン",
+      "style": "先行推定",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補〜3番手"
+    },
+    {
+      "no": 8,
+      "name": "ニーナラルゴ",
+      "style": "差し推定",
+      "ten_speed": "中",
+      "expected_pos": "中団後ろ"
+    },
+    {
+      "no": 9,
+      "name": "トムクリオーザ",
+      "style": "先行推定",
+      "ten_speed": "速",
+      "expected_pos": "外の2-4番手"
+    },
+    {
+      "no": 10,
+      "name": "ブラッグス",
+      "style": "先行推定",
+      "ten_speed": "中",
+      "expected_pos": "外の4-6番手"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 5,
+      "stance": "持続型で前々を取る候補"
+    },
+    {
+      "no": 7,
+      "stance": "調教の行きっぷりから先行候補"
+    },
+    {
+      "no": 9,
+      "stance": "外枠でも乗りやすさを生かして好位候補"
+    },
+    {
+      "no": 2,
+      "stance": "最終追いの鋭さから内で前を取る候補"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "初角まで約275m。内で距離損を抑えやすい"
+    },
+    {
+      "no": 2,
+      "note": "初角まで約275m。内で距離損を抑えやすい"
+    },
+    {
+      "no": 3,
+      "note": "初角まで約275m。内で距離損を抑えやすい"
+    },
+    {
+      "no": 4,
+      "note": "初角まで約275m。内で距離損を抑えやすい"
+    },
+    {
+      "no": 5,
+      "note": "中枠で前後を見ながら位置を選べる"
+    },
+    {
+      "no": 6,
+      "note": "中枠で前後を見ながら位置を選べる"
+    },
+    {
+      "no": 7,
+      "note": "中枠で前後を見ながら位置を選べる"
+    },
+    {
+      "no": 8,
+      "note": "中枠で前後を見ながら位置を選べる"
+    },
+    {
+      "no": 9,
+      "note": "初角まで約275m。先行するなら外から脚を使う"
+    },
+    {
+      "no": 10,
+      "note": "初角まで約275m。先行するなら外から脚を使う"
+    }
+  ],
+  "sources": [
+    "https://sp.jra.jp/JRADB/accessD.html?CNAME=sw01dde0102202601100520260712%2FB2",
+    "https://race.netkeiba.com/race/shutuba_past.html?race_id=202602011005",
+    "https://news.netkeiba.com/?no=336473&pid=news_view",
+    "https://keiba.sponichi.co.jp/news/20260708s00004192401000c",
+    "https://keiba.sponichi.co.jp/news/20260707s00004048019000c"
+  ]
+}

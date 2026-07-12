@@ -1,0 +1,113 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "Codex利用枠上限で観点fan-outを実行できず、JRA公式出走表seed・近走・直接対戦・重馬場・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ナンナンプー",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:08.6（福島、11着）、最速上がり34.4秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダブルチャレンジ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:08.9（小倉、2着）、最速上がり35.1秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シャルトル",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:08.5（中山、4着）、最速上がり33.3秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ココソラーレ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:09.0（函館、7着）、最速上がり34.2秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンポーニャ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:08.8（札幌、2着）、最速上がり35.2秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "マインセーラ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料が乏しい",
+        "[A] 今回条件での走破内容と終盤の数値が上位組に見劣る"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ハッピーラッキー",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:07.8（中山、4着）、最速上がり34.2秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ペイシャアーサー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 近走1200mの最速は1:08.9（小倉、16着）、最速上がり35秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

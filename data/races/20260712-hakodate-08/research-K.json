@@ -1,0 +1,169 @@
+{
+  "point": "K",
+  "overall_confidence": "中",
+  "field_note": "⑥⑩は騎手未確定。②内枠の横山和生、⑨丹内祐次の再騎乗を加点。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブレイクザアイス",
+      "pros": [
+        "黛弘人が近4走継続騎乗"
+      ],
+      "cons": [
+        "継続でも勝ち切りには届いていない"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "シャローファースト",
+      "pros": [
+        "横山和生へ乗替、内枠先行の意思決定を期待"
+      ],
+      "cons": [
+        "初コンビで2400mの折り合いは未知"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シドニーホバート",
+      "pros": [
+        "斎藤新は過去3走で騎乗経験"
+      ],
+      "cons": [
+        "同コンビで8着、9着もあり逃げ一辺倒は危険"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ディースプレマシー",
+      "pros": [
+        "古川吉洋が前走に続き騎乗"
+      ],
+      "cons": [
+        "追込から早めに動く判断が必要"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "シーリュウシー",
+      "pros": [
+        "小沢大仁へ乗替"
+      ],
+      "cons": [
+        "前走2着時の菱田裕二から替わる"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カージオイド",
+      "pros": [],
+      "cons": [
+        "分析時点で騎手未確定"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ステイアンビシャス",
+      "pros": [
+        "佐々木大輔へ乗替"
+      ],
+      "cons": [
+        "初コンビで追込の仕掛け時機が鍵"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ミスターエメラルド",
+      "pros": [
+        "鮫島克駿は過去に騎乗経験があり再コンビ"
+      ],
+      "cons": [
+        "前走大敗後で逃げるか控えるか不確実"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ダイシンレアレア",
+      "pros": [
+        "小倉ダ2400m2着時の丹内祐次が再騎乗"
+      ],
+      "cons": [
+        "外寄りの差しで早仕掛けが必要"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ハイドパーク",
+      "pros": [],
+      "cons": [
+        "分析時点で騎手未確定"
+      ],
+      "score": -1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サトノリアン",
+      "pros": [
+        "吉田隼人へ乗替"
+      ],
+      "cons": [
+        "初コンビで後方脚質の位置取りが課題"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    }
+  ],
+  "note": "観点並列は実行環境の互換性で停止。JRA公式seedと静的カタログから縮退評価。"
+}

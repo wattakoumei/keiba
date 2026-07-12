@@ -1,0 +1,112 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.pyの決定論一次フラグのみ。非決定論の故障・気性情報は未調査。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ナンナンプー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 前走大敗（9/9）"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "ダブルチャレンジ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シャルトル",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ココソラーレ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走7/10・前々走16/16）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "サンポーニャ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走16/16・前々走16/16）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "マインセーラ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走8/9・前々走9/12）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ハッピーラッキー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] seed由来の高齢・下降・大幅昇級・休み明けフラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ペイシャアーサー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] 直近2走連続大敗（前走14/16・前々走14/18）＝下降基調"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,179 @@
+{
+  "point": "C",
+  "overall_confidence": "中",
+  "field_note": "長距離ダートの血統裏付けは⑤、延長の持続力は①⑨⑩を評価。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ブレイクザアイス",
+      "pros": [
+        "父ラニと母父ハーツクライで長距離の持続力を補える"
+      ],
+      "cons": [
+        "7歳で血統上の伸びしろは限定的"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "シャローファースト",
+      "pros": [
+        "父クリソベリル、母父Tapizarでダートのパワーを供給"
+      ],
+      "cons": [
+        "2400mの持久力は実走で未確認"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "シドニーホバート",
+      "pros": [
+        "母父Coronado's Questでダート適性"
+      ],
+      "cons": [
+        "父ストロングリターンで2400mは守備範囲の裏付けが弱い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ディースプレマシー",
+      "pros": [
+        "父ディーマジェスティで距離延長の持続力を見込める"
+      ],
+      "cons": [
+        "母系の長距離ダート実績は不明"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "シーリュウシー",
+      "pros": [
+        "父ホッコータルマエはダ2400mまで守備範囲、函館適性もカタログで裏付け"
+      ],
+      "cons": [
+        "追込脚質で血統の持続力を位置に変える必要"
+      ],
+      "score": 2,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json",
+        ".agents/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "カージオイド",
+      "pros": [
+        "父サトノダイヤモンドは1800〜2400mの持続力型"
+      ],
+      "cons": [
+        "芝主系統でダート長距離の裏付けは個体頼み"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json",
+        ".agents/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ステイアンビシャス",
+      "pros": [
+        "父ドレフォンと母父Distorted Humorでダートのスピード持続"
+      ],
+      "cons": [
+        "父の主戦距離は1600〜2000mで2400mは長い"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json",
+        ".agents/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ミスターエメラルド",
+      "pros": [
+        "ドレフォン×クロフネでダートのパワーは十分"
+      ],
+      "cons": [
+        "両系統とも2400mの純粋な持久力は強調しにくい"
+      ],
+      "score": 0,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json",
+        ".agents/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "ダイシンレアレア",
+      "pros": [
+        "父キズナは1600m以上の持続・パワー型で小回りも対応"
+      ],
+      "cons": [
+        "母父ダイシンオレンジはカタログ外で補強不足"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json",
+        ".agents/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ハイドパーク",
+      "pros": [
+        "クリソベリル×Hard Spunでダートの持続力を見込める"
+      ],
+      "cons": [
+        "昇級で血統評価以上の地力が必要"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "サトノリアン",
+      "pros": [
+        "キズナ×クロフネで持続力とダートパワーを両立"
+      ],
+      "cons": [
+        "長距離実走では結果が出ていない"
+      ],
+      "score": 1,
+      "confidence": "中",
+      "sources": [
+        "data/races/20260712-hakodate-08/seed.json",
+        ".agents/skills/analyze-race/references/pedigree-catalog.md"
+      ]
+    }
+  ],
+  "note": "観点並列は実行環境の互換性で停止。JRA公式seedと静的カタログから縮退評価。"
+}
