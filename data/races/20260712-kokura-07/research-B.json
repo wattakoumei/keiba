@@ -1,0 +1,175 @@
+{
+  "point": "B",
+  "label": "近走内容・クラス通用度",
+  "race_id": "20260712-kokura-07",
+  "overall_confidence": "中",
+  "field_note": "seedの近4走・通過順を全頭比較し、クラス不確定だった⑪のユニコーンSはGIIIと確認。近走内容上位は、同舞台未勝利を中団から差し切った②、現級で5・6着後にGIIIを経験した⑪、現級4走連続3着の⑮。⑤は5/17京都で後方から⑦着の④に先着。⑧⑨⑩は現級で大敗続き。追加webは重要馬と直接対戦だけに限定し、市場情報は不使用。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジェバーダ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "近2走は1角13番手→16着、9番手→8着で後方追走。未勝利勝ちは1角5番手→1着。",
+      "score": -2,
+      "confidence": "低",
+      "pros": ["[B]未勝利勝ちでは中団5番手から上がり36.4で差し切った実績"],
+      "cons": ["[B]昇級後は8着、16着で現級通用を示せていない", "[B]前走の上がり1秒・走破2:03.7はseed異常値の疑いがあり内容判定不能"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 2,
+      "name": "タマモスカイ",
+      "class_move": {"vs_current": "昇級", "last": 1, "top": 1},
+      "recent_legs": "前走小倉ダ1700m不良を7-7-7-5から上がり37.7、1:44.5で差し切り。前2走は京都ダ1800mで5、6着。",
+      "score": 2,
+      "confidence": "高",
+      "pros": ["[B]前走は今回と同じ小倉ダ1700mで中団から差し切り、条件適合と上昇を明示", "[B]16頭立てで位置を上げながら上がり37.7にまとめ、底を見せない勝ち内容"],
+      "cons": ["[B]未勝利からの昇級初戦で現級通用は未証明", "[B]好時計は不良馬場での記録のため良馬場換算は慎重"],
+      "sources": ["https://db.netkeiba.com/race/202610020104/", "https://sp.jra.jp/JRADB/accessU.html?CNAME=sj01ude102023102469%2FCB"]
+    },
+    {
+      "no": 3,
+      "name": "メイショウオグマ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "現級ダ1800mで5、4、6、6着。後方15番手から6着、8番手から上がり36.2で4着があり、実脚質は追込。",
+      "score": 1,
+      "confidence": "中",
+      "pros": ["[B]現級で4走連続6着以内と相手なりに崩れにくい", "[B]3走前は8頭立て最後方から上がり36.2で4着し、展開不利でも詰めた"],
+      "cons": ["[B]現級で掲示板前後までで勝ち切る内容には未到達", "[B]近走は1800m中心で小倉1700mの忙しさは未確認"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 4,
+      "name": "オオツカ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "前走京都ダ1800mの現級戦を逃げて7着。未勝利勝ちは逃げ切り、小倉1700mでは2番手から2着。",
+      "score": 1,
+      "confidence": "高",
+      "pros": ["[B]現級初戦は逃げて7着ながら⑥着⑤と半馬身差で、昇級即大崩れではない", "[B]小倉ダ1700m未勝利で2着があり、先行内容を今回へ接続できる"],
+      "cons": ["[B]前走は主導権を取っても上がり38.6で捕まり、現級での押し切りには一段必要"],
+      "sources": ["https://www.keibalab.jp/db/race/202605170806/simple.html", "data/races/20260712-kokura-07/seed.json"]
+    },
+    {
+      "no": 5,
+      "name": "ラブインアクション",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "前走京都ダ1800mは13番手から上がり37.3で6着。2走前は3番手から10着、未勝利勝ちは小倉1700mを逃げ切り。",
+      "score": 1,
+      "confidence": "高",
+      "pros": ["[B]前走は後方13番手から上がり37.3で6着まで追い上げ、着順以上に終いの内容が良い", "[B]小倉ダ1700mで逃げ切り勝ちがあり、前後どちらの形でも運べる"],
+      "cons": ["[B]現級では10着、6着でまだ掲示板実績がない", "[B]近2走で位置取りが3番手と13番手に振れ、実脚質が安定しない"],
+      "sources": ["https://www.keibalab.jp/db/race/202605170806/simple.html", "data/races/20260712-kokura-07/seed.json"]
+    },
+    {
+      "no": 6,
+      "name": "リアルペガサス",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "2025年秋冬の現級ダ1800mで6、8、7、9着。位置取りは5～12番手で差し・追込。",
+      "score": -1,
+      "confidence": "中",
+      "pros": ["[B]現級で6、7着まで詰めた走りはあり、全く通用しない内容ではない"],
+      "cons": ["[B]近4走すべて現級で掲示板外、上がり38秒台後半中心で決め手不足", "[B]最終出走が2025年12月で近況のレース内容が古い"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 7,
+      "name": "キリオス",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "未勝利は3番手から勝利したが、昇級後も同じ3番手から11、10着。",
+      "score": -2,
+      "confidence": "中",
+      "pros": ["[B]新馬2着、未勝利1着時は好位3番手を安定して確保"],
+      "cons": ["[B]現級2戦が11、10着で、前につけても上がり39秒台まで失速", "[B]同じ形を繰り返して大敗しており、現級で底を見せた可能性"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 8,
+      "name": "セルジュバローズ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "未勝利は逃げ切ったが、現級で3番手→12着、前走小倉1700mは6番手→15着。",
+      "score": -2,
+      "confidence": "高",
+      "pros": ["[B]未勝利では逃げて1着、前で運ぶ速力自体はある"],
+      "cons": ["[B]現級2戦が12、15着で、前走同舞台は上がり41.6まで失速", "[B]小倉1700mで既に大敗しており条件替わりによる反転根拠が薄い"],
+      "sources": ["https://app.jra.jp/JRADB/accessS.html?CNAME=sw01sde1010202602021220260628%2F69", "data/races/20260712-kokura-07/seed.json"]
+    },
+    {
+      "no": 9,
+      "name": "キアヌ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "現級ダ1200～1400mで10、11、11、12着。全戦11～14番手の後方。",
+      "score": -2,
+      "confidence": "中",
+      "pros": ["[B]後方一辺倒で、極端な前崩れなら着順を上げる余地"],
+      "cons": ["[B]現級4走連続二桁着順で内容上の前進がない", "[B]後方から上がりも抜けておらず、距離延長だけで逆転する根拠が乏しい"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 10,
+      "name": "ジュンプリメーロ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "小倉1700m未勝利は2番手から勝利。昇級後は後方11、10番手から9、10着。",
+      "score": -2,
+      "confidence": "中",
+      "pros": ["[B]小倉ダ1700mで先行して勝ち切った同舞台実績"],
+      "cons": ["[B]現級2戦は後方のまま9、10着で通用内容を示せていない", "[B]未勝利勝ち時の先行策を昇級後に再現できず、実脚質が崩れた"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 11,
+      "name": "ヴィエントデコラ",
+      "class_move": {"vs_current": null, "last": null, "top": 2},
+      "recent_legs": "現級で4番手→5着、8番手→6着の後、GIIIユニコーンSで5番手→11着。",
+      "score": 1,
+      "confidence": "高",
+      "pros": ["[B]現級で5、6着と連続して大崩れせず、クラス通用の下地を示す", "[B]前走はGIIIユニコーンSへの格上挑戦で、11着だけを現級の力負けとは扱わない"],
+      "cons": ["[B]現級でも掲示板が最高で勝ち負けまでは届いていない", "[B]GIIIでは好位5番手から11着となり格上相手には底を見せた"],
+      "sources": ["https://smp.sankei.co.jp/docomo/keiba/member/grade2026/5b.html", "data/races/20260712-kokura-07/seed.json"]
+    },
+    {
+      "no": 12,
+      "name": "コルヴァス",
+      "class_move": {"vs_current": "昇級", "last": 1, "top": 1},
+      "recent_legs": "新馬は2番手から2着、次走中京ダ1800mは4-3-3-3から上がり38.3で差し切り。",
+      "score": 1,
+      "confidence": "高",
+      "pros": ["[B]2戦目で好位から差し切り、デビュー2戦とも連対で底を見せていない", "[B]逃げ馬を見ながら直線で差す競馬ができ、昇級でも運びに融通"],
+      "cons": ["[B]未勝利勝ち時計1:55.7は強調しづらく、現級通用は未証明", "[B]実戦2走だけで多頭数・小回り1700mへの対応材料が少ない"],
+      "sources": ["https://data.keiba-intelligence.jp/jra/results/2026/03/21/chukyo/1/", "https://db.netkeiba.com/race/sum/07/20260321/"]
+    },
+    {
+      "no": 13,
+      "name": "テーオーノーベル",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "現級で8、6、8、10着。小倉1700mでは3番手から6着、近2走1400mは4、8番手から8、10着。",
+      "score": 0,
+      "confidence": "高",
+      "pros": ["[B]小倉ダ1700m現級で先行して6着があり、同条件なら着順上昇余地"],
+      "cons": ["[B]現級4走で掲示板がなく勝ち切る裏付けは弱い", "[B]近2走は8、10着で内容が上向いていない"],
+      "sources": ["https://keibagrant.jp/pdf/2026/20260207/100820260207.pdf", "data/races/20260712-kokura-07/seed.json"]
+    },
+    {
+      "no": 14,
+      "name": "ニシノミチアキ",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "現級で中団から3、4着後、小倉2400m13着、阪神1800m最後方から9着。",
+      "score": 0,
+      "confidence": "中",
+      "pros": ["[B]現級ダ1900m3着、1800m4着があり地力通用の実績", "[B]前走は11頭立て最後方から9着で、位置取り不利を考慮できる"],
+      "cons": ["[B]近2走は13、9着と下降しており、好走時の内容から後退", "[B]小倉経験は2400m大敗だけで1700mの追走力は未確認"],
+      "sources": ["data/races/20260712-kokura-07/seed.json", "https://www.jra.go.jp/JRADB/accessD.html"]
+    },
+    {
+      "no": 15,
+      "name": "エアフォースワン",
+      "class_move": {"vs_current": "同級", "last": 2, "top": 2},
+      "recent_legs": "2024年8月から2025年1月まで現級ダ1800～1900mで4走連続3着。全戦9～13番手から差し。",
+      "score": 2,
+      "confidence": "低",
+      "pros": ["[B]現級4走連続3着でクラス通用度はメンバー最上位級", "[B]最後方近くから上がり37秒台で毎回詰めており、展開不利でも崩れない内容"],
+      "cons": ["[B]最終出走が2025年1月で、好内容が約1年半前と非常に古い", "[B]追込一辺倒で小回り1700mでは位置取りが届かない懸念"],
+      "sources": ["https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0107202501071220250119%2FDD", "https://www.jbis.or.jp/race/result/20250119/107/12/"]
+    }
+  ],
+  "note": "①の前走上がり・走破時計はseedの取得異常とみて評価根拠に使わず低確信。⑪ユニコーンSはGIIIと外部確認したため、seedのclass_move欠損を格上挑戦として解釈。その他の昇降級方向はseedタグをそのまま使用。"
+}

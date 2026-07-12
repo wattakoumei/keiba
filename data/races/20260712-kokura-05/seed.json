@@ -1,0 +1,23 @@
+{
+  "race_id": "202607121005",
+  "source": "jra",
+  "n": 8,
+  "surface": "芝",
+  "distance": 2000,
+  "headcount": 8,
+  "draw_fixed": true,
+  "horses": [
+    {"no": 1, "waku": 1, "name": "サイモンレガシー", "sex_age": "牡2/鹿", "weight": "55.0", "jockey": "松若 風馬", "trainer": "石坂 公一", "sire": "エフフォーリア", "damsire": "オルフェーヴル", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 2, "waku": 2, "name": "シュガーハウス", "sex_age": "牡2/栗", "weight": "55.0", "jockey": "幸 英明", "trainer": "野中 賢二", "sire": "マインドユアビスケッツ", "damsire": "ハーツクライ", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 3, "waku": 3, "name": "シュプレヒコール", "sex_age": "牡2/鹿", "weight": "55.0", "jockey": "吉村 誠之助", "trainer": "清水 久詞", "sire": "ジャンダルム", "damsire": "キズナ", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 4, "waku": 4, "name": "ロクメイカン", "sex_age": "牡2/鹿", "weight": "55.0", "jockey": "菱田 裕二", "trainer": "小崎 憲", "sire": "ブリックスアンドモルタル", "damsire": "Sir Prancealot", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 5, "waku": 5, "name": "フェーエンハフト", "sex_age": "牽2/鹿", "weight": "55.0", "jockey": "田口 貫太", "trainer": "緒方 努", "sire": "ダノンバラード", "damsire": "Gleneagles", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 6, "waku": 6, "name": "シックパラソル", "sex_age": "牽2/青", "weight": "55.0", "jockey": "松山 弘平", "trainer": "松永 幹夫", "sire": "エピファネイア", "damsire": "エイシンフラッシュ", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 7, "waku": 7, "name": "エルドボルグ", "sex_age": "牡2/鹿", "weight": "55.0", "jockey": "団野 大成", "trainer": "斉藤 崇史", "sire": "キタサンブラック", "damsire": "Dubawi", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}},
+    {"no": 8, "waku": 8, "name": "パーセンタイル", "sex_age": "牡2/鹿", "weight": "52.0", "jockey": null, "trainer": "前川 恭子", "sire": "レイデオロ", "damsire": "Easing Along", "style": null, "ten_speed": null, "agari_best": null, "recent": [], "class_move": {"last": null, "top": null, "vs_current": null, "delta": null}}
+  ],
+  "h2h": [],
+  "race_class": "2歳新馬",
+  "race_class_rank": 1,
+  "race_class_label": "新馬"
+}

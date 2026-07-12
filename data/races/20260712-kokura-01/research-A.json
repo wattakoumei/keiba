@@ -1,0 +1,232 @@
+{
+  "point": "A",
+  "overall_confidence": "中",
+  "field_note": "観点fan-outの実行環境制約により、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "リザレクティア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "コースタルロード",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アリディプラチノ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:13.6、末脚最速は37.3秒"
+      ],
+      "cons": [
+        "[A] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ドゥボヌール",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.4、末脚最速は35.0秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ビケイムフリー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "シャンデリュイーズ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.9、末脚最速は36.2秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ピンクパンサー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ブライトエンジェル",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.1、末脚最速は34.4秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テンタイムトップ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ホーリーステップ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.2、末脚最速は36.0秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクサンテドリガワ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.1、末脚最速は34.7秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ヨウリンケイジュ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:14.5、末脚最速は38.2秒"
+      ],
+      "cons": [
+        "[A] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "フルフィルメント",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.6、末脚最速は35.8秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ロージーキャンドル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルセクレト",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[A] 芝1200mの近走最速は1:09.5、末脚最速は35.6秒"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ティグリス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "マルモズイルバア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[A] 近走に芝1200mの比較材料がない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}

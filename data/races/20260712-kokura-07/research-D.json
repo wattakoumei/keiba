@@ -1,0 +1,249 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "専用並列ランナー停止のためJRA確定seedと静的コース正本で縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジェバーダ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "内枠で距離損を抑えれば末脚を温存できる"
+      ],
+      "cons": [
+        "ダ1700mの実績がなく後方一辺倒では短直線が課題"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "タマモスカイ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "前走の小倉ダ1700mを1分44秒5で勝ち、舞台適性を直接示した"
+      ],
+      "cons": [
+        "昇級初戦で同じ中団位置を確保できるか"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "メイショウオグマ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1800mで安定しており1700m短縮は守備範囲"
+      ],
+      "cons": [
+        "後方待機が多く小倉291mの直線では位置取りが課題"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "オオツカ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700mで先行して2着があり小回りに対応"
+      ],
+      "cons": [
+        "前走は逃げて7着で同級の持続力に課題"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ラブインアクション",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700mの未勝利戦を逃げ切った実績"
+      ],
+      "cons": [
+        "同級では後方になり、未勝利時の逃げを再現できるか"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "リアルペガサス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1800m中心で1700m短縮は追走改善余地"
+      ],
+      "cons": [
+        "210日ぶりで小回りの加速に反応できるか"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "キリオス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "先行力があり短い直線への対応余地"
+      ],
+      "cons": [
+        "同級2戦で先行して失速し持続力が課題"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "セルジュバローズ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700mを一度経験済み"
+      ],
+      "cons": [
+        "前走同舞台で15着、速い流れに巻き込まれる懸念"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "キアヌ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "1400m中心からの延長で追走は楽になる"
+      ],
+      "cons": [
+        "1700m初経験でコーナー4回の持続力が未知"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジュンプリメーロ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700mの未勝利戦を先行して勝利"
+      ],
+      "cons": [
+        "同級では後方になり小倉勝ち時の先行を再現できるか"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ヴィエントデコラ",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "阪神ダ1800m1分51秒8の内容から距離短縮は対応可能"
+      ],
+      "cons": [
+        "444kg前後の馬体で小回りの消耗戦が課題"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "コルヴァス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1800mで前受けでき小回りへの対応余地"
+      ],
+      "cons": [
+        "昇級初戦で1700mの流れへの対応は未知"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーノーベル",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "小倉ダ1700mで先行経験がある"
+      ],
+      "cons": [
+        "58kgで外寄りから前へ行くと距離損と消耗が増す"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ニシノミチアキ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "1800〜1900mで差す形なら距離は守備範囲"
+      ],
+      "cons": [
+        "近走下降かつ外枠で差し遅れの懸念"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "エアフォースワン",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "1800〜1900mで終いを伸ばす持続力"
+      ],
+      "cons": [
+        "約539日ぶりで小回り加速への反応が未知"
+      ],
+      "sources": [
+        "JRA公式出馬表（tools/fetch_racecard.py取得）",
+        "data/races/20260712-kokura-07/seed.json"
+      ]
+    }
+  ],
+  "note": "全頭を同一seed時点で比較"
+}
+

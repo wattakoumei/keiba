@@ -1,0 +1,228 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "risk_flags.pyの決定論一次フラグのみ。非決定論の故障・気性情報は未調査。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "リザレクティア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -1.0, 'note': '直近2走連続大敗（前走12/16・前々走14/15）＝下降基調'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "コースタルロード",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アリディプラチノ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ドゥボヌール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ビケイムフリー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -1.0, 'note': '直近2走連続大敗（前走15/18・前々走16/18）＝下降基調'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "シャンデリュイーズ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ピンクパンサー",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ブライトエンジェル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -0.5, 'note': '前走大敗（14/18）'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テンタイムトップ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -1.0, 'note': '直近2走連続大敗（前走18/18・前々走9/13）＝下降基調'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ホーリーステップ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクサンテドリガワ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ヨウリンケイジュ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -0.5, 'note': '前走大敗（15/15）'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "フルフィルメント",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'layoff', 'delta': -0.5, 'note': '前走から154日＝休み明け'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ロージーキャンドル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -1.0, 'note': '直近2走連続大敗（前走15/16・前々走15/18）＝下降基調'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルセクレト",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ティグリス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[I] 決定論の下降・休み明け・大幅昇級フラグなし"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "マルモズイルバア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[I] {'tag': 'decline', 'delta': -1.0, 'note': '直近2走連続大敗（前走16/16・前々走12/13）＝下降基調'}"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}

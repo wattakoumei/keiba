@@ -1,0 +1,189 @@
+{
+  "race_id": "20260712-kokura-01",
+  "observation": "E_pace_evidence",
+  "field_size": 17,
+  "legs": [
+    {
+      "no": 1,
+      "name": "リザレクティア",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "basis": "近走平均1角9.5番手、テン遅",
+      "confidence": "高"
+    },
+    {
+      "no": 2,
+      "name": "コースタルロード",
+      "style": "不明",
+      "ten_speed": "不明",
+      "expected_pos": "不明",
+      "basis": "初出走のため位置推定は低確信",
+      "confidence": "低"
+    },
+    {
+      "no": 3,
+      "name": "アリディプラチノ",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "basis": "近走平均1角8.5番手、テン遅",
+      "confidence": "高"
+    },
+    {
+      "no": 4,
+      "name": "ドゥボヌール",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "先行",
+      "basis": "近走平均1角2.7番手、テン速",
+      "confidence": "高"
+    },
+    {
+      "no": 5,
+      "name": "ビケイムフリー",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "basis": "近走平均1角12.5番手、テン遅",
+      "confidence": "高"
+    },
+    {
+      "no": 6,
+      "name": "シャンデリュイーズ",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先行",
+      "basis": "近走平均1角5.2番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 7,
+      "name": "ピンクパンサー",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "basis": "近走平均1角10.0番手、テン遅",
+      "confidence": "高"
+    },
+    {
+      "no": 8,
+      "name": "ブライトエンジェル",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先行",
+      "basis": "近走平均1角5.7番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 9,
+      "name": "テンタイムトップ",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "basis": "近走平均1角7.8番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 10,
+      "name": "ホーリーステップ",
+      "style": "逃",
+      "ten_speed": "速",
+      "expected_pos": "先頭",
+      "basis": "近走平均1角1.7番手、テン速",
+      "confidence": "高"
+    },
+    {
+      "no": 11,
+      "name": "ハクサンテドリガワ",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先行",
+      "basis": "近走平均1角3.8番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 12,
+      "name": "ヨウリンケイジュ",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "basis": "近走平均1角5.3番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 13,
+      "name": "フルフィルメント",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "先行",
+      "basis": "近走平均1角2.0番手、テン速",
+      "confidence": "高"
+    },
+    {
+      "no": 14,
+      "name": "ロージーキャンドル",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "basis": "近走平均1角13.0番手、テン遅",
+      "confidence": "高"
+    },
+    {
+      "no": 15,
+      "name": "ベルセクレト",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "basis": "近走平均1角6.0番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 16,
+      "name": "ティグリス",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "先行",
+      "basis": "近走平均1角4.5番手、テン中",
+      "confidence": "高"
+    },
+    {
+      "no": 17,
+      "name": "マルモズイルバア",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "basis": "近走平均1角9.7番手、テン遅",
+      "confidence": "高"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 10,
+      "stance": "前走逃げ・今回も主導候補"
+    },
+    {
+      "no": 4,
+      "stance": "内のテン速先行"
+    },
+    {
+      "no": 13,
+      "stance": "外のテン速先行"
+    }
+  ],
+  "draw": [
+    {
+      "no": 4,
+      "note": "内で先行しやすい"
+    },
+    {
+      "no": 13,
+      "note": "外から位置を取るぶん脚を使う"
+    },
+    {
+      "no": 16,
+      "note": "大外先行で位置取りが鍵"
+    }
+  ],
+  "field_note": "観点fan-outの実行環境制約により、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。"
+}

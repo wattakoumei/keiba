@@ -1,0 +1,249 @@
+{
+  "point": "I",
+  "overall_confidence": "中",
+  "field_note": "決定論risk_flagsとweight_adjustの一次フラグで縮退評価",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ジェバーダ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "直近2走連続大敗と231日ぶりが重なる"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "タマモスカイ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論上の重大リスクは確認されない"
+      ],
+      "cons": [
+        "決定論上の重大リスクなし"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "メイショウオグマ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "7歳と58kgで軽量3歳勢より負担"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "オオツカ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論上の重大リスクは確認されない"
+      ],
+      "cons": [
+        "決定論上の重大リスクなし"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ラブインアクション",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論上の重大リスクは確認されない"
+      ],
+      "cons": [
+        "決定論上の重大リスクなし"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "リアルペガサス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "210日ぶりの休養明け"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "キリオス",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "直近2走連続大敗で下降基調"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "セルジュバローズ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "直近2走連続大敗で下降基調"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "キアヌ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "直近2走連続大敗と58kg負担"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ジュンプリメーロ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "直近2走連続大敗で下降基調"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ヴィエントデコラ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "前走大敗だが53kgで負担は軽い"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "コルヴァス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "決定論上の重大リスクは確認されない"
+      ],
+      "cons": [
+        "決定論上の重大リスクなし"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "テーオーノーベル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "134日ぶりかつ58kgの先行負担"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ニシノミチアキ",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "直近2走連続大敗と58kg負担"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "エアフォースワン",
+      "score": -2,
+      "confidence": "中",
+      "pros": [
+        "リスクは既知で展開適合側と分離して評価"
+      ],
+      "cons": [
+        "7歳・約539日ぶり・58kgが重なる"
+      ],
+      "sources": [
+        "data/races/20260712-kokura-07/risk.json",
+        "data/races/20260712-kokura-07/weight.json"
+      ]
+    }
+  ],
+  "note": "脚部・気性など非決定論層は未取得"
+}
+

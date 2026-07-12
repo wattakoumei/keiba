@@ -1,0 +1,248 @@
+{
+  "point": "B",
+  "overall_confidence": "中",
+  "field_note": "観点fan-outの実行環境制約により、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "リザレクティア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-14 阪神1400mで12着、1角7番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "コースタルロード",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[B] 初出走で近走比較ができない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アリディプラチノ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-05-24 京都1800mで9着、1角9番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ドゥボヌール",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-06 阪神1200mで9着、1角3番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ビケイムフリー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-03-28 阪神1600mで15着、1角17番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "シャンデリュイーズ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-07-04 小倉1200mで3着、1角3番手"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ピンクパンサー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-05-24 京都1600mで11着、1角10番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ブライトエンジェル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-21 阪神1600mで14着、1角4番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テンタイムトップ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-06 阪神1600mで18着、1角8番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ホーリーステップ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-28 小倉1200mで2着、1角1番手"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクサンテドリガワ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-06 阪神1200mで7着、1角5番手"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ヨウリンケイジュ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-05-16 新潟1200mで15着、1角7番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "フルフィルメント",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-02-08 小倉1200mで6着、1角2番手"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ロージーキャンドル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-12 阪神1400mで15着、1角16番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルセクレト",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-28 小倉1200mで5着、1角6番手"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ティグリス",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-06-13 阪神1600mで6着、1角3番手"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "マルモズイルバア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[B] 前走2026-04-25 京都1400mで16着、1角7番手"
+      ],
+      "cons": [
+        "[B] 今回条件の比較材料が上位組より弱い"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}

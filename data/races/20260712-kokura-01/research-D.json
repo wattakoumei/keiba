@@ -1,0 +1,237 @@
+{
+  "point": "D",
+  "overall_confidence": "中",
+  "field_note": "観点fan-outの実行環境制約により、JRA公式出走表seed・近4走・直接対戦・静的コース形状だけで縮退評価。追加web調査なし。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "リザレクティア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "コースタルロード",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "アリディプラチノ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "ドゥボヌール",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝1200mで最高8着の実走裏付け",
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ビケイムフリー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "シャンデリュイーズ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝1200mで最高3着の実走裏付け",
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ピンクパンサー",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "ブライトエンジェル",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝1200mで最高3着の実走裏付け",
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "テンタイムトップ",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ホーリーステップ",
+      "score": 2,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝1200mで最高2着の実走裏付け",
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ハクサンテドリガワ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "ヨウリンケイジュ",
+      "score": 0,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "フルフィルメント",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝1200mで最高6着の実走裏付け",
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "ロージーキャンドル",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "ベルセクレト",
+      "score": 1,
+      "confidence": "中",
+      "pros": [
+        "[D] 小倉芝1200mで最高5着の実走裏付け"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 16,
+      "name": "ティグリス",
+      "score": -1,
+      "confidence": "中",
+      "pros": [
+        "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+      ],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    },
+    {
+      "no": 17,
+      "name": "マルモズイルバア",
+      "score": -1,
+      "confidence": "中",
+      "pros": [],
+      "cons": [
+        "[D] 小倉芝1200mの実走裏付けがない"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/JRADB/accessD.html"
+      ]
+    }
+  ]
+}

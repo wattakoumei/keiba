@@ -1,0 +1,1118 @@
+{
+  "schema_version": "1.0",
+  "race_id": "20260712-kokura-01",
+  "race_name": "3歳未勝利",
+  "edition": "",
+  "race_no": 1,
+  "grade": "未勝利",
+  "date": "2026-07-12",
+  "course": {
+    "track": "小倉",
+    "surface": "芝",
+    "distance": 1200,
+    "direction": "右"
+  },
+  "conditions": "3歳牝馬・芝1200m",
+  "field_size": 17,
+  "model_version": "5.0",
+  "used_observations": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "I"
+  ],
+  "header_notes": [
+    "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+    "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
+    "速報縮退: 観点fan-outは実行環境制約で停止。JRA公式seedと決定論ツールからA/B/D/E/Iを構築。",
+    "観点欠落(C,F,G,H,K,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
+  ],
+  "pivot": "⑩が楽に先導できるか、内の④と外の⑬が序盤から競りかけるか。",
+  "day_board": {
+    "reference_races": [],
+    "reference_note": "1Rのため同日同場の確定済み参考Rなし。馬場状態と芝の伸び位置を直前確認。",
+    "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+    "going": [
+      {
+        "item": "馬場状態",
+        "value": "",
+        "read": ""
+      }
+    ],
+    "paddock_watch": [
+      {
+        "mark": "◎",
+        "gate_no": 10,
+        "horse": "ホーリーステップ",
+        "weight_note": "前走時448kgからの増減と気負い"
+      },
+      {
+        "mark": "◯",
+        "gate_no": 6,
+        "horse": "シャンデリュイーズ",
+        "weight_note": "中7日の疲れと歩様"
+      }
+    ],
+    "other_unknowns": [
+      "④⑩の騎手名は取得seedで欠損",
+      "②は初出走で位置取り不明"
+    ]
+  },
+  "pace": {
+    "verification_contract": "脚質有利不利・序盤隊列・最終コーナー隊列・段階フローを固定し、結果後に展開だけを独立採点する。",
+    "pace_factors": [
+      {
+        "factor": "先行勢の数と質",
+        "reads": "⑩が主導候補だが④⑬もテン速。⑩が楽ならα、3頭が競ればβ寄り。",
+        "day_check": "スタート直後の④⑩⑬の主張"
+      },
+      {
+        "factor": "枠の効き",
+        "reads": "④は内で位置を取りやすく、⑬⑯は外から前へ行くぶん序盤の負荷が鍵。",
+        "day_check": "外の先行馬が無理に脚を使うか"
+      },
+      {
+        "factor": "コース形状",
+        "reads": "小倉芝1200mは直線293m。短距離で位置の価値が高く、平均ならαを上位に置く。",
+        "day_check": "内外の伸び差"
+      },
+      {
+        "factor": "例年傾向（過去開催）",
+        "reads": "速報のため過去開催署名は未取得。レース固有の先行構造を優先。",
+        "day_check": "—"
+      },
+      {
+        "factor": "当日で動く点",
+        "reads": "1Rで先行バイアスの事前観測はない。馬場悪化や向かい風ならβを上げる。",
+        "day_check": "馬場状態・風向・芝の伸び位置"
+      }
+    ],
+    "leg_table": [
+      {
+        "gate": "1",
+        "no": 1,
+        "horse": "リザレクティア",
+        "jockey": "秋山 稔樹",
+        "trainer": "高橋 康之",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角9.5番手、テン遅",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "1",
+        "no": 2,
+        "horse": "コースタルロード",
+        "jockey": "西塚 洸二",
+        "trainer": "辻野 泰之",
+        "leg_type": "不明",
+        "recent_pos": "初出走のため位置推定は低確信",
+        "expected_pos": "不明"
+      },
+      {
+        "gate": "2",
+        "no": 3,
+        "horse": "アリディプラチノ",
+        "jockey": "国分 優作",
+        "trainer": "畑端 省吾",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角8.5番手、テン遅",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "2",
+        "no": 4,
+        "horse": "ドゥボヌール",
+        "jockey": null,
+        "trainer": "奥村 豊",
+        "leg_type": "先",
+        "recent_pos": "近走平均1角2.7番手、テン速",
+        "expected_pos": "先行"
+      },
+      {
+        "gate": "3",
+        "no": 5,
+        "horse": "ビケイムフリー",
+        "jockey": "田口 貫太",
+        "trainer": "吉村 圭司",
+        "leg_type": "追",
+        "recent_pos": "近走平均1角12.5番手、テン遅",
+        "expected_pos": "後方"
+      },
+      {
+        "gate": "3",
+        "no": 6,
+        "horse": "シャンデリュイーズ",
+        "jockey": "松若 風馬",
+        "trainer": "小栗 実",
+        "leg_type": "先",
+        "recent_pos": "近走平均1角5.2番手、テン中",
+        "expected_pos": "先行"
+      },
+      {
+        "gate": "4",
+        "no": 7,
+        "horse": "ピンクパンサー",
+        "jockey": "加藤 祥太",
+        "trainer": "庄野 靖志",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角10.0番手、テン遅",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "4",
+        "no": 8,
+        "horse": "ブライトエンジェル",
+        "jockey": "角田 大和",
+        "trainer": "角田 晃一",
+        "leg_type": "先",
+        "recent_pos": "近走平均1角5.7番手、テン中",
+        "expected_pos": "先行"
+      },
+      {
+        "gate": "5",
+        "no": 9,
+        "horse": "テンタイムトップ",
+        "jockey": "亀田 温心",
+        "trainer": "高柳 大輔",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角7.8番手、テン中",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "5",
+        "no": 10,
+        "horse": "ホーリーステップ",
+        "jockey": null,
+        "trainer": "斉藤 崇史",
+        "leg_type": "逃",
+        "recent_pos": "近走平均1角1.7番手、テン速",
+        "expected_pos": "先頭"
+      },
+      {
+        "gate": "6",
+        "no": 11,
+        "horse": "ハクサンテドリガワ",
+        "jockey": "吉村 誠之助",
+        "trainer": "小崎 憲",
+        "leg_type": "先",
+        "recent_pos": "近走平均1角3.8番手、テン中",
+        "expected_pos": "先行"
+      },
+      {
+        "gate": "6",
+        "no": 12,
+        "horse": "ヨウリンケイジュ",
+        "jockey": "団野 大成",
+        "trainer": "吉村 圭司",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角5.3番手、テン中",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "7",
+        "no": 13,
+        "horse": "フルフィルメント",
+        "jockey": "国分 恭介",
+        "trainer": "宮地 貴稔",
+        "leg_type": "先",
+        "recent_pos": "近走平均1角2.0番手、テン速",
+        "expected_pos": "先行"
+      },
+      {
+        "gate": "7",
+        "no": 14,
+        "horse": "ロージーキャンドル",
+        "jockey": "幸 英明",
+        "trainer": "小栗 実",
+        "leg_type": "追",
+        "recent_pos": "近走平均1角13.0番手、テン遅",
+        "expected_pos": "後方"
+      },
+      {
+        "gate": "8",
+        "no": 15,
+        "horse": "ベルセクレト",
+        "jockey": "高杉 吏麒",
+        "trainer": "藤岡 健一",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角6.0番手、テン中",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "8",
+        "no": 16,
+        "horse": "ティグリス",
+        "jockey": "J.コレット",
+        "trainer": "杉山 晴紀",
+        "leg_type": "先",
+        "recent_pos": "近走平均1角4.5番手、テン中",
+        "expected_pos": "先行"
+      },
+      {
+        "gate": "8",
+        "no": 17,
+        "horse": "マルモズイルバア",
+        "jockey": "富田 暁",
+        "trainer": "中尾 秀正",
+        "leg_type": "差",
+        "recent_pos": "近走平均1角9.7番手、テン遅",
+        "expected_pos": "中団"
+      }
+    ],
+    "patterns": [
+      {
+        "id": "α",
+        "name": "⑩主導・好位持続",
+        "tier": "本線★★★",
+        "prob": 0.44,
+        "trigger": "⑩が内外の先行馬を制して無理なく先頭、④⑥⑧⑬が控える",
+        "pace_level": 0.56,
+        "contesters": [
+          10,
+          4,
+          13
+        ],
+        "leg_advantage": {
+          "逃げ": 2,
+          "先行": 1,
+          "差し": -1,
+          "追込": -2
+        },
+        "formation_head": [
+          10,
+          4,
+          13,
+          6
+        ],
+        "formation_last_corner": [
+          10,
+          4,
+          13,
+          6,
+          8,
+          11
+        ],
+        "bias": "前・好位の持続力優位",
+        "phase_flow": {
+          "early": "⑩が行き脚で主導し、内の④と外の⑬、⑥⑧が好位へ収まる",
+          "mid": "短距離の流れでも隊列が早く決まり、前の組が追走力を温存する",
+          "late": "直線293mへ先に入る⑩を、同舞台実績の⑥⑧と内の④が追う",
+          "result": "⑩中心、⑥⑧が同時圏内。④⑬は粘り込み、後方勢は位置の借金が重い"
+        },
+        "risers": [
+          4,
+          6,
+          8,
+          10,
+          11,
+          13
+        ],
+        "sinkers": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          9,
+          12,
+          14,
+          17
+        ]
+      },
+      {
+        "id": "β",
+        "name": "④⑩⑬競合・差し台頭",
+        "tier": "対抗★★",
+        "prob": 0.34,
+        "trigger": "内の④と外の⑬が⑩へ被せ、前半から先行群が脚を使う",
+        "pace_level": 0.78,
+        "contesters": [
+          4,
+          10,
+          13
+        ],
+        "leg_advantage": {
+          "逃げ": -1,
+          "先行": -1,
+          "差し": 2,
+          "追込": 1
+        },
+        "formation_head": [
+          4,
+          10,
+          13,
+          6
+        ],
+        "formation_last_corner": [
+          10,
+          6,
+          8,
+          11,
+          15,
+          16
+        ],
+        "bias": "中団差しと好位差し優位",
+        "phase_flow": {
+          "early": "④⑩⑬が行き脚を使い、先行群が密集する",
+          "mid": "緩めにくい流れで前の余力が削られ、⑧⑪⑮⑯が射程を保つ",
+          "late": "前が甘くなるところを⑧⑪⑮⑯が決め手で詰める",
+          "result": "⑧⑮⑯が浮上し、⑩⑥は地力で残り目。④⑬は消耗が懸念"
+        },
+        "risers": [
+          6,
+          8,
+          11,
+          15,
+          16
+        ],
+        "sinkers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          12,
+          13,
+          14,
+          17
+        ]
+      },
+      {
+        "id": "γ",
+        "name": "⑩出負け・⑬先導",
+        "tier": "伏線★",
+        "prob": 0.22,
+        "trigger": "⑩の出脚が鈍く、⑬が外から先頭へ出て④が内で控える",
+        "pace_level": 0.44,
+        "contesters": [
+          13,
+          4
+        ],
+        "leg_advantage": {
+          "逃げ": 2,
+          "先行": 2,
+          "差し": -1,
+          "追込": -2
+        },
+        "formation_head": [
+          13,
+          4,
+          6,
+          8
+        ],
+        "formation_last_corner": [
+          13,
+          4,
+          6,
+          8,
+          16
+        ],
+        "bias": "先行勢の位置優位",
+        "phase_flow": {
+          "early": "⑬が外から先導し、④⑥⑧が前の位置を取る",
+          "mid": "隊列が固定して前が余力を残し、後方は動きづらい",
+          "late": "短い直線で⑬④⑥が位置を生かし、⑧⑯が続く",
+          "result": "⑬④⑥が浮上、⑧⑯が圏内。⑩は出遅れ分を取り戻す必要"
+        },
+        "risers": [
+          4,
+          6,
+          8,
+          13,
+          16
+        ],
+        "sinkers": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          9,
+          12,
+          14,
+          15,
+          17
+        ]
+      }
+    ],
+    "shape_note": "⑩が楽に運ぶ前持続を本線。④⑬が被せる差し台頭を対抗に残す。",
+    "formation_note": "本線は序盤⑩→④⑬⑥、最終コーナー⑩→④⑬⑥⑧⑪。",
+    "bias_note": "直線が短い小回りで前の位置を重視。ただし17頭で先行競合時は中団差しへ振れる。",
+    "counter_conditions": "④と⑬が⑩へ競りかければβを本線へ。⑩が出負けし⑬が単騎ならγを格上げ。",
+    "transmission": "本線では⑩の位置優位を◎へ直結し、同時に好位で運べる⑥を◯とする。",
+    "box_reverse": [
+      {
+        "pattern": "α",
+        "tier": "本線★★★",
+        "center": [
+          6,
+          10
+        ],
+        "inside": [
+          4,
+          8,
+          11,
+          13
+        ],
+        "spot": [
+          15,
+          16
+        ],
+        "drop": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          9,
+          12,
+          14,
+          17
+        ]
+      },
+      {
+        "pattern": "β",
+        "tier": "対抗★★",
+        "center": [
+          8,
+          15,
+          16
+        ],
+        "inside": [
+          6,
+          11
+        ],
+        "spot": [
+          7,
+          10
+        ],
+        "drop": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          12,
+          13,
+          14,
+          17
+        ]
+      },
+      {
+        "pattern": "γ",
+        "tier": "伏線★",
+        "center": [
+          4,
+          6,
+          13
+        ],
+        "inside": [
+          8,
+          16
+        ],
+        "spot": [
+          10,
+          11
+        ],
+        "drop": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          9,
+          12,
+          14,
+          15,
+          17
+        ]
+      }
+    ]
+  },
+  "rank_verification_contract": "並び・展開列・展開感度・好材料・懸念を固定し、結果後に順位と実現パターンへの適合を採点する。",
+  "rank": [
+    {
+      "no": 10,
+      "gate": "5",
+      "horse": "ホーリーステップ",
+      "jockey": null,
+      "trainer": "斉藤 崇史",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "◎",
+      "rank_order": 1,
+      "win_prob": 0.2457,
+      "place_prob": 0.5701,
+      "leg_type": "逃",
+      "pattern_fit": {
+        "α": "◎"
+      },
+      "pace_sensitivity": "αで単騎なら最大浮上。βでは序盤消耗が増えて残り目まで。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 芝1200mの近走最速は1:09.2、末脚最速は36.0秒"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 前走2026-06-28 小倉1200mで2着、1角1番手"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mで最高2着の実走裏付け"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 6,
+      "gate": "3",
+      "horse": "シャンデリュイーズ",
+      "jockey": "松若 風馬",
+      "trainer": "小栗 実",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "◯",
+      "rank_order": 2,
+      "win_prob": 0.1089,
+      "place_prob": 0.337,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "α・γで好位の追走力が生き、βでも前走同舞台の持続力で残れる。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "[B] 前走2026-07-04 小倉1200mで3着、1角3番手"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mで最高3着の実走裏付け"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 8,
+      "gate": "4",
+      "horse": "ブライトエンジェル",
+      "jockey": "角田 大和",
+      "trainer": "角田 晃一",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "▲",
+      "rank_order": 3,
+      "win_prob": 0.064,
+      "place_prob": 0.2114,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○",
+        "β": "◎",
+        "γ": "○"
+      },
+      "pace_sensitivity": "βで前の消耗を見ながら運べれば決め手が浮上。αでも好位なら圏内。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 芝1200mの近走最速は1:09.1、末脚最速は34.4秒"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mで最高3着の実走裏付け"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "I",
+          "note": "前走大敗（14/18）"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "gate": "8",
+      "horse": "ベルセクレト",
+      "jockey": "高杉 吏麒",
+      "trainer": "藤岡 健一",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.0676,
+      "place_prob": 0.2018,
+      "leg_type": "差",
+      "pattern_fit": {
+        "β": "◎"
+      },
+      "pace_sensitivity": "βの差し台頭で浮上。αでは外から中団となり位置の借金。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 芝1200mの近走最速は1:09.5、末脚最速は35.6秒"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 前走2026-06-28 小倉1200mで5着、1角6番手"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mで最高5着の実走裏付け"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 11,
+      "gate": "6",
+      "horse": "ハクサンテドリガワ",
+      "jockey": "吉村 誠之助",
+      "trainer": "小崎 憲",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 5,
+      "win_prob": 0.0852,
+      "place_prob": 0.2738,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○",
+        "β": "○"
+      },
+      "pace_sensitivity": "αで好位後ろを確保できれば圏内、βでも末脚を温存できれば残る。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 芝1200mの近走最速は1:09.1、末脚最速は34.7秒"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 16,
+      "gate": "8",
+      "horse": "ティグリス",
+      "jockey": "J.コレット",
+      "trainer": "杉山 晴紀",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 6,
+      "win_prob": 0.0548,
+      "place_prob": 0.183,
+      "leg_type": "先",
+      "pattern_fit": {
+        "β": "◎",
+        "γ": "○"
+      },
+      "pace_sensitivity": "βで外から無理せず中団なら決め手が生きる。γは好位確保が条件。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "gate": "7",
+      "horse": "フルフィルメント",
+      "jockey": "国分 恭介",
+      "trainer": "宮地 貴稔",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 7,
+      "win_prob": 0.0722,
+      "place_prob": 0.2363,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "γで先導できれば浮上、βの競合では休み明けも重なり沈みやすい。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 芝1200mの近走最速は1:09.6、末脚最速は35.8秒"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mで最高6着の実走裏付け"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 直線293mの小回りで前の位置を取りやすい脚質"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "前走から154日＝休み明け"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "gate": "2",
+      "horse": "ドゥボヌール",
+      "jockey": null,
+      "trainer": "奥村 豊",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 8,
+      "win_prob": 0.0646,
+      "place_prob": 0.2135,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "γで内先行なら浮上、βで⑩⑬と競ると終盤が甘くなる。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 芝1200mの近走最速は1:09.4、末脚最速は35.0秒"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "gate": "4",
+      "horse": "ピンクパンサー",
+      "jockey": "加藤 祥太",
+      "trainer": "庄野 靖志",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 9,
+      "win_prob": 0.031,
+      "place_prob": 0.0998,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "gate": "2",
+      "horse": "アリディプラチノ",
+      "jockey": "国分 優作",
+      "trainer": "畑端 省吾",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 10,
+      "win_prob": 0.027,
+      "place_prob": 0.0877,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "gate": "1",
+      "horse": "コースタルロード",
+      "jockey": "西塚 洸二",
+      "trainer": "辻野 泰之",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 11,
+      "win_prob": 0.0296,
+      "place_prob": 0.0989,
+      "leg_type": "不明",
+      "pattern_fit": {},
+      "pace_sensitivity": "初出走で脚質不明。発馬と追走が通用すれば既走馬比較を覆す余地。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 初出走で近走比較ができない"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "gate": "6",
+      "horse": "ヨウリンケイジュ",
+      "jockey": "団野 大成",
+      "trainer": "吉村 圭司",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 12,
+      "win_prob": 0.0268,
+      "place_prob": 0.0873,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "I",
+          "note": "前走大敗（15/15）"
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "gate": "1",
+      "horse": "リザレクティア",
+      "jockey": "秋山 稔樹",
+      "trainer": "高橋 康之",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 13,
+      "win_prob": 0.0202,
+      "place_prob": 0.0666,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        },
+        {
+          "tag": "I",
+          "note": "直近2走連続大敗（前走12/16・前々走14/15）＝下降基調"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "gate": "3",
+      "horse": "ビケイムフリー",
+      "jockey": "田口 貫太",
+      "trainer": "吉村 圭司",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 14,
+      "win_prob": 0.0241,
+      "place_prob": 0.0783,
+      "leg_type": "追",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        },
+        {
+          "tag": "I",
+          "note": "直近2走連続大敗（前走15/18・前々走16/18）＝下降基調"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "gate": "5",
+      "horse": "テンタイムトップ",
+      "jockey": "亀田 温心",
+      "trainer": "高柳 大輔",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 15,
+      "win_prob": 0.0269,
+      "place_prob": 0.0876,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        },
+        {
+          "tag": "I",
+          "note": "直近2走連続大敗（前走18/18・前々走9/13）＝下降基調"
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "gate": "7",
+      "horse": "ロージーキャンドル",
+      "jockey": "幸 英明",
+      "trainer": "小栗 実",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 16,
+      "win_prob": 0.0233,
+      "place_prob": 0.0757,
+      "leg_type": "追",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        },
+        {
+          "tag": "I",
+          "note": "直近2走連続大敗（前走15/16・前々走15/18）＝下降基調"
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "gate": "8",
+      "horse": "マルモズイルバア",
+      "jockey": "富田 暁",
+      "trainer": "中尾 秀正",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 17,
+      "win_prob": 0.0282,
+      "place_prob": 0.0914,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "上位パターンで明確な位置・決め手優位が乏しく、展開の助けが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走に芝1200mの比較材料がない"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 今回条件の比較材料が上位組より弱い"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉芝1200mの実走裏付けがない"
+        },
+        {
+          "tag": "I",
+          "note": "直近2走連続大敗（前走16/16・前々走12/13）＝下降基調"
+        }
+      ]
+    }
+  ],
+  "data_confidence": [
+    "JRA公式出走表seedと近4走は高確信。",
+    "fan-out停止のため調教・関係者コメント・非決定論リスクは未取得。",
+    "②は初出走、④⑩は騎手名欠損で確信度を下げた。"
+  ],
+  "reinforcement_requests": [
+    "発走直前の馬場状態と風向",
+    "⑥の中7日続戦気配と⑩の馬体増減",
+    "④⑩の確定騎手情報"
+  ]
+}
