@@ -1201,5 +1201,13 @@
     }
   ],
   "data_confidence": [],
-  "reinforcement_requests": []
+  "reinforcement_requests": [],
+  "obs_coverage": [
+    {
+      "id": "H",
+      "label": "当日気配・関係者コメント",
+      "status": "未取得",
+      "fallback": "代替なし"
+    }
+  ]
 }

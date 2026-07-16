@@ -177,8 +177,19 @@ export default function RaceView({ race }) {
   const tierOf = (id) => (patterns.find((p) => p.id === id) || {}).tier;
   const circ = (no) => (no >= 1 && no <= 20 ? String.fromCharCode(0x2460 + no - 1) : `${no}`);
 
+  const obsCoverage = race.obs_coverage ?? [];
+
   return (
     <div>
+      {/* 観点欠落バナー: 縮退分析（web調査の欠落あり）は印・率の確度が通常より低いことを冒頭で明示（詳細表は§4） */}
+      {obsCoverage.length > 0 && (
+        <p class="warn-banner">
+          ⚠ 調査欠落あり: 観点 <strong>{obsCoverage.map((o) => o.id).join('・')}</strong> が
+          {obsCoverage.some((o) => o.status === '未取得') ? '未取得/縮退' : '縮退'}＝
+          印・単勝/複勝率の確度は通常より低い（詳細は§4）
+        </p>
+      )}
+
       {/* ===== §2 展開予想（パターン表・行が操作子）===== */}
       <h2>§2 展開予想（成果物1）</h2>
       <p class="sub">行をタップ → 該当馬を着順表でハイライト＋トリガー/段階フロー/箱組みを展開</p>
@@ -411,6 +422,29 @@ export default function RaceView({ race }) {
           {pace.formation_note && <p class="sub">隊列: {pace.formation_note}</p>}
           {pace.bias_note && <p class="sub">バイアス: {pace.bias_note}</p>}
         </details>
+      )}
+
+      {/* ===== §4 データの確かさ（観点欠落の表＝欠落がある時だけ・正本は report.obs_coverage=inject_probs 生成） ===== */}
+      {(obsCoverage.length > 0 || (race.data_confidence ?? []).length > 0) && (
+        <>
+          <h2>§4 データの確かさ</h2>
+          {obsCoverage.length > 0 && (
+            <table class="coverage-table">
+              <thead><tr><th>観点</th><th>内容</th><th>状態</th><th>代替</th></tr></thead>
+              <tbody>
+                {obsCoverage.map((o) => (
+                  <tr key={o.id}>
+                    <td><strong>{o.id}</strong></td>
+                    <td>{o.label}</td>
+                    <td class={o.status === '未取得' ? 'cov-missing' : 'cov-degraded'}>{o.status}</td>
+                    <td class="sub-cell">{o.fallback}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
+          {(race.data_confidence ?? []).map((s, i) => <p class="sub" key={i}>{s}</p>)}
+        </>
       )}
     </div>
   );

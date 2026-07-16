@@ -107,6 +107,13 @@ def is_debut(report):
 NAR_VENUES = {"monbetsu", "morioka", "mizusawa", "urawa", "funabashi", "ooi", "kawasaki",
               "kanazawa", "kasamatsu", "nagoya", "sonoda", "himeji", "kochi", "saga"}
 
+# obs_coverage（観点欠落の構造化表）用: 観点の読者向けラベルと、seed/決定論ツールで縮退代替が効く観点集合。
+OBS_LABEL = {"A": "能力指数・時計", "B": "近走内容", "C": "血統", "D": "コース・馬場適性",
+             "E": "展開証拠", "F": "調教・仕上げ", "G": "ローテ・馬体", "H": "当日気配・関係者コメント",
+             "I": "リスク要因", "K": "騎手・乗替", "L": "条件実績・リピーター",
+             "M": "厩舎新馬型・初戦準備", "N": "クラス格・転入換算"}
+SEED_BACKED = set("ABDGIK")
+
 
 def is_nar(report, race_id=""):
     """地方競馬の判定: report の nar:true 明示、または race-id の開催トークンが NAR 場。
@@ -256,6 +263,13 @@ def main():
     used = set(report.get("used_observations", []))
     used_upper = {x.upper() for x in used}
     missing_obs = sorted(FULL_OBS - used_upper)
+    # 観点欠落の構造化（obs_coverage）: web §4 が表として描画する（欠落ゼロなら空配列＝表示なし）。
+    # SEED_BACKED = seed近走・決定論ツール(risk_flags/weight_adjust)で縮退代替が効く観点。それ以外は代替なし。
+    report["obs_coverage"] = [
+        {"id": x, "label": OBS_LABEL.get(x, x),
+         "status": "縮退" if x in SEED_BACKED else "未取得",
+         "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）" if x in SEED_BACKED else "代替なし"}
+        for x in missing_obs]
     if missing_obs:
         warn = f"観点欠落({','.join(missing_obs)}): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
         notes = report.get("header_notes") or []

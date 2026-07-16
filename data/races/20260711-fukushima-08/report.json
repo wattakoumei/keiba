@@ -1086,5 +1086,31 @@
   "reinforcement_requests": [
     "当日朝のダート含水率",
     "⑤ダノンリュラの厩舎コメント(あれば)"
+  ],
+  "obs_coverage": [
+    {
+      "id": "F",
+      "label": "調教・仕上げ",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "G",
+      "label": "ローテ・馬体",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "H",
+      "label": "当日気配・関係者コメント",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "L",
+      "label": "条件実績・リピーター",
+      "status": "未取得",
+      "fallback": "代替なし"
+    }
   ]
 }

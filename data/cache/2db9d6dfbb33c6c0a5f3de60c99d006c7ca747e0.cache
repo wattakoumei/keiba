@@ -328,6 +328,8 @@ ytag({"type":"ycl_cookie", "config":{"ycl_use_non_cookie_storage":true}});
         <li><a href="/db/race/20260705/" >7月5日</a></li>
         <li><a href="/db/race/20260711/" >7月11日</a></li>
         <li><a href="/db/race/20260712/" class="selected">7月12日</a></li>
+        <li><a href="/db/race/20260718/" >7月18日</a></li>
+        <li><a href="/db/race/20260719/" >7月19日</a></li>
 <li><input src="https://www-f.keibalab.jp/img/datepicker/icon_calendar.png?1459672716" type="text" id="datepicker" class="pointer"></li>
 <li class="fR deyligradebtn tC"><a href="/db/race/grade.html" class="std13">重賞一覧</a></li>
 </ul>
@@ -402,7 +404,7 @@ ytag({"type":"ycl_cookie", "config":{"ycl_use_non_cookie_storage":true}});
 					<li class="navblood"><a href="/db/race/202607121012/blood.html" class="">血統分析<span class="dbmenublood">血統分析</span></a></li>
 										<li><a href="/db/race/202607121012/syutsuba.html" class="">簡易出馬表</a></li>
 															<li><a href="javascript:void(0);" class="dbnavnone">過去10年</a></li>
-															<li><a href="javascript:void(0);" class="dbnavnone">結果払戻</a></li>
+															<li><a href="/db/race/202607121012/raceresult.html" class="dbnavhover">結果払戻</a></li>
 														</ul>
 			</div>
 		</div>
@@ -438,7 +440,534 @@ ytag({"type":"ycl_cookie", "config":{"ycl_use_non_cookie_storage":true}});
 <!-- /ここに -->
 <h2><i class="fa fa-dot-circle-o"></i> レース結果</h2>
 
-<div class="red fbold">確定していません</div>
+
+<div class="RaceTableWrap " itemscope itemtype="https://schema.org/Table">
+
+<table class="DbTable stripe resulttable" summary="サラ系3歳上1勝クラスのレース結果">
+<thead>
+	<tr class="tC">
+		<th>マイ印</th>
+		<th>着</th>
+		<th>枠</th>
+		<th>馬</th>
+		<th itemprop="description">馬名</th>
+		<th>性齢</th>
+		<th>斤量</th>
+		<th itemprop="description">騎手</th>
+		<th>人</th>
+		<th>単勝</th>
+		<th>タイム</th>
+		<th>着差</th>
+		<th>通過順</th>
+		<th>上り</th>
+		<th itemprop="description">調教師</th>
+		<th>馬体重</th>
+		<th type="num" use="title" class="tC">α</th>
+		<th type="num" use="title" class="tC">β</th>
+		<th type="num" use="title" class="tC">Ω</th>
+		<th type="num" use="title" class="tC">Ω指数</th>
+			</tr>
+</thead>
+<tbody>	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022103058">…</span></td>
+		<td class="tC">1</td>
+		<td class="tC wak4">4</td>
+		<td class="tC">8</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022103058/" target="_blank" itemprop="url">ノボリリア</a></td>
+		<td class="tC">牝4</td>
+						<td class="tC">56.0</td>
+		<td class="tC" itemprop="name" title="ﾀｶｽｷﾞﾘｷ"><a href="/db/jockey/01213/" target="_blank" itemprop="url">高杉吏麒</a></td>
+				<td class="tR">2</td>
+		<td class="tR">
+								<span class="red fbold">
+								4.2</span>
+		</td>
+		<td class="tL">1:07.2</td>
+		<td class="tC">				</td>
+		<td class="tR">
+				②②		</td>
+		<td class="tR cyaku2">34.5</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01140/" target="_blank" itemprop="url">[栗]石橋守</a></td>
+		<td class="tL">442(－8)</td>
+						<td colspan="4" rowspan="17">オメガ指数を見るには、<br />会員の方は<a href="/login/login.html">ログイン</a><br />会員でない方は<a href="/login/entry.html">会員登録</a><br />してご覧下さい</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2021101414">…</span></td>
+		<td class="tC">2</td>
+		<td class="tC wak8">8</td>
+		<td class="tC">15</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2021101414/" target="_blank" itemprop="url">(地)ベルファスト</a></td>
+		<td class="tC">牝5</td>
+						<td class="tC">56.0</td>
+		<td class="tC" itemprop="name" title="ﾏﾂﾜｶﾌｳﾏ"><a href="/db/jockey/01154/" target="_blank" itemprop="url">松若風馬</a></td>
+				<td class="tR">3</td>
+		<td class="tR">
+								<span class="red fbold">
+								7.4</span>
+		</td>
+		<td class="tL">1:07.9</td>
+		<td class="tC">４				</td>
+		<td class="tR">
+				④③		</td>
+		<td class="tR cyaku7">35.0</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01128/" target="_blank" itemprop="url">[栗]今野貞一</a></td>
+		<td class="tL">480(<span class="red">－18</span>)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022104901">…</span></td>
+		<td class="tC">3</td>
+		<td class="tC wak8">8</td>
+		<td class="tC">17</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022104901/" target="_blank" itemprop="url">モルティフレーバー</a></td>
+		<td class="tC">牝4</td>
+						<td class="tC">56.0</td>
+		<td class="tC" itemprop="name" title="ｺﾚｯﾄ.ｼﾞｪｲｿﾝ"><a href="/db/jockey/05691/" target="_blank" itemprop="url">コレット</a></td>
+				<td class="tR">10</td>
+		<td class="tR">
+								<span>
+								32.9</span>
+		</td>
+		<td class="tL">1:08.0</td>
+		<td class="tC">1/2				</td>
+		<td class="tR">
+				⑭⑬		</td>
+		<td class="tR cyaku1">34.3</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01110/" target="_blank" itemprop="url">[栗]清水久詞</a></td>
+		<td class="tL">472(－4)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023101722">…</span></td>
+		<td class="tC">4</td>
+		<td class="tC wak8">8</td>
+		<td class="tC">16</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023101722/" target="_blank" itemprop="url">ジューンオアシス</a></td>
+		<td class="tC">牡3</td>
+						<td class="tC">55.0</td>
+		<td class="tC" itemprop="name" title="ﾄﾐﾀｱｶﾂｷ"><a href="/db/jockey/01168/" target="_blank" itemprop="url">富田暁</a></td>
+				<td class="tR">9</td>
+		<td class="tR">
+								<span>
+								29.7</span>
+		</td>
+		<td class="tL">1:08.1</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑦⑤		</td>
+		<td class="tR cyaku7">35.0</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01139/" target="_blank" itemprop="url">[栗]飯田祐史</a></td>
+		<td class="tL">470(＋8)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023102025">…</span></td>
+		<td class="tC">5</td>
+		<td class="tC wak2">2</td>
+		<td class="tC">4</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023102025/" target="_blank" itemprop="url">フィラーエ</a></td>
+		<td class="tC">牝3</td>
+						<td class="tC">53.0</td>
+		<td class="tC" itemprop="name" title="ｺｸﾌﾞﾝｷｮｳｽｹ"><a href="/db/jockey/01124/" target="_blank" itemprop="url">国分恭介</a></td>
+				<td class="tR">6</td>
+		<td class="tR">
+								<span>
+								11.8</span>
+		</td>
+		<td class="tL">1:08.1</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑧⑦		</td>
+		<td class="tR cyaku6">34.9</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01135/" target="_blank" itemprop="url">[栗]高橋康之</a></td>
+		<td class="tL">456(<span class="red">＋10</span>)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023101865">…</span></td>
+		<td class="tC">6</td>
+		<td class="tC wak6">6</td>
+		<td class="tC">11</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023101865/" target="_blank" itemprop="url">ウォーターデライト</a></td>
+		<td class="tC">牡3</td>
+						<td class="tC">53.0</td>
+		<td class="tC" itemprop="name" title="ｼﾊﾞﾀﾕｳｲﾁﾛｳ"><a href="/db/jockey/01212/" target="_blank" itemprop="url">△柴田裕</a></td>
+				<td class="tR">7</td>
+		<td class="tR">
+								<span>
+								12.0</span>
+		</td>
+		<td class="tL">1:08.2</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑩⑨		</td>
+		<td class="tR cyaku4">34.7</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01159/" target="_blank" itemprop="url">[栗]高柳大輔</a></td>
+		<td class="tL">450(－8)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023104355">…</span></td>
+		<td class="tC">7</td>
+		<td class="tC wak5">5</td>
+		<td class="tC">9</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023104355/" target="_blank" itemprop="url">テルヴィセクス</a></td>
+		<td class="tC">牡3</td>
+						<td class="tC">55.0</td>
+		<td class="tC" itemprop="name" title="ﾀﾞﾝﾉﾀｲｾｲ"><a href="/db/jockey/01180/" target="_blank" itemprop="url">団野大成</a></td>
+				<td class="tR">4</td>
+		<td class="tR">
+								<span class="red fbold">
+								7.7</span>
+		</td>
+		<td class="tL">1:08.2</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				④⑤		</td>
+		<td class="tR cyaku11">35.2</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01151/" target="_blank" itemprop="url">[栗]斉藤崇史</a></td>
+		<td class="tL">496(<span class="red">＋14</span>)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2021106586">…</span></td>
+		<td class="tC">8</td>
+		<td class="tC wak4">4</td>
+		<td class="tC">7</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2021106586/" target="_blank" itemprop="url">ラブカムーン</a></td>
+		<td class="tC">牝5</td>
+						<td class="tC">56.0</td>
+		<td class="tC" itemprop="name" title="ﾌｼﾞｶｹﾀｶｼ"><a href="/db/jockey/01138/" target="_blank" itemprop="url">藤懸貴志</a></td>
+				<td class="tR">14</td>
+		<td class="tR">
+								<span>
+								101.4</span>
+		</td>
+		<td class="tL">1:08.5</td>
+		<td class="tC">１3/4				</td>
+		<td class="tR">
+				⑩⑪		</td>
+		<td class="tR cyaku7">35.0</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01120/" target="_blank" itemprop="url">[栗]千田輝彦</a></td>
+		<td class="tL">466(－2)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022104392">…</span></td>
+		<td class="tC">9</td>
+		<td class="tC wak7">7</td>
+		<td class="tC">13</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022104392/" target="_blank" itemprop="url">シャインベック</a></td>
+		<td class="tC">セ4</td>
+						<td class="tC">58.0</td>
+		<td class="tC" itemprop="name" title="ｱｷﾔﾏﾄｼｷ"><a href="/db/jockey/01181/" target="_blank" itemprop="url">秋山稔樹</a></td>
+				<td class="tR">12</td>
+		<td class="tR">
+								<span>
+								83.6</span>
+		</td>
+		<td class="tL">1:08.6</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑯⑬		</td>
+		<td class="tR cyaku5">34.8</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01078/" target="_blank" itemprop="url">[栗]北出成人</a></td>
+		<td class="tL">446(＋8)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022106217">…</span></td>
+		<td class="tC">10</td>
+		<td class="tC wak3">3</td>
+		<td class="tC">5</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022106217/" target="_blank" itemprop="url">ウインマスカレード</a></td>
+		<td class="tC">牡4</td>
+						<td class="tC">58.0</td>
+		<td class="tC" itemprop="name" title="ﾏﾂﾔﾏｺｳﾍｲ"><a href="/db/jockey/01126/" target="_blank" itemprop="url">松山弘平</a></td>
+				<td class="tR">1</td>
+		<td class="tR">
+								<span class="red fbold">
+								3.5</span>
+		</td>
+		<td class="tL">1:08.6</td>
+		<td class="tC">アタマ				</td>
+		<td class="tR">
+				②③		</td>
+		<td class="tR cyaku14">35.9</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01073/" target="_blank" itemprop="url">[栗]宮本博</a></td>
+		<td class="tL">470(＋4)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022103150">…</span></td>
+		<td class="tC">11</td>
+		<td class="tC wak3">3</td>
+		<td class="tC">6</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022103150/" target="_blank" itemprop="url">ジュエルハウス</a></td>
+		<td class="tC">牝4</td>
+						<td class="tC">54.0</td>
+		<td class="tC" itemprop="name" title="ﾅｶﾞｼﾏﾏﾅﾐ"><a href="/db/jockey/01187/" target="_blank" itemprop="url">◇永島ま</a></td>
+				<td class="tR">13</td>
+		<td class="tR">
+								<span>
+								88.7</span>
+		</td>
+		<td class="tL">1:08.6</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑰⑰		</td>
+		<td class="tR cyaku3">34.6</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01218/" target="_blank" itemprop="url">[栗]橋田宜長</a></td>
+		<td class="tL">482(＋8)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022106715">…</span></td>
+		<td class="tC">12</td>
+		<td class="tC wak5">5</td>
+		<td class="tC">10</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022106715/" target="_blank" itemprop="url">ギザキズラヴ</a></td>
+		<td class="tC">牝4</td>
+						<td class="tC">56.0</td>
+		<td class="tC" itemprop="name" title="ﾀｸﾞﾁｶﾝﾀ"><a href="/db/jockey/01208/" target="_blank" itemprop="url">田口貫太</a></td>
+				<td class="tR">15</td>
+		<td class="tR">
+								<span>
+								180.7</span>
+		</td>
+		<td class="tL">1:08.6</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑭⑪		</td>
+		<td class="tR cyaku7">35.0</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01215/" target="_blank" itemprop="url">[栗]加藤公太</a></td>
+		<td class="tL">452(－8)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023105833">…</span></td>
+		<td class="tC">13</td>
+		<td class="tC wak2">2</td>
+		<td class="tC">3</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023105833/" target="_blank" itemprop="url">セレブトーチ</a></td>
+		<td class="tC">牝3</td>
+						<td class="tC">50.0</td>
+		<td class="tC" itemprop="name" title="ｶﾜﾊﾞﾀｶｲﾄ"><a href="/db/jockey/01195/" target="_blank" itemprop="url">▲川端海</a></td>
+				<td class="tR">5</td>
+		<td class="tR">
+								<span>
+								10.8</span>
+		</td>
+		<td class="tL">1:08.9</td>
+		<td class="tC">１1/2				</td>
+		<td class="tR">
+				⑧⑨		</td>
+		<td class="tR cyaku13">35.6</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01170/" target="_blank" itemprop="url">[栗]坂口智康</a></td>
+		<td class="tL">500(＋4)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2021106648">…</span></td>
+		<td class="tC">14</td>
+		<td class="tC wak6">6</td>
+		<td class="tC">12</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2021106648/" target="_blank" itemprop="url">ベネメレンティ</a></td>
+		<td class="tC">牝5</td>
+						<td class="tC">54.0</td>
+		<td class="tC" itemprop="name" title="ﾀﾔﾏｵｳｽｹ"><a href="/db/jockey/01220/" target="_blank" itemprop="url">△田山旺</a></td>
+				<td class="tR">11</td>
+		<td class="tR">
+								<span>
+								57.3</span>
+		</td>
+		<td class="tL">1:09.0</td>
+		<td class="tC">1/2				</td>
+		<td class="tR">
+				①①		</td>
+		<td class="tR cyaku15">36.6</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01210/" target="_blank" itemprop="url">[栗]前川恭子</a></td>
+		<td class="tL">458(<span class="red">－10</span>)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023101174">…</span></td>
+		<td class="tC">15</td>
+		<td class="tC wak1">1</td>
+		<td class="tC">1</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023101174/" target="_blank" itemprop="url">ドルチェミスト</a></td>
+		<td class="tC">牝3</td>
+						<td class="tC">50.0</td>
+		<td class="tC" itemprop="name" title="ﾓﾘﾀｾｲﾔ"><a href="/db/jockey/01222/" target="_blank" itemprop="url">▲森田誠</a></td>
+				<td class="tR">8</td>
+		<td class="tR">
+								<span>
+								12.1</span>
+		</td>
+		<td class="tL">1:09.0</td>
+		<td class="tC">クビ				</td>
+		<td class="tR">
+				⑩⑬		</td>
+		<td class="tR cyaku12">35.5</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01194/" target="_blank" itemprop="url">[栗]小栗実</a></td>
+		<td class="tL">444(－2)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2023101065">…</span></td>
+		<td class="tC">16</td>
+		<td class="tC wak1">1</td>
+		<td class="tC">2</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2023101065/" target="_blank" itemprop="url">リアルアルバ</a></td>
+		<td class="tC">牡3</td>
+						<td class="tC">55.0</td>
+		<td class="tC" itemprop="name" title="ﾆｼﾂﾞｶｺｳｼﾞ"><a href="/db/jockey/01200/" target="_blank" itemprop="url">西塚洸二</a></td>
+				<td class="tR">16</td>
+		<td class="tR">
+								<span>
+								196.4</span>
+		</td>
+		<td class="tL">1:09.7</td>
+		<td class="tC">４				</td>
+		<td class="tR">
+				④⑦		</td>
+		<td class="tR cyaku16">36.8</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01065/" target="_blank" itemprop="url">[栗]大橋勇樹</a></td>
+		<td class="tL">464(－2)</td>
+							</tr>
+	<tr class="">
+		<td class="tC mark_list"><span class="js-simple-user-mark" data-bldno="2022104436">…</span></td>
+		<td class="tC">17</td>
+		<td class="tC wak7">7</td>
+		<td class="tC">14</td>
+		<td class="tL" itemprop="name"><a href="/db/horse/2022104436/" target="_blank" itemprop="url">アットザラヴアスク</a></td>
+		<td class="tC">牝4</td>
+						<td class="tC">56.0</td>
+		<td class="tC" itemprop="name" title="ﾖｼﾑﾗｾｲﾉｽｹ"><a href="/db/jockey/01216/" target="_blank" itemprop="url">吉村誠之</a></td>
+				<td class="tR">17</td>
+		<td class="tR">
+								<span>
+								307.8</span>
+		</td>
+		<td class="tL">1:10.4</td>
+		<td class="tC">４				</td>
+		<td class="tR">
+				⑩⑯		</td>
+		<td class="tR cyaku17">36.9</td>
+		<td class="tL" itemprop="name"><a href="/db/trainer/01098/" target="_blank" itemprop="url">[栗]野中賢二</a></td>
+		<td class="tL">458(＋2)</td>
+							</tr>
+</tbody>
+</table>
+
+</div><!-- RaceTableWrap -->
+
+
+
+<div class="haraimodoshi">
+<h2><i class="fa fa-dot-circle-o"></i> 払い戻し</h2>
+<table class="DbTable stripe">
+	<tr>
+		<td class="bgtan">単勝</td>
+		<td class="tC">8</td>
+		<td class="tR">420円</td>
+
+
+		<td class="bgutan">馬単</td>
+		<td class="tC">8-15</td>
+		<td class="tR">2,830円</td>
+	</tr>
+	<tr>
+		<td class="bgfuk">複勝</td>
+		<td class="tC">8<br />15<br />17</td>
+		<td class="tR">180円<br />240円<br />720円</td>
+
+		<td class="bgwide">ワイド</td>
+		<td class="tC">8-15<br />8-17<br />15-17</td>
+		<td class="tR">610円<br />1,970円<br />3,420円</td>
+	</tr>
+	<tr>
+		<td class="bgwak">枠連</td>
+		<td class="tC">4-8</td>
+		<td class="tR">1,110円</td>
+
+		<td class="bgtrio">3連複</td>
+		<td class="tC">8-15-17</td>
+		<td class="tR">14,870円</td>
+	</tr>
+	<tr>
+		<td class="bguren">馬連</td>
+		<td class="tC">8-15</td>
+		<td class="tR">1,530円</td>
+
+		<td class="bgtrif">3連単</td>
+		<td class="tC">8-15-17</td>
+		<td class="tR">57,510円</td>
+	</tr>
+</table>
+</div>
+
+<div class="tsukajun">
+	<div class="clearfix">
+<h2 class="fL"><i class="fa fa-dot-circle-o"></i> 通過順</h2>
+<div class="fL passcyaku">&nbsp;<span class="passcyaku1">1着</span>&nbsp;<span class="passcyaku2">2着</span>&nbsp;<span class="passcyaku3">3着</span>&nbsp;<span class="bold">上がり最速馬</span></div>
+	</div>
+<table class="DbTable stripe">
+	<tr>
+		<th class="Wide100">1コーナー</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="Wide100">2コーナー</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="Wide100">3コーナー</th>
+		<td>12-(5,<span class="passcyaku1">8</span>)(2,9,<span class="passcyaku2">15</span>)16(3,4)(1,7,11,14)(<span class="passcyaku3">17</span>,10)13,6</td>
+	</tr>
+	<tr>
+		<th class="Wide100">4コーナー</th>
+		<td>12-<span class="passcyaku1">8</span>(5,<span class="passcyaku2">15</span>)(9,16)(2,4)(3,11)(7,10)(1,<span class="passcyaku3">17</span>,13)14,6</td>
+	</tr></table>
+</div>
+
+
+<!-- 新通過タイム -->
+<div class="clearfix fL resultpacewrap">
+	<h2>通過タイム</h2>
+<div class="clearfix">
+
+<table class="tR fL DbTable stripe pacetable">
+<tr>
+<th class="dist0">200m</th>
+<td class="hpace0"><span class="orange">11.6</span></td>
+<td class="thpace0">（11.6）</td>
+</tr>
+<tr>
+<th class="dist1">400m</th>
+<td class="hpace1"><span class="red">10.1</span></td>
+<td class="thpace1">（21.7）</td>
+</tr>
+<tr>
+<th class="dist2">600m</th>
+<td class="hpace2"><span class="red">10.7</span></td>
+<td class="thpace2">（32.4）</td>
+</tr>
+<tr>
+<th class="dist3">800m</th>
+<td class="hpace3"><span class="orange">11.4</span></td>
+<td class="thpace3">（43.8）</td>
+</tr>
+<tr>
+<th class="dist4">1000m</th>
+<td class="hpace4"><span class="orange">11.7</span></td>
+<td class="thpace4">（55.5）</td>
+</tr>
+</table>
+<table class="tR fL DbTable stripe pacetable">
+<tr>
+<th class="dist5">1200m</th>
+<td class="hpace5"><span class="orange">11.7</span></td>
+<td class="thpace5">（1:07.2）</td>
+</tr>
+</table>
+</div>
+<div class="tC bgOrange resultpacebox">ペース：ハイ&nbsp;(-2.4)</div>
+<div class="tC resultFbox">
+テン：4F 43.8 - 3F 32.4／上がり：4F 45.5 - 3F 34.8</div>
+
+</div>
+<!-- 新通過タイム -->
+
+<br class="clear"/>
+
+
 
 
 
@@ -818,7 +1347,7 @@ $(document).ready(function (e) {
 	};
 	$("#getRaceList").on("mouseenter", function (e) {
 		if(!getRaceFlg) {
-			getMainRaceData({hash_key : "addf76b456cf1f3c643f322df21c59f1"});
+			getMainRaceData({hash_key : "636f1e366469787b73263bc17e85cd0b"});
 			getRaceFlg = true;
 		}
 	});

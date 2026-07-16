@@ -247,6 +247,7 @@ def assemble(race_id):
         "rank_verification_contract": "",
         "rank": build_rank(pm, seed, sc, pc),
         "data_confidence": [], "reinforcement_requests": [],
+        "obs_coverage": [],  # 観点欠落の構造化表（正本=inject_probs が STEP5 で生成。web §4 が描画）
     }
     return report
 

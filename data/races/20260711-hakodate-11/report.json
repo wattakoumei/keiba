@@ -1019,5 +1019,19 @@
   "reinforcement_requests": [
     "13:10の函館7R後に内外の伸びを更新",
     "馬体重とパドックで②③⑦⑧⑫を確認"
+  ],
+  "obs_coverage": [
+    {
+      "id": "F",
+      "label": "調教・仕上げ",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "H",
+      "label": "当日気配・関係者コメント",
+      "status": "未取得",
+      "fallback": "代替なし"
+    }
   ]
 }

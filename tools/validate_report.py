@@ -240,6 +240,17 @@ def validate(d, v: V):
 
     # --- §4 ---
     v.req(d, "data_confidence", "$", list)
+    # obs_coverage（任意・観点欠落の構造化表。inject_probs が生成・web §4 が描画。旧レポートは欠いてよい）
+    oc = d.get("obs_coverage")
+    if oc is not None:
+        if not isinstance(oc, list):
+            v.err("$.obs_coverage", "list でない")
+        else:
+            for i, e in enumerate(oc):
+                if not isinstance(e, dict) or not e.get("id") or not e.get("status"):
+                    v.err(f"$.obs_coverage[{i}]", "id/status を持つ object でない")
+                elif e.get("status") not in ("縮退", "未取得"):
+                    v.err(f"$.obs_coverage[{i}]", f"status が 縮退/未取得 でない: {e.get('status')}")
 
     # --- I2: % 全面禁止 ---
     scan_pct(d, "$", v)

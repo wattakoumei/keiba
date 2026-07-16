@@ -37,6 +37,12 @@ h2 { font-size: 1.05rem; margin: 22px 0 8px; padding-bottom: 4px; border-bottom:
 h3 { font-size: 0.95rem; margin: 14px 0 6px; color: var(--muted); }
 .sub { color: var(--muted); font-size: 0.85rem; }
 .contract { color: var(--muted); font-size: 0.8rem; border-left: 2px solid var(--line); padding-left: 8px; margin: 6px 0 12px; }
+/* 観点欠落（縮退分析）の警告バナーと§4カバレッジ表 */
+.warn-banner { background: #fef3cd; border: 1px solid #e0c060; border-radius: 8px; padding: 8px 12px; font-size: 0.85rem; color: #6b5310; margin: 10px 0; }
+.coverage-table { font-size: 0.85rem; }
+.coverage-table .cov-missing { color: #b42318; font-weight: 600; }
+.coverage-table .cov-degraded { color: #b8860b; font-weight: 600; }
+.coverage-table .sub-cell { color: var(--muted); font-size: 0.8rem; }
 
 /* ---- index race list ---- */
 .race-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
