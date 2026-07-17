@@ -1,0 +1,13 @@
+{"point":"A","overall_confidence":"中","field_note":"公式出馬表の近走時計・上がりを採用。馬場差を揃えた指数は未取得。","horses":[
+{"no":1,"name":"ロードトレイル","pros":["中山1200mで1分8秒1、上がり34秒3の持続力"],"cons":["直近の小倉1200mは6着で時計の再現を要する"],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":2,"name":"トーラスシャイン","pros":["小倉1200mで1分7秒0・2着の速い持ち時計"],"cons":["直近は京都1200mで16着"],"score":1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":3,"name":"アイルシャイン","pros":["上がり33秒3の末脚歴"],"cons":["近2走は1600mで後方から届かず、1200mの実時計が不足"],"score":-1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":4,"name":"ダークエクリプス","pros":["上がり32秒9の鋭さは残る"],"cons":["近2走の1200mは後方から11着、14着"],"score":-1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":5,"name":"コウセキ","pros":["小倉1200mで1分6秒9勝ち、同舞台の下関Sでも2着"],"cons":["直近の京都1200mは9着で、前走の位置取りを再現したい"],"score":2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":6,"name":"ミロワール","pros":["前走1200mを上がり33秒1で差し切り"],"cons":["今回のクラスで同等の時計裏付けは薄い"],"score":1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":7,"name":"ブラックケリー","pros":["1200mで上がり34秒6の実績"],"cons":["近2走は着順・時計ともに上向きでない"],"score":-1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":8,"name":"エスペシャリー","pros":["1200mで上がり34秒1の勝ち時計歴"],"cons":["近2走は18着続きで、直近の走破内容が弱い"],"score":-2,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":9,"name":"ヒーローインチーフ","pros":["小倉1200mで1分7秒0・3着、上がり33秒1"],"cons":["小倉の近い別走では後方のまま13着"],"score":1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":10,"name":"ベイビーキッス","pros":["前走の小倉1200mを先頭で運び1分8秒1・2着"],"cons":["末脚勝負の時計比較では差し勢に譲る"],"score":2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":11,"name":"リチャードバローズ","pros":["上がり33秒2の末脚歴"],"cons":["小倉1200mの直近は5着で決め手を着順へ結べていない"],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":12,"name":"ジュンヴァンケット","pros":["直近小倉1200mで好位から4着"],"cons":["上がりの絶対値は上位差し馬より平凡"],"score":1,"confidence":"高","sources":["https://www.jra.go.jp/"]}],"note":"縮退: 公式seedの時計を中心に評価"}

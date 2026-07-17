@@ -1,0 +1,32 @@
+{
+  "point": "E",
+  "lens": "展開証拠",
+  "overall_confidence": "低",
+  "field_note": "並列調査が環境制約で停止したため、JRA公式seedの通過順・脚質・確定枠だけで縮退評価。⑩⑬が逃げ候補、⑪⑫と内の③が好位群。",
+  "legs": [
+    {"no":1,"name":"チュウワクリスエス","style":"差","ten_speed":"中","expected_pos":"中団","note":"近走は差しだが、内枠で前走より位置を取る余地。","confidence":"低"},
+    {"no":2,"name":"コトホドサヨウニ","style":"先","ten_speed":"中","expected_pos":"好位","note":"先行歴はあるが、前走は2番手から失速。","confidence":"低"},
+    {"no":3,"name":"オウギノカナメ","style":"先","ten_speed":"中","expected_pos":"好位内","note":"近走に2番手歴があり、内枠から好位を取りやすい。","confidence":"低"},
+    {"no":4,"name":"ホールシバン","style":"追","ten_speed":"遅","expected_pos":"後方","note":"近走の初角位置は後方中心。","confidence":"低"},
+    {"no":5,"name":"イガッチ","style":"先","ten_speed":"中","expected_pos":"中団前","note":"先行歴があり、ダート替わりの位置取りは不確定。","confidence":"低"},
+    {"no":6,"name":"テーオードレフォン","style":"差","ten_speed":"中","expected_pos":"中団","note":"近走は2番手歴もあるが、今回は差し寄りの想定。","confidence":"低"},
+    {"no":7,"name":"ラタフォレスト","style":"差","ten_speed":"中","expected_pos":"中団","note":"近走は5〜7番手での運びが中心。","confidence":"低"},
+    {"no":8,"name":"ハグ","style":"差","ten_speed":"中","expected_pos":"中団","note":"先行実績もあるが、近走の位置取りは一定しない。","confidence":"低"},
+    {"no":9,"name":"アスクデビューモア","style":"追","ten_speed":"遅","expected_pos":"後方","note":"近走の初角位置は後方中心。","confidence":"低"},
+    {"no":10,"name":"ウェイワードアクト","style":"逃","ten_speed":"速","expected_pos":"先導候補","note":"近2走とも前方で、速い行き脚がある。","confidence":"低"},
+    {"no":11,"name":"ヒルノハンブルク","style":"先","ten_speed":"中","expected_pos":"好位","note":"2〜4番手の実績が多く、逃げを見ながら運べる。","confidence":"低"},
+    {"no":12,"name":"レヴォントゥレット","style":"先","ten_speed":"速","expected_pos":"好位外","note":"1〜4番手の実績があり、二の脚で前へ行ける。","confidence":"低"},
+    {"no":13,"name":"マーブルロック","style":"逃","ten_speed":"速","expected_pos":"先導候補","note":"近走は全て初角1番手。外枠からも主張する型。","confidence":"低"}
+  ],
+  "lead_contenders": [
+    {"no":10,"stance":"逃げ脚質・速い行き脚。外寄りでも主導権を取りに行く候補。"},
+    {"no":13,"stance":"近走の初角1番手が続く逃げ型。大外からの主張がペースの分岐。"},
+    {"no":12,"stance":"速い二の脚で番手または前受けの候補。"},
+    {"no":11,"stance":"好位で先導勢を見ながら運ぶ候補。"},
+    {"no":3,"stance":"内枠から好位を確保しやすい。"}
+  ],
+  "draw": [
+    {"no":1,"note":"最内。差し馬でも前へ寄せる余地。"},{"no":2,"note":"内枠で好位を取りやすい。"},{"no":3,"note":"内枠で好位を取りやすい。"},{"no":4,"note":"中枠。後方脚質で進路待ち。"},{"no":5,"note":"中枠。位置取りは出脚次第。"},{"no":6,"note":"中枠。差しの進路確保が鍵。"},{"no":7,"note":"中枠。中団で収めやすい。"},{"no":8,"note":"外寄り。序盤の位置取りが鍵。"},{"no":9,"note":"外寄り。後方脚質で展開待ち。"},{"no":10,"note":"外枠の逃げ候補。主張時は序盤の負荷。"},{"no":11,"note":"外寄りの先行馬。好位確保には出脚が必要。"},{"no":12,"note":"大外寄りの先行馬。外々を回す負荷に注意。"},{"no":13,"note":"大外の逃げ候補。ハナへ行くまでの負荷が分岐。"}
+  ],
+  "sources": ["data/races/20260718-hakodate-11/seed.json", ".claude/skills/analyze-race/references/course-geometry.md"]
+}

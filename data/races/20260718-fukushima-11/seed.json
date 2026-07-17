@@ -1,0 +1,26 @@
+{
+  "race_id": "202607180311",
+  "source": "jra",
+  "surface": "芝",
+  "distance": 1800,
+  "headcount": 16,
+  "draw_fixed": true,
+  "horses": [
+    {"no":1,"waku":1,"name":"ショーマンフリート","sex_age":"牡5","weight":"53.0","jockey":"嶋田 純次","trainer":"手塚 貴久","sire":"スワーヴリチャード","damsire":"Siyouni","style":"差","ten_speed":"中","agari_best":33.1,"recent":[{"jockey":"嶋田 純次","first_corner":6,"field":16,"pos":16,"dist":1600}]},
+    {"no":2,"waku":1,"name":"ウインオーディン","sex_age":"牡6","weight":"56.0","jockey":"荻野 極","trainer":"鹿戸 雄一","sire":"エピファネイア","damsire":"フジキセキ","style":"追","ten_speed":"遅","agari_best":32.5,"recent":[{"jockey":"原 優介","first_corner":15,"field":16,"pos":14,"dist":1400}]},
+    {"no":3,"waku":2,"name":"アマイ","sex_age":"牝6","weight":"54.0","jockey":"原 優介","trainer":"伊藤 大士","sire":"ダノンバラード","damsire":"タイキシャトル","style":"逃","ten_speed":"速","agari_best":34.9,"recent":[{"jockey":"原 優介","first_corner":1,"field":9,"pos":6,"dist":2000}]},
+    {"no":4,"waku":2,"name":"ワイドアラジン","sex_age":"牡6","weight":"55.0","jockey":"田辺 裕信","trainer":"奥村 豊","sire":"ダイワメジャー","damsire":"ウォーエンブレム","style":"差","ten_speed":"中","agari_best":33.1,"recent":[{"jockey":"横山 武史","first_corner":6,"field":14,"pos":13,"dist":1600}]},
+    {"no":5,"waku":3,"name":"コスモアンソロジー","sex_age":"牡4","weight":"56.0","jockey":"津村 明秀","trainer":"嘉藤 貴行","sire":"ダノンバラード","damsire":"Shamardal","style":"差","ten_speed":"中","agari_best":34.2,"recent":[{"jockey":"津村 明秀","first_corner":2,"field":13,"pos":1,"dist":1600}]},
+    {"no":6,"waku":3,"name":"タイキラフター","sex_age":"牡6","weight":"55.0","jockey":"杉原 誠人","trainer":"大竹 正博","sire":"ハーツクライ","damsire":"Any Given Saturday","style":"差","ten_speed":"遅","agari_best":32.7,"recent":[{"jockey":"杉原 誠人","first_corner":9,"field":16,"pos":3,"dist":1800}]},
+    {"no":7,"waku":4,"name":"グラニット","sex_age":"牡6","weight":"55.0","jockey":"江田 照男","trainer":"大和田 成","sire":"ダノンバラード","damsire":"フサイチコンコルド","style":"先","ten_speed":"速","agari_best":34.1,"recent":[{"jockey":"江田 照男","first_corner":2,"field":12,"pos":7,"dist":1600}]},
+    {"no":8,"waku":4,"name":"ホウオウスーペリア","sex_age":"牡6","weight":"56.0","jockey":"三浦 皇成","trainer":"吉岡 辰弥","sire":"スクリーンヒーロー","damsire":"Shamardal","style":"差","ten_speed":"中","agari_best":35.5,"recent":[{"jockey":"津村 明秀","first_corner":3,"field":9,"pos":7,"dist":2000}]},
+    {"no":9,"waku":5,"name":"コンドゥイア","sex_age":"牝4","weight":"52.0","jockey":"小崎 綾也","trainer":"井上 智史","sire":"フォーウィールドライブ","damsire":"ディープインパクト","style":"逃","ten_speed":"中","agari_best":35.0,"recent":[{"jockey":"M.デムーロ","first_corner":8,"field":16,"pos":13,"dist":2000}]},
+    {"no":10,"waku":5,"name":"ドラゴンヘッド","sex_age":"牡6","weight":"55.0","jockey":"石田 拓郎","trainer":"武藤 善則","sire":"ラブリーデイ","damsire":"アドマイヤムーン","style":"追","ten_speed":"遅","agari_best":32.5,"recent":[{"jockey":"石田 拓郎","first_corner":15,"field":16,"pos":4,"dist":1800}]},
+    {"no":11,"waku":6,"name":"エスコバル","sex_age":"せん8","weight":"54.0","jockey":"吉田 豊","trainer":"高橋 文雅","sire":"モーリス","damsire":"キングカメハメハ","style":"追","ten_speed":"遅","agari_best":33.1,"recent":[{"jockey":"柴田 大知","first_corner":11,"field":12,"pos":12,"dist":1600}]},
+    {"no":12,"waku":6,"name":"ヴォンフレ","sex_age":"牝4","weight":"53.0","jockey":"横山 典弘","trainer":"村田 一誠","sire":"ブラックタイド","damsire":"プリサイスエンド","style":"追","ten_speed":"中","agari_best":33.1,"recent":[{"jockey":"横山 和生","first_corner":1,"field":9,"pos":1,"dist":1800}]},
+    {"no":13,"waku":7,"name":"ミラビリスマジック","sex_age":"牝5","weight":"53.0","jockey":"戸崎 圭太","trainer":"千葉 直人","sire":"キズナ","damsire":"シンボリクリスエス","style":"差","ten_speed":"中","agari_best":33.0,"recent":[{"jockey":"小沢 大仁","first_corner":5,"field":16,"pos":5,"dist":1800}]},
+    {"no":14,"waku":7,"name":"テリオスサラ","sex_age":"牝5","weight":"53.0","jockey":"菊沢 一樹","trainer":"高柳 瑞樹","sire":"ロジャーバローズ","damsire":"Shamardal","style":"差","ten_speed":"中","agari_best":34.1,"recent":[{"jockey":"吉村 誠之助","first_corner":6,"field":16,"pos":10,"dist":2000}]},
+    {"no":15,"waku":8,"name":"サヴォンリンナ","sex_age":"牝4","weight":"53.0","jockey":"大野 拓弥","trainer":"田中 克典","sire":"サトノダイヤモンド","damsire":"Zoffany","style":"差","ten_speed":"中","agari_best":34.5,"recent":[{"jockey":"亀田 温心","first_corner":7,"field":18,"pos":12,"dist":1400}]},
+    {"no":16,"waku":8,"name":"フォルラニーニ","sex_age":"牡5","weight":"56.0","jockey":"坂井 瑠星","trainer":"手塚 貴久","sire":"エピファネイア","damsire":"ステイゴールド","style":"差","ten_speed":"中","agari_best":33.5,"recent":[{"jockey":"D.レーン","first_corner":2,"field":12,"pos":1,"dist":1800}]}
+  ]
+}

@@ -1,0 +1,13 @@
+{"point":"I","overall_confidence":"中","field_note":"決定論リスクを一次フラグに採用。脚部・気性などの非決定論情報は未取得。","horses":[
+{"no":1,"name":"ロードトレイル","pros":[],"cons":["前走6着の下降フラグ"],"score":-1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":2,"name":"トーラスシャイン","pros":[],"cons":["前走16着の下降フラグ"],"score":-1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":3,"name":"アイルシャイン","pros":[],"cons":["直近2走連続大敗の下降フラグ"],"score":-2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":4,"name":"ダークエクリプス","pros":[],"cons":["7歳かつ前走大敗のリスク"],"score":-2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":5,"name":"コウセキ","pros":[],"cons":[],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":6,"name":"ミロワール","pros":[],"cons":["7歳の年齢リスク"],"score":-1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":7,"name":"ブラックケリー","pros":[],"cons":["直近2走連続大敗の下降フラグ"],"score":-2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":8,"name":"エスペシャリー","pros":[],"cons":["直近2走連続18着の下降フラグ"],"score":-2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":9,"name":"ヒーローインチーフ","pros":[],"cons":[],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":10,"name":"ベイビーキッス","pros":[],"cons":[],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":11,"name":"リチャードバローズ","pros":[],"cons":[],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":12,"name":"ジュンヴァンケット","pros":[],"cons":[],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]}],"note":"縮退: risk_flags.pyの一次フラグを評価に採用"}

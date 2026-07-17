@@ -1,0 +1,13 @@
+{"point":"B","overall_confidence":"中","field_note":"近走着順と通過順から内容を評価。特別競走名の厳密な格付けは未取得。","horses":[
+{"no":1,"name":"ロードトレイル","pros":["前走も1角2番手で先行形は維持"],"cons":["先行して6着、同舞台での押し切りに課題"],"score":0,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":2,"name":"トーラスシャイン","pros":["小倉で1角1番手から2着の先行実績"],"cons":["前走は好位から16着で反動を割り引く"],"score":0,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":3,"name":"アイルシャイン","pros":[],"cons":["近2走とも後方から二桁着順で、距離短縮でも反転材料が少ない"],"score":-1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":4,"name":"ダークエクリプス","pros":[],"cons":["近2走の1200mで後方から着順を上げられていない"],"score":-1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":5,"name":"コウセキ","pros":["小倉1200mで先行して勝ちと2着があり、舞台替わりで内容を戻せる"],"cons":["前走は好位から9着"],"score":1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":6,"name":"ミロワール","pros":["前走を後方から差し切っており着順面は最も上向き"],"cons":["昇級で同じ流れになる保証はない"],"score":1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":7,"name":"ブラックケリー","pros":[],"cons":["小倉の前走は中団から7着、近2走の着順も下降"],"score":-1,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":8,"name":"エスペシャリー","pros":["過去に小倉で好位を取った履歴"],"cons":["近2走が連続18着で、先行しても粘れていない"],"score":-2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":9,"name":"ヒーローインチーフ","pros":["前走は後方から4着まで詰め、差しの形は戻った"],"cons":["小倉では展開待ちになりやすい後方脚質"],"score":1,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":10,"name":"ベイビーキッス","pros":["前走の同舞台で逃げ切りに近い2着、隊列の基準になる"],"cons":["単騎で運べないと粘りの再現性は下がる"],"score":2,"confidence":"高","sources":["https://www.jra.go.jp/"]},
+{"no":11,"name":"リチャードバローズ","pros":["前走は中団から5着で着順差が小さい"],"cons":["1200mへの対応を前走以上に示す必要がある"],"score":0,"confidence":"中","sources":["https://www.jra.go.jp/"]},
+{"no":12,"name":"ジュンヴァンケット","pros":["前走は同舞台で好位から4着、先行群の直後を取れる"],"cons":["上位へ届く決め手はまだ不足"],"score":1,"confidence":"高","sources":["https://www.jra.go.jp/"]}],"note":"縮退: 公式seedの近走内容を中心に評価"}

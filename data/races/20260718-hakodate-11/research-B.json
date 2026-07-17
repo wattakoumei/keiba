@@ -1,0 +1,18 @@
+{
+  "point":"B","overall_confidence":"低","field_note":"JRA公式seedの近走着順・通過順だけでの縮退評価。外部の内容確認は未取得。",
+  "horses":[
+    {"no":1,"name":"チュウワクリスエス","pros":["前走以前に中山1800mで先行して勝利。"],"cons":["前走の重賞で大敗。"],"score":0,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":2,"name":"コトホドサヨウニ","pros":["小倉1700mで先行して勝利歴。"],"cons":["前走の函館1700mで失速。"],"score":-1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":3,"name":"オウギノカナメ","pros":["前走の函館1700mで中団から4着。"],"cons":[],"score":1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":4,"name":"ホールシバン","pros":[],"cons":["近走は掲示板外が続く。"],"score":-1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":5,"name":"イガッチ","pros":["近走は前で運べている。"],"cons":["ダート1700mの近走実績はseedで確認できない。"],"score":0,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":6,"name":"テーオードレフォン","pros":[],"cons":["近2走は大きく後退。"],"score":-1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":7,"name":"ラタフォレスト","pros":["福島1700mで差し切った実績。"],"cons":["前走の函館1700mは7着。"],"score":1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":8,"name":"ハグ","pros":["重賞で先行して3着の実績。"],"cons":["前走は大敗。"],"score":0,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":9,"name":"アスクデビューモア","pros":["中山1800mで後方から勝利歴。"],"cons":["近2走は後方のまま大敗。"],"score":-1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":10,"name":"ウェイワードアクト","pros":["東京1400mで逃げ切り勝ち。"],"cons":["1700mは距離延長かつ休み明け。"],"score":0,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":11,"name":"ヒルノハンブルク","pros":["前走の函館1700mで好位から3着。"],"cons":[],"score":2,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":12,"name":"レヴォントゥレット","pros":["前走の函館1700mで先行して2着。"],"cons":["外枠から好位を取る負荷。"],"score":2,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]},
+    {"no":13,"name":"マーブルロック","pros":["一貫して先頭へ行く行き脚。"],"cons":["近走は逃げても着順を上げられていない。"],"score":-1,"confidence":"低","sources":["data/races/20260718-hakodate-11/seed.json"]}
+  ]
+}

@@ -1,0 +1,16 @@
+{"legs":[
+{"no":1,"name":"ロードトレイル","style":"先行","ten_speed":"中","expected_pos":"内から好位"},
+{"no":2,"name":"トーラスシャイン","style":"先行","ten_speed":"速","expected_pos":"先団"},
+{"no":3,"name":"アイルシャイン","style":"追込","ten_speed":"遅","expected_pos":"後方"},
+{"no":4,"name":"ダークエクリプス","style":"追込","ten_speed":"遅","expected_pos":"後方"},
+{"no":5,"name":"コウセキ","style":"先行","ten_speed":"速","expected_pos":"先団"},
+{"no":6,"name":"ミロワール","style":"追込","ten_speed":"遅","expected_pos":"後方"},
+{"no":7,"name":"ブラックケリー","style":"差し","ten_speed":"中","expected_pos":"中団"},
+{"no":8,"name":"エスペシャリー","style":"先行","ten_speed":"中","expected_pos":"先団"},
+{"no":9,"name":"ヒーローインチーフ","style":"追込","ten_speed":"遅","expected_pos":"後方"},
+{"no":10,"name":"ベイビーキッス","style":"逃げ","ten_speed":"中","expected_pos":"ハナ候補"},
+{"no":11,"name":"リチャードバローズ","style":"追込","ten_speed":"遅","expected_pos":"後方"},
+{"no":12,"name":"ジュンヴァンケット","style":"差し","ten_speed":"中","expected_pos":"好位から中団"}],
+"lead_contenders":[{"no":10,"stance":"前走の同舞台で1角先頭。ハナ候補"},{"no":5,"stance":"小倉1200mで1角1番手・2番手歴があり先行争いの当事者"},{"no":2,"stance":"小倉1200mで1角1番手歴、テン速は速"},{"no":1,"stance":"近2走で1角2番手、内枠から好位候補"},{"no":8,"stance":"小倉1200mで1角2番手歴、先行候補"}],
+"draw":[{"no":1,"note":"内枠で好位を取りやすい"},{"no":2,"note":"内寄りから先団へ"},{"no":5,"note":"中枠から先行争いへ"},{"no":10,"note":"外寄り枠でハナまでに脚を使う"},{"no":12,"note":"大外枠で好位確保には出脚が必要"}],
+"field_note":"公式seedの通過順では10が直近のハナ。5と2にも小倉でハナ歴があり、先行争いは固定しない。縮退: 戦法コメントは未取得。"}

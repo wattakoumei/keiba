@@ -1,0 +1,913 @@
+{
+  "schema_version": "1.0",
+  "race_id": "20260718-hakodate-11",
+  "race_name": "マリーンステークス",
+  "edition": "",
+  "race_no": 11,
+  "grade": "オープン",
+  "date": "2026-07-18",
+  "course": {
+    "track": "函館",
+    "surface": "ダ",
+    "distance": 1700,
+    "direction": "右"
+  },
+  "conditions": "3歳以上オープン・ダート1700m",
+  "field_size": 13,
+  "model_version": "5.0",
+  "used_observations": [
+    "B",
+    "E"
+  ],
+  "header_notes": [
+    "公式出馬表の確定枠・騎手・斤量・近走を本文へ先取り。",
+    "観点別の外部調査は環境制約で縮退し、並びは公式seedとコース形状を主な根拠にした。",
+    "win_prob/place_prob は決定論エンジンの内在確率で、並びは論理の行順を主とする。",
+    "観点欠落(A,C,D,F,G,H,I,K,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
+  ],
+  "pivot": "⑩と⑬が外から併走するか、⑬が単独で先導するか。",
+  "day_board": {
+    "reference_races": [
+      {
+        "label": "函館7R",
+        "when": "13:10",
+        "course": "ダ1700m",
+        "match": "★同条件",
+        "watch": "4角位置、先行勢の残り方、内外の伸び"
+      }
+    ],
+    "reference_note": "同日同条件の7Rを最優先し、前残りまたは差しの決着傾向を確認する。",
+    "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+    "going": [
+      {
+        "item": "馬場状態",
+        "value": "",
+        "read": "前が残るならβ、先導勢が止まるならαまたはγを上げる"
+      },
+      {
+        "item": "馬体重",
+        "value": "",
+        "read": "休み明け⑩と大外先行⑫⑬の張りを確認"
+      }
+    ],
+    "paddock_watch": [
+      {
+        "mark": "◎",
+        "gate_no": 12,
+        "horse": "レヴォントゥレット",
+        "weight_note": "外枠から前受けできる気配か"
+      },
+      {
+        "mark": "◯",
+        "gate_no": 11,
+        "horse": "ヒルノハンブルク",
+        "weight_note": "好位追走の余力を確認"
+      }
+    ],
+    "other_unknowns": [
+      "当日のダートの内外差",
+      "⑩と⑬の出脚",
+      "直前の馬体重と気配"
+    ]
+  },
+  "pace": {
+    "verification_contract": "先行争い、最終コーナーの前方隊列、脚質別の有利不利、段階フローを固定し、レース後に展開だけを独立して採点する。",
+    "pace_factors": [
+      {
+        "factor": "先行勢の数と質",
+        "reads": "⑩⑬が逃げ候補で、⑪⑫③が続く。重い⑩が競るほどαからγへ寄る。",
+        "day_check": "発走直後の⑩⑬の並び"
+      },
+      {
+        "factor": "枠の効き",
+        "reads": "③は内で好位を取りやすく、⑫⑬は外から前へ出る負荷がある。",
+        "day_check": "外の先行勢が一角までに隊列へ入れるか"
+      },
+      {
+        "factor": "コース形状",
+        "reads": "初角まで短く直線も短い函館ダ1700m。好位勢が残るβを消さない。",
+        "day_check": "同条件7Rの四角位置と決まり手"
+      },
+      {
+        "factor": "例年傾向（過去開催）",
+        "reads": "コース形状から前方の位置取りを重視するが、逃げ同士の競り合いは別に扱う。",
+        "day_check": "当日の走破内容で補正"
+      },
+      {
+        "factor": "当日で動く点",
+        "reads": "馬場の含水と前半レースの前後・内外の偏りでティアを付け替える。",
+        "day_check": "函館7R後に更新"
+      }
+    ],
+    "leg_table": [
+      {
+        "gate": "1",
+        "no": 1,
+        "horse": "チュウワクリスエス",
+        "jockey": "横山 和生",
+        "trainer": "栗田 徹",
+        "leg_type": "差",
+        "recent_pos": "中団差し",
+        "expected_pos": "中団内"
+      },
+      {
+        "gate": "2",
+        "no": 2,
+        "horse": "コトホドサヨウニ",
+        "jockey": "佐々木 大輔",
+        "trainer": "奥村 豊",
+        "leg_type": "先",
+        "recent_pos": "好位",
+        "expected_pos": "好位内"
+      },
+      {
+        "gate": "3",
+        "no": 3,
+        "horse": "オウギノカナメ",
+        "jockey": "丹内 祐次",
+        "trainer": "高木 登",
+        "leg_type": "先",
+        "recent_pos": "中団から好位",
+        "expected_pos": "好位内"
+      },
+      {
+        "gate": "4",
+        "no": 4,
+        "horse": "ホールシバン",
+        "jockey": "横山 琉人",
+        "trainer": "高橋 義忠",
+        "leg_type": "追",
+        "recent_pos": "後方",
+        "expected_pos": "後方"
+      },
+      {
+        "gate": "4",
+        "no": 5,
+        "horse": "イガッチ",
+        "jockey": "池添 謙一",
+        "trainer": "笹田 和秀",
+        "leg_type": "先",
+        "recent_pos": "好位",
+        "expected_pos": "中団前"
+      },
+      {
+        "gate": "5",
+        "no": 6,
+        "horse": "テーオードレフォン",
+        "jockey": "古川 吉洋",
+        "trainer": "梅田 智之",
+        "leg_type": "差",
+        "recent_pos": "中団",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "5",
+        "no": 7,
+        "horse": "ラタフォレスト",
+        "jockey": "横山 武史",
+        "trainer": "加藤 征弘",
+        "leg_type": "差",
+        "recent_pos": "中団",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "6",
+        "no": 8,
+        "horse": "ハグ",
+        "jockey": "鮫島 克駿",
+        "trainer": "藤岡 健一",
+        "leg_type": "差",
+        "recent_pos": "中団",
+        "expected_pos": "中団"
+      },
+      {
+        "gate": "6",
+        "no": 9,
+        "horse": "アスクデビューモア",
+        "jockey": "鷲頭 虎太",
+        "trainer": "福永 祐一",
+        "leg_type": "追",
+        "recent_pos": "後方",
+        "expected_pos": "後方"
+      },
+      {
+        "gate": "7",
+        "no": 10,
+        "horse": "ウェイワードアクト",
+        "jockey": "舟山 瑠泉",
+        "trainer": "田中 博康",
+        "leg_type": "逃げ",
+        "recent_pos": "先導",
+        "expected_pos": "先導候補"
+      },
+      {
+        "gate": "7",
+        "no": 11,
+        "horse": "ヒルノハンブルク",
+        "jockey": "武 豊",
+        "trainer": "武 英智",
+        "leg_type": "先",
+        "recent_pos": "好位",
+        "expected_pos": "好位"
+      },
+      {
+        "gate": "8",
+        "no": 12,
+        "horse": "レヴォントゥレット",
+        "jockey": "北村 友一",
+        "trainer": "矢作 芳人",
+        "leg_type": "先",
+        "recent_pos": "好位",
+        "expected_pos": "好位外"
+      },
+      {
+        "gate": "8",
+        "no": 13,
+        "horse": "マーブルロック",
+        "jockey": "小沢 大仁",
+        "trainer": "茶木 太樹",
+        "leg_type": "逃げ",
+        "recent_pos": "先導",
+        "expected_pos": "先導候補"
+      }
+    ],
+    "patterns": [
+      {
+        "id": "α",
+        "name": "逃げ候補が併走する平均速め",
+        "tier": "本線",
+        "prob": 0.42,
+        "trigger": "⑩と⑬がどちらも引かず、⑫が好位外を確保する。",
+        "pace_level": 0.66,
+        "contesters": [
+          10,
+          13
+        ],
+        "leg_advantage": {
+          "逃げ": -1,
+          "先行": 2,
+          "差し": 1,
+          "追込": 0
+        },
+        "formation_head": [
+          13,
+          10,
+          12
+        ],
+        "formation_last_corner": [
+          13,
+          12,
+          11,
+          3,
+          7
+        ],
+        "bias": "好位勢が有利",
+        "phase_flow": {
+          "early": "⑩と⑬が外から主張し、③⑪⑫が直後で隊列を形成する。",
+          "mid": "先導2頭は外からの位置取りで脚を使い、番手の好位勢が追走を温存する。",
+          "late": "短い直線へ向くまでに好位勢が並び、余力を残す⑪⑫と内の③が伸びる。",
+          "result": "逃げ本体より番手から好位の馬が浮上し、差し勢は中団までが圏内。"
+        },
+        "risers": [
+          1,
+          3,
+          7,
+          8,
+          11,
+          12
+        ],
+        "sinkers": [
+          10,
+          13
+        ]
+      },
+      {
+        "id": "β",
+        "name": "⑬主導の前残り",
+        "tier": "対抗",
+        "prob": 0.33,
+        "trigger": "⑬が出脚を決め、⑩が競らずに前を見ながら運ぶ。",
+        "pace_level": 0.45,
+        "contesters": [
+          13
+        ],
+        "leg_advantage": {
+          "逃げ": 1,
+          "先行": 2,
+          "差し": -1,
+          "追込": -2
+        },
+        "formation_head": [
+          13,
+          12,
+          11
+        ],
+        "formation_last_corner": [
+          13,
+          12,
+          11,
+          3,
+          10
+        ],
+        "bias": "前有利",
+        "phase_flow": {
+          "early": "⑬が大外から先頭へ入り、⑫⑪が無理なく好位を取る。",
+          "mid": "隊列が早く決まり、前の各馬が追走の余力を保つ。",
+          "late": "函館ダートの短い直線で前方の位置差が残り、外からの差しは届きにくい。",
+          "result": "⑬と好位の⑫⑪、内で運ぶ③が前残りを作る。"
+        },
+        "risers": [
+          3,
+          10,
+          11,
+          12,
+          13
+        ],
+        "sinkers": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": "γ",
+        "name": "⑩が主導して差しも届く",
+        "tier": "伏線",
+        "prob": 0.25,
+        "trigger": "⑩が先に主導権を取り、⑬が外から押し上げて先行全体の消耗が増す。",
+        "pace_level": 0.8,
+        "contesters": [
+          10,
+          13
+        ],
+        "leg_advantage": {
+          "逃げ": -2,
+          "先行": 0,
+          "差し": 2,
+          "追込": 1
+        },
+        "formation_head": [
+          10,
+          13,
+          12
+        ],
+        "formation_last_corner": [
+          10,
+          12,
+          11,
+          7,
+          8
+        ],
+        "bias": "中団差しも圏内",
+        "phase_flow": {
+          "early": "⑩が速い行き脚で前へ出るが、⑬も外から譲らない。",
+          "mid": "先導勢が競り合い、重い斤量の⑩は追走の余力を削られる。",
+          "late": "好位勢に加え、中団で脚を溜めた⑦⑧①が前との差を詰める。",
+          "result": "前の粘りは一枚落ち、好位と中団差しが混在する。"
+        },
+        "risers": [
+          1,
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "sinkers": [
+          10,
+          13
+        ]
+      }
+    ],
+    "shape_note": "函館ダ1700mの前有利を土台にしつつ、外の逃げ2頭が競れば番手勢へ重心が移る。",
+    "formation_note": "本線αの序盤は⑬→⑩→⑫、最終コーナーは⑬⑫⑪③⑦を想定。",
+    "bias_note": "当日確認前は前有利寄り。ただし内有利を断定せず、同条件7Rで更新する。",
+    "counter_conditions": "⑬が単独ならβを上げ、⑩⑬が併走ならαかγを上げる。",
+    "transmission": "本線αでは好位で余力を残す⑫を中心に、⑪③を相手軸、競りの消耗が強ければ⑦⑧を浮上させる。",
+    "box_reverse": [
+      {
+        "pattern": "α",
+        "tier": "本線",
+        "center": [
+          11,
+          12
+        ],
+        "inside": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "spot": [],
+        "drop": [
+          10,
+          13
+        ]
+      },
+      {
+        "pattern": "β",
+        "tier": "対抗",
+        "center": [
+          12,
+          13
+        ],
+        "inside": [
+          3,
+          10,
+          11
+        ],
+        "spot": [
+          7
+        ],
+        "drop": [
+          8,
+          9
+        ]
+      },
+      {
+        "pattern": "γ",
+        "tier": "伏線",
+        "center": [
+          7,
+          8
+        ],
+        "inside": [
+          1,
+          9,
+          11,
+          12
+        ],
+        "spot": [],
+        "drop": [
+          10,
+          13
+        ]
+      }
+    ]
+  },
+  "rank_verification_contract": "本線の段階フローに各馬を通し、印と行順、展開列、展開感度を固定して着順精度を独立採点する。率は並びを変更しない。",
+  "rank": [
+    {
+      "no": 12,
+      "gate": "8",
+      "horse": "レヴォントゥレット",
+      "jockey": "北村 友一",
+      "trainer": "矢作 芳人",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "◎",
+      "rank_order": 1,
+      "win_prob": 0.1668,
+      "place_prob": 0.4553,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "◎",
+        "β": "◎",
+        "γ": "○"
+      },
+      "pace_sensitivity": "逃げ2頭が競っても単独でも好位に残れる形が最も広い。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "前走の函館1700mで先行して2着。"
+        },
+        {
+          "tag": "E",
+          "note": "速い二の脚で好位を取れる。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "E",
+          "note": "大外寄りから前へ出る負荷。"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "gate": "7",
+      "horse": "ヒルノハンブルク",
+      "jockey": "武 豊",
+      "trainer": "武 英智",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "◯",
+      "rank_order": 2,
+      "win_prob": 0.1287,
+      "place_prob": 0.3746,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○",
+        "γ": "○"
+      },
+      "pace_sensitivity": "競り合いなら番手で浮上し、前残りでも好位を保てる。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "前走の函館1700mで好位から3着。"
+        },
+        {
+          "tag": "E",
+          "note": "逃げを見ながら運べる位置取り。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "E",
+          "note": "外寄りで序盤に位置を取れるかが鍵。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "gate": "3",
+      "horse": "オウギノカナメ",
+      "jockey": "丹内 祐次",
+      "trainer": "高木 登",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "▲",
+      "rank_order": 3,
+      "win_prob": 0.0994,
+      "place_prob": 0.3015,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○",
+        "β": "○"
+      },
+      "pace_sensitivity": "内で好位を取れればαとβの双方で圏内。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "前走の函館1700mで中団から4着。"
+        },
+        {
+          "tag": "E",
+          "note": "内枠から好位へ寄せやすい。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "E",
+          "note": "速い流れで前受けすると終いの余力が課題。"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "gate": "5",
+      "horse": "ラタフォレスト",
+      "jockey": "横山 武史",
+      "trainer": "加藤 征弘",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.0646,
+      "place_prob": 0.1995,
+      "leg_type": "差",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "逃げ候補が消耗するγで最も浮上する差し。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "福島1700mで差し切った実績。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "前走の函館1700mは7着。"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "gate": "6",
+      "horse": "ハグ",
+      "jockey": "鮫島 克駿",
+      "trainer": "藤岡 健一",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 5,
+      "win_prob": 0.0614,
+      "place_prob": 0.1904,
+      "leg_type": "差",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "先行勢が止まるγで中団からの差しが届く。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "重賞で先行して3着の実績。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "前走は大敗。"
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "gate": "8",
+      "horse": "マーブルロック",
+      "jockey": "小沢 大仁",
+      "trainer": "茶木 太樹",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 6,
+      "win_prob": 0.0443,
+      "place_prob": 0.1439,
+      "leg_type": "逃げ",
+      "pattern_fit": {
+        "β": "◎"
+      },
+      "pace_sensitivity": "単独で先導できるβなら粘り込み、⑩が絡めば評価を下げる。",
+      "pros": [
+        {
+          "tag": "E",
+          "note": "近走は初角1番手が続く。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "近走は逃げても着順を上げられていない。"
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "gate": "7",
+      "horse": "ウェイワードアクト",
+      "jockey": "舟山 瑠泉",
+      "trainer": "田中 博康",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 7,
+      "win_prob": 0.065,
+      "place_prob": 0.2051,
+      "leg_type": "逃げ",
+      "pattern_fit": {
+        "β": "○"
+      },
+      "pace_sensitivity": "主導権を一気に取るβだけが残る筋で、競り合いは大きな減点。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "東京1400mで逃げ切り勝ち。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "1700mは距離延長かつ休み明け。"
+        },
+        {
+          "tag": "E",
+          "note": "実効標準より重い斤量で競ると消耗しやすい。"
+        }
+      ]
+    },
+    {
+      "no": 1,
+      "gate": "1",
+      "horse": "チュウワクリスエス",
+      "jockey": "横山 和生",
+      "trainer": "栗田 徹",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 8,
+      "win_prob": 0.0527,
+      "place_prob": 0.1657,
+      "leg_type": "差",
+      "pattern_fit": {
+        "α": "○",
+        "γ": "○"
+      },
+      "pace_sensitivity": "内で中団を取れればαとγで差し込む余地。",
+      "pros": [
+        {
+          "tag": "E",
+          "note": "最内で位置を取りやすい。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "前走の重賞で大敗。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "gate": "2",
+      "horse": "コトホドサヨウニ",
+      "jockey": "佐々木 大輔",
+      "trainer": "奥村 豊",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 9,
+      "win_prob": 0.0654,
+      "place_prob": 0.2073,
+      "leg_type": "先",
+      "pattern_fit": {},
+      "pace_sensitivity": "内の好位を取れれば残るが、先行勢の層は厚い。",
+      "pros": [
+        {
+          "tag": "B",
+          "note": "小倉1700mで先行して勝利歴。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "前走の函館1700mで失速。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "gate": "4",
+      "horse": "イガッチ",
+      "jockey": "池添 謙一",
+      "trainer": "笹田 和秀",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 10,
+      "win_prob": 0.1419,
+      "place_prob": 0.4047,
+      "leg_type": "先",
+      "pattern_fit": {},
+      "pace_sensitivity": "前へ行ければ残るが、ダート1700mの比較材料が薄い。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "ダート1700mの近走実績はseedで確認できない。"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "gate": "5",
+      "horse": "テーオードレフォン",
+      "jockey": "古川 吉洋",
+      "trainer": "梅田 智之",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 11,
+      "win_prob": 0.0418,
+      "place_prob": 0.1335,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "前が大きく止まる展開待ち。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "近2走は大きく後退。"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "gate": "6",
+      "horse": "アスクデビューモア",
+      "jockey": "鷲頭 虎太",
+      "trainer": "福永 祐一",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 12,
+      "win_prob": 0.0334,
+      "place_prob": 0.1075,
+      "leg_type": "追",
+      "pattern_fit": {
+        "γ": "○"
+      },
+      "pace_sensitivity": "γまで速くなれば後方からの浮上余地。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "近2走は後方のまま大敗。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "gate": "4",
+      "horse": "ホールシバン",
+      "jockey": "横山 琉人",
+      "trainer": "高橋 義忠",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 13,
+      "win_prob": 0.0345,
+      "place_prob": 0.1109,
+      "leg_type": "追",
+      "pattern_fit": {},
+      "pace_sensitivity": "先行勢の総崩れが必要。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "B",
+          "note": "近走は掲示板外が続く。"
+        }
+      ]
+    }
+  ],
+  "data_confidence": [
+    {
+      "item": "JRA公式seed",
+      "confidence": "高",
+      "note": "枠・騎手・斤量・近走は確定材料。"
+    },
+    {
+      "item": "展開合成",
+      "confidence": "低",
+      "note": "公式seedとコース形状での縮退構築。"
+    },
+    {
+      "item": "調教・直前気配",
+      "confidence": "低",
+      "note": "外部調査が停止し未取得。"
+    }
+  ],
+  "reinforcement_requests": [
+    "函館7R後に前後・内外の傾向でティアを更新",
+    "馬体重とパドックで⑩⑫⑬の気配を確認"
+  ],
+  "obs_coverage": [
+    {
+      "id": "A",
+      "label": "能力指数・時計",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "C",
+      "label": "血統",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "D",
+      "label": "コース・馬場適性",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "F",
+      "label": "調教・仕上げ",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "G",
+      "label": "ローテ・馬体",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "H",
+      "label": "当日気配・関係者コメント",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "I",
+      "label": "リスク要因",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "K",
+      "label": "騎手・乗替",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "L",
+      "label": "条件実績・リピーター",
+      "status": "未取得",
+      "fallback": "代替なし"
+    }
+  ]
+}
