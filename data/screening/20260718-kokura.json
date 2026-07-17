@@ -1,0 +1,18 @@
+{
+  "date": "20260718", "venue": "kokura", "place": "10", "as_of": "2026-07-17T00:00:00+09:00", "odds_available": false,
+  "note": "前日事前選別。公式JRA出馬表の番組・脚質・近走を使用。単勝オッズは未取得のため、当日発売後に団子度と市場ズレを更新する。",
+  "races": [
+    {"r":11,"surface":"芝","distance":1200,"headcount":12,"class":"3勝クラス","race_type":"定量","race_name":"テレQ杯","cond_rage":"強","cond_flags":["小倉開催","芝短距離","3勝クラス"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["6 ミロワール","10 ベイビーキッス","12 ジュンヴァンケット"],"reason":"ミロワールは2勝クラスを勝ち上がり、ベイビーキッスとジュンヴァンケットも直近の同級上位。逃げ1頭で形は読めるが昇級馬を含み固定までは届かない。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":4},
+    {"r":9,"surface":"芝","distance":1200,"headcount":18,"class":"オープン","race_type":"別定","race_name":"ひまわり賞","cond_rage":"強","cond_flags":["小倉開催","フルゲート18頭","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["3 リエーヴェ","11 トシミチ","16 カエリールークス","17 スイトーヨ"],"reason":"既勝馬と前走先行好走馬に候補を絞れるが、2歳の18頭立てで能力比較の確度は限定的。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":2},
+    {"r":1,"surface":"芝","distance":2860,"headcount":12,"class":"未勝利","race_type":"定量","race_name":"障害3歳以上未勝利","cond_rage":"中","cond_flags":["小倉開催","障害"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":2,"surface":"芝","distance":1800,"headcount":11,"class":"未勝利","race_type":"馬齢","race_name":"2歳未勝利","cond_rage":"中","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":3,"surface":"ダ","distance":1000,"headcount":14,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"中","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":4,"surface":"芝","distance":3390,"headcount":8,"class":"オープン","race_type":"別定","race_name":"ソレイユジャンプステークス","cond_rage":"弱","cond_flags":["小倉開催","少頭数","障害"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":5,"surface":"芝","distance":1200,"headcount":7,"class":"新馬","race_type":"馬齢","race_name":"メイクデビュー小倉","cond_rage":"弱","cond_flags":["小倉開催","超少頭数","新馬"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":6,"surface":"ダ","distance":1700,"headcount":13,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"中","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":7,"surface":"芝","distance":1800,"headcount":14,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"中","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":8,"surface":"芝","distance":2000,"headcount":10,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"弱","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":10,"surface":"ダ","distance":1700,"headcount":12,"class":"2勝クラス","race_type":"定量","race_name":"熊本城特別","cond_rage":"中","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":12,"surface":"ダ","distance":1700,"headcount":14,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"中","cond_flags":["小倉開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3}
+  ]
+}

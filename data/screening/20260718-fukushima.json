@@ -1,0 +1,18 @@
+{
+  "date": "20260718", "venue": "fukushima", "place": "03", "as_of": "2026-07-17T00:00:00+09:00", "odds_available": false,
+  "note": "前日事前選別。公式JRA出馬表の番組・脚質・近走を使用。単勝オッズは未取得のため、当日発売後に団子度と市場ズレを更新する。",
+  "races": [
+    {"r":11,"surface":"芝","distance":1800,"headcount":16,"class":"3勝クラス","race_type":"ハンデ","race_name":"阿武隈ステークス","cond_rage":"強","cond_flags":["福島開催","多頭数","3勝クラス","ハンデ"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["5 コスモアンソロジー","12 ヴォンフレ","16 フォルラニーニ"],"reason":"3頭とも前走または近走で2勝クラスを勝ち、逃げ2頭で隊列も読める。昇級初戦の比較は残るため1頭固定にはしない。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":5},
+    {"r":6,"surface":"ダ","distance":1700,"headcount":15,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"強","cond_flags":["福島開催","多頭数"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["1 テンオンスゴールド","12 アデルフィー","15 アラビアンドリーム"],"reason":"直近で2着または3着の先行型が3頭。逃げ馬もいて展開は作れるが、未勝利戦で能力差は小さい。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":3},
+    {"r":8,"surface":"芝","distance":1200,"headcount":16,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"強","cond_flags":["福島開催","多頭数","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["13 ルシェロアズーリ","2 ブルズアイプリンス","5 ロンドンアームズ"],"reason":"直近の同級上位馬はいるが、短距離16頭で差し馬も多く比較型。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":2},
+    {"r":1,"surface":"芝","distance":1200,"headcount":13,"class":"未勝利","race_type":"馬齢","race_name":"2歳未勝利","cond_rage":"強","cond_flags":["福島開催","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":2,"surface":"芝","distance":1800,"headcount":9,"class":"未勝利","race_type":"馬齢","race_name":"2歳未勝利","cond_rage":"弱","cond_flags":["福島開催","少頭数"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":3,"surface":"ダ","distance":1150,"headcount":16,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"強","cond_flags":["福島開催","多頭数"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":4,"surface":"芝","distance":1200,"headcount":16,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"強","cond_flags":["福島開催","多頭数","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":5,"surface":"芝","distance":1800,"headcount":15,"class":"新馬","race_type":"馬齢","race_name":"メイクデビュー福島","cond_rage":"中","cond_flags":["福島開催","多頭数","新馬"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":7,"surface":"芝","distance":2000,"headcount":16,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"強","cond_flags":["福島開催","多頭数"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":9,"surface":"芝","distance":2600,"headcount":12,"class":"1勝クラス","race_type":"定量","race_name":"開成山特別","cond_rage":"中","cond_flags":["福島開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":10,"surface":"ダ","distance":1150,"headcount":15,"class":"2勝クラス","race_type":"定量","race_name":"米沢特別","cond_rage":"強","cond_flags":["福島開催","多頭数"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":12,"surface":"ダ","distance":1150,"headcount":16,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"強","cond_flags":["福島開催","多頭数"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"}
+  ]
+}

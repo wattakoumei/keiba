@@ -1,0 +1,18 @@
+{
+  "date": "20260718", "venue": "hakodate", "place": "02", "as_of": "2026-07-17T00:00:00+09:00", "odds_available": false,
+  "note": "前日事前選別。公式JRA出馬表の番組・脚質・近走を使用。単勝オッズは未取得のため、当日発売後に団子度と市場ズレを更新する。",
+  "races": [
+    {"r":11,"surface":"ダ","distance":1700,"headcount":13,"class":"オープン","race_type":"ハンデ","race_name":"デルマーサラブレッドクラブ賞マリーンステークス","cond_rage":"強","cond_flags":["函館開催","ハンデ"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["3 オウギノカナメ","11 ヒルノハンブルク","12 レヴォントゥレット"],"reason":"大沼ステークスでヒルノハンブルク3着、レヴォントゥレット2着。オウギノカナメも同レース4着で、先行勢が複数いるダ1700の比較型。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":3},
+    {"r":4,"surface":"芝","distance":1200,"headcount":16,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"強","cond_flags":["函館開催","多頭数","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["1 ニシノオールワン","8 ホウオウザロイヤル","14 スノーガーネット"],"reason":"ニシノオールワンとスノーガーネットは前走2着、ホウオウザロイヤルも3着。逃げ2頭で流れは読めるが、芝1200の16頭立てで固定は避ける。","market_divergence":null},"quadrant":"穴ボックス候補・事前","score":2},
+    {"r":1,"surface":"芝","distance":1800,"headcount":8,"class":"未勝利","race_type":"馬齢","race_name":"2歳未勝利","cond_rage":"弱","cond_flags":["函館開催","少頭数"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":2,"surface":"ダ","distance":1000,"headcount":12,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":3,"surface":"ダ","distance":2400,"headcount":12,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":5,"surface":"ダ","distance":1700,"headcount":14,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"中","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":6,"surface":"芝","distance":1800,"headcount":12,"class":"未勝利","race_type":"馬齢","race_name":"3歳未勝利","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":7,"surface":"ダ","distance":1700,"headcount":14,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":8,"surface":"芝","distance":2600,"headcount":12,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":9,"surface":"芝","distance":1800,"headcount":13,"class":"1勝クラス","race_type":"定量","race_name":"湯浜特別","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":10,"surface":"芝","distance":1200,"headcount":10,"class":"2勝クラス","race_type":"定量","race_name":"潮騒特別","cond_rage":"中","cond_flags":["函館開催","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"切り","score":-1,"cut_reason":"逃げ0=自動切り"},
+    {"r":12,"surface":"芝","distance":1200,"headcount":12,"class":"1勝クラス","race_type":"定量","race_name":"3歳以上1勝クラス","cond_rage":"中","cond_flags":["函館開催","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3}
+  ]
+}
