@@ -1,0 +1,208 @@
+{
+  "point": "D",
+  "overall_confidence": "低",
+  "field_note": "観点別並列実行が環境制約で停止したため、JRA公式seedと決定論データに縮退。外部補足は未取得。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ピコシー",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]前走は2026-04-19 中山1800mで6着、1角6番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 2,
+      "name": "グラスブランシュ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]前走は2026-06-27 福島1150mで13着、1角16番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 3,
+      "name": "グロスビーク",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 4,
+      "name": "マナエトレ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]前走は2026-04-12 阪神1800mで11着、1角3番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 5,
+      "name": "ウインハルモニア",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 6,
+      "name": "レッドベルダンス",
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[D]前走は2026-07-04 福島1700mで3着、1角3番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 7,
+      "name": "ライジンマル",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 8,
+      "name": "リラゲイル",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 9,
+      "name": "サヴァビアン",
+      "score": -2,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]前走は2026-06-20 阪神1600mで8着、1角4番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 10,
+      "name": "ヴァルドルチャ",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]前走は2025-09-21 中山1600mで9着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 11,
+      "name": "ホープエトワール",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 12,
+      "name": "タケルハーロック",
+      "score": 1,
+      "confidence": "低",
+      "pros": [
+        "[D]前走は2026-06-27 福島1150mで7着、1角14番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+      ],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 13,
+      "name": "フリーマントル",
+      "score": -1,
+      "confidence": "低",
+      "pros": [],
+      "cons": [
+        "[D]前走は2025-05-25 京都1900mで5着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+      ],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 14,
+      "name": "オーケーマヒナ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    },
+    {
+      "no": 15,
+      "name": "モリノアミーゴ",
+      "score": 0,
+      "confidence": "低",
+      "pros": [],
+      "cons": [],
+      "sources": [
+        "https://www.jra.go.jp/",
+        "seed.json"
+      ]
+    }
+  ],
+  "note": "縮退資料のみ。"
+}

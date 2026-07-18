@@ -1,0 +1,934 @@
+{
+ "schema_version": "1.0",
+ "race_id": "20260718-fukushima-10",
+ "race_name": "",
+ "edition": "",
+ "race_no": 10,
+ "grade": "",
+ "date": "2026-07-18",
+ "course": {
+  "track": "",
+  "surface": "ダ",
+  "distance": 1150,
+  "direction": ""
+ },
+ "conditions": "",
+ "field_size": 15,
+ "model_version": "5.0",
+ "used_observations": [
+  "A",
+  "B",
+  "D",
+  "E",
+  "I"
+ ],
+ "header_notes": [
+  "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+  "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。"
+ ],
+ "pivot": "",
+ "day_board": {
+  "reference_races": [],
+  "reference_note": "",
+  "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+  "going": [
+   {
+    "item": "馬場状態",
+    "value": "",
+    "read": ""
+   }
+  ],
+  "paddock_watch": [],
+  "other_unknowns": []
+ },
+ "pace": {
+  "verification_contract": "",
+  "pace_factors": [],
+  "leg_table": [
+   {
+    "gate": "1",
+    "no": 1,
+    "horse": "ピコシー",
+    "jockey": "津村 明秀",
+    "trainer": "奥村 武",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 2,
+    "horse": "グラスブランシュ",
+    "jockey": "杉原 誠人",
+    "trainer": "松山 将樹",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "2",
+    "no": 3,
+    "horse": "グロスビーク",
+    "jockey": "戸崎 圭太",
+    "trainer": "田中 博康",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 4,
+    "horse": "マナエトレ",
+    "jockey": "石橋 脩",
+    "trainer": "清水 久詞",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "3",
+    "no": 5,
+    "horse": "ウインハルモニア",
+    "jockey": "松岡 正海",
+    "trainer": "柄崎 将寿",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 6,
+    "horse": "レッドベルダンス",
+    "jockey": "嶋田 純次",
+    "trainer": "手塚 貴久",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "4",
+    "no": 7,
+    "horse": "ライジンマル",
+    "jockey": "木幡 初也",
+    "trainer": "竹内 正洋",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 8,
+    "horse": "リラゲイル",
+    "jockey": "原 優介",
+    "trainer": "矢野 英一",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "5",
+    "no": 9,
+    "horse": "サヴァビアン",
+    "jockey": "野中 悠太郎",
+    "trainer": "新開 幸一",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 10,
+    "horse": "ヴァルドルチャ",
+    "jockey": "小崎 綾也",
+    "trainer": "田中 博康",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "6",
+    "no": 11,
+    "horse": "ホープエトワール",
+    "jockey": "木幡 巧也",
+    "trainer": "天間 昭一",
+    "leg_type": null,
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 12,
+    "horse": "タケルハーロック",
+    "jockey": "石田 拓郎",
+    "trainer": "高柳 大輔",
+    "leg_type": "差",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "7",
+    "no": 13,
+    "horse": "フリーマントル",
+    "jockey": "菊沢 一樹",
+    "trainer": "斎藤 誠",
+    "leg_type": "先",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 14,
+    "horse": "オーケーマヒナ",
+    "jockey": "石川 裕紀人",
+    "trainer": "相沢 郁",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   },
+   {
+    "gate": "8",
+    "no": 15,
+    "horse": "モリノアミーゴ",
+    "jockey": "大野 拓弥",
+    "trainer": "鈴木 伸尋",
+    "leg_type": "追",
+    "recent_pos": "",
+    "expected_pos": ""
+   }
+  ],
+  "patterns": [
+   {
+    "id": "α",
+    "name": "⑩主導・好位持続",
+    "tier": "本線",
+    "prob": 0.44,
+    "trigger": "⑩ヴァルドルチャが発馬を決め、④⑥⑬が競りかけず好位で収まる",
+    "pace_level": 0.5,
+    "contesters": [
+     10,
+     4,
+     6,
+     13
+    ],
+    "leg_advantage": {
+     "逃げ": 1,
+     "先行": 1,
+     "差し": 0,
+     "追込": -1
+    },
+    "formation_head": [
+     10,
+     4,
+     6,
+     13
+    ],
+    "formation_last_corner": [
+     10,
+     4,
+     6,
+     12,
+     3
+    ],
+    "bias": "短い1150mで前受けと好位の持続力が優位",
+    "phase_flow": {
+     "early": "⑩が外から先頭へ、内④と⑥が好位を確保し⑬が続く。短距離で後方勢は位置差を負う。",
+     "mid": "⑩が主導し④⑥が近い位置で追走力を温存、⑫③は中団から差を詰める。",
+     "late": "直線では好位勢の余力が問われ、⑥と⑫が前を射程に入れる。",
+     "result": "⑥を軸に④⑩⑫が粘りと差しで圏内を争う。"
+    },
+    "risers": [
+     3,
+     4,
+     6,
+     10,
+     12
+    ],
+    "sinkers": [
+     2,
+     9,
+     14,
+     15
+    ]
+   },
+   {
+    "id": "β",
+    "name": "④⑥が圧力・好位差し",
+    "tier": "対抗",
+    "prob": 0.34,
+    "trigger": "④または⑥が初角までに⑩へ並び、前3列が流れを緩められない",
+    "pace_level": 0.69,
+    "contesters": [
+     10,
+     4,
+     6,
+     13
+    ],
+    "leg_advantage": {
+     "逃げ": -1,
+     "先行": 0,
+     "差し": 2,
+     "追込": 1
+    },
+    "formation_head": [
+     10,
+     4,
+     6,
+     13
+    ],
+    "formation_last_corner": [
+     6,
+     4,
+     12,
+     3,
+     1
+    ],
+    "bias": "好位差しと短距離での位置取り修正が有利",
+    "phase_flow": {
+     "early": "⑩が主張するが④⑥も近く、前半から先行勢は脚を使う。",
+     "mid": "隊列が締まり、⑥は好位で粘り、⑫③が中団から追走力を使って進出する。",
+     "late": "先導役の余力が鈍るところを⑥⑫③が決め手で捕らえる。",
+     "result": "⑥と⑫が中心、③は内で距離短縮に対応できれば圏内へ。"
+    },
+    "risers": [
+     1,
+     3,
+     6,
+     7,
+     8,
+     12,
+     15
+    ],
+    "sinkers": [
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "id": "γ",
+    "name": "先行総崩れ・外差し",
+    "tier": "伏線",
+    "prob": 0.22,
+    "trigger": "⑩④⑥⑬が初角から譲らず、速い流れで前が消耗する",
+    "pace_level": 0.84,
+    "contesters": [
+     10,
+     4,
+     6,
+     13
+    ],
+    "leg_advantage": {
+     "逃げ": -2,
+     "先行": -1,
+     "差し": 1,
+     "追込": 2
+    },
+    "formation_head": [
+     10,
+     4,
+     6,
+     13
+    ],
+    "formation_last_corner": [
+     12,
+     3,
+     1,
+     7,
+     15
+    ],
+    "bias": "前の消耗で中団後方の差しが届く",
+    "phase_flow": {
+     "early": "4頭の先行勢が主張して隊列が縦長になり、後方勢は折り合いに専念する。",
+     "mid": "先行勢の追走力が削られ、⑫③①⑦が外から差を詰める。",
+     "late": "前が止まれば⑫の短距離実績と③の地力が生きる。",
+     "result": "⑫③を中心に差し勢が浮上、⑥は好位からの踏ん張りが鍵。"
+    },
+    "risers": [
+     1,
+     2,
+     3,
+     6,
+     7,
+     8,
+     12,
+     14,
+     15
+    ],
+    "sinkers": [
+     4,
+     10,
+     13
+    ]
+   }
+  ],
+  "shape_note": "",
+  "formation_note": "",
+  "bias_note": "",
+  "counter_conditions": "⑩が楽に先頭ならαを維持。④または⑥が初角までに並びかければβ、4頭が譲らず前半から速くなればγへ付け替える。",
+  "transmission": "",
+  "box_reverse": [
+   {
+    "pattern": "α",
+    "tier": "本線",
+    "center": [
+     6
+    ],
+    "inside": [
+     3,
+     4,
+     10,
+     12
+    ],
+    "spot": [
+     1,
+     5,
+     7,
+     8,
+     11,
+     13
+    ],
+    "drop": [
+     2,
+     9,
+     14,
+     15
+    ]
+   },
+   {
+    "pattern": "β",
+    "tier": "対抗",
+    "center": [
+     6,
+     12
+    ],
+    "inside": [
+     1,
+     3,
+     7,
+     8,
+     15
+    ],
+    "spot": [
+     2,
+     4,
+     5,
+     11,
+     14
+    ],
+    "drop": [
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "pattern": "γ",
+    "tier": "伏線",
+    "center": [
+     3,
+     12
+    ],
+    "inside": [
+     1,
+     2,
+     6,
+     7,
+     8,
+     14,
+     15
+    ],
+    "spot": [
+     5,
+     9,
+     11
+    ],
+    "drop": [
+     4,
+     10,
+     13
+    ]
+   }
+  ]
+ },
+ "rank_verification_contract": "",
+ "rank": [
+  {
+   "no": 6,
+   "gate": "4",
+   "horse": "レッドベルダンス",
+   "jockey": "嶋田 純次",
+   "trainer": "手塚 貴久",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 1,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "◎",
+    "β": "◎",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-07-04 福島1700mで3着、1角3番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-07-04 福島1700mで3着、1角3番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2026-07-04 福島1700mで3着、1角3番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 12,
+   "gate": "7",
+   "horse": "タケルハーロック",
+   "jockey": "石田 拓郎",
+   "trainer": "高柳 大輔",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 2,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "○",
+    "β": "◎",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-06-27 福島1150mで7着、1角14番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-06-27 福島1150mで7着、1角14番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2026-06-27 福島1150mで7着、1角14番手。 短距離化でも前受けまたは近走内容が比較材料になる。"
+    }
+   ],
+   "cons": []
+  },
+  {
+   "no": 8,
+   "gate": "5",
+   "horse": "リラゲイル",
+   "jockey": "原 優介",
+   "trainer": "矢野 英一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 3,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 15,
+   "gate": "8",
+   "horse": "モリノアミーゴ",
+   "jockey": "大野 拓弥",
+   "trainer": "鈴木 伸尋",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 4,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": []
+  },
+  {
+   "no": 1,
+   "gate": "1",
+   "horse": "ピコシー",
+   "jockey": "津村 明秀",
+   "trainer": "奥村 武",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 5,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-04-19 中山1800mで6着、1角6番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2026-04-19 中山1800mで6着、1角6番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "gate": "2",
+   "horse": "グロスビーク",
+   "jockey": "戸崎 圭太",
+   "trainer": "田中 博康",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 6,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "α": "○",
+    "β": "○",
+    "γ": "◎"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-05-17 東京1600mで13着、1角5番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]前走は2026-05-17 東京1600mで13着、1角5番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "gate": "4",
+   "horse": "ライジンマル",
+   "jockey": "木幡 初也",
+   "trainer": "竹内 正洋",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 7,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {
+    "β": "○",
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-06-21 東京1400mで10着、1角8番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-06-21 東京1400mで10着、1角8番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "gate": "8",
+   "horse": "オーケーマヒナ",
+   "jockey": "石川 裕紀人",
+   "trainer": "相沢 郁",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 8,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-06-27 福島1700mで5着、1角1番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-06-27 福島1700mで5着、1角1番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "gate": "3",
+   "horse": "ウインハルモニア",
+   "jockey": "松岡 正海",
+   "trainer": "柄崎 将寿",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 9,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "gate": "6",
+   "horse": "ホープエトワール",
+   "jockey": "木幡 巧也",
+   "trainer": "天間 昭一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 10,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": null,
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]近走データがseedにない。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "gate": "2",
+   "horse": "グラスブランシュ",
+   "jockey": "杉原 誠人",
+   "trainer": "松山 将樹",
+   "jockey_change": "継続",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 11,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "追",
+   "pattern_fit": {
+    "γ": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-06-27 福島1150mで13着、1角16番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-06-27 福島1150mで13着、1角16番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2026-06-27 福島1150mで13着、1角16番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]前走は2026-06-27 福島1150mで13着、1角16番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "gate": "3",
+   "horse": "マナエトレ",
+   "jockey": "石橋 脩",
+   "trainer": "清水 久詞",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 12,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-04-12 阪神1800mで11着、1角3番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-04-12 阪神1800mで11着、1角3番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2026-04-12 阪神1800mで11着、1角3番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]前走は2026-04-12 阪神1800mで11着、1角3番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "gate": "7",
+   "horse": "フリーマントル",
+   "jockey": "菊沢 一樹",
+   "trainer": "斎藤 誠",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 13,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2025-05-25 京都1900mで5着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2025-05-25 京都1900mで5着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2025-05-25 京都1900mで5着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]前走は2025-05-25 京都1900mで5着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "gate": "6",
+   "horse": "ヴァルドルチャ",
+   "jockey": "小崎 綾也",
+   "trainer": "田中 博康",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 14,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "先",
+   "pattern_fit": {
+    "α": "○"
+   },
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2025-09-21 中山1600mで9着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2025-09-21 中山1600mで9着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2025-09-21 中山1600mで9着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]前走は2025-09-21 中山1600mで9着、1角2番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "gate": "5",
+   "horse": "サヴァビアン",
+   "jockey": "野中 悠太郎",
+   "trainer": "新開 幸一",
+   "jockey_change": "乗替",
+   "intent": "→",
+   "mark": "—",
+   "rank_order": 15,
+   "win_prob": 0.0,
+   "place_prob": 0.0,
+   "leg_type": "差",
+   "pattern_fit": {},
+   "pace_sensitivity": "",
+   "pros": [],
+   "cons": [
+    {
+     "tag": "A",
+     "note": "[A]前走は2026-06-20 阪神1600mで8着、1角4番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "B",
+     "note": "[B]前走は2026-06-20 阪神1600mで8着、1角4番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "D",
+     "note": "[D]前走は2026-06-20 阪神1600mで8着、1角4番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    },
+    {
+     "tag": "I",
+     "note": "[I]前走は2026-06-20 阪神1600mで8着、1角4番手。 今回1150mへの適性または近走内容の裏づけが薄い。"
+    }
+   ]
+  }
+ ],
+ "data_confidence": [],
+ "reinforcement_requests": [],
+ "obs_coverage": []
+}

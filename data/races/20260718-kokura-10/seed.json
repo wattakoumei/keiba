@@ -1,0 +1,26 @@
+{
+  "race_id": "202607181010",
+  "source": "jra",
+  "n": 12,
+  "surface": "ダ",
+  "distance": 1700,
+  "headcount": 12,
+  "draw_fixed": true,
+  "race_class": "3歳以上2勝クラス",
+  "race_class_rank": 3,
+  "race_class_label": "2勝クラス",
+  "horses": [
+    {"no":1,"waku":1,"name":"コスモストーム","sex_age":"牡4/栗","weight":"58.0","jockey":"秋山 稔樹","trainer":"北出 成人","sire":"デクラレーションオブウォー","damsire":"キングカメハメハ","style":"差","ten_speed":"遅","agari_best":35.7,"recent":[{"first_corner":6,"field":16,"agari":38.3,"date":"2026-06-28","venue":"小倉","race":"西部日刊スポ","jockey":"秋山 稔樹","dist":1700,"time":"1:45.2","body_weight":510,"pos":3}]},
+    {"no":2,"waku":2,"name":"ワイドクリーガー","sex_age":"牡4/鹿","weight":"58.0","jockey":"団野 大成","trainer":"奥村 豊","sire":"サトノクラウン","damsire":"マツリダゴッホ","style":"先","ten_speed":"中","agari_best":36.4,"recent":[{"first_corner":2,"field":8,"agari":37.4,"date":"2026-05-17","venue":"京都","race":"2勝クラス","jockey":"高杉 吏麒","dist":1900,"time":"1:58.5","body_weight":478,"pos":5}]},
+    {"no":3,"waku":3,"name":"メイショウザンゲツ","sex_age":"牝5/黒鹿","weight":"56.0","jockey":"菱田 裕二","trainer":"鈴木 孝志","sire":"ダノンレジェンド","damsire":"アイルハヴアナザー","style":"先","ten_speed":"中","agari_best":37.0,"recent":[{"first_corner":4,"field":16,"agari":39.4,"date":"2025-12-27","venue":"阪神","race":"2勝クラス","jockey":"和田 竜二","dist":1400,"time":"1:25.4","body_weight":454,"pos":14}]},
+    {"no":4,"waku":4,"name":"ユーヴェリア","sex_age":"牝5/鹿","weight":"56.0","jockey":"国分 恭介","trainer":"笹田 和秀","sire":"オルフェーヴル","damsire":"ファルブラヴ","style":"追","ten_speed":"遅","agari_best":36.2,"recent":[{"first_corner":1,"field":16,"agari":39.3,"date":"2026-06-06","venue":"阪神","race":"1勝クラス","jockey":null,"dist":1400,"time":"1:26.0","body_weight":444,"pos":11}]},
+    {"no":5,"waku":5,"name":"タマモジャスミン","sex_age":"牝4/鹿","weight":"56.0","jockey":"田口 貫太","trainer":"大橋 勇樹","sire":"タワーオブロンドン","damsire":"ゴールドアリュール","style":"差","ten_speed":"中","agari_best":36.3,"recent":[{"first_corner":5,"field":16,"agari":36.3,"date":"2026-07-05","venue":"小倉","race":"九スポ杯","jockey":"田口 貫太","dist":1700,"time":"1:43.8","body_weight":510,"pos":6}]},
+    {"no":6,"waku":5,"name":"タマモナポリ","sex_age":"牝5/黒鹿","weight":"56.0","jockey":"酒井 学","trainer":"河嶋 宏樹","sire":"カレンブラックヒル","damsire":"ワイルドラッシュ","style":"先","ten_speed":"中","agari_best":36.0,"recent":[{"first_corner":2,"field":16,"agari":36.0,"date":"2026-07-05","venue":"小倉","race":"九スポ杯","jockey":"酒井 学","dist":1700,"time":"1:43.1","body_weight":468,"pos":2}]},
+    {"no":7,"waku":6,"name":"ワンダーカモン","sex_age":"牡5/黒鹿","weight":"58.0","jockey":"M.デムーロ","trainer":"吉村 圭司","sire":"ワールドエース","damsire":"サウスヴィグラス","style":"追","ten_speed":"遅","agari_best":35.4,"recent":[{"first_corner":13,"field":16,"agari":35.4,"date":"2026-05-30","venue":"京都","race":"2勝クラス","jockey":"川又 賢治","dist":1200,"time":"1:11.8","body_weight":486,"pos":8}]},
+    {"no":8,"waku":6,"name":"ホウショウマリス","sex_age":"牝4/栗","weight":"56.0","jockey":"幸 英明","trainer":"井上 智史","sire":"ドレフォン","damsire":"ゴールドアリュール","style":"先","ten_speed":"中","agari_best":36.0,"recent":[{"first_corner":3,"field":16,"agari":36.0,"date":"2026-07-05","venue":"小倉","race":"九スポ杯","jockey":"幸 英明","dist":1700,"time":"1:43.2","body_weight":464,"pos":4}]},
+    {"no":9,"waku":7,"name":"ナリタヒカリ","sex_age":"牝4/黒鹿","weight":"56.0","jockey":"太宰 啓介","trainer":"荒川 義之","sire":"ルヴァンスレーヴ","damsire":"ナリタセンチュリー","style":"差","ten_speed":"中","agari_best":36.9,"recent":[{"first_corner":7,"field":13,"agari":36.9,"date":"2026-03-15","venue":"阪神","race":"牝2勝クラス","jockey":"太宰 啓介","dist":1400,"time":"1:25.8","body_weight":432,"pos":11}]},
+    {"no":10,"waku":7,"name":"シュヴァルツリーベ","sex_age":"牝6/黒鹿","weight":"56.0","jockey":"藤懸 貴志","trainer":"羽月 友彦","sire":"ドレフォン","damsire":"スパイキュール","style":"差","ten_speed":"中","agari_best":35.9,"recent":[{"first_corner":13,"field":16,"agari":35.9,"date":"2026-07-05","venue":"小倉","race":"九スポ杯","jockey":"藤懸 貴志","dist":1700,"time":"1:44.1","body_weight":466,"pos":8}]},
+    {"no":11,"waku":8,"name":"ハピアーザンエバー","sex_age":"牡5/鹿","weight":"58.0","jockey":"森田 誠也","trainer":"羽月 友彦","sire":"リオンディーズ","damsire":"ハービンジャー","style":"追","ten_speed":"遅","agari_best":34.6,"recent":[{"first_corner":13,"field":15,"agari":35.4,"date":"2026-05-16","venue":"京都","race":"2勝クラス","jockey":null,"dist":1200,"time":"1:12.5","body_weight":466,"pos":11}]},
+    {"no":12,"waku":8,"name":"タガノヘラクレス","sex_age":"牡5/鹿","weight":"58.0","jockey":"高杉 吏麒","trainer":"千田 輝彦","sire":"シルバーステート","damsire":"エンパイアメーカー","style":"先","ten_speed":"速","agari_best":37.6,"recent":[{"first_corner":2,"field":14,"agari":39.2,"date":"2026-04-26","venue":"京都","race":"2勝クラス","jockey":"岩田 望来","dist":1800,"time":"1:52.2","body_weight":508,"pos":5}]}
+  ]
+}

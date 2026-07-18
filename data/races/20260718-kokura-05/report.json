@@ -1,0 +1,558 @@
+{
+  "schema_version": "1.0",
+  "race_id": "20260718-kokura-05",
+  "race_name": "メイクデビュー小倉",
+  "edition": "縮退版",
+  "race_no": 5,
+  "grade": "",
+  "date": "2026-07-18",
+  "course": {
+    "track": "小倉",
+    "surface": "芝",
+    "distance": 1200,
+    "direction": "右"
+  },
+  "conditions": "2歳新馬",
+  "field_size": 7,
+  "model_version": "5.0",
+  "used_observations": [
+    "C",
+    "E",
+    "F",
+    "I",
+    "K",
+    "M"
+  ],
+  "header_notes": [
+    "市場ゼロ(I1): 市場情報・他人の予想は不使用。並びは馬の内在情報のみ。",
+    "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
+    "縮退版: 公式出走表と静的カタログのみ。追い切り・ゲート・育成情報は未取得で、完成度比較の確度は低い。",
+    "観点欠落(H): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。",
+    "新馬プロファイル(v4.6): 率は C/M/F 組替の理論値で新馬コーパス較正ゼロ＝参考精度は通常より更に低い。"
+  ],
+  "pivot": "新馬で脚質と完成度が未確認。発走直後の出脚が最大の分岐点。",
+  "day_board": {
+    "reference_races": [],
+    "reference_note": "同場の先行・差し傾向を発走前に確認。",
+    "observation_blanks": "出脚 / 内外バイアス / 決まり手 / 伸び位置",
+    "going": [
+      {
+        "item": "馬場状態",
+        "value": "当日確認",
+        "read": "芝の時計と内外の伸びを確認"
+      }
+    ],
+    "paddock_watch": [
+      {
+        "item": "全馬",
+        "watch": "テンションと歩様、返し馬での出脚"
+      }
+    ],
+    "other_unknowns": [
+      "馬体重",
+      "ゲートでの落ち着き"
+    ]
+  },
+  "pace": {
+    "verification_contract": "展開は先頭候補群と最終コーナーの前方隊列で検証する。",
+    "pace_factors": [
+      {
+        "factor": "先行勢の数と質",
+        "reads": "実戦脚質が無く、血統と枠からの推定に留める。",
+        "day_check": "返し馬と発走直後の出脚"
+      },
+      {
+        "factor": "枠の効き",
+        "reads": "確定枠は位置取りの選択肢に反映済み。",
+        "day_check": "内外の芝の伸び"
+      },
+      {
+        "factor": "コース形状",
+        "reads": "小倉1200は位置取り、福島1800は小回りでの持続力を重視。",
+        "day_check": "前半芝レースの決まり手"
+      },
+      {
+        "factor": "当日で動く点",
+        "reads": "馬場と気配でパターンのティアを入れ替える。",
+        "day_check": "馬場状態・馬体重・パドック"
+      }
+    ],
+    "leg_table": [
+      {
+        "gate": "1",
+        "no": 1,
+        "horse": "ウインガラハッド",
+        "jockey": "松山 弘平",
+        "trainer": "宮 徹",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "2",
+        "no": 2,
+        "horse": "タナコクシテンホウ",
+        "jockey": "幸 英明",
+        "trainer": "大根田 裕之",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "3",
+        "no": 3,
+        "horse": "ハマナスノサクコロ",
+        "jockey": "松若 風馬",
+        "trainer": "武 英智",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "4",
+        "no": 4,
+        "horse": "キシュウマミー",
+        "jockey": "国分 恭介",
+        "trainer": "安達 昭夫",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "5",
+        "no": 5,
+        "horse": "ナムラメアリー",
+        "jockey": "田口 貫太",
+        "trainer": "鈴木 孝志",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "6",
+        "no": 6,
+        "horse": "マルモタワー",
+        "jockey": "富田 暁",
+        "trainer": "中尾 秀正",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "7",
+        "no": 7,
+        "horse": "リヴィエラヴィル",
+        "jockey": null,
+        "trainer": "坂口 智康",
+        "leg_type": null,
+        "recent_pos": "",
+        "expected_pos": ""
+      }
+    ],
+    "patterns": [
+      {
+        "id": "α",
+        "name": "出脚平均・好位持続",
+        "tier": "本線",
+        "prob": 0.42,
+        "trigger": "先行候補の出脚が極端に偏らず、好位勢が隊列を作る",
+        "pace_level": 0.48,
+        "contesters": [
+          1,
+          5,
+          6
+        ],
+        "leg_advantage": {
+          "逃げ": 1,
+          "先行": 1,
+          "差し": 0,
+          "追込": -1
+        },
+        "formation_head": [
+          1,
+          5,
+          6
+        ],
+        "formation_last_corner": [
+          1,
+          5,
+          6,
+          2,
+          3,
+          4
+        ],
+        "bias": "前寄り",
+        "phase_flow": {
+          "early": "小倉芝1200の短距離で位置取りが早く決まりやすい。出脚の見極めで前列が決まる。",
+          "mid": "好位勢が無理なく追走し、隊列は大きく崩れない。",
+          "late": "前で運んだ馬の余力と血統由来の持続力が問われる。",
+          "result": "好位から運べた完成度上位が浮上する。"
+        },
+        "risers": [
+          1,
+          5,
+          6
+        ],
+        "sinkers": []
+      },
+      {
+        "id": "β",
+        "name": "主張重なり・持続力勝負",
+        "tier": "対抗",
+        "prob": 0.37,
+        "trigger": "複数馬が行き脚を見せ、前列で位置取り争いが生じる",
+        "pace_level": 0.62,
+        "contesters": [
+          1,
+          5,
+          6
+        ],
+        "leg_advantage": {
+          "逃げ": -1,
+          "先行": 0,
+          "差し": 1,
+          "追込": 0
+        },
+        "formation_head": [
+          1,
+          5,
+          6
+        ],
+        "formation_last_corner": [
+          1,
+          5,
+          2,
+          3,
+          4,
+          7
+        ],
+        "bias": "持続力寄り",
+        "phase_flow": {
+          "early": "出脚の主張が重なり、前列の並びが固まりにくい。",
+          "mid": "前で運ぶ馬が早めに脚を使い、追走力の差が出る。",
+          "late": "直線入口で余力を残した馬が持続力を生かす。",
+          "result": "好位差しと芝中距離向きの馬が浮上する。"
+        },
+        "risers": [
+          1,
+          5,
+          6
+        ],
+        "sinkers": []
+      },
+      {
+        "id": "γ",
+        "name": "出遅れ混在・隊列入替",
+        "tier": "伏線",
+        "prob": 0.21,
+        "trigger": "スタート直後の反応差で想定外の馬が前に入り、隊列が入れ替わる",
+        "pace_level": 0.32,
+        "contesters": [
+          1,
+          5,
+          6
+        ],
+        "leg_advantage": {
+          "逃げ": 1,
+          "先行": 1,
+          "差し": -1,
+          "追込": -1
+        },
+        "formation_head": [
+          1,
+          5
+        ],
+        "formation_last_corner": [
+          1,
+          5,
+          2,
+          3,
+          4
+        ],
+        "bias": "位置取り依存",
+        "phase_flow": {
+          "early": "新馬特有の出遅れと行きたがりで、想定した脚質の並びが崩れる。",
+          "mid": "前を取れた馬が楽に運び、後方勢は進路待ちになる。",
+          "late": "短い直線または小回りの出口で位置差が残る。",
+          "result": "血統評価よりスタートと前受けの成否が優先される。"
+        },
+        "risers": [
+          1,
+          5,
+          6
+        ],
+        "sinkers": []
+      }
+    ],
+    "shape_note": "新馬のため脚質推定は低確度。単騎逃げを前提にしない。",
+    "formation_note": "先頭候補群のみを粗く置き、発走後の出脚で確認する。",
+    "bias_note": "当日馬場は未反映。",
+    "counter_conditions": "返し馬・ゲート入り・発走直後の二の脚で先行候補の出方が明確なら、該当パターンを上げる。",
+    "transmission": "本線は好位持続、対抗は前列の主張が重なる持続力戦。",
+    "box_reverse": [
+      {
+        "pattern": "α",
+        "tier": "本線",
+        "center": [
+          1,
+          5,
+          6
+        ],
+        "inside": [],
+        "spot": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "drop": []
+      },
+      {
+        "pattern": "β",
+        "tier": "対抗",
+        "center": [],
+        "inside": [
+          1,
+          5,
+          6
+        ],
+        "spot": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "drop": []
+      },
+      {
+        "pattern": "γ",
+        "tier": "伏線",
+        "center": [
+          1,
+          5,
+          6
+        ],
+        "inside": [],
+        "spot": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "drop": []
+      }
+    ]
+  },
+  "rank_verification_contract": "着順予想は印と行順、展開予想はパターン別の隊列・脚質有利で別々に検証する。",
+  "rank": [
+    {
+      "no": 1,
+      "gate": "1",
+      "horse": "ウインガラハッド",
+      "jockey": "松山 弘平",
+      "trainer": "宮 徹",
+      "jockey_change": "乗替",
+      "intent": "↑",
+      "mark": "◎",
+      "rank_order": 1,
+      "win_prob": 0.1829,
+      "place_prob": 0.5218,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "好位を取れればα・γで浮上。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "父ビッグアーサーの芝短距離向きと内枠を評価。"
+        },
+        {
+          "tag": "K",
+          "note": "起用の経験値を好材料として扱うが、新馬比較の確度は限定的。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "gate": "5",
+      "horse": "ナムラメアリー",
+      "jockey": "田口 貫太",
+      "trainer": "鈴木 孝志",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "◯",
+      "rank_order": 2,
+      "win_prob": 0.177,
+      "place_prob": 0.5097,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "好位を取れればα・γで浮上。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "父ダノンスマッシュの短距離適性を評価。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "gate": "6",
+      "horse": "マルモタワー",
+      "jockey": "富田 暁",
+      "trainer": "中尾 秀正",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "▲",
+      "rank_order": 3,
+      "win_prob": 0.177,
+      "place_prob": 0.5097,
+      "leg_type": null,
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "好位を取れればα・γで浮上。",
+      "pros": [
+        {
+          "tag": "C",
+          "note": "父タワーオブロンドンの短距離スピードを評価。"
+        }
+      ],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "gate": "7",
+      "horse": "リヴィエラヴィル",
+      "jockey": null,
+      "trainer": "坂口 智康",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.1293,
+      "place_prob": 0.4,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "βで前列が消耗すれば相対的に浮上。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "gate": "2",
+      "horse": "タナコクシテンホウ",
+      "jockey": "幸 英明",
+      "trainer": "大根田 裕之",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 5,
+      "win_prob": 0.1113,
+      "place_prob": 0.3529,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "βで前列が消耗すれば相対的に浮上。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "gate": "4",
+      "horse": "キシュウマミー",
+      "jockey": "国分 恭介",
+      "trainer": "安達 昭夫",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 6,
+      "win_prob": 0.1113,
+      "place_prob": 0.3529,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "βで前列が消耗すれば相対的に浮上。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "gate": "3",
+      "horse": "ハマナスノサクコロ",
+      "jockey": "松若 風馬",
+      "trainer": "武 英智",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 7,
+      "win_prob": 0.1113,
+      "place_prob": 0.3529,
+      "leg_type": null,
+      "pattern_fit": {},
+      "pace_sensitivity": "βで前列が消耗すれば相対的に浮上。",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "I",
+          "note": "新馬で実戦の出脚・折り合い・完成度は未確認。"
+        }
+      ]
+    }
+  ],
+  "data_confidence": [
+    "公式出走表: 高",
+    "血統・コース形状: 中",
+    "追い切り・ゲート・当日気配: 未取得"
+  ],
+  "reinforcement_requests": [
+    "発走前の馬体重・パドック・馬場傾向で、展開ティアだけを再評価する。"
+  ],
+  "obs_coverage": [
+    {
+      "id": "H",
+      "label": "当日気配・関係者コメント",
+      "status": "未取得",
+      "fallback": "代替なし"
+    }
+  ],
+  "debut": true
+}

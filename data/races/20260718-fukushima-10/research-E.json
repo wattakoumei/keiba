@@ -1,0 +1,227 @@
+{
+  "point": "E",
+  "overall_confidence": "低",
+  "field_note": "JRA公式seedからの縮退。明確な速い先行は⑩、④⑥⑬が好位を争う構図で、短距離の先行争いは不確実。",
+  "legs": [
+    {
+      "no": 1,
+      "name": "ピコシー",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 2,
+      "name": "グラスブランシュ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 3,
+      "name": "グロスビーク",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 4,
+      "name": "マナエトレ",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "好位先行",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 5,
+      "name": "ウインハルモニア",
+      "style": "不明",
+      "ten_speed": "不明",
+      "expected_pos": "位置取り不明",
+      "confidence": "低",
+      "note": "近走データがなく位置取りは不明。"
+    },
+    {
+      "no": 6,
+      "name": "レッドベルダンス",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "好位先行",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 7,
+      "name": "ライジンマル",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 8,
+      "name": "リラゲイル",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 9,
+      "name": "サヴァビアン",
+      "style": "差",
+      "ten_speed": "遅",
+      "expected_pos": "中団",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 10,
+      "name": "ヴァルドルチャ",
+      "style": "先",
+      "ten_speed": "速",
+      "expected_pos": "ハナ候補",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 11,
+      "name": "ホープエトワール",
+      "style": "不明",
+      "ten_speed": "不明",
+      "expected_pos": "位置取り不明",
+      "confidence": "低",
+      "note": "近走データがなく位置取りは不明。"
+    },
+    {
+      "no": 12,
+      "name": "タケルハーロック",
+      "style": "差",
+      "ten_speed": "中",
+      "expected_pos": "中団",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 13,
+      "name": "フリーマントル",
+      "style": "先",
+      "ten_speed": "中",
+      "expected_pos": "好位先行",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 14,
+      "name": "オーケーマヒナ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    },
+    {
+      "no": 15,
+      "name": "モリノアミーゴ",
+      "style": "追",
+      "ten_speed": "遅",
+      "expected_pos": "後方",
+      "confidence": "低",
+      "note": "seedの脚質と近走1角位置を参照。"
+    }
+  ],
+  "lead_contenders": [
+    {
+      "no": 10,
+      "stance": "テン速の先行型で主張候補"
+    },
+    {
+      "no": 4,
+      "stance": "内枠の先行型で番手または主張候補"
+    },
+    {
+      "no": 6,
+      "stance": "近走で先行しており好位候補"
+    },
+    {
+      "no": 13,
+      "stance": "長期休養明けだが先行脚質"
+    }
+  ],
+  "draw": [
+    {
+      "no": 1,
+      "note": "内枠で位置を取りやすい"
+    },
+    {
+      "no": 2,
+      "note": "内枠で位置を取りやすい"
+    },
+    {
+      "no": 3,
+      "note": "内枠で位置を取りやすい"
+    },
+    {
+      "no": 4,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 5,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 6,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 7,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 8,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 9,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 10,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 11,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 12,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 13,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 14,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    },
+    {
+      "no": 15,
+      "note": "枠は確定、発馬と初角までの並びが鍵"
+    }
+  ],
+  "sources": [
+    "https://www.jra.go.jp/",
+    "seed.json"
+  ],
+  "note": "縮退資料のみ。"
+}

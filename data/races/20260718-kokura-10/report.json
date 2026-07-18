@@ -1,0 +1,835 @@
+{
+  "schema_version": "1.0",
+  "race_id": "20260718-kokura-10",
+  "race_name": "小倉10R",
+  "edition": "",
+  "race_no": 10,
+  "grade": "",
+  "date": "2026-07-18",
+  "course": {
+    "track": "小倉",
+    "surface": "ダ",
+    "distance": 1700,
+    "direction": "右"
+  },
+  "conditions": "3歳以上2勝クラス",
+  "field_size": 12,
+  "model_version": "5.0",
+  "used_observations": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "I"
+  ],
+  "header_notes": [
+    "市場ゼロ(I1): 馬券市場情報・他人の見解は不使用。並びは馬の内在情報のみ。",
+    "win_prob/place_prob は score_race.py の決定論出力＝較正先(市場)を持たない内在確率で偽の精度。並びは論理(rank_order)が主・率は参考列。",
+    "観点欠落(C,F,G,H,K,L): 率(win_prob/place_prob)は欠落観点を中立値で代替＝参考精度が低下。"
+  ],
+  "pivot": "12番が外枠から無理なく好位へ収まるか、それとも先行勢に圧力を掛けるか。",
+  "day_board": {
+    "reference_races": [],
+    "reference_note": "同日小倉のダート戦を発走前に確認し、前残りか差しかで展開ティアを更新する。",
+    "observation_blanks": "ペース層 / 内外バイアス / 決まり手 / 伸び位置",
+    "going": [
+      {
+        "item": "馬場状態",
+        "value": "",
+        "read": ""
+      }
+    ],
+    "paddock_watch": [],
+    "other_unknowns": []
+  },
+  "pace": {
+    "verification_contract": "先行勢の隊列、各パターンの脚質有利不利、段階フローを固定し、レース後に展開を独立して採点する。",
+    "pace_factors": [
+      {
+        "factor": "先行勢の数と質",
+        "reads": "2・6・8・12番が好位を求める。12番が楽に収まればα、競りが続けばβまたはγへ振れる。",
+        "day_check": "返し馬と発馬後の12番の出方"
+      },
+      {
+        "factor": "枠の効き",
+        "reads": "12番は外から位置を取りに行く負荷があり、内から運べる6番と2番は隊列次第で利を得る。",
+        "day_check": "外枠先行馬の当日序盤の出方"
+      },
+      {
+        "factor": "コース形状",
+        "reads": "小回りのダート1700mで好位の立ち回りが基本だが、先行争いが長引けば差しへ反転する。",
+        "day_check": "同日ダートの4角位置と決まり手"
+      },
+      {
+        "factor": "例年傾向（過去開催）",
+        "reads": "静的カタログを用いた縮退分析のため、この項目は当日参考レースで補強する。",
+        "day_check": "同日ダートの複数レース"
+      },
+      {
+        "factor": "当日で動く点",
+        "reads": "馬場と前半参考レースの決着型がαとβのティアを動かす。",
+        "day_check": "馬場状態と連続する決着脚質"
+      }
+    ],
+    "leg_table": [
+      {
+        "gate": "1",
+        "no": 1,
+        "horse": "コスモストーム",
+        "jockey": "秋山 稔樹",
+        "trainer": "北出 成人",
+        "leg_type": "差",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "2",
+        "no": 2,
+        "horse": "ワイドクリーガー",
+        "jockey": "団野 大成",
+        "trainer": "奥村 豊",
+        "leg_type": "先",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "3",
+        "no": 3,
+        "horse": "メイショウザンゲツ",
+        "jockey": "菱田 裕二",
+        "trainer": "鈴木 孝志",
+        "leg_type": "先",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "4",
+        "no": 4,
+        "horse": "ユーヴェリア",
+        "jockey": "国分 恭介",
+        "trainer": "笹田 和秀",
+        "leg_type": "追",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "5",
+        "no": 5,
+        "horse": "タマモジャスミン",
+        "jockey": "田口 貫太",
+        "trainer": "大橋 勇樹",
+        "leg_type": "差",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "5",
+        "no": 6,
+        "horse": "タマモナポリ",
+        "jockey": "酒井 学",
+        "trainer": "河嶋 宏樹",
+        "leg_type": "先",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "6",
+        "no": 7,
+        "horse": "ワンダーカモン",
+        "jockey": "M.デムーロ",
+        "trainer": "吉村 圭司",
+        "leg_type": "追",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "6",
+        "no": 8,
+        "horse": "ホウショウマリス",
+        "jockey": "幸 英明",
+        "trainer": "井上 智史",
+        "leg_type": "先",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "7",
+        "no": 9,
+        "horse": "ナリタヒカリ",
+        "jockey": "太宰 啓介",
+        "trainer": "荒川 義之",
+        "leg_type": "差",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "7",
+        "no": 10,
+        "horse": "シュヴァルツリーベ",
+        "jockey": "藤懸 貴志",
+        "trainer": "羽月 友彦",
+        "leg_type": "差",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "8",
+        "no": 11,
+        "horse": "ハピアーザンエバー",
+        "jockey": "森田 誠也",
+        "trainer": "羽月 友彦",
+        "leg_type": "追",
+        "recent_pos": "",
+        "expected_pos": ""
+      },
+      {
+        "gate": "8",
+        "no": 12,
+        "horse": "タガノヘラクレス",
+        "jockey": "高杉 吏麒",
+        "trainer": "千田 輝彦",
+        "leg_type": "先",
+        "recent_pos": "",
+        "expected_pos": ""
+      }
+    ],
+    "patterns": [
+      {
+        "id": "α",
+        "name": "好位持続",
+        "tier": "本線",
+        "prob": 0.5,
+        "trigger": "12番が外枠から無理なく先行し、2・6・8番が好位で折り合う",
+        "pace_level": 0.52,
+        "contesters": [
+          2,
+          6,
+          8,
+          12
+        ],
+        "leg_advantage": {
+          "逃げ": 0,
+          "先行": 2,
+          "差し": 0,
+          "追込": -2
+        },
+        "formation_head": [
+          12,
+          6,
+          2,
+          8
+        ],
+        "formation_last_corner": [
+          6,
+          12,
+          8,
+          2
+        ],
+        "bias": "小回りで好位勢が粘る",
+        "phase_flow": {
+          "early": "12番が行き脚で前へ、6番と2番が内外から好位を取る。",
+          "mid": "隊列が早く決まり、好位勢は余力を保って追走する。",
+          "late": "4角で6番と8番が前に残り、差し勢は位置差を詰める。",
+          "result": "好位持続型で内外の立ち回りが着順を分ける。"
+        },
+        "risers": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          12
+        ],
+        "sinkers": [
+          7,
+          11
+        ]
+      },
+      {
+        "id": "β",
+        "name": "先行圧力で差し浮上",
+        "tier": "対抗",
+        "prob": 0.32,
+        "trigger": "12番が主張し2・6・8番も位置を譲らず、前半から脚を使う",
+        "pace_level": 0.7,
+        "contesters": [
+          2,
+          6,
+          8,
+          12
+        ],
+        "leg_advantage": {
+          "逃げ": -2,
+          "先行": -1,
+          "差し": 2,
+          "追込": 1
+        },
+        "formation_head": [
+          12,
+          6,
+          2,
+          8
+        ],
+        "formation_last_corner": [
+          6,
+          8,
+          5,
+          1
+        ],
+        "bias": "前の消耗で中団差しが届く",
+        "phase_flow": {
+          "early": "外の12番を含む先行勢が位置を求め、序盤から隊列が締まる。",
+          "mid": "好位勢が追走で余力を削られ、中団勢が射程に入る。",
+          "late": "5番と1番が前との差を詰め、先行勢の一部が甘くなる。",
+          "result": "同舞台経験のある差し馬が好位勢へ迫る。"
+        },
+        "risers": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        "sinkers": [
+          2
+        ]
+      },
+      {
+        "id": "γ",
+        "name": "外枠先行の失速",
+        "tier": "伏線",
+        "prob": 0.18,
+        "trigger": "12番が行き切れず外で脚を使い、前の競りが長引く",
+        "pace_level": 0.78,
+        "contesters": [
+          2,
+          6,
+          8,
+          12
+        ],
+        "leg_advantage": {
+          "逃げ": -2,
+          "先行": -2,
+          "差し": 2,
+          "追込": 2
+        },
+        "formation_head": [
+          12,
+          2,
+          6,
+          8
+        ],
+        "formation_last_corner": [
+          6,
+          8,
+          5,
+          1
+        ],
+        "bias": "外から動く差しが浮上",
+        "phase_flow": {
+          "early": "12番が外から押して前へ出るため、先行勢の負荷が増す。",
+          "mid": "前の各馬が早めに脚を使い、中団後方にも余力が残る。",
+          "late": "1番、5番、10番が外から末脚を使い、前が止まる。",
+          "result": "前半の先行争いが強いほど差し優勢へ振れる。"
+        },
+        "risers": [
+          1,
+          5,
+          7,
+          10,
+          11
+        ],
+        "sinkers": [
+          12
+        ]
+      }
+    ],
+    "shape_note": "好位勢が多く、12番の出方で持続戦と差し浮上の両方を残す。",
+    "formation_note": "αでは12番が先導候補、6・2・8番が続き、最終コーナーは6・12・8番を中心に見る。",
+    "bias_note": "当日未確認。小回りの好位優勢を基準に、同日ダートの複数決着で補正する。",
+    "counter_conditions": "同日ダートで差し決着が続けばβまたはγを上げ、前残りが続けばαを維持する。",
+    "transmission": "αなら6番と8番の好位持続を主に、βまたはγなら1番と5番の差し上昇を主に評価する。",
+    "box_reverse": [
+      {
+        "pattern": "α",
+        "tier": "本線",
+        "center": [
+          6,
+          8,
+          12
+        ],
+        "inside": [
+          1,
+          2,
+          5
+        ],
+        "spot": [
+          10
+        ],
+        "drop": [
+          7,
+          11
+        ]
+      },
+      {
+        "pattern": "β",
+        "tier": "対抗",
+        "center": [
+          1,
+          5
+        ],
+        "inside": [
+          6,
+          7,
+          8,
+          10
+        ],
+        "spot": [
+          12
+        ],
+        "drop": [
+          2
+        ]
+      },
+      {
+        "pattern": "γ",
+        "tier": "伏線",
+        "center": [
+          1,
+          5,
+          10
+        ],
+        "inside": [
+          7,
+          11
+        ],
+        "spot": [
+          6,
+          8
+        ],
+        "drop": [
+          12
+        ]
+      }
+    ]
+  },
+  "rank_verification_contract": "並び、展開列、展開感度、好材料と懸念点を固定し、レース後に着順と実現パターンを別々に採点する。",
+  "rank": [
+    {
+      "no": 6,
+      "gate": "5",
+      "horse": "タマモナポリ",
+      "jockey": "酒井 学",
+      "trainer": "河嶋 宏樹",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "◎",
+      "rank_order": 1,
+      "win_prob": 0.1663,
+      "place_prob": 0.4478,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○"
+      },
+      "pace_sensitivity": "αで2番手から余力を保てれば中心。先行圧力が強いβでも好位から圏内を残す。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 同舞台前走2着・1分43秒台前半"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 同舞台で2番手から2着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉1700mで前走2着"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 1,
+      "gate": "1",
+      "horse": "コスモストーム",
+      "jockey": "秋山 稔樹",
+      "trainer": "北出 成人",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "▲",
+      "rank_order": 2,
+      "win_prob": 0.1479,
+      "place_prob": 0.4133,
+      "leg_type": "差",
+      "pattern_fit": {
+        "α": "○",
+        "β": "◎",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "αでも内枠から中団で運べ、β・γなら同舞台の差し経験を生かして浮上する。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 同舞台前走3着"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 小倉1700mで3着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉1700mで3着"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 8,
+      "gate": "6",
+      "horse": "ホウショウマリス",
+      "jockey": "幸 英明",
+      "trainer": "井上 智史",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "◯",
+      "rank_order": 3,
+      "win_prob": 0.1663,
+      "place_prob": 0.4478,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "◎",
+        "β": "○"
+      },
+      "pace_sensitivity": "αで6番と同じ好位圏に入る相手筆頭。前が厳しくなっても小倉1700mの実績で踏みとどまる。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 同舞台前走4着・前々走も1700mで3着"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 同舞台で3番手から4着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉1700mで4着"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 5,
+      "gate": "5",
+      "horse": "タマモジャスミン",
+      "jockey": "田口 貫太",
+      "trainer": "大橋 勇樹",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "△",
+      "rank_order": 4,
+      "win_prob": 0.1008,
+      "place_prob": 0.3085,
+      "leg_type": "差",
+      "pattern_fit": {
+        "α": "○",
+        "β": "◎",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "αでは位置差が残るが、β・γで前の消耗が出れば同舞台の走破経験から上昇する。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 同舞台を1分43秒台で走破"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 同舞台で中団から6着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉1700mの好走歴"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 12,
+      "gate": "8",
+      "horse": "タガノヘラクレス",
+      "jockey": "高杉 吏麒",
+      "trainer": "千田 輝彦",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "×",
+      "rank_order": 5,
+      "win_prob": 0.0753,
+      "place_prob": 0.2482,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "◎"
+      },
+      "pace_sensitivity": "外から無理なく先行できればαで残るが、位置取りに脚を使うγでは下げる。",
+      "pros": [
+        {
+          "tag": "A",
+          "note": "[A] 1800m先行歴"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 先行して5着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 1800mで先行歴"
+        }
+      ],
+      "cons": []
+    },
+    {
+      "no": 2,
+      "gate": "2",
+      "horse": "ワイドクリーガー",
+      "jockey": "団野 大成",
+      "trainer": "奥村 豊",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "注",
+      "rank_order": 6,
+      "win_prob": 0.0616,
+      "place_prob": 0.2077,
+      "leg_type": "先",
+      "pattern_fit": {
+        "α": "○"
+      },
+      "pace_sensitivity": "αで内から好位を取れれば粘り込み。先行圧力が強まるβでは下げる。",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 7,
+      "gate": "6",
+      "horse": "ワンダーカモン",
+      "jockey": "M.デムーロ",
+      "trainer": "吉村 圭司",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 7,
+      "win_prob": 0.0522,
+      "place_prob": 0.1682,
+      "leg_type": "追",
+      "pattern_fit": {
+        "β": "○",
+        "γ": "○"
+      },
+      "pace_sensitivity": "",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 10,
+      "gate": "7",
+      "horse": "シュヴァルツリーベ",
+      "jockey": "藤懸 貴志",
+      "trainer": "羽月 友彦",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 8,
+      "win_prob": 0.0717,
+      "place_prob": 0.2301,
+      "leg_type": "差",
+      "pattern_fit": {
+        "β": "○",
+        "γ": "◎"
+      },
+      "pace_sensitivity": "",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 4,
+      "gate": "4",
+      "horse": "ユーヴェリア",
+      "jockey": "国分 恭介",
+      "trainer": "笹田 和秀",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 9,
+      "win_prob": 0.0354,
+      "place_prob": 0.1179,
+      "leg_type": "追",
+      "pattern_fit": {},
+      "pace_sensitivity": "",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 前走11着"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 前走11着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 1700m実績がseedで薄い"
+        },
+        {
+          "tag": "I",
+          "note": "[I] 前走大敗"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "gate": "8",
+      "horse": "ハピアーザンエバー",
+      "jockey": "森田 誠也",
+      "trainer": "羽月 友彦",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 10,
+      "win_prob": 0.048,
+      "place_prob": 0.1558,
+      "leg_type": "追",
+      "pattern_fit": {
+        "γ": "○"
+      },
+      "pace_sensitivity": "",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走は距離短縮戦で大敗"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 前走11着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 1700m実績がseedで薄い"
+        },
+        {
+          "tag": "I",
+          "note": "[I] 前走大敗"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "gate": "3",
+      "horse": "メイショウザンゲツ",
+      "jockey": "菱田 裕二",
+      "trainer": "鈴木 孝志",
+      "jockey_change": "乗替",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 11,
+      "win_prob": 0.0361,
+      "place_prob": 0.1252,
+      "leg_type": "先",
+      "pattern_fit": {},
+      "pace_sensitivity": "",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 前走14着で間隔も長い"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 前走14着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 1400m中心"
+        },
+        {
+          "tag": "I",
+          "note": "[I] 前走大敗と休み明け"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "gate": "7",
+      "horse": "ナリタヒカリ",
+      "jockey": "太宰 啓介",
+      "trainer": "荒川 義之",
+      "jockey_change": "継続",
+      "intent": "→",
+      "mark": "—",
+      "rank_order": 12,
+      "win_prob": 0.0384,
+      "place_prob": 0.1293,
+      "leg_type": "差",
+      "pattern_fit": {},
+      "pace_sensitivity": "",
+      "pros": [],
+      "cons": [
+        {
+          "tag": "A",
+          "note": "[A] 近走大敗後の休養明け"
+        },
+        {
+          "tag": "B",
+          "note": "[B] 前走11着"
+        },
+        {
+          "tag": "D",
+          "note": "[D] 小倉1700mで近走着外"
+        },
+        {
+          "tag": "I",
+          "note": "[I] 前走大敗と休み明け"
+        }
+      ]
+    }
+  ],
+  "data_confidence": [],
+  "reinforcement_requests": [],
+  "obs_coverage": [
+    {
+      "id": "C",
+      "label": "血統",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "F",
+      "label": "調教・仕上げ",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "G",
+      "label": "ローテ・馬体",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "H",
+      "label": "当日気配・関係者コメント",
+      "status": "未取得",
+      "fallback": "代替なし"
+    },
+    {
+      "id": "K",
+      "label": "騎手・乗替",
+      "status": "縮退",
+      "fallback": "seedの近走・決定論ツールで代替（読みの確度は低下）"
+    },
+    {
+      "id": "L",
+      "label": "条件実績・リピーター",
+      "status": "未取得",
+      "fallback": "代替なし"
+    }
+  ]
+}
