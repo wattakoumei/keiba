@@ -1,0 +1,18 @@
+{
+  "date": "20260719", "venue": "hakodate", "place": "02", "as_of": "2026-07-18T00:00:00+09:00", "odds_available": false,
+  "note": "前日事前選別。公式JRA出馬表の番組情報を使用。単勝オッズは未取得のため、当日発売後に団子度と市場ズレを更新する。",
+  "races": [
+    {"r":9,"race_id":"202607190209","post_time":"14:10","surface":"芝","distance":1800,"headcount":13,"class":"特別/OP","race_type":"定量","race_name":"かもめ島特別","cond_rage":"中","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":{"confidence":"上位ボックス","anchor":["2 マイスターヴェルク","4 アストリル","9 モンローウォーク"],"reason":"2と9は函館1800で連対または勝利、4も函館で現級勝ち。ただし3頭とも近く、堅い側でボックスの妙味は薄い。","market_divergence":null},"quadrant":"妙味なし・事前","score":0},
+    {"r":1,"race_id":"202607190201","post_time":"09:50","surface":"芝","distance":1200,"headcount":8,"class":"未勝利","race_type":"馬齢","race_name":"サラ系2歳未勝利","cond_rage":"弱","cond_flags":["函館開催","少頭数","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":2,"race_id":"202607190202","post_time":"10:20","surface":"ダ","distance":1000,"headcount":10,"class":"未勝利","race_type":"馬齢","race_name":"サラ系3歳未勝利","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":3,"race_id":"202607190203","post_time":"10:50","surface":"ダ","distance":1700,"headcount":14,"class":"未勝利","race_type":"馬齢","race_name":"サラ系3歳未勝利","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":4,"race_id":"202607190204","post_time":"11:20","surface":"芝","distance":2000,"headcount":13,"class":"未勝利","race_type":"馬齢","race_name":"サラ系3歳未勝利","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":5,"race_id":"202607190205","post_time":"12:10","surface":"芝","distance":1800,"headcount":14,"class":"新馬","race_type":"馬齢","race_name":"サラ系2歳新馬","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":6,"race_id":"202607190206","post_time":"12:40","surface":"芝","distance":1200,"headcount":16,"class":"未勝利","race_type":"馬齢","race_name":"サラ系3歳未勝利","cond_rage":"強","cond_flags":["函館開催","多頭数","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":7,"race_id":"202607190207","post_time":"13:10","surface":"ダ","distance":1700,"headcount":14,"class":"1勝クラス","race_type":"定量","race_name":"サラ系3歳上1勝クラス","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":8,"race_id":"202607190208","post_time":"13:40","surface":"ダ","distance":1000,"headcount":10,"class":"1勝クラス","race_type":"定量","race_name":"サラ系3歳上1勝クラス","cond_rage":"弱","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":10,"race_id":"202607190210","post_time":"14:45","surface":"ダ","distance":1700,"headcount":14,"class":"特別/OP","race_type":"定量","race_name":"駒場特別","cond_rage":"中","cond_flags":["函館開催"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":11,"race_id":"202607190211","post_time":"15:20","surface":"芝","distance":1200,"headcount":13,"class":"GⅢ","race_type":"馬齢","race_name":"函館２歳ステークス(ＧⅢ)","cond_rage":"中","cond_flags":["函館開催","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3},
+    {"r":12,"race_id":"202607190212","post_time":"16:05","surface":"芝","distance":1200,"headcount":14,"class":"1勝クラス","race_type":"定量","race_name":"サラ系3歳上1勝クラス","cond_rage":"中","cond_flags":["函館開催","芝短距離"],"dango_tier":null,"dango_signals":[],"x_axis":null,"quadrant":"見送り","score":-3}
+  ]
+}

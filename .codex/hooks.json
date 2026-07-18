@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/watasekoumei/development/keiba/keiba-think/.codex/hooks/terse-guard.sh'"
+          }
+        ]
+      }
+    ]
+  }
+}

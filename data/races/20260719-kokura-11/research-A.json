@@ -1,0 +1,151 @@
+{
+  "point": "A",
+  "mode": "seed_fallback",
+  "note": "観点fan-out停止に伴い、JRA公式出馬表seedの近走通過順・着順・距離・上がりから縮退作成。",
+  "horses": [
+    {
+      "no": 1,
+      "name": "ゼンダンハヤブサ",
+      "score": 0,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 2,
+      "name": "タガノアビー",
+      "score": 1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 3,
+      "name": "ナムラエイハブ",
+      "score": 1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 4,
+      "name": "コパノサントス",
+      "score": -1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 5,
+      "name": "エヒト",
+      "score": 0,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 6,
+      "name": "ガイアメンテ",
+      "score": 3,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 7,
+      "name": "トータルクラリティ",
+      "score": -2,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 8,
+      "name": "サフィラ",
+      "score": 0,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 9,
+      "name": "ジーティーアダマン",
+      "score": 2,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 10,
+      "name": "マイネルメモリー",
+      "score": 0,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 11,
+      "name": "カネフラ",
+      "score": -1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 12,
+      "name": "ケイズレーヴ",
+      "score": -2,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 13,
+      "name": "カエルム",
+      "score": -1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 14,
+      "name": "ウエストナウ",
+      "score": 2,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 15,
+      "name": "テーオーソラネル",
+      "score": -2,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 16,
+      "name": "ノーランサンライズ",
+      "score": -1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 17,
+      "name": "ジョバンニ",
+      "score": 3,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    },
+    {
+      "no": 18,
+      "name": "レーゼドラマ",
+      "score": 1,
+      "confidence": "low",
+      "pros": [],
+      "cons": []
+    }
+  ]
+}
